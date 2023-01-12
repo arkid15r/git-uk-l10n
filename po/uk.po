@@ -2370,7 +2370,7 @@ msgstr " (використовуйте опцію -u для відображен
 
 #: wt-status.c:1908
 msgid "No changes"
-msgstr "Зміни відсутні"
+msgstr "Немає змін"
 
 #: wt-status.c:1913
 #, c-format
@@ -2408,7 +2408,7 @@ msgstr ""
 #: wt-status.c:1933 wt-status.c:1939
 #, c-format
 msgid "nothing to commit\n"
-msgstr "нема що комітити\n"
+msgstr "нічого комітити\n"
 
 #: wt-status.c:1936
 #, c-format
