@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-01-06 09:45-0800\n"
-"PO-Revision-Date: 2023-01-10 18:24-0800\n"
+"PO-Revision-Date: 2023-01-11 19:05-0800\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -2375,7 +2375,9 @@ msgstr "Зміни відсутні"
 #: wt-status.c:1913
 #, c-format
 msgid "no changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
-msgstr "нічого не додано до коміту(скористайтеся “git add”)\n"
+msgstr ""
+"не додано жодних змін до коміту (використовуйте \"git add\" та/або \"git "
+"commit -a\")\n"
 
 #: wt-status.c:1917
 #, c-format
@@ -2388,8 +2390,8 @@ msgid ""
 "nothing added to commit but untracked files present (use \"git add\" to "
 "track)\n"
 msgstr ""
-"нічого не додано до коміту, але присутні неконтрольовані файли(скористайтеся "
-"“git add” щоб почати контролювати)\n"
+"нічого не додано до коміту, але присутні неконтрольовані файли "
+"(скористайтеся \"git add\" щоб почати контролювати)\n"
 
 #: wt-status.c:1925
 #, c-format
@@ -2400,7 +2402,7 @@ msgstr "нічого не додано до коміту, але присутн�
 #, c-format
 msgid "nothing to commit (create/copy files and use \"git add\" to track)\n"
 msgstr ""
-"нема що комітити (створіть/скопіюйте файли і скористайтеся “git add” для "
+"нема що комітити (створіть/скопіюйте файли та скористайтеся \"git add\" для "
 "контролювання)\n"
 
 #: wt-status.c:1933 wt-status.c:1939
@@ -2421,11 +2423,11 @@ msgstr "нема що комітити, робоче дерево чисте\n"
 
 #: wt-status.c:2046
 msgid "No commits yet on "
-msgstr "Поки що немає комітів на "
+msgstr "Наразі немає комітів на "
 
 #: wt-status.c:2050
 msgid "HEAD (no branch)"
-msgstr "HEAD (нема гілки)"
+msgstr "HEAD (немає гілки)"
 
 #: wt-status.c:2079
 msgid "gone"
