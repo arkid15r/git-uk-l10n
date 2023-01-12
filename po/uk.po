@@ -2366,7 +2366,7 @@ msgstr ""
 
 #: wt-status.c:1902
 msgid " (use -u option to show untracked files)"
-msgstr " (використовуйте опцію -u для відображення неконтрольваних файлів)"
+msgstr " (використовуйте опцію -u для відображення неконтрольованих файлів)"
 
 #: wt-status.c:1908
 msgid "No changes"
