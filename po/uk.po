@@ -140,7 +140,7 @@ msgstr "шлях '%s' не злитий"
 
 #: builtin/checkout.c:604 builtin/checkout.c:875 builtin/clone.c:730
 msgid "unable to write new index file"
-msgstr "не вдається записати новий файл індексу"
+msgstr "не вдалося записати новий файл індексу"
 
 #: builtin/checkout.c:768
 msgid "you need to resolve your current index first"
