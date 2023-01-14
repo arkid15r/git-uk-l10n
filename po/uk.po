@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-01-06 09:45-0800\n"
-"PO-Revision-Date: 2023-01-12 19:17-0800\n"
+"PO-Revision-Date: 2023-01-13 17:53-0800\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Generator: Poedit 3.2.2\n"
 
 #: builtin/checkout.c:34
@@ -102,9 +102,8 @@ msgstr "'%s' не можна використовувати зі шляхами 
 
 #: builtin/checkout.c:473 builtin/checkout.c:476 builtin/checkout.c:1676
 #: builtin/checkout.c:1786 builtin/checkout.c:1789 builtin/clone.c:940
-#: builtin/index-pack.c:1858 builtin/push.c:638 builtin/push.c:676
-#: builtin/push.c:682 builtin/push.c:687 builtin/reset.c:355
-#: builtin/reset.c:391
+#: builtin/index-pack.c:1858 builtin/push.c:638 builtin/push.c:676 builtin/push.c:682
+#: builtin/push.c:687 builtin/reset.c:355 builtin/reset.c:391
 #, c-format
 msgid "options '%s' and '%s' cannot be used together"
 msgstr "опції '%s' і '%s' не можна використовувати разом"
@@ -112,7 +111,7 @@ msgstr "опції '%s' і '%s' не можна використовувати �
 #: builtin/checkout.c:480
 #, c-format
 msgid "Cannot update paths and switch to branch '%s' at the same time."
-msgstr "Неможливо одночасно оновити шляхи та переключитися на гілку '%s'."
+msgstr "Неможливо одночасно оновити шляхи та переключитись на гілку '%s'."
 
 #: builtin/checkout.c:484
 #, c-format
@@ -144,7 +143,7 @@ msgstr "не вдалося записати новий файл індексу"
 
 #: builtin/checkout.c:768
 msgid "you need to resolve your current index first"
-msgstr ""
+msgstr "спочатку потрібно розібратися з вашим поточним індексом"
 
 #: builtin/checkout.c:785 builtin/clone.c:721
 #, c-format
@@ -163,7 +162,7 @@ msgstr ""
 #: builtin/checkout.c:912
 #, c-format
 msgid "Can not do reflog for '%s': %s\n"
-msgstr ""
+msgstr "Неможливо виконати reflog для '%s': %s\n"
 
 #: builtin/checkout.c:957
 msgid "HEAD is now at"
@@ -171,37 +170,37 @@ msgstr "HEAD зараз на"
 
 #: builtin/checkout.c:961 builtin/clone.c:622 builtin/clone.c:648
 msgid "unable to update HEAD"
-msgstr "неможливо оновити HEAD"
+msgstr "не вдалося оновити HEAD"
 
 #: builtin/checkout.c:965
 #, c-format
 msgid "Reset branch '%s'\n"
-msgstr ""
+msgstr "Скинути гілку '%s'\n"
 
 #: builtin/checkout.c:968
 #, c-format
 msgid "Already on '%s'\n"
-msgstr ""
+msgstr "Вже на '%s'\n"
 
 #: builtin/checkout.c:972
 #, c-format
 msgid "Switched to and reset branch '%s'\n"
-msgstr ""
+msgstr "Переключено на та скинуто гілку '%s'\n"
 
 #: builtin/checkout.c:974 builtin/checkout.c:1409
 #, c-format
 msgid "Switched to a new branch '%s'\n"
-msgstr ""
+msgstr "Переключено на нову гілку '%s'\n"
 
 #: builtin/checkout.c:976
 #, c-format
 msgid "Switched to branch '%s'\n"
-msgstr ""
+msgstr "Переключено на гілку '%s'\n"
 
 #: builtin/checkout.c:1027
 #, c-format
 msgid " ... and %d more.\n"
-msgstr ""
+msgstr " ... та ще %d.\n"
 
 #: builtin/checkout.c:1033
 #, c-format
@@ -216,8 +215,20 @@ msgid_plural ""
 "\n"
 "%s\n"
 msgstr[0] ""
+"Попередження: ви залишаєте позаду %d коміт, не підключений до\n"
+"жодної з ваших гілок:\n"
+"\n"
+"%s\n"
 msgstr[1] ""
+"Попередження: ви залишаєте позаду %d коміта, не підключеного до\n"
+"жодної з ваших гілок:\n"
+"\n"
+"%s\n"
 msgstr[2] ""
+"Попередження: ви залишаєте позаду %d комітів, не підключених до\n"
+"жодної з ваших гілок:\n"
+"\n"
+"%s\n"
 
 #: builtin/checkout.c:1052
 #, c-format
@@ -234,20 +245,32 @@ msgid_plural ""
 " git branch <new-branch-name> %s\n"
 "\n"
 msgstr[0] ""
+"Якщо ви хочете зберегти його, створивши нову гілку, то зараз є чудова нагода\n"
+"зробити це за допомогою:\n"
+"git branch <назва-нової-гілки> %s\n"
+"\n"
 msgstr[1] ""
+"Якщо ви хочете зберегти їх, створивши нову гілку, то зараз є чудова нагода\n"
+"зробити це за допомогою:\n"
+"git branch <назва-нової-гілки> %s\n"
+"\n"
 msgstr[2] ""
+"Якщо ви хочете зберегти їх, створивши нову гілку, то зараз є чудова нагода\n"
+"зробити це за допомогою:\n"
+"git branch <назва-нової-гілки> %s\n"
+"\n"
 
 #: builtin/checkout.c:1087
 msgid "internal error in revision walk"
-msgstr ""
+msgstr "внутрішня помилка при проходженні по ревізіям"
 
 #: builtin/checkout.c:1091
 msgid "Previous HEAD position was"
-msgstr ""
+msgstr "Попередня позиція HEAD була"
 
 #: builtin/checkout.c:1135 builtin/checkout.c:1404
 msgid "You are on a branch yet to be born"
-msgstr ""
+msgstr "Ви на гілці, яка ще не iснує"
 
 #: builtin/checkout.c:1217
 #, c-format
@@ -255,6 +278,8 @@ msgid ""
 "'%s' could be both a local file and a tracking branch.\n"
 "Please use -- (and optionally --no-guess) to disambiguate"
 msgstr ""
+"'%s' може бути як локальним файлом, так і гілкою відстеження.\n"
+"Будь ласка, використовуйте -- (і, за бажанням, --no-guess), для визначення"
 
 #: builtin/checkout.c:1224
 msgid ""
@@ -267,114 +292,134 @@ msgid ""
 "one remote, e.g. the 'origin' remote, consider setting\n"
 "checkout.defaultRemote=origin in your config."
 msgstr ""
+"Якщо ви хотіли переключитись на гілку віддаленого відстеження, наприклад, 'origin',\n"
+"ви можете зробити це, повністю вказавши назву з опцією --track:\n"
+"\n"
+"    git checkout --track origin/<назва>.\n"
+"\n"
+"Якщо при переключенні з неоднозначною <назвою> ви бажаєте завжди віддавати "
+"перевагу\n"
+"певному віддаленому сховищу, наприклад, 'origin', розгляньте можливість додання\n"
+"checkout.defaultRemote=origin до вашого конфігураційного файлу."
 
 #: builtin/checkout.c:1234
 #, c-format
 msgid "'%s' matched multiple (%d) remote tracking branches"
-msgstr ""
+msgstr "'%s' відповідає декільком (%d) гілкам віддаленого відстеження"
 
 #: builtin/checkout.c:1300
 msgid "only one reference expected"
-msgstr ""
+msgstr "очікувалося тільки одне посилання"
 
 #: builtin/checkout.c:1317
 #, c-format
 msgid "only one reference expected, %d given."
-msgstr ""
+msgstr "очікувалося тільки одне посилання, надано %d."
 
 #: builtin/checkout.c:1363
 #, c-format
 msgid "invalid reference: %s"
-msgstr ""
+msgstr "недійсне посилання: %s"
 
 #: builtin/checkout.c:1376 builtin/checkout.c:1757
 #, c-format
 msgid "reference is not a tree: %s"
-msgstr ""
+msgstr "посилання не є деревом: %s"
 
 #: builtin/checkout.c:1424
 #, c-format
 msgid "a branch is expected, got tag '%s'"
-msgstr ""
+msgstr "очікувалась гілка, надано тег '%s'"
 
 #: builtin/checkout.c:1426
 #, c-format
 msgid "a branch is expected, got remote branch '%s'"
-msgstr ""
+msgstr "очікувалась гілка, надана віддалена гілка '%s'"
 
 #: builtin/checkout.c:1428 builtin/checkout.c:1437
 #, c-format
 msgid "a branch is expected, got '%s'"
-msgstr ""
+msgstr "очікувалась гілка, надано '%s'"
 
 #: builtin/checkout.c:1431
 #, c-format
 msgid "a branch is expected, got commit '%s'"
-msgstr ""
+msgstr "очікувалась гілка, надано коміт '%s'"
 
 #: builtin/checkout.c:1440
 msgid ""
 "If you want to detach HEAD at the commit, try again with the --detach option."
 msgstr ""
+"Якщо ви хочете від'єднати HEAD на цьому коміті, спробуйте ще раз з опцією --detach."
 
 #: builtin/checkout.c:1453
 msgid ""
 "cannot switch branch while merging\n"
 "Consider \"git merge --quit\" or \"git worktree add\"."
 msgstr ""
+"не можу змінити гілку під час злиття\n"
+"Спробуйте \"git merge --quit\" або \"git worktree add\"."
 
 #: builtin/checkout.c:1457
 msgid ""
 "cannot switch branch in the middle of an am session\n"
 "Consider \"git am --quit\" or \"git worktree add\"."
 msgstr ""
+"не можу змінити гілку під час am сеансу\n"
+"Спробуйте \"git am --quit\" або \"git worktree add\"."
 
 #: builtin/checkout.c:1461
 msgid ""
 "cannot switch branch while rebasing\n"
 "Consider \"git rebase --quit\" or \"git worktree add\"."
 msgstr ""
+"не можу змінити гілку під час перебазування\n"
+"Спробуйте \"git rebase --quit\" або \"git worktree add\"."
 
 #: builtin/checkout.c:1465
 msgid ""
 "cannot switch branch while cherry-picking\n"
 "Consider \"git cherry-pick --quit\" or \"git worktree add\"."
 msgstr ""
+"не можу змінити гілку під час висмикування\n"
+"Спробуйте \"git cherry-pick --quit\" або \"git worktree add\"."
 
 #: builtin/checkout.c:1469
 msgid ""
 "cannot switch branch while reverting\n"
 "Consider \"git revert --quit\" or \"git worktree add\"."
 msgstr ""
+"не можу змінити гілку під час вивертання\n"
+"Спробуйте \"git revert --quit\" або \"git worktree add\"."
 
 #: builtin/checkout.c:1473
 msgid "you are switching branch while bisecting"
-msgstr ""
+msgstr "ви переключаєте гілку під час бісекції"
 
 #: builtin/checkout.c:1482
 msgid "paths cannot be used with switching branches"
-msgstr ""
+msgstr "шляхи не можуть використовуватися при переключенні гілок"
 
 #: builtin/checkout.c:1485 builtin/checkout.c:1489 builtin/checkout.c:1493
 #, c-format
 msgid "'%s' cannot be used with switching branches"
-msgstr ""
+msgstr "'%s' не може використовуватись при переключенні гілок"
 
 #: builtin/checkout.c:1497 builtin/checkout.c:1500 builtin/checkout.c:1503
 #: builtin/checkout.c:1508 builtin/checkout.c:1513
 #, c-format
 msgid "'%s' cannot be used with '%s'"
-msgstr ""
+msgstr "'%s' не може використовуватись з '%s'"
 
 #: builtin/checkout.c:1510
 #, c-format
 msgid "'%s' cannot take <start-point>"
-msgstr ""
+msgstr "'%s' не може прийняти <стартова-точка>"
 
 #: builtin/checkout.c:1518
 #, c-format
 msgid "Cannot switch branch to a non-commit '%s'"
-msgstr ""
+msgstr "Не можу переключити гілку на не коміт '%s'"
 
 #: builtin/checkout.c:1525
 msgid "missing branch or commit argument"
@@ -845,8 +890,7 @@ msgstr ""
 
 #: builtin/clone.c:945
 msgid ""
-"--bundle-uri is incompatible with --depth, --shallow-since, and --shallow-"
-"exclude"
+"--bundle-uri is incompatible with --depth, --shallow-since, and --shallow-exclude"
 msgstr ""
 
 #: builtin/clone.c:957
@@ -896,8 +940,7 @@ msgstr ""
 
 #: builtin/clone.c:1062
 msgid ""
-"clone --recursive is not compatible with both --reference and --reference-if-"
-"able"
+"clone --recursive is not compatible with both --reference and --reference-if-able"
 msgstr ""
 
 #: builtin/clone.c:1140
@@ -1240,8 +1283,8 @@ msgstr[2] ""
 msgid "Cannot come back to cwd"
 msgstr ""
 
-#: builtin/index-pack.c:1802 builtin/index-pack.c:1805
-#: builtin/index-pack.c:1825 builtin/index-pack.c:1829
+#: builtin/index-pack.c:1802 builtin/index-pack.c:1805 builtin/index-pack.c:1825
+#: builtin/index-pack.c:1829
 #, c-format
 msgid "bad %s"
 msgstr ""
@@ -1337,8 +1380,7 @@ msgid "The current branch %s has multiple upstream branches, refusing to push."
 msgstr ""
 
 #: builtin/push.c:243
-msgid ""
-"You didn't specify any refspecs to push, and push.default is \"nothing\"."
+msgid "You didn't specify any refspecs to push, and push.default is \"nothing\"."
 msgstr ""
 
 #: builtin/push.c:269
@@ -1405,8 +1447,7 @@ msgstr ""
 
 #: builtin/push.c:472
 msgid ""
-"recursing into submodule with push.recurseSubmodules=only; using on-demand "
-"instead"
+"recursing into submodule with push.recurseSubmodules=only; using on-demand instead"
 msgstr ""
 
 #: builtin/push.c:535
@@ -1506,8 +1547,8 @@ msgstr ""
 #: builtin/push.c:661
 msgid ""
 "No configured push destination.\n"
-"Either specify the URL from the command-line or configure a remote "
-"repository using\n"
+"Either specify the URL from the command-line or configure a remote repository "
+"using\n"
 "\n"
 "    git remote add <name> <url>\n"
 "\n"
@@ -1529,8 +1570,7 @@ msgid "push options must not have new line characters"
 msgstr ""
 
 #: builtin/reset.c:33
-msgid ""
-"git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]"
+msgid "git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]"
 msgstr ""
 
 #: builtin/reset.c:34
@@ -1538,8 +1578,7 @@ msgid "git reset [-q] [<tree-ish>] [--] <pathspec>..."
 msgstr ""
 
 #: builtin/reset.c:35
-msgid ""
-"git reset [-q] [--pathspec-from-file [--pathspec-file-nul]] [<tree-ish>]"
+msgid "git reset [-q] [--pathspec-from-file [--pathspec-file-nul]] [<tree-ish>]"
 msgstr ""
 
 #: builtin/reset.c:36
@@ -1889,8 +1928,7 @@ msgstr ""
 #: remote.c:2295
 #, c-format
 msgid "Your branch is behind '%s' by %d commit, and can be fast-forwarded.\n"
-msgid_plural ""
-"Your branch is behind '%s' by %d commits, and can be fast-forwarded.\n"
+msgid_plural "Your branch is behind '%s' by %d commits, and can be fast-forwarded.\n"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -1971,8 +2009,7 @@ msgid "  (use \"git add/rm <file>...\" to update what will be committed)"
 msgstr ""
 
 #: wt-status.c:243
-msgid ""
-"  (use \"git restore <file>...\" to discard changes in working directory)"
+msgid "  (use \"git restore <file>...\" to discard changes in working directory)"
 msgstr ""
 
 #: wt-status.c:245
@@ -2123,8 +2160,7 @@ msgid "  (use \"git am --skip\" to skip this patch)"
 msgstr ""
 
 #: wt-status.c:1257
-msgid ""
-"  (use \"git am --allow-empty\" to record this patch as an empty commit)"
+msgid "  (use \"git am --allow-empty\" to record this patch as an empty commit)"
 msgstr ""
 
 #: wt-status.c:1259
@@ -2195,8 +2231,7 @@ msgstr ""
 
 #: wt-status.c:1469
 #, c-format
-msgid ""
-"You are currently splitting a commit while rebasing branch '%s' on '%s'."
+msgid "You are currently splitting a commit while rebasing branch '%s' on '%s'."
 msgstr ""
 
 #: wt-status.c:1474
@@ -2221,8 +2256,7 @@ msgid "  (use \"git commit --amend\" to amend the current commit)"
 msgstr ""
 
 #: wt-status.c:1491
-msgid ""
-"  (use \"git rebase --continue\" once you are satisfied with your changes)"
+msgid "  (use \"git rebase --continue\" once you are satisfied with your changes)"
 msgstr ""
 
 #: wt-status.c:1502
@@ -2378,8 +2412,8 @@ msgstr "Немає змін"
 #, c-format
 msgid "no changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
 msgstr ""
-"не додано жодних змін до коміту (використовуйте \"git add\" та/або \"git "
-"commit -a\")\n"
+"не додано жодних змін до коміту (використовуйте \"git add\" та/або \"git commit -"
+"a\")\n"
 
 #: wt-status.c:1917
 #, c-format
@@ -2389,11 +2423,10 @@ msgstr "нічого не додано до коміту\n"
 #: wt-status.c:1921
 #, c-format
 msgid ""
-"nothing added to commit but untracked files present (use \"git add\" to "
-"track)\n"
+"nothing added to commit but untracked files present (use \"git add\" to track)\n"
 msgstr ""
-"нічого не додано до коміту, але присутні неконтрольовані файли "
-"(скористайтеся \"git add\" щоб почати контролювати)\n"
+"нічого не додано до коміту, але присутні неконтрольовані файли (скористайтеся "
+"\"git add\" щоб почати контролювати)\n"
 
 #: wt-status.c:1925
 #, c-format
@@ -2404,7 +2437,7 @@ msgstr "нічого не додано до коміту, але присутн�
 #, c-format
 msgid "nothing to commit (create/copy files and use \"git add\" to track)\n"
 msgstr ""
-"нема що комітити (створіть/скопіюйте файли та скористайтеся \"git add\" для "
+"нічого комітити (створіть/скопіюйте файли та скористайтеся \"git add\" для "
 "контролювання)\n"
 
 #: wt-status.c:1933 wt-status.c:1939
@@ -2415,13 +2448,12 @@ msgstr "нічого комітити\n"
 #: wt-status.c:1936
 #, c-format
 msgid "nothing to commit (use -u to show untracked files)\n"
-msgstr ""
-"нема що комітити (скористайтеся -u щоб подивитись неконтрольовані файли)\n"
+msgstr "нічого комітити (скористайтеся -u щоб подивитись неконтрольовані файли)\n"
 
 #: wt-status.c:1941
 #, c-format
 msgid "nothing to commit, working tree clean\n"
-msgstr "нема що комітити, робоче дерево чисте\n"
+msgstr "нічого комітити, робоче дерево чисте\n"
 
 #: wt-status.c:2046
 msgid "No commits yet on "
@@ -2433,11 +2465,11 @@ msgstr "HEAD (немає гілки)"
 
 #: wt-status.c:2079
 msgid "gone"
-msgstr ""
+msgstr "відсутнє"
 
 #: wt-status.c:2081
 msgid "different"
-msgstr ""
+msgstr "різниться"
 
 #: wt-status.c:2083 wt-status.c:2091
 msgid "behind "
