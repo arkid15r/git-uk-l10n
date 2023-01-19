@@ -357,7 +357,7 @@ msgid ""
 "cannot switch branch while merging\n"
 "Consider \"git merge --quit\" or \"git worktree add\"."
 msgstr ""
-"не можу змінити гілку під час злиття\n"
+"неможливо змінити гілку під час злиття\n"
 "Спробуйте \"git merge --quit\" або \"git worktree add\"."
 
 #: builtin/checkout.c:1457
@@ -365,7 +365,7 @@ msgid ""
 "cannot switch branch in the middle of an am session\n"
 "Consider \"git am --quit\" or \"git worktree add\"."
 msgstr ""
-"не можу змінити гілку під час am сеансу\n"
+"неможливо змінити гілку під час am сеансу\n"
 "Спробуйте \"git am --quit\" або \"git worktree add\"."
 
 #: builtin/checkout.c:1461
@@ -373,7 +373,7 @@ msgid ""
 "cannot switch branch while rebasing\n"
 "Consider \"git rebase --quit\" or \"git worktree add\"."
 msgstr ""
-"не можу змінити гілку під час перебазування\n"
+"неможливо змінити гілку під час перебазування\n"
 "Спробуйте \"git rebase --quit\" або \"git worktree add\"."
 
 #: builtin/checkout.c:1465
@@ -381,7 +381,7 @@ msgid ""
 "cannot switch branch while cherry-picking\n"
 "Consider \"git cherry-pick --quit\" or \"git worktree add\"."
 msgstr ""
-"не можу змінити гілку під час висмикування\n"
+"неможливо змінити гілку під час висмикування\n"
 "Спробуйте \"git cherry-pick --quit\" або \"git worktree add\"."
 
 #: builtin/checkout.c:1469
@@ -389,7 +389,7 @@ msgid ""
 "cannot switch branch while reverting\n"
 "Consider \"git revert --quit\" or \"git worktree add\"."
 msgstr ""
-"не можу змінити гілку під час вивертання\n"
+"неможливо змінити гілку під час вивертання\n"
 "Спробуйте \"git revert --quit\" або \"git worktree add\"."
 
 #: builtin/checkout.c:1473
@@ -419,7 +419,7 @@ msgstr "'%s' не може прийняти <стартова-точка>"
 #: builtin/checkout.c:1518
 #, c-format
 msgid "Cannot switch branch to a non-commit '%s'"
-msgstr "Не можу переключити гілку на не коміт '%s'"
+msgstr "Неможливо переключити гілку на не коміт '%s'"
 
 #: builtin/checkout.c:1525
 msgid "missing branch or commit argument"
