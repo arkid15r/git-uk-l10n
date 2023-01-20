@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-01-06 09:45-0800\n"
-"PO-Revision-Date: 2023-01-13 17:53-0800\n"
+"PO-Revision-Date: 2023-01-16 12:53-0800\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -58,7 +58,7 @@ msgstr "шлях '%s' не містить необхідних версій"
 #: builtin/checkout.c:292
 #, c-format
 msgid "path '%s': cannot merge"
-msgstr "шлях '%s’: неможливо злити"
+msgstr "шлях '%s': неможливо злити"
 
 #: builtin/checkout.c:308
 #, c-format
@@ -292,7 +292,8 @@ msgid ""
 "one remote, e.g. the 'origin' remote, consider setting\n"
 "checkout.defaultRemote=origin in your config."
 msgstr ""
-"Якщо ви хотіли переключитись на гілку віддаленого відстеження, наприклад, 'origin',\n"
+"Якщо ви хотіли переключитись на гілку віддаленого відстеження, наприклад, "
+"'origin',\n"
 "ви можете зробити це, повністю вказавши назву з опцією --track:\n"
 "\n"
 "    git checkout --track origin/<назва>.\n"
@@ -347,8 +348,7 @@ msgid "a branch is expected, got commit '%s'"
 msgstr "очікувалась гілка, надано коміт '%s'"
 
 #: builtin/checkout.c:1440
-msgid ""
-"If you want to detach HEAD at the commit, try again with the --detach option."
+msgid "If you want to detach HEAD at the commit, try again with the --detach option."
 msgstr ""
 "Якщо ви хочете від'єднати HEAD на цьому коміті, спробуйте ще раз з опцією --detach."
 
@@ -423,104 +423,104 @@ msgstr "Неможливо переключити гілку на не комі�
 
 #: builtin/checkout.c:1525
 msgid "missing branch or commit argument"
-msgstr ""
+msgstr "відсутня гілка або коміт"
 
 #: builtin/checkout.c:1563
 msgid "suppress progress reporting"
-msgstr ""
+msgstr "не звітувати прогрес"
 
 #: builtin/checkout.c:1567 builtin/clone.c:100 builtin/push.c:612
 msgid "force progress reporting"
-msgstr ""
+msgstr "примусово звітувати прогрес"
 
 #: builtin/checkout.c:1568
 msgid "perform a 3-way merge with the new branch"
-msgstr ""
+msgstr "здійснити 3-стороннє злиття з новою гілкою"
 
 #: builtin/checkout.c:1569
 msgid "style"
-msgstr ""
+msgstr "стиль"
 
 #: builtin/checkout.c:1570
 msgid "conflict style (merge, diff3, or zdiff3)"
-msgstr ""
+msgstr "конфлікт стилю (merge, diff3 або zdiff3)"
 
 #: builtin/checkout.c:1582
 msgid "detach HEAD at named commit"
-msgstr ""
+msgstr "від'єднати HEAD на вказаному коміті"
 
 #: builtin/checkout.c:1584
 msgid "set branch tracking configuration"
-msgstr ""
+msgstr "налаштувати конфігурацію гілок відстеження"
 
 #: builtin/checkout.c:1587
 msgid "force checkout (throw away local modifications)"
-msgstr ""
+msgstr "переключити примусово (викинути локальні зміни)"
 
 #: builtin/checkout.c:1589
 msgid "new-branch"
-msgstr ""
+msgstr "нова-гілка"
 
 #: builtin/checkout.c:1589
 msgid "new unparented branch"
-msgstr ""
+msgstr "нова гілка без джерела"
 
 #: builtin/checkout.c:1591
 msgid "update ignored files (default)"
-msgstr ""
+msgstr "оновити ігноровані файли (за замовчуванням)"
 
 #: builtin/checkout.c:1594
 msgid "do not check if another worktree is holding the given ref"
-msgstr ""
+msgstr "не перевіряти, чи інше робоче дерево містить дане посилання"
 
 #: builtin/checkout.c:1607
 msgid "checkout our version for unmerged files"
-msgstr ""
+msgstr "використовувати нашу версію для незлитих файлів"
 
 #: builtin/checkout.c:1610
 msgid "checkout their version for unmerged files"
-msgstr ""
+msgstr "використовувати їхню версію для незлитих файлів"
 
 #: builtin/checkout.c:1612 builtin/reset.c:339
 msgid "select hunks interactively"
-msgstr ""
+msgstr "обирати шматки інтерактивно"
 
 #: builtin/checkout.c:1614
 msgid "do not limit pathspecs to sparse entries only"
-msgstr ""
+msgstr "не обмежувати специфікації шляхів лише розрідженими записами"
 
 #: builtin/checkout.c:1672
 #, c-format
 msgid "options '-%c', '-%c', and '%s' cannot be used together"
-msgstr ""
+msgstr "опції '-%c', '-%c' та '%s' не можуть використовуватися разом"
 
 #: builtin/checkout.c:1713
 msgid "--track needs a branch name"
-msgstr ""
+msgstr "--track потребує назви гілки"
 
 #: builtin/checkout.c:1718
 #, c-format
 msgid "missing branch name; try -%c"
-msgstr ""
+msgstr "відсутня назва гілки; спробуйте -%c"
 
 #: builtin/checkout.c:1750
 #, c-format
 msgid "could not resolve %s"
-msgstr ""
+msgstr "не вдалося вирішити %s"
 
 #: builtin/checkout.c:1766
 msgid "invalid path specification"
-msgstr ""
+msgstr "недійсне зазначення шляху"
 
 #: builtin/checkout.c:1773
 #, c-format
 msgid "'%s' is not a commit and a branch '%s' cannot be created from it"
-msgstr ""
+msgstr "'%s' не є комітом, і з нього не можна створити гілку '%s'"
 
 #: builtin/checkout.c:1777
 #, c-format
 msgid "git checkout: --detach does not take a path argument '%s'"
-msgstr ""
+msgstr "git checkout: --detach не приймає аргумент шляху '%s'"
 
 #: builtin/checkout.c:1783 builtin/reset.c:358
 #, c-format
