@@ -2307,7 +2307,7 @@ msgstr "  (виконайте \"git revert --continue\", щоб продовжи
 
 #: wt-status.c:1547
 msgid "  (all conflicts fixed: run \"git revert --continue\")"
-msgstr "  (всі конфлікти виправлено: виконайте \"git revert —continue\")"
+msgstr "  (усі конфлікти виправлено: виконайте \"git revert —continue\")"
 
 #: wt-status.c:1549
 msgid "  (use \"git revert --skip\" to skip this patch)"
@@ -2353,11 +2353,11 @@ msgstr "перебазовування в процесі; на "
 
 #: wt-status.c:1843
 msgid "HEAD detached at "
-msgstr "HEAD відʼєднано на"
+msgstr "HEAD від'єднано на"
 
 #: wt-status.c:1845
 msgid "HEAD detached from "
-msgstr "HEAD відʼєднано від "
+msgstr "HEAD від'єднано від "
 
 #: wt-status.c:1848
 msgid "Not currently on any branch."
@@ -2395,7 +2395,7 @@ msgstr "На перерахування неконтрольованих фай�
 
 #: wt-status.c:1896
 msgid "See 'git help status' for information on how to improve this."
-msgstr "Дивіться \"git help status\" для інформаціі з того, як це покращити."
+msgstr "Дивіться 'git help status' для інформаціі з того, як це покращити."
 
 #: wt-status.c:1900
 #, c-format
