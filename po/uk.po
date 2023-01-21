@@ -538,7 +538,7 @@ msgid ""
 "git checkout: --ours/--theirs, --force and --merge are incompatible when\n"
 "checking out of the index."
 msgstr ""
-"git checkout: --our/--their, --force та --merge несумісні при\n"
+"git checkout: --ours/--theirs, --force та --merge несумісні при\n"
 "при прееключенні індексу."
 
 #: builtin/checkout.c:1807
