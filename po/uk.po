@@ -2301,23 +2301,23 @@ msgstr ""
 
 #: wt-status.c:1541
 msgid "  (fix conflicts and run \"git revert --continue\")"
-msgstr ""
+msgstr "  (виправте конфлікти і виконайте \"git revert —continue\")"
 
 #: wt-status.c:1544
 msgid "  (run \"git revert --continue\" to continue)"
-msgstr ""
+msgstr "  (виконайте \"git revert --continue\", щоб продовжити)"
 
 #: wt-status.c:1547
 msgid "  (all conflicts fixed: run \"git revert --continue\")"
-msgstr ""
+msgstr "  (усі конфлікти виправлено: виконайте \"git revert —continue\")"
 
 #: wt-status.c:1549
 msgid "  (use \"git revert --skip\" to skip this patch)"
-msgstr ""
+msgstr "  (використовуйте \"git revert --skip\", щоб пропустити цей патч)"
 
 #: wt-status.c:1551
 msgid "  (use \"git revert --abort\" to cancel the revert operation)"
-msgstr ""
+msgstr "  (використовуйте \"git revert —abort\", щоб скасувати операцію повернення)"
 
 #: wt-status.c:1561
 #, c-format
@@ -2330,7 +2330,7 @@ msgstr ""
 
 #: wt-status.c:1568
 msgid "  (use \"git bisect reset\" to get back to the original branch)"
-msgstr ""
+msgstr "  (використовуйте \"git bisect reset\", щоб повернутися до початкової гілки)"
 
 #: wt-status.c:1579
 msgid "You are in a sparse checkout."
@@ -2343,43 +2343,43 @@ msgstr ""
 
 #: wt-status.c:1829
 msgid "On branch "
-msgstr ""
+msgstr "На гілці "
 
 #: wt-status.c:1836
 msgid "interactive rebase in progress; onto "
-msgstr ""
+msgstr "інтерактивне перебазовування в процесі; на "
 
 #: wt-status.c:1838
 msgid "rebase in progress; onto "
-msgstr ""
+msgstr "перебазовування в процесі; на "
 
 #: wt-status.c:1843
 msgid "HEAD detached at "
-msgstr ""
+msgstr "HEAD від'єднано на"
 
 #: wt-status.c:1845
 msgid "HEAD detached from "
-msgstr ""
+msgstr "HEAD від'єднано від "
 
 #: wt-status.c:1848
 msgid "Not currently on any branch."
-msgstr ""
+msgstr "Наразі не знаходитесь в жодній гілці."
 
 #: wt-status.c:1865
 msgid "Initial commit"
-msgstr ""
+msgstr "Початковий коміт"
 
 #: wt-status.c:1866
 msgid "No commits yet"
-msgstr ""
+msgstr "Поки що немає комітів"
 
 #: wt-status.c:1880
 msgid "Untracked files"
-msgstr ""
+msgstr "Неконтрольовані файли"
 
 #: wt-status.c:1882
 msgid "Ignored files"
-msgstr ""
+msgstr "Ігноровані файли"
 
 #: wt-status.c:1887
 #, c-format
@@ -2387,20 +2387,22 @@ msgid ""
 "It took %.2f seconds to enumerate untracked files,\n"
 "but the results were cached, and subsequent runs may be faster."
 msgstr ""
+"На перерахування неконтрольованих файлів пішло %.2f секунд,\n"
+"але результат було додано у кеш, тому наступні запуски можуть бути швидшими."
 
 #: wt-status.c:1892
 #, c-format
 msgid "It took %.2f seconds to enumerate untracked files."
-msgstr ""
+msgstr "На перерахування неконтрольованих файлів пішло %.2f секунд."
 
 #: wt-status.c:1896
 msgid "See 'git help status' for information on how to improve this."
-msgstr ""
+msgstr "Дивіться 'git help status' для інформаціі з того, як це покращити."
 
 #: wt-status.c:1900
 #, c-format
 msgid "Untracked files not listed%s"
-msgstr ""
+msgstr "Некотрольовані файли не вказано%s"
 
 #: wt-status.c:1902
 msgid " (use -u option to show untracked files)"
