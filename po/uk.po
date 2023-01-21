@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-01-06 09:45-0800\n"
-"PO-Revision-Date: 2023-01-19 20:00-0800\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-01-20 17:40-0800\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -467,7 +467,7 @@ msgstr "нова гілка без джерела"
 
 #: builtin/checkout.c:1591
 msgid "update ignored files (default)"
-msgstr "оновити ігноровані файли (за замовчуванням)"
+msgstr "оновити ігноровані файли (типово)"
 
 #: builtin/checkout.c:1594
 msgid "do not check if another worktree is holding the given ref"
@@ -525,64 +525,66 @@ msgstr "git checkout: --detach не приймає аргумент шляху '
 #: builtin/checkout.c:1783 builtin/reset.c:358
 #, c-format
 msgid "'%s' and pathspec arguments cannot be used together"
-msgstr ""
+msgstr "'%s' та аргументи pathspec не можна використовувати разом"
 
 #: builtin/checkout.c:1795 builtin/clone.c:1121 builtin/clone.c:1124
 #: builtin/index-pack.c:1854 builtin/reset.c:364 builtin/reset.c:422
 #, c-format
 msgid "the option '%s' requires '%s'"
-msgstr ""
+msgstr "опція '%s' вимагає '%s'"
 
 #: builtin/checkout.c:1802
 msgid ""
 "git checkout: --ours/--theirs, --force and --merge are incompatible when\n"
 "checking out of the index."
 msgstr ""
+"git checkout: --ours/--theirs, --force та --merge несумісні при\n"
+"при прееключенні індексу."
 
 #: builtin/checkout.c:1807
 msgid "you must specify path(s) to restore"
-msgstr ""
+msgstr "необхідно вказати шлях(и) для відновлення"
 
 #: builtin/checkout.c:1832 builtin/checkout.c:1834 builtin/checkout.c:1886
 #: builtin/checkout.c:1888 builtin/clone.c:132
 msgid "branch"
-msgstr ""
+msgstr "гілка"
 
 #: builtin/checkout.c:1833
 msgid "create and checkout a new branch"
-msgstr ""
+msgstr "створити та перейти до нової гілки"
 
 #: builtin/checkout.c:1835
 msgid "create/reset and checkout a branch"
-msgstr ""
+msgstr "створити/скинути та перейти до нової гілки"
 
 #: builtin/checkout.c:1836
 msgid "create reflog for new branch"
-msgstr ""
+msgstr "створити reflog для нової гілки"
 
 #: builtin/checkout.c:1838
 msgid "second guess 'git checkout <no-such-branch>' (default)"
-msgstr ""
+msgstr "друга здогадка 'git checkout <гілка-не-існує>' (типово)"
 
 #: builtin/checkout.c:1839
 msgid "use overlay mode (default)"
-msgstr ""
+msgstr "використовувати режим накладення (типово)"
 
 #: builtin/checkout.c:1887
 msgid "create and switch to a new branch"
-msgstr ""
+msgstr "створити та переключити на нову гілку"
 
 #: builtin/checkout.c:1889
 msgid "create/reset and switch to a branch"
-msgstr ""
+msgstr "створити/скинути та переключити на гілку"
 
 #: builtin/checkout.c:1891
 msgid "second guess 'git switch <no-such-branch>'"
-msgstr ""
+msgstr "друга здогадка 'git switch <гілка-не-існує>' (типово)"
 
 #: builtin/checkout.c:1893
 msgid "throw away local modifications"
-msgstr ""
+msgstr "викинути локальні зміни"
 
 #: builtin/checkout.c:1929
 msgid "which tree-ish to checkout from"
@@ -590,19 +592,19 @@ msgstr ""
 
 #: builtin/checkout.c:1931
 msgid "restore the index"
-msgstr ""
+msgstr "відновити індекс"
 
 #: builtin/checkout.c:1933
 msgid "restore the working tree (default)"
-msgstr ""
+msgstr "відновити робоче дерево (типово)"
 
 #: builtin/checkout.c:1935
 msgid "ignore unmerged entries"
-msgstr ""
+msgstr "ігнорувати незлиті записи"
 
 #: builtin/checkout.c:1936
 msgid "use overlay mode"
-msgstr ""
+msgstr "використовувати режим накладення"
 
 #: builtin/clone.c:48
 msgid "git clone [<options>] [--] <repo> [<dir>]"
