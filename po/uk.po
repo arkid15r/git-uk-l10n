@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-01-06 09:45-0800\n"
-"PO-Revision-Date: 2023-01-20 17:40-0800\n"
+"PO-Revision-Date: 2023-01-22 12:57-0800\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -143,7 +143,7 @@ msgstr "не вдалося записати новий файл індексу"
 
 #: builtin/checkout.c:768
 msgid "you need to resolve your current index first"
-msgstr "спочатку потрібно розібратися з вашим поточним індексом"
+msgstr "спочатку потрібно розібратись з вашим поточним індексом"
 
 #: builtin/checkout.c:785 builtin/clone.c:721
 #, c-format
@@ -310,12 +310,12 @@ msgstr "'%s' відповідає декільком (%d) гілкам відд�
 
 #: builtin/checkout.c:1300
 msgid "only one reference expected"
-msgstr "очікувалося тільки одне посилання"
+msgstr "очікувалось тільки одне посилання"
 
 #: builtin/checkout.c:1317
 #, c-format
 msgid "only one reference expected, %d given."
-msgstr "очікувалося тільки одне посилання, надано %d."
+msgstr "очікувалось тільки одне посилання, надано %d."
 
 #: builtin/checkout.c:1363
 #, c-format
@@ -398,7 +398,7 @@ msgstr "ви переключаєте гілку під час бісекції"
 
 #: builtin/checkout.c:1482
 msgid "paths cannot be used with switching branches"
-msgstr "шляхи не можуть використовуватися при переключенні гілок"
+msgstr "шляхи не можуть використовуватись при переключенні гілок"
 
 #: builtin/checkout.c:1485 builtin/checkout.c:1489 builtin/checkout.c:1493
 #, c-format
@@ -492,7 +492,7 @@ msgstr "не обмежувати специфікації шляхів лише
 #: builtin/checkout.c:1672
 #, c-format
 msgid "options '-%c', '-%c', and '%s' cannot be used together"
-msgstr "опції '-%c', '-%c' та '%s' не можуть використовуватися разом"
+msgstr "опції '-%c', '-%c' та '%s' не можуть використовуватись разом"
 
 #: builtin/checkout.c:1713
 msgid "--track needs a branch name"
@@ -525,7 +525,7 @@ msgstr "git checkout: --detach не приймає аргумент шляху '
 #: builtin/checkout.c:1783 builtin/reset.c:358
 #, c-format
 msgid "'%s' and pathspec arguments cannot be used together"
-msgstr "'%s' та аргументи pathspec не можна використовувати разом"
+msgstr "'%s' та аргументи специфікації шляху не можна використовувати разом"
 
 #: builtin/checkout.c:1795 builtin/clone.c:1121 builtin/clone.c:1124
 #: builtin/index-pack.c:1854 builtin/reset.c:364 builtin/reset.c:422
@@ -588,7 +588,7 @@ msgstr "викинути локальні зміни"
 
 #: builtin/checkout.c:1929
 msgid "which tree-ish to checkout from"
-msgstr ""
+msgstr "з якого деревоподібного джерела створювати"
 
 #: builtin/checkout.c:1931
 msgid "restore the index"
@@ -608,155 +608,156 @@ msgstr "використовувати режим накладення"
 
 #: builtin/clone.c:48
 msgid "git clone [<options>] [--] <repo> [<dir>]"
-msgstr ""
+msgstr "git clone [<опції>] [--] <репозиторій> [<директорія>]"
 
 #: builtin/clone.c:102
 msgid "don't clone shallow repository"
-msgstr ""
+msgstr "не клонувати неглибокий репозиторій"
 
 #: builtin/clone.c:104
 msgid "don't create a checkout"
-msgstr ""
+msgstr "не переходити до гілки"
 
 #: builtin/clone.c:105 builtin/clone.c:107
 msgid "create a bare repository"
-msgstr ""
+msgstr "створити порожній репозиторій"
 
 #: builtin/clone.c:109
 msgid "create a mirror repository (implies bare)"
-msgstr ""
+msgstr "створити дзеркальний репозиторій (включає опцію bare)"
 
 #: builtin/clone.c:111
 msgid "to clone from a local repository"
-msgstr ""
+msgstr "клонувати з локального репозиторія"
 
 #: builtin/clone.c:113
 msgid "don't use local hardlinks, always copy"
-msgstr ""
+msgstr "не використовувати локальні жорсткі посилання, завжди копіювати"
 
 #: builtin/clone.c:115
 msgid "setup as shared repository"
-msgstr ""
+msgstr "налаштувати як спільний репозиторій"
 
 #: builtin/clone.c:117
 msgid "pathspec"
-msgstr ""
+msgstr "специфікація шляху"
 
 #: builtin/clone.c:117
 msgid "initialize submodules in the clone"
-msgstr ""
+msgstr "ініціалізувати підмодулі в клоні"
 
 #: builtin/clone.c:121
 msgid "number of submodules cloned in parallel"
-msgstr ""
+msgstr "кількість підмодулів, що клонуються паралельно"
 
 #: builtin/clone.c:122
 msgid "template-directory"
-msgstr ""
+msgstr "директорія-шаблонів"
 
 #: builtin/clone.c:123
 msgid "directory from which templates will be used"
-msgstr ""
+msgstr "директорія, з якої брати шаблони"
 
 #: builtin/clone.c:124 builtin/clone.c:127
 msgid "repo"
-msgstr ""
+msgstr "репо"
 
 #: builtin/clone.c:125 builtin/clone.c:127
 msgid "reference repository"
-msgstr ""
+msgstr "посилання на репозиторій"
 
 #: builtin/clone.c:129
 msgid "use --reference only while cloning"
-msgstr ""
+msgstr "використовуйте --reference тільки під час клонування"
 
 #: builtin/clone.c:130
 msgid "name"
-msgstr ""
+msgstr "ім'я"
 
 #: builtin/clone.c:131
 msgid "use <name> instead of 'origin' to track upstream"
 msgstr ""
+"використовуйте <ім'я> замість 'origin' для відстеження репозиторію рівнем вище"
 
 #: builtin/clone.c:133
 msgid "checkout <branch> instead of the remote's HEAD"
-msgstr ""
+msgstr "перейти до <гілки> замість HEAD віддаленого репозиторія"
 
 #: builtin/clone.c:134
 msgid "path"
-msgstr ""
+msgstr "шлях"
 
 #: builtin/clone.c:135
 msgid "path to git-upload-pack on the remote"
-msgstr ""
+msgstr "шлях до git-upload-pack на віддаленому сервері"
 
 #: builtin/clone.c:136
 msgid "depth"
-msgstr ""
+msgstr "глибина"
 
 #: builtin/clone.c:137
 msgid "create a shallow clone of that depth"
-msgstr ""
+msgstr "створити поверхневий клон вказаної глибини"
 
 #: builtin/clone.c:138
 msgid "time"
-msgstr ""
+msgstr "час"
 
 #: builtin/clone.c:139
 msgid "create a shallow clone since a specific time"
-msgstr ""
+msgstr "створити поверхневий клон з певного часу"
 
 #: builtin/clone.c:140
 msgid "revision"
-msgstr ""
+msgstr "ревізія"
 
 #: builtin/clone.c:141
 msgid "deepen history of shallow clone, excluding rev"
-msgstr ""
+msgstr "поглибити історію поверхневого клону, виключаючи rev"
 
 #: builtin/clone.c:143
 msgid "clone only one branch, HEAD or --branch"
-msgstr ""
+msgstr "клонувати лише одну гілку, HEAD або --branch"
 
 #: builtin/clone.c:145
 msgid "don't clone any tags, and make later fetches not to follow them"
-msgstr ""
+msgstr "не клонувати жодних тегів і не слідувати за ними під час отримувань пізніше"
 
 #: builtin/clone.c:147
 msgid "any cloned submodules will be shallow"
-msgstr ""
+msgstr "будь-які клоновані підмодулі будуть поверхневими"
 
 #: builtin/clone.c:148
 msgid "gitdir"
-msgstr ""
+msgstr "git-директорія"
 
 #: builtin/clone.c:149
 msgid "separate git dir from working tree"
-msgstr ""
+msgstr "відокремити git-директорію від робочого дерева"
 
 #: builtin/clone.c:150
 msgid "key=value"
-msgstr ""
+msgstr "ключ=значення"
 
 #: builtin/clone.c:151
 msgid "set config inside the new repository"
-msgstr ""
+msgstr "встановити конфіг всередині нового репозиторія"
 
 #: builtin/clone.c:153 builtin/push.c:621
 msgid "server-specific"
-msgstr ""
+msgstr "тільки для сервера"
 
 #: builtin/clone.c:153 builtin/push.c:621
 msgid "option to transmit"
-msgstr ""
+msgstr "опція для передачі"
 
 #: builtin/clone.c:154 builtin/push.c:622
 msgid "use IPv4 addresses only"
-msgstr ""
+msgstr "використовувати тільки IPv4 адреси"
 
 #: builtin/clone.c:156 builtin/push.c:624
 msgid "use IPv6 addresses only"
-msgstr ""
+msgstr "використовувати тільки IPv6 адреси"
 
 #: builtin/clone.c:160
 msgid "apply partial clone filters to submodules"
@@ -2322,24 +2323,24 @@ msgstr "  (використовуйте \"git revert —abort\", щоб скас
 #: wt-status.c:1561
 #, c-format
 msgid "You are currently bisecting, started from branch '%s'."
-msgstr ""
+msgstr "Наразі ви робите бісекцію, починаючи з гілки '%s'."
 
 #: wt-status.c:1565
 msgid "You are currently bisecting."
-msgstr ""
+msgstr "Наразі ви робите бісекцію."
 
 #: wt-status.c:1568
 msgid "  (use \"git bisect reset\" to get back to the original branch)"
-msgstr "  (використовуйте \"git bisect reset\", щоб повернутися до початкової гілки)"
+msgstr "  (використовуйте \"git bisect reset\", щоб повернутись до початкової гілки)"
 
 #: wt-status.c:1579
 msgid "You are in a sparse checkout."
-msgstr ""
+msgstr "Ви перебуваєте в частковому переході до гілки."
 
 #: wt-status.c:1582
 #, c-format
 msgid "You are in a sparse checkout with %d%% of tracked files present."
-msgstr ""
+msgstr "Ви перебуваєте в частковому переході до гілки з %d%% відстежуваних файлів."
 
 #: wt-status.c:1829
 msgid "On branch "
@@ -2355,7 +2356,7 @@ msgstr "перебазовування в процесі; на "
 
 #: wt-status.c:1843
 msgid "HEAD detached at "
-msgstr "HEAD від'єднано на"
+msgstr "HEAD від'єднано на "
 
 #: wt-status.c:1845
 msgid "HEAD detached from "
@@ -2429,7 +2430,7 @@ msgstr "нічого не додано до коміту\n"
 msgid ""
 "nothing added to commit but untracked files present (use \"git add\" to track)\n"
 msgstr ""
-"нічого не додано до коміту, але присутні неконтрольовані файли (скористайтеся "
+"нічого не додано до коміту, але присутні неконтрольовані файли (скористайтесь "
 "\"git add\" щоб почати контролювати)\n"
 
 #: wt-status.c:1925
@@ -2441,7 +2442,7 @@ msgstr "нічого не додано до коміту, але присутн�
 #, c-format
 msgid "nothing to commit (create/copy files and use \"git add\" to track)\n"
 msgstr ""
-"нічого комітити (створіть/скопіюйте файли та скористайтеся \"git add\" для "
+"нічого комітити (створіть/скопіюйте файли та скористайтесь \"git add\" для "
 "контролювання)\n"
 
 #: wt-status.c:1933 wt-status.c:1939
@@ -2452,7 +2453,7 @@ msgstr "нічого комітити\n"
 #: wt-status.c:1936
 #, c-format
 msgid "nothing to commit (use -u to show untracked files)\n"
-msgstr "нічого комітити (скористайтеся -u щоб подивитись неконтрольовані файли)\n"
+msgstr "нічого комітити (скористайтесь -u щоб подивитись неконтрольовані файли)\n"
 
 #: wt-status.c:1941
 #, c-format
