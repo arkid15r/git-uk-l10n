@@ -713,7 +713,7 @@ msgstr "ревізія"
 
 #: builtin/clone.c:141
 msgid "deepen history of shallow clone, excluding rev"
-msgstr "поглибити історію поверхневого клону, виключаючи rev"
+msgstr "поглибити історію поверхневого клону, за винятком rev"
 
 #: builtin/clone.c:143
 msgid "clone only one branch, HEAD or --branch"
