@@ -741,7 +741,7 @@ msgstr "ключ=значення"
 
 #: builtin/clone.c:151
 msgid "set config inside the new repository"
-msgstr "встановити конфіг всередині нового репозиторія"
+msgstr "встановити конфігурацію всередині нового репозиторія"
 
 #: builtin/clone.c:153 builtin/push.c:621
 msgid "server-specific"
