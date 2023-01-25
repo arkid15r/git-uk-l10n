@@ -2232,7 +2232,7 @@ msgstr ""
 
 #: wt-status.c:1465
 msgid "  (all conflicts fixed: run \"git rebase --continue\")"
-msgstr "  (всі конфлікти виправлено: виконайте \"git rebase -—continue\")"
+msgstr "  (усі конфлікти виправлено: виконайте \"git rebase -—continue\")"
 
 #: wt-status.c:1469
 #, c-format
