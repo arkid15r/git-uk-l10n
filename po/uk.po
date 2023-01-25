@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-01-06 09:45-0800\n"
-"PO-Revision-Date: 2023-01-22 12:57-0800\n"
+"PO-Revision-Date: 2023-01-24 21:54-0800\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -761,78 +761,80 @@ msgstr "використовувати тільки IPv6 адреси"
 
 #: builtin/clone.c:160
 msgid "apply partial clone filters to submodules"
-msgstr ""
+msgstr "застосувати часткові фільтри клонів до підмодулів"
 
 #: builtin/clone.c:162
 msgid "any cloned submodules will use their remote-tracking branch"
 msgstr ""
+"будь-які клоновані підмодулі будуть використовувати свою гілку віддаленого "
+"відстеження"
 
 #: builtin/clone.c:164
 msgid "initialize sparse-checkout file to include only files at root"
-msgstr ""
+msgstr "ініціалізувати, щоб файл sparse-checkout включав лише файли в корені"
 
 #: builtin/clone.c:166
 msgid "uri"
-msgstr ""
+msgstr "uri"
 
 #: builtin/clone.c:166
 msgid "a URI for downloading bundles before fetching from origin remote"
-msgstr ""
+msgstr "URI для завантаження пакунків перед отриманням з віддаленого джерела"
 
 #: builtin/clone.c:241
 #, c-format
 msgid "info: Could not add alternate for '%s': %s\n"
-msgstr ""
+msgstr "инфо: Не вдалося додати альтернативу для '%s': %s\n"
 
 #: builtin/clone.c:310
 #, c-format
 msgid "failed to create directory '%s'"
-msgstr ""
+msgstr "не вдалося створити директорію '%s'"
 
 #: builtin/clone.c:312
 #, c-format
 msgid "failed to stat '%s'"
-msgstr ""
+msgstr "не вдалося виконати stat '%s'"
 
 #: builtin/clone.c:314
 #, c-format
 msgid "%s exists and is not a directory"
-msgstr ""
+msgstr "%s існує і не є директорією"
 
 #: builtin/clone.c:330
 #, c-format
 msgid "failed to start iterator over '%s'"
-msgstr ""
+msgstr "не вдалося запустити перебір для '%s'"
 
 #: builtin/clone.c:344
 #, c-format
 msgid "symlink '%s' exists, refusing to clone with --local"
-msgstr ""
+msgstr "символічне посилання '%s' існує, не можу клонувати з --local"
 
 #: builtin/clone.c:359
 #, c-format
 msgid "failed to unlink '%s'"
-msgstr ""
+msgstr "не вдалося роз'єднати '%s'"
 
 #: builtin/clone.c:365
 #, c-format
 msgid "failed to create link '%s'"
-msgstr ""
+msgstr "не вдалося створити посилання '%s'"
 
 #: builtin/clone.c:369
 #, c-format
 msgid "failed to copy file to '%s'"
-msgstr ""
+msgstr "не вдалося скопіювати файл у '%s'"
 
 #: builtin/clone.c:374
 #, c-format
 msgid "failed to iterate over '%s'"
-msgstr ""
+msgstr "не вдалося перебрати '%s'"
 
 #: builtin/clone.c:401
 #, c-format
 msgid "done.\n"
-msgstr ""
+msgstr "готово.\n"
 
 #: builtin/clone.c:415
 msgid ""
