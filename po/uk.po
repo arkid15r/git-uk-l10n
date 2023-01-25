@@ -2285,7 +2285,7 @@ msgstr "  (виконайте \"git cherry-pick —continue\", щоб продо
 
 #: wt-status.c:1518
 msgid "  (all conflicts fixed: run \"git cherry-pick --continue\")"
-msgstr "  (всі конфлікти виправлено: виконайте \"git cherry-pick —-continue\")"
+msgstr "  (усі конфлікти виправлено: виконайте \"git cherry-pick —-continue\")"
 
 #: wt-status.c:1520
 msgid "  (use \"git cherry-pick --skip\" to skip this patch)"
