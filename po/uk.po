@@ -2289,7 +2289,7 @@ msgstr "  (усі конфлікти виправлено: виконайте \"
 
 #: wt-status.c:1520
 msgid "  (use \"git cherry-pick --skip\" to skip this patch)"
-msgstr "  (скористайтесь командою \"git cherry-pick —-skip\" щоб пропустити цей патч)"
+msgstr "  (скористайтесь командою \"git cherry-pick —-skip\", щоб пропустити цей патч)"
 
 #: wt-status.c:1522
 msgid "  (use \"git cherry-pick --abort\" to cancel the cherry-pick operation)"
