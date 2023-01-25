@@ -2303,7 +2303,7 @@ msgstr "Наразі виконується операція вивертанн�
 #: wt-status.c:1535
 #, c-format
 msgid "You are currently reverting commit %s."
-msgstr "Наразі ви повертаєте коміт %s."
+msgstr "Наразі ви вивертаєте коміт %s."
 
 #: wt-status.c:1541
 msgid "  (fix conflicts and run \"git revert --continue\")"
