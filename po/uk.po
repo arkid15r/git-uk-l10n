@@ -2242,7 +2242,7 @@ msgstr ""
 
 #: wt-status.c:1474
 msgid "You are currently splitting a commit during a rebase."
-msgstr "Наразі виконується розділення коміту під час перебазування."
+msgstr "Ви розбиваєте коміт під час перебазування."
 
 #: wt-status.c:1477
 msgid "  (Once your working directory is clean, run \"git rebase --continue\")"
