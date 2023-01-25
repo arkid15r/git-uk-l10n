@@ -2264,8 +2264,7 @@ msgstr "  (використовуйте \"git commit -—amend\" для внес
 #: wt-status.c:1491
 msgid "  (use \"git rebase --continue\" once you are satisfied with your changes)"
 msgstr ""
-"  (коли ви будете задоволені своїми змінами, скористайтесь командою \"git rebase —"
-"-continue\")"
+"  (скористайтесь командою \"git rebase --continue\", коли ви будете задоволені своїми змінами)"
 
 #: wt-status.c:1502
 msgid "Cherry-pick currently in progress."
