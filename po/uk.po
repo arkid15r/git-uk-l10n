@@ -2298,7 +2298,7 @@ msgstr ""
 
 #: wt-status.c:1532
 msgid "Revert currently in progress."
-msgstr "Наразі виконується повернення."
+msgstr "Наразі виконується операція вивертання."
 
 #: wt-status.c:1535
 #, c-format
