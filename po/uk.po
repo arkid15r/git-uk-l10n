@@ -2246,7 +2246,7 @@ msgstr "Наразі виконується розділення коміту п
 
 #: wt-status.c:1477
 msgid "  (Once your working directory is clean, run \"git rebase --continue\")"
-msgstr "  (Після очищення робочого каталогу виконайте \"git rebase -—continue\")"
+msgstr "  (Після очищення робочої директорії виконайте \"git rebase -—continue\")"
 
 #: wt-status.c:1481
 #, c-format
