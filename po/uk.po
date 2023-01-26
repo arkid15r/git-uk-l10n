@@ -2147,19 +2147,19 @@ msgstr "Поточний патч порожній."
 
 #: wt-status.c:1252
 msgid "  (fix conflicts and then run \"git am --continue\")"
-msgstr "  (виправте конфлікти, а потім виконайте “git am --continue”)"
+msgstr "  (виправте конфлікти, а потім виконайте \"git am --continue\")"
 
 #: wt-status.c:1254
 msgid "  (use \"git am --skip\" to skip this patch)"
-msgstr "  (використовуйте команду “git am --skip”, щоб пропустити цей патч)"
+msgstr "  (використовуйте команду \"git am --skip\", щоб пропустити цей патч)"
 
 #: wt-status.c:1257
 msgid "  (use \"git am --allow-empty\" to record this patch as an empty commit)"
-msgstr "  (використовуйте “git am --allow-empty”, щоб записати цей патч як порожній комміт)"
+msgstr "  (використовуйте \"git am --allow-empty\", щоб записати цей патч як порожній комміт)"
 
 #: wt-status.c:1259
 msgid "  (use \"git am --abort\" to restore the original branch)"
-msgstr "  (для відновлення початкової гілки використовуйте “git am --abort”)"
+msgstr "  (для відновлення початкової гілки використовуйте \"git am --abort\")"
 
 #: wt-status.c:1392
 msgid "git-rebase-todo is missing."
@@ -2196,7 +2196,7 @@ msgstr[2] "Наступні команди для виконання (залиш
 
 #: wt-status.c:1424
 msgid "  (use \"git rebase --edit-todo\" to view and edit)"
-msgstr "  (використовуйте “git rebase --edit-todo” для перегляду та редагування)"
+msgstr "  (використовуйте \"git rebase --edit-todo\" для перегляду та редагування)"
 
 #: wt-status.c:1436
 #, c-format
@@ -2209,15 +2209,15 @@ msgstr "Наразі йде перебазування."
 
 #: wt-status.c:1454
 msgid "  (fix conflicts and then run \"git rebase --continue\")"
-msgstr "  (виправте конфлікти, а потім виконайте “git rebase --continue”)"
+msgstr "  (виправте конфлікти, а потім виконайте \"git rebase --continue\")"
 
 #: wt-status.c:1456
 msgid "  (use \"git rebase --skip\" to skip this patch)"
-msgstr "  (використовуйте “git rebase --skip”, щоб пропустити цей патч)"
+msgstr "  (використовуйте \"git rebase --skip\", щоб пропустити цей патч)"
 
 #: wt-status.c:1458
 msgid "  (use \"git rebase --abort\" to check out the original branch)"
-msgstr "  (використовуйте “git rebase --abort”, щоб перейти до початкової гілки)"
+msgstr "  (використовуйте \"git rebase --abort\", щоб перейти до початкової гілки)"
 
 #: wt-status.c:1465
 msgid "  (all conflicts fixed: run \"git rebase --continue\")"
