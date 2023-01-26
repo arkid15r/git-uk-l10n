@@ -2167,7 +2167,7 @@ msgstr "git-rebase-todo відсутній."
 
 #: wt-status.c:1394
 msgid "No commands done."
-msgstr "Ніяких команд не виконано."
+msgstr "Не виконано жодної команди."
 
 #: wt-status.c:1397
 #, c-format
