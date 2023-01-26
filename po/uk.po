@@ -2281,7 +2281,7 @@ msgstr "  (скористайтесь командою \"git cherry-pick —-ski
 
 #: wt-status.c:1522
 msgid "  (use \"git cherry-pick --abort\" to cancel the cherry-pick operation)"
-msgstr "скористайтесь командою \"git cherry-pick -—abort\", щоб скасувати операцію висмикування"
+msgstr " (скористайтесь командою \"git cherry-pick -—abort\", щоб скасувати операцію висмикування)"
 
 #: wt-status.c:1532
 msgid "Revert currently in progress."
