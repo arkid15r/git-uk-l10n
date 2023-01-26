@@ -2159,7 +2159,7 @@ msgstr "  (використовуйте \"git am --allow-empty\", щоб зап�
 
 #: wt-status.c:1259
 msgid "  (use \"git am --abort\" to restore the original branch)"
-msgstr "  (для відновлення початкової гілки використовуйте \"git am --abort\")"
+msgstr "  (використовуйте \"git am --abort\", щоб відновити початкову гілку)"
 
 #: wt-status.c:1392
 msgid "git-rebase-todo is missing."
