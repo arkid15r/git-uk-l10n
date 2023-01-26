@@ -854,7 +854,7 @@ msgstr "не вдалося оновити %s"
 
 #: builtin/clone.c:668
 msgid "failed to initialize sparse-checkout"
-msgstr "не вдалося ініціалізувати sparse-checkout"
+msgstr "не вдалося ініціалізувати частковий перехід"
 
 #: builtin/clone.c:690
 msgid "remote HEAD refers to nonexistent ref, unable to checkout"
