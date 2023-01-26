@@ -2201,7 +2201,7 @@ msgstr "  (використовуйте \"git rebase --edit-todo\" для пер
 #: wt-status.c:1436
 #, c-format
 msgid "You are currently rebasing branch '%s' on '%s'."
-msgstr "Наразі ви перебазовуєте гілку ‘%s’ на ‘%s’."
+msgstr "Наразі ви перебазовуєте гілку '%s' на '%s'."
 
 #: wt-status.c:1441
 msgid "You are currently rebasing."
