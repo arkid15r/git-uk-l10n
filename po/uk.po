@@ -2190,7 +2190,7 @@ msgstr "Не залишилось команд."
 #, c-format
 msgid "Next command to do (%<PRIuMAX> remaining command):"
 msgid_plural "Next commands to do (%<PRIuMAX> remaining commands):"
-msgstr[0] "Наступна команда для виконання (залишилась %<PRIuMAX> команд):"
+msgstr[0] "Наступна команда для виконання (залишилась %<PRIuMAX> команда):"
 msgstr[1] "Наступні команди для виконання (залишилось %<PRIuMAX> команди):"
 msgstr[2] "Наступні команди для виконання (залишилось %<PRIuMAX> команд):"
 
