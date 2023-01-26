@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-01-06 09:45-0800\n"
-"PO-Revision-Date: 2023-01-25 17:59-0800\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-01-25 20:48-0800\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
-"|| n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || "
+"n%100>14) ? 1 : 2);\n"
 "X-Generator: Poedit 3.2.2\n"
 
 #: builtin/checkout.c:34
@@ -101,8 +101,7 @@ msgstr "'%s' не можна використовувати зі шляхами 
 
 #: builtin/checkout.c:473 builtin/checkout.c:476 builtin/checkout.c:1676 builtin/checkout.c:1786
 #: builtin/checkout.c:1789 builtin/clone.c:940 builtin/index-pack.c:1858 builtin/push.c:638
-#: builtin/push.c:676 builtin/push.c:682 builtin/push.c:687 builtin/reset.c:355
-#: builtin/reset.c:391
+#: builtin/push.c:676 builtin/push.c:682 builtin/push.c:687 builtin/reset.c:355 builtin/reset.c:391
 #, c-format
 msgid "options '%s' and '%s' cannot be used together"
 msgstr "опції '%s' і '%s' не можна використовувати разом"
@@ -401,8 +400,8 @@ msgstr "шляхи не можуть використовуватись при �
 msgid "'%s' cannot be used with switching branches"
 msgstr "'%s' не може використовуватись при переключенні гілок"
 
-#: builtin/checkout.c:1497 builtin/checkout.c:1500 builtin/checkout.c:1503
-#: builtin/checkout.c:1508 builtin/checkout.c:1513
+#: builtin/checkout.c:1497 builtin/checkout.c:1500 builtin/checkout.c:1503 builtin/checkout.c:1508
+#: builtin/checkout.c:1513
 #, c-format
 msgid "'%s' cannot be used with '%s'"
 msgstr "'%s' не може використовуватись з '%s'"
@@ -541,8 +540,8 @@ msgstr ""
 msgid "you must specify path(s) to restore"
 msgstr "необхідно вказати шлях(и) для відновлення"
 
-#: builtin/checkout.c:1832 builtin/checkout.c:1834 builtin/checkout.c:1886
-#: builtin/checkout.c:1888 builtin/clone.c:132
+#: builtin/checkout.c:1832 builtin/checkout.c:1834 builtin/checkout.c:1886 builtin/checkout.c:1888
+#: builtin/clone.c:132
 msgid "branch"
 msgstr "гілка"
 
@@ -835,40 +834,43 @@ msgid ""
 "You can inspect what was checked out with 'git status'\n"
 "and retry with 'git restore --source=HEAD :/'\n"
 msgstr ""
+"Клонування пройшло успішно, але не вдалося перейти до гілки.\n"
+"Ви можете перевірити, що було додано за допомогою 'git status'\n"
+"і повторити спробу за допомогою 'git restore --source=HEAD :/'\n"
 
 #: builtin/clone.c:492
 #, c-format
 msgid "Could not find remote branch %s to clone."
-msgstr ""
+msgstr "Не вдалося знайти віддалену гілку %s для клонування."
 
 #: builtin/clone.c:594
 msgid "remote did not send all necessary objects"
-msgstr ""
+msgstr "віддалене сховище не надіслало всі необхідні об'єкти"
 
 #: builtin/clone.c:610
 #, c-format
 msgid "unable to update %s"
-msgstr ""
+msgstr "не вдалося оновити %s"
 
 #: builtin/clone.c:668
 msgid "failed to initialize sparse-checkout"
-msgstr ""
+msgstr "не вдалося ініціалізувати частковий перехід"
 
 #: builtin/clone.c:690
 msgid "remote HEAD refers to nonexistent ref, unable to checkout"
-msgstr ""
+msgstr "віддалений HEAD посилається на неіснуючого рефа, неможливо перейти"
 
 #: builtin/clone.c:700
 msgid "HEAD not found below refs/heads!"
-msgstr ""
+msgstr "HEAD не знайдено під посиланнями/заголовками!"
 
 #: builtin/clone.c:725
 msgid "unable to checkout working tree"
-msgstr ""
+msgstr "не вдалося завантажити стан робочої директорії"
 
 #: builtin/clone.c:810
 msgid "unable to write parameters to config file"
-msgstr ""
+msgstr "не вдалося записати параметри до конфігураційного файлу"
 
 #: builtin/clone.c:877
 msgid "cannot repack to clean up"
@@ -2256,7 +2258,7 @@ msgstr ""
 
 #: wt-status.c:1502
 msgid "Cherry-pick currently in progress."
-msgstr "Наразі триває висмикування"
+msgstr "Наразі триває висмикування."
 
 #: wt-status.c:1505
 #, c-format
