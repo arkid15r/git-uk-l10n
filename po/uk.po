@@ -2175,7 +2175,7 @@ msgid "Last command done (%<PRIuMAX> command done):"
 msgid_plural "Last commands done (%<PRIuMAX> commands done):"
 msgstr[0] "Останню команду виконано (%<PRIuMAX> команду виконано):"
 msgstr[1] "Останні команди виконано (%<PRIuMAX> команди виконано):"
-msgstr[2] "Останні команди виконано (%<PRIuMAX> команд виконано):"
+msgstr[2] "Останніх команд виконано (%<PRIuMAX> команд виконано):"
 
 #: wt-status.c:1408
 #, c-format
