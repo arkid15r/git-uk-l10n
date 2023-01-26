@@ -2155,7 +2155,7 @@ msgstr "  (використовуйте команду \"git am --skip\", щоб
 
 #: wt-status.c:1257
 msgid "  (use \"git am --allow-empty\" to record this patch as an empty commit)"
-msgstr "  (використовуйте \"git am --allow-empty\", щоб записати цей патч як порожній комміт)"
+msgstr "  (використовуйте \"git am --allow-empty\", щоб записати цей патч як порожній коміт)"
 
 #: wt-status.c:1259
 msgid "  (use \"git am --abort\" to restore the original branch)"
