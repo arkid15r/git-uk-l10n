@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-01-06 09:45-0800\n"
-"PO-Revision-Date: 2023-01-24 21:41-0800\n"
+"PO-Revision-Date: 2023-01-25 17:59-0800\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && "
-"(n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
 "X-Generator: Poedit 3.2.2\n"
 
 #: builtin/checkout.c:34
@@ -94,16 +94,15 @@ msgstr[0] "Оновлено %d шлях з індексу"
 msgstr[1] "Оновлено %d шляхи з індексу"
 msgstr[2] "Оновлено %d шляхів з індексу"
 
-#: builtin/checkout.c:460 builtin/checkout.c:463 builtin/checkout.c:466
-#: builtin/checkout.c:470
+#: builtin/checkout.c:460 builtin/checkout.c:463 builtin/checkout.c:466 builtin/checkout.c:470
 #, c-format
 msgid "'%s' cannot be used with updating paths"
 msgstr "'%s' не можна використовувати зі шляхами оновлення"
 
-#: builtin/checkout.c:473 builtin/checkout.c:476 builtin/checkout.c:1676
-#: builtin/checkout.c:1786 builtin/checkout.c:1789 builtin/clone.c:940
-#: builtin/index-pack.c:1858 builtin/push.c:638 builtin/push.c:676 builtin/push.c:682
-#: builtin/push.c:687 builtin/reset.c:355 builtin/reset.c:391
+#: builtin/checkout.c:473 builtin/checkout.c:476 builtin/checkout.c:1676 builtin/checkout.c:1786
+#: builtin/checkout.c:1789 builtin/clone.c:940 builtin/index-pack.c:1858 builtin/push.c:638
+#: builtin/push.c:676 builtin/push.c:682 builtin/push.c:687 builtin/reset.c:355
+#: builtin/reset.c:391
 #, c-format
 msgid "options '%s' and '%s' cannot be used together"
 msgstr "опції '%s' і '%s' не можна використовувати разом"
@@ -292,14 +291,12 @@ msgid ""
 "one remote, e.g. the 'origin' remote, consider setting\n"
 "checkout.defaultRemote=origin in your config."
 msgstr ""
-"Якщо ви хотіли переключитись на гілку віддаленого відстеження, наприклад, "
-"'origin',\n"
+"Якщо ви хотіли переключитись на гілку віддаленого відстеження, наприклад, 'origin',\n"
 "ви можете зробити це, повністю вказавши назву з опцією --track:\n"
 "\n"
 "    git checkout --track origin/<назва>.\n"
 "\n"
-"Якщо при переключенні з неоднозначною <назвою> ви бажаєте завжди віддавати "
-"перевагу\n"
+"Якщо при переключенні з неоднозначною <назвою> ви бажаєте завжди віддавати перевагу\n"
 "певному віддаленому сховищу, наприклад, 'origin', розгляньте можливість додання\n"
 "checkout.defaultRemote=origin до вашого конфігураційного файлу."
 
@@ -349,8 +346,7 @@ msgstr "очікувалась гілка, надано коміт '%s'"
 
 #: builtin/checkout.c:1440
 msgid "If you want to detach HEAD at the commit, try again with the --detach option."
-msgstr ""
-"Якщо ви хочете від'єднати HEAD на цьому коміті, спробуйте ще раз з опцією --detach."
+msgstr "Якщо ви хочете від'єднати HEAD на цьому коміті, спробуйте ще раз з опцією --detach."
 
 #: builtin/checkout.c:1453
 msgid ""
@@ -527,8 +523,8 @@ msgstr "git checkout: --detach не приймає аргумент шляху '
 msgid "'%s' and pathspec arguments cannot be used together"
 msgstr "'%s' та аргументи специфікації шляху не можна використовувати разом"
 
-#: builtin/checkout.c:1795 builtin/clone.c:1121 builtin/clone.c:1124
-#: builtin/index-pack.c:1854 builtin/reset.c:364 builtin/reset.c:422
+#: builtin/checkout.c:1795 builtin/clone.c:1121 builtin/clone.c:1124 builtin/index-pack.c:1854
+#: builtin/reset.c:364 builtin/reset.c:422
 #, c-format
 msgid "the option '%s' requires '%s'"
 msgstr "опція '%s' вимагає '%s'"
@@ -676,8 +672,7 @@ msgstr "ім'я"
 
 #: builtin/clone.c:131
 msgid "use <name> instead of 'origin' to track upstream"
-msgstr ""
-"використовуйте <ім'я> замість 'origin' для відстеження репозиторію рівнем вище"
+msgstr "використовуйте <ім'я> замість 'origin' для відстеження репозиторію рівнем вище"
 
 #: builtin/clone.c:133
 msgid "checkout <branch> instead of the remote's HEAD"
@@ -765,9 +760,7 @@ msgstr "застосувати часткові фільтри клонів до
 
 #: builtin/clone.c:162
 msgid "any cloned submodules will use their remote-tracking branch"
-msgstr ""
-"будь-які клоновані підмодулі будуть використовувати свою гілку віддаленого "
-"відстеження"
+msgstr "будь-які клоновані підмодулі будуть використовувати свою гілку віддаленого відстеження"
 
 #: builtin/clone.c:164
 msgid "initialize sparse-checkout file to include only files at root"
@@ -894,8 +887,7 @@ msgid "You must specify a repository to clone."
 msgstr ""
 
 #: builtin/clone.c:945
-msgid ""
-"--bundle-uri is incompatible with --depth, --shallow-since, and --shallow-exclude"
+msgid "--bundle-uri is incompatible with --depth, --shallow-since, and --shallow-exclude"
 msgstr ""
 
 #: builtin/clone.c:957
@@ -944,8 +936,7 @@ msgid "Cloning into '%s'...\n"
 msgstr ""
 
 #: builtin/clone.c:1062
-msgid ""
-"clone --recursive is not compatible with both --reference and --reference-if-able"
+msgid "clone --recursive is not compatible with both --reference and --reference-if-able"
 msgstr ""
 
 #: builtin/clone.c:1140
@@ -1451,8 +1442,7 @@ msgid "failed to push some refs to '%s'"
 msgstr ""
 
 #: builtin/push.c:472
-msgid ""
-"recursing into submodule with push.recurseSubmodules=only; using on-demand instead"
+msgid "recursing into submodule with push.recurseSubmodules=only; using on-demand instead"
 msgstr ""
 
 #: builtin/push.c:535
@@ -1552,8 +1542,7 @@ msgstr ""
 #: builtin/push.c:661
 msgid ""
 "No configured push destination.\n"
-"Either specify the URL from the command-line or configure a remote repository "
-"using\n"
+"Either specify the URL from the command-line or configure a remote repository using\n"
 "\n"
 "    git remote add <name> <url>\n"
 "\n"
@@ -2154,81 +2143,81 @@ msgstr ""
 
 #: wt-status.c:1247
 msgid "The current patch is empty."
-msgstr ""
+msgstr "Поточний патч порожній."
 
 #: wt-status.c:1252
 msgid "  (fix conflicts and then run \"git am --continue\")"
-msgstr ""
+msgstr "  (виправте конфлікти, а потім виконайте \"git am --continue\")"
 
 #: wt-status.c:1254
 msgid "  (use \"git am --skip\" to skip this patch)"
-msgstr ""
+msgstr "  (використовуйте команду \"git am --skip\", щоб пропустити цей патч)"
 
 #: wt-status.c:1257
 msgid "  (use \"git am --allow-empty\" to record this patch as an empty commit)"
-msgstr ""
+msgstr "  (використовуйте \"git am --allow-empty\", щоб записати цей патч як порожній коміт)"
 
 #: wt-status.c:1259
 msgid "  (use \"git am --abort\" to restore the original branch)"
-msgstr ""
+msgstr "  (використовуйте \"git am --abort\", щоб відновити початкову гілку)"
 
 #: wt-status.c:1392
 msgid "git-rebase-todo is missing."
-msgstr ""
+msgstr "git-rebase-todo відсутній."
 
 #: wt-status.c:1394
 msgid "No commands done."
-msgstr ""
+msgstr "Не виконано жодної команди."
 
 #: wt-status.c:1397
 #, c-format
 msgid "Last command done (%<PRIuMAX> command done):"
 msgid_plural "Last commands done (%<PRIuMAX> commands done):"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Останню команду виконано (%<PRIuMAX> команду виконано):"
+msgstr[1] "Останні команди виконано (%<PRIuMAX> команди виконано):"
+msgstr[2] "Останніх команд виконано (%<PRIuMAX> команд виконано):"
 
 #: wt-status.c:1408
 #, c-format
 msgid "  (see more in file %s)"
-msgstr ""
+msgstr "  (дивіться більше у файлі %s)"
 
 #: wt-status.c:1413
 msgid "No commands remaining."
-msgstr ""
+msgstr "Не залишилось команд."
 
 #: wt-status.c:1416
 #, c-format
 msgid "Next command to do (%<PRIuMAX> remaining command):"
 msgid_plural "Next commands to do (%<PRIuMAX> remaining commands):"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Наступна команда для виконання (залишилась %<PRIuMAX> команда):"
+msgstr[1] "Наступні команди для виконання (залишилось %<PRIuMAX> команди):"
+msgstr[2] "Наступні команди для виконання (залишилось %<PRIuMAX> команд):"
 
 #: wt-status.c:1424
 msgid "  (use \"git rebase --edit-todo\" to view and edit)"
-msgstr ""
+msgstr "  (використовуйте \"git rebase --edit-todo\" для перегляду та редагування)"
 
 #: wt-status.c:1436
 #, c-format
 msgid "You are currently rebasing branch '%s' on '%s'."
-msgstr ""
+msgstr "Наразі ви перебазовуєте гілку '%s' на '%s'."
 
 #: wt-status.c:1441
 msgid "You are currently rebasing."
-msgstr ""
+msgstr "Наразі йде перебазування."
 
 #: wt-status.c:1454
 msgid "  (fix conflicts and then run \"git rebase --continue\")"
-msgstr ""
+msgstr "  (виправте конфлікти, а потім виконайте \"git rebase --continue\")"
 
 #: wt-status.c:1456
 msgid "  (use \"git rebase --skip\" to skip this patch)"
-msgstr ""
+msgstr "  (використовуйте \"git rebase --skip\", щоб пропустити цей патч)"
 
 #: wt-status.c:1458
 msgid "  (use \"git rebase --abort\" to check out the original branch)"
-msgstr ""
+msgstr "  (використовуйте \"git rebase --abort\", щоб перейти до початкової гілки)"
 
 #: wt-status.c:1465
 msgid "  (all conflicts fixed: run \"git rebase --continue\")"
@@ -2237,8 +2226,7 @@ msgstr "  (усі конфлікти виправлено: виконайте \"
 #: wt-status.c:1469
 #, c-format
 msgid "You are currently splitting a commit while rebasing branch '%s' on '%s'."
-msgstr ""
-"Наразі виконується розділення коміту під час перебазування гілки '%s' на '%s'."
+msgstr "Наразі виконується розділення коміту під час перебазування гілки '%s' на '%s'."
 
 #: wt-status.c:1474
 msgid "You are currently splitting a commit during a rebase."
@@ -2268,20 +2256,20 @@ msgstr ""
 
 #: wt-status.c:1502
 msgid "Cherry-pick currently in progress."
-msgstr ""
+msgstr "Наразі триває висмикування"
 
 #: wt-status.c:1505
 #, c-format
 msgid "You are currently cherry-picking commit %s."
-msgstr ""
+msgstr "Наразі ви висмикуєте коміт %s."
 
 #: wt-status.c:1512
 msgid "  (fix conflicts and run \"git cherry-pick --continue\")"
-msgstr "  (виправте конфлікти і виконайте \"git cherry-pick —continue\")"
+msgstr "  (виправте конфлікти і виконайте \"git cherry-pick --continue\")"
 
 #: wt-status.c:1515
 msgid "  (run \"git cherry-pick --continue\" to continue)"
-msgstr "  (виконайте \"git cherry-pick —continue\", щоб продовжити)"
+msgstr "  (виконайте \"git cherry-pick --continue\", щоб продовжити)"
 
 #: wt-status.c:1518
 msgid "  (all conflicts fixed: run \"git cherry-pick --continue\")"
@@ -2293,8 +2281,7 @@ msgstr "  (скористайтесь командою \"git cherry-pick —-ski
 
 #: wt-status.c:1522
 msgid "  (use \"git cherry-pick --abort\" to cancel the cherry-pick operation)"
-msgstr ""
-"скористайтесь командою \"git cherry-pick -—abort\", щоб скасувати операцію висмикування"
+msgstr " (скористайтесь командою \"git cherry-pick -—abort\", щоб скасувати операцію висмикування)"
 
 #: wt-status.c:1532
 msgid "Revert currently in progress."
@@ -2307,7 +2294,7 @@ msgstr "Наразі ви вивертаєте коміт %s."
 
 #: wt-status.c:1541
 msgid "  (fix conflicts and run \"git revert --continue\")"
-msgstr "  (виправте конфлікти і виконайте \"git revert —continue\")"
+msgstr "  (виправте конфлікти і виконайте \"git revert --continue\")"
 
 #: wt-status.c:1544
 msgid "  (run \"git revert --continue\" to continue)"
@@ -2315,7 +2302,7 @@ msgstr "  (виконайте \"git revert --continue\", щоб продовжи
 
 #: wt-status.c:1547
 msgid "  (all conflicts fixed: run \"git revert --continue\")"
-msgstr "  (усі конфлікти виправлено: виконайте \"git revert —continue\")"
+msgstr "  (усі конфлікти виправлено: виконайте \"git revert --continue\")"
 
 #: wt-status.c:1549
 msgid "  (use \"git revert --skip\" to skip this patch)"
@@ -2381,7 +2368,7 @@ msgstr "Поки що немає комітів"
 
 #: wt-status.c:1880
 msgid "Untracked files"
-msgstr "Неконтрольовані файли"
+msgstr "Невідстежувані файли"
 
 #: wt-status.c:1882
 msgid "Ignored files"
@@ -2393,13 +2380,13 @@ msgid ""
 "It took %.2f seconds to enumerate untracked files,\n"
 "but the results were cached, and subsequent runs may be faster."
 msgstr ""
-"На перерахування неконтрольованих файлів пішло %.2f секунд,\n"
+"На перерахування невідстежуваних файлів пішло %.2f секунд,\n"
 "але результат було додано у кеш, тому наступні запуски можуть бути швидшими."
 
 #: wt-status.c:1892
 #, c-format
 msgid "It took %.2f seconds to enumerate untracked files."
-msgstr "На перерахування неконтрольованих файлів пішло %.2f секунд."
+msgstr "На перерахування невідстежуваних файлів пішло %.2f секунд."
 
 #: wt-status.c:1896
 msgid "See 'git help status' for information on how to improve this."
@@ -2408,11 +2395,11 @@ msgstr "Дивіться 'git help status' для інформаціі з тог
 #: wt-status.c:1900
 #, c-format
 msgid "Untracked files not listed%s"
-msgstr "Некотрольовані файли не вказано%s"
+msgstr "Невідстежувані файли не вказано%s"
 
 #: wt-status.c:1902
 msgid " (use -u option to show untracked files)"
-msgstr " (використовуйте опцію -u для відображення неконтрольованих файлів)"
+msgstr " (використовуйте опцію -u для відображення невідстежуваних файлів)"
 
 #: wt-status.c:1908
 msgid "No changes"
@@ -2421,9 +2408,7 @@ msgstr "Немає змін"
 #: wt-status.c:1913
 #, c-format
 msgid "no changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
-msgstr ""
-"не додано жодних змін до коміту (використовуйте \"git add\" та/або \"git commit -"
-"a\")\n"
+msgstr "не додано жодних змін до коміту (використовуйте \"git add\" та/або \"git commit -a\")\n"
 
 #: wt-status.c:1917
 #, c-format
@@ -2432,23 +2417,21 @@ msgstr "нічого не додано до коміту\n"
 
 #: wt-status.c:1921
 #, c-format
-msgid ""
-"nothing added to commit but untracked files present (use \"git add\" to track)\n"
+msgid "nothing added to commit but untracked files present (use \"git add\" to track)\n"
 msgstr ""
-"нічого не додано до коміту, але присутні неконтрольовані файли (скористайтесь "
-"\"git add\" щоб почати контролювати)\n"
+"нічого не додано до коміту, але присутні невідстежувані файли (скористайтесь \"git add\" щоб "
+"почати відстежувати)\n"
 
 #: wt-status.c:1925
 #, c-format
 msgid "nothing added to commit but untracked files present\n"
-msgstr "нічого не додано до коміту, але присутні неконтрольовані файли\n"
+msgstr "нічого не додано до коміту, але присутні невідстежувані файли\n"
 
 #: wt-status.c:1929
 #, c-format
 msgid "nothing to commit (create/copy files and use \"git add\" to track)\n"
 msgstr ""
-"нічого комітити (створіть/скопіюйте файли та скористайтесь \"git add\" для "
-"контролювання)\n"
+"нічого комітити (створіть/скопіюйте файли та скористайтесь \"git add\" для відстежування)\n"
 
 #: wt-status.c:1933 wt-status.c:1939
 #, c-format
@@ -2458,7 +2441,7 @@ msgstr "нічого комітити\n"
 #: wt-status.c:1936
 #, c-format
 msgid "nothing to commit (use -u to show untracked files)\n"
-msgstr "нічого комітити (скористайтесь -u щоб подивитись неконтрольовані файли)\n"
+msgstr "нічого комітити (скористайтесь -u щоб подивитись невідстежувані файли)\n"
 
 #: wt-status.c:1941
 #, c-format
