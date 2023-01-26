@@ -2180,7 +2180,7 @@ msgstr[2] "Останніх команд виконано (%<PRIuMAX> коман
 #: wt-status.c:1408
 #, c-format
 msgid "  (see more in file %s)"
-msgstr "  (див. більше у файлі %s)"
+msgstr "  (дивіться більше у файлі %s)"
 
 #: wt-status.c:1413
 msgid "No commands remaining."
