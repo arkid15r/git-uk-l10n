@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-01-06 09:45-0800\n"
-"PO-Revision-Date: 2023-01-25 20:48-0800\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-01-26 17:33-0800\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -2002,68 +2002,68 @@ msgstr ""
 
 #: wt-status.c:242
 msgid "  (use \"git add/rm <file>...\" to update what will be committed)"
-msgstr ""
+msgstr "  (використовуйте \"git add/rm <файл>...\" для оновлення того, що буде закомічено)"
 
 #: wt-status.c:243
 msgid "  (use \"git restore <file>...\" to discard changes in working directory)"
-msgstr ""
+msgstr "  (використовуйте \"git restore <файл>...\", щоб скасувати зміни в робочій директорії)"
 
 #: wt-status.c:245
 msgid "  (commit or discard the untracked or modified content in submodules)"
-msgstr ""
+msgstr "  (зробіть коміт або скасуйте невідстежуваний або змінений контент у підмодулях)"
 
 #: wt-status.c:256
 #, c-format
 msgid "  (use \"git %s <file>...\" to include in what will be committed)"
-msgstr ""
+msgstr "  (використовуйте \"git %s <файл>...\" для включення до того, що буде закомічено)"
 
 #: wt-status.c:268
 msgid "both deleted:"
-msgstr ""
+msgstr "видалено обома:"
 
 #: wt-status.c:270
 msgid "added by us:"
-msgstr ""
+msgstr "додано нами:"
 
 #: wt-status.c:272
 msgid "deleted by them:"
-msgstr ""
+msgstr "видалено ними:"
 
 #: wt-status.c:274
 msgid "added by them:"
-msgstr ""
+msgstr "додано ними:"
 
 #: wt-status.c:276
 msgid "deleted by us:"
-msgstr ""
+msgstr "видалено нами:"
 
 #: wt-status.c:278
 msgid "both added:"
-msgstr ""
+msgstr "додано обома:"
 
 #: wt-status.c:280
 msgid "both modified:"
-msgstr ""
+msgstr "змінено обома:"
 
 #: wt-status.c:290
 msgid "new file:"
-msgstr ""
+msgstr "новий файл:"
 
 #: wt-status.c:292
 msgid "copied:"
-msgstr ""
+msgstr "скопійовано:"
 
 #: wt-status.c:294
 msgid "deleted:"
-msgstr ""
+msgstr "видалено:"
 
 #: wt-status.c:296
 msgid "modified:"
-msgstr ""
+msgstr "змінено:"
 
 #: wt-status.c:298
 msgid "renamed:"
-msgstr ""
+msgstr "перейменовано:"
 
 #: wt-status.c:300
 msgid "typechange:"
@@ -2071,7 +2071,7 @@ msgstr ""
 
 #: wt-status.c:302
 msgid "unknown:"
-msgstr ""
+msgstr "невідомо:"
 
 #: wt-status.c:304
 msgid "unmerged:"
@@ -2079,37 +2079,39 @@ msgstr ""
 
 #: wt-status.c:384
 msgid "new commits, "
-msgstr ""
+msgstr "нові коміти, "
 
 #: wt-status.c:386
 msgid "modified content, "
-msgstr ""
+msgstr "змінений контент, "
 
 #: wt-status.c:388
 msgid "untracked content, "
-msgstr ""
+msgstr "невідстежуваний контент, "
 
 #: wt-status.c:976
 #, c-format
 msgid "Your stash currently has %d entry"
 msgid_plural "Your stash currently has %d entries"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "У вашій схованці наразі є %d запис"
+msgstr[1] "У вашій схованці наразі є %d записи"
+msgstr[2] "У вашій схованці наразі є %d записів"
 
 #: wt-status.c:1007
 msgid "Submodules changed but not updated:"
-msgstr ""
+msgstr "Підмодулі змінено, але не оновлено:"
 
 #: wt-status.c:1009
 msgid "Submodule changes to be committed:"
-msgstr ""
+msgstr "Зміни в підмодулі, які будуть закомічені:"
 
 #: wt-status.c:1091
 msgid ""
 "Do not modify or remove the line above.\n"
 "Everything below it will be ignored."
 msgstr ""
+"Не змінюйте та не видаляйте рядок вище.\n"
+"Все, що нижче, буде проігноровано."
 
 #: wt-status.c:1184
 #, c-format
@@ -2121,23 +2123,23 @@ msgstr ""
 
 #: wt-status.c:1221
 msgid "You have unmerged paths."
-msgstr ""
+msgstr "У вас є не злиті шляхи."
 
 #: wt-status.c:1224
 msgid "  (fix conflicts and run \"git commit\")"
-msgstr ""
+msgstr "  (виправте конфлікти та виконайте \"git commit\")"
 
 #: wt-status.c:1226
 msgid "  (use \"git merge --abort\" to abort the merge)"
-msgstr ""
+msgstr "  (використовуйте команду \"git merge --abort\", щоб перервати злиття)."
 
 #: wt-status.c:1230
 msgid "All conflicts fixed but you are still merging."
-msgstr ""
+msgstr "Усі конфлікти виправлено, але ви все ще продовжуєте злиття."
 
 #: wt-status.c:1233
 msgid "  (use \"git commit\" to conclude merge)"
-msgstr ""
+msgstr "  (використовуйте \"git commit\" для завершення злиття)"
 
 #: wt-status.c:1244
 msgid "You are in the middle of an am session."
