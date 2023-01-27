@@ -2146,7 +2146,7 @@ msgstr "  (використовуйте \"git commit\" для завершенн
 
 #: wt-status.c:1244
 msgid "You are in the middle of an am session."
-msgstr "Ви в середені am сеансу."
+msgstr "Ви всередині am сеансу."
 
 #: wt-status.c:1247
 msgid "The current patch is empty."
