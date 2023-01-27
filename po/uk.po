@@ -2135,7 +2135,7 @@ msgstr "  (використовуйте команду \"git merge --abort\", щ
 
 #: wt-status.c:1230
 msgid "All conflicts fixed but you are still merging."
-msgstr "Всі конфлікти виправлено, але ви все ще продовжуєте злиття."
+msgstr "Усі конфлікти виправлено, але ви все ще продовжуєте злиття."
 
 #: wt-status.c:1233
 msgid "  (use \"git commit\" to conclude merge)"
