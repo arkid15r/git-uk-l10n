@@ -2043,7 +2043,7 @@ msgstr "додано обома:"
 
 #: wt-status.c:280
 msgid "both modified:"
-msgstr "обидва змінено:"
+msgstr "змінено обома:"
 
 #: wt-status.c:290
 msgid "new file:"
