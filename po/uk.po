@@ -2039,7 +2039,7 @@ msgstr "видалено нами:"
 
 #: wt-status.c:278
 msgid "both added:"
-msgstr "обидва додано:"
+msgstr "додано обома:"
 
 #: wt-status.c:280
 msgid "both modified:"
