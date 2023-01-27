@@ -2006,7 +2006,7 @@ msgstr "  (використовуйте \"git add/rm <файл>...\" для он
 
 #: wt-status.c:243
 msgid "  (use \"git restore <file>...\" to discard changes in working directory)"
-msgstr "  (використовуйте \"git restore <file>…\", щоб скасувати зміни в робочій директоріі)"
+msgstr "  (використовуйте \"git restore <файл>...\", щоб скасувати зміни в робочій директорії)"
 
 #: wt-status.c:245
 msgid "  (commit or discard the untracked or modified content in submodules)"
