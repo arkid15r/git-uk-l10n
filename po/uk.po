@@ -910,7 +910,7 @@ msgstr "шлях призначення '%s' вже існує і не є пор
 #: builtin/clone.c:977
 #, c-format
 msgid "repository path '%s' already exists and is not an empty directory."
-msgstr "шлях до репозиторія '%s' вже існує і не є порожньою директорією"
+msgstr "шлях до репозиторія '%s' вже існує і не є порожньою директорією."
 
 #: builtin/clone.c:991
 #, c-format
