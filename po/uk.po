@@ -2019,7 +2019,7 @@ msgstr "  (використовуйте \"git %s <файл>...\" для вклю
 
 #: wt-status.c:268
 msgid "both deleted:"
-msgstr "обидва видалено:"
+msgstr "видалено обома:"
 
 #: wt-status.c:270
 msgid "added by us:"
