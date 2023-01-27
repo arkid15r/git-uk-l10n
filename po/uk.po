@@ -939,7 +939,7 @@ msgstr "Клонування в '%s'...\n"
 
 #: builtin/clone.c:1062
 msgid "clone --recursive is not compatible with both --reference and --reference-if-able"
-msgstr "clone --recursive не сумісне з --reference та --reference-if-able"
+msgstr "clone --recursive не сумісне з --reference та --reference-if-able одночасно"
 
 #: builtin/clone.c:1140
 #, c-format
