@@ -993,7 +993,7 @@ msgstr "не вдалося отримати обіцяні пакети"
 
 #: builtin/clone.c:1322 builtin/clone.c:1379
 msgid "remote transport reported error"
-msgstr "операція віддаленного отримання повідоміла про помилку"
+msgstr "операція віддаленного отримання повідомила про помилку"
 
 #: builtin/clone.c:1332
 #, c-format
