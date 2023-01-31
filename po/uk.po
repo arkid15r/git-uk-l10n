@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-01-06 09:45-0800\n"
-"PO-Revision-Date: 2023-01-30 18:22-0800\n"
+"PO-Revision-Date: 2023-01-30 18:43-0800\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -1892,7 +1892,7 @@ msgstr "Ваша гілка базується на '%s', але репозит�
 
 #: remote.c:2272
 msgid "  (use \"git branch --unset-upstream\" to fixup)\n"
-msgstr "  (використовуйте команду \"git branch —unset-upstream\" для виправлення )\n"
+msgstr "  (використовуйте команду \"git branch --unset-upstream\" для виправлення )\n"
 
 #: remote.c:2275
 #, c-format
@@ -1927,8 +1927,7 @@ msgid "Your branch is behind '%s' by %d commit, and can be fast-forwarded.\n"
 msgid_plural "Your branch is behind '%s' by %d commits, and can be fast-forwarded.\n"
 msgstr[0] "Ваша гілка знаходиться позаду гілки '%s' на %d коміт, і її можна швидко перемотати.\n"
 msgstr[1] "Ваша гілка знаходиться позаду гілки '%s' на %d коміти, і її можна швидко перемотати.\n"
-msgstr[2] ""
-"Ваша гілка знаходиться позаду гілки '%s' на %d комітів, і її можна швидко перемотати.\n"
+msgstr[2] "Ваша гілка знаходиться позаду гілки '%s' на %d комітів, і її можна швидко перемотати.\n"
 
 #: remote.c:2303
 msgid "  (use \"git pull\" to update your local branch)\n"
@@ -1954,12 +1953,12 @@ msgstr[2] ""
 
 #: remote.c:2316
 msgid "  (use \"git pull\" to merge the remote branch into yours)\n"
-msgstr "  (використовуйте \"git pull\", щоб об’єднати віддалену гілку з вашою)\n"
+msgstr "  (використовуйте \"git pull\", щоб обʼєднати віддалену гілку з вашою)\n"
 
 #: remote.c:2509
 #, c-format
 msgid "cannot parse expected object name '%s'"
-msgstr "не вдалося розібрати очікуване ім’я об’єкту '%s'"
+msgstr "не вдалося розібрати очікуване імʼя обʼєкту '%s'"
 
 #: remote.c:2785
 #, c-format
@@ -1972,16 +1971,16 @@ msgstr "Не злиті шляхи:"
 
 #: wt-status.c:189 wt-status.c:221
 msgid "  (use \"git restore --staged <file>...\" to unstage)"
-msgstr "  (використовуйте \"git restore —staged <файл>...\" для вилучення з індексу)"
+msgstr "  (використовуйте \"git restore --staged <файл>...\" для вилучення з індексу)"
 
 #: wt-status.c:192 wt-status.c:224
 #, c-format
 msgid "  (use \"git restore --source=%s --staged <file>...\" to unstage)"
-msgstr "  (використовуйте \"git restore —source=%s —staged <file>...\" для вилучення з індексу)"
+msgstr "  (використовуйте \"git restore --source=%s —-staged <file>...\" для вилучення з індексу)"
 
 #: wt-status.c:195 wt-status.c:227
 msgid "  (use \"git rm --cached <file>...\" to unstage)"
-msgstr "  (використовуйте \"git rm —cached <file>...\", щоб змінити індекс)"
+msgstr "  (використовуйте \"git rm -—cached <file>...\", щоб змінити індекс)"
 
 #: wt-status.c:199
 msgid "  (use \"git add <file>...\" to mark resolution)"
