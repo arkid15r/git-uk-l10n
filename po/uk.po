@@ -1012,7 +1012,7 @@ msgstr "не співпадає тип об'єкта для %s"
 #: builtin/index-pack.c:241
 #, c-format
 msgid "did not receive expected object %s"
-msgstr "очікуваних об'єктів не отримано %s"
+msgstr "очікуваних обʼєктів не отримано %s"
 
 #: builtin/index-pack.c:244
 #, c-format
