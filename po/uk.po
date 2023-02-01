@@ -1017,7 +1017,7 @@ msgstr "очікуваних обʼєктів не отримано %s"
 #: builtin/index-pack.c:244
 #, c-format
 msgid "object %s: expected type %s, found %s"
-msgstr "об'єкт %s: очікувався тип %s, знайдено %s"
+msgstr "обʼєкт %s: очікувався тип %s, знайдено %s"
 
 #: builtin/index-pack.c:261
 msgid "Checking objects"
