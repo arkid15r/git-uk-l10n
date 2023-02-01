@@ -1007,7 +1007,7 @@ msgstr "Здається, ви клонували порожній репози�
 #: builtin/index-pack.c:221
 #, c-format
 msgid "object type mismatch at %s"
-msgstr "не співпадає тип об'єкта для %s"
+msgstr "не співпадає тип обʼєкта для %s"
 
 #: builtin/index-pack.c:241
 #, c-format
