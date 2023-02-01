@@ -1021,7 +1021,7 @@ msgstr "об'єкт %s: очікувався тип %s, знайдено %s"
 
 #: builtin/index-pack.c:261
 msgid "Checking objects"
-msgstr "Перевірка об'єктів"
+msgstr "Перевірка обʼєктів"
 
 #: builtin/index-pack.c:294
 #, c-format
