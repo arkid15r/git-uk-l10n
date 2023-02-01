@@ -998,7 +998,7 @@ msgstr "операція віддаленного отримання повід�
 #: builtin/clone.c:1332
 #, c-format
 msgid "Remote branch %s not found in upstream %s"
-msgstr "Віддалену гілку %s не знайдено у репозиторію рівнем вище %s"
+msgstr "Віддалену гілку %s не знайдено у репозиторії рівнем вище %s"
 
 #: builtin/clone.c:1342
 msgid "You appear to have cloned an empty repository."
