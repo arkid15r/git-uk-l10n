@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-01-06 09:45-0800\n"
-"PO-Revision-Date: 2023-01-27 10:05-0800\n"
+"PO-Revision-Date: 2023-01-31 18:52-0800\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -998,73 +998,73 @@ msgstr "операція віддаленного отримання повід�
 #: builtin/clone.c:1332
 #, c-format
 msgid "Remote branch %s not found in upstream %s"
-msgstr ""
+msgstr "Віддалену гілку %s не знайдено у репозиторію рівнем вище %s"
 
 #: builtin/clone.c:1342
 msgid "You appear to have cloned an empty repository."
-msgstr ""
+msgstr "Здається, ви клонували порожній репозиторій."
 
 #: builtin/index-pack.c:221
 #, c-format
 msgid "object type mismatch at %s"
-msgstr ""
+msgstr "не співпадає тип об'єкта для %s"
 
 #: builtin/index-pack.c:241
 #, c-format
 msgid "did not receive expected object %s"
-msgstr ""
+msgstr "очікуваних об'єктів не отримано %s"
 
 #: builtin/index-pack.c:244
 #, c-format
 msgid "object %s: expected type %s, found %s"
-msgstr ""
+msgstr "об'єкт %s: очікувався тип %s, знайдено %s"
 
 #: builtin/index-pack.c:261
 msgid "Checking objects"
-msgstr ""
+msgstr "Перевірка об'єктів"
 
 #: builtin/index-pack.c:294
 #, c-format
 msgid "cannot fill %d byte"
 msgid_plural "cannot fill %d bytes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "не вдається заповнити %d байт"
+msgstr[1] "не вдається заповнити %d байти"
+msgstr[2] "не вдається заповнити %d байтів"
 
 #: builtin/index-pack.c:304
 msgid "early EOF"
-msgstr ""
+msgstr "ранній EOF"
 
 #: builtin/index-pack.c:305
 msgid "read error on input"
-msgstr ""
+msgstr "помилка зчитування на вході"
 
 #: builtin/index-pack.c:317
 msgid "used more bytes than were available"
-msgstr ""
+msgstr "використано більше байтів, ніж було доступно"
 
 #: builtin/index-pack.c:324
 msgid "pack too large for current definition of off_t"
-msgstr ""
+msgstr "пакунок занадто великий для поточного визначення off_t"
 
 #: builtin/index-pack.c:329
 #, c-format
 msgid "pack exceeds maximum allowed size (%s)"
-msgstr ""
+msgstr "пакунок перевищує максимально дозволений розмір (%s)"
 
 #: builtin/index-pack.c:362
 msgid "pack signature mismatch"
-msgstr ""
+msgstr "не співпадає підпис пакунка"
 
 #: builtin/index-pack.c:364
 #, c-format
 msgid "pack version %<PRIu32> unsupported"
-msgstr ""
+msgstr "версія пакунка %<PRIu32> не підтримується"
 
 #: builtin/index-pack.c:380
 #, c-format
 msgid "pack has bad object at offset %<PRIuMAX>: %s"
-msgstr ""
+msgstr "пакунок має поганий обʼєкт зі зміщенням %<PRIuMAX>: %s"
 
 #: builtin/index-pack.c:485
 #, c-format
