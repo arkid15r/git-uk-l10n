@@ -1971,7 +1971,7 @@ msgstr "Не злиті шляхи:"
 
 #: wt-status.c:189 wt-status.c:221
 msgid "  (use \"git restore --staged <file>...\" to unstage)"
-msgstr "  (використовуйте \"git restore --staged <файл>...\" для вилучення з індексу)"
+msgstr "  (використовуйте \"git restore --staged <файл>...\", щоб вилучити з індексу)"
 
 #: wt-status.c:192 wt-status.c:224
 #, c-format
