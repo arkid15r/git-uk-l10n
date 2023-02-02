@@ -442,7 +442,7 @@ msgstr "конфлікт стилю (merge, diff3 або zdiff3)"
 
 #: builtin/checkout.c:1582
 msgid "detach HEAD at named commit"
-msgstr "від'єднати HEAD на вказаному коміті"
+msgstr "відʼєднати HEAD на вказаному коміті"
 
 #: builtin/checkout.c:1584
 msgid "set branch tracking configuration"
@@ -667,11 +667,11 @@ msgstr "використовуйте --reference тільки під час кл
 
 #: builtin/clone.c:130
 msgid "name"
-msgstr "ім'я"
+msgstr "імʼя"
 
 #: builtin/clone.c:131
 msgid "use <name> instead of 'origin' to track upstream"
-msgstr "використовуйте <ім'я> замість 'origin' для відстеження репозиторію рівнем вище"
+msgstr "використовуйте <імʼя> замість 'origin' для відстеження репозиторію рівнем вище"
 
 #: builtin/clone.c:133
 msgid "checkout <branch> instead of the remote's HEAD"
@@ -806,7 +806,7 @@ msgstr "символічне посилання '%s' існує, не можу �
 #: builtin/clone.c:359
 #, c-format
 msgid "failed to unlink '%s'"
-msgstr "не вдалося роз'єднати '%s'"
+msgstr "не вдалося розʼєднати '%s'"
 
 #: builtin/clone.c:365
 #, c-format
@@ -845,7 +845,7 @@ msgstr "Не вдалося знайти віддалену гілку %s для
 
 #: builtin/clone.c:594
 msgid "remote did not send all necessary objects"
-msgstr "віддалене сховище не надіслало всі необхідні об'єкти"
+msgstr "віддалене сховище не надіслало всі необхідні обʼєкти"
 
 #: builtin/clone.c:610
 #, c-format
@@ -878,7 +878,7 @@ msgstr "неможливо перепакувати, щоб очистити"
 
 #: builtin/clone.c:879
 msgid "cannot unlink temporary alternates file"
-msgstr "не вдається роз'єднати файл тимчасових альтернатив"
+msgstr "не вдається розʼєднати файл тимчасових альтернатив"
 
 #: builtin/clone.c:923
 msgid "Too many arguments."
@@ -1007,21 +1007,21 @@ msgstr "Здається, ви клонували порожній репози�
 #: builtin/index-pack.c:221
 #, c-format
 msgid "object type mismatch at %s"
-msgstr "не співпадає тип об'єкта для %s"
+msgstr "не співпадає тип обʼєкта для %s"
 
 #: builtin/index-pack.c:241
 #, c-format
 msgid "did not receive expected object %s"
-msgstr "очікуваних об'єктів не отримано %s"
+msgstr "очікуваних обʼєктів не отримано %s"
 
 #: builtin/index-pack.c:244
 #, c-format
 msgid "object %s: expected type %s, found %s"
-msgstr "об'єкт %s: очікувався тип %s, знайдено %s"
+msgstr "обʼєкт %s: очікувався тип %s, знайдено %s"
 
 #: builtin/index-pack.c:261
 msgid "Checking objects"
-msgstr "Перевірка об'єктів"
+msgstr "Перевірка обʼєктів"
 
 #: builtin/index-pack.c:294
 #, c-format
@@ -2355,11 +2355,11 @@ msgstr "перебазовування в процесі; на "
 
 #: wt-status.c:1843
 msgid "HEAD detached at "
-msgstr "HEAD від'єднано на "
+msgstr "HEAD відʼєднано на "
 
 #: wt-status.c:1845
 msgid "HEAD detached from "
-msgstr "HEAD від'єднано від "
+msgstr "HEAD відʼєднано від "
 
 #: wt-status.c:1848
 msgid "Not currently on any branch."
