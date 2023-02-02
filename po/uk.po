@@ -1902,7 +1902,7 @@ msgstr "Ваша гілка не відрізняється від '%s'.\n"
 #: remote.c:2279
 #, c-format
 msgid "Your branch and '%s' refer to different commits.\n"
-msgstr "Ваша гілка та гілка '%s' відносяться до різних комітів.\n"
+msgstr "Ваша гілка та гілка '%s' посилаються до різних комітів.\n"
 
 #: remote.c:2282
 #, c-format
