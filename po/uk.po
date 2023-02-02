@@ -1976,7 +1976,7 @@ msgstr "  (використовуйте \"git restore --staged <файл>...\" �
 #: wt-status.c:192 wt-status.c:224
 #, c-format
 msgid "  (use \"git restore --source=%s --staged <file>...\" to unstage)"
-msgstr "  (використовуйте \"git restore --source=%s —-staged <file>...\" для вилучення з індексу)"
+msgstr "  (використовуйте \"git restore --source=%s —-staged <file>...\", щоб вилучити з індексу)"
 
 #: wt-status.c:195 wt-status.c:227
 msgid "  (use \"git rm --cached <file>...\" to unstage)"
