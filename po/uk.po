@@ -1892,7 +1892,7 @@ msgstr "Ваша гілка базується на '%s', але репозит�
 
 #: remote.c:2272
 msgid "  (use \"git branch --unset-upstream\" to fixup)\n"
-msgstr "  (використовуйте команду \"git branch --unset-upstream\" для виправлення )\n"
+msgstr "  (використовуйте команду \"git branch --unset-upstream\", щоб виправити)\n"
 
 #: remote.c:2275
 #, c-format
