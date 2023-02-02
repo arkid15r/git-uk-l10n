@@ -2004,7 +2004,7 @@ msgstr "Зміни не індексовані для коміту:"
 
 #: wt-status.c:240
 msgid "  (use \"git add <file>...\" to update what will be committed)"
-msgstr "  (використовуйте \"git add <файл>...\", щоб оновити те, що буде закомічено)"
+msgstr "  (використовуйте \"git add <файл>...\", для оновлення того, що буде закомічено)"
 
 #: wt-status.c:242
 msgid "  (use \"git add/rm <file>...\" to update what will be committed)"
