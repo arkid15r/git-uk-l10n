@@ -2000,7 +2000,7 @@ msgstr "Зміни, які будуть закомічені:"
 
 #: wt-status.c:236 wt-status.c:1152
 msgid "Changes not staged for commit:"
-msgstr "Зміни не індексовані для коміту:"
+msgstr "Зміни, що не будуть додані до коміту:"
 
 #: wt-status.c:240
 msgid "  (use \"git add <file>...\" to update what will be committed)"
