@@ -1980,7 +1980,7 @@ msgstr "  (використовуйте \"git restore --source=%s —-staged <fi
 
 #: wt-status.c:195 wt-status.c:227
 msgid "  (use \"git rm --cached <file>...\" to unstage)"
-msgstr "  (використовуйте \"git rm -—cached <file>...\", щоб змінити індекс)"
+msgstr "  (використовуйте \"git rm -—cached <file>...\", щоб вилучити з індексу)"
 
 #: wt-status.c:199
 msgid "  (use \"git add <file>...\" to mark resolution)"
