@@ -1996,7 +1996,7 @@ msgstr ""
 
 #: wt-status.c:213 wt-status.c:1143
 msgid "Changes to be committed:"
-msgstr "Зміни, які будуть закомічені:"
+msgstr "Зміни, що будуть додані до коміту:"
 
 #: wt-status.c:236 wt-status.c:1152
 msgid "Changes not staged for commit:"
