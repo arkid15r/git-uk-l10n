@@ -1953,7 +1953,7 @@ msgstr[2] ""
 
 #: remote.c:2316
 msgid "  (use \"git pull\" to merge the remote branch into yours)\n"
-msgstr "  (використовуйте \"git pull\", щоб обʼєднати віддалену гілку з вашою)\n"
+msgstr "  (використовуйте \"git pull\", щоб злити віддалену гілку з вашою)\n"
 
 #: remote.c:2509
 #, c-format
