@@ -1958,7 +1958,7 @@ msgstr "  (використовуйте \"git pull\", щоб злити відд
 #: remote.c:2509
 #, c-format
 msgid "cannot parse expected object name '%s'"
-msgstr "не вдалося розібрати очікуване імʼя обʼєкту '%s'"
+msgstr "неможливо розібрати очікуване імʼя обʼєкту '%s'"
 
 #: remote.c:2785
 #, c-format
