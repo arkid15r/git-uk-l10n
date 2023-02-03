@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-01-06 09:45-0800\n"
-"PO-Revision-Date: 2023-01-30 18:43-0800\n"
+"PO-Revision-Date: 2023-02-02 19:37-0800\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -1732,22 +1732,22 @@ msgstr ""
 #: remote.c:752
 #, c-format
 msgid "%s usually tracks %s, not %s"
-msgstr ""
+msgstr "%s зазвичай відстежує %s, а не %s"
 
 #: remote.c:756
 #, c-format
 msgid "%s tracks both %s and %s"
-msgstr ""
+msgstr "%s відстежує як %s, так і %s"
 
 #: remote.c:824
 #, c-format
 msgid "key '%s' of pattern had no '*'"
-msgstr ""
+msgstr "ключі '%s' шаблону не містили '*'"
 
 #: remote.c:834
 #, c-format
 msgid "value '%s' of pattern has no '*'"
-msgstr ""
+msgstr "значення '%s' шаблону не має '*'"
 
 #: remote.c:1220
 #, c-format
@@ -1784,6 +1784,9 @@ msgid ""
 "Did you mean to create a new branch by pushing to\n"
 "'%s:refs/heads/%s'?"
 msgstr ""
+"Частина <src> у refspec є об’єктом коміту.\n"
+"Ви хотіли створити нову гілку, надіславши зміни до\n"
+"'%s:refs/heads/%s'?"
 
 #: remote.c:1265
 #, c-format
@@ -1792,6 +1795,9 @@ msgid ""
 "Did you mean to create a new tag by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
+"Частина <src> у refspec є об’єктом тегу.\n"
+"Ви хотіли створити новий тег, надіславши зміни до\n"
+"'%s:refs/tags/%s'?"
 
 #: remote.c:1270
 #, c-format
@@ -1800,6 +1806,9 @@ msgid ""
 "Did you mean to tag a new tree by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
+"Частина <src> у refspec є об’єктом дерева.\n"
+"Ви хотіли позначити нове дерево, надіславши зміни до\n"
+"'%s:refs/tags/%s'?"
 
 #: remote.c:1275
 #, c-format
@@ -1808,16 +1817,19 @@ msgid ""
 "Did you mean to tag a new blob by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
+"Частина <src> у refspec є об’єктом blob.\n"
+"Ви хотіли позначити новий blob, надіславши зміни до\n"
+"'%s:refs/tags/%s'?"
 
 #: remote.c:1311
 #, c-format
 msgid "%s cannot be resolved to branch"
-msgstr ""
+msgstr "%s не може бути перетворено на гілку"
 
 #: remote.c:1322
 #, c-format
 msgid "unable to delete '%s': remote ref does not exist"
-msgstr ""
+msgstr "не вдається видалити '%s': віддалене посилання не існує"
 
 #: remote.c:1334
 #, c-format
@@ -1831,32 +1843,33 @@ msgstr ""
 
 #: remote.c:1862 remote.c:1969
 msgid "HEAD does not point to a branch"
-msgstr ""
+msgstr "HEAD не вказує на гілку"
 
 #: remote.c:1871
 #, c-format
 msgid "no such branch: '%s'"
-msgstr ""
+msgstr "не існує такої гілки: '%s'"
 
 #: remote.c:1874
 #, c-format
 msgid "no upstream configured for branch '%s'"
-msgstr ""
+msgstr "репозиторій рівнем вишче не налаштовано для гілки '%s'"
 
 #: remote.c:1880
 #, c-format
 msgid "upstream branch '%s' not stored as a remote-tracking branch"
-msgstr ""
+msgstr "гілка '%s' репозиторієм рівнем вище не зберігається як гілка з віддаленим відстеженням"
 
 #: remote.c:1895
 #, c-format
 msgid "push destination '%s' on remote '%s' has no local tracking branch"
 msgstr ""
+"шлях призначення для надіслання '%s' на віддаленому '%s' не має локальної гілки відстеження"
 
 #: remote.c:1910
 #, c-format
 msgid "branch '%s' has no remote for pushing"
-msgstr ""
+msgstr "гілка '%s' не має віддаленого репозиторія для надіслання"
 
 #: remote.c:1920
 #, c-format
@@ -1869,12 +1882,12 @@ msgstr ""
 
 #: remote.c:1955
 msgid "cannot resolve 'simple' push to a single destination"
-msgstr ""
+msgstr "неможливо вирішити 'простe' надіслання до одного пункту призначення"
 
 #: remote.c:2088
 #, c-format
 msgid "couldn't find remote ref %s"
-msgstr ""
+msgstr "не вдалося знайти віддалене посилання %s"
 
 #: remote.c:2101
 #, c-format
@@ -1883,7 +1896,7 @@ msgstr ""
 
 #: remote.c:2189
 msgid "revision walk setup failed"
-msgstr ""
+msgstr "не вдалося налаштувати проходження по ревізіям"
 
 #: remote.c:2268
 #, c-format
