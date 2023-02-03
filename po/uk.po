@@ -1104,7 +1104,7 @@ msgstr "серйозне неспівпадіння під час пакуван
 #: builtin/index-pack.c:823 builtin/index-pack.c:832
 #, c-format
 msgid "SHA1 COLLISION FOUND WITH %s !"
-msgstr "Виявлено SHA1 колізію з %s!"
+msgstr "Виявлено SHA1 колізію з %s !"
 
 #: builtin/index-pack.c:757
 #, c-format
