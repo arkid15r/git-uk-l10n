@@ -1882,7 +1882,7 @@ msgstr ""
 
 #: remote.c:1955
 msgid "cannot resolve 'simple' push to a single destination"
-msgstr "неможливо вирішити 'простe' надіслання до одного пункту призначення"
+msgstr "неможливо вирішити 'простe' надсилання до одного пункту призначення"
 
 #: remote.c:2088
 #, c-format
