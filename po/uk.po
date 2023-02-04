@@ -1869,7 +1869,7 @@ msgstr ""
 #: remote.c:1910
 #, c-format
 msgid "branch '%s' has no remote for pushing"
-msgstr "гілка '%s' не має віддаленого репозиторія для надіслання"
+msgstr "гілка '%s' не має віддаленого репозиторія для надсилання"
 
 #: remote.c:1920
 #, c-format
