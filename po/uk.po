@@ -1747,7 +1747,7 @@ msgstr "ключ '%s' шаблону не містив '*'"
 #: remote.c:834
 #, c-format
 msgid "value '%s' of pattern has no '*'"
-msgstr "значення '%s' шаблону не має '*'"
+msgstr "значення '%s' шаблону не містить '*'"
 
 #: remote.c:1220
 #, c-format
