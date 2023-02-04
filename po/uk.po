@@ -1858,7 +1858,7 @@ msgstr "репозиторій рівнем вишче не налаштован
 #: remote.c:1880
 #, c-format
 msgid "upstream branch '%s' not stored as a remote-tracking branch"
-msgstr "гілка '%s' репозиторієм рівнем вище не зберігається як гілка з віддаленим відстеженням"
+msgstr "гілка '%s' репозиторія рівнем вище не збережена як гілка віддаленого відстеження"
 
 #: remote.c:1895
 #, c-format
