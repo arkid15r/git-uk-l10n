@@ -1848,7 +1848,7 @@ msgstr "HEAD не вказує на гілку"
 #: remote.c:1871
 #, c-format
 msgid "no such branch: '%s'"
-msgstr "не існує такої гілки: '%s'"
+msgstr "немає такої гілки: '%s'"
 
 #: remote.c:1874
 #, c-format
