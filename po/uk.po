@@ -1829,7 +1829,7 @@ msgstr "%s не може бути перетворено на гілку"
 #: remote.c:1322
 #, c-format
 msgid "unable to delete '%s': remote ref does not exist"
-msgstr "не вдається видалити '%s': віддалене посилання не існує"
+msgstr "не вдалося видалити '%s': віддалене посилання не існує"
 
 #: remote.c:1334
 #, c-format
