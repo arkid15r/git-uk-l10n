@@ -1742,7 +1742,7 @@ msgstr "%s відстежує як %s, так і %s"
 #: remote.c:824
 #, c-format
 msgid "key '%s' of pattern had no '*'"
-msgstr "ключі '%s' шаблону не містили '*'"
+msgstr "ключ '%s' шаблону не містив '*'"
 
 #: remote.c:834
 #, c-format
