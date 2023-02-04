@@ -1824,7 +1824,7 @@ msgstr ""
 #: remote.c:1311
 #, c-format
 msgid "%s cannot be resolved to branch"
-msgstr "%s не може бути перетворено на гілку"
+msgstr "%s неможливо розвʼязати в гілку"
 
 #: remote.c:1322
 #, c-format
