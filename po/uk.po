@@ -1701,7 +1701,7 @@ msgstr "Не вдалося скинути індексний файл до ре
 
 #: builtin/reset.c:475
 msgid "Could not write new index file."
-msgstr "Could not write new index file."
+msgstr "Не вдалося записати новий індексний файл."
 
 #: remote.c:403
 #, c-format
