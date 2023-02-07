@@ -1104,7 +1104,7 @@ msgstr "серйозне неспівпадіння під час пакуван
 #: builtin/index-pack.c:823 builtin/index-pack.c:832
 #, c-format
 msgid "SHA1 COLLISION FOUND WITH %s !"
-msgstr "Виявлено SHA1 колізію з %s !"
+msgstr "ВИЯВЛЕНО SHA1 КОЛІЗІЮ З %s!"
 
 #: builtin/index-pack.c:757
 #, c-format
@@ -1138,56 +1138,56 @@ msgstr "неприпустимий %s"
 #: builtin/index-pack.c:867
 #, c-format
 msgid "Not all child objects of %s are reachable"
-msgstr ""
+msgstr "Не всі дочірні об’єкти %s доступні"
 
 #: builtin/index-pack.c:928 builtin/index-pack.c:975
 msgid "failed to apply delta"
-msgstr ""
+msgstr "не вдалося застосувати дельту"
 
 #: builtin/index-pack.c:1161
 msgid "Receiving objects"
-msgstr ""
+msgstr "Отримання об’єктів"
 
 #: builtin/index-pack.c:1161
 msgid "Indexing objects"
-msgstr ""
+msgstr "Індексація об’єктів"
 
 #: builtin/index-pack.c:1195
 msgid "pack is corrupted (SHA1 mismatch)"
-msgstr ""
+msgstr "пакунок пошкоджено (SHA1 не співпадає)"
 
 #: builtin/index-pack.c:1200
 msgid "cannot fstat packfile"
-msgstr ""
+msgstr "неможливо зробити fstat файла пакунка"
 
 #: builtin/index-pack.c:1203
 msgid "pack has junk at the end"
-msgstr ""
+msgstr "мотлох наприкінці пакунка"
 
 #: builtin/index-pack.c:1215
 msgid "confusion beyond insanity in parse_pack_objects()"
-msgstr ""
+msgstr "плутанина на межі пекельного борошна в parse_pack_objects()"
 
 #: builtin/index-pack.c:1238
 msgid "Resolving deltas"
-msgstr ""
+msgstr "Розв’язання дельт"
 
 #: builtin/index-pack.c:1249
 #, c-format
 msgid "unable to create thread: %s"
-msgstr ""
+msgstr "не вдалося створити потік: %s"
 
 #: builtin/index-pack.c:1282
 msgid "confusion beyond insanity"
-msgstr ""
+msgstr "плутанина на межі пекельного борошна"
 
 #: builtin/index-pack.c:1288
 #, c-format
 msgid "completed with %d local object"
 msgid_plural "completed with %d local objects"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "доповнено %d локальним об’єктом"
+msgstr[1] "доповнено %d локальними об’єктами"
+msgstr[2] "доповнено %d локальними об’єктами"
 
 #: builtin/index-pack.c:1300
 #, c-format
@@ -1734,22 +1734,22 @@ msgstr ""
 #: remote.c:752
 #, c-format
 msgid "%s usually tracks %s, not %s"
-msgstr ""
+msgstr "%s зазвичай відстежує %s, а не %s"
 
 #: remote.c:756
 #, c-format
 msgid "%s tracks both %s and %s"
-msgstr ""
+msgstr "%s відстежує як %s, так і %s"
 
 #: remote.c:824
 #, c-format
 msgid "key '%s' of pattern had no '*'"
-msgstr ""
+msgstr "ключ '%s' шаблону не містив '*'"
 
 #: remote.c:834
 #, c-format
 msgid "value '%s' of pattern has no '*'"
-msgstr ""
+msgstr "значення '%s' шаблону не містить '*'"
 
 #: remote.c:1220
 #, c-format
@@ -1786,6 +1786,9 @@ msgid ""
 "Did you mean to create a new branch by pushing to\n"
 "'%s:refs/heads/%s'?"
 msgstr ""
+"Частина <src> у refspec є об’єктом коміту.\n"
+"Ви хотіли створити нову гілку, надіславши зміни до\n"
+"'%s:refs/heads/%s'?"
 
 #: remote.c:1265
 #, c-format
@@ -1794,6 +1797,9 @@ msgid ""
 "Did you mean to create a new tag by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
+"Частина <src> у refspec є об’єктом тегу.\n"
+"Ви хотіли створити новий тег, надіславши зміни до\n"
+"'%s:refs/tags/%s'?"
 
 #: remote.c:1270
 #, c-format
@@ -1802,6 +1808,9 @@ msgid ""
 "Did you mean to tag a new tree by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
+"Частина <src> у refspec є об’єктом дерева.\n"
+"Ви хотіли позначити нове дерево, надіславши зміни до\n"
+"'%s:refs/tags/%s'?"
 
 #: remote.c:1275
 #, c-format
@@ -1810,16 +1819,19 @@ msgid ""
 "Did you mean to tag a new blob by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
+"Частина <src> у refspec є об’єктом blob.\n"
+"Ви хотіли позначити новий blob, надіславши зміни до\n"
+"'%s:refs/tags/%s'?"
 
 #: remote.c:1311
 #, c-format
 msgid "%s cannot be resolved to branch"
-msgstr ""
+msgstr "%s неможливо розвʼязати в гілку"
 
 #: remote.c:1322
 #, c-format
 msgid "unable to delete '%s': remote ref does not exist"
-msgstr ""
+msgstr "не вдалося видалити '%s': віддалене посилання не існує"
 
 #: remote.c:1334
 #, c-format
@@ -1833,32 +1845,33 @@ msgstr ""
 
 #: remote.c:1862 remote.c:1969
 msgid "HEAD does not point to a branch"
-msgstr ""
+msgstr "HEAD не вказує на гілку"
 
 #: remote.c:1871
 #, c-format
 msgid "no such branch: '%s'"
-msgstr ""
+msgstr "немає такої гілки: '%s'"
 
 #: remote.c:1874
 #, c-format
 msgid "no upstream configured for branch '%s'"
-msgstr ""
+msgstr "репозиторій рівнем вишче не налаштовано для гілки '%s'"
 
 #: remote.c:1880
 #, c-format
 msgid "upstream branch '%s' not stored as a remote-tracking branch"
-msgstr ""
+msgstr "гілка '%s' репозиторія рівнем вище не збережена як гілка віддаленого відстеження"
 
 #: remote.c:1895
 #, c-format
 msgid "push destination '%s' on remote '%s' has no local tracking branch"
 msgstr ""
+"шлях призначення надсилання '%s' на віддаленому '%s' не має гілки локального відстеження"
 
 #: remote.c:1910
 #, c-format
 msgid "branch '%s' has no remote for pushing"
-msgstr ""
+msgstr "гілка '%s' не має віддаленого репозиторія для надсилання"
 
 #: remote.c:1920
 #, c-format
@@ -1871,12 +1884,12 @@ msgstr ""
 
 #: remote.c:1955
 msgid "cannot resolve 'simple' push to a single destination"
-msgstr ""
+msgstr "неможливо вирішити 'простe' надсилання до одного пункту призначення"
 
 #: remote.c:2088
 #, c-format
 msgid "couldn't find remote ref %s"
-msgstr ""
+msgstr "не вдалося знайти віддалене посилання %s"
 
 #: remote.c:2101
 #, c-format
@@ -1885,7 +1898,7 @@ msgstr ""
 
 #: remote.c:2189
 msgid "revision walk setup failed"
-msgstr ""
+msgstr "не вдалося налаштувати проходження по ревізіям"
 
 #: remote.c:2268
 #, c-format
@@ -1986,15 +1999,15 @@ msgstr "  (використовуйте \"git rm -—cached <file>...\", щоб 
 
 #: wt-status.c:199
 msgid "  (use \"git add <file>...\" to mark resolution)"
-msgstr ""
+msgstr "  (використовуйте \"git add <файл>...\", щоб позначити як вирішене)"
 
 #: wt-status.c:201 wt-status.c:205
 msgid "  (use \"git add/rm <file>...\" as appropriate to mark resolution)"
-msgstr ""
+msgstr "  (використовуйте \"git add/rm <файл>...\" за потребою, щоб позначити як вирішене)"
 
 #: wt-status.c:203
 msgid "  (use \"git rm <file>...\" to mark resolution)"
-msgstr ""
+msgstr "  (використовуйте \"git rm <файл>...\", щоб позначити як вирішене)"
 
 #: wt-status.c:213 wt-status.c:1143
 msgid "Changes to be committed:"
