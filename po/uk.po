@@ -1710,7 +1710,7 @@ msgstr ""
 
 #: remote.c:451
 msgid "more than one receivepack given, using the first"
-msgstr "надано більше одного пакунка для отримання, використовую першу"
+msgstr "надано більше одного пакунка для отримання, використовую перший"
 
 #: remote.c:459
 msgid "more than one uploadpack given, using the first"
