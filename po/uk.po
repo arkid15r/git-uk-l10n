@@ -1724,7 +1724,7 @@ msgstr "нерозпізнане значення transfer.credentialsInUrl: '%s
 #: remote.c:651 remote.c:653
 #, c-format
 msgid "URL '%s' uses plaintext credentials"
-msgstr "URL-адреса '%s' використовує текстові облікові дані"
+msgstr "URL-адреса '%s' використовує облікові дані у відкритому тексті"
 
 #: remote.c:748
 #, c-format
