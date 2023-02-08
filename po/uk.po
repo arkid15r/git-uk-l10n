@@ -1674,7 +1674,7 @@ msgstr "використання --mixed зі шляхами застаріло;
 #: builtin/reset.c:403
 #, c-format
 msgid "Cannot do %s reset with paths."
-msgstr "Неможливо виконати скидання %s зі шляхами."
+msgstr "Неможливо виконати %s скидання зі шляхами."
 
 #: builtin/reset.c:418
 #, c-format
