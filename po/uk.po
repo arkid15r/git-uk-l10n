@@ -1669,7 +1669,7 @@ msgstr "Не вдалося розпізнати '%s' як припустиме 
 
 #: builtin/reset.c:401
 msgid "--mixed with paths is deprecated; use 'git reset -- <paths>' instead."
-msgstr "--mixed with paths є застарілим; використовуйте 'git reset -- <paths>' замість цього."
+msgstr "використання --mixed зі шляхами застаріло; використовуйте 'git reset -- <paths>' замість цього."
 
 #: builtin/reset.c:403
 #, c-format
