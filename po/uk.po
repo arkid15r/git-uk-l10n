@@ -1875,7 +1875,7 @@ msgstr "гілка '%s' не має віддаленого репозиторі�
 #: remote.c:1920
 #, c-format
 msgid "push refspecs for '%s' do not include '%s'"
-msgstr "push refspecs для '%s' не включають '%s'"
+msgstr "refspecs надсилання для '%s' не включають '%s'"
 
 #: remote.c:1933
 msgid "push has no destination (push.default is 'nothing')"
