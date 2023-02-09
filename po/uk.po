@@ -1879,7 +1879,7 @@ msgstr "push refspecs для '%s' не включають '%s'"
 
 #: remote.c:1933
 msgid "push has no destination (push.default is 'nothing')"
-msgstr "push не має призначення (push.default дорівнює 'nothing')"
+msgstr "надсилання не має призначення (push.default дорівнює 'nothing')"
 
 #: remote.c:1955
 msgid "cannot resolve 'simple' push to a single destination"
