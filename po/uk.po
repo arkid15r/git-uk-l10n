@@ -1770,7 +1770,7 @@ msgstr "значення '%s' шаблону не містить '*'"
 #: remote.c:1220
 #, c-format
 msgid "src refspec %s does not match any"
-msgstr "специфікатора посилання джерела %s не збігається з жодним"
+msgstr "специфікатор посилання джерела %s не збігається з жодним"
 
 #: remote.c:1225
 #, c-format
