@@ -1571,7 +1571,7 @@ msgstr "--mirror не можна комбінувати зі специфіка�
 
 #: builtin/push.c:694
 msgid "push options must not have new line characters"
-msgstr "опції push не повинні містити символів нового рядка"
+msgstr "опції push не можуть містити символи нового рядка"
 
 #: builtin/reset.c:33
 msgid "git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]"
