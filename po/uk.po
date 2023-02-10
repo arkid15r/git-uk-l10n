@@ -1625,7 +1625,7 @@ msgstr "Не вдалося знайти дерево %s."
 #: builtin/reset.c:125
 #, c-format
 msgid "HEAD is now at %s"
-msgstr "HEAD зараз знаходиться на %s"
+msgstr "HEAD зараз на %s"
 
 #: builtin/reset.c:226
 #, c-format
