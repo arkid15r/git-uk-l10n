@@ -1634,7 +1634,7 @@ msgstr "Неможливо виконати %s скидання посеред �
 
 #: builtin/reset.c:324
 msgid "be quiet, only report errors"
-msgstr "мовчати, повідомляти лише про помилки"
+msgstr "тихісенько, повідомляти лише про помилки"
 
 #: builtin/reset.c:326
 msgid "skip refreshing the index after reset"
