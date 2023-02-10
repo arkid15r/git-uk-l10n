@@ -1591,7 +1591,7 @@ msgstr ""
 
 #: builtin/reset.c:42
 msgid "mixed"
-msgstr "змішаний"
+msgstr "змішане"
 
 #: builtin/reset.c:42
 msgid "soft"
