@@ -1630,7 +1630,7 @@ msgstr "HEAD зараз на %s"
 #: builtin/reset.c:226
 #, c-format
 msgid "Cannot do a %s reset in the middle of a merge."
-msgstr "Неможливо виконати скидання %s посеред злиття."
+msgstr "Неможливо виконати %s скидання посеред злиття."
 
 #: builtin/reset.c:324
 msgid "be quiet, only report errors"
