@@ -1599,7 +1599,7 @@ msgstr "м’який"
 
 #: builtin/reset.c:42
 msgid "hard"
-msgstr "жорсткий"
+msgstr "жорстке"
 
 #: builtin/reset.c:42
 msgid "merge"
