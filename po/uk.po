@@ -1611,7 +1611,7 @@ msgstr "зберегти"
 
 #: builtin/reset.c:92
 msgid "You do not have a valid HEAD."
-msgstr "Ви не маєте припустимий HEAD."
+msgstr "У вас немає дійсного HEAD."
 
 #: builtin/reset.c:94
 msgid "Failed to find tree of HEAD."
