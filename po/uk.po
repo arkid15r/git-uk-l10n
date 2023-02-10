@@ -1567,7 +1567,7 @@ msgstr "--all не можна комбінувати зі специфікато
 
 #: builtin/push.c:684
 msgid "--mirror can't be combined with refspecs"
-msgstr "--mirror не можна комбінувати зі специфікатором посилання"
+msgstr "--mirror не можна комбінувати зі специфікаторами посилань"
 
 #: builtin/push.c:694
 msgid "push options must not have new line characters"
