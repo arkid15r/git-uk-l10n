@@ -1563,7 +1563,7 @@ msgstr ""
 
 #: builtin/push.c:678
 msgid "--all can't be combined with refspecs"
-msgstr "--all не можна комбінувати зі специфікатором посилання"
+msgstr "--all не можна комбінувати зі специфікаторами посилань"
 
 #: builtin/push.c:684
 msgid "--mirror can't be combined with refspecs"
