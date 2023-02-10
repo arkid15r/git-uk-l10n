@@ -1658,7 +1658,7 @@ msgstr "скинути HEAD, але зберегти локальні зміни
 
 #: builtin/reset.c:341
 msgid "record only the fact that removed paths will be added later"
-msgstr "записуйте лише той факт, що вилучені шляхи буде додано пізніше"
+msgstr "записати лише той факт, що вилучені шляхи будуть додані пізніше"
 
 #: builtin/reset.c:374
 #, c-format
