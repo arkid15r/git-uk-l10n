@@ -1486,7 +1486,7 @@ msgstr "видалити посилання"
 
 #: builtin/push.c:595
 msgid "push tags (can't be used with --all or --mirror)"
-msgstr "теги надсилання (не можна використовувати з --all або --mirror)"
+msgstr "надіслати теги (не можна використовувати з --all або --mirror)"
 
 #: builtin/push.c:596
 msgid "dry run"
