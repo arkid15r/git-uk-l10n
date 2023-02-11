@@ -1461,7 +1461,7 @@ msgstr "не вдалося надіслати деякі посилання д�
 
 #: builtin/push.c:472
 msgid "recursing into submodule with push.recurseSubmodules=only; using on-demand instead"
-msgstr "рекурсія в підмодуль з push.recurseSubmodules=only; натомість використовую on-demand"
+msgstr "рекурсія в підмодулі з push.recurseSubmodules=only; натомість використовую on-demand"
 
 #: builtin/push.c:535
 #, c-format
