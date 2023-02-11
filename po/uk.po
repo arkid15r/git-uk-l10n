@@ -1506,7 +1506,7 @@ msgstr "<refname>:<expect>"
 
 #: builtin/push.c:600
 msgid "require old value of ref to be at this value"
-msgstr "вимагати, щоб старе значення ref було рівним цьому значенню"
+msgstr "вимагати, щоб старе значення посилання було рівним цьому значенню"
 
 #: builtin/push.c:603
 msgid "require remote updates to be integrated locally"
