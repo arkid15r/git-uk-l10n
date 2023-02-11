@@ -1494,7 +1494,7 @@ msgstr "пробний запуск"
 
 #: builtin/push.c:597
 msgid "machine-readable output"
-msgstr "машинозчитувальний вивід"
+msgstr "машинозчитуваний вивід"
 
 #: builtin/push.c:598
 msgid "force updates"
