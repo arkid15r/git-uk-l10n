@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-01-06 09:45-0800\n"
-"PO-Revision-Date: 2023-02-09 19:41-0800\n"
+"PO-Revision-Date: 2023-02-10 17:59-0800\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -1457,11 +1457,11 @@ msgstr ""
 #: builtin/push.c:396
 #, c-format
 msgid "failed to push some refs to '%s'"
-msgstr ""
+msgstr "не вдалося надіслати деякі посилання до '%s'"
 
 #: builtin/push.c:472
 msgid "recursing into submodule with push.recurseSubmodules=only; using on-demand instead"
-msgstr ""
+msgstr "рекурсія в підмодулі з push.recurseSubmodules=only; натомість використовую on-demand"
 
 #: builtin/push.c:535
 #, c-format
@@ -1470,83 +1470,83 @@ msgstr "неприпустиме значення для '%s'"
 
 #: builtin/push.c:590
 msgid "repository"
-msgstr ""
+msgstr "репозиторій"
 
 #: builtin/push.c:591
 msgid "push all refs"
-msgstr ""
+msgstr "надіслати всі посилання"
 
 #: builtin/push.c:592
 msgid "mirror all refs"
-msgstr ""
+msgstr "віддзеркалити всі посилання"
 
 #: builtin/push.c:594
 msgid "delete refs"
-msgstr ""
+msgstr "видалити посилання"
 
 #: builtin/push.c:595
 msgid "push tags (can't be used with --all or --mirror)"
-msgstr ""
+msgstr "надіслати теги (не можна використовувати з --all або --mirror)"
 
 #: builtin/push.c:596
 msgid "dry run"
-msgstr ""
+msgstr "пробний запуск"
 
 #: builtin/push.c:597
 msgid "machine-readable output"
-msgstr ""
+msgstr "машинозчитуваний вивід"
 
 #: builtin/push.c:598
 msgid "force updates"
-msgstr ""
+msgstr "примусові оновлення"
 
 #: builtin/push.c:599
 msgid "<refname>:<expect>"
-msgstr ""
+msgstr "<refname>:<expect>"
 
 #: builtin/push.c:600
 msgid "require old value of ref to be at this value"
-msgstr ""
+msgstr "вимагати, щоб старе значення посилання було рівним цьому значенню"
 
 #: builtin/push.c:603
 msgid "require remote updates to be integrated locally"
-msgstr ""
+msgstr "вимагати локальної інтеграції віддалених оновлень"
 
 #: builtin/push.c:606
 msgid "control recursive pushing of submodules"
-msgstr ""
+msgstr "контролювати рекурсивне надсилання підмодулів"
 
 #: builtin/push.c:607
 msgid "use thin pack"
-msgstr ""
+msgstr "використовуйте тонке пакування"
 
 #: builtin/push.c:608 builtin/push.c:609
 msgid "receive pack program"
-msgstr ""
+msgstr "отримати пакетну програму"
 
 #: builtin/push.c:610
 msgid "set upstream for git pull/status"
-msgstr ""
+msgstr "налаштувати репозиторій рівнем вишче для git pull/status"
 
 #: builtin/push.c:613
 msgid "prune locally removed refs"
-msgstr ""
+msgstr "обрізати локально видалені посилання"
 
 #: builtin/push.c:615
 msgid "bypass pre-push hook"
-msgstr ""
+msgstr "обійти гачок попереднього надсилання"
 
 #: builtin/push.c:616
 msgid "push missing but relevant tags"
-msgstr ""
+msgstr "надсилання відсутнє, але є релевантні теги"
 
 #: builtin/push.c:618
 msgid "GPG sign the push"
-msgstr ""
+msgstr "підписати надсилання за допомогою GPG"
 
 #: builtin/push.c:620
 msgid "request atomic transaction on remote side"
-msgstr ""
+msgstr "запросити атомарну транзакцію на віддаленій стороні"
 
 #: builtin/push.c:640
 msgid "--delete doesn't make sense without any refs"
@@ -1591,7 +1591,7 @@ msgstr "опції push не можуть містити символи ново
 
 #: builtin/reset.c:33
 msgid "git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]"
-msgstr ""
+msgstr "git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]"
 
 #: builtin/reset.c:34
 msgid "git reset [-q] [<tree-ish>] [--] <pathspec>..."
@@ -1730,7 +1730,7 @@ msgstr "Не вдалося записати новий індексний фа�
 #: remote.c:403
 #, c-format
 msgid "config remote shorthand cannot begin with '/': %s"
-msgstr ""
+msgstr "скорочення віддаленної конфігураціі не може починатися з '/': %s"
 
 #: remote.c:451
 msgid "more than one receivepack given, using the first"
