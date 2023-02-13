@@ -1294,7 +1294,7 @@ msgstr "невідомий хеш-алгоритм '%s'"
 
 #: builtin/index-pack.c:1856
 msgid "--stdin requires a git repository"
-msgstr "—-stdin вимагає наявності git сховища"
+msgstr "--stdin вимагає наявності git сховища"
 
 #: builtin/index-pack.c:1873
 msgid "--verify with no packfile name given"
@@ -2064,7 +2064,7 @@ msgstr "  (використовуйте \"git restore --source=%s —-staged <fi
 
 #: wt-status.c:195 wt-status.c:227
 msgid "  (use \"git rm --cached <file>...\" to unstage)"
-msgstr "  (використовуйте \"git rm -—cached <file>...\", щоб вилучити з індексу)"
+msgstr "  (використовуйте \"git rm --cached <file>...\", щоб вилучити з індексу)"
 
 #: wt-status.c:199
 msgid "  (use \"git add <file>...\" to mark resolution)"
@@ -2331,7 +2331,7 @@ msgstr "Ви розбиваєте коміт під час перебазува�
 
 #: wt-status.c:1477
 msgid "  (Once your working directory is clean, run \"git rebase --continue\")"
-msgstr "  (Після очищення робочої директорії виконайте \"git rebase -—continue\")"
+msgstr "  (Після очищення робочої директорії виконайте \"git rebase --continue\")"
 
 #: wt-status.c:1481
 #, c-format
@@ -2344,7 +2344,7 @@ msgstr "Ви редагуєте коміт під час перебазуван�
 
 #: wt-status.c:1489
 msgid "  (use \"git commit --amend\" to amend the current commit)"
-msgstr "  (використовуйте \"git commit -—amend\" для внесення змін до поточного коміту)"
+msgstr "  (використовуйте \"git commit --amend\" для внесення змін до поточного коміту)"
 
 #: wt-status.c:1491
 msgid "  (use \"git rebase --continue\" once you are satisfied with your changes)"
@@ -2369,15 +2369,15 @@ msgstr "  (виконайте \"git cherry-pick --continue\", щоб продо�
 
 #: wt-status.c:1518
 msgid "  (all conflicts fixed: run \"git cherry-pick --continue\")"
-msgstr "  (усі конфлікти виправлено: виконайте \"git cherry-pick —-continue\")"
+msgstr "  (усі конфлікти виправлено: виконайте \"git cherry-pick --continue\")"
 
 #: wt-status.c:1520
 msgid "  (use \"git cherry-pick --skip\" to skip this patch)"
-msgstr "  (скористайтесь командою \"git cherry-pick —-skip\", щоб пропустити цей патч)"
+msgstr "  (скористайтесь командою \"git cherry-pick --skip\", щоб пропустити цей патч)"
 
 #: wt-status.c:1522
 msgid "  (use \"git cherry-pick --abort\" to cancel the cherry-pick operation)"
-msgstr " (скористайтесь командою \"git cherry-pick -—abort\", щоб скасувати операцію висмикування)"
+msgstr " (скористайтесь командою \"git cherry-pick --abort\", щоб скасувати операцію висмикування)"
 
 #: wt-status.c:1532
 msgid "Revert currently in progress."
@@ -2406,7 +2406,7 @@ msgstr "  (використовуйте \"git revert --skip\", щоб пропу
 
 #: wt-status.c:1551
 msgid "  (use \"git revert --abort\" to cancel the revert operation)"
-msgstr "  (використовуйте \"git revert —abort\", щоб скасувати операцію повернення)"
+msgstr "  (використовуйте \"git revert --abort\", щоб скасувати операцію повернення)"
 
 #: wt-status.c:1561
 #, c-format
