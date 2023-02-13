@@ -929,8 +929,10 @@ static struct object_entry **compute_write_order(void)
 	 */
 	for_each_tag_ref(mark_tagged, NULL);
 
-	if (use_delta_islands)
+	if (use_delta_islands) {
 		max_layers = compute_pack_layers(&to_pack);
+		free_island_marks();
+	}
 
 	ALLOC_ARRAY(wo, to_pack.nr_objects);
 	wo_end = 0;
@@ -1318,7 +1320,7 @@ static int no_try_delta(const char *path)
 
 	if (!check)
 		check = attr_check_initl("delta", NULL);
-	git_check_attr(the_repository->index, path, check);
+	git_check_attr(the_repository->index, NULL, path, check);
 	if (ATTR_FALSE(check->items[0].value))
 		return 1;
 	return 0;
