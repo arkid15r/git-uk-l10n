@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-02-11 19:32-0800\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-02-14 18:36-0800\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -25212,9 +25212,9 @@ msgstr ""
 
 #: trailer.c:494 trailer.c:499 trailer.c:504 trailer.c:564 trailer.c:568
 #: trailer.c:572
-#, fuzzy, c-format
+#, c-format
 msgid "unknown value '%s' for key '%s'"
-msgstr "невідомий хеш-алгоритм '%s'"
+msgstr "невідоме значення '%s' для ключа '%s'"
 
 #: trailer.c:745
 #, c-format
@@ -25222,9 +25222,9 @@ msgid "empty trailer token in trailer '%.*s'"
 msgstr ""
 
 #: trailer.c:765
-#, fuzzy, c-format
+#, c-format
 msgid "could not read input file '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося прочитати вхідний файл '%s'"
 
 #: trailer.c:1026 wrapper.c:744
 #, fuzzy, c-format
@@ -25242,23 +25242,22 @@ msgid "file %s is not writable by user"
 msgstr ""
 
 #: trailer.c:1042
-#, fuzzy
 msgid "could not open temporary file"
-msgstr "не вдається розʼєднати файл тимчасових альтернатив"
+msgstr "не вдалося відкрити тимчасовий файл"
 
 #: trailer.c:1082
-#, fuzzy, c-format
+#, c-format
 msgid "could not rename temporary file to %s"
-msgstr "не вдається перейменувати тимчасовий файл '*.%s' на '%s'"
+msgstr "не вдалося перейменувати тимчасовий файл на %s"
 
 #: transport-helper.c:62 transport-helper.c:91
 msgid "full write to remote helper failed"
 msgstr ""
 
 #: transport-helper.c:145
-#, fuzzy, c-format
+#, c-format
 msgid "unable to find remote helper for '%s'"
-msgstr "Неможливо додати результат злиття для '%s'"
+msgstr "не вдалося знайти віддаленого помічника для '%s'"
 
 #: transport-helper.c:161 transport-helper.c:575
 msgid "can't dup helper output fd"
@@ -25295,9 +25294,9 @@ msgid "error while running fast-import"
 msgstr "помилка під час закриття файлу пакунка"
 
 #: transport-helper.c:549 transport-helper.c:1254
-#, fuzzy, c-format
+#, c-format
 msgid "could not read ref %s"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося прочитати посилання %s"
 
 #: transport-helper.c:594
 #, c-format
@@ -25384,9 +25383,8 @@ msgid "couldn't run fast-export"
 msgstr ""
 
 #: transport-helper.c:1124
-#, fuzzy
 msgid "error while running fast-export"
-msgstr "помилка під час закриття файлу пакунка"
+msgstr "помилка під час виконання швидкого експорту"
 
 #: transport-helper.c:1149
 #, c-format
@@ -25450,9 +25448,9 @@ msgid "Would set upstream of '%s' to '%s' of '%s'\n"
 msgstr ""
 
 #: transport.c:139
-#, fuzzy, c-format
+#, c-format
 msgid "could not read bundle '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося прочитати пакет '%s'"
 
 #: transport.c:235
 #, c-format
@@ -25521,18 +25519,16 @@ msgid "Aborting."
 msgstr ""
 
 #: transport.c:1401
-#, fuzzy
 msgid "failed to push all needed submodules"
-msgstr "не вдалося отримати обіцяні пакети"
+msgstr "не вдалося надіслати всі необхідні підмодулі"
 
 #: transport.c:1545
 msgid "bundle-uri operation not supported by protocol"
 msgstr ""
 
 #: transport.c:1548
-#, fuzzy
 msgid "could not retrieve server-advertised bundle-uri list"
-msgstr "не вдалося отримати обіцяні пакети"
+msgstr "не вдалося отримати список bundle-uri, оголошений на сервері"
 
 #: tree-walk.c:33
 msgid "too-short tree object"
@@ -25789,9 +25785,8 @@ msgid "invalid port number"
 msgstr ""
 
 #: urlmatch.c:371
-#, fuzzy
 msgid "invalid '..' path segment"
-msgstr "неприпустиме зазначення шляху"
+msgstr "недійсний сегмент шляху '..'"
 
 #: usage.c:36
 msgid "usage: "
@@ -25810,9 +25805,8 @@ msgid "warning: "
 msgstr ""
 
 #: walker.c:170
-#, fuzzy
 msgid "Fetching objects"
-msgstr "Перевірка обʼєктів"
+msgstr "Отримання об'єктів"
 
 #: worktree.c:304
 #, c-format
@@ -25830,14 +25824,13 @@ msgid "'%s' is not a .git file, error code %d"
 msgstr ""
 
 #: worktree.c:342
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' does not point back to '%s'"
-msgstr "HEAD не вказує на гілку"
+msgstr "'%s' не вказує назад на '%s'"
 
 #: worktree.c:555
-#, fuzzy
 msgid "not a directory"
-msgstr "директорія-шаблонів"
+msgstr "не є директорією"
 
 #: worktree.c:564
 msgid ".git is not a file"
@@ -25848,9 +25841,8 @@ msgid ".git file broken"
 msgstr ""
 
 #: worktree.c:568
-#, fuzzy
 msgid ".git file incorrect"
-msgstr "індексний файл пошкоджено"
+msgstr "Неправильний файл .git"
 
 #: worktree.c:674
 msgid "not a valid path"
@@ -25886,9 +25878,9 @@ msgid "gitdir file does not exist"
 msgstr "сховище '%s' не існує"
 
 #: worktree.c:734 worktree.c:743
-#, fuzzy, c-format
+#, c-format
 msgid "unable to read gitdir file (%s)"
-msgstr "не вдалося прочитати %s"
+msgstr "не вдалося прочитати файл (%s)"
 
 #: worktree.c:753
 #, c-format
@@ -25904,28 +25896,28 @@ msgid "gitdir file points to non-existent location"
 msgstr ""
 
 #: worktree.c:785
-#, fuzzy, c-format
+#, c-format
 msgid "unable to set %s in '%s'"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдається задати %s в '%s'"
 
 #: worktree.c:787
-#, fuzzy, c-format
+#, c-format
 msgid "unable to unset %s in '%s'"
-msgstr "не вдалося розʼєднати '%s'"
+msgstr "не вдається скинути %s в '%s'"
 
 #: worktree.c:807
 msgid "failed to set extensions.worktreeConfig setting"
 msgstr ""
 
 #: wrapper.c:161
-#, fuzzy, c-format
+#, c-format
 msgid "could not setenv '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося встановити оточення '%s'"
 
 #: wrapper.c:191
-#, fuzzy, c-format
+#, c-format
 msgid "unable to create '%s'"
-msgstr "не вдалося прочитати %s"
+msgstr "не вдається створити '%s'"
 
 #: wrapper.c:193 wrapper.c:363
 #, c-format
@@ -25933,14 +25925,13 @@ msgid "could not open '%s' for reading and writing"
 msgstr ""
 
 #: wrapper.c:394 wrapper.c:667
-#, fuzzy, c-format
+#, c-format
 msgid "unable to access '%s'"
-msgstr "не вдалося оновити %s"
+msgstr "не вдалося отримати доступ до '%s'"
 
 #: wrapper.c:675
-#, fuzzy
 msgid "unable to get current working directory"
-msgstr "не вдалося завантажити стан робочої директорії"
+msgstr "не вдається завантажити робочу директорію"
 
 #: wt-status.c:160
 msgid "Unmerged paths:"
@@ -26571,24 +26562,22 @@ msgid "fatal: $program_name cannot be used without a working tree."
 msgstr ""
 
 #: git-sh-setup.sh:203
-#, fuzzy
 msgid "Cannot rewrite branches: You have unstaged changes."
-msgstr "не можливо %s: У вас є не індексовані зміни."
+msgstr "Не можливо перезаписати гілку: У вас є не індексовані зміни."
 
 #: git-sh-setup.sh:206
-#, fuzzy, sh-format
+#, sh-format
 msgid "Cannot $action: You have unstaged changes."
-msgstr "не можливо %s: У вас є не індексовані зміни."
+msgstr "Не можливо $action: У вас є не індексовані зміни."
 
 #: git-sh-setup.sh:217
-#, fuzzy, sh-format
+#, sh-format
 msgid "Cannot $action: Your index contains uncommitted changes."
-msgstr "не можливо %s: Ваш індекс містить не закомічені зміни."
+msgstr "Не можливо $action: Ваш індекс містить не закомічені зміни."
 
 #: git-sh-setup.sh:219
-#, fuzzy
 msgid "Additionally, your index contains uncommitted changes."
-msgstr "крім того, ваш індекс містить не закомічені зміни."
+msgstr "Крім того, ваш індекс містить не закомічені зміни."
 
 #: git-sh-setup.sh:332
 msgid "You need to run this command from the toplevel of the working tree."
@@ -26753,18 +26742,18 @@ msgid "The selected hunks do not apply to the index!\n"
 msgstr ""
 
 #: git-add--interactive.perl:1362
-#, fuzzy, perl-format
+#, perl-format
 msgid "ignoring unmerged: %s\n"
-msgstr "ігнорувати незлиті записи"
+msgstr "ігнорувати незлиті записи: %s\n"
 
 #: git-add--interactive.perl:1601
 msgid "No other hunks to goto\n"
 msgstr ""
 
 #: git-add--interactive.perl:1619
-#, fuzzy, perl-format
+#, perl-format
 msgid "Invalid number: '%s'\n"
-msgstr "неприпустиме значення для '%s'"
+msgstr "Неприпустиме значення для '%s'\n"
 
 #: git-add--interactive.perl:1624
 #, perl-format
@@ -26837,9 +26826,9 @@ msgid "unknown --patch mode: %s"
 msgstr ""
 
 #: git-add--interactive.perl:1874 git-add--interactive.perl:1880
-#, fuzzy, perl-format
+#, perl-format
 msgid "invalid argument %s, expecting --"
-msgstr "неприпустиме зазначення шляху"
+msgstr "неприпустимий аргумент %s, очікується --"
 
 #: git-send-email.perl:159
 msgid "local zone differs from GMT by a non-minute interval\n"
@@ -26931,9 +26920,9 @@ msgid ""
 msgstr ""
 
 #: git-send-email.perl:773
-#, fuzzy, perl-format
+#, perl-format
 msgid "Failed to opendir %s: %s"
-msgstr "Не вдалося знайти дерево %s."
+msgstr "Не вдалося відкрити %s: %s"
 
 #: git-send-email.perl:810
 msgid ""
@@ -26948,9 +26937,9 @@ msgid "No subject line in %s?"
 msgstr ""
 
 #: git-send-email.perl:834
-#, fuzzy, perl-format
+#, perl-format
 msgid "Failed to open for writing %s: %s"
-msgstr "не вдалося скопіювати файл у '%s'"
+msgstr "Не вдалося відкрити для запису %s: %s"
 
 #: git-send-email.perl:845
 msgid ""
@@ -26962,14 +26951,14 @@ msgid ""
 msgstr ""
 
 #: git-send-email.perl:869
-#, fuzzy, perl-format
+#, perl-format
 msgid "Failed to open %s: %s"
-msgstr "не вдалося скопіювати файл у '%s'"
+msgstr "Не вдалося відкрити %s: %s"
 
 #: git-send-email.perl:886
 #, fuzzy, perl-format
 msgid "Failed to open %s.final: %s"
-msgstr "не вдалося скопіювати файл у '%s'"
+msgstr "Не вдалося відкрити %s. final: %s"
 
 #: git-send-email.perl:929
 msgid "Summary email is empty, skipping it\n"
@@ -27074,9 +27063,9 @@ msgid "Unable to initialize SMTP properly. Check config and use --smtp-debug."
 msgstr ""
 
 #: git-send-email.perl:1707
-#, fuzzy, perl-format
+#, perl-format
 msgid "Failed to send %s\n"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося виконати stat '%s'\n"
 
 #: git-send-email.perl:1710
 #, perl-format
@@ -27105,9 +27094,9 @@ msgid "Result: OK\n"
 msgstr ""
 
 #: git-send-email.perl:1751
-#, fuzzy, perl-format
+#, perl-format
 msgid "can't open file %s"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "неможливо відкрити файл '%s'"
 
 #: git-send-email.perl:1799 git-send-email.perl:1819
 #, perl-format
@@ -27130,9 +27119,9 @@ msgid "(body) Adding cc: %s from line '%s'\n"
 msgstr ""
 
 #: git-send-email.perl:2016
-#, fuzzy, perl-format
+#, perl-format
 msgid "(%s) Could not execute '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "(%s) Не вдалося виконати '%s'"
 
 #: git-send-email.perl:2023
 #, perl-format
@@ -27149,9 +27138,8 @@ msgid "cannot send message as 7bit"
 msgstr ""
 
 #: git-send-email.perl:2065
-#, fuzzy
 msgid "invalid transfer encoding"
-msgstr "неприпустиме посилання: %s"
+msgstr "невірне кодування передачі"
 
 #: git-send-email.perl:2107
 #, perl-format
@@ -27162,9 +27150,9 @@ msgid ""
 msgstr ""
 
 #: git-send-email.perl:2117 git-send-email.perl:2170 git-send-email.perl:2180
-#, fuzzy, perl-format
+#, perl-format
 msgid "unable to open %s: %s\n"
-msgstr "не вдалося оновити %s"
+msgstr "не вдалося відкрити %s: %s\n"
 
 #: git-send-email.perl:2120
 #, perl-format
