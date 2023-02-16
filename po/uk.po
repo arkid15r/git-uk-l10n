@@ -26563,7 +26563,7 @@ msgstr ""
 
 #: git-sh-setup.sh:203
 msgid "Cannot rewrite branches: You have unstaged changes."
-msgstr "Не можливо перезаписати гілку: У вас є не індексовані зміни."
+msgstr "Неможливо переписати гілку: у вас є неіндексовані зміни."
 
 #: git-sh-setup.sh:206
 #, sh-format
