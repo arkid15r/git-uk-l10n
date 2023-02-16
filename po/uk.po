@@ -26577,7 +26577,7 @@ msgstr "Неможливо $action: ваш індекс містить неза�
 
 #: git-sh-setup.sh:219
 msgid "Additionally, your index contains uncommitted changes."
-msgstr "Крім того, ваш індекс містить не закомічені зміни."
+msgstr "Крім того, ваш індекс містить незакомічені зміни."
 
 #: git-sh-setup.sh:332
 msgid "You need to run this command from the toplevel of the working tree."
