@@ -25257,7 +25257,7 @@ msgstr ""
 #: transport-helper.c:145
 #, c-format
 msgid "unable to find remote helper for '%s'"
-msgstr "не вдалося знайти віддаленого помічника для '%s'"
+msgstr "не вдалося знайти віддаленого помічника для \"%s\""
 
 #: transport-helper.c:161 transport-helper.c:575
 msgid "can't dup helper output fd"
