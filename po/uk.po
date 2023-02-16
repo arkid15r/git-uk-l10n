@@ -27139,7 +27139,7 @@ msgstr ""
 
 #: git-send-email.perl:2065
 msgid "invalid transfer encoding"
-msgstr "невірне кодування передачі"
+msgstr "неприпустиме кодування передачі"
 
 #: git-send-email.perl:2107
 #, perl-format
