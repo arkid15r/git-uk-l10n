@@ -25931,7 +25931,7 @@ msgstr "не вдалося отримати доступ до \"%s\""
 
 #: wrapper.c:675
 msgid "unable to get current working directory"
-msgstr "не вдається завантажити робочу директорію"
+msgstr "не вдалося завантажити поточну робочу директорію"
 
 #: wt-status.c:160
 msgid "Unmerged paths:"
