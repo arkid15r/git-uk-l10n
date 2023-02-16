@@ -25806,7 +25806,7 @@ msgstr ""
 
 #: walker.c:170
 msgid "Fetching objects"
-msgstr "Отримання об'єктів"
+msgstr "Отримання обʼєктів"
 
 #: worktree.c:304
 #, c-format
