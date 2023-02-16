@@ -25826,7 +25826,7 @@ msgstr ""
 #: worktree.c:342
 #, c-format
 msgid "'%s' does not point back to '%s'"
-msgstr "'%s' не вказує назад на '%s'"
+msgstr "\"%s\" не вказує назад на \"%s\""
 
 #: worktree.c:555
 msgid "not a directory"
