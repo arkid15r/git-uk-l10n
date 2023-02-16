@@ -25880,7 +25880,7 @@ msgstr "сховище '%s' не існує"
 #: worktree.c:734 worktree.c:743
 #, c-format
 msgid "unable to read gitdir file (%s)"
-msgstr "не вдалося прочитати файл (%s)"
+msgstr "не вдалося прочитати файл git директорії (%s)"
 
 #: worktree.c:753
 #, c-format
