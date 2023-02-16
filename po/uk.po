@@ -26573,7 +26573,7 @@ msgstr "Неможливо $action: у вас є неіндексовані зм
 #: git-sh-setup.sh:217
 #, sh-format
 msgid "Cannot $action: Your index contains uncommitted changes."
-msgstr "Не можливо $action: Ваш індекс містить не закомічені зміни."
+msgstr "Неможливо $action: ваш індекс містить незакомічені зміни."
 
 #: git-sh-setup.sh:219
 msgid "Additionally, your index contains uncommitted changes."
