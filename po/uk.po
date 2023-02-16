@@ -25903,7 +25903,7 @@ msgstr "не вдалося задати %s в \"%s\""
 #: worktree.c:787
 #, c-format
 msgid "unable to unset %s in '%s'"
-msgstr "не вдається скинути %s в '%s'"
+msgstr "не вдалося скинути %s в \"%s\""
 
 #: worktree.c:807
 msgid "failed to set extensions.worktreeConfig setting"
