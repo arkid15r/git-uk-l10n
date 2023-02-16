@@ -25786,7 +25786,7 @@ msgstr ""
 
 #: urlmatch.c:371
 msgid "invalid '..' path segment"
-msgstr "недійсний сегмент шляху '..'"
+msgstr "недійсний сегмент шляху \"..\""
 
 #: usage.c:36
 msgid "usage: "
