@@ -27065,7 +27065,7 @@ msgstr ""
 #: git-send-email.perl:1707
 #, perl-format
 msgid "Failed to send %s\n"
-msgstr "не вдалося виконати stat '%s'\n"
+msgstr "Не вдалося відправити %s\n"
 
 #: git-send-email.perl:1710
 #, perl-format
