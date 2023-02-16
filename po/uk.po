@@ -25898,7 +25898,7 @@ msgstr ""
 #: worktree.c:785
 #, c-format
 msgid "unable to set %s in '%s'"
-msgstr "не вдається задати %s в '%s'"
+msgstr "не вдалося задати %s в \"%s\""
 
 #: worktree.c:787
 #, c-format
