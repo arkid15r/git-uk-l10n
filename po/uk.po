@@ -26753,7 +26753,7 @@ msgstr ""
 #: git-add--interactive.perl:1619
 #, perl-format
 msgid "Invalid number: '%s'\n"
-msgstr "Неприпустиме значення для '%s'\n"
+msgstr "Неприпустиме значення для \"%s\"\n"
 
 #: git-add--interactive.perl:1624
 #, perl-format
