@@ -25450,7 +25450,7 @@ msgstr ""
 #: transport.c:139
 #, c-format
 msgid "could not read bundle '%s'"
-msgstr "не вдалося прочитати пакет '%s'"
+msgstr "не вдалося прочитати пакет \"%s\""
 
 #: transport.c:235
 #, c-format
