@@ -25528,7 +25528,7 @@ msgstr ""
 
 #: transport.c:1548
 msgid "could not retrieve server-advertised bundle-uri list"
-msgstr "не вдалося отримати список bundle-uri, оголошений на сервері"
+msgstr "не вдалося отримати список адрес пакетів, оголошений сервером"
 
 #: tree-walk.c:33
 msgid "too-short tree object"
