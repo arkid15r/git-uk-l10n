@@ -25917,7 +25917,7 @@ msgstr "не вдалося встановити оточення \"%s\""
 #: wrapper.c:191
 #, c-format
 msgid "unable to create '%s'"
-msgstr "не вдається створити '%s'"
+msgstr "не вдалося створити \"%s\""
 
 #: wrapper.c:193 wrapper.c:363
 #, c-format
