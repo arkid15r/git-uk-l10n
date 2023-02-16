@@ -26958,7 +26958,7 @@ msgstr "Не вдалося відкрити %s: %s"
 #: git-send-email.perl:886
 #, fuzzy, perl-format
 msgid "Failed to open %s.final: %s"
-msgstr "Не вдалося відкрити %s. final: %s"
+msgstr "Не вдалося відкрити %s.final: %s"
 
 #: git-send-email.perl:929
 msgid "Summary email is empty, skipping it\n"
