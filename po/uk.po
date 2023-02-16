@@ -25224,7 +25224,7 @@ msgstr ""
 #: trailer.c:765
 #, c-format
 msgid "could not read input file '%s'"
-msgstr "не вдалося прочитати вхідний файл '%s'"
+msgstr "не вдалося прочитати вхідний файл \"%s\""
 
 #: trailer.c:1026 wrapper.c:744
 #, fuzzy, c-format
