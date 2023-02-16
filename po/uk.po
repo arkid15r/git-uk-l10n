@@ -25912,7 +25912,7 @@ msgstr ""
 #: wrapper.c:161
 #, c-format
 msgid "could not setenv '%s'"
-msgstr "не вдалося встановити оточення '%s'"
+msgstr "не вдалося встановити оточення \"%s\""
 
 #: wrapper.c:191
 #, c-format
