@@ -25927,7 +25927,7 @@ msgstr ""
 #: wrapper.c:394 wrapper.c:667
 #, c-format
 msgid "unable to access '%s'"
-msgstr "не вдалося отримати доступ до '%s'"
+msgstr "не вдалося отримати доступ до \"%s\""
 
 #: wrapper.c:675
 msgid "unable to get current working directory"
