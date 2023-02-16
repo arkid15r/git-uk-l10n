@@ -26744,7 +26744,7 @@ msgstr ""
 #: git-add--interactive.perl:1362
 #, perl-format
 msgid "ignoring unmerged: %s\n"
-msgstr "ігнорувати незлиті записи: %s\n"
+msgstr "ігноруються незлиті записи: %s\n"
 
 #: git-add--interactive.perl:1601
 msgid "No other hunks to goto\n"
