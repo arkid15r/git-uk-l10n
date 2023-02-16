@@ -27121,7 +27121,7 @@ msgstr ""
 #: git-send-email.perl:2016
 #, perl-format
 msgid "(%s) Could not execute '%s'"
-msgstr "(%s) Не вдалося виконати '%s'"
+msgstr "(%s) Не вдалося виконати \"%s\""
 
 #: git-send-email.perl:2023
 #, perl-format
