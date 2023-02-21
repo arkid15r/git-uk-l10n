@@ -516,7 +516,7 @@ msgstr "не вдалося розібрати кольоровану різни
 #: add-patch.c:465
 #, c-format
 msgid "failed to run '%s'"
-msgstr "не вдалося запустити \\”%s\\”"
+msgstr "не вдалося запустити \"%s\""
 
 #: add-patch.c:622
 msgid "mismatched output from interactive.diffFilter"
