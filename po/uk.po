@@ -24758,7 +24758,7 @@ msgstr "не вдалося виконати stat '%s'"
 
 #: setup.c:1452
 msgid "Unable to read current working directory"
-msgstr "Не вдалося прочитати поточний робочий каталог"
+msgstr "Не вдалося прочитати поточну робочу директорію"
 
 #: setup.c:1461 setup.c:1467
 #, c-format
