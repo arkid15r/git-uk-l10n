@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-02-16 17:28-0800\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-02-15 17:51-0800\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -24738,9 +24738,8 @@ msgid "cannot chdir to '%s'"
 msgstr "неможливо записати %s файл '%s'"
 
 #: setup.c:940 setup.c:996 setup.c:1006 setup.c:1045 setup.c:1053
-#, fuzzy
 msgid "cannot come back to cwd"
-msgstr "Неможливо повернутися до поточної робочої директорії"
+msgstr "неможливо повернутися до поточної робочої директорії"
 
 #: setup.c:1067
 #, fuzzy, c-format
@@ -24748,14 +24747,13 @@ msgid "failed to stat '%*s%s%s'"
 msgstr "не вдалося виконати stat '%s'"
 
 #: setup.c:1452
-#, fuzzy
 msgid "Unable to read current working directory"
-msgstr "не вдалося завантажити стан робочої директорії"
+msgstr "Не вдалося прочитати поточну робочу директорію"
 
 #: setup.c:1461 setup.c:1467
-#, fuzzy, c-format
+#, c-format
 msgid "cannot change to '%s'"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "неможливо змінити на \"%s\""
 
 #: setup.c:1472
 #, c-format
@@ -24862,9 +24860,9 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: strbuf.c:1196
-#, fuzzy, c-format
+#, c-format
 msgid "could not edit '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося відредагувати \"%s\""
 
 #: submodule-config.c:238
 #, c-format
@@ -24881,9 +24879,9 @@ msgid "ignoring '%s' which may be interpreted as a command-line option: %s"
 msgstr ""
 
 #: submodule-config.c:830
-#, fuzzy, c-format
+#, c-format
 msgid "Could not update .gitmodules entry %s"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "Не вдалося оновити запис %s у .gitmodules"
 
 #: submodule.c:115 submodule.c:144
 msgid "Cannot change unmerged .gitmodules, resolve merge conflicts first"
@@ -24943,14 +24941,14 @@ msgid "process for submodule '%s' failed"
 msgstr ""
 
 #: submodule.c:1239
-#, fuzzy, c-format
+#, c-format
 msgid "Pushing submodule '%s'\n"
-msgstr "Надсилання до %s\n"
+msgstr "Надсилання підмодуля \"%s\"\n"
 
 #: submodule.c:1242
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to push submodule '%s'\n"
-msgstr "не вдалося надіслати деякі посилання до '%s'"
+msgstr "Не вдалося надіслати підмодуль \"%s\"\n"
 
 #: submodule.c:1575
 #, c-format
@@ -24958,9 +24956,9 @@ msgid "Fetching submodule %s%s\n"
 msgstr ""
 
 #: submodule.c:1597
-#, fuzzy, c-format
+#, c-format
 msgid "Could not access submodule '%s'\n"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "Не вдалося отримати доступ до підмодуля \"%s\"\n"
 
 #: submodule.c:1626
 #, c-format
@@ -24980,9 +24978,9 @@ msgid ""
 msgstr ""
 
 #: submodule.c:1888
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' not recognized as a git repository"
-msgstr "--stdin вимагає наявності git сховища"
+msgstr "\"%s\" не розпізнано як git сховище"
 
 #: submodule.c:1905
 #, c-format
@@ -25005,19 +25003,18 @@ msgid "could not run 'git status' in submodule '%s'"
 msgstr ""
 
 #: submodule.c:2051
-#, fuzzy, c-format
+#, c-format
 msgid "Could not unset core.worktree setting in submodule '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "Не вдалося скинути налаштування core.worktree у підмодулі \"%s\""
 
 #: submodule.c:2070 submodule.c:2327
-#, fuzzy, c-format
+#, c-format
 msgid "could not recurse into submodule '%s'"
-msgstr "контролювати рекурсивне надсилання підмодулів"
+msgstr "не вдалося рекурсивно перейти в підмодуль \"%s\""
 
 #: submodule.c:2092
-#, fuzzy
 msgid "could not reset submodule index"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося скинути індекс підмодуля"
 
 #: submodule.c:2133
 #, c-format
@@ -25025,9 +25022,9 @@ msgid "submodule '%s' has dirty index"
 msgstr ""
 
 #: submodule.c:2187
-#, fuzzy, c-format
+#, c-format
 msgid "Submodule '%s' could not be updated."
-msgstr "Підмодулі змінено, але не оновлено:"
+msgstr "Не вдалося оновити підмодуль \"%s\"."
 
 #: submodule.c:2255
 #, c-format
@@ -25041,9 +25038,9 @@ msgid ""
 msgstr ""
 
 #: submodule.c:2289 submodule.c:2368
-#, fuzzy, c-format
+#, c-format
 msgid "could not lookup name for submodule '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося знайти імʼя для підмодуля \"%s\""
 
 #: submodule.c:2293
 #, c-format
@@ -25059,9 +25056,8 @@ msgid ""
 msgstr ""
 
 #: submodule.c:2427
-#, fuzzy
 msgid "could not start ls-files in .."
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося запустити ls-файли в .."
 
 #: submodule.c:2468
 #, c-format
@@ -25175,9 +25171,8 @@ msgid "number of bytes"
 msgstr ""
 
 #: t/helper/test-simple-ipc.c:603
-#, fuzzy
 msgid "number of requests per thread"
-msgstr "не вдалося створити потік: %s"
+msgstr "кількість запитів на потік"
 
 #: t/helper/test-simple-ipc.c:605
 msgid "byte"
@@ -25279,9 +25274,8 @@ msgid "couldn't run fast-import"
 msgstr ""
 
 #: transport-helper.c:520
-#, fuzzy
 msgid "error while running fast-import"
-msgstr "помилка під час закриття файлу пакунка"
+msgstr "помилка під час виконання швидкого імпорту"
 
 #: transport-helper.c:549 transport-helper.c:1254
 #, c-format
@@ -25298,9 +25292,8 @@ msgid "setting remote service path not supported by protocol"
 msgstr ""
 
 #: transport-helper.c:618
-#, fuzzy
 msgid "invalid remote service path"
-msgstr "неприпустиме посилання: %s"
+msgstr "неприпустимий шлях до віддаленої служби"
 
 #: transport-helper.c:661 transport.c:1572
 msgid "operation not supported by protocol"
@@ -25409,9 +25402,9 @@ msgid "%s thread failed"
 msgstr ""
 
 #: transport-helper.c:1487
-#, fuzzy, c-format
+#, c-format
 msgid "%s thread failed to join: %s"
-msgstr "не вдалося розʼєднати '%s'"
+msgstr "%s потік не зміг приєднатись: %s"
 
 #: transport-helper.c:1506 transport-helper.c:1510
 #, c-format
@@ -25468,9 +25461,9 @@ msgid "support for protocol v2 not implemented yet"
 msgstr ""
 
 #: transport.c:1016
-#, fuzzy, c-format
+#, c-format
 msgid "unknown value for config '%s': %s"
-msgstr "невідомий хеш-алгоритм '%s'"
+msgstr "невідоме значення для конфігураціі \"%s\": %s"
 
 #: transport.c:1081
 #, c-format
