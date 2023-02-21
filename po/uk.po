@@ -24749,7 +24749,7 @@ msgstr "неможливо записати %s файл '%s'"
 
 #: setup.c:940 setup.c:996 setup.c:1006 setup.c:1045 setup.c:1053
 msgid "cannot come back to cwd"
-msgstr "Неможливо повернутися до cwd"
+msgstr "неможливо повернутися до поточної робочої директорії"
 
 #: setup.c:1067
 #, fuzzy, c-format
