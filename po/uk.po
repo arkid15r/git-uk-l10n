@@ -25414,7 +25414,7 @@ msgstr ""
 #: transport-helper.c:1487
 #, c-format
 msgid "%s thread failed to join: %s"
-msgstr "Не вдалося приєднати потік %s: %s"
+msgstr "%s потік не зміг приєднатись: %s"
 
 #: transport-helper.c:1506 transport-helper.c:1510
 #, c-format
