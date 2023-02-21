@@ -24891,7 +24891,7 @@ msgstr ""
 #: submodule-config.c:830
 #, c-format
 msgid "Could not update .gitmodules entry %s"
-msgstr "Не вдалося оновити запис .gitmodules %s"
+msgstr "Не вдалося оновити запис %s у .gitmodules"
 
 #: submodule.c:115 submodule.c:144
 msgid "Cannot change unmerged .gitmodules, resolve merge conflicts first"
