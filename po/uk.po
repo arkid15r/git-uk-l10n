@@ -25050,7 +25050,7 @@ msgstr ""
 #: submodule.c:2289 submodule.c:2368
 #, c-format
 msgid "could not lookup name for submodule '%s'"
-msgstr "не вдалося знайти ім'я для підмодуля \"%s\""
+msgstr "не вдалося знайти імʼя для підмодуля \"%s\""
 
 #: submodule.c:2293
 #, c-format
