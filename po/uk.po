@@ -24406,7 +24406,7 @@ msgstr "не вдалося навіть спробувати злити \"%.*s\
 
 #: sequencer.c:4113
 msgid "merge: Unable to write new index file"
-msgstr "не змогла навіть спробувати обʼєднати \"%.*s\""
+msgstr "злиття: Не вдалося записати новий файл індексу"
 
 #: sequencer.c:4167
 #, c-format
