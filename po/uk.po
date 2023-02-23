@@ -8771,9 +8771,9 @@ msgstr "плутанина на межі пекельного борошна"
 #, c-format
 msgid "completed with %d local object"
 msgid_plural "completed with %d local objects"
-msgstr[0] "доповнено %d локальним об’єктом"
-msgstr[1] "доповнено %d локальними об’єктами"
-msgstr[2] "доповнено %d локальними об’єктами"
+msgstr[0] "завершено з %d локальним об’єктом"
+msgstr[1] "завершено з %d локальними об’єктами"
+msgstr[2] "завершено з %d локальними об’єктами"
 
 #: builtin/index-pack.c:1300
 #, c-format
