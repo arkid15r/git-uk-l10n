@@ -25201,7 +25201,7 @@ msgstr "не вдалося прочитати вхідний файл \"%s\""
 #: trailer.c:1026 wrapper.c:744
 #, c-format
 msgid "could not stat %s"
-msgstr "не вдалося записати %s"
+msgstr "не вдалося прочитати %s"
 
 #: trailer.c:1028
 #, c-format
