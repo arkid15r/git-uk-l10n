@@ -24627,7 +24627,7 @@ msgstr ""
 #: setup.c:139
 #, c-format
 msgid "'%s' is outside repository at '%s'"
-msgstr "\"%s\" знаходиться за межами сховища за адресою \"%s\""
+msgstr "\"%s\" зовнішнє сховище в \"%s\""
 
 #: setup.c:191
 #, c-format
