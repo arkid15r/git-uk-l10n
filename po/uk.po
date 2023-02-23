@@ -24540,7 +24540,7 @@ msgstr ""
 
 #: sequencer.c:4920
 msgid "cannot rebase: You have unstaged changes."
-msgstr "не можливо перезавантажитися: у вас є неіндексовані зміни."
+msgstr "неможливо перебазувати: у вас є неіндексовані зміни."
 
 #: sequencer.c:4929
 msgid "cannot amend non-existing commit"
