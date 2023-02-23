@@ -24397,7 +24397,7 @@ msgstr ""
 #: sequencer.c:3951
 #, c-format
 msgid "could not get commit message of '%s'"
-msgstr "не вдалося отримати повідомлення про злиття \"%s\""
+msgstr "не вдалося отримати повідомлення коміта \"%s\""
 
 #: sequencer.c:4097
 #, c-format
