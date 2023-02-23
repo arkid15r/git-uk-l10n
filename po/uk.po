@@ -24357,7 +24357,7 @@ msgstr ""
 #: sequencer.c:3729
 #, c-format
 msgid "could not resolve '%s'"
-msgstr "не вдалося розпізнати '%s'"
+msgstr "не вдалося розпізнати \"%s\""
 
 #: sequencer.c:3755
 msgid "writing fake root commit"
