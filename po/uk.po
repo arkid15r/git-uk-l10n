@@ -24698,7 +24698,7 @@ msgstr "помилка зчитування %s"
 #: setup.c:786
 #, c-format
 msgid "invalid gitfile format: %s"
-msgstr "неприпустимий формат git-файлу: %s"
+msgstr "неприпустимий формат git файлу: %s"
 
 #: setup.c:788
 #, c-format
