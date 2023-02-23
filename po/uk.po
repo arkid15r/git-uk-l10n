@@ -24449,7 +24449,7 @@ msgstr ""
 
 #: sequencer.c:4426
 msgid "could not reset --hard"
-msgstr "не вдалося скинути --hard"
+msgstr "не вдалося виконати жорстке скидання"
 
 #: sequencer.c:4450
 #, c-format
