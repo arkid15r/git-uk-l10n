@@ -24459,7 +24459,7 @@ msgstr ""
 #: sequencer.c:4462
 #, c-format
 msgid "cannot store %s"
-msgstr "неможливо зберігати %s"
+msgstr "неможливо зберегти %s"
 
 #: sequencer.c:4465
 #, c-format
