@@ -24574,7 +24574,7 @@ msgstr "не вдалося видалити CHERRY_PICK_HEAD"
 
 #: sequencer.c:5037
 msgid "could not commit staged changes."
-msgstr "не вдалося надіслати індексовані зміни."
+msgstr "не вдалося записати індексовані зміни."
 
 #: sequencer.c:5158
 #, c-format
