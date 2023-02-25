@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-02-22 18:53-0800\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-02-21 17:28-0800\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -112,9 +112,9 @@ msgstr[1] "додано %d шляхи\n"
 msgstr[2] "додано %d шляхів\n"
 
 #: add-interactive.c:938
-#, fuzzy, c-format
+#, c-format
 msgid "ignoring unmerged: %s"
-msgstr "ігнорувати незлиті записи"
+msgstr "ігноруються незлиті записи: %s"
 
 #: add-interactive.c:950 add-patch.c:1772 git-add--interactive.perl:1371
 #, c-format
@@ -122,14 +122,13 @@ msgid "Only binary files changed.\n"
 msgstr ""
 
 #: add-interactive.c:952 add-patch.c:1770 git-add--interactive.perl:1373
-#, fuzzy, c-format
+#, c-format
 msgid "No changes.\n"
-msgstr "Немає змін"
+msgstr "Нічого не змінено.\n"
 
 #: add-interactive.c:956 git-add--interactive.perl:1381
-#, fuzzy
 msgid "Patch update"
-msgstr "оновити примусово"
+msgstr "Оновлення патча"
 
 #: add-interactive.c:995 git-add--interactive.perl:1794
 msgid "Review diff"
@@ -148,9 +147,8 @@ msgid "revert staged set of changes back to the HEAD version"
 msgstr ""
 
 #: add-interactive.c:1028
-#, fuzzy
 msgid "pick hunks and update selectively"
-msgstr "обирати шматки інтерактивно"
+msgstr "вибирати шматки і оновлювати вибірково"
 
 #: add-interactive.c:1030
 msgid "view diff between HEAD and index"
@@ -500,14 +498,13 @@ msgid ""
 msgstr ""
 
 #: add-patch.c:344
-#, fuzzy, c-format
+#, c-format
 msgid "could not parse hunk header '%.*s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося розібрати заголовок шматка \"%.*s\""
 
 #: add-patch.c:432
-#, fuzzy
 msgid "could not parse diff"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося розібрати різницю"
 
 #: add-patch.c:451
 msgid "could not parse colored diff"
@@ -636,9 +633,9 @@ msgid "go to which hunk? "
 msgstr ""
 
 #: add-patch.c:1580
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid number: '%s'"
-msgstr "неприпустиме значення для '%s'"
+msgstr "Неприпустиме число: \"%s\""
 
 #: add-patch.c:1585
 #, c-format
@@ -8774,9 +8771,9 @@ msgstr "плутанина на межі пекельного борошна"
 #, c-format
 msgid "completed with %d local object"
 msgid_plural "completed with %d local objects"
-msgstr[0] "доповнено %d локальним об’єктом"
-msgstr[1] "доповнено %d локальними об’єктами"
-msgstr[2] "доповнено %d локальними об’єктами"
+msgstr[0] "завершено з %d локальним об’єктом"
+msgstr[1] "завершено з %d локальними об’єктами"
+msgstr[2] "завершено з %d локальними об’єктами"
 
 #: builtin/index-pack.c:1300
 #, c-format
@@ -26713,7 +26710,7 @@ msgstr ""
 #: git-add--interactive.perl:1619
 #, perl-format
 msgid "Invalid number: '%s'\n"
-msgstr "Неприпустиме значення для \"%s\"\n"
+msgstr "Неприпустиме число \"%s\"\n"
 
 #: git-add--interactive.perl:1624
 #, perl-format
@@ -27089,9 +27086,9 @@ msgid "(%s) Adding %s: %s from: '%s'\n"
 msgstr ""
 
 #: git-send-email.perl:2027
-#, fuzzy, perl-format
+#, perl-format
 msgid "(%s) failed to close pipe to '%s'"
-msgstr "не вдалося скопіювати файл у '%s'"
+msgstr "(%s) не вдалося закрити канал до \"%s\""
 
 #: git-send-email.perl:2057
 msgid "cannot send message as 7bit"
