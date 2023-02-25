@@ -24378,9 +24378,9 @@ msgid "cannot merge without a current revision"
 msgstr ""
 
 #: sequencer.c:3875
-#, fuzzy, c-format
+#, c-format
 msgid "unable to parse '%.*s'"
-msgstr "не вдалося оновити %s"
+msgstr "не вдалося розібрати \"%.*s\""
 
 #: sequencer.c:3884
 #, c-format
@@ -24392,19 +24392,18 @@ msgid "octopus merge cannot be executed on top of a [new root]"
 msgstr ""
 
 #: sequencer.c:3951
-#, fuzzy, c-format
+#, c-format
 msgid "could not get commit message of '%s'"
-msgstr "не вдалося створити провідні директорії для '%s'"
+msgstr "не вдалося отримати повідомлення коміта \"%s\""
 
 #: sequencer.c:4097
-#, fuzzy, c-format
+#, c-format
 msgid "could not even attempt to merge '%.*s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося навіть спробувати злити \"%.*s\""
 
 #: sequencer.c:4113
-#, fuzzy
 msgid "merge: Unable to write new index file"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "злиття: Не вдалося записати новий файл індексу"
 
 #: sequencer.c:4167
 #, c-format
@@ -24436,9 +24435,9 @@ msgid "Unexpected stash response: '%s'"
 msgstr ""
 
 #: sequencer.c:4421
-#, fuzzy, c-format
+#, c-format
 msgid "Could not create directory for '%s'"
-msgstr "не вдалося створити директорію '%s'"
+msgstr "Не вдалося створити директорію для \"%s\""
 
 #: sequencer.c:4424
 #, c-format
@@ -24446,9 +24445,8 @@ msgid "Created autostash: %s\n"
 msgstr ""
 
 #: sequencer.c:4426
-#, fuzzy
 msgid "could not reset --hard"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося виконати жорстке скидання"
 
 #: sequencer.c:4450
 #, c-format
@@ -24456,9 +24454,9 @@ msgid "Applied autostash.\n"
 msgstr ""
 
 #: sequencer.c:4462
-#, fuzzy, c-format
+#, c-format
 msgid "cannot store %s"
-msgstr "не вдалося вирішити %s"
+msgstr "неможливо зберегти %s"
 
 #: sequencer.c:4465
 #, c-format
@@ -24477,9 +24475,8 @@ msgid "Autostash exists; creating a new stash entry."
 msgstr ""
 
 #: sequencer.c:4527
-#, fuzzy
 msgid "could not detach HEAD"
-msgstr "У вас немає дійсного HEAD."
+msgstr "не вдалося відʼєднати HEAD"
 
 #: sequencer.c:4542
 #, c-format
@@ -24515,14 +24512,13 @@ msgid "Stopped at %s...  %.*s\n"
 msgstr ""
 
 #: sequencer.c:4739
-#, fuzzy, c-format
+#, c-format
 msgid "unknown command %d"
-msgstr "Не виконано жодної команди."
+msgstr "невідома команда %d"
 
 #: sequencer.c:4787
-#, fuzzy
 msgid "could not read orig-head"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося прочитати orig-head"
 
 #: sequencer.c:4792
 #, fuzzy
@@ -24530,9 +24526,9 @@ msgid "could not read 'onto'"
 msgstr "не вдалося вирішити %s"
 
 #: sequencer.c:4806
-#, fuzzy, c-format
+#, c-format
 msgid "could not update HEAD to %s"
-msgstr "не вдалося оновити HEAD"
+msgstr "не вдалося оновити HEAD до %s"
 
 #: sequencer.c:4867
 #, c-format
@@ -24540,24 +24536,22 @@ msgid "Successfully rebased and updated %s.\n"
 msgstr ""
 
 #: sequencer.c:4920
-#, fuzzy
 msgid "cannot rebase: You have unstaged changes."
-msgstr "не можливо %s: У вас є не індексовані зміни."
+msgstr "неможливо перебазувати: у вас є неіндексовані зміни."
 
 #: sequencer.c:4929
-#, fuzzy
 msgid "cannot amend non-existing commit"
-msgstr "неможливо прочитати існуючий об’єкт %s"
+msgstr "неможливо виправити неіснуючий коміт"
 
 #: sequencer.c:4931
-#, fuzzy, c-format
+#, c-format
 msgid "invalid file: '%s'"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неприпустимий файл: \"%s\""
 
 #: sequencer.c:4933
-#, fuzzy, c-format
+#, c-format
 msgid "invalid contents: '%s'"
-msgstr "неприпустиме посилання: %s"
+msgstr "неприпустимий вміст: \"%s\""
 
 #: sequencer.c:4936
 msgid ""
@@ -24567,19 +24561,17 @@ msgid ""
 msgstr ""
 
 #: sequencer.c:4972 sequencer.c:5011
-#, fuzzy, c-format
+#, c-format
 msgid "could not write file: '%s'"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "не вдалося записати файл: \"%s\""
 
 #: sequencer.c:5027
-#, fuzzy
 msgid "could not remove CHERRY_PICK_HEAD"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося видалити CHERRY_PICK_HEAD"
 
 #: sequencer.c:5037
-#, fuzzy
 msgid "could not commit staged changes."
-msgstr "не можливо %s: У вас є не індексовані зміни."
+msgstr "не вдалося записати індексовані зміни."
 
 #: sequencer.c:5158
 #, c-format
@@ -24587,9 +24579,9 @@ msgid "%s: can't cherry-pick a %s"
 msgstr ""
 
 #: sequencer.c:5162
-#, fuzzy, c-format
+#, c-format
 msgid "%s: bad revision"
-msgstr "ревізія"
+msgstr "%s: погана ревізія"
 
 #: sequencer.c:5197
 msgid "can't revert as initial commit"
@@ -24613,9 +24605,8 @@ msgid "make_script: error preparing revisions"
 msgstr ""
 
 #: sequencer.c:6083 sequencer.c:6100
-#, fuzzy
 msgid "nothing to do"
-msgstr "нічого комітити\n"
+msgstr "нічого робити"
 
 #: sequencer.c:6119
 msgid "could not skip unnecessary pick commands"
@@ -24631,9 +24622,9 @@ msgid "update-refs file at '%s' is invalid"
 msgstr ""
 
 #: setup.c:139
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is outside repository at '%s'"
-msgstr "погане сховище '%s'"
+msgstr "\"%s\" зовнішнє сховище в \"%s\""
 
 #: setup.c:191
 #, c-format
@@ -24697,14 +24688,14 @@ msgid "too large to be a .git file: '%s'"
 msgstr ""
 
 #: setup.c:784
-#, fuzzy, c-format
+#, c-format
 msgid "error reading %s"
-msgstr "не вдалося прочитати %s"
+msgstr "помилка зчитування %s"
 
 #: setup.c:786
-#, fuzzy, c-format
+#, c-format
 msgid "invalid gitfile format: %s"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неприпустимий формат git файлу: %s"
 
 #: setup.c:788
 #, c-format
@@ -24712,9 +24703,9 @@ msgid "no path in gitfile: %s"
 msgstr ""
 
 #: setup.c:790
-#, fuzzy, c-format
+#, c-format
 msgid "not a git repository: %s"
-msgstr "погане сховище '%s'"
+msgstr "не є git сховищем: %s"
 
 #: setup.c:892
 #, c-format
@@ -24722,9 +24713,9 @@ msgid "'$%s' too big"
 msgstr ""
 
 #: setup.c:906
-#, fuzzy, c-format
+#, c-format
 msgid "not a git repository: '%s'"
-msgstr "погане сховище '%s'"
+msgstr "не є git сховищем: \"%s\""
 
 #: setup.c:935 setup.c:937 setup.c:968
 #, fuzzy, c-format
@@ -24736,9 +24727,9 @@ msgid "cannot come back to cwd"
 msgstr "неможливо повернутися до поточної робочої директорії"
 
 #: setup.c:1067
-#, fuzzy, c-format
+#, c-format
 msgid "failed to stat '%*s%s%s'"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося записати \"%*s%s%s\""
 
 #: setup.c:1452
 msgid "Unable to read current working directory"
@@ -25093,9 +25084,8 @@ msgid "unhandled options"
 msgstr ""
 
 #: t/helper/test-fast-rebase.c:149
-#, fuzzy
 msgid "error preparing revisions"
-msgstr "внутрішня помилка при проходженні по ревізіям"
+msgstr "помилка при підготовці ревізій"
 
 #: t/helper/test-reach.c:154
 #, c-format
@@ -25206,9 +25196,9 @@ msgid "could not read input file '%s'"
 msgstr "не вдалося прочитати вхідний файл \"%s\""
 
 #: trailer.c:1026 wrapper.c:744
-#, fuzzy, c-format
+#, c-format
 msgid "could not stat %s"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося прочитати %s"
 
 #: trailer.c:1028
 #, c-format
@@ -25850,9 +25840,8 @@ msgid "not a valid directory"
 msgstr ""
 
 #: worktree.c:729
-#, fuzzy
 msgid "gitdir file does not exist"
-msgstr "сховище '%s' не існує"
+msgstr "файл git директорії не існує"
 
 #: worktree.c:734 worktree.c:743
 #, c-format
