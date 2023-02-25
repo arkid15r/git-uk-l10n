@@ -24291,7 +24291,7 @@ msgstr "неможливо прочитати HEAD"
 #: sequencer.c:3510
 #, c-format
 msgid "unable to copy '%s' to '%s'"
-msgstr "неможливо скопіювати \"%s\" в \"%s\""
+msgstr "не вдалося скопіювати \"%s\" в \"%s\""
 
 #: sequencer.c:3518
 #, c-format
