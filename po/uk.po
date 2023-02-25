@@ -24361,7 +24361,7 @@ msgstr "не вдалося розпізнати \"%s\""
 
 #: sequencer.c:3755
 msgid "writing fake root commit"
-msgstr "написання фальшивого кореневого коміту"
+msgstr "написання підробленого кореневого коміту"
 
 #: sequencer.c:3760
 msgid "writing squash-onto"
