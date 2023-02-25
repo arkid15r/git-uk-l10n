@@ -24241,7 +24241,7 @@ msgstr "неможливо розпізнати HEAD"
 
 #: sequencer.c:3210 sequencer.c:3254
 msgid "cannot abort from a branch yet to be born"
-msgstr "неможливо скасувати з гілки, яка ще не народилася"
+msgstr "неможливо перервати з гілки, яка ще не народилася"
 
 #: sequencer.c:3242
 #, c-format
