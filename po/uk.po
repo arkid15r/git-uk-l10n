@@ -24263,7 +24263,7 @@ msgstr ""
 
 #: sequencer.c:3301
 msgid "no revert in progress"
-msgstr "Наразі операція вивертання не виконується"
+msgstr "наразі операція вивертання не виконується"
 
 #: sequencer.c:3310
 msgid "no cherry-pick in progress"
