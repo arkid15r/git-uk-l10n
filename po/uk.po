@@ -24197,7 +24197,7 @@ msgstr ""
 #: sequencer.c:3001
 #, c-format
 msgid "malformed options sheet: '%s'"
-msgstr "деформована таблиця опцій: \"%s\""
+msgstr "невірно сформований список опцій: \"%s\""
 
 #: sequencer.c:3096 sequencer.c:5181
 msgid "empty commit set passed"
