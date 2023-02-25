@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-02-21 19:29-0800\n"
+"PO-Revision-Date: 2023-02-22 18:53-0800\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -24137,9 +24137,9 @@ msgid "git %s: failed to refresh the index"
 msgstr ""
 
 #: sequencer.c:2514
-#, fuzzy, c-format
+#, c-format
 msgid "%s does not accept arguments: '%s'"
-msgstr "git checkout: --detach не приймає аргумент шляху '%s'"
+msgstr "%s не приймає аргументи: \"%s\""
 
 #: sequencer.c:2523
 #, c-format
@@ -24147,14 +24147,14 @@ msgid "missing arguments for %s"
 msgstr ""
 
 #: sequencer.c:2566
-#, fuzzy, c-format
+#, c-format
 msgid "could not parse '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося розібрати \"%s\""
 
 #: sequencer.c:2627
-#, fuzzy, c-format
+#, c-format
 msgid "invalid line %d: %.*s"
-msgstr "неприпустиме посилання: %s"
+msgstr "невірний рядок %d: %.*s"
 
 #: sequencer.c:2638
 #, c-format
@@ -24162,9 +24162,8 @@ msgid "cannot '%s' without a previous commit"
 msgstr ""
 
 #: sequencer.c:2724
-#, fuzzy
 msgid "cancelling a cherry picking in progress"
-msgstr "Наразі триває висмикування."
+msgstr "скасування поточного висмикування"
 
 #: sequencer.c:2733
 msgid "cancelling a revert in progress"
@@ -24180,9 +24179,8 @@ msgid "unusable instruction sheet: '%s'"
 msgstr ""
 
 #: sequencer.c:2780
-#, fuzzy
 msgid "no commits parsed."
-msgstr "Поки що немає комітів"
+msgstr "немає розібраних комітів"
 
 #: sequencer.c:2791
 msgid "cannot cherry-pick during a revert."
@@ -24197,43 +24195,40 @@ msgid "unusable squash-onto"
 msgstr ""
 
 #: sequencer.c:3001
-#, fuzzy, c-format
+#, c-format
 msgid "malformed options sheet: '%s'"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "невірно сформований список опцій: \"%s\""
 
 #: sequencer.c:3096 sequencer.c:5181
 msgid "empty commit set passed"
 msgstr ""
 
 #: sequencer.c:3113
-#, fuzzy
 msgid "revert is already in progress"
-msgstr "Наразі виконується операція вивертання."
+msgstr "наразі виконується операція вивертання"
 
 #: sequencer.c:3115
-#, fuzzy, c-format
+#, c-format
 msgid "try \"git revert (--continue | %s--abort | --quit)\""
-msgstr "  (виконайте \"git revert --continue\", щоб продовжити)"
+msgstr "спробуйте \"git revert (--continue | %s--abort | --quit)\""
 
 #: sequencer.c:3118
-#, fuzzy
 msgid "cherry-pick is already in progress"
-msgstr "Наразі триває висмикування."
+msgstr "наразі вже триває висмикування"
 
 #: sequencer.c:3120
-#, fuzzy, c-format
+#, c-format
 msgid "try \"git cherry-pick (--continue | %s--abort | --quit)\""
-msgstr "  (виконайте \"git cherry-pick --continue\", щоб продовжити)"
+msgstr "спробуйте \"git cherry-pick (--continue | %s--abort | --quit)\""
 
 #: sequencer.c:3134
-#, fuzzy, c-format
+#, c-format
 msgid "could not create sequencer directory '%s'"
-msgstr "не вдалося створити провідні директорії для '%s'"
+msgstr "не вдалося створити директорію секвенсора \"%s\""
 
 #: sequencer.c:3149
-#, fuzzy
 msgid "could not lock HEAD"
-msgstr "не вдалося вирішити %s"
+msgstr "неможливо зафіксувати HEAD"
 
 #: sequencer.c:3206 sequencer.c:4891
 #, fuzzy
@@ -24241,19 +24236,17 @@ msgid "no cherry-pick or revert in progress"
 msgstr "Наразі триває висмикування."
 
 #: sequencer.c:3208 sequencer.c:3219
-#, fuzzy
 msgid "cannot resolve HEAD"
-msgstr "не вдалося вирішити %s"
+msgstr "неможливо розпізнати HEAD"
 
 #: sequencer.c:3210 sequencer.c:3254
-#, fuzzy
 msgid "cannot abort from a branch yet to be born"
-msgstr "Ви на гілці, яка ще не iснує"
+msgstr "неможливо перервати з гілки, яка ще не народилася"
 
 #: sequencer.c:3242
-#, fuzzy, c-format
+#, c-format
 msgid "cannot read '%s': %s"
-msgstr "Неможливо виконати reflog для '%s': %s\n"
+msgstr "неможливо прочитати \"%s\": %s"
 
 #: sequencer.c:3243
 msgid "unexpected end of file"
@@ -24269,19 +24262,16 @@ msgid "You seem to have moved HEAD. Not rewinding, check your HEAD!"
 msgstr ""
 
 #: sequencer.c:3301
-#, fuzzy
 msgid "no revert in progress"
-msgstr "Наразі виконується операція вивертання."
+msgstr "наразі операція вивертання не виконується"
 
 #: sequencer.c:3310
-#, fuzzy
 msgid "no cherry-pick in progress"
-msgstr "Наразі триває висмикування."
+msgstr "наразі висмикування не виконується"
 
 #: sequencer.c:3320
-#, fuzzy
 msgid "failed to skip the commit"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося пропустити коміт"
 
 #: sequencer.c:3327
 msgid "there is nothing to skip"
@@ -24295,14 +24285,13 @@ msgid ""
 msgstr ""
 
 #: sequencer.c:3493 sequencer.c:4779
-#, fuzzy
 msgid "cannot read HEAD"
-msgstr "неможливо прочитати файл пакунка"
+msgstr "неможливо прочитати HEAD"
 
 #: sequencer.c:3510
-#, fuzzy, c-format
+#, c-format
 msgid "unable to copy '%s' to '%s'"
-msgstr "не вдалося скопіювати файл у '%s'"
+msgstr "не вдалося скопіювати \"%s\" в \"%s\""
 
 #: sequencer.c:3518
 #, c-format
@@ -24322,9 +24311,9 @@ msgid "Could not apply %s... %.*s"
 msgstr ""
 
 #: sequencer.c:3535
-#, fuzzy, c-format
+#, c-format
 msgid "Could not merge %.*s"
-msgstr "не вдалося вирішити %s"
+msgstr "Не вдалося злити %.*s"
 
 #: sequencer.c:3564
 #, c-format
@@ -24332,19 +24321,22 @@ msgid "Executing: %s\n"
 msgstr ""
 
 #: sequencer.c:3577
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "execution failed: %s\n"
 "%sYou can fix the problem, and then run\n"
 "\n"
 "  git rebase --continue\n"
 "\n"
-msgstr "  (виправте конфлікти, а потім виконайте \"git rebase --continue\")"
+msgstr ""
+"не вдалося виконати : %s\n"
+"%sВи можете виправити проблему, а потім виконати\n"
+"\n"
+"  git rebase --continue\n"
 
 #: sequencer.c:3583
-#, fuzzy
 msgid "and made changes to the index and/or the working tree\n"
-msgstr "скинути HEAD, індекс та робоче дерево"
+msgstr "та внесли зміни до індексу та/або робочого дерева\n"
 
 #: sequencer.c:3589
 #, c-format
@@ -24363,14 +24355,13 @@ msgid "illegal label name: '%.*s'"
 msgstr ""
 
 #: sequencer.c:3729
-#, fuzzy, c-format
+#, c-format
 msgid "could not resolve '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося розпізнати \"%s\""
 
 #: sequencer.c:3755
-#, fuzzy
 msgid "writing fake root commit"
-msgstr "нічого комітити\n"
+msgstr "написання підробленого кореневого коміту"
 
 #: sequencer.c:3760
 msgid "writing squash-onto"
