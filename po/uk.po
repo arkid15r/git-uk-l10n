@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-02-21 17:28-0800\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-02-24 19:10-0800\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -23889,9 +23889,9 @@ msgid "'GIT_AUTHOR_DATE' already given"
 msgstr ""
 
 #: sequencer.c:908
-#, fuzzy, c-format
+#, c-format
 msgid "unknown variable '%s'"
-msgstr "невідомий хеш-алгоритм '%s'"
+msgstr "невідома змінна \"%s\""
 
 #: sequencer.c:913
 msgid "missing 'GIT_AUTHOR_NAME'"
@@ -23968,38 +23968,35 @@ msgid "unable to resolve HEAD after creating commit"
 msgstr ""
 
 #: sequencer.c:1382
-#, fuzzy
 msgid "detached HEAD"
-msgstr "HEAD відʼєднано на "
+msgstr "відʼєднаний HEAD"
 
 #: sequencer.c:1386
 msgid " (root-commit)"
 msgstr ""
 
 #: sequencer.c:1408
-#, fuzzy
 msgid "could not parse HEAD"
-msgstr "не вдалося вирішити %s"
+msgstr "неможливо розібрати HEAD"
 
 #: sequencer.c:1410
-#, fuzzy, c-format
+#, c-format
 msgid "HEAD %s is not a commit!"
-msgstr "HEAD зараз на"
+msgstr "HEAD %s не є комітом!"
 
 #: sequencer.c:1470 sequencer.c:2376
-#, fuzzy
 msgid "unable to parse commit author"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося розібрати автора коміту"
 
 #: sequencer.c:1514 sequencer.c:1634
-#, fuzzy, c-format
+#, c-format
 msgid "unable to read commit message from '%s'"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося прочитати повідомлення коміта від \"%s\""
 
 #: sequencer.c:1545 sequencer.c:1577
-#, fuzzy, c-format
+#, c-format
 msgid "invalid author identity '%s'"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неприпустима ідентичність автора \"%s\""
 
 #: sequencer.c:1551
 msgid "corrupt author: missing date information"
@@ -24007,24 +24004,24 @@ msgstr ""
 
 #: sequencer.c:1617 sequencer.c:4799 t/helper/test-fast-rebase.c:202
 #: t/helper/test-fast-rebase.c:218
-#, fuzzy, c-format
+#, c-format
 msgid "could not update %s"
 msgstr "не вдалося оновити %s"
 
 #: sequencer.c:1666
-#, fuzzy, c-format
+#, c-format
 msgid "could not parse commit %s"
 msgstr "не вдалося розібрати коміт %s"
 
 #: sequencer.c:1671
-#, fuzzy, c-format
+#, c-format
 msgid "could not parse parent commit %s"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося розібрати джерельный коміт %s"
 
 #: sequencer.c:1755 sequencer.c:2036
-#, fuzzy, c-format
+#, c-format
 msgid "unknown command: %d"
-msgstr "Не виконано жодної команди."
+msgstr "невідома команда: %d"
 
 #: sequencer.c:1797
 msgid "This is the 1st commit message:"
@@ -24050,36 +24047,34 @@ msgid "This is a combination of %d commits."
 msgstr ""
 
 #: sequencer.c:1948 sequencer.c:2005
-#, fuzzy, c-format
+#, c-format
 msgid "cannot write '%s'"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "неможливо записати \"%s\""
 
 #: sequencer.c:1995
 msgid "need a HEAD to fixup"
 msgstr ""
 
 #: sequencer.c:1997 sequencer.c:3659
-#, fuzzy
 msgid "could not read HEAD"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося прочитати HEAD"
 
 #: sequencer.c:1999
 msgid "could not read HEAD's commit message"
 msgstr ""
 
 #: sequencer.c:2023
-#, fuzzy, c-format
+#, c-format
 msgid "could not read commit message of %s"
-msgstr "не вдалося створити провідні директорії для '%s'"
+msgstr "не вдалося прочитати повідомлення коміта %s"
 
 #: sequencer.c:2147
 msgid "your index file is unmerged."
 msgstr ""
 
 #: sequencer.c:2154
-#, fuzzy
 msgid "cannot fixup root commit"
-msgstr "нічого комітити\n"
+msgstr "не вдалося виправити кореневий коміт"
 
 #: sequencer.c:2173
 #, c-format
@@ -24087,9 +24082,9 @@ msgid "commit %s is a merge but no -m option was given."
 msgstr ""
 
 #: sequencer.c:2181 sequencer.c:2189
-#, fuzzy, c-format
+#, c-format
 msgid "commit %s does not have parent %d"
-msgstr "шлях '%s' не містить нашої версії"
+msgstr "коміт %s не має джерела %d"
 
 #: sequencer.c:2195
 #, c-format
@@ -24099,24 +24094,24 @@ msgstr ""
 #. TRANSLATORS: The first %s will be a "todo" command like
 #. "revert" or "pick", the second %s a SHA1.
 #: sequencer.c:2214
-#, fuzzy, c-format
+#, c-format
 msgid "%s: cannot parse parent commit %s"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "%s: не вдалося розібрати джерельний коміт %s"
 
 #: sequencer.c:2286
-#, fuzzy, c-format
+#, c-format
 msgid "could not rename '%s' to '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося перейменувати \"%s\" на \"%s\""
 
 #: sequencer.c:2346
-#, fuzzy, c-format
+#, c-format
 msgid "could not revert %s... %s"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося зробити вивертання %s... %s"
 
 #: sequencer.c:2347
-#, fuzzy, c-format
+#, c-format
 msgid "could not apply %s... %s"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося застосувати %s... %s"
 
 #: sequencer.c:2368
 #, c-format
@@ -24124,9 +24119,9 @@ msgid "dropping %s %s -- patch contents already upstream\n"
 msgstr ""
 
 #: sequencer.c:2426
-#, fuzzy, c-format
+#, c-format
 msgid "git %s: failed to read the index"
-msgstr "не вдалося створити посилання '%s'"
+msgstr "git %s: не вдалося прочитати індекс"
 
 #: sequencer.c:2434
 #, c-format
