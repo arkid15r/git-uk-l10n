@@ -23996,7 +23996,7 @@ msgstr "не вдалося прочитати повідомлення комі
 #: sequencer.c:1545 sequencer.c:1577
 #, c-format
 msgid "invalid author identity '%s'"
-msgstr "неприпустима особистість автора \"%s\""
+msgstr "неприпустима ідентичність автора \"%s\""
 
 #: sequencer.c:1551
 msgid "corrupt author: missing date information"
