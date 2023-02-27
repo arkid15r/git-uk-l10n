@@ -23969,7 +23969,7 @@ msgstr ""
 
 #: sequencer.c:1382
 msgid "detached HEAD"
-msgstr "відокремлений HEAD"
+msgstr "відʼєднаний HEAD"
 
 #: sequencer.c:1386
 msgid " (root-commit)"
