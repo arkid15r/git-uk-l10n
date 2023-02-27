@@ -24057,7 +24057,7 @@ msgstr ""
 
 #: sequencer.c:1997 sequencer.c:3659
 msgid "could not read HEAD"
-msgstr "не вдалося прочитати HEAD %s"
+msgstr "не вдалося прочитати HEAD"
 
 #: sequencer.c:1999
 msgid "could not read HEAD's commit message"
