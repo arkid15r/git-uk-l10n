@@ -24096,7 +24096,7 @@ msgstr ""
 #: sequencer.c:2214
 #, c-format
 msgid "%s: cannot parse parent commit %s"
-msgstr "%s: не вдалося розібрати коміт джерела %s"
+msgstr "%s: не вдалося розібрати джерельний коміт %s"
 
 #: sequencer.c:2286
 #, c-format
