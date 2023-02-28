@@ -23598,7 +23598,7 @@ msgstr ""
 #: scalar.c:481
 #, c-format
 msgid "failed to get default branch for '%s'"
-msgstr "не вдалося отримати гілку за замовчуванням для \"%s\""
+msgstr "не вдалося отримати типову гілку для \"%s\""
 
 #: scalar.c:492
 #, c-format
