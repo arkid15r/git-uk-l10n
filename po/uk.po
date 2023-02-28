@@ -23719,7 +23719,7 @@ msgstr ""
 #: send-pack.c:154
 #, c-format
 msgid "unable to parse remote unpack status: %s"
-msgstr "не вдалося розібрати стан віддаленого розпакування: %s"
+msgstr "не вдалося розібрати стан розпакування віддаленого сховища: %s"
 
 #: send-pack.c:156
 #, c-format
