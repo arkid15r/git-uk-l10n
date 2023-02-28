@@ -23470,7 +23470,7 @@ msgstr ""
 
 #: revision.c:2815
 msgid "your current branch appears to be broken"
-msgstr "зається ваша поточна гілка зламана"
+msgstr "здається ваша поточна гілка зламана"
 
 #: revision.c:2818
 #, c-format
