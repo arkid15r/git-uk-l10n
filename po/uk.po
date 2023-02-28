@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-02-24 19:10-0800\n"
+"PO-Revision-Date: 2023-02-27 17:43-0800\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -23437,14 +23437,13 @@ msgid "update the index with reused conflict resolution if possible"
 msgstr ""
 
 #: reset.c:112
-#, fuzzy
 msgid "could not determine HEAD revision"
-msgstr "Не вдалося скинути індексний файл до ревізії '%s'."
+msgstr "не вдалося визначити ревізію HEAD"
 
 #: reset.c:142 reset.c:148 sequencer.c:3798
-#, fuzzy, c-format
+#, c-format
 msgid "failed to find tree of %s"
-msgstr "Не вдалося знайти дерево %s."
+msgstr "не вдалося знайти дерево %s"
 
 #: revision.c:1578
 #, c-format
@@ -23470,9 +23469,8 @@ msgid "--unpacked=<packfile> no longer supported"
 msgstr ""
 
 #: revision.c:2815
-#, fuzzy
 msgid "your current branch appears to be broken"
-msgstr "Ви на гілці, яка ще не iснує"
+msgstr "ваша поточна гілка виглядає зламаною"
 
 #: revision.c:2818
 #, c-format
@@ -23488,19 +23486,19 @@ msgid "-L does not yet support diff formats besides -p and -s"
 msgstr ""
 
 #: run-command.c:1230
-#, fuzzy, c-format
+#, c-format
 msgid "cannot create async thread: %s"
-msgstr "не вдалося створити потік: %s"
+msgstr "неможливо створити асинхронний потік: %s"
 
 #: scalar.c:37 worktree.c:327
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' does not exist"
-msgstr "сховище '%s' не існує"
+msgstr "\"%s\" не існує"
 
 #: scalar.c:39 scalar.c:51 scalar.c:380 scalar.c:471 scalar.c:664
-#, fuzzy, c-format
+#, c-format
 msgid "could not switch to '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося переключитися на \"%s\""
 
 #: scalar.c:41
 msgid "need a working directory"
@@ -23511,9 +23509,9 @@ msgid "Scalar enlistments require a worktree"
 msgstr ""
 
 #: scalar.c:174 scalar.c:181
-#, fuzzy, c-format
+#, c-format
 msgid "could not configure %s=%s"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося налаштувати %s=%s"
 
 #: scalar.c:195
 msgid "could not configure log.excludeDecoration"
@@ -23558,9 +23556,8 @@ msgid "failed to get default branch name"
 msgstr ""
 
 #: scalar.c:368
-#, fuzzy
 msgid "failed to unregister repository"
-msgstr "не вдалося створити директорію '%s'"
+msgstr "не вдалося скасувати реєстрацію сховища"
 
 #: scalar.c:388
 msgid "failed to stop the FSMonitor daemon"
@@ -23569,7 +23566,7 @@ msgstr ""
 #: scalar.c:391
 #, fuzzy
 msgid "failed to delete enlistment directory"
-msgstr "не вдалося створити директорію '%s'"
+msgstr "не вдалося видалити директорію реєстрації"
 
 #: scalar.c:411
 msgid "branch to checkout after clone"
@@ -23589,9 +23586,9 @@ msgid "scalar clone [<options>] [--] <repo> [<dir>]"
 msgstr "git clone [<опції>] [--] <сховище> [<директорія>]"
 
 #: scalar.c:445
-#, fuzzy, c-format
+#, c-format
 msgid "cannot deduce worktree name from '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "неможливо вивести імʼя робочого дерева з \"%s\""
 
 #: scalar.c:454
 #, c-format
@@ -23599,19 +23596,19 @@ msgid "directory '%s' exists already"
 msgstr ""
 
 #: scalar.c:481
-#, fuzzy, c-format
+#, c-format
 msgid "failed to get default branch for '%s'"
-msgstr "не вдалося перебрати '%s'"
+msgstr "не вдалося отримати типову гілку для \"%s\""
 
 #: scalar.c:492
-#, fuzzy, c-format
+#, c-format
 msgid "could not configure remote in '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося налаштувати віддалене сховище в \"%s\""
 
 #: scalar.c:501
-#, fuzzy, c-format
+#, c-format
 msgid "could not configure '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося налаштувати \"%s\""
 
 #: scalar.c:506
 msgid "partial clone failed; attempting full clone"
@@ -23656,9 +23653,9 @@ msgid "removing stale scalar.repo '%s'"
 msgstr ""
 
 #: scalar.c:678
-#, fuzzy, c-format
+#, c-format
 msgid "git repository gone in '%s'"
-msgstr "погане сховище '%s'"
+msgstr "git-сховище зникло у \"%s\""
 
 #: scalar.c:718
 msgid ""
@@ -23667,9 +23664,9 @@ msgid ""
 msgstr ""
 
 #: scalar.c:736
-#, fuzzy, c-format
+#, c-format
 msgid "no such task: '%s'"
-msgstr "немає такої гілки: '%s'"
+msgstr "немає такого завдання: \"%s\""
 
 #: scalar.c:768
 msgid "scalar unregister [<enlistment>]"
@@ -23696,14 +23693,13 @@ msgid "scalar verbose [-v | --verbose] [--build-options]"
 msgstr ""
 
 #: scalar.c:913
-#, fuzzy
 msgid "-C requires a <directory>"
-msgstr "--stdin вимагає наявності git сховища"
+msgstr "-C вимагає наявності <директорії>"
 
 #: scalar.c:915
-#, fuzzy, c-format
+#, c-format
 msgid "could not change to '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося змінити на \"%s\""
 
 #: scalar.c:921
 msgid "-c requires a <key>=<value> argument"
@@ -23721,9 +23717,9 @@ msgid "unexpected flush packet while reading remote unpack status"
 msgstr ""
 
 #: send-pack.c:154
-#, fuzzy, c-format
+#, c-format
 msgid "unable to parse remote unpack status: %s"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося розібрати стан розпакування віддаленого сховища: %s"
 
 #: send-pack.c:156
 #, c-format
@@ -23770,9 +23766,9 @@ msgid "invalid commit message cleanup mode '%s'"
 msgstr ""
 
 #: sequencer.c:367
-#, fuzzy, c-format
+#, c-format
 msgid "could not delete '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося видалити \"%s\""
 
 #: sequencer.c:398
 msgid "revert"
@@ -23787,9 +23783,9 @@ msgid "rebase"
 msgstr ""
 
 #: sequencer.c:404
-#, fuzzy, c-format
+#, c-format
 msgid "unknown action: %d"
-msgstr "невідомий тип обʼєкта %d"
+msgstr "невідома дія: %d"
 
 #: sequencer.c:463
 msgid ""
@@ -23818,26 +23814,26 @@ msgid ""
 msgstr ""
 
 #: sequencer.c:491 sequencer.c:3352
-#, fuzzy, c-format
+#, c-format
 msgid "could not lock '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося зафіксувати \"%s\""
 
 #: sequencer.c:493 sequencer.c:3154 sequencer.c:3356 sequencer.c:3370
 #: sequencer.c:3624 sequencer.c:5907 strbuf.c:1189 wrapper.c:699
-#, fuzzy, c-format
+#, c-format
 msgid "could not write to '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося записати в \"%s\""
 
 #: sequencer.c:498
 #, fuzzy, c-format
 msgid "could not write eol to '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося записати eol в \"%s\""
 
 #: sequencer.c:503 sequencer.c:3159 sequencer.c:3358 sequencer.c:3372
 #: sequencer.c:3632
-#, fuzzy, c-format
+#, c-format
 msgid "failed to finalize '%s'"
-msgstr "не вдалося розʼєднати '%s'"
+msgstr "не вдалося завершити \"%s\""
 
 #: sequencer.c:542
 #, c-format
@@ -23852,19 +23848,17 @@ msgstr ""
 #. "rebase".
 #.
 #: sequencer.c:728
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Unable to write new index file"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "%s: Не вдалося записати новий індексний файл"
 
 #: sequencer.c:742
-#, fuzzy
 msgid "unable to update cache tree"
-msgstr "не вдалося оновити %s"
+msgstr "не вдалося оновити дерево кешу"
 
 #: sequencer.c:756
-#, fuzzy
 msgid "could not resolve HEAD commit"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося розпізнати HEAD коміт"
 
 #: sequencer.c:836
 #, c-format
