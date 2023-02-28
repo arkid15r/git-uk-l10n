@@ -23588,7 +23588,7 @@ msgstr "git clone [<опції>] [--] <сховище> [<директорія>]"
 #: scalar.c:445
 #, c-format
 msgid "cannot deduce worktree name from '%s'"
-msgstr "не вдається вивести імʼя робочого дерева з \"%s\""
+msgstr "неможливо вивести імʼя робочого дерева з \"%s\""
 
 #: scalar.c:454
 #, c-format
