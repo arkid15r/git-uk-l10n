@@ -23334,7 +23334,7 @@ msgstr "не вдалося оновити конфліктний стан у \"
 #: rerere.c:1053 rerere.c:1060
 #, c-format
 msgid "no remembered resolution for '%s'"
-msgstr "немає запамʼятованого вирішення для \"%s\""
+msgstr "немає записаного вирішення для \"%s\""
 
 #: rerere.c:1062
 #, c-format
