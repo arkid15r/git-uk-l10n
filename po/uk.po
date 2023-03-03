@@ -22846,7 +22846,7 @@ msgstr "сховище \"%s\" не знайдено"
 #: remote-curl.c:504
 #, c-format
 msgid "Authentication failed for '%s'"
-msgstr "Не вдалося аутентифікувати \"%s\""
+msgstr "Невдала аутентифікація для \"%s\""
 
 #: remote-curl.c:508
 #, c-format
