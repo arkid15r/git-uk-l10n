@@ -23279,7 +23279,7 @@ msgstr ""
 
 #: rerere.c:248 rerere.c:253
 msgid "unable to write rerere record"
-msgstr "неможливо зробити повторний запис"
+msgstr "неможливо зробити rerere запис"
 
 #: rerere.c:479
 #, c-format
