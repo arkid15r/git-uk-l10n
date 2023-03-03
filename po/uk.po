@@ -22796,7 +22796,7 @@ msgstr "\"%s\" існує; неможливо створити \"%s\""
 #: refs.c:2382 refs.c:2417
 #, c-format
 msgid "cannot process '%s' and '%s' at the same time"
-msgstr "неможливо обробляти \"%s\" і \"%s\" одночасно"
+msgstr "неможливо обробити \"%s\" і \"%s\" одночасно"
 
 #: refs/files-backend.c:1278
 #, c-format
