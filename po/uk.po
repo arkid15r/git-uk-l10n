@@ -23344,7 +23344,7 @@ msgstr "неможливо відʼєднати \"%s\""
 #: rerere.c:1072
 #, c-format
 msgid "Updated preimage for '%s'"
-msgstr "Оновлене попереднє зображення для \"%s\""
+msgstr "Оновлено попереднє зображення для \"%s\""
 
 #: rerere.c:1081
 #, c-format
