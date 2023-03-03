@@ -23353,7 +23353,7 @@ msgstr ""
 
 #: rerere.c:1192
 msgid "unable to open rr-cache directory"
-msgstr "немеожливо відкрити директорію rr-cache"
+msgstr "неможливо відкрити rr-cache директорію"
 
 #: rerere.h:44
 msgid "update the index with reused conflict resolution if possible"
