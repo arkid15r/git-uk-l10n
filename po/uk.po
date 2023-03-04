@@ -22053,7 +22053,7 @@ msgstr "не вдалося записати flush-пакет"
 
 #: pkt-line.c:99
 msgid "unable to write delim packet"
-msgstr "не вдалося записати делімітований пакет"
+msgstr "не вдалося записати delim пакет"
 
 #: pkt-line.c:106
 msgid "unable to write response end packet"
