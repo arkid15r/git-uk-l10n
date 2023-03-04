@@ -22049,7 +22049,7 @@ msgstr ""
 
 #: pkt-line.c:92
 msgid "unable to write flush packet"
-msgstr "не вдалося записати flush-пакет"
+msgstr "не вдалося записати flush пакет"
 
 #: pkt-line.c:99
 msgid "unable to write delim packet"
