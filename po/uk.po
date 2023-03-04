@@ -22105,7 +22105,7 @@ msgstr ""
 
 #: preload-index.c:125
 msgid "Refreshing index"
-msgstr "Оновляю індекс"
+msgstr "Оновлення індекса"
 
 #: preload-index.c:144
 #, c-format
