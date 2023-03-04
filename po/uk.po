@@ -22114,7 +22114,7 @@ msgstr "не вдалося створити потоковий lstat: %s"
 
 #: pretty.c:1071
 msgid "unable to parse --pretty format"
-msgstr "не вдалося розібрати формат --pretty"
+msgstr "не вдалося розібрати --pretty формат"
 
 #: promisor-remote.c:32
 msgid "promisor-remote: unable to fork off fetch subprocess"
