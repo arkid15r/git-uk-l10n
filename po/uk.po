@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-02 19:38-0800\n"
+"PO-Revision-Date: 2023-03-03 12:17-0800\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -1205,34 +1205,34 @@ msgid "corrupt patch for submodule %s"
 msgstr "пошкоджений патч для підмодуля %s"
 
 #: apply.c:4335
-#, fuzzy, c-format
+#, c-format
 msgid "unable to stat newly created file '%s'"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "не вдалося отримати інформацію про щойно створений файл \"%s\""
 
 #: apply.c:4343
-#, fuzzy, c-format
+#, c-format
 msgid "unable to create backing store for newly created file %s"
-msgstr "не вдалося створити потік: %s"
+msgstr "не вдалося створити підтримуюче сховище для щойно створеного файлу %s"
 
 #: apply.c:4349 apply.c:4494
-#, fuzzy, c-format
+#, c-format
 msgid "unable to add cache entry for %s"
-msgstr "Неможливо додати результат злиття для '%s'"
+msgstr "не вдалося додати запис кешу для %s"
 
 #: apply.c:4392 builtin/bisect.c:602 builtin/gc.c:2372 builtin/gc.c:2407
-#, fuzzy, c-format
+#, c-format
 msgid "failed to write to '%s'"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося записати в \"%s\""
 
 #: apply.c:4396
-#, fuzzy, c-format
+#, c-format
 msgid "closing file '%s'"
-msgstr "неможливо закрити записаний %s файл '%s'"
+msgstr "закриття файлу \"%s\""
 
 #: apply.c:4466
-#, fuzzy, c-format
+#, c-format
 msgid "unable to write file '%s' mode %o"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "не вдалося записати файл \"%s\" в режимі %o"
 
 #: apply.c:4564
 #, c-format
@@ -1272,9 +1272,9 @@ msgid "Rejected hunk #%d."
 msgstr ""
 
 #: apply.c:4741
-#, fuzzy, c-format
+#, c-format
 msgid "Skipped patch '%s'."
-msgstr "Переключено на гілку '%s'\n"
+msgstr "Пропущено патч \"%s\"."
 
 #: apply.c:4750
 msgid "No valid patches in input (allow with \"--allow-empty\")"
@@ -1314,9 +1314,8 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: apply.c:4985 builtin/add.c:695 builtin/mv.c:556 builtin/rm.c:434
-#, fuzzy
 msgid "Unable to write new index file"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "Не вдалося записати новий файл індексу"
 
 #: apply.c:5013
 msgid "don't apply changes matching the given path"
@@ -1490,7 +1489,7 @@ msgstr ""
 #: archive.c:15
 #, fuzzy
 msgid "git archive [<options>] <tree-ish> [<path>...]"
-msgstr "git reset [-q] [<деревоподібне джерело>] [--] <специфікація шляху>..."
+msgstr "git reset [-q] [<деревоподібне джерело>] [--] <специфікатор шляху>..."
 
 #: archive.c:17
 msgid ""
@@ -1503,29 +1502,29 @@ msgstr ""
 
 #: archive.c:187 archive.c:342 builtin/gc.c:504 builtin/notes.c:238
 #: builtin/tag.c:581
-#, fuzzy, c-format
+#, c-format
 msgid "cannot read '%s'"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "неможливо прочитати \"%s\""
 
 #: archive.c:435 builtin/add.c:224 builtin/add.c:662 builtin/rm.c:338
-#, fuzzy, c-format
+#, c-format
 msgid "pathspec '%s' did not match any files"
-msgstr "специфікатор посилання джерела %s не збігається з жодним"
+msgstr "специфікатор шляжу \"%s\" не відповідає жодному файлу"
 
 #: archive.c:459
-#, fuzzy, c-format
+#, c-format
 msgid "no such ref: %.*s"
-msgstr "немає такої гілки: '%s'"
+msgstr "немає такого посилання: %.*s"
 
 #: archive.c:465
-#, fuzzy, c-format
+#, c-format
 msgid "not a valid object name: %s"
-msgstr "неможливо розібрати очікуване імʼя обʼєкту '%s'"
+msgstr "невірне ім’я об’єкта: %s"
 
 #: archive.c:478 t/helper/test-cache-tree.c:40
-#, fuzzy, c-format
+#, c-format
 msgid "not a tree object: %s"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не є об’єктом дерева: %s"
 
 #: archive.c:490
 msgid "current working directory is untracked"
@@ -1583,9 +1582,8 @@ msgid "file"
 msgstr "файл"
 
 #: archive.c:600 archive.c:603
-#, fuzzy
 msgid "add untracked file to archive"
-msgstr "Невідстежувані файли не вказано%s"
+msgstr "додати невідстежуваний файл до архіву"
 
 #: archive.c:603
 msgid "path:content"
@@ -2006,7 +2004,7 @@ msgstr ""
 #: builtin/add.c:26
 #, fuzzy
 msgid "git add [<options>] [--] <pathspec>..."
-msgstr "git reset [-q] [<деревоподібне джерело>] [--] <специфікація шляху>..."
+msgstr "git reset [-q] [<деревоподібне джерело>] [--] <специфікатор шляху>..."
 
 #: builtin/add.c:63
 #, fuzzy, c-format
@@ -3235,7 +3233,7 @@ msgstr ""
 #, fuzzy
 msgid "git branch [<options>] [-l] [<pattern>...]"
 msgstr ""
-"git reset --patch [<деревоподібне джерело>] [--] [<специфікація шляху>...]"
+"git reset --patch [<деревоподібне джерело>] [--] [<специфікатор шляху>...]"
 
 #: builtin/branch.c:32
 #, fuzzy
@@ -3997,7 +3995,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "git check-attr --stdin [-z] [--source <tree-ish>] [-a | --all | <attr>...]"
-msgstr "git reset [-q] [<деревоподібне джерело>] [--] <специфікація шляху>..."
+msgstr "git reset [-q] [<деревоподібне джерело>] [--] <специфікатор шляху>..."
 
 #: builtin/check-attr.c:22
 msgid "report all attributes set on file"
@@ -4884,7 +4882,7 @@ msgstr "налаштувати як спільне сховище"
 
 #: builtin/clone.c:117
 msgid "pathspec"
-msgstr "специфікація шляху"
+msgstr "специфікатор шляху"
 
 #: builtin/clone.c:117
 msgid "initialize submodules in the clone"
@@ -5480,7 +5478,7 @@ msgstr ""
 #, fuzzy
 msgid "git status [<options>] [--] [<pathspec>...]"
 msgstr ""
-"git reset --patch [<деревоподібне джерело>] [--] [<специфікація шляху>...]"
+"git reset --patch [<деревоподібне джерело>] [--] [<специфікатор шляху>...]"
 
 #: builtin/commit.c:60
 msgid ""
@@ -9665,7 +9663,7 @@ msgstr ""
 #: builtin/ls-tree.c:18
 #, fuzzy
 msgid "git ls-tree [<options>] <tree-ish> [<path>...]"
-msgstr "git reset [-q] [<деревоподібне джерело>] [--] <специфікація шляху>..."
+msgstr "git reset [-q] [<деревоподібне джерело>] [--] <специфікатор шляху>..."
 
 #: builtin/ls-tree.c:28
 #, fuzzy, c-format
@@ -13760,7 +13758,7 @@ msgstr "git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]
 
 #: builtin/reset.c:34
 msgid "git reset [-q] [<tree-ish>] [--] <pathspec>..."
-msgstr "git reset [-q] [<деревоподібне джерело>] [--] <специфікація шляху>..."
+msgstr "git reset [-q] [<деревоподібне джерело>] [--] <специфікатор шляху>..."
 
 #: builtin/reset.c:35
 msgid "git reset [-q] [--pathspec-from-file [--pathspec-file-nul]] [<tree-ish>]"
@@ -13771,7 +13769,7 @@ msgstr ""
 #: builtin/reset.c:36
 msgid "git reset --patch [<tree-ish>] [--] [<pathspec>...]"
 msgstr ""
-"git reset --patch [<деревоподібне джерело>] [--] [<специфікація шляху>...]"
+"git reset --patch [<деревоподібне джерело>] [--] [<специфікатор шляху>...]"
 
 #: builtin/reset.c:42
 msgid "mixed"
@@ -13917,7 +13915,7 @@ msgstr "опції '%s' і '%s' не можна використовувати �
 #, fuzzy
 msgid "git rev-parse --parseopt [<options>] -- [<args>...]"
 msgstr ""
-"git reset --patch [<деревоподібне джерело>] [--] [<специфікація шляху>...]"
+"git reset --patch [<деревоподібне джерело>] [--] [<специфікатор шляху>...]"
 
 #: builtin/rev-parse.c:416
 msgid "keep the `--` passed as an arg"
