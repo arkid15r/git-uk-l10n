@@ -22177,7 +22177,7 @@ msgstr "не вдалося згенерувати різницю"
 #: range-diff.c:564 range-diff.c:566
 #, c-format
 msgid "could not parse log for '%s'"
-msgstr "не вдалося розібрати запис на \"%s\""
+msgstr "не вдалося розібрати лог для \"%s\""
 
 #: read-cache.c:742
 #, c-format
