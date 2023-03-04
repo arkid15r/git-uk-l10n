@@ -22192,7 +22192,7 @@ msgstr "неможливо створити порожній blob в базі д
 #, c-format
 msgid "%s: can only add regular files, symbolic links or git-directories"
 msgstr ""
-"%s: може додавати лише звичайні файли, символічні посилання або git-директорії"
+"%s: може додавати лише звичайні файли, символьні посилання або git-директорії"
 
 #: read-cache.c:837
 #, c-format
