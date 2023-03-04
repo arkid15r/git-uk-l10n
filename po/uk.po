@@ -22186,7 +22186,7 @@ msgstr ""
 
 #: read-cache.c:758
 msgid "cannot create an empty blob in the object database"
-msgstr "не вдається створити порожній blob в базі даних обʼєктів"
+msgstr "неможливо створити порожній blob в базі даних обʼєктів"
 
 #: read-cache.c:780
 #, c-format
