@@ -22207,7 +22207,7 @@ msgstr "не вдалося додати \"%s\" до індексу"
 #: read-cache.c:867
 #, c-format
 msgid "unable to stat '%s'"
-msgstr "не вдалося записати \"%s\""
+msgstr "не вдалося виконати stat для \"%s\""
 
 #: read-cache.c:1409
 #, c-format
