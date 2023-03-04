@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-02 19:38-0800\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-03-03 18:12-0800\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -22048,19 +22048,16 @@ msgid "line is badly quoted: %s"
 msgstr ""
 
 #: pkt-line.c:92
-#, fuzzy
 msgid "unable to write flush packet"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "не вдалося записати flush-пакет"
 
 #: pkt-line.c:99
-#, fuzzy
 msgid "unable to write delim packet"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "не вдалося записати делімітований пакет"
 
 #: pkt-line.c:106
-#, fuzzy
 msgid "unable to write response end packet"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "не вдалося записати кінцевий пакет відповіді"
 
 #: pkt-line.c:113
 msgid "flush packet write failed"
@@ -22079,14 +22076,13 @@ msgid "packet write failed - data exceeds max packet size"
 msgstr ""
 
 #: pkt-line.c:222
-#, fuzzy, c-format
+#, c-format
 msgid "packet write failed: %s"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "не вдалося записати пакет: %s"
 
 #: pkt-line.c:352 pkt-line.c:353
-#, fuzzy
 msgid "read error"
-msgstr "помилка зчитування на вході"
+msgstr "помилка зчитування"
 
 #: pkt-line.c:363 pkt-line.c:364
 msgid "the remote end hung up unexpectedly"
@@ -22108,19 +22104,17 @@ msgid "remote error: %s"
 msgstr ""
 
 #: preload-index.c:125
-#, fuzzy
 msgid "Refreshing index"
-msgstr "відновити індекс"
+msgstr "Оновляю індекс"
 
 #: preload-index.c:144
-#, fuzzy, c-format
+#, c-format
 msgid "unable to create threaded lstat: %s"
-msgstr "не вдалося створити потік: %s"
+msgstr "не вдалося створити потоковий lstat: %s"
 
 #: pretty.c:1071
-#, fuzzy
 msgid "unable to parse --pretty format"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося розібрати формат --pretty"
 
 #: promisor-remote.c:32
 msgid "promisor-remote: unable to fork off fetch subprocess"
@@ -22149,9 +22143,8 @@ msgid "object-info: expected flush after arguments"
 msgstr ""
 
 #: prune-packed.c:35
-#, fuzzy
 msgid "Removing duplicate objects"
-msgstr "Отримання об’єктів"
+msgstr "Видалення дублікатів обʼєктів"
 
 #: range-diff.c:68
 msgid "could not start `log`"
@@ -22162,9 +22155,9 @@ msgid "could not read `log` output"
 msgstr ""
 
 #: range-diff.c:98 sequencer.c:5891
-#, fuzzy, c-format
+#, c-format
 msgid "could not parse commit '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося розібрати коміт \"%s\""
 
 #: range-diff.c:109
 #, c-format
@@ -22173,19 +22166,18 @@ msgid ""
 msgstr ""
 
 #: range-diff.c:132
-#, fuzzy, c-format
+#, c-format
 msgid "could not parse git header '%.*s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося розібрати git заголовок \"%.*s\""
 
 #: range-diff.c:306
-#, fuzzy
 msgid "failed to generate diff"
-msgstr "не вдалося створити посилання '%s'"
+msgstr "не вдалося згенерувати різницю"
 
 #: range-diff.c:564 range-diff.c:566
-#, fuzzy, c-format
+#, c-format
 msgid "could not parse log for '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося розібрати запис на \"%s\""
 
 #: read-cache.c:742
 #, c-format
@@ -22193,39 +22185,38 @@ msgid "will not add file alias '%s' ('%s' already exists in index)"
 msgstr ""
 
 #: read-cache.c:758
-#, fuzzy
 msgid "cannot create an empty blob in the object database"
-msgstr "неможливо прочитати існуючий об’єкт %s"
+msgstr "не вдається створити порожній blob в базі даних обʼєктів"
 
 #: read-cache.c:780
 #, c-format
 msgid "%s: can only add regular files, symbolic links or git-directories"
 msgstr ""
+"%s: може додавати лише звичайні файли, символічні посилання або git-директорії"
 
 #: read-cache.c:837
-#, fuzzy, c-format
+#, c-format
 msgid "unable to index file '%s'"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "не вдалося проіндексувати файл \"%s\""
 
 #: read-cache.c:856
-#, fuzzy, c-format
+#, c-format
 msgid "unable to add '%s' to index"
-msgstr "не вдалося прочитати %s"
+msgstr "не вдалося додати \"%s\" до індексу"
 
 #: read-cache.c:867
-#, fuzzy, c-format
+#, c-format
 msgid "unable to stat '%s'"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося записати \"%s\""
 
 #: read-cache.c:1409
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' appears as both a file and as a directory"
-msgstr "%s існує і не є директорією"
+msgstr "\"%s\" відображається як файл і як каталог"
 
 #: read-cache.c:1624
-#, fuzzy
 msgid "Refresh index"
-msgstr "відновити індекс"
+msgstr "Оновити індекс"
 
 #: read-cache.c:1756
 #, c-format
@@ -22247,9 +22238,9 @@ msgid "bad signature 0x%08x"
 msgstr ""
 
 #: read-cache.c:1827
-#, fuzzy, c-format
+#, c-format
 msgid "bad index version %d"
-msgstr "поганий pack.indexVersion=%<PRIu32>"
+msgstr "погана версія індексу %d"
 
 #: read-cache.c:1842
 msgid "bad index file sha1 signature"
@@ -22280,24 +22271,24 @@ msgid "unordered stage entries in index"
 msgstr ""
 
 #: read-cache.c:2012
-#, fuzzy, c-format
+#, c-format
 msgid "multiple stage entries for merged file '%s'"
-msgstr "використовувати їхню версію для незлитих файлів"
+msgstr "багатоступеневі записи для злитого файлу \"%s\""
 
 #: read-cache.c:2015
-#, fuzzy, c-format
+#, c-format
 msgid "unordered stage entries for '%s'"
-msgstr "не вдалося створити провідні директорії для '%s'"
+msgstr "невпорядковані записи індексу для '%s'"
 
 #: read-cache.c:2274
-#, fuzzy, c-format
+#, c-format
 msgid "unable to create load_cache_entries thread: %s"
-msgstr "не вдалося створити потік: %s"
+msgstr "не вдалося створити потік load_cache_entries: %s"
 
 #: read-cache.c:2287
-#, fuzzy, c-format
+#, c-format
 msgid "unable to join load_cache_entries thread: %s"
-msgstr "не вдалося створити потік: %s"
+msgstr "не вдалося приєднатися до потоку load_cache_entries: %s"
 
 #: read-cache.c:2334
 #, c-format
@@ -22317,22 +22308,22 @@ msgstr ""
 #: read-cache.c:2346
 #, fuzzy, c-format
 msgid "%s: unable to map index file%s"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "%s: не вдалося зіставити індексний файл%s"
 
 #: read-cache.c:2389
-#, fuzzy, c-format
+#, c-format
 msgid "unable to create load_index_extensions thread: %s"
-msgstr "не вдалося створити потік: %s"
+msgstr "не вдалося створити потік load_index_extensions: %s"
 
 #: read-cache.c:2416
-#, fuzzy, c-format
+#, c-format
 msgid "unable to join load_index_extensions thread: %s"
-msgstr "не вдалося створити потік: %s"
+msgstr "не вдалося приєднатися до потоку load_index_extensions: %s"
 
 #: read-cache.c:2459
-#, fuzzy, c-format
+#, c-format
 msgid "could not freshen shared index '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося оновити спільний індекс \"%s\""
 
 #: read-cache.c:2519
 #, c-format
@@ -22344,29 +22335,28 @@ msgid "cannot write split index for a sparse index"
 msgstr ""
 
 #: read-cache.c:3214
-#, fuzzy
 msgid "failed to convert to a sparse-index"
-msgstr "не вдалося ініціалізувати частковий перехід"
+msgstr "не вдалося перетворити в sparse-index"
 
 #: read-cache.c:3285
-#, fuzzy, c-format
+#, c-format
 msgid "could not stat '%s'"
 msgstr "не вдалося виконати stat '%s'"
 
 #: read-cache.c:3298
-#, fuzzy, c-format
+#, c-format
 msgid "unable to open git dir: %s"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося відкрити git-директорію: %s"
 
 #: read-cache.c:3310
-#, fuzzy, c-format
+#, c-format
 msgid "unable to unlink: %s"
-msgstr "не вдалося розʼєднати '%s'"
+msgstr "не вдалося відʼєднати: %s"
 
 #: read-cache.c:3339
 #, fuzzy, c-format
 msgid "cannot fix permission bits on '%s'"
-msgstr "неможливо прочитати інформацію про існуючий об’єкт %s"
+msgstr "неможливо виправити біти дозволу на \"%s\""
 
 #: read-cache.c:3496
 #, c-format
@@ -22450,9 +22440,9 @@ msgid ""
 msgstr ""
 
 #: rebase-interactive.c:122
-#, fuzzy, c-format
+#, c-format
 msgid "could not write '%s'."
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося записати \"%s\"."
 
 #: rebase-interactive.c:205
 #, c-format
@@ -22481,14 +22471,14 @@ msgid "gone"
 msgstr "відсутнє"
 
 #: ref-filter.c:43
-#, fuzzy, c-format
+#, c-format
 msgid "ahead %d"
-msgstr "попереду "
+msgstr "попереду %d"
 
 #: ref-filter.c:44
-#, fuzzy, c-format
+#, c-format
 msgid "behind %d"
-msgstr "позаду "
+msgstr "позаду %d"
 
 #: ref-filter.c:45
 #, c-format
