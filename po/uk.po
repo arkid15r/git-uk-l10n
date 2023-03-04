@@ -1509,7 +1509,7 @@ msgstr "неможливо прочитати \"%s\""
 #: archive.c:435 builtin/add.c:224 builtin/add.c:662 builtin/rm.c:338
 #, c-format
 msgid "pathspec '%s' did not match any files"
-msgstr "специфікатор шляжу \"%s\" не відповідає жодному файлу"
+msgstr "специфікатор шляxу \"%s\" не відповідає жодному файлу"
 
 #: archive.c:459
 #, c-format
