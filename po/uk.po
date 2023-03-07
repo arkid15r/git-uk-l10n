@@ -1468,7 +1468,7 @@ msgstr "не вдалося перенаправити дескриптор"
 #: archive-tar.c:514
 #, c-format
 msgid "'%s' filter reported error"
-msgstr "Фільтр ‘%s’ повідомив про помилку"
+msgstr "Фільтр \"%s\" повідомив про помилку"
 
 #: archive-zip.c:319
 #, c-format
