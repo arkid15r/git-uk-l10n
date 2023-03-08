@@ -21677,7 +21677,7 @@ msgstr "не вдалося завантажити растрові індекс
 
 #: pack-bitmap.c:1986
 msgid "you must specify exactly one commit to test"
-msgstr "ви повинні вказати тільки один коміт для тестування"
+msgstr "ви маєте вказати тільки один коміт для тестування"
 
 #: pack-bitmap.c:2004
 #, c-format
