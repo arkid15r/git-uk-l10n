@@ -21307,7 +21307,7 @@ msgstr ""
 #: object-file.c:2183
 #, c-format
 msgid "unable to create directory %s"
-msgstr "не вдалося створити каталог %s"
+msgstr "не вдалося створити директорію %s"
 
 #: object-file.c:2254
 #, c-format
