@@ -21765,7 +21765,7 @@ msgstr "не вдалося зробити %s читабельним"
 #: pack-write.c:582
 #, c-format
 msgid "could not write '%s' promisor file"
-msgstr "не вдалося записати файл обіцянки \"%s\""
+msgstr "не вдалося записати promisor файл \"%s\""
 
 #: packfile.c:637
 msgid "offset before end of packfile (broken .idx?)"
