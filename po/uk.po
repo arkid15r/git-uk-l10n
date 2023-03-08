@@ -21696,7 +21696,7 @@ msgstr ""
 #: pack-bitmap.c:2284
 #, c-format
 msgid "unable to get disk usage of '%s'"
-msgstr "не вдається отримати використання диска \"%s\""
+msgstr "не вдалося отримати дані про використання дискового простору для \"%s\""
 
 #: pack-mtimes.c:46
 #, c-format
