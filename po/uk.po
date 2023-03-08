@@ -21371,7 +21371,7 @@ msgstr "не вдалося розпакувати заголовок %s"
 #: object-file.c:2780
 #, c-format
 msgid "unable to parse header of %s"
-msgstr "не вдається розібрати заголовок %s"
+msgstr "не вдалося розібрати заголовок %s"
 
 #: object-file.c:2791
 #, c-format
