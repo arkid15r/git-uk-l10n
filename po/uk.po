@@ -21673,7 +21673,7 @@ msgstr ""
 
 #: pack-bitmap.c:1983 pack-bitmap.c:2049 pack-bitmap.c:2057
 msgid "failed to load bitmap indexes"
-msgstr "не вдалося завантажити растрові індекси"
+msgstr "не вдалося завантажити bitmap індекси"
 
 #: pack-bitmap.c:1986
 msgid "you must specify exactly one commit to test"
