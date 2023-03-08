@@ -21755,7 +21755,7 @@ msgstr ""
 #: pack-write.c:262
 #, c-format
 msgid "could not stat: %s"
-msgstr "не вдалося записати: %s"
+msgstr "не вдалося виконати stat: %s"
 
 #: pack-write.c:274 pack-write.c:334
 #, c-format
