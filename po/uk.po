@@ -21654,7 +21654,7 @@ msgstr ""
 #: pack-bitmap.c:1929
 #, fuzzy, c-format
 msgid "object '%s' not found in type bitmaps"
-msgstr "обʼєкт \"%s\" не знайдено в типових растрах"
+msgstr "обʼєкт \"%s\" не знайдено в bitmap типах"
 
 #: pack-bitmap.c:1933
 #, c-format
