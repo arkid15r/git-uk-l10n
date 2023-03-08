@@ -21789,7 +21789,7 @@ msgstr ""
 #: parse-options-cb.c:42
 #, c-format
 msgid "malformed expiration date '%s'"
-msgstr "неправильно сформований термін придатності \"%s\""
+msgstr "неправильно сформована дата закінчення терміну дії \"%s\""
 
 #: parse-options-cb.c:55
 #, c-format
