@@ -1844,7 +1844,7 @@ msgstr ""
 #: branch.c:105
 #, c-format
 msgid "not setting branch '%s' as its own upstream"
-msgstr "гілку \"%s\" не встановлено власним першоджерельне сховищем"
+msgstr "гілку \"%s\" не встановлено власним першоджерельним сховищем"
 
 #: branch.c:161
 #, c-format
