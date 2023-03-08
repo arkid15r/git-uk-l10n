@@ -21613,7 +21613,7 @@ msgstr ""
 
 #: pack-bitmap.c:349 pack-bitmap.c:426
 msgid "cannot fstat bitmap file"
-msgstr "не вдається виконати fstat для растрового файла"
+msgstr "неможливо виконати fstat для bitmap файла"
 
 #: pack-bitmap.c:375
 msgid "checksum doesn't match in MIDX and bitmap"
