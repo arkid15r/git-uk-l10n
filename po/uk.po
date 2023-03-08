@@ -21297,7 +21297,7 @@ msgstr ""
 #: object-file.c:2163
 #, fuzzy, c-format
 msgid "unable to stream deflate new object (%d)"
-msgstr "не вдалося запакувати новий обʼєкт потоку (%d)"
+msgstr "не вдалося запакувати для передачі новий обʼєкт (%d)"
 
 #: object-file.c:2166
 #, c-format
