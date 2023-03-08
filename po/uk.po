@@ -21626,7 +21626,7 @@ msgstr ""
 #: pack-bitmap.c:386
 #, c-format
 msgid "could not open pack %s"
-msgstr "не вдалося відкрити пакет %s"
+msgstr "не вдалося відкрити пакунок %s"
 
 #: pack-bitmap.c:392
 #, c-format
