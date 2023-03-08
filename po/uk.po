@@ -21346,7 +21346,7 @@ msgstr ""
 #: object-file.c:2521
 #, c-format
 msgid "%s is not a valid '%s' object"
-msgstr "%s не є допустимим обʼєктом \"%s\""
+msgstr "%s не є допустимим \"%s\" обʼєктом"
 
 #: object-file.c:2548
 #, c-format
