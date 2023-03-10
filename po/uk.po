@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-07 19:21-0800\n"
+"PO-Revision-Date: 2023-03-09 16:34-0800\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -1956,19 +1956,19 @@ msgstr ""
 
 #: branch.c:541 builtin/replace.c:324 builtin/replace.c:380 builtin/replace.c:426
 #: builtin/replace.c:456
-#, fuzzy, c-format
+#, c-format
 msgid "not a valid object name: '%s'"
-msgstr "неможливо розібрати очікуване імʼя обʼєкту '%s'"
+msgstr "не є допустимим ім’ям об’єкта: \"%s\""
 
 #: branch.c:561
-#, fuzzy, c-format
+#, c-format
 msgid "ambiguous object name: '%s'"
-msgstr "неможливо розібрати очікуване імʼя обʼєкту '%s'"
+msgstr "неоднозначне ім’я об’єкта: \"%s\""
 
 #: branch.c:566
-#, fuzzy, c-format
+#, c-format
 msgid "not a valid branch point: '%s'"
-msgstr "немає такої гілки: '%s'"
+msgstr "не є допустимим ім’ям точки розгалуження: \"%s\""
 
 #: branch.c:756
 #, c-format
@@ -1983,9 +1983,9 @@ msgid ""
 msgstr ""
 
 #: branch.c:770 branch.c:796
-#, fuzzy, c-format
+#, c-format
 msgid "submodule '%s': cannot create branch '%s'"
-msgstr "'%s' не може використовуватись з '%s'"
+msgstr "підмодуль \"%s\": неможливо створити гілку \"%s\""
 
 #: branch.c:828
 #, c-format
@@ -1998,14 +1998,13 @@ msgid "HEAD of working tree %s is not updated"
 msgstr ""
 
 #: builtin/add.c:26
-#, fuzzy
 msgid "git add [<options>] [--] <pathspec>..."
-msgstr "git reset [-q] [<деревоподібне джерело>] [--] <специфікатор шляху>..."
+msgstr "git add [<опції>] [--] <специфікатор шляху>..."
 
 #: builtin/add.c:63
-#, fuzzy, c-format
+#, c-format
 msgid "cannot chmod %cx '%s'"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "неможливо виконати chmod %cx \"%s\""
 
 #: builtin/add.c:105
 #, c-format
@@ -2013,48 +2012,43 @@ msgid "unexpected diff status %c"
 msgstr ""
 
 #: builtin/add.c:110 builtin/commit.c:306
-#, fuzzy
 msgid "updating files failed"
-msgstr "оновити ігноровані файли (типово)"
+msgstr "не вдалося оновити файли"
 
 #: builtin/add.c:120
-#, fuzzy, c-format
+#, c-format
 msgid "remove '%s'\n"
-msgstr "Вже на '%s'\n"
+msgstr "видалити \"%s\"\n"
 
 #: builtin/add.c:214
-#, fuzzy
 msgid "Unstaged changes after refreshing the index:"
-msgstr "Неіндексовані зміни після скидання:"
+msgstr "Неіндексовані зміни після оновлення індексу:"
 
 #: builtin/add.c:316 builtin/rev-parse.c:1012
-#, fuzzy
 msgid "Could not read the index"
-msgstr "Не вдалося записати новий індексний файл."
+msgstr "Не вдалося прочитати індекс"
 
 #: builtin/add.c:329
-#, fuzzy
 msgid "Could not write patch"
-msgstr "Не вдалося записати новий індексний файл."
+msgstr "Не вдалося записати патч"
 
 #: builtin/add.c:332
-#, fuzzy
 msgid "editing patch failed"
-msgstr "не вдалося налаштувати проходження по ревізіям"
+msgstr "не вдалося відредагувати патч"
 
 #: builtin/add.c:335
-#, fuzzy, c-format
+#, c-format
 msgid "Could not stat '%s'"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "Не вдалося виконати stat \"%s\""
 
 #: builtin/add.c:337
 msgid "Empty patch. Aborted."
 msgstr ""
 
 #: builtin/add.c:343
-#, fuzzy, c-format
+#, c-format
 msgid "Could not apply '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "Не вдалося застосувати \"%s\""
 
 #: builtin/add.c:352
 msgid "The following paths are ignored by one of your .gitignore files:\n"
@@ -2089,27 +2083,24 @@ msgid "allow adding otherwise ignored files"
 msgstr ""
 
 #: builtin/add.c:379
-#, fuzzy
 msgid "update tracked files"
-msgstr "Невідстежувані файли"
+msgstr "оновити відстежувані файли"
 
 #: builtin/add.c:380
 msgid "renormalize EOL of tracked files (implies -u)"
 msgstr ""
 
 #: builtin/add.c:381
-#, fuzzy
 msgid "record only the fact that the path will be added later"
-msgstr "записати лише той факт, що вилучені шляхи будуть додані пізніше"
+msgstr "записати лише той факт, що шлях будe додано пізніше"
 
 #: builtin/add.c:382
 msgid "add changes from all tracked and untracked files"
 msgstr ""
 
 #: builtin/add.c:385
-#, fuzzy
 msgid "ignore paths removed in the working tree (same as --no-all)"
-msgstr "відновити робоче дерево (типово)"
+msgstr "ігнорувати шляхи, видалені у робочому дереві (те саме, що й --no-all)"
 
 #: builtin/add.c:387
 msgid "don't add, only refresh the index"
