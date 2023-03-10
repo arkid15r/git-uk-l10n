@@ -21258,7 +21258,7 @@ msgstr "не вдалося створити тимчасовий файл"
 
 #: object-file.c:1989
 msgid "unable to write loose object file"
-msgstr "не вдалося записати вільний файл об’єкта"
+msgstr "не вдалося записати файл вільного об’єкта"
 
 #: object-file.c:2049
 #, c-format
