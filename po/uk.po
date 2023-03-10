@@ -21245,7 +21245,7 @@ msgstr "не вдалося встановити права доступу до 
 
 #: object-file.c:1877
 msgid "error when closing loose object file"
-msgstr "помилка при закритті вільного файлу об’єкта"
+msgstr "помилка при закритті файла вільного об’єкта"
 
 #: object-file.c:1950
 #, c-format
