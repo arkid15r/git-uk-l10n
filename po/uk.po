@@ -2100,7 +2100,7 @@ msgstr ""
 
 #: builtin/add.c:385
 msgid "ignore paths removed in the working tree (same as --no-all)"
-msgstr "ігнорувати шляхи, видалені у робочому дереві (те саме, що й -no-all)"
+msgstr "ігнорувати шляхи, видалені у робочому дереві (те саме, що й --no-all)"
 
 #: builtin/add.c:387
 msgid "don't add, only refresh the index"
