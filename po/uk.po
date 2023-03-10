@@ -21211,7 +21211,7 @@ msgstr "неприпустимий тип обʼєкта"
 #: object-file.c:1494
 #, c-format
 msgid "unable to unpack %s header"
-msgstr "не вдалося розпакувати заголовок %s"
+msgstr "не вдалося розпакувати %s заголовок"
 
 #: object-file.c:1498
 #, c-format
