@@ -2092,7 +2092,7 @@ msgstr ""
 
 #: builtin/add.c:381
 msgid "record only the fact that the path will be added later"
-msgstr "записати лише той факт, що шлях буду додано пізніше"
+msgstr "записати лише той факт, що шлях будe додано пізніше"
 
 #: builtin/add.c:382
 msgid "add changes from all tracked and untracked files"
