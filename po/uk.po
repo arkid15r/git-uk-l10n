@@ -2204,7 +2204,7 @@ msgstr "погана дія \"%s\" для \"%s\""
 #: sequencer.c:2871 setup.c:576
 #, c-format
 msgid "invalid value for '%s': '%s'"
-msgstr "неприпустиме значення для ‘%s’: ‘%s’"
+msgstr "неприпустиме значення для \"%s\": \"%s\""
 
 #: builtin/am.c:291 builtin/commit.c:848 builtin/merge.c:1162 sequencer.c:516
 #: sequencer.c:1976 sequencer.c:3179 sequencer.c:3614
