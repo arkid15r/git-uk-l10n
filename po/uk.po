@@ -21123,7 +21123,7 @@ msgstr "не вдається прочитати файл альтернатив
 
 #: object-file.c:670
 msgid "unable to move new alternates file into place"
-msgstr "не вдається перемістити новий файл альтернатив на місце"
+msgstr "не вдалося перемістити файл нових спільних обʼєктів на місце"
 
 #: object-file.c:748
 #, c-format
