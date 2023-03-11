@@ -2210,7 +2210,7 @@ msgstr "неприпустиме значення для \"%s\": \"%s\""
 #: sequencer.c:1976 sequencer.c:3179 sequencer.c:3614
 #, c-format
 msgid "could not read '%s'"
-msgstr "не вдалося прочитати ‘%s’"
+msgstr "не вдалося прочитати \"%s\""
 
 #: builtin/am.c:394
 msgid "could not parse author script"
