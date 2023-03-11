@@ -2195,7 +2195,7 @@ msgstr "індексний файл пошкоджено"
 #: builtin/am.c:186 builtin/mailinfo.c:46 mailinfo.c:1254
 #, c-format
 msgid "bad action '%s' for '%s'"
-msgstr "погана дія ‘%s’ для ‘%s’"
+msgstr "погана дія \"%s\" для \"%s\""
 
 #: builtin/am.c:204 builtin/am.c:2257 builtin/am.c:2301 builtin/blame.c:732
 #: builtin/blame.c:750 builtin/fetch.c:796 builtin/pack-objects.c:3755
