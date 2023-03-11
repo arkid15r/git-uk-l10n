@@ -21115,11 +21115,11 @@ msgstr ""
 
 #: object-file.c:645
 msgid "unable to fdopen alternates lockfile"
-msgstr "не вдалося fdopen lockfile альтернатив"
+msgstr "не вдалося виконати fdopen для файла блокування спільних обʼєктів"
 
 #: object-file.c:663
 msgid "unable to read alternates file"
-msgstr "не вдається прочитати файл альтернатив"
+msgstr "не вдалося прочитати файл спільних обʼєктів"
 
 #: object-file.c:670
 msgid "unable to move new alternates file into place"
