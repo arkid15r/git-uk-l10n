@@ -21143,7 +21143,7 @@ msgstr "сховище посилання \"%s\" не є локальним сх
 #: object-file.c:781
 #, c-format
 msgid "reference repository '%s' is shallow"
-msgstr "сховище посилань \"%s\" є поверхневим"
+msgstr "сховище посилання \"%s\" є поверхневим"
 
 #: object-file.c:789
 #, c-format
