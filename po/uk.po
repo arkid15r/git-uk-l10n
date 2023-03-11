@@ -2235,7 +2235,7 @@ msgstr "Неправильно сформований рядок вводу: ‘
 #: builtin/am.c:566
 #, c-format
 msgid "Failed to copy notes from '%s' to '%s'"
-msgstr "Не вдалося скопіювати нотатки з ‘%s’ в ‘%s’"
+msgstr "Не вдалося скопіювати нотатки з \"%s\" в \"%s\""
 
 #: builtin/am.c:592
 msgid "fseek failed"
