@@ -2230,7 +2230,7 @@ msgstr ""
 #: builtin/am.c:528
 #, c-format
 msgid "Malformed input line: '%s'."
-msgstr "Неправильно сформований рядок вводу: ‘%s’."
+msgstr "Неправильно сформований рядок вводу: \"%s\"."
 
 #: builtin/am.c:566
 #, c-format
