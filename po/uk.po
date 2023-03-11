@@ -21138,7 +21138,7 @@ msgstr ""
 #: object-file.c:775
 #, c-format
 msgid "reference repository '%s' is not a local repository."
-msgstr "сховище посилань \"%s\" не є локальним сховищем."
+msgstr "сховище посилання \"%s\" не є локальним сховищем."
 
 #: object-file.c:781
 #, c-format
