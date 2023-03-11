@@ -21148,7 +21148,7 @@ msgstr "сховище посилання \"%s\" є поверхневим"
 #: object-file.c:789
 #, c-format
 msgid "reference repository '%s' is grafted"
-msgstr "сховище посилань \"%s\" прищеплено"
+msgstr "сховище посилання \"%s\" прищеплено"
 
 #: object-file.c:820
 #, c-format
