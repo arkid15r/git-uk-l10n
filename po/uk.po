@@ -2256,7 +2256,7 @@ msgstr ""
 #: builtin/am.c:780
 #, c-format
 msgid "could not parse patch '%s'"
-msgstr "не вдалося розібрати патч ‘%s’"
+msgstr "не вдалося розібрати патч \"%s\""
 
 #: builtin/am.c:845
 msgid "Only one StGIT patch series can be applied at once"
