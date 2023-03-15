@@ -2714,7 +2714,7 @@ msgstr "неможливо відкрити файл \"%s\" у режимі \"%s
 #: builtin/bisect.c:137
 #, c-format
 msgid "could not write to file '%s'"
-msgstr "не вдалося записати в файл \"%\"’"
+msgstr "не вдалося записати в файл \"%s\""
 
 #: builtin/bisect.c:175
 #, c-format
