@@ -2848,7 +2848,7 @@ msgstr ""
 
 #: builtin/bisect.c:721 builtin/bisect.c:734
 msgid "'' is not a valid term"
-msgstr "‘’ не є допустимим терміном"
+msgstr "\"\" не є допустимим терміном"
 
 #: builtin/bisect.c:744
 #, c-format
