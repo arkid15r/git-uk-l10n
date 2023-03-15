@@ -2464,7 +2464,7 @@ msgstr ""
 #: builtin/am.c:2224 builtin/bisect.c:177 worktree.c:237
 #, c-format
 msgid "failed to read '%s'"
-msgstr "не вдалося прочитати “%s”"
+msgstr "не вдалося прочитати \"%s\""
 
 #: builtin/am.c:2306
 #, c-format
