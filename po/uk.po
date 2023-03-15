@@ -20731,14 +20731,12 @@ msgid ""
 msgstr ""
 
 #: merge-recursive.c:3093
-#, fuzzy
 msgid "modify"
-msgstr "змінено:"
+msgstr "змінити"
 
 #: merge-recursive.c:3093
-#, fuzzy
 msgid "modified"
-msgstr "змінено:"
+msgstr "змінено"
 
 #: merge-recursive.c:3132
 #, c-format
@@ -20751,14 +20749,13 @@ msgid "Adding as %s instead"
 msgstr ""
 
 #: merge-recursive.c:3389
-#, fuzzy, c-format
+#, c-format
 msgid "Removing %s"
-msgstr "Розв’язання дельт"
+msgstr "Видалення %s"
 
 #: merge-recursive.c:3412
-#, fuzzy
 msgid "file/directory"
-msgstr "директорія-шаблонів"
+msgstr "файл/директорія"
 
 #: merge-recursive.c:3417
 msgid "directory/file"
@@ -20801,14 +20798,13 @@ msgid "merge returned no commit"
 msgstr ""
 
 #: merge-recursive.c:3824
-#, fuzzy, c-format
+#, c-format
 msgid "Could not parse object '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "Не вдалося розібрати обʼєкт \"%s\""
 
 #: merge.c:41
-#, fuzzy
 msgid "failed to read the cache"
-msgstr "не вдалося створити посилання '%s'"
+msgstr "не вдалося прочитати кеш"
 
 #: midx.c:67
 msgid "multi-pack-index OID fanout is of the wrong size"
@@ -20865,14 +20861,14 @@ msgid "multi-pack-index stores a 64-bit offset, but off_t is too small"
 msgstr ""
 
 #: midx.c:497
-#, fuzzy, c-format
+#, c-format
 msgid "failed to add packfile '%s'"
-msgstr "не вдалося скопіювати файл у '%s'"
+msgstr "не вдалося додати packfile \"%s\""
 
 #: midx.c:503
-#, fuzzy, c-format
+#, c-format
 msgid "failed to open pack-index '%s'"
-msgstr "не вдалося розʼєднати '%s'"
+msgstr "не вдалося відкрити pack-index \"%s\""
 
 #: midx.c:571
 #, c-format
@@ -20880,14 +20876,13 @@ msgid "failed to locate object %d in packfile"
 msgstr ""
 
 #: midx.c:954
-#, fuzzy
 msgid "cannot store reverse index file"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "неможливо зберегти файл зворотнього індексу"
 
 #: midx.c:1062
-#, fuzzy, c-format
+#, c-format
 msgid "could not parse line: %s"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося розібрати рядок: %s"
 
 #: midx.c:1064
 #, c-format
@@ -20899,14 +20894,13 @@ msgid "ignoring existing multi-pack-index; checksum mismatch"
 msgstr ""
 
 #: midx.c:1280
-#, fuzzy
 msgid "could not load pack"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося завантажити пакет"
 
 #: midx.c:1286
-#, fuzzy, c-format
+#, c-format
 msgid "could not open index for %s"
-msgstr "Не вдалося записати новий індексний файл."
+msgstr "не вдалося відкрити індекс для %s"
 
 #: midx.c:1297
 msgid "Adding packfiles to multi-pack-index"
@@ -20945,14 +20939,13 @@ msgid "could not write multi-pack bitmap"
 msgstr ""
 
 #: midx.c:1561
-#, fuzzy
 msgid "could not write multi-pack-index"
-msgstr "Не вдалося записати новий індексний файл."
+msgstr "не вдалося записати multi-pack-index"
 
 #: midx.c:1655
-#, fuzzy, c-format
+#, c-format
 msgid "failed to clear multi-pack-index at %s"
-msgstr "не вдалося створити посилання '%s'"
+msgstr "не вдалося очистити multi-pack-index при %s"
 
 #: midx.c:1718
 msgid "multi-pack-index file exists, but failed to parse"
@@ -20963,9 +20956,8 @@ msgid "incorrect checksum"
 msgstr ""
 
 #: midx.c:1729
-#, fuzzy
 msgid "Looking for referenced packfiles"
-msgstr "очікувалось тільки одне посилання"
+msgstr "Пошук файлів пакунків, на які є посилання"
 
 #: midx.c:1744
 #, c-format
@@ -20990,9 +20982,8 @@ msgid "Sorting objects by packfile"
 msgstr ""
 
 #: midx.c:1794
-#, fuzzy
 msgid "Verifying object offsets"
-msgstr "Отримання об’єктів"
+msgstr "Перевірка зміщень обʼєкта"
 
 #: midx.c:1810
 #, c-format
@@ -21010,9 +21001,8 @@ msgid "incorrect object offset for oid[%d] = %s: %<PRIx64> != %<PRIx64>"
 msgstr ""
 
 #: midx.c:1852
-#, fuzzy
 msgid "Counting referenced objects"
-msgstr "очікувалось тільки одне посилання"
+msgstr "Підрахунок обʼєктів, на які є посилання"
 
 #: midx.c:1862
 msgid "Finding and deleting unreferenced packfiles"
@@ -21029,19 +21019,19 @@ msgid "could not finish pack-objects"
 msgstr "Помилка fsck в об’єктах пакунка"
 
 #: name-hash.c:542
-#, fuzzy, c-format
+#, c-format
 msgid "unable to create lazy_dir thread: %s"
-msgstr "не вдалося створити потік: %s"
+msgstr "не вдалося створити lazy_dir потік: %s"
 
 #: name-hash.c:564
-#, fuzzy, c-format
+#, c-format
 msgid "unable to create lazy_name thread: %s"
-msgstr "не вдалося створити потік: %s"
+msgstr "не вдалося створити lazy_name потік: %s"
 
 #: name-hash.c:570
-#, fuzzy, c-format
+#, c-format
 msgid "unable to join lazy_name thread: %s"
-msgstr "не вдалося створити потік: %s"
+msgstr "не вдалося приєднатися до lazy_name потоку: %s"
 
 #: notes-merge.c:276
 #, c-format
@@ -21075,9 +21065,9 @@ msgstr ""
 #. its value.
 #.
 #: notes-utils.c:145
-#, fuzzy, c-format
+#, c-format
 msgid "Bad %s value: '%s'"
-msgstr "неприпустиме значення для '%s'"
+msgstr "Погане %s значення: \"%s\""
 
 #: object-file.c:463
 #, c-format
