@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-13 20:20-0700\n"
+"PO-Revision-Date: 2023-03-15 16:27-0700\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -2910,9 +2910,8 @@ msgid "Bad rev input (not a commit): %s"
 msgstr ""
 
 #: builtin/bisect.c:996
-#, fuzzy
 msgid "We are not bisecting."
-msgstr "Наразі ви робите бісекцію."
+msgstr "Наразі ви не робите бісекцію."
 
 #: builtin/bisect.c:1046
 #, c-format
@@ -2920,23 +2919,23 @@ msgid "'%s'?? what are you talking about?"
 msgstr ""
 
 #: builtin/bisect.c:1058
-#, fuzzy, c-format
+#, c-format
 msgid "cannot read file '%s' for replaying"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "не вдалося прочитати файл \"%s\" для відтворення"
 
 #: builtin/bisect.c:1165
-#, fuzzy, c-format
+#, c-format
 msgid "running %s\n"
-msgstr "Надсилання до %s\n"
+msgstr "виконання %s\n"
 
 #: builtin/bisect.c:1212
 msgid "bisect run failed: no command provided."
 msgstr ""
 
 #: builtin/bisect.c:1232
-#, fuzzy, c-format
+#, c-format
 msgid "unable to verify %s on good revision"
-msgstr "Не вдалося розпізнати '%s' як припустиму ревізію."
+msgstr "не вдалося розпізнати %s як припустиму ревізію"
 
 #: builtin/bisect.c:1238
 #, c-format
@@ -2949,9 +2948,9 @@ msgid "bisect run failed: exit code %d from %s is < 0 or >= 128"
 msgstr ""
 
 #: builtin/bisect.c:1261
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open file '%s' for writing"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "не вдалося відкрити файл '%s' для запису"
 
 #: builtin/bisect.c:1279
 msgid "bisect run cannot continue any more"
@@ -2999,23 +2998,21 @@ msgid "need a command"
 msgstr ""
 
 #: builtin/bisect.c:1428 builtin/cat-file.c:721
-#, fuzzy, c-format
+#, c-format
 msgid "unknown command: '%s'"
-msgstr "невідомий хеш-алгоритм '%s'"
+msgstr "невідома команда: \"%s\""
 
 #: builtin/blame.c:32
-#, fuzzy
 msgid "git blame [<options>] [<rev-opts>] [<rev>] [--] <file>"
-msgstr "git clone [<опції>] [--] <сховище> [<директорія>]"
+msgstr "git blame [<опції>] [<rev-опції>] [<ревізія>] [--] <файл>"
 
 #: builtin/blame.c:33
-#, fuzzy
 msgid "git annotate [<options>] [<rev-opts>] [<rev>] [--] <file>"
-msgstr "git clone [<опції>] [--] <сховище> [<директорія>]"
+msgstr "git annotate [<опції>] [<rev-опції>] [<ревізія>] [--] <файл>"
 
 #: builtin/blame.c:38 builtin/blame.c:45
 msgid "<rev-opts> are documented in git-rev-list(1)"
-msgstr ""
+msgstr "<rev-опції> задокументовані у git-rev-list(1)"
 
 #: builtin/blame.c:414
 #, c-format
@@ -3153,9 +3150,9 @@ msgid "process only line range <start>,<end> or function :<funcname>"
 msgstr ""
 
 #: builtin/blame.c:961
-#, fuzzy
 msgid "--progress can't be used with --incremental or porcelain formats"
-msgstr "надіслати теги (не можна використовувати з --all або --mirror)"
+msgstr ""
+"—progress не можна використовувати з форматами —incremental або porcelain"
 
 #. TRANSLATORS: This string is used to tell us the
 #. maximum display width for a relative timestamp in
