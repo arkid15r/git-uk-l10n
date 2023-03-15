@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-10 17:55-0800\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-03-13 20:20-0700\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -1007,7 +1007,7 @@ msgstr ""
 #: apply.c:3114
 #, c-format
 msgid "missing binary patch data for '%s'"
-msgstr "відсутні дані бінарного патча для \"%s\""
+msgstr "відсутні дані бінарної латки для \"%s\""
 
 #: apply.c:3122
 #, c-format
@@ -1167,7 +1167,7 @@ msgstr ""
 #: apply.c:4036
 #, c-format
 msgid "Checking patch %s..."
-msgstr "Перевірка патча %s…"
+msgstr "Перевірка латки %s..."
 
 #: apply.c:4128
 #, c-format
@@ -1202,7 +1202,7 @@ msgstr "не вдалося видалити %s з індексу"
 #: apply.c:4329
 #, c-format
 msgid "corrupt patch for submodule %s"
-msgstr "пошкоджений патч для підмодуля %s"
+msgstr "пошкоджена латка для підмодуля %s"
 
 #: apply.c:4335
 #, c-format
@@ -1274,7 +1274,7 @@ msgstr ""
 #: apply.c:4741
 #, c-format
 msgid "Skipped patch '%s'."
-msgstr "Пропущено патч \"%s\"."
+msgstr "Пропущена латка \"%s\"."
 
 #: apply.c:4750
 msgid "No valid patches in input (allow with \"--allow-empty\")"
@@ -2030,11 +2030,11 @@ msgstr "Не вдалося прочитати індекс"
 
 #: builtin/add.c:329
 msgid "Could not write patch"
-msgstr "Не вдалося записати патч"
+msgstr "Не вдалося записати латку"
 
 #: builtin/add.c:332
 msgid "editing patch failed"
-msgstr "не вдалося відредагувати патч"
+msgstr "не вдалося відредагувати латку"
 
 #: builtin/add.c:335
 #, c-format
@@ -2256,7 +2256,7 @@ msgstr ""
 #: builtin/am.c:780
 #, c-format
 msgid "could not parse patch '%s'"
-msgstr "не вдалося розібрати патч \"%s\""
+msgstr "не вдалося розібрати латку \"%s\""
 
 #: builtin/am.c:845
 msgid "Only one StGIT patch series can be applied at once"
@@ -2285,7 +2285,7 @@ msgstr "не вдалося створити директорію '%s'"
 
 #: builtin/am.c:1008
 msgid "Failed to split patches."
-msgstr "Не вдалося розділити патчі."
+msgstr "Не вдалося розділити латки."
 
 #: builtin/am.c:1157
 #, c-format
@@ -2359,14 +2359,13 @@ msgstr ""
 
 #: builtin/am.c:1686 builtin/commit.c:1837 builtin/merge.c:928
 #: builtin/merge.c:953 sequencer.c:1590 t/helper/test-fast-rebase.c:78
-#, fuzzy
 msgid "failed to write commit object"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося записати об’єкт коміту"
 
 #: builtin/am.c:1719 builtin/am.c:1723
-#, fuzzy, c-format
+#, c-format
 msgid "cannot resume: %s does not exist."
-msgstr "сховище '%s' не існує"
+msgstr "неможливо продовжити: %s не існує."
 
 #: builtin/am.c:1741
 msgid "Commit Body is:"
@@ -2382,9 +2381,8 @@ msgid "Apply? [y]es/[n]o/[e]dit/[v]iew patch/[a]ccept all: "
 msgstr ""
 
 #: builtin/am.c:1798 builtin/commit.c:419
-#, fuzzy
 msgid "unable to write index file"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "не вдалося записати індексний файл"
 
 #: builtin/am.c:1802
 #, c-format
@@ -2402,9 +2400,8 @@ msgid "Creating an empty commit: %.*s"
 msgstr ""
 
 #: builtin/am.c:1853
-#, fuzzy
 msgid "Patch is empty."
-msgstr "Поточний патч порожній."
+msgstr "Латка порожня."
 
 #: builtin/am.c:1864 builtin/am.c:1933
 #, c-format
@@ -2416,18 +2413,17 @@ msgid "No changes -- Patch already applied."
 msgstr ""
 
 #: builtin/am.c:1887
-#, fuzzy, c-format
+#, c-format
 msgid "Patch failed at %s %.*s"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "Латання не вдалося на %s %.*s"
 
 #: builtin/am.c:1891
 msgid "Use 'git am --show-current-patch=diff' to see the failed patch"
 msgstr ""
 
 #: builtin/am.c:1937
-#, fuzzy
 msgid "No changes - recorded it as an empty commit."
-msgstr "нічого не додано до коміту\n"
+msgstr "Без змін - записаний як порожній коміт."
 
 #: builtin/am.c:1939
 msgid ""
@@ -2456,9 +2452,8 @@ msgid "Could not parse object '%s'."
 msgstr "Не вдалося розібрати об'єкт '%s'."
 
 #: builtin/am.c:2107 builtin/am.c:2183
-#, fuzzy
 msgid "failed to clean index"
-msgstr "не вдалося створити посилання '%s'"
+msgstr "не вдалося очистити індекс"
 
 #: builtin/am.c:2151
 msgid ""
@@ -2467,28 +2462,26 @@ msgid ""
 msgstr ""
 
 #: builtin/am.c:2224 builtin/bisect.c:177 worktree.c:237
-#, fuzzy, c-format
+#, c-format
 msgid "failed to read '%s'"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося прочитати \"%s\""
 
 #: builtin/am.c:2306
-#, fuzzy, c-format
+#, c-format
 msgid "options '%s=%s' and '%s=%s' cannot be used together"
-msgstr "опції '%s' і '%s' не можна використовувати разом"
+msgstr "опції \"%s=%s\" and \"%s=%s\" не можна використовувати разом"
 
 #: builtin/am.c:2337
-#, fuzzy
 msgid "git am [<options>] [(<mbox> | <Maildir>)...]"
-msgstr "git clone [<опції>] [--] <сховище> [<директорія>]"
+msgstr "git am [<опції>] [(<скринька> [<поштова директорія>)...]"
 
 #: builtin/am.c:2338
 msgid "git am [<options>] (--continue | --skip | --abort)"
 msgstr ""
 
 #: builtin/am.c:2344
-#, fuzzy
 msgid "run interactively"
-msgstr "обирати шматки інтерактивно"
+msgstr "запустити інтерактивно"
 
 #: builtin/am.c:2346
 msgid "bypass pre-applypatch and applypatch-msg hooks"
@@ -2512,9 +2505,8 @@ msgid "add a Signed-off-by trailer to the commit message"
 msgstr ""
 
 #: builtin/am.c:2356
-#, fuzzy
 msgid "recode into utf8 (default)"
-msgstr "оновити ігноровані файли (типово)"
+msgstr "перекодувати в utf8 (типово)"
 
 #: builtin/am.c:2358
 msgid "pass -k flag to git-mailinfo"
@@ -2584,9 +2576,8 @@ msgid "synonyms for --continue"
 msgstr ""
 
 #: builtin/am.c:2413
-#, fuzzy
 msgid "skip the current patch"
-msgstr "Поточний патч порожній."
+msgstr "пропустити поточну латку"
 
 #: builtin/am.c:2416
 msgid "restore the original branch and abort the patching operation"
@@ -2601,11 +2592,8 @@ msgid "show the patch being applied"
 msgstr ""
 
 #: builtin/am.c:2427
-#, fuzzy
 msgid "record the empty patch as an empty commit"
-msgstr ""
-"  (використовуйте \"git am --allow-empty\", щоб записати цей патч як порожній "
-"коміт)"
+msgstr "записати порожню латку як порожній коміт"
 
 #: builtin/am.c:2431
 msgid "lie about committer date"
@@ -2622,9 +2610,8 @@ msgid "key-id"
 msgstr ""
 
 #: builtin/am.c:2436 builtin/rebase.c:1129
-#, fuzzy
 msgid "GPG-sign commits"
-msgstr "нові коміти, "
+msgstr "підписати коміти GPG-підписом"
 
 #: builtin/am.c:2439
 msgid "how to handle empty patches"
@@ -2641,9 +2628,8 @@ msgid ""
 msgstr ""
 
 #: builtin/am.c:2467
-#, fuzzy
 msgid "failed to read the index"
-msgstr "відновити індекс"
+msgstr "не вдалося прочитати індекс"
 
 #: builtin/am.c:2482
 #, c-format
@@ -2666,14 +2652,12 @@ msgid "interactive mode requires patches on the command line"
 msgstr ""
 
 #: builtin/apply.c:7
-#, fuzzy
 msgid "git apply [<options>] [<patch>...]"
-msgstr "git switch [<опції>] [<гілка>]"
+msgstr "git apply [<опції>] [<латка>...]"
 
 #: builtin/archive.c:18 diagnose.c:240
-#, fuzzy
 msgid "could not redirect output"
-msgstr "не вдалося вирішити %s"
+msgstr "неможливо перенаправити вивід"
 
 #: builtin/archive.c:35
 msgid "git archive: Remote with no URL"
@@ -2693,9 +2677,8 @@ msgid "git archive: protocol error"
 msgstr ""
 
 #: builtin/archive.c:67
-#, fuzzy
 msgid "git archive: expected a flush"
-msgstr "очікуваних обʼєктів не отримано %s"
+msgstr "git archive: очікувався flush"
 
 #: builtin/bisect.c:23
 msgid ""
@@ -2724,24 +2707,24 @@ msgid "git bisect run <cmd>..."
 msgstr ""
 
 #: builtin/bisect.c:130
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open file '%s' in mode '%s'"
-msgstr "неможливо закрити записаний %s файл '%s'"
+msgstr "неможливо відкрити файл \"%s\" у режимі \"%s\""
 
 #: builtin/bisect.c:137
-#, fuzzy, c-format
+#, c-format
 msgid "could not write to file '%s'"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "не вдалося записати в файл \"%s\""
 
 #: builtin/bisect.c:175
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open file '%s' for reading"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "неможливо відкрити файл \"%s\" для читання"
 
 #: builtin/bisect.c:191
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a valid term"
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "\"%s\" не є допустимим терміном"
 
 #: builtin/bisect.c:195
 #, c-format
@@ -2758,14 +2741,14 @@ msgid "please use two different terms"
 msgstr ""
 
 #: builtin/bisect.c:231
-#, fuzzy, c-format
+#, c-format
 msgid "We are not bisecting.\n"
-msgstr "Наразі ви робите бісекцію."
+msgstr "Ми не робимо бісекцію.\n"
 
 #: builtin/bisect.c:239
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a valid commit"
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "\"%s\" не є дійсним комітом"
 
 #: builtin/bisect.c:249
 #, c-format
@@ -2778,14 +2761,14 @@ msgid "Bad bisect_write argument: %s"
 msgstr ""
 
 #: builtin/bisect.c:296
-#, fuzzy, c-format
+#, c-format
 msgid "couldn't get the oid of the rev '%s'"
-msgstr "не вдалося знайти віддалене посилання %s"
+msgstr "не вдалося отримати oid для rev \"%s\""
 
 #: builtin/bisect.c:308
-#, fuzzy, c-format
+#, c-format
 msgid "couldn't open the file '%s'"
-msgstr "не вдалося знайти віддалене посилання %s"
+msgstr "не вдалося відкрити файл \"%s\""
 
 #: builtin/bisect.c:334
 #, c-format
@@ -2855,9 +2838,8 @@ msgid ""
 msgstr ""
 
 #: builtin/bisect.c:576 builtin/bisect.c:1099
-#, fuzzy
 msgid "revision walk setup failed\n"
-msgstr "не вдалося налаштувати проходження по ревізіям"
+msgstr "не вдалося налаштувати проходження по ревізіям\n"
 
 #: builtin/bisect.c:598
 #, c-format
@@ -2865,9 +2847,8 @@ msgid "could not open '%s' for appending"
 msgstr ""
 
 #: builtin/bisect.c:721 builtin/bisect.c:734
-#, fuzzy
 msgid "'' is not a valid term"
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "\"\" не є допустимим терміном"
 
 #: builtin/bisect.c:744
 #, c-format
@@ -2875,9 +2856,9 @@ msgid "unrecognized option: '%s'"
 msgstr ""
 
 #: builtin/bisect.c:748
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' does not appear to be a valid revision"
-msgstr "шлях '%s' не містить їхньої версії"
+msgstr "\"%s\" не є дійсною ревізією"
 
 #: builtin/bisect.c:779
 msgid "bad HEAD - I need a HEAD"
@@ -2893,9 +2874,9 @@ msgid "bad HEAD - strange symbolic ref"
 msgstr ""
 
 #: builtin/bisect.c:832
-#, fuzzy, c-format
+#, c-format
 msgid "invalid ref: '%s'"
-msgstr "неприпустиме посилання: %s"
+msgstr "неприпустиме посилання: \"%s\""
 
 #: builtin/bisect.c:890
 msgid "You need to start by \"git bisect start\"\n"
@@ -21178,7 +21159,7 @@ msgstr "обʼєктний файл %s порожній"
 #: object-file.c:1350 object-file.c:2732
 #, c-format
 msgid "corrupt loose object '%s'"
-msgstr "пошкоджено вільний обʼєкт \"%s\"
+msgstr "пошкоджено вільний обʼєкт \"%s\""
 
 #: object-file.c:1352 object-file.c:2736
 #, c-format
@@ -25958,7 +25939,7 @@ msgstr "Ви всередині am сеансу."
 
 #: wt-status.c:1247
 msgid "The current patch is empty."
-msgstr "Поточний патч порожній."
+msgstr "Поточна латка порожня."
 
 #: wt-status.c:1252
 msgid "  (fix conflicts and then run \"git am --continue\")"
@@ -25966,12 +25947,12 @@ msgstr "  (виправте конфлікти, а потім виконайте
 
 #: wt-status.c:1254
 msgid "  (use \"git am --skip\" to skip this patch)"
-msgstr "  (використовуйте команду \"git am --skip\", щоб пропустити цей патч)"
+msgstr "  (використовуйте команду \"git am --skip\", щоб пропустити цю латку)"
 
 #: wt-status.c:1257
 msgid "  (use \"git am --allow-empty\" to record this patch as an empty commit)"
 msgstr ""
-"  (використовуйте \"git am --allow-empty\", щоб записати цей патч як порожній "
+"  (використовуйте \"git am --allow-empty\", щоб записати цю латку як порожній "
 "коміт)"
 
 #: wt-status.c:1259
@@ -26031,7 +26012,7 @@ msgstr "  (виправте конфлікти, а потім виконайте
 
 #: wt-status.c:1456
 msgid "  (use \"git rebase --skip\" to skip this patch)"
-msgstr "  (використовуйте \"git rebase --skip\", щоб пропустити цей патч)"
+msgstr "  (використовуйте \"git rebase --skip\", щоб пропустити цю латку)"
 
 #: wt-status.c:1458
 msgid "  (use \"git rebase --abort\" to check out the original branch)"
@@ -26102,7 +26083,7 @@ msgstr "  (усі конфлікти виправлено: виконайте \"
 #: wt-status.c:1520
 msgid "  (use \"git cherry-pick --skip\" to skip this patch)"
 msgstr ""
-"  (скористайтесь командою \"git cherry-pick --skip\", щоб пропустити цей патч)"
+"  (скористайтесь командою \"git cherry-pick --skip\", щоб пропустити цю латку)"
 
 #: wt-status.c:1522
 msgid "  (use \"git cherry-pick --abort\" to cancel the cherry-pick operation)"
@@ -26133,7 +26114,7 @@ msgstr "  (усі конфлікти виправлено: виконайте \"
 
 #: wt-status.c:1549
 msgid "  (use \"git revert --skip\" to skip this patch)"
-msgstr "  (використовуйте \"git revert --skip\", щоб пропустити цей патч)"
+msgstr "  (використовуйте \"git revert --skip\", щоб пропустити цю латку)"
 
 #: wt-status.c:1551
 msgid "  (use \"git revert --abort\" to cancel the revert operation)"
