@@ -2469,7 +2469,7 @@ msgstr "не вдалося прочитати \"%s\""
 #: builtin/am.c:2306
 #, c-format
 msgid "options '%s=%s' and '%s=%s' cannot be used together"
-msgstr "опції “%s=%s” and “%s=%s” не можна використовувати разом"
+msgstr "опції \"%s=%s\" and \"%s=%s\" не можна використовувати разом"
 
 #: builtin/am.c:2337
 msgid "git am [<options>] [(<mbox> | <Maildir>)...]"
