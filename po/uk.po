@@ -20896,7 +20896,7 @@ msgstr ""
 
 #: midx.c:954
 msgid "cannot store reverse index file"
-msgstr "неможливо зберігати файл зворотного індексу"
+msgstr "неможливо зберегти файл зворотнього індексу"
 
 #: midx.c:1062
 #, c-format
@@ -21002,7 +21002,7 @@ msgstr ""
 
 #: midx.c:1794
 msgid "Verifying object offsets"
-msgstr "Перевірка зміщень обʼєктів"
+msgstr "Перевірка зміщень обʼєкта"
 
 #: midx.c:1810
 #, c-format
@@ -21168,7 +21168,7 @@ msgstr "обʼєктний файл %s порожній"
 #: object-file.c:1350 object-file.c:2732
 #, c-format
 msgid "corrupt loose object '%s'"
-msgstr "пошкоджено вільний обʼєкт \"%s\\"
+msgstr "пошкоджено вільний обʼєкт \"%s\""
 
 #: object-file.c:1352 object-file.c:2736
 #, c-format
