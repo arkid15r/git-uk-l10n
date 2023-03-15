@@ -2611,7 +2611,7 @@ msgstr ""
 
 #: builtin/am.c:2436 builtin/rebase.c:1129
 msgid "GPG-sign commits"
-msgstr "підписаті коміти GPG-підписом"
+msgstr "підписати коміти GPG-підписом"
 
 #: builtin/am.c:2439
 msgid "how to handle empty patches"
