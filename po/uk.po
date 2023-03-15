@@ -2653,7 +2653,7 @@ msgstr ""
 
 #: builtin/apply.c:7
 msgid "git apply [<options>] [<patch>...]"
-msgstr "git apply [<опції>] [<латка>…]"
+msgstr "git apply [<опції>] [<латка>...]"
 
 #: builtin/archive.c:18 diagnose.c:240
 msgid "could not redirect output"
