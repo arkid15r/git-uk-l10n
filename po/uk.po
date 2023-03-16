@@ -20566,7 +20566,7 @@ msgstr ""
 #: merge-recursive.c:915
 #, c-format
 msgid "refusing to lose untracked file at '%s'"
-msgstr "відмова втрачати невідстежуваний файл за адресою \"%s\""
+msgstr "відмова від втрати невідстежуваного файла \"%s\""
 
 #: merge-recursive.c:961
 #, c-format
