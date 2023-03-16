@@ -20672,7 +20672,7 @@ msgstr "перейменовано"
 #: merge-recursive.c:1613 merge-recursive.c:2519 merge-recursive.c:3182
 #, c-format
 msgid "Refusing to lose dirty file at %s"
-msgstr "Відмова втрачати брудний файл на %s"
+msgstr "Відмова від втрати брудного файла %s"
 
 #: merge-recursive.c:1623
 #, c-format
