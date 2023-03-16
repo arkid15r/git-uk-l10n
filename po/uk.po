@@ -20584,7 +20584,7 @@ msgstr "не вдалося відкрити \"%s\": %s"
 #: merge-recursive.c:997
 #, c-format
 msgid "failed to symlink '%s': %s"
-msgstr "не вдалося зробити символьне посилання \"%s\"": %s"
+msgstr "не вдалося зробити символьне посилання \"%s\": %s"
 
 #: merge-recursive.c:1002
 #, c-format
