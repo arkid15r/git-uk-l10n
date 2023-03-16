@@ -2950,7 +2950,7 @@ msgstr ""
 #: builtin/bisect.c:1261
 #, c-format
 msgid "cannot open file '%s' for writing"
-msgstr "не вдалося відкрити файл '%s' для запису"
+msgstr "не вдалося відкрити файл \"%s\" для запису"
 
 #: builtin/bisect.c:1279
 msgid "bisect run cannot continue any more"
