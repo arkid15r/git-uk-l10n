@@ -20362,7 +20362,7 @@ msgstr ""
 #: merge-ort.c:2119 merge-recursive.c:1381
 #, c-format
 msgid "Unable to add %s to database"
-msgstr "Неможливо додати %s до бази даних"
+msgstr "не вдалося додати %s до бази даних"
 
 #: merge-ort.c:2127 merge-recursive.c:1414
 #, c-format
