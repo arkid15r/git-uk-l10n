@@ -3210,7 +3210,7 @@ msgstr "git branch [<опції>] [-r | -a] [--points-at]"
 
 #: builtin/branch.c:36
 msgid "git branch [<options>] [-r | -a] [--format]"
-msgstr "git branch [<опції>] [-r | -a] [—format]"
+msgstr "git branch [<опції>] [-r | -a] [--format]"
 
 #: builtin/branch.c:165
 #, c-format
