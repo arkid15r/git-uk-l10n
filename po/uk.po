@@ -3189,35 +3189,28 @@ msgid ""
 msgstr ""
 
 #: builtin/branch.c:31
-#, fuzzy
 msgid "git branch [<options>] [-l] [<pattern>...]"
-msgstr ""
-"git reset --patch [<деревоподібне джерело>] [--] [<специфікатор шляху>...]"
+msgstr "git branch [<опції>] [-l] [<шаблон>...]"
 
 #: builtin/branch.c:32
-#, fuzzy
 msgid "git branch [<options>] [-r] (-d | -D) <branch-name>..."
-msgstr "git checkout [<опції>] [<гілка>] -- <файл>..."
+msgstr "git branch [<опції>] [-r] (-d | -D) <имʼя-гілки>..."
 
 #: builtin/branch.c:33
-#, fuzzy
 msgid "git branch [<options>] (-m | -M) [<old-branch>] <new-branch>"
-msgstr "git switch [<опції>] [<гілка>]"
+msgstr "git branch [<опції>] (-m | -M) [<стара-гілка>] <нова-гілка>"
 
 #: builtin/branch.c:34
-#, fuzzy
 msgid "git branch [<options>] (-c | -C) [<old-branch>] <new-branch>"
-msgstr "git switch [<опції>] [<гілка>]"
+msgstr "git branch [<опції>] (-c | -C) [<стара-гілка>] <нова-гілка>"
 
 #: builtin/branch.c:35
-#, fuzzy
 msgid "git branch [<options>] [-r | -a] [--points-at]"
-msgstr "git clone [<опції>] [--] <сховище> [<директорія>]"
+msgstr "git branch [<опції>] [-r | -a] [--points-at]"
 
 #: builtin/branch.c:36
-#, fuzzy
 msgid "git branch [<options>] [-r | -a] [--format]"
-msgstr "git clone [<опції>] [--] <сховище> [<директорія>]"
+msgstr "git branch [<опції>] [-r | -a] [--format]"
 
 #: builtin/branch.c:165
 #, c-format
@@ -3234,9 +3227,9 @@ msgid ""
 msgstr ""
 
 #: builtin/branch.c:183
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn't look up commit object for '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "Не вдалося знайти об’єкт коміту для \"%s\""
 
 #: builtin/branch.c:187
 #, c-format
