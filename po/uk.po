@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-16 18:06-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-03-16 20:00-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -19927,9 +19927,9 @@ msgid ""
 msgstr ""
 
 #: grep.c:1858
-#, fuzzy, c-format
+#, c-format
 msgid "'%s': unable to read %s"
-msgstr "не вдалося прочитати %s"
+msgstr "\"%s\": не вдалося прочитати %s"
 
 #: grep.c:1886
 #, c-format
@@ -19997,9 +19997,9 @@ msgid "Developer-facing file formats, protocols and other interfaces"
 msgstr ""
 
 #: help.c:327
-#, fuzzy, c-format
+#, c-format
 msgid "available git commands in '%s'"
-msgstr "не вдалося створити посилання '%s'"
+msgstr "доступні команди git в \"%s\""
 
 #: help.c:334
 msgid "git commands available from elsewhere on your $PATH"
@@ -20113,9 +20113,8 @@ msgid "argument to --packfile must be a valid hash (got '%s')"
 msgstr ""
 
 #: http-fetch.c:139
-#, fuzzy
 msgid "not a git repository"
-msgstr "створити порожнє сховище"
+msgstr "не є git сховищем"
 
 #: http.c:350
 #, c-format
@@ -20194,9 +20193,9 @@ msgid "no name was given and auto-detection is disabled"
 msgstr ""
 
 #: ident.c:500
-#, fuzzy, c-format
+#, c-format
 msgid "unable to auto-detect name (got '%s')"
-msgstr "не вдалося запакувати доданий об’єкт (%d)"
+msgstr "не вдалося автоматично визначити імʼя (отримано \"%s\")"
 
 #: ident.c:508
 #, c-format
@@ -20252,14 +20251,14 @@ msgid "object filtering"
 msgstr ""
 
 #: list-objects-filter.c:533
-#, fuzzy, c-format
+#, c-format
 msgid "unable to access sparse blob in '%s'"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося отримати доступ до часткового blob в \"%s\""
 
 #: list-objects-filter.c:536
-#, fuzzy, c-format
+#, c-format
 msgid "unable to parse sparse filter data in %s"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося розібрати дані часткового фільтра в %s"
 
 #: list-objects.c:114
 #, c-format
@@ -20272,9 +20271,9 @@ msgid "entry '%s' in tree %s has blob mode, but is not a blob"
 msgstr ""
 
 #: list-objects.c:384
-#, fuzzy, c-format
+#, c-format
 msgid "unable to load root tree for commit %s"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося завантажити кореневе дерево для коміту %s"
 
 #: lockfile.c:152
 #, c-format
@@ -20289,9 +20288,9 @@ msgid ""
 msgstr ""
 
 #: lockfile.c:160
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to create '%s.lock': %s"
-msgstr "не вдалося створити потік: %s"
+msgstr "Не вдалося створити \"%s.lock\": %s"
 
 #: ls-refs.c:180
 #, c-format
