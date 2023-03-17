@@ -3292,7 +3292,7 @@ msgstr ""
 #: builtin/branch.c:505
 #, c-format
 msgid "Branch %s is being bisected at %s"
-msgstr "Гілка %s бісекується в точці %s"
+msgstr "Гілка %s бісектується в точці %s"
 
 #: builtin/branch.c:528
 #, c-format
