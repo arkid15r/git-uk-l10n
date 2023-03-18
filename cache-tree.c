@@ -1,4 +1,6 @@
-#include "cache.h"
+#include "git-compat-util.h"
+#include "alloc.h"
+#include "hex.h"
 #include "lockfile.h"
 #include "tree.h"
 #include "tree-walk.h"
@@ -760,7 +762,7 @@ static void prime_cache_tree_rec(struct repository *r,
 	struct tree_desc desc;
 	struct name_entry entry;
 	int cnt;
-	int base_path_len = tree_path->len;
+	size_t base_path_len = tree_path->len;
 
 	oidcpy(&it->oid, &tree->object.oid);
 
@@ -785,7 +787,6 @@ static void prime_cache_tree_rec(struct repository *r,
 			 */
 			if (r->index->sparse_index) {
 				strbuf_setlen(tree_path, base_path_len);
-				strbuf_grow(tree_path, base_path_len + entry.pathlen + 1);
 				strbuf_add(tree_path, entry.path, entry.pathlen);
 				strbuf_addch(tree_path, '/');
 			}

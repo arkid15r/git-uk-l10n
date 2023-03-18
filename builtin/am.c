@@ -3,11 +3,12 @@
  *
  * Based on git-am.sh by Junio C Hamano.
  */
-#define USE_THE_INDEX_COMPATIBILITY_MACROS
+#define USE_THE_INDEX_VARIABLE
 #include "cache.h"
 #include "config.h"
 #include "builtin.h"
 #include "exec-cmd.h"
+#include "hex.h"
 #include "parse-options.h"
 #include "dir.h"
 #include "run-command.h"
@@ -495,24 +496,12 @@ static int run_applypatch_msg_hook(struct am_state *state)
  */
 static int run_post_rewrite_hook(const struct am_state *state)
 {
-	struct child_process cp = CHILD_PROCESS_INIT;
-	const char *hook = find_hook("post-rewrite");
-	int ret;
+	struct run_hooks_opt opt = RUN_HOOKS_OPT_INIT;
 
-	if (!hook)
-		return 0;
+	strvec_push(&opt.args, "rebase");
+	opt.path_to_stdin = am_path(state, "rewritten");
 
-	strvec_push(&cp.args, hook);
-	strvec_push(&cp.args, "rebase");
-
-	cp.in = xopen(am_path(state, "rewritten"), O_RDONLY);
-	cp.stdout_to_stderr = 1;
-	cp.trace2_hook_name = "post-rewrite";
-
-	ret = run_command(&cp);
-
-	close(cp.in);
-	return ret;
+	return run_hooks_opt("post-rewrite", &opt);
 }
 
 /**
@@ -1655,7 +1644,7 @@ static void do_commit(const struct am_state *state)
 	if (!state->no_verify && run_hooks("pre-applypatch"))
 		exit(1);
 
-	if (write_cache_as_tree(&tree, 0, NULL))
+	if (write_index_as_tree(&tree, &the_index, get_index_file(), 0, NULL))
 		die(_("git write-tree failed to write a tree"));
 
 	if (!get_oid_commit("HEAD", &parent)) {
@@ -2063,7 +2052,7 @@ static int clean_index(const struct object_id *head, const struct object_id *rem
 	if (fast_forward_to(head_tree, head_tree, 1))
 		return -1;
 
-	if (write_cache_as_tree(&index, 0, NULL))
+	if (write_index_as_tree(&index, &the_index, get_index_file(), 0, NULL))
 		return -1;
 
 	index_tree = parse_tree_indirect(&index);
@@ -2312,17 +2301,6 @@ static int parse_opt_show_current_patch(const struct option *opt, const char *ar
 	return 0;
 }
 
-static int git_am_config(const char *k, const char *v, void *cb UNUSED)
-{
-	int status;
-
-	status = git_gpg_config(k, v, NULL);
-	if (status)
-		return status;
-
-	return git_default_config(k, v, NULL);
-}
-
 int cmd_am(int argc, const char **argv, const char *prefix)
 {
 	struct am_state state;
@@ -2446,7 +2424,7 @@ int cmd_am(int argc, const char **argv, const char *prefix)
 	if (argc == 2 && !strcmp(argv[1], "-h"))
 		usage_with_options(usage, options);
 
-	git_config(git_am_config, NULL);
+	git_config(git_default_config, NULL);
 
 	am_state_init(&state);
 

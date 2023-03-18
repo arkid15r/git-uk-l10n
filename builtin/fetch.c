@@ -3,6 +3,7 @@
  */
 #include "cache.h"
 #include "config.h"
+#include "hex.h"
 #include "repository.h"
 #include "refs.h"
 #include "refspec.h"
@@ -29,6 +30,7 @@
 #include "commit-graph.h"
 #include "shallow.h"
 #include "worktree.h"
+#include "bundle-uri.h"
 
 #define FORCED_UPDATES_DELAY_WARNING_IN_MS (10 * 1000)
 
@@ -1131,6 +1133,7 @@ static int store_updated_refs(const char *raw_url, const char *remote_name,
 	if (!connectivity_checked) {
 		struct check_connected_options opt = CHECK_CONNECTED_INIT;
 
+		opt.exclude_hidden_refs_section = "fetch";
 		rm = ref_map;
 		if (check_connected(iterate_ref_map, &rm, &opt)) {
 			rc = error(_("%s did not send all necessary objects\n"), url);
@@ -1324,6 +1327,7 @@ static int check_exist_and_connected(struct ref *ref_map)
 	}
 
 	opt.quiet = 1;
+	opt.exclude_hidden_refs_section = "fetch";
 	return check_connected(iterate_ref_map, &rm, &opt);
 }
 
@@ -1889,7 +1893,8 @@ struct parallel_fetch_state {
 	int next, result;
 };
 
-static int fetch_next_remote(struct child_process *cp, struct strbuf *out,
+static int fetch_next_remote(struct child_process *cp,
+			     struct strbuf *out UNUSED,
 			     void *cb, void **task_cb)
 {
 	struct parallel_fetch_state *state = cb;
@@ -1911,7 +1916,8 @@ static int fetch_next_remote(struct child_process *cp, struct strbuf *out,
 	return 1;
 }
 
-static int fetch_failed_to_start(struct strbuf *out, void *cb, void *task_cb)
+static int fetch_failed_to_start(struct strbuf *out UNUSED,
+				 void *cb, void *task_cb)
 {
 	struct parallel_fetch_state *state = cb;
 	const char *remote = task_cb;
@@ -2109,6 +2115,7 @@ static int fetch_one(struct remote *remote, int argc, const char **argv,
 int cmd_fetch(int argc, const char **argv, const char *prefix)
 {
 	int i;
+	const char *bundle_uri;
 	struct string_list list = STRING_LIST_INIT_DUP;
 	struct remote *remote = NULL;
 	int result = 0;
@@ -2193,6 +2200,13 @@ int cmd_fetch(int argc, const char **argv, const char *prefix)
 	/* FETCH_HEAD never gets updated in --dry-run mode */
 	if (dry_run)
 		write_fetch_head = 0;
+
+	if (!max_jobs)
+		max_jobs = online_cpus();
+
+	if (!git_config_get_string_tmp("fetch.bundleuri", &bundle_uri) &&
+	    fetch_bundle_uri(the_repository, bundle_uri, NULL))
+		warning(_("failed to fetch bundles from '%s'"), bundle_uri);
 
 	if (all) {
 		if (argc == 1)

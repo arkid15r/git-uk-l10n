@@ -3,8 +3,9 @@
  *
  * Copyright (C) Linus Torvalds 2006
  */
-#define USE_THE_INDEX_COMPATIBILITY_MACROS
+#define USE_THE_INDEX_VARIABLE
 #include "builtin.h"
+#include "alloc.h"
 #include "advice.h"
 #include "config.h"
 #include "lockfile.h"

@@ -32,6 +32,14 @@ test_set_editor () {
 	export EDITOR
 }
 
+# Like test_set_editor but sets GIT_SEQUENCE_EDITOR instead of EDITOR
+test_set_sequence_editor () {
+	FAKE_SEQUENCE_EDITOR="$1"
+	export FAKE_SEQUENCE_EDITOR
+	GIT_SEQUENCE_EDITOR='"$FAKE_SEQUENCE_EDITOR"'
+	export GIT_SEQUENCE_EDITOR
+}
+
 test_decode_color () {
 	awk '
 		function name(n) {
@@ -1765,6 +1773,14 @@ test_region () {
 	fi
 
 	return 0
+}
+
+# Given a GIT_TRACE2_EVENT log over stdin, writes to stdout a list of URLs
+# sent to git-remote-https child processes.
+test_remote_https_urls() {
+	grep -e '"event":"child_start".*"argv":\["git-remote-https",".*"\]' |
+		sed -e 's/{"event":"child_start".*"argv":\["git-remote-https","//g' \
+		    -e 's/"\]}//g'
 }
 
 # Print the destination of symlink(s) provided as arguments. Basically
