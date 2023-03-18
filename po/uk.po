@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-17 16:16-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-03-17 17:23-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -19638,9 +19638,9 @@ msgid "error processing shallow info: %d"
 msgstr ""
 
 #: fetch-pack.c:1595
-#, fuzzy, c-format
+#, c-format
 msgid "expected wanted-ref, got '%s'"
-msgstr "очікувалась гілка, надано '%s'"
+msgstr "очікувалося wanted-ref, отримано \"%s\""
 
 #: fetch-pack.c:1600
 #, c-format
@@ -19665,9 +19665,9 @@ msgid "unexpected 'ready' from remote"
 msgstr ""
 
 #: fetch-pack.c:2228
-#, fuzzy, c-format
+#, c-format
 msgid "no such remote ref %s"
-msgstr "не вдалося знайти віддалене посилання %s"
+msgstr "немає такого віддаленного посилання %s"
 
 #: fetch-pack.c:2231
 #, c-format
@@ -19694,9 +19694,9 @@ msgid "could not send '%s' command to fsmonitor--daemon"
 msgstr ""
 
 #: fsmonitor-settings.c:247
-#, fuzzy, c-format
+#, c-format
 msgid "bare repository '%s' is incompatible with fsmonitor"
-msgstr "сховище '%s' не існує"
+msgstr "порожнє сховище \"%s\" несумісне з fsmonitor"
 
 #: fsmonitor-settings.c:255
 #, c-format
@@ -19704,9 +19704,9 @@ msgid "repository '%s' is incompatible with fsmonitor due to errors"
 msgstr ""
 
 #: fsmonitor-settings.c:261
-#, fuzzy, c-format
+#, c-format
 msgid "remote repository '%s' is incompatible with fsmonitor"
-msgstr "сховище '%s' не існує"
+msgstr "віддалене сховище \"%s\" несумісне з fsmonitor"
 
 #: fsmonitor-settings.c:267
 #, c-format
@@ -19825,20 +19825,19 @@ msgid "expansion of alias '%s' failed; '%s' is not a git command\n"
 msgstr ""
 
 #: git.c:914
-#, fuzzy, c-format
+#, c-format
 msgid "failed to run command '%s': %s\n"
-msgstr "не вдалося розʼєднати '%s'"
+msgstr "не вдалося виконати команду \"%s\": %s\n"
 
 #: gpg-interface.c:331 gpg-interface.c:458 gpg-interface.c:1013
 #: gpg-interface.c:1029
-#, fuzzy
 msgid "could not create temporary file"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося створити тимчасовий файл"
 
 #: gpg-interface.c:334 gpg-interface.c:461
-#, fuzzy, c-format
+#, c-format
 msgid "failed writing detached signature to '%s'"
-msgstr "не вдалося створити директорію '%s'"
+msgstr "не вдалося записати відʼєднаний підпис до \"%s\""
 
 #: gpg-interface.c:452
 msgid ""
@@ -19863,9 +19862,9 @@ msgid "bad/incompatible signature '%s'"
 msgstr ""
 
 #: gpg-interface.c:817 gpg-interface.c:822
-#, fuzzy, c-format
+#, c-format
 msgid "failed to get the ssh fingerprint for key '%s'"
-msgstr "не вдалося запустити перебір для '%s'"
+msgstr "не вдалося отримати ssh відбиток для ключа \"%s\""
 
 #: gpg-interface.c:845
 msgid ""
@@ -19883,23 +19882,22 @@ msgid "gpg.ssh.defaultKeyCommand failed: %s %s"
 msgstr ""
 
 #: gpg-interface.c:982
-#, fuzzy
 msgid "gpg failed to sign the data"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "gpg не вдалося підписати дані"
 
 #: gpg-interface.c:1005
 msgid "user.signingKey needs to be set for ssh signing"
 msgstr ""
 
 #: gpg-interface.c:1017
-#, fuzzy, c-format
+#, c-format
 msgid "failed writing ssh signing key to '%s'"
-msgstr "не вдалося надіслати деякі посилання до '%s'"
+msgstr "не вдалося записати ssh ключ підпису до \"%s\""
 
 #: gpg-interface.c:1035
-#, fuzzy, c-format
+#, c-format
 msgid "failed writing ssh signing key buffer to '%s'"
-msgstr "не вдалося надіслати деякі посилання до '%s'"
+msgstr "не вдалося записати буфер ssh ключа підпису в \"%s\""
 
 #: gpg-interface.c:1055
 msgid ""
