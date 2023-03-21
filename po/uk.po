@@ -19590,7 +19590,7 @@ msgstr ""
 
 #: fetch-pack.c:1419 fetch-pack.c:2177
 msgid "unable to write request to remote"
-msgstr "не вдається написати запит до віддаленого сховища"
+msgstr "не вдалося записати запит до віддаленого сховища"
 
 #: fetch-pack.c:1443
 #, c-format
