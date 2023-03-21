@@ -3484,7 +3484,7 @@ msgstr ""
 
 #: builtin/branch.c:708 builtin/submodule--helper.c:2789 submodule.c:1228
 msgid "Failed to resolve HEAD as a valid ref."
-msgstr "Не вдалося розпізнати HEAD як дійсний посилання."
+msgstr "Не вдалося розпізнати HEAD як дійсне посилання."
 
 #: builtin/branch.c:712 builtin/clone.c:700
 msgid "HEAD not found below refs/heads!"
