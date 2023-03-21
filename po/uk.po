@@ -3430,7 +3430,7 @@ msgstr ""
 
 #: builtin/branch.c:675
 msgid "list branch names"
-msgstr "список назв гілок"
+msgstr "показати назви гілок"
 
 #: builtin/branch.c:676
 msgid "show current branch name"
