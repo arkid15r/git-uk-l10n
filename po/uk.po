@@ -19447,7 +19447,7 @@ msgstr ""
 #: fetch-pack.c:431 fetch-pack.c:1524
 #, c-format
 msgid "invalid shallow line: %s"
-msgstr "недійсний неглибокий рядок: %s"
+msgstr "неприпустимий shallow рядок: %s"
 
 #: fetch-pack.c:437 fetch-pack.c:1530
 #, c-format
