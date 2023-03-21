@@ -19393,7 +19393,7 @@ msgstr "не вдалося створити директорії для %s"
 #: dir.c:3981
 #, c-format
 msgid "could not migrate git directory from '%s' to '%s'"
-msgstr "не вдалося перенести git директорію з \"%s\" на \"%s\""
+msgstr "не вдалося перенести git директорію з \"%s\" до \"%s\""
 
 #: editor.c:74
 #, c-format
