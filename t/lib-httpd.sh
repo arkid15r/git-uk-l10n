@@ -25,6 +25,7 @@
 #    LIB_HTTPD_DAV               enable DAV
 #    LIB_HTTPD_SVN               enable SVN at given location (e.g. "svn")
 #    LIB_HTTPD_SSL               enable SSL
+#    LIB_HTTPD_PROXY             enable proxy
 #
 # Copyright (c) 2008 Clemens Buchacher <drizzd@aon.at>
 #
@@ -133,6 +134,7 @@ install_script () {
 prepare_httpd() {
 	mkdir -p "$HTTPD_DOCUMENT_ROOT_PATH"
 	cp "$TEST_PATH"/passwd "$HTTPD_ROOT_PATH"
+	cp "$TEST_PATH"/proxy-passwd "$HTTPD_ROOT_PATH"
 	install_script incomplete-length-upload-pack-v2-http.sh
 	install_script incomplete-body-upload-pack-v2-http.sh
 	install_script error-no-report.sh
@@ -140,6 +142,7 @@ prepare_httpd() {
 	install_script error-smart-http.sh
 	install_script error.sh
 	install_script apply-one-time-perl.sh
+	install_script nph-custom-auth.sh
 
 	ln -s "$LIB_HTTPD_MODULE_PATH" "$HTTPD_ROOT_PATH/modules"
 
@@ -175,6 +178,11 @@ prepare_httpd() {
 			svnrepo="$svnrepo$LIB_HTTPD_SVN"
 			export LIB_HTTPD_SVN LIB_HTTPD_SVNPATH
 		fi
+	fi
+
+	if test -n "$LIB_HTTPD_PROXY"
+	then
+		HTTPD_PARA="$HTTPD_PARA -DPROXY"
 	fi
 }
 
@@ -283,11 +291,11 @@ expect_askpass() {
 		none)
 			;;
 		pass)
-			echo "askpass: Password for 'http://$2@$dest': "
+			echo "askpass: Password for '$HTTPD_PROTO://$2@$dest': "
 			;;
 		both)
-			echo "askpass: Username for 'http://$dest': "
-			echo "askpass: Password for 'http://$2@$dest': "
+			echo "askpass: Username for '$HTTPD_PROTO://$dest': "
+			echo "askpass: Password for '$HTTPD_PROTO://$2@$dest': "
 			;;
 		*)
 			false

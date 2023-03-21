@@ -1,6 +1,7 @@
 #include "builtin.h"
 #include "repository.h"
 #include "config.h"
+#include "hex.h"
 #include "lockfile.h"
 #include "pack.h"
 #include "refs.h"
@@ -133,10 +134,6 @@ static int receive_pack_config(const char *var, const char *value, void *cb)
 {
 	int status = parse_hide_refs_config(var, value, "receive", &hidden_refs);
 
-	if (status)
-		return status;
-
-	status = git_gpg_config(var, value, NULL);
 	if (status)
 		return status;
 
@@ -2032,6 +2029,16 @@ static struct command **queue_command(struct command **tail,
 	return &cmd->next;
 }
 
+static void free_commands(struct command *commands)
+{
+	while (commands) {
+		struct command *next = commands->next;
+
+		free(commands);
+		commands = next;
+	}
+}
+
 static void queue_commands_from_cert(struct command **tail,
 				     struct strbuf *push_cert)
 {
@@ -2569,6 +2576,7 @@ int cmd_receive_pack(int argc, const char **argv, const char *prefix)
 		run_receive_hook(commands, "post-receive", 1,
 				 &push_options);
 		run_update_post_hook(commands);
+		free_commands(commands);
 		string_list_clear(&push_options, 0);
 		if (auto_gc) {
 			struct child_process proc = CHILD_PROCESS_INIT;

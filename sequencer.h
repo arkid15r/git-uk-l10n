@@ -1,11 +1,11 @@
 #ifndef SEQUENCER_H
 #define SEQUENCER_H
 
-#include "cache.h"
 #include "strbuf.h"
 #include "wt-status.h"
 
 struct commit;
+struct index_state;
 struct repository;
 
 const char *git_path_commit_editmsg(void);
@@ -158,6 +158,7 @@ int sequencer_pick_revisions(struct repository *repo,
 int sequencer_continue(struct repository *repo, struct replay_opts *opts);
 int sequencer_rollback(struct repository *repo, struct replay_opts *opts);
 int sequencer_skip(struct repository *repo, struct replay_opts *opts);
+void replay_opts_release(struct replay_opts *opts);
 int sequencer_remove_state(struct replay_opts *opts);
 
 #define TODO_LIST_KEEP_EMPTY (1U << 0)
