@@ -19407,7 +19407,7 @@ msgstr ""
 #: entry.c:509
 #, c-format
 msgid "could not stat file '%s'"
-msgstr "не вдалося stat файл %s"
+msgstr "не вдалося виконати stat для %s"
 
 #: environment.c:143
 #, c-format
