@@ -19452,7 +19452,7 @@ msgstr "неприпустимий shallow рядок: %s"
 #: fetch-pack.c:437 fetch-pack.c:1530
 #, c-format
 msgid "invalid unshallow line: %s"
-msgstr "неприпустимий неглибокий рядок: %s"
+msgstr "неприпустимий unshallow рядок: %s"
 
 #: fetch-pack.c:439 fetch-pack.c:1532
 #, c-format
