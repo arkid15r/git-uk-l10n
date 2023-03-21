@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-17 17:23-0700\n"
+"PO-Revision-Date: 2023-03-20 17:41-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -19343,14 +19343,14 @@ msgid "pathspec '%s' did not match any file(s) known to git"
 msgstr ""
 
 #: dir.c:731 dir.c:738 dir.c:767 dir.c:780
-#, fuzzy, c-format
+#, c-format
 msgid "unrecognized pattern: '%s'"
-msgstr "нерозпізнане значення transfer.credentialsInUrl: '%s'"
+msgstr "нерозпізнаний шаблон: \"%s\""
 
 #: dir.c:795 dir.c:809
-#, fuzzy, c-format
+#, c-format
 msgid "unrecognized negative pattern: '%s'"
-msgstr "нерозпізнане значення transfer.credentialsInUrl: '%s'"
+msgstr "нерозпізнаний негативний шаблон: \"%s\""
 
 #: dir.c:825
 #, c-format
@@ -19362,9 +19362,9 @@ msgid "disabling cone pattern matching"
 msgstr ""
 
 #: dir.c:1217
-#, fuzzy, c-format
+#, c-format
 msgid "cannot use %s as an exclude file"
-msgstr "неможливо прочитати файл пакунка"
+msgstr "неможливо використовувати %s як файл виключення"
 
 #: dir.c:2745
 msgid "failed to get kernel name and information"
@@ -19381,19 +19381,19 @@ msgid ""
 msgstr ""
 
 #: dir.c:3900
-#, fuzzy, c-format
+#, c-format
 msgid "index file corrupt in repo %s"
-msgstr "індексний файл пошкоджено"
+msgstr "пошкоджено індексний файл у сховищі %s"
 
 #: dir.c:3947 dir.c:3952
-#, fuzzy, c-format
+#, c-format
 msgid "could not create directories for %s"
-msgstr "не вдалося створити провідні директорії для '%s'"
+msgstr "не вдалося створити директорії для %s"
 
 #: dir.c:3981
-#, fuzzy, c-format
+#, c-format
 msgid "could not migrate git directory from '%s' to '%s'"
-msgstr "не вдалося створити провідні директорії для '%s'"
+msgstr "не вдалося перенести git директорію з \"%s\" до \"%s\""
 
 #: editor.c:74
 #, c-format
@@ -19405,9 +19405,9 @@ msgid "Filtering content"
 msgstr ""
 
 #: entry.c:509
-#, fuzzy, c-format
+#, c-format
 msgid "could not stat file '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося виконати stat для %s"
 
 #: environment.c:143
 #, c-format
@@ -19415,9 +19415,9 @@ msgid "bad git namespace path \"%s\""
 msgstr ""
 
 #: exec-cmd.c:363
-#, fuzzy, c-format
+#, c-format
 msgid "too many args to run %s"
-msgstr "Забагато аргументів."
+msgstr "забагато аргументів для запуску %s"
 
 #: fetch-pack.c:208
 msgid "git fetch-pack: expected shallow list"
@@ -19437,23 +19437,22 @@ msgid "git fetch-pack: expected ACK/NAK, got '%s'"
 msgstr "очікувалась гілка, надано '%s'"
 
 #: fetch-pack.c:253
-#, fuzzy
 msgid "unable to write to remote"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "не вдалося записати до віддаленого сховища"
 
 #: fetch-pack.c:306
 msgid "Server supports filter"
 msgstr ""
 
 #: fetch-pack.c:431 fetch-pack.c:1524
-#, fuzzy, c-format
+#, c-format
 msgid "invalid shallow line: %s"
-msgstr "неприпустимий об’єкт blob %s"
+msgstr "неприпустимий shallow рядок: %s"
 
 #: fetch-pack.c:437 fetch-pack.c:1530
-#, fuzzy, c-format
+#, c-format
 msgid "invalid unshallow line: %s"
-msgstr "неприпустимий об’єкт blob %s"
+msgstr "неприпустимий unshallow рядок: %s"
 
 #: fetch-pack.c:439 fetch-pack.c:1532
 #, c-format
@@ -19461,9 +19460,9 @@ msgid "object not found: %s"
 msgstr ""
 
 #: fetch-pack.c:442 fetch-pack.c:1535
-#, fuzzy, c-format
+#, c-format
 msgid "error in object: %s"
-msgstr "Помилка fsck в об’єктах пакунка"
+msgstr "помилка в обʼєкті: %s"
 
 #: fetch-pack.c:444 fetch-pack.c:1537
 #, c-format
@@ -19481,18 +19480,17 @@ msgid "got %s %d %s"
 msgstr ""
 
 #: fetch-pack.c:517
-#, fuzzy, c-format
+#, c-format
 msgid "invalid commit %s"
-msgstr "неприпустимий %s"
+msgstr "неприпустимий коміт %s"
 
 #: fetch-pack.c:552
 msgid "giving up"
 msgstr ""
 
 #: fetch-pack.c:567 progress.h:25
-#, fuzzy
 msgid "done"
-msgstr "готово.\n"
+msgstr "готово"
 
 #: fetch-pack.c:579
 #, c-format
@@ -19569,9 +19567,8 @@ msgid "Server does not support this repository's object format"
 msgstr ""
 
 #: fetch-pack.c:1208
-#, fuzzy
 msgid "no common commits"
-msgstr "нічого комітити\n"
+msgstr "немає спільних комітів"
 
 #: fetch-pack.c:1223 fetch-pack.c:1783
 msgid "git fetch-pack: fetch failed."
@@ -19583,28 +19580,27 @@ msgid "mismatched algorithms: client %s; server %s"
 msgstr ""
 
 #: fetch-pack.c:1341
-#, fuzzy, c-format
+#, c-format
 msgid "the server does not support algorithm '%s'"
-msgstr "немає підтримки потоків, ігноруються %s"
+msgstr "сервер не підтримує алгоритм \"%s\""
 
 #: fetch-pack.c:1374
 msgid "Server does not support shallow requests"
 msgstr ""
 
 #: fetch-pack.c:1419 fetch-pack.c:2177
-#, fuzzy
 msgid "unable to write request to remote"
-msgstr "не вдалося записати параметри до конфігураційного файлу"
+msgstr "не вдалося записати запит до віддаленого сховища"
 
 #: fetch-pack.c:1443
-#, fuzzy, c-format
+#, c-format
 msgid "expected '%s', received '%s'"
-msgstr "опція '%s' вимагає '%s'"
+msgstr "очікувалось \"%s\", отримано \"%s\""
 
 #: fetch-pack.c:1446
-#, fuzzy, c-format
+#, c-format
 msgid "expected '%s'"
-msgstr "очікувалась гілка, надано '%s'"
+msgstr "очікувалось \"%s\""
 
 #: fetch-pack.c:1480
 #, c-format
@@ -20326,9 +20322,9 @@ msgid "Note: Fast-forwarding submodule %s to %s"
 msgstr ""
 
 #: merge-ort.c:1853
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to merge submodule %s"
-msgstr "не вдалося перебрати '%s'"
+msgstr "Не вдалося злити підмодуль %s"
 
 #: merge-ort.c:1861
 #, c-format
@@ -22050,9 +22046,9 @@ msgid "promisor-remote: could not close stdin to fetch subprocess"
 msgstr ""
 
 #: promisor-remote.c:55
-#, fuzzy, c-format
+#, c-format
 msgid "promisor remote name cannot begin with '/': %s"
-msgstr "скорочення віддаленної конфігураціі не може починатися з '/': %s"
+msgstr "імʼя віддаленого promisor не може починатися з '/': %s"
 
 #: promisor-remote.c:265
 #, c-format
