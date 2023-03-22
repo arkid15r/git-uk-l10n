@@ -3430,7 +3430,7 @@ msgstr ""
 
 #: builtin/branch.c:675
 msgid "list branch names"
-msgstr "список назв гілок"
+msgstr "показати назви гілок"
 
 #: builtin/branch.c:676
 msgid "show current branch name"
@@ -3484,7 +3484,7 @@ msgstr ""
 
 #: builtin/branch.c:708 builtin/submodule--helper.c:2789 submodule.c:1228
 msgid "Failed to resolve HEAD as a valid ref."
-msgstr "Не вдалося розпізнати HEAD як дійсний посилання."
+msgstr "Не вдалося розпізнати HEAD як дійсне посилання."
 
 #: builtin/branch.c:712 builtin/clone.c:700
 msgid "HEAD not found below refs/heads!"
