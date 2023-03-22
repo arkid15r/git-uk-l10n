@@ -18862,7 +18862,7 @@ msgstr "неприпустимий regex, переданий до -I: \"%s\""
 #: diff.c:5323
 #, c-format
 msgid "failed to parse --submodule option parameter: '%s'"
-msgstr "не вдалося розібрати параметр --submodule опції: \"%s\""
+msgstr "не вдалося розібрати параметр опції --submodule: \"%s\""
 
 #: diff.c:5379
 #, c-format
