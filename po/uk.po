@@ -3726,7 +3726,7 @@ msgstr ""
 
 #: builtin/bundle.c:193
 msgid "Need a repository to unbundle."
-msgstr "Потрібен репозиторій для розділення."
+msgstr "Потрібне сховище для розділення."
 
 #: builtin/bundle.c:196
 msgid "Unbundling objects"
