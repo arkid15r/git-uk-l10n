@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-21 18:03-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-03-21 19:34-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -18768,29 +18768,32 @@ msgid "external diff died, stopping at %s"
 msgstr ""
 
 #: diff.c:4714 parse-options.c:1214
-#, fuzzy, c-format
+#, c-format
 msgid "options '%s', '%s', '%s', and '%s' cannot be used together"
-msgstr "опції '-%c', '-%c' та '%s' не можуть використовуватись разом"
+msgstr "опції \"%s\", \"%s\", \"%s\" та \"%s\" неможливо використовувати разом"
 
 #: diff.c:4722
-#, fuzzy, c-format
+#, c-format
 msgid "options '%s' and '%s' cannot be used together, use '%s' with '%s'"
-msgstr "опції '%s' і '%s' не можна використовувати разом"
+msgstr ""
+"опції \"%s\" і \"%s\" неможливо використовувати разом, використовуйте \"%s\" з \"%s\""
 
 #: diff.c:4726
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "options '%s' and '%s' cannot be used together, use '%s' with '%s' and '%s'"
-msgstr "опції '%s' і '%s' не можна використовувати разом"
+msgstr ""
+"опції \"%s\" і \"%s\" неможливо використовувати разом, використовуйте \"%s\" з \"%s\" "
+"і \"%s\""
 
 #: diff.c:4806
 msgid "--follow requires exactly one pathspec"
 msgstr ""
 
 #: diff.c:4858
-#, fuzzy, c-format
+#, c-format
 msgid "invalid --stat value: %s"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неприпустиме --stat значення: %s"
 
 #: diff.c:4863 diff.c:4868 diff.c:4873 diff.c:4878 diff.c:5354
 #: parse-options.c:217 parse-options.c:221
@@ -18816,9 +18819,9 @@ msgid "unknown value after ws-error-highlight=%.*s"
 msgstr ""
 
 #: diff.c:4966
-#, fuzzy, c-format
+#, c-format
 msgid "unable to resolve '%s'"
-msgstr "не вдалося прочитати %s"
+msgstr "не вдалося розпізнати \"%s\""
 
 #: diff.c:5016 diff.c:5022
 #, c-format
@@ -18826,9 +18829,9 @@ msgid "%s expects <n>/<m> form"
 msgstr ""
 
 #: diff.c:5034
-#, fuzzy, c-format
+#, c-format
 msgid "%s expects a character, got '%s'"
-msgstr "очікувалась гілка, надано '%s'"
+msgstr "%s очікує символ, отримано \"%s\""
 
 #: diff.c:5055
 #, c-format
@@ -18847,19 +18850,19 @@ msgid ""
 msgstr ""
 
 #: diff.c:5150 diff.c:5170
-#, fuzzy, c-format
+#, c-format
 msgid "invalid argument to %s"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неприпустимий аргумент до %s"
 
 #: diff.c:5274
-#, fuzzy, c-format
+#, c-format
 msgid "invalid regex given to -I: '%s'"
-msgstr "неприпустиме посилання: %s"
+msgstr "неприпустимий regex, переданий до -I: \"%s\""
 
 #: diff.c:5323
-#, fuzzy, c-format
+#, c-format
 msgid "failed to parse --submodule option parameter: '%s'"
-msgstr "не вдалося надіслати деякі посилання до '%s'"
+msgstr "не вдалося розібрати параметр опції --submodule: \"%s\""
 
 #: diff.c:5379
 #, c-format
@@ -18871,9 +18874,8 @@ msgid "Diff output format options"
 msgstr ""
 
 #: diff.c:5418 diff.c:5424
-#, fuzzy
 msgid "generate patch"
-msgstr "Не злиті шляхи:"
+msgstr "згенерувати латку"
 
 #: diff.c:5426 diff.c:5540 diff.c:5547
 msgid "<n>"
@@ -19223,9 +19225,8 @@ msgid "specify how differences in submodules are shown"
 msgstr ""
 
 #: diff.c:5645
-#, fuzzy
 msgid "hide 'git add -N' entries from the index"
-msgstr "Оновлено %d шлях з індексу"
+msgstr "приховати записи \"git add -N\" з індексу"
 
 #: diff.c:5648
 msgid "treat 'git add -N' entries as real in the index"
@@ -19260,9 +19261,8 @@ msgid "control the order in which files appear in the output"
 msgstr ""
 
 #: diff.c:5664 diff.c:5667
-#, fuzzy
 msgid "<path>"
-msgstr "шлях"
+msgstr "<шлях>"
 
 #: diff.c:5665
 msgid "show the change in the specified path first"
@@ -19313,9 +19313,9 @@ msgid ""
 msgstr ""
 
 #: diffcore-order.c:24
-#, fuzzy, c-format
+#, c-format
 msgid "failed to read orderfile '%s'"
-msgstr "не вдалося перебрати '%s'"
+msgstr "не вдалося прочитати orderfile \"%s\""
 
 #: diffcore-rename.c:1564
 msgid "Performing inexact rename detection"
@@ -19421,9 +19421,9 @@ msgid "git fetch-pack: expected ACK/NAK, got a flush packet"
 msgstr ""
 
 #: fetch-pack.c:242
-#, fuzzy, c-format
+#, c-format
 msgid "git fetch-pack: expected ACK/NAK, got '%s'"
-msgstr "очікувалась гілка, надано '%s'"
+msgstr "git fetch-pack: очікувалось ACK/NAK, отримано \"%s\""
 
 #: fetch-pack.c:253
 msgid "unable to write to remote"
