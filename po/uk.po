@@ -18247,7 +18247,7 @@ msgstr ""
 
 #: connect.c:1495
 msgid "unable to fork"
-msgstr "неможливо розгалузити"
+msgstr "неможливо розгалужити"
 
 #: connected.c:127
 msgid "Could not run 'git rev-list'"
