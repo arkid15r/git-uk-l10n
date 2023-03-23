@@ -18560,7 +18560,7 @@ msgstr ""
 
 #: diff-no-index.c:237
 msgid "git diff --no-index [<options>] <path> <path>"
-msgstr "git diff --no-index [<опції>] <шлях> <шлях"
+msgstr "git diff --no-index [<опції>] <шлях> <шлях>"
 
 #: diff-no-index.c:263
 msgid "Not a git repository. Use --no-index to compare two paths outside a working tree"
