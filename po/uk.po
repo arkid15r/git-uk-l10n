@@ -5133,9 +5133,8 @@ msgid "You appear to have cloned an empty repository."
 msgstr "Здається, ви клонували порожнє сховище."
 
 #: builtin/column.c:10
-#, fuzzy
 msgid "git column [<options>]"
-msgstr "git checkout [<опції>] <гілка>"
+msgstr "git column [<опції>]"
 
 #: builtin/column.c:27
 msgid "lookup config vars"
@@ -5180,9 +5179,8 @@ msgid ""
 msgstr ""
 
 #: builtin/commit-graph.c:51 builtin/fetch.c:198 builtin/log.c:1913 builtin/repack.c:811
-#, fuzzy
 msgid "dir"
-msgstr "git-директорія"
+msgstr "dir"
 
 #: builtin/commit-graph.c:52
 msgid "the object directory to store the graph"
@@ -5193,9 +5191,9 @@ msgid "if the commit-graph is split, only verify the tip file"
 msgstr ""
 
 #: builtin/commit-graph.c:100
-#, fuzzy, c-format
+#, c-format
 msgid "Could not open commit-graph '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "Не вдалося відкрити коміт-граф \"%s\""
 
 #: builtin/commit-graph.c:137
 #, c-format
@@ -5208,9 +5206,9 @@ msgid "unexpected non-hex object ID: %s"
 msgstr ""
 
 #: builtin/commit-graph.c:155
-#, fuzzy, c-format
+#, c-format
 msgid "invalid object: %s"
-msgstr "неприпустимий об’єкт blob %s"
+msgstr "неприпустимий об’єкт: %s"
 
 #: builtin/commit-graph.c:175 parse-options-cb.c:21 parse-options-cb.c:25
 #, c-format
@@ -5281,9 +5279,9 @@ msgid "duplicate parent %s ignored"
 msgstr ""
 
 #: builtin/commit-tree.c:57 builtin/commit-tree.c:135 builtin/log.c:658
-#, fuzzy, c-format
+#, c-format
 msgid "not a valid object name %s"
-msgstr "неможливо розібрати очікуване імʼя обʼєкту '%s'"
+msgstr "невірне ім’я об’єкта %s"
 
 #: builtin/commit-tree.c:95
 #, c-format
@@ -5318,9 +5316,8 @@ msgstr ""
 
 #: builtin/commit-tree.c:120 builtin/commit.c:1657 builtin/merge.c:303
 #: builtin/pull.c:181 builtin/revert.c:119
-#, fuzzy
 msgid "GPG sign commit"
-msgstr "підписати надсилання за допомогою GPG"
+msgstr "підписати коміт за допомогою GPG"
 
 #: builtin/commit-tree.c:132
 msgid "must give exactly one tree"
@@ -5344,9 +5341,8 @@ msgid ""
 msgstr ""
 
 #: builtin/commit.c:55
-#, fuzzy
 msgid "git status [<options>] [--] [<pathspec>...]"
-msgstr "git reset --patch [<деревоподібне джерело>] [--] [<специфікатор шляху>...]"
+msgstr "git status [<опції>] [--] [<специфікатор шляху>...]"
 
 #: builtin/commit.c:60
 msgid ""
@@ -5394,18 +5390,16 @@ msgid "No paths with --include/--only does not make sense."
 msgstr ""
 
 #: builtin/commit.c:396
-#, fuzzy
 msgid "unable to create temporary index"
-msgstr "не вдалося створити потік: %s"
+msgstr "не вдалося створити тимчасовий індекс"
 
 #: builtin/commit.c:405
 msgid "interactive add failed"
 msgstr ""
 
 #: builtin/commit.c:421
-#, fuzzy
 msgid "unable to update temporary index"
-msgstr "не вдалося оновити %s"
+msgstr "не вдалося оновити тимчасовий індекс"
 
 #: builtin/commit.c:423
 msgid "Failed to update main cache tree"
