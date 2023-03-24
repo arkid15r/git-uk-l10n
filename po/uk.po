@@ -5193,7 +5193,7 @@ msgstr ""
 #: builtin/commit-graph.c:100
 #, c-format
 msgid "Could not open commit-graph '%s'"
-msgstr "Не вдалося відкрити коміт-граф ‘%s’"
+msgstr "Не вдалося відкрити коміт-граф \"%s\""
 
 #: builtin/commit-graph.c:137
 #, c-format
