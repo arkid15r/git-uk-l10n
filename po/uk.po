@@ -17739,9 +17739,9 @@ msgid ""
 msgstr ""
 
 #: config.c:520
-#, fuzzy, c-format
+#, c-format
 msgid "invalid config format: %s"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неприпустимий формат конфігурації: %s"
 
 #: config.c:524
 #, c-format
@@ -17764,14 +17764,14 @@ msgid "key does not contain variable name: %s"
 msgstr ""
 
 #: config.c:592 sequencer.c:2868
-#, fuzzy, c-format
+#, c-format
 msgid "invalid key: %s"
-msgstr "неприпустимий %s"
+msgstr "неприпустимий ключ: %s"
 
 #: config.c:597
-#, fuzzy, c-format
+#, c-format
 msgid "invalid key (newline): %s"
-msgstr "неприпустиме посилання: %s"
+msgstr "неприпустимий ключ (новий рядок): %s"
 
 #: config.c:617
 msgid "empty config key"
@@ -17842,9 +17842,8 @@ msgid "out of range"
 msgstr ""
 
 #: config.c:1272
-#, fuzzy
 msgid "invalid unit"
-msgstr "неприпустимий %s"
+msgstr "неприпустима одиниця виміру"
 
 #: config.c:1273
 #, c-format
@@ -17882,9 +17881,9 @@ msgid "bad numeric config value '%s' for '%s' in %s: %s"
 msgstr ""
 
 #: config.c:1394
-#, fuzzy, c-format
+#, c-format
 msgid "invalid value for variable %s"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неприпустиме значення для змінної %s"
 
 #: config.c:1415
 #, c-format
@@ -17892,19 +17891,19 @@ msgid "ignoring unknown core.fsync component '%s'"
 msgstr ""
 
 #: config.c:1451
-#, fuzzy, c-format
+#, c-format
 msgid "bad boolean config value '%s' for '%s'"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неправильне булеве значення конфігурації \"%s\" для \"%s\""
 
 #: config.c:1469
-#, fuzzy, c-format
+#, c-format
 msgid "failed to expand user dir in: '%s'"
-msgstr "не вдалося створити посилання '%s'"
+msgstr "не вдалося розширити директорію користувача в: \"%s\""
 
 #: config.c:1478
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' for '%s' is not a valid timestamp"
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "\"%s\" для \"%s\" не є припустимою міткою часу"
 
 #: config.c:1571
 #, c-format
@@ -17930,57 +17929,56 @@ msgid "core.fsyncObjectFiles is deprecated; use core.fsync instead"
 msgstr ""
 
 #: config.c:1742
-#, fuzzy, c-format
+#, c-format
 msgid "invalid mode for object creation: %s"
-msgstr "неприпустимий об’єкт blob %s"
+msgstr "неприпустимий режим створення обʼєкта: %s"
 
 #: config.c:1831
-#, fuzzy, c-format
+#, c-format
 msgid "malformed value for %s"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неправильно сформоване значення для %s"
 
 #: config.c:1857
-#, fuzzy, c-format
+#, c-format
 msgid "malformed value for %s: %s"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неправильно сформоване значення для %s: %s"
 
 #: config.c:1858
 msgid "must be one of nothing, matching, simple, upstream or current"
 msgstr ""
 
 #: config.c:2047
-#, fuzzy, c-format
+#, c-format
 msgid "unable to load config blob object '%s'"
-msgstr "неприпустимий об’єкт blob %s"
+msgstr "не вдалося завантажити config blob обʼєкт \"%s\""
 
 #: config.c:2050
-#, fuzzy, c-format
+#, c-format
 msgid "reference '%s' does not point to a blob"
-msgstr "HEAD не вказує на гілку"
+msgstr "посилання \"%s\" не вказує на blob"
 
 #: config.c:2068
-#, fuzzy, c-format
+#, c-format
 msgid "unable to resolve config blob '%s'"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося розпізнати config blob \"%s\""
 
 #: config.c:2113
-#, fuzzy, c-format
+#, c-format
 msgid "failed to parse %s"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося розібрати %s"
 
 #: config.c:2169
-#, fuzzy
 msgid "unable to parse command-line config"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося розібрати конфігурацію командного рядка"
 
 #: config.c:2545
 msgid "unknown error occurred while reading the configuration files"
 msgstr ""
 
 #: config.c:2740
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid %s: '%s'"
-msgstr "неприпустимий %s"
+msgstr "Неприпустимий %s: \"%s\""
 
 #: config.c:2785
 #, c-format
