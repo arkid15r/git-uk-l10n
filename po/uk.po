@@ -5495,7 +5495,7 @@ msgstr "не вдалося відкрити \"%s\""
 
 #: builtin/commit.c:895
 msgid "could not write commit template"
-msgstr "не вдалося записати шаблон коммітів"
+msgstr "не вдалося записати шаблон комітів"
 
 #: builtin/commit.c:908
 #, c-format
