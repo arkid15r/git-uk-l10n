@@ -5491,7 +5491,7 @@ msgstr ""
 #: sequencer.c:3466
 #, c-format
 msgid "could not open '%s'"
-msgstr "не вдалося відкрити ‘%s’"
+msgstr "не вдалося відкрити \"%s\""
 
 #: builtin/commit.c:895
 msgid "could not write commit template"
