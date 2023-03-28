@@ -5477,7 +5477,7 @@ msgstr "не вдалося прочитати лог файл \"%s\""
 #: builtin/commit.c:816
 #, c-format
 msgid "options '%s' and '%s:%s' cannot be used together"
-msgstr "опції ‘%s’ та ‘%s:%s’ не можна використовувати разом"
+msgstr "опції \"%s\" та \"%s:%s\" не можна використовувати разом"
 
 #: builtin/commit.c:828 builtin/commit.c:844
 msgid "could not read SQUASH_MSG"
