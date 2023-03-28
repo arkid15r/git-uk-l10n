@@ -17909,7 +17909,7 @@ msgstr "не вдалося розширити директорію корист
 #: config.c:1478
 #, c-format
 msgid "'%s' for '%s' is not a valid timestamp"
-msgstr "\"%s\" для \"%s\" не є правильною міткою часу"
+msgstr "\"%s\" для \"%s\" не є припустимою міткою часу"
 
 #: config.c:1571
 #, c-format
