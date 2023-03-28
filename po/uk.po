@@ -17899,7 +17899,7 @@ msgstr ""
 #: config.c:1451
 #, c-format
 msgid "bad boolean config value '%s' for '%s'"
-msgstr "неправильне значення булевої конфігурації \"%s\" для \"%s\""
+msgstr "неправильне булеве значення конфігурації \"%s\" для \"%s\""
 
 #: config.c:1469
 #, c-format
