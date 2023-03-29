@@ -17687,7 +17687,7 @@ msgstr "не вдалося створити fd з каналу для \"%s\""
 #: compat/simple-ipc/ipc-win32.c:820
 #, c-format
 msgid "could not start thread[0] for '%s'"
-msgstr "не вдалося запустити потік[0] для \"%s\""
+msgstr "не вдалося запустити thread[0] для \"%s\""
 
 #: compat/simple-ipc/ipc-win32.c:861
 #, fuzzy, c-format
