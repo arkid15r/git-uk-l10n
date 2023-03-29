@@ -17311,7 +17311,7 @@ msgstr[2] ""
 
 #: commit-graph.c:1962
 msgid "unable to open commit-graph chain file"
-msgstr "не вдалося відкрити commit-graph ланцюжковий файл"
+msgstr "не вдалося відкрити ланцюжковий файл графа комітів"
 
 #: commit-graph.c:1978
 msgid "failed to rename base commit-graph file"
