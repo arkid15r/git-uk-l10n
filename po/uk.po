@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-27 21:55-0700\n"
+"PO-Revision-Date: 2023-03-28 19:01-0700\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -5560,14 +5560,12 @@ msgid "%sCommitter: %.*s <%.*s>"
 msgstr ""
 
 #: builtin/commit.c:997
-#, fuzzy
 msgid "Cannot read index"
-msgstr "неможливо прочитати файл пакунка"
+msgstr "Неможливо прочитати індекс"
 
 #: builtin/commit.c:1043
-#, fuzzy
 msgid "unable to pass trailers to --trailers"
-msgstr "не вдалося записати параметри до конфігураційного файлу"
+msgstr "не вдалося передати trailers до --trailers"
 
 #: builtin/commit.c:1083
 msgid "Error building trees"
@@ -5584,34 +5582,32 @@ msgid "--author '%s' is not 'Name <email>' and matches no existing author"
 msgstr ""
 
 #: builtin/commit.c:1156
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid ignored mode '%s'"
-msgstr "неприпустиме значення для '%s'"
+msgstr "Неприпустимий режим ігнорування \"%s\""
 
 #: builtin/commit.c:1174 builtin/commit.c:1464
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid untracked files mode '%s'"
-msgstr "Невідстежувані файли не вказано%s"
+msgstr "Неприпустимий режим невідстежуваних файлів \"%s\""
 
 #: builtin/commit.c:1245
-#, fuzzy
 msgid "You are in the middle of a merge -- cannot reword."
-msgstr "Ви всередині am сеансу."
+msgstr "Ви перебуваєте в процесі злиття -- неможливо переформулювати."
 
 #: builtin/commit.c:1247
-#, fuzzy
 msgid "You are in the middle of a cherry-pick -- cannot reword."
-msgstr "Ви всередині am сеансу."
+msgstr "Ви перебуваєте в середині процесу висмикування -- неможливо переформулювати."
 
 #: builtin/commit.c:1250
-#, fuzzy, c-format
+#, c-format
 msgid "reword option of '%s' and path '%s' cannot be used together"
-msgstr "опції '%s' і '%s' не можна використовувати разом"
+msgstr "параметр переформулювання \"%s\" і шлях \"%s\" не можна використовувати разом"
 
 #: builtin/commit.c:1252
-#, fuzzy, c-format
+#, c-format
 msgid "reword option of '%s' and '%s' cannot be used together"
-msgstr "опції '%s' і '%s' не можна використовувати разом"
+msgstr "опція переформулювання \"%s\" і \"%s\" не може бути використана разом"
 
 #: builtin/commit.c:1277
 msgid "You have nothing to amend."
