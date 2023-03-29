@@ -5597,7 +5597,7 @@ msgstr "Ви перебуваєте в процесі злиття -- немож
 
 #: builtin/commit.c:1247
 msgid "You are in the middle of a cherry-pick -- cannot reword."
-msgstr "Ви перебуваєте в середині процесу висмикування - неможливо переформулювати."
+msgstr "Ви перебуваєте в середині процесу висмикування -- неможливо переформулювати."
 
 #: builtin/commit.c:1250
 #, c-format
