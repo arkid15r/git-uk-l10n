@@ -17319,7 +17319,7 @@ msgstr ""
 
 #: commit-graph.c:1999
 msgid "failed to rename temporary commit-graph file"
-msgstr "не вдалося перейменувати тимчасовий commit-graph файл"
+msgstr "не вдалося перейменувати тимчасовий файл графа комітів"
 
 #: commit-graph.c:2132
 msgid "Scanning merged commits"
