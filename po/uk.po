@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-27 21:55-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-03-28 18:59-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -17271,9 +17271,9 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: commit-graph.c:1709
-#, fuzzy, c-format
+#, c-format
 msgid "error adding pack %s"
-msgstr "Помилка fsck в об’єктах пакунка"
+msgstr "помилка додавання пакету %s"
 
 #: commit-graph.c:1713
 #, c-format
@@ -17293,14 +17293,13 @@ msgid "failed to write correct number of base graph ids"
 msgstr ""
 
 #: commit-graph.c:1863
-#, fuzzy
 msgid "unable to create temporary graph layer"
-msgstr "не вдається перейменувати тимчасовий файл '*.%s' на '%s'"
+msgstr "не вдалося створити тимчасовий шар графа"
 
 #: commit-graph.c:1868
-#, fuzzy, c-format
+#, c-format
 msgid "unable to adjust shared permissions for '%s'"
-msgstr "Неможливо додати результат злиття для '%s'"
+msgstr "не вдається налаштувати спільні дозволи для \"%s\""
 
 #: commit-graph.c:1925
 #, c-format
@@ -17311,18 +17310,16 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: commit-graph.c:1962
-#, fuzzy
 msgid "unable to open commit-graph chain file"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося відкрити commit-graph ланцюжковий файл"
 
 #: commit-graph.c:1978
 msgid "failed to rename base commit-graph file"
 msgstr ""
 
 #: commit-graph.c:1999
-#, fuzzy
 msgid "failed to rename temporary commit-graph file"
-msgstr "не вдається перейменувати тимчасовий файл '*.%s' на '%s'"
+msgstr "не вдалося перейменувати тимчасовий commit-graph файл"
 
 #: commit-graph.c:2132
 msgid "Scanning merged commits"
@@ -17355,9 +17352,9 @@ msgid "commit-graph has incorrect fanout value: fanout[%d] = %u != %u"
 msgstr ""
 
 #: commit-graph.c:2520
-#, fuzzy, c-format
+#, c-format
 msgid "failed to parse commit %s from commit-graph"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося розібрати коміт %s з commit-graph"
 
 #: commit-graph.c:2538
 msgid "Verifying commits in commit graph"
@@ -17436,9 +17433,9 @@ msgid "Commit %s has a bad GPG signature allegedly by %s."
 msgstr ""
 
 #: commit.c:1284
-#, fuzzy, c-format
+#, c-format
 msgid "Commit %s does not have a GPG signature."
-msgstr "шлях '%s' не містить нашої версії"
+msgstr "Коміт %s не має GPG підпису."
 
 #: commit.c:1287
 #, c-format
@@ -17461,14 +17458,14 @@ msgid "no libc information available\n"
 msgstr ""
 
 #: compat/disk.h:18 compat/disk.h:40
-#, fuzzy, c-format
+#, c-format
 msgid "could not determine free disk size for '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося визначити вільний розмір диска для \"%s\""
 
 #: compat/disk.h:28
-#, fuzzy, c-format
+#, c-format
 msgid "could not get info for '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося отримати інформацію для \"%s\""
 
 #: compat/fsmonitor/fsm-health-win32.c:56
 #, c-format
@@ -17481,9 +17478,9 @@ msgid "[GLE %ld] health thread getting BHFI for '%ls'"
 msgstr ""
 
 #: compat/fsmonitor/fsm-health-win32.c:146 compat/fsmonitor/fsm-listen-win32.c:303
-#, fuzzy, c-format
+#, c-format
 msgid "could not convert to wide characters: '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося перетворити в широкі символи: \"%s\""
 
 #: compat/fsmonitor/fsm-health-win32.c:162
 #, c-format
@@ -17501,19 +17498,17 @@ msgid "health thread wait failed [GLE %ld]"
 msgstr ""
 
 #: compat/fsmonitor/fsm-ipc-darwin.c:48
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid path: %s"
-msgstr "неприпустимий %s"
+msgstr "Неприпустимий шлях: %s"
 
 #: compat/fsmonitor/fsm-listen-darwin.c:453
-#, fuzzy
 msgid "Unable to create FSEventStream."
-msgstr "не вдалося створити потік: %s"
+msgstr "Не вдалося створити FSEventStream."
 
 #: compat/fsmonitor/fsm-listen-darwin.c:510
-#, fuzzy
 msgid "Failed to start the FSEventStream"
-msgstr "не вдалося запустити перебір для '%s'"
+msgstr "Не вдалося запустити потік FSEventStream"
 
 #: compat/fsmonitor/fsm-listen-win32.c:104
 #, c-format
@@ -17541,9 +17536,9 @@ msgid "GetOverlappedResult failed on '%s' [GLE %ld]"
 msgstr ""
 
 #: compat/fsmonitor/fsm-listen-win32.c:793
-#, fuzzy, c-format
+#, c-format
 msgid "could not read directory changes [GLE %ld]"
-msgstr "не вдалося створити провідні директорії для '%s'"
+msgstr "не вдалося прочитати зміни директорії [GLE %ld]"
 
 #: compat/fsmonitor/fsm-path-utils-darwin.c:76
 #, c-format
@@ -17566,9 +17561,9 @@ msgid "closedir('%s') failed"
 msgstr ""
 
 #: compat/fsmonitor/fsm-path-utils-win32.c:19
-#, fuzzy, c-format
+#, c-format
 msgid "[GLE %ld] unable to open for read '%ls'"
-msgstr "не вдалося прочитати %s"
+msgstr "[GLE %ld] не вдалося відкрити для читання \"%ls\""
 
 #: compat/fsmonitor/fsm-path-utils-win32.c:26
 #, c-format
@@ -17576,14 +17571,14 @@ msgid "[GLE %ld] unable to get protocol information for '%ls'"
 msgstr ""
 
 #: compat/mingw.c:2661
-#, fuzzy, c-format
+#, c-format
 msgid "failed to copy SID (%ld)"
-msgstr "не вдалося скопіювати файл у '%s'"
+msgstr "не вдалося скопіювати SID (%ld)"
 
 #: compat/mingw.c:2723
-#, fuzzy, c-format
+#, c-format
 msgid "failed to get owner for '%s' (%ld)"
-msgstr "не вдалося перебрати '%s'"
+msgstr "не вдалося отримати власника для \"%s\" (%ld)"
 
 #: compat/obstack.c:406 compat/obstack.c:408
 msgid "memory exhausted"
@@ -17614,9 +17609,8 @@ msgid "Trailing backslash"
 msgstr ""
 
 #: compat/regex/regcomp.c:157
-#, fuzzy
 msgid "Invalid back reference"
-msgstr "неприпустиме посилання: %s"
+msgstr "Неприпустиме зворотнє посилання"
 
 #: compat/regex/regcomp.c:160
 msgid "Unmatched [ or [^"
@@ -17667,19 +17661,18 @@ msgid "could not send IPC command"
 msgstr ""
 
 #: compat/simple-ipc/ipc-unix-socket.c:212 compat/simple-ipc/ipc-win32.c:257
-#, fuzzy
 msgid "could not read IPC response"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося прочитати IPC відповідь"
 
 #: compat/simple-ipc/ipc-unix-socket.c:892
-#, fuzzy, c-format
+#, c-format
 msgid "could not start accept_thread '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося запустити accept_thread \"%s\""
 
 #: compat/simple-ipc/ipc-unix-socket.c:904
-#, fuzzy, c-format
+#, c-format
 msgid "could not start worker[0] for '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося запустити worker[0] для \"%s\""
 
 #: compat/simple-ipc/ipc-win32.c:400
 #, c-format
@@ -17687,14 +17680,14 @@ msgid "ConnectNamedPipe failed for '%s' (%lu)"
 msgstr ""
 
 #: compat/simple-ipc/ipc-win32.c:481
-#, fuzzy, c-format
+#, c-format
 msgid "could not create fd from pipe for '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося створити fd з каналу для \"%s\""
 
 #: compat/simple-ipc/ipc-win32.c:820
-#, fuzzy, c-format
+#, c-format
 msgid "could not start thread[0] for '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося запустити потік[0] для \"%s\""
 
 #: compat/simple-ipc/ipc-win32.c:861
 #, fuzzy, c-format
