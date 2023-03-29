@@ -17667,7 +17667,7 @@ msgstr "не вдалося прочитати IPC відповідь"
 #: compat/simple-ipc/ipc-unix-socket.c:892
 #, c-format
 msgid "could not start accept_thread '%s'"
-msgstr "не вдалося запустити accept_thread \"%s\""
+msgstr "не вдалося розпочати accept_thread \"%s\""
 
 #: compat/simple-ipc/ipc-unix-socket.c:904
 #, c-format
