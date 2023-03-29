@@ -17354,7 +17354,7 @@ msgstr ""
 #: commit-graph.c:2520
 #, c-format
 msgid "failed to parse commit %s from commit-graph"
-msgstr "не вдалося розібрати коміт %s з commit-graph"
+msgstr "не вдалося розібрати коміт %s з графа комітв"
 
 #: commit-graph.c:2538
 msgid "Verifying commits in commit graph"
