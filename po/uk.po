@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-29 19:32-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-03-29 20:45-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -16598,9 +16598,8 @@ msgid "Receive missing objects from another repository"
 msgstr ""
 
 #: command-list.h:101
-#, fuzzy
 msgid "Rewrite branches"
-msgstr "нова гілка без джерела"
+msgstr "Перезаписати гілки"
 
 #: command-list.h:102
 msgid "Produce a merge commit message"
@@ -16683,18 +16682,16 @@ msgid "Add or parse structured information in commit messages"
 msgstr ""
 
 #: command-list.h:122
-#, fuzzy
 msgid "Show commit logs"
-msgstr "нові коміти, "
+msgstr "Показати лог коміта"
 
 #: command-list.h:123
 msgid "Show information about files in the index and the working tree"
 msgstr ""
 
 #: command-list.h:124
-#, fuzzy
 msgid "List references in a remote repository"
-msgstr "посилання на сховище"
+msgstr "Показати посилання у віддаленому сховищі"
 
 #: command-list.h:125
 msgid "List the contents of a tree object"
@@ -16761,9 +16758,8 @@ msgid "Find symbolic names for given revs"
 msgstr ""
 
 #: command-list.h:141
-#, fuzzy
 msgid "Add or inspect object notes"
-msgstr "очікуваних обʼєктів не отримано %s"
+msgstr "Додайте або перевірте нотатки до обʼєктів"
 
 #: command-list.h:142
 msgid "Import from and submit to Perforce repositories"
@@ -16774,9 +16770,8 @@ msgid "Create a packed archive of objects"
 msgstr ""
 
 #: command-list.h:144
-#, fuzzy
 msgid "Find redundant pack files"
-msgstr "неможливо прочитати файл пакунка"
+msgstr "Знайти зайві файли пакунків"
 
 #: command-list.h:145
 msgid "Pack heads and tags for efficient repository access"
@@ -16827,9 +16822,8 @@ msgid "Manage reflog information"
 msgstr ""
 
 #: command-list.h:157
-#, fuzzy
 msgid "Manage set of tracked repositories"
-msgstr "налаштувати як спільне сховище"
+msgstr "Керувати набором відстежуваних сховищ"
 
 #: command-list.h:158
 msgid "Pack unpacked objects in a repository"
@@ -16852,9 +16846,8 @@ msgid "Reset current HEAD to the specified state"
 msgstr ""
 
 #: command-list.h:163
-#, fuzzy
 msgid "Restore working tree files"
-msgstr "відновити робоче дерево (типово)"
+msgstr "Відновити файли робочого дерева"
 
 #: command-list.h:164
 msgid "Lists commit objects in reverse chronological order"
@@ -16901,23 +16894,20 @@ msgid "Show various types of objects"
 msgstr ""
 
 #: command-list.h:175
-#, fuzzy
 msgid "Show branches and their commits"
-msgstr "нічого не додано до коміту\n"
+msgstr "Показати гілки та їхні коміти"
 
 #: command-list.h:176
 msgid "Show packed archive index"
 msgstr ""
 
 #: command-list.h:177
-#, fuzzy
 msgid "List references in a local repository"
-msgstr "посилання на сховище"
+msgstr "Показати посилання у локальному сховищі"
 
 #: command-list.h:178
-#, fuzzy
 msgid "Reduce your working tree to a subset of tracked files"
-msgstr " (використовуйте опцію -u для відображення невідстежуваних файлів)"
+msgstr "Скоротити робоче дерево до підмножини відстежуваних файлів"
 
 #: command-list.h:179
 msgid "Add file contents to the staging area"
@@ -16928,9 +16918,8 @@ msgid "Stash the changes in a dirty working directory away"
 msgstr ""
 
 #: command-list.h:181
-#, fuzzy
 msgid "Show the working tree status"
-msgstr "відновити робоче дерево (типово)"
+msgstr "Показати стан робочого дерева"
 
 #: command-list.h:182
 msgid "Remove unnecessary whitespace"
@@ -16945,9 +16934,8 @@ msgid "Bidirectional operation between a Subversion repository and Git"
 msgstr ""
 
 #: command-list.h:185
-#, fuzzy
 msgid "Switch branches"
-msgstr "Переключено на гілку '%s'\n"
+msgstr "Переключити гілки"
 
 #: command-list.h:186
 msgid "Read, modify and delete symbolic refs"
@@ -17010,9 +16998,8 @@ msgid "Show logs with difference each commit introduces"
 msgstr ""
 
 #: command-list.h:201
-#, fuzzy
 msgid "Manage multiple working trees"
-msgstr "не вдалося завантажити стан робочої директорії"
+msgstr "Керувати кількома робочими деревами"
 
 #: command-list.h:202
 msgid "Create a tree object from the current index"
@@ -17051,9 +17038,8 @@ msgid "Frequently asked questions about using Git"
 msgstr ""
 
 #: command-list.h:211
-#, fuzzy
 msgid "The bundle file format"
-msgstr "індексний файл пошкоджено"
+msgstr "Формат файлу пакета"
 
 #: command-list.h:212
 msgid "Chunk-based file formats"
@@ -17197,18 +17183,17 @@ msgid "invalid commit-graph chain: line '%s' not a hash"
 msgstr ""
 
 #: commit-graph.c:557
-#, fuzzy
 msgid "unable to find all commit-graph files"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося знайти всі файли графа комітів"
 
 #: commit-graph.c:742 commit-graph.c:779
 msgid "invalid commit position. commit-graph is likely corrupt"
 msgstr ""
 
 #: commit-graph.c:763
-#, fuzzy, c-format
+#, c-format
 msgid "could not find commit %s"
-msgstr "не вдалося знайти віддалене посилання %s"
+msgstr "не вдалося знайти коміт %s"
 
 #: commit-graph.c:796
 msgid "commit-graph requires overflow generation data but has none"
