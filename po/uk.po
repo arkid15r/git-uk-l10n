@@ -5615,7 +5615,7 @@ msgstr ""
 
 #: builtin/commit.c:1280
 msgid "You are in the middle of a merge -- cannot amend."
-msgstr "Ви перебуваєте в процесі злиття - не можна вносити зміни."
+msgstr "Ви перебуваєте в процесі злиття -- не можна вносити зміни."
 
 #: builtin/commit.c:1282
 msgid "You are in the middle of a cherry-pick -- cannot amend."
