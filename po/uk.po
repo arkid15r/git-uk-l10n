@@ -5623,7 +5623,7 @@ msgstr "Ви перебуваєте в процесі висмикування -
 
 #: builtin/commit.c:1284
 msgid "You are in the middle of a rebase -- cannot amend."
-msgstr "Ви перебуваєте в процесі перебазуавння - не можна вносити зміни."
+msgstr "Ви перебуваєте в процесі перебазуавння -- не можна вносити зміни."
 
 #: builtin/commit.c:1304
 msgid "--reset-author can be used only with -C, -c or --amend."
