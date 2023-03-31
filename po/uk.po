@@ -6087,7 +6087,7 @@ msgstr "не вдалося відформатувати початкове зн
 #: builtin/config.c:442
 #, c-format
 msgid "cannot parse color '%s'"
-msgstr "не вдалося розібрати колір ‘%s’"
+msgstr "не вдалося розібрати колір \"%s\""
 
 #: builtin/config.c:485
 msgid "unable to parse default color value"
