@@ -16495,7 +16495,7 @@ msgstr ""
 
 #: command-list.h:78
 msgid "Record changes to the repository"
-msgstr "Записувати зміни у сховищі"
+msgstr "Записати зміни у сховище"
 
 #: command-list.h:79
 msgid "Write and verify Git commit-graph files"
