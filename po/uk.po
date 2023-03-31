@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-29 20:45-0700\n"
+"PO-Revision-Date: 2023-03-30 18:44-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -16366,9 +16366,9 @@ msgid "Refusing to create empty bundle."
 msgstr ""
 
 #: bundle.c:617
-#, fuzzy, c-format
+#, c-format
 msgid "cannot create '%s'"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "неможливо створити \"%s\""
 
 #: bundle.c:647
 msgid "index-pack died"
@@ -16394,14 +16394,13 @@ msgid "final chunk has non-zero id %<PRIx32>"
 msgstr ""
 
 #: chunk-format.c:193
-#, fuzzy
 msgid "invalid hash version"
-msgstr "неприпустиме зазначення шляху"
+msgstr "неприпустима версія хешу"
 
 #: color.c:354
-#, fuzzy, c-format
+#, c-format
 msgid "invalid color value: %.*s"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неприпустиме значення кольору: %.*s"
 
 #: command-list.h:54
 msgid "Add file contents to the index"
@@ -16436,9 +16435,8 @@ msgid "Show what revision and author last modified each line of a file"
 msgstr ""
 
 #: command-list.h:62
-#, fuzzy
 msgid "List, create, or delete branches"
-msgstr "%s неможливо розвʼязати в гілку"
+msgstr "Перелічити, створити або видалити гілки"
 
 #: command-list.h:63
 msgid "Collect information for user to file a bug report"
@@ -16469,9 +16467,8 @@ msgid "Ensures that a reference name is well formed"
 msgstr ""
 
 #: command-list.h:70
-#, fuzzy
 msgid "Switch branches or restore working tree files"
-msgstr "відновити робоче дерево (типово)"
+msgstr "Перемикати гілки або відновлювати файли робочого дерева"
 
 #: command-list.h:71
 msgid "Copy files from the index to the working tree"
@@ -16490,9 +16487,8 @@ msgid "Graphical alternative to git-commit"
 msgstr ""
 
 #: command-list.h:75
-#, fuzzy
 msgid "Remove untracked files from the working tree"
-msgstr "відокремити git-директорію від робочого дерева"
+msgstr "Видалити невідстежені файли з робочого дерева"
 
 #: command-list.h:76
 msgid "Clone a repository into a new directory"
@@ -16503,9 +16499,8 @@ msgid "Display data in columns"
 msgstr ""
 
 #: command-list.h:78
-#, fuzzy
 msgid "Record changes to the repository"
-msgstr "створити порожнє сховище"
+msgstr "Записувати зміни у сховищі"
 
 #: command-list.h:79
 msgid "Write and verify Git commit-graph files"
@@ -16560,18 +16555,16 @@ msgid "Generate a zip archive of diagnostic information"
 msgstr ""
 
 #: command-list.h:92
-#, fuzzy
 msgid "Show changes between commits, commit and working tree, etc"
-msgstr "нічого комітити, робоче дерево чисте\n"
+msgstr "Показувати зміни між комітами, комітом та робочим деревом тощо"
 
 #: command-list.h:93
 msgid "Compares files in the working tree and the index"
 msgstr ""
 
 #: command-list.h:94
-#, fuzzy
 msgid "Compare a tree to the working tree or index"
-msgstr "відновити робоче дерево (типово)"
+msgstr "Порівнювати дерево з робочим деревом або індексом"
 
 #: command-list.h:95
 msgid "Compares the content and mode of blobs found via two tree objects"
