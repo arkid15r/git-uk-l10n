@@ -6077,7 +6077,7 @@ msgstr "неприпустимий шаблон ключа: %s"
 #: builtin/config.c:362 config.c:3279
 #, c-format
 msgid "invalid pattern: %s"
-msgstr "неприпустиме шаблон: %s"
+msgstr "неприпустимий шаблон: %s"
 
 #: builtin/config.c:378
 #, c-format
