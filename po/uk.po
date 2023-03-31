@@ -16431,7 +16431,7 @@ msgstr ""
 
 #: command-list.h:62
 msgid "List, create, or delete branches"
-msgstr "Перелічити, створити або видалити гілки"
+msgstr "Показати, створити або видалити гілки"
 
 #: command-list.h:63
 msgid "Collect information for user to file a bug report"
