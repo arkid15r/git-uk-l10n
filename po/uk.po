@@ -6125,7 +6125,7 @@ msgstr "--local можна використовувати лише всеред�
 
 #: builtin/config.c:663
 msgid "--blob can only be used inside a git repository"
-msgstr "--blob можна використовувати лише всередині git-репозиторію"
+msgstr "--blob можна використовувати лише всередині git-сховища"
 
 #: builtin/config.c:665
 msgid "--worktree can only be used inside a git repository"
