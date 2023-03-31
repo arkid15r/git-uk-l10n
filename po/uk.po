@@ -16463,7 +16463,7 @@ msgstr ""
 
 #: command-list.h:70
 msgid "Switch branches or restore working tree files"
-msgstr "Перемикати гілки або відновлювати файли робочого дерева"
+msgstr "Перемкнути гілки або відновити файли робочого дерева"
 
 #: command-list.h:71
 msgid "Copy files from the index to the working tree"
