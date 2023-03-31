@@ -6129,7 +6129,7 @@ msgstr "--blob можна використовувати лише всереди
 
 #: builtin/config.c:665
 msgid "--worktree can only be used inside a git repository"
-msgstr "--worktree можна використовувати лише всередині git-репозиторію"
+msgstr "--worktree можна використовувати лише всередині git-сховища"
 
 #: builtin/config.c:687 builtin/gc.c:1534 builtin/gc.c:1603
 msgid "$HOME not set"
