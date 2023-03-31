@@ -16483,7 +16483,7 @@ msgstr ""
 
 #: command-list.h:75
 msgid "Remove untracked files from the working tree"
-msgstr "Видалити невідстежені файли з робочого дерева"
+msgstr "Видалити невідстежувані файли з робочого дерева"
 
 #: command-list.h:76
 msgid "Clone a repository into a new directory"
