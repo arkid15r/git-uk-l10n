@@ -16559,7 +16559,7 @@ msgstr ""
 
 #: command-list.h:94
 msgid "Compare a tree to the working tree or index"
-msgstr "Порівнювати дерево з робочим деревом або індексом"
+msgstr "Порівняти дерево з робочим деревом або індексом"
 
 #: command-list.h:95
 msgid "Compares the content and mode of blobs found via two tree objects"
