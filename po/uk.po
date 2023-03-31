@@ -16551,7 +16551,7 @@ msgstr ""
 
 #: command-list.h:92
 msgid "Show changes between commits, commit and working tree, etc"
-msgstr "Показувати зміни між комітами, комітом та робочим деревом тощо"
+msgstr "Показати зміни між комітами, комітом та робочим деревом, тощо"
 
 #: command-list.h:93
 msgid "Compares files in the working tree and the index"
