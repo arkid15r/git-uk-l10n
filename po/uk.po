@@ -6121,7 +6121,7 @@ msgstr ""
 
 #: builtin/config.c:661
 msgid "--local can only be used inside a git repository"
-msgstr "--local можна використовувати лише всередині git-репозиторію"
+msgstr "--local можна використовувати лише всередині git-сховища"
 
 #: builtin/config.c:663
 msgid "--blob can only be used inside a git repository"
