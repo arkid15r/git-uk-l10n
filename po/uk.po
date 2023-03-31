@@ -6072,7 +6072,7 @@ msgstr ""
 #: builtin/config.c:340
 #, c-format
 msgid "invalid key pattern: %s"
-msgstr "неприпустиме шаблон ключа: %s"
+msgstr "неприпустимий шаблон ключа: %s"
 
 #: builtin/config.c:362 config.c:3279
 #, c-format
