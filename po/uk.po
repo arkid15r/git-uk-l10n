@@ -6070,34 +6070,32 @@ msgid "wrong number of arguments, should be from %d to %d"
 msgstr ""
 
 #: builtin/config.c:340
-#, fuzzy, c-format
+#, c-format
 msgid "invalid key pattern: %s"
-msgstr "неприпустиме посилання: %s"
+msgstr "неприпустимий шаблон ключа: %s"
 
 #: builtin/config.c:362 config.c:3279
-#, fuzzy, c-format
+#, c-format
 msgid "invalid pattern: %s"
-msgstr "неприпустиме посилання: %s"
+msgstr "неприпустимий шаблон: %s"
 
 #: builtin/config.c:378
-#, fuzzy, c-format
+#, c-format
 msgid "failed to format default config value: %s"
-msgstr "не вдалося перебрати '%s'"
+msgstr "не вдалося відформатувати початкове значення конфігурації: %s"
 
 #: builtin/config.c:442
-#, fuzzy, c-format
+#, c-format
 msgid "cannot parse color '%s'"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "не вдалося розібрати колір \"%s\""
 
 #: builtin/config.c:485
-#, fuzzy
 msgid "unable to parse default color value"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося розібрати початкове значення кольору"
 
 #: builtin/config.c:538 builtin/config.c:836
-#, fuzzy
 msgid "not in a git directory"
-msgstr "%s існує і не є директорією"
+msgstr "не в директорії git"
 
 #: builtin/config.c:541
 msgid "writing to stdin is not supported"
@@ -6122,19 +6120,16 @@ msgid "only one config file at a time"
 msgstr ""
 
 #: builtin/config.c:661
-#, fuzzy
 msgid "--local can only be used inside a git repository"
-msgstr "--stdin вимагає наявності git сховища"
+msgstr "--local можна використовувати лише всередині git-сховища"
 
 #: builtin/config.c:663
-#, fuzzy
 msgid "--blob can only be used inside a git repository"
-msgstr "--stdin вимагає наявності git сховища"
+msgstr "--blob можна використовувати лише всередині git-сховища"
 
 #: builtin/config.c:665
-#, fuzzy
 msgid "--worktree can only be used inside a git repository"
-msgstr "--stdin вимагає наявності git сховища"
+msgstr "--worktree можна використовувати лише всередині git-сховища"
 
 #: builtin/config.c:687 builtin/gc.c:1534 builtin/gc.c:1603
 msgid "$HOME not set"
