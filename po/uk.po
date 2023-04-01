@@ -16058,7 +16058,7 @@ msgstr ""
 
 #: builtin/worktree.c:629
 msgid "try to match the new branch name with a remote-tracking branch"
-msgstr "спробуйте співставити нову назву гілки з назвою гілки віддаленого відстеження"
+msgstr "спробуйте співставити нову назву гілки з назвою віддалено відстежуваної гілки"
 
 #: builtin/worktree.c:638 diff.c:4718 parse-options.c:1218
 #, c-format
