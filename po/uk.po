@@ -6330,7 +6330,7 @@ msgstr ""
 
 #: builtin/describe.c:559
 msgid "use any ref"
-msgstr "використовувати будь-яке посилання"
+msgstr "використати будь-яке посилання"
 
 #: builtin/describe.c:560
 msgid "use any tag, even unannotated"
