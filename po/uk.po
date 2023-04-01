@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-30 18:44-0700\n"
+"PO-Revision-Date: 2023-03-31 17:37-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -15990,19 +15990,19 @@ msgid "failed to copy '%s' to '%s'; sparse-checkout may not work correctly"
 msgstr ""
 
 #: builtin/worktree.c:327
-#, fuzzy, c-format
+#, c-format
 msgid "failed to copy worktree config from '%s' to '%s'"
-msgstr "не вдалося скопіювати файл у '%s'"
+msgstr "не вдалося скопіювати конфігурацію робочого дерева з \"%s\" до \"%s\""
 
 #: builtin/worktree.c:339 builtin/worktree.c:344
-#, fuzzy, c-format
+#, c-format
 msgid "failed to unset '%s' in '%s'"
-msgstr "не вдалося розʼєднати '%s'"
+msgstr "не вдалося скинути \"%s\" в \"%s\""
 
 #: builtin/worktree.c:415
-#, fuzzy, c-format
+#, c-format
 msgid "could not create directory of '%s'"
-msgstr "не вдалося створити провідні директорії для '%s'"
+msgstr "не вдалося створити директорію \"%s\""
 
 #: builtin/worktree.c:437
 msgid "initializing"
@@ -16033,24 +16033,20 @@ msgid "checkout <branch> even if already checked out in other worktree"
 msgstr ""
 
 #: builtin/worktree.c:616
-#, fuzzy
 msgid "create a new branch"
-msgstr "створити reflog для нової гілки"
+msgstr "створити нову гілку"
 
 #: builtin/worktree.c:618
-#, fuzzy
 msgid "create or reset a branch"
-msgstr "створити reflog для нової гілки"
+msgstr "створити або скинути гілку"
 
 #: builtin/worktree.c:620
-#, fuzzy
 msgid "populate the new working tree"
-msgstr "не вдалося завантажити стан робочої директорії"
+msgstr "заповнити нове робоче дерево"
 
 #: builtin/worktree.c:621
-#, fuzzy
 msgid "keep the new working tree locked"
-msgstr "відновити робоче дерево (типово)"
+msgstr "зберігати нове робоче дерево зафіксованим"
 
 #: builtin/worktree.c:623 builtin/worktree.c:869
 msgid "reason for locking"
@@ -16061,15 +16057,13 @@ msgid "set up tracking mode (see git-branch(1))"
 msgstr ""
 
 #: builtin/worktree.c:629
-#, fuzzy
 msgid "try to match the new branch name with a remote-tracking branch"
-msgstr ""
-"гілка '%s' першоджерельного сховища не збережена як віддалено відстежувана гілка"
+msgstr "спробуйте співставити нову назву гілки з назвою гілки віддаленого відстеження"
 
 #: builtin/worktree.c:638 diff.c:4718 parse-options.c:1218
-#, fuzzy, c-format
+#, c-format
 msgid "options '%s', '%s', and '%s' cannot be used together"
-msgstr "опції '-%c', '-%c' та '%s' не можуть використовуватись разом"
+msgstr "опції \"%s\", \"%s\" та \"%s\" не можна використовувати разом"
 
 #: builtin/worktree.c:644
 msgid "added with --lock"
@@ -16093,9 +16087,9 @@ msgstr ""
 
 #: builtin/worktree.c:881 builtin/worktree.c:914 builtin/worktree.c:989
 #: builtin/worktree.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a working tree"
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "\"%s\" не є робочим деревом"
 
 #: builtin/worktree.c:883 builtin/worktree.c:916
 msgid "The main working tree cannot be locked or unlocked"
@@ -16112,9 +16106,9 @@ msgid "'%s' is already locked"
 msgstr ""
 
 #: builtin/worktree.c:918
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not locked"
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "\"%s\" не зафіксовано"
 
 #: builtin/worktree.c:959
 msgid "working trees containing submodules cannot be moved or removed"
@@ -16125,9 +16119,9 @@ msgid "force move even if worktree is dirty or locked"
 msgstr ""
 
 #: builtin/worktree.c:991 builtin/worktree.c:1115
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is a main working tree"
-msgstr "відокремити git-директорію від робочого дерева"
+msgstr "\"%s\" є головним робочим деревом"
 
 #: builtin/worktree.c:996
 #, c-format
@@ -16153,14 +16147,14 @@ msgid "validation failed, cannot move working tree: %s"
 msgstr ""
 
 #: builtin/worktree.c:1019
-#, fuzzy, c-format
+#, c-format
 msgid "failed to move '%s' to '%s'"
-msgstr "не вдалося надіслати деякі посилання до '%s'"
+msgstr "не вдалося перенести \"%s\" до \"%s\""
 
 #: builtin/worktree.c:1065
-#, fuzzy, c-format
+#, c-format
 msgid "failed to run 'git status' on '%s'"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося виконати \"git status\" на \"%s\""
 
 #: builtin/worktree.c:1069
 #, c-format
@@ -16168,9 +16162,9 @@ msgid "'%s' contains modified or untracked files, use --force to delete it"
 msgstr ""
 
 #: builtin/worktree.c:1074
-#, fuzzy, c-format
+#, c-format
 msgid "failed to run 'git status' on '%s', code %d"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося виконати \"git status\" на \"%s\", код %d"
 
 #: builtin/worktree.c:1097
 msgid "force removal even if worktree is dirty or locked"
@@ -16230,9 +16224,8 @@ msgid "bundle list at '%s' has no mode"
 msgstr ""
 
 #: bundle-uri.c:229
-#, fuzzy
 msgid "failed to create temporary file"
-msgstr "не вдалося створити директорію '%s'"
+msgstr "не вдалося створити тимчасовий файл"
 
 #: bundle-uri.c:278
 msgid "insufficient capabilities"
@@ -16249,9 +16242,9 @@ msgid "exceeded bundle URI recursion limit (%d)"
 msgstr ""
 
 #: bundle-uri.c:485
-#, fuzzy, c-format
+#, c-format
 msgid "failed to download bundle from URI '%s'"
-msgstr "не вдалося отримати об'єкти з пакету URI '%s'"
+msgstr "не вдалося завантажити пакет з URI \"%s\""
 
 #: bundle-uri.c:493
 #, c-format
@@ -16280,14 +16273,14 @@ msgid "bundle-uri: line has empty key or value"
 msgstr ""
 
 #: bundle.c:45
-#, fuzzy, c-format
+#, c-format
 msgid "unrecognized bundle hash algorithm: %s"
-msgstr "невідомий хеш-алгоритм '%s'"
+msgstr "нерозпізнаний пакет хеш-алгоритма: %s"
 
 #: bundle.c:53
-#, fuzzy, c-format
+#, c-format
 msgid "unknown capability '%s'"
-msgstr "невідомий хеш-алгоритм '%s'"
+msgstr "невідома властивість \"%s\""
 
 #: bundle.c:79
 #, c-format
@@ -16328,9 +16321,8 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: bundle.c:357
-#, fuzzy
 msgid "unable to dup bundle descriptor"
-msgstr "не вдалося оновити %s"
+msgstr "не вдалося продублювати дескриптор пакунка"
 
 #: bundle.c:364
 #, fuzzy
