@@ -16046,7 +16046,7 @@ msgstr "заповнити нове робоче дерево"
 
 #: builtin/worktree.c:621
 msgid "keep the new working tree locked"
-msgstr "зберігати нове робоче дерево зафіксованим"
+msgstr "зберегти нове робоче дерево зафіксованим"
 
 #: builtin/worktree.c:623 builtin/worktree.c:869
 msgid "reason for locking"
