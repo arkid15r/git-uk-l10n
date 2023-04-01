@@ -16244,7 +16244,7 @@ msgstr ""
 #: bundle-uri.c:485
 #, c-format
 msgid "failed to download bundle from URI '%s'"
-msgstr "не вдалося завантажити пакет з URI \"%s\""
+msgstr "не вдалося завантажити пакунок з URI \"%s\""
 
 #: bundle-uri.c:493
 #, c-format
