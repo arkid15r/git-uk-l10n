@@ -16275,7 +16275,7 @@ msgstr ""
 #: bundle.c:45
 #, c-format
 msgid "unrecognized bundle hash algorithm: %s"
-msgstr "нерозпізнаний пакет хеш-алгоритма: %s"
+msgstr "нерозпізнаний хеш-алгоритм пакунка: %s"
 
 #: bundle.c:53
 #, c-format
