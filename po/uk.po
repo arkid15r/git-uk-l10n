@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-31 18:38-0700\n"
+"PO-Revision-Date: 2023-04-02 18:57-0700\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -6121,15 +6121,15 @@ msgstr ""
 
 #: builtin/config.c:661
 msgid "--local can only be used inside a git repository"
-msgstr "--local можна використовувати лише всередині git-сховища"
+msgstr "--local можна використовувати лише всередині git сховища"
 
 #: builtin/config.c:663
 msgid "--blob can only be used inside a git repository"
-msgstr "--blob можна використовувати лише всередині git-сховища"
+msgstr "--blob можна використовувати лише всередині git сховища"
 
 #: builtin/config.c:665
 msgid "--worktree can only be used inside a git repository"
-msgstr "--worktree можна використовувати лише всередині git-сховища"
+msgstr "--worktree можна використовувати лише всередині git сховища"
 
 #: builtin/config.c:687 builtin/gc.c:1534 builtin/gc.c:1603
 msgid "$HOME not set"
@@ -6369,9 +6369,8 @@ msgid "mark"
 msgstr ""
 
 #: builtin/describe.c:575
-#, fuzzy
 msgid "append <mark> on dirty working tree (default: \"-dirty\")"
-msgstr "відновити робоче дерево (типово)"
+msgstr "додати <mark> на брудному робочому дереві (за замовчуванням: \\”-dirty\\”)"
 
 #: builtin/describe.c:578
 msgid "append <mark> on broken working tree (default: \"-broken\")"
@@ -6382,9 +6381,9 @@ msgid "No names found, cannot describe anything."
 msgstr ""
 
 #: builtin/describe.c:678 builtin/describe.c:680
-#, fuzzy, c-format
+#, c-format
 msgid "option '%s' and commit-ishes cannot be used together"
-msgstr "опції '%s' і '%s' не можна використовувати разом"
+msgstr "опцію \"%s\" не можна використовувати разом з комітоподібними"
 
 #: builtin/diagnose.c:6
 msgid ""
@@ -6418,9 +6417,9 @@ msgid "no merge given, only parents."
 msgstr ""
 
 #: builtin/diff.c:269
-#, fuzzy, c-format
+#, c-format
 msgid "invalid option: %s"
-msgstr "неприпустимий %s"
+msgstr "неприпустима опція %s"
 
 #: builtin/diff.c:387
 #, c-format
@@ -6428,14 +6427,13 @@ msgid "%s...%s: no merge base"
 msgstr ""
 
 #: builtin/diff.c:503
-#, fuzzy
 msgid "Not a git repository"
-msgstr "створити порожнє сховище"
+msgstr "Не є git сховищем"
 
 #: builtin/diff.c:549 builtin/grep.c:736
-#, fuzzy, c-format
+#, c-format
 msgid "invalid object '%s' given."
-msgstr "неприпустимий об’єкт blob %s"
+msgstr "надано неприпустимий об’єкт \"%s\"."
 
 #: builtin/diff.c:564
 #, c-format
@@ -6443,9 +6441,9 @@ msgid "more than two blobs given: '%s'"
 msgstr ""
 
 #: builtin/diff.c:569
-#, fuzzy, c-format
+#, c-format
 msgid "unhandled object '%s' given."
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "надано необроблений об’єкт \"%s\"."
 
 #: builtin/diff.c:603
 #, c-format
@@ -6457,19 +6455,19 @@ msgid "git difftool [<options>] [<commit> [<commit>]] [--] [<path>...]"
 msgstr ""
 
 #: builtin/difftool.c:290
-#, fuzzy, c-format
+#, c-format
 msgid "could not read symlink %s"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося прочитати символьне посилання %s"
 
 #: builtin/difftool.c:292
-#, fuzzy, c-format
+#, c-format
 msgid "could not read symlink file %s"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося прочитати файл символьного посилання %s"
 
 #: builtin/difftool.c:300
-#, fuzzy, c-format
+#, c-format
 msgid "could not read object %s for symlink %s"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося прочитати об’єкт %s для символьного посилання %s"
 
 #: builtin/difftool.c:422
 msgid ""
@@ -6483,14 +6481,13 @@ msgid "both files modified: '%s' and '%s'."
 msgstr ""
 
 #: builtin/difftool.c:630
-#, fuzzy
 msgid "working tree file has been left."
-msgstr "робоче дерево '%s' вже існує."
+msgstr "залишено файл робочого дерева."
 
 #: builtin/difftool.c:635 sequencer.c:3549 sequencer.c:3553
-#, fuzzy, c-format
+#, c-format
 msgid "could not copy '%s' to '%s'"
-msgstr "не вдалося скопіювати файл у '%s'"
+msgstr "не вдалося скопіювати \"%s\" в \"%s\""
 
 #: builtin/difftool.c:641
 #, c-format
@@ -6676,29 +6673,25 @@ msgid "feature '%s' forbidden in input without --allow-unsafe-features"
 msgstr ""
 
 #: builtin/fetch-pack.c:247
-#, fuzzy, c-format
+#, c-format
 msgid "Lockfile created but not reported: %s"
-msgstr "Підмодулі змінено, але не оновлено:"
+msgstr "Файл блокування створено, але не звітовано: %s"
 
 #: builtin/fetch.c:36
-#, fuzzy
 msgid "git fetch [<options>] [<repository> [<refspec>...]]"
-msgstr "git push [<опції>] [<сховище> [<специфікатор посилання>...]]"
+msgstr "git fetch [<опції>] [<сховище> [<специфікатор посилання>...]]"
 
 #: builtin/fetch.c:37
-#, fuzzy
 msgid "git fetch [<options>] <group>"
-msgstr "git switch [<опції>] [<гілка>]"
+msgstr "git fetch [<опції>] [<група>]"
 
 #: builtin/fetch.c:38
-#, fuzzy
 msgid "git fetch --multiple [<options>] [(<repository> | <group>)...]"
-msgstr "git push [<опції>] [<сховище> [<специфікатор посилання>...]]"
+msgstr "git fetch --multiple [<опції>] [(<сховище> | <група>)...]"
 
 #: builtin/fetch.c:39
-#, fuzzy
 msgid "git fetch --all [<options>]"
-msgstr "git switch [<опції>] [<гілка>]"
+msgstr "git fetch --all [<опції>]"
 
 #: builtin/fetch.c:124
 msgid "fetch.parallel cannot be negative"
@@ -6709,23 +6702,20 @@ msgid "fetch from all remotes"
 msgstr ""
 
 #: builtin/fetch.c:151 builtin/pull.c:250
-#, fuzzy
 msgid "set upstream for git pull/fetch"
-msgstr "налаштувати першоджерельне сховище для git pull/status"
+msgstr "встановити першоджерельне сховище для git pull/fetch"
 
 #: builtin/fetch.c:153 builtin/pull.c:193
 msgid "append to .git/FETCH_HEAD instead of overwriting"
 msgstr ""
 
 #: builtin/fetch.c:155
-#, fuzzy
 msgid "use atomic transaction to update references"
-msgstr "запросити атомарну транзакцію на віддаленій стороні"
+msgstr "використати атомарну транзакцію для оновлення посилань"
 
 #: builtin/fetch.c:157 builtin/pull.c:196
-#, fuzzy
 msgid "path to upload pack on remote end"
-msgstr "шлях до git-upload-pack на віддаленому сервері"
+msgstr "шлях для завантаження пакунка на віддаленій стороні"
 
 #: builtin/fetch.c:158
 msgid "force overwrite of local reference"
@@ -6744,9 +6734,8 @@ msgid "do not fetch all tags (--no-tags)"
 msgstr ""
 
 #: builtin/fetch.c:166
-#, fuzzy
 msgid "number of submodules fetched in parallel"
-msgstr "кількість підмодулів, що клонуються паралельно"
+msgstr "кількість підмодулів, що завантажуються паралельно"
 
 #: builtin/fetch.c:168
 msgid "modify the refspec to place all refs within refs/prefetch/"
@@ -6765,9 +6754,8 @@ msgid "on-demand"
 msgstr ""
 
 #: builtin/fetch.c:174
-#, fuzzy
 msgid "control recursive fetching of submodules"
-msgstr "контролювати рекурсивне надсилання підмодулів"
+msgstr "контролювати рекурсивне отримання підмодулів"
 
 #: builtin/fetch.c:179
 msgid "write fetched references to the FETCH_HEAD file"
@@ -6782,19 +6770,16 @@ msgid "allow updating of HEAD ref"
 msgstr ""
 
 #: builtin/fetch.c:185 builtin/fetch.c:191 builtin/pull.c:214 builtin/pull.c:223
-#, fuzzy
 msgid "deepen history of shallow clone"
-msgstr "поглибити історію поверхневого клону, за винятком rev"
+msgstr "поглибити історію поверхневого клону"
 
 #: builtin/fetch.c:187 builtin/pull.c:217
-#, fuzzy
 msgid "deepen history of shallow repository based on time"
-msgstr "поглибити історію поверхневого клону, за винятком rev"
+msgstr "поглибити історію поверхневого клону залежно від часу"
 
 #: builtin/fetch.c:193 builtin/pull.c:226
-#, fuzzy
 msgid "convert to a complete repository"
-msgstr "клонувати з локального сховища"
+msgstr "перетворити на повне сховище"
 
 #: builtin/fetch.c:196
 msgid "re-fetch without negotiating common commits"
@@ -6845,14 +6830,13 @@ msgid "accept refspecs from stdin"
 msgstr ""
 
 #: builtin/fetch.c:622
-#, fuzzy
 msgid "couldn't find remote ref HEAD"
-msgstr "не вдалося знайти віддалене посилання %s"
+msgstr "не вдалося знайти посилання віддаленого HEAD"
 
 #: builtin/fetch.c:895
-#, fuzzy, c-format
+#, c-format
 msgid "object %s not found"
-msgstr "обʼєкт %s: очікувався тип %s, знайдено %s"
+msgstr "об’єкт %s не знайдено"
 
 #: builtin/fetch.c:899
 msgid "[up to date]"
@@ -6863,18 +6847,16 @@ msgid "[rejected]"
 msgstr ""
 
 #: builtin/fetch.c:912
-#, fuzzy
 msgid "can't fetch into checked-out branch"
-msgstr "створити/скинути та перейти до нової гілки"
+msgstr "неможливо виконати отримання в активну гілку"
 
 #: builtin/fetch.c:922
 msgid "[tag update]"
 msgstr ""
 
 #: builtin/fetch.c:923 builtin/fetch.c:960 builtin/fetch.c:982 builtin/fetch.c:994
-#, fuzzy
 msgid "unable to update local ref"
-msgstr "не вдалося оновити %s"
+msgstr "не вдалося оновити локальне посилання"
 
 #: builtin/fetch.c:927
 msgid "would clobber existing tag"
@@ -6885,27 +6867,25 @@ msgid "[new tag]"
 msgstr ""
 
 #: builtin/fetch.c:952
-#, fuzzy
 msgid "[new branch]"
-msgstr "нова-гілка"
+msgstr "[нова гілка]"
 
 #: builtin/fetch.c:955
 msgid "[new ref]"
-msgstr ""
+msgstr "[нове посилання]"
 
 #: builtin/fetch.c:994
-#, fuzzy
 msgid "forced update"
-msgstr "оновити примусово"
+msgstr "примусове оновлення"
 
 #: builtin/fetch.c:999
 msgid "non-fast-forward"
 msgstr ""
 
 #: builtin/fetch.c:1030 builtin/fetch.c:1452 builtin/grep.c:810 sequencer.c:3240
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open '%s'"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "неможливо відкрити \"%s\""
 
 #: builtin/fetch.c:1102
 msgid ""
@@ -6923,9 +6903,9 @@ msgid ""
 msgstr ""
 
 #: builtin/fetch.c:1136
-#, fuzzy, c-format
+#, c-format
 msgid "%s did not send all necessary objects\n"
-msgstr "віддалене сховище не надіслало всі необхідні обʼєкти"
+msgstr "%s не надіслав всі необхідні обʼєкти\n"
 
 #: builtin/fetch.c:1156
 #, c-format
@@ -6955,9 +6935,8 @@ msgid "   (%s has become dangling)"
 msgstr ""
 
 #: builtin/fetch.c:1418
-#, fuzzy
 msgid "[deleted]"
-msgstr "видалено:"
+msgstr "[видалено]"
 
 #: builtin/fetch.c:1419 builtin/remote.c:1170
 msgid "(none)"
@@ -6979,14 +6958,14 @@ msgid "option \"%s\" is ignored for %s\n"
 msgstr ""
 
 #: builtin/fetch.c:1490 object-file.c:2519
-#, fuzzy, c-format
+#, c-format
 msgid "%s is not a valid object"
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "%s не є припустимим об’єктом"
 
 #: builtin/fetch.c:1492
-#, fuzzy, c-format
+#, c-format
 msgid "the object %s does not exist"
-msgstr "сховище '%s' не існує"
+msgstr "об’єкт %s не існує"
 
 #: builtin/fetch.c:1754
 msgid "multiple branches detected, incompatible with --set-upstream"
@@ -6999,20 +6978,16 @@ msgid ""
 msgstr ""
 
 #: builtin/fetch.c:1779
-#, fuzzy
 msgid "not setting upstream for a remote remote-tracking branch"
-msgstr ""
-"гілка '%s' першоджерельного сховища не збережена як віддалено відстежувана гілка"
+msgstr "не встановлено першоджерельне сховище для віддалено відстежуваної гілки"
 
 #: builtin/fetch.c:1781
-#, fuzzy
 msgid "not setting upstream for a remote tag"
-msgstr "налаштувати першоджерельне сховище для git pull/status"
+msgstr "не встановлено першоджерельне сховище для віддаленого тега"
 
 #: builtin/fetch.c:1783
-#, fuzzy
 msgid "unknown branch type"
-msgstr "невідомий тип обʼєкта %d"
+msgstr "невідомий тип гілки"
 
 #: builtin/fetch.c:1785
 msgid ""
@@ -7021,14 +6996,14 @@ msgid ""
 msgstr ""
 
 #: builtin/fetch.c:1909 builtin/fetch.c:1980
-#, fuzzy, c-format
+#, c-format
 msgid "Fetching %s\n"
-msgstr "Надсилання до %s\n"
+msgstr "Отримання %s\n"
 
 #: builtin/fetch.c:1919 builtin/fetch.c:1983
-#, fuzzy, c-format
+#, c-format
 msgid "could not fetch %s"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося отримати %s"
 
 #: builtin/fetch.c:1931
 #, c-format
@@ -7058,14 +7033,12 @@ msgid "--unshallow on a complete repository does not make sense"
 msgstr ""
 
 #: builtin/fetch.c:2199
-#, fuzzy
 msgid "fetch --all does not take a repository argument"
-msgstr "git checkout: --detach не приймає аргумент шляху '%s'"
+msgstr "fetch --all не приймає сховище як аргумент"
 
 #: builtin/fetch.c:2201
-#, fuzzy
 msgid "fetch --all does not make sense with refspecs"
-msgstr "--delete не має сенсу без рефів"
+msgstr "fetch --all не має сенсу зі специфікаторами посилань"
 
 #: builtin/fetch.c:2214
 #, c-format
@@ -7089,9 +7062,8 @@ msgid "--filter can only be used with the remote configured in extensions.partia
 msgstr ""
 
 #: builtin/fetch.c:2268
-#, fuzzy
 msgid "--atomic can only be used when fetching from one remote"
-msgstr "URI для завантаження пакунків перед отриманням з віддаленого джерела"
+msgstr "--atomic може бути використано лише при отриманні з одного віддаленого джерела"
 
 #: builtin/fetch.c:2272
 msgid "--stdin can only be used when fetching from one remote"
@@ -7118,19 +7090,16 @@ msgid "use <text> as start of message"
 msgstr ""
 
 #: builtin/fmt-merge-msg.c:28
-#, fuzzy
 msgid "use <name> instead of the real target branch"
-msgstr "використовуйте <імʼя> замість 'origin' для відстеження першоджерельного сховища"
+msgstr "використовувати <name> замість реальної цільової гілки"
 
 #: builtin/fmt-merge-msg.c:29
-#, fuzzy
 msgid "file to read from"
-msgstr "не вдалося прочитати %s"
+msgstr "файл, з якого читати"
 
 #: builtin/for-each-ref.c:10
-#, fuzzy
 msgid "git for-each-ref [<options>] [<pattern>]"
-msgstr "git switch [<опції>] [<гілка>]"
+msgstr "git for-each-ref [<опції>] [<шаблон>]"
 
 #: builtin/for-each-ref.c:11
 msgid "git for-each-ref [--points-at <object>]"
@@ -7205,9 +7174,8 @@ msgid "missing --config=<config>"
 msgstr ""
 
 #: builtin/fsck.c:70 builtin/fsck.c:129 builtin/fsck.c:130
-#, fuzzy
 msgid "unknown"
-msgstr "невідомо:"
+msgstr "невідомо"
 
 #. TRANSLATORS: e.g. error in tree 01bfda: <more explanation>
 #: builtin/fsck.c:79 builtin/fsck.c:101
@@ -7227,9 +7195,8 @@ msgid "broken link from %7s %s"
 msgstr ""
 
 #: builtin/fsck.c:137
-#, fuzzy
 msgid "wrong object type in link"
-msgstr "невідомий тип обʼєкта %d"
+msgstr "невірний тип об’єкта в посиланні"
 
 #: builtin/fsck.c:153
 #, c-format
@@ -7239,9 +7206,8 @@ msgid ""
 msgstr ""
 
 #: builtin/fsck.c:190 builtin/prune.c:57 connected.c:113
-#, fuzzy
 msgid "Checking connectivity"
-msgstr "Перевірка обʼєктів"
+msgstr "Перевірка підключення"
 
 #: builtin/fsck.c:267
 #, c-format
@@ -7259,35 +7225,34 @@ msgid "dangling %s %s"
 msgstr ""
 
 #: builtin/fsck.c:324
-#, fuzzy
 msgid "could not create lost-found"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося створити lost-found"
 
 #: builtin/fsck.c:331 builtin/gc.c:1902 builtin/rebase.c:203 rebase-interactive.c:116
 #: rerere.c:469 rerere.c:677 sequencer.c:3961 sequencer.c:3987 sequencer.c:6125
-#, fuzzy, c-format
+#, c-format
 msgid "could not write '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося записати %s"
 
 #: builtin/fsck.c:335
-#, fuzzy, c-format
+#, c-format
 msgid "could not finish '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося завершити \"%s\""
 
 #: builtin/fsck.c:352
-#, fuzzy, c-format
+#, c-format
 msgid "Checking %s"
-msgstr "Перевірка обʼєктів"
+msgstr "Перевірка %s"
 
 #: builtin/fsck.c:390
-#, fuzzy, c-format
+#, c-format
 msgid "Checking connectivity (%d objects)"
-msgstr "Перевірка обʼєктів"
+msgstr "Перевірка підключення (%d об'єктів)"
 
 #: builtin/fsck.c:409
-#, fuzzy, c-format
+#, c-format
 msgid "Checking %s %s"
-msgstr "Перевірка обʼєктів"
+msgstr "Перевірка %s %s"
 
 #: builtin/fsck.c:414
 msgid "broken links"
@@ -7309,9 +7274,9 @@ msgid "%s: object corrupt or missing"
 msgstr ""
 
 #: builtin/fsck.c:482
-#, fuzzy, c-format
+#, c-format
 msgid "%s: invalid reflog entry %s"
-msgstr "неприпустиме посилання: %s"
+msgstr "%s: неприпустимий запис reflog %s"
 
 #: builtin/fsck.c:497
 #, c-format
@@ -7319,14 +7284,14 @@ msgid "Checking reflog %s->%s"
 msgstr ""
 
 #: builtin/fsck.c:532
-#, fuzzy, c-format
+#, c-format
 msgid "%s: invalid sha1 pointer %s"
-msgstr "неприпустиме значення для '%s'"
+msgstr "%s: невірний вказівник sha1 %s"
 
 #: builtin/fsck.c:539
-#, fuzzy, c-format
+#, c-format
 msgid "%s: not a commit"
-msgstr "Початковий коміт"
+msgstr "%s не є комітом"
 
 #: builtin/fsck.c:593
 msgid "notice: No default references"
@@ -7358,19 +7323,17 @@ msgid "bad sha1 file: %s"
 msgstr ""
 
 #: builtin/fsck.c:688
-#, fuzzy
 msgid "Checking object directory"
-msgstr "Перевірка обʼєктів"
+msgstr "Перевірка директорії об’єктів"
 
 #: builtin/fsck.c:691
-#, fuzzy
 msgid "Checking object directories"
-msgstr "Перевірка обʼєктів"
+msgstr "Перевірка директорій обʼєктів"
 
 #: builtin/fsck.c:707
-#, fuzzy, c-format
+#, c-format
 msgid "Checking %s link"
-msgstr "Перевірка обʼєктів"
+msgstr "Перевірка %s посилання"
 
 #: builtin/fsck.c:712 builtin/index-pack.c:862
 #, c-format
@@ -7393,9 +7356,8 @@ msgid "notice: %s points to an unborn branch (%s)"
 msgstr ""
 
 #: builtin/fsck.c:741
-#, fuzzy
 msgid "Checking cache tree"
-msgstr "Перевірка обʼєктів"
+msgstr "Перевірка дерева кеша"
 
 #: builtin/fsck.c:746
 #, c-format
@@ -7424,9 +7386,8 @@ msgid "show unreachable objects"
 msgstr ""
 
 #: builtin/fsck.c:833
-#, fuzzy
 msgid "show dangling objects"
-msgstr "Перевірка обʼєктів"
+msgstr "показувати висячі об’єкти"
 
 #: builtin/fsck.c:834
 msgid "report tags"
@@ -7441,9 +7402,8 @@ msgid "make index objects head nodes"
 msgstr ""
 
 #: builtin/fsck.c:837
-#, fuzzy
 msgid "make reflogs head nodes (default)"
-msgstr "використовувати режим накладення (типово)"
+msgstr "зробити reflogs головними вузлами (типово)"
 
 #: builtin/fsck.c:838
 msgid "also consider packs and alternate objects"
@@ -7479,9 +7439,9 @@ msgid "%s: object missing"
 msgstr ""
 
 #: builtin/fsck.c:944
-#, fuzzy, c-format
+#, c-format
 msgid "invalid parameter: expected sha1, got '%s'"
-msgstr "очікувалась гілка, надано '%s'"
+msgstr "неприпустимий параметр: очікувався sha1, надано \"%s\""
 
 #: builtin/fsmonitor--daemon.c:15
 msgid "git fsmonitor--daemon start [<options>]"
@@ -7512,9 +7472,9 @@ msgid "fsmonitor-daemon is not watching '%s'\n"
 msgstr ""
 
 #: builtin/fsmonitor--daemon.c:172
-#, fuzzy, c-format
+#, c-format
 msgid "could not create fsmonitor cookie '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося створити fsmonitor cookie \"%s\""
 
 #: builtin/fsmonitor--daemon.c:757
 #, c-format
@@ -7522,9 +7482,9 @@ msgid "fsmonitor: cookie_result '%d' != SEEN"
 msgstr ""
 
 #: builtin/fsmonitor--daemon.c:1206
-#, fuzzy, c-format
+#, c-format
 msgid "could not start IPC thread pool on '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося запустити пул потоків IPC на \"%s\""
 
 #: builtin/fsmonitor--daemon.c:1216
 msgid "could not start fsmonitor listener thread"
@@ -7543,9 +7503,9 @@ msgid "could not initialize health thread"
 msgstr ""
 
 #: builtin/fsmonitor--daemon.c:1386
-#, fuzzy, c-format
+#, c-format
 msgid "could not cd home '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося виконати cd home \"%s\""
 
 #: builtin/fsmonitor--daemon.c:1419 builtin/fsmonitor--daemon.c:1474
 #, c-format
@@ -7563,9 +7523,8 @@ msgid "starting fsmonitor-daemon in '%s'\n"
 msgstr ""
 
 #: builtin/fsmonitor--daemon.c:1504
-#, fuzzy
 msgid "daemon failed to start"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося запустити демон"
 
 #: builtin/fsmonitor--daemon.c:1507
 msgid "daemon not online yet"
@@ -7576,9 +7535,8 @@ msgid "daemon terminated"
 msgstr ""
 
 #: builtin/fsmonitor--daemon.c:1521
-#, fuzzy
 msgid "detach from console"
-msgstr "HEAD відʼєднано від "
+msgstr "від’єднати від консолі"
 
 #: builtin/fsmonitor--daemon.c:1524
 msgid "use <n> ipc worker threads"
@@ -7589,9 +7547,9 @@ msgid "max seconds to wait for background daemon startup"
 msgstr ""
 
 #: builtin/fsmonitor--daemon.c:1541
-#, fuzzy, c-format
+#, c-format
 msgid "invalid 'ipc-threads' value (%d)"
-msgstr "вказано неприпустиму кількість потоків (%d)"
+msgstr "невірне значення \"ipc-threads\" (%d)"
 
 #: builtin/fsmonitor--daemon.c:1573 t/helper/test-cache-tree.c:62
 #, c-format
@@ -7603,24 +7561,23 @@ msgid "fsmonitor--daemon not supported on this platform"
 msgstr ""
 
 #: builtin/gc.c:39
-#, fuzzy
 msgid "git gc [<options>]"
-msgstr "git checkout [<опції>] <гілка>"
+msgstr "git gc [<опції>]"
 
 #: builtin/gc.c:94
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to fstat %s: %s"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "Не вдалося виконати fstat %s: %s"
 
 #: builtin/gc.c:130
-#, fuzzy, c-format
+#, c-format
 msgid "failed to parse '%s' value '%s'"
-msgstr "не вдалося перебрати '%s'"
+msgstr "не вдалося розібрати \"%s\" значення \"%s\""
 
 #: builtin/gc.c:495 builtin/init-db.c:57
-#, fuzzy, c-format
+#, c-format
 msgid "cannot stat '%s'"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "неможливо виконати stat \"%s\""
 
 #: builtin/gc.c:511
 #, c-format
@@ -7633,9 +7590,8 @@ msgid ""
 msgstr ""
 
 #: builtin/gc.c:566
-#, fuzzy
 msgid "prune unreferenced objects"
-msgstr "очікувалось тільки одне посилання"
+msgstr "видалити об’єкти без посилань"
 
 #: builtin/gc.c:568
 msgid "pack unreferenced objects separately"
@@ -7658,9 +7614,9 @@ msgid "repack all other packs except the largest pack"
 msgstr ""
 
 #: builtin/gc.c:592
-#, fuzzy, c-format
+#, c-format
 msgid "failed to parse gc.logExpiry value %s"
-msgstr "не вдалося скопіювати файл у '%s'"
+msgstr "не вдалося розібрати gc.logExpiry значення %s"
 
 #: builtin/gc.c:603
 #, c-format
@@ -7705,19 +7661,16 @@ msgid "unrecognized --schedule argument '%s'"
 msgstr ""
 
 #: builtin/gc.c:904
-#, fuzzy
 msgid "failed to write commit-graph"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося записати граф комітів"
 
 #: builtin/gc.c:934
-#, fuzzy
 msgid "failed to prefetch remotes"
-msgstr "не вдалося отримати обіцяні пакети"
+msgstr "не вдалося виконати попереднє отримання з віддалених сховищ"
 
 #: builtin/gc.c:1050
-#, fuzzy
 msgid "failed to start 'git pack-objects' process"
-msgstr "не вдалося запустити перебір для '%s'"
+msgstr "не вдалося розпочати \"git pack-objects\" процес"
 
 #: builtin/gc.c:1067
 msgid "failed to finish 'git pack-objects' process"
@@ -7750,14 +7703,14 @@ msgid "task '%s' failed"
 msgstr ""
 
 #: builtin/gc.c:1418
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a valid task"
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "\"%s\" не є припустимим завданням"
 
 #: builtin/gc.c:1423
-#, fuzzy, c-format
+#, c-format
 msgid "task '%s' cannot be selected multiple times"
-msgstr "'%s' або '%s' не можна використовувати з %s"
+msgstr "завдання \"%s\" не можна вибрати кілька разів"
 
 #: builtin/gc.c:1438
 msgid "run tasks based on the state of the repository"
@@ -11760,7 +11713,7 @@ msgstr "отримати пакетну програму"
 
 #: builtin/push.c:610
 msgid "set upstream for git pull/status"
-msgstr "налаштувати першоджерельне сховище для git pull/status"
+msgstr "встановити першоджерельне сховище для git pull/status"
 
 #: builtin/push.c:613
 msgid "prune locally removed refs"
@@ -22461,7 +22414,7 @@ msgstr ""
 #: remote-curl.c:308
 #, c-format
 msgid "%sinfo/refs not valid: is this a git repository?"
-msgstr "%sinfo/refs не дійсні: це git-сховище?"
+msgstr "%sinfo/refs не дійсні: це git сховище?"
 
 #: remote-curl.c:409
 msgid "invalid server response; expected service, got flush packet"
@@ -23090,9 +23043,8 @@ msgid "could not turn off maintenance"
 msgstr ""
 
 #: scalar.c:282
-#, fuzzy
 msgid "could not remove enlistment"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося видалити директорію верхнього рівня"
 
 #: scalar.c:336
 #, c-format
@@ -23116,9 +23068,8 @@ msgid "failed to stop the FSMonitor daemon"
 msgstr ""
 
 #: scalar.c:391
-#, fuzzy
 msgid "failed to delete enlistment directory"
-msgstr "не вдалося видалити директорію реєстрації"
+msgstr "не вдалося видалити директорію верхнього рівня"
 
 #: scalar.c:411
 msgid "branch to checkout after clone"
@@ -23194,9 +23145,9 @@ msgid "--all or <enlistment>, but not both"
 msgstr ""
 
 #: scalar.c:671
-#, fuzzy, c-format
+#, c-format
 msgid "could not remove stale scalar.repo '%s'"
-msgstr "не вдалося створити провідні директорії для '%s'"
+msgstr "неможливо видалити застаріле scalar.repo \"%s\""
 
 #: scalar.c:674
 #, c-format
@@ -23206,7 +23157,7 @@ msgstr ""
 #: scalar.c:678
 #, c-format
 msgid "git repository gone in '%s'"
-msgstr "git-сховище зникло у \"%s\""
+msgstr "git сховище зникло у \"%s\""
 
 #: scalar.c:718
 msgid ""
@@ -23375,7 +23326,7 @@ msgid "could not write to '%s'"
 msgstr "не вдалося записати в \"%s\""
 
 #: sequencer.c:498
-#, fuzzy, c-format
+#, c-format
 msgid "could not write eol to '%s'"
 msgstr "не вдалося записати eol в \"%s\""
 
@@ -23415,9 +23366,9 @@ msgid "no key present in '%.*s'"
 msgstr ""
 
 #: sequencer.c:847
-#, fuzzy, c-format
+#, c-format
 msgid "unable to dequote value of '%s'"
-msgstr "неприпустиме значення для '%s'"
+msgstr "не вдалося вилучити лапки зі значення \"%s\""
 
 #: sequencer.c:894
 msgid "'GIT_AUTHOR_NAME' already given"
@@ -23766,9 +23717,8 @@ msgid "could not lock HEAD"
 msgstr "неможливо зафіксувати HEAD"
 
 #: sequencer.c:3206 sequencer.c:4891
-#, fuzzy
 msgid "no cherry-pick or revert in progress"
-msgstr "Наразі триває висмикування."
+msgstr "наразі не триває ні скасування, ні висмикування"
 
 #: sequencer.c:3208 sequencer.c:3219
 msgid "cannot resolve HEAD"
@@ -24049,9 +23999,8 @@ msgid "could not read orig-head"
 msgstr "не вдалося прочитати orig-head"
 
 #: sequencer.c:4792
-#, fuzzy
 msgid "could not read 'onto'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося прочитати  \"onto\""
 
 #: sequencer.c:4806
 #, c-format
