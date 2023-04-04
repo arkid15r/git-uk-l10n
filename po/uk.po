@@ -14698,7 +14698,7 @@ msgstr ""
 #: builtin/submodule--helper.c:398 builtin/submodule--helper.c:731
 #: builtin/submodule--helper.c:1331
 msgid "recurse into nested submodules"
-msgstr "рекурсувати у вкладені підмодулі"
+msgstr "рекурсивно у вкладених підмодулях"
 
 #: builtin/submodule--helper.c:402
 msgid "git submodule foreach [--quiet] [--recursive] [--] <command>"
