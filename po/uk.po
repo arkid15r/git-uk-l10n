@@ -14602,7 +14602,7 @@ msgstr ""
 
 #: builtin/stash.c:1553
 msgid "Cannot initialize stash"
-msgstr "Не вдається ініціалізувати схов"
+msgstr "Неможливо ініціалізувати схов"
 
 #: builtin/stash.c:1568
 msgid "Cannot save the current status"
