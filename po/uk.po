@@ -15493,7 +15493,7 @@ msgstr ""
 #: builtin/tag.c:600
 #, c-format
 msgid "'%s' is not a valid tag name."
-msgstr "\"%s\" не є допустимою назвою тегу."
+msgstr "\"%s\" не є припустимою назвою тега."
 
 #: builtin/tag.c:605
 #, c-format
