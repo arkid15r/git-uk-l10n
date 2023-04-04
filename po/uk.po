@@ -14387,7 +14387,7 @@ msgstr "помилка під час оновлення робочої дире�
 
 #: builtin/stash.c:25
 msgid "git stash list [<log-options>]"
-msgstr "git stash list [<log-опції>]"
+msgstr "git stash list [<лог-опції>]"
 
 #: builtin/stash.c:27
 msgid ""
