@@ -14566,7 +14566,7 @@ msgstr "У вас ще немає початкового коміту"
 
 #: builtin/stash.c:1384
 msgid "Cannot save the current index state"
-msgstr "Не вдається зберегти поточний стан індексу"
+msgstr "Неможливо зберегти поточний стан індексу"
 
 #: builtin/stash.c:1393
 msgid "Cannot save the untracked files"
