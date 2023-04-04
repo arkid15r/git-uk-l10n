@@ -14745,7 +14745,7 @@ msgstr ""
 #: builtin/submodule--helper.c:703 builtin/submodule--helper.c:1299
 #, c-format
 msgid "failed to recurse into submodule '%s'"
-msgstr "не вдалося виконати рекурсію в підмодуль \"%s\""
+msgstr "не вдалося обробити рекурсивно підмодуль \"%s\""
 
 #: builtin/submodule--helper.c:729 builtin/submodule--helper.c:1472
 msgid "suppress submodule status output"
