@@ -15895,7 +15895,7 @@ msgstr ""
 
 #: builtin/worktree.c:207
 msgid "report pruned working trees"
-msgstr "звітувати про обрізані робочі дерева"
+msgstr "звітувати про видалення робочих дерев"
 
 #: builtin/worktree.c:209
 msgid "expire working trees older than <time>"
