@@ -14786,7 +14786,7 @@ msgstr ""
 
 #: builtin/submodule--helper.c:1157
 msgid "use the commit stored in the index instead of the submodule HEAD"
-msgstr "використовувати коміт, що зберігається в індексі, замість підмодуля HEAD"
+msgstr "використати коміт, збережений в індексі, замість підмодуля HEAD"
 
 #: builtin/submodule--helper.c:1159
 msgid "compare the commit in the index with that in the submodule HEAD"
