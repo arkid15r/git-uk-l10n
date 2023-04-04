@@ -14533,7 +14533,7 @@ msgstr "не вдалося розпакувати дерева"
 
 #: builtin/stash.c:889
 msgid "include untracked files in the stash"
-msgstr "включати невідстежувані файли до схову"
+msgstr "в тому числі невідстежувані файли схову"
 
 #: builtin/stash.c:892
 msgid "only show untracked files in the stash"
