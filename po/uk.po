@@ -14513,7 +14513,7 @@ msgstr ""
 #: builtin/stash.c:708
 #, c-format
 msgid "'%s' is not a stash reference"
-msgstr "\"%s\" не є посиланням на схов"
+msgstr "\"%s\" не є посиланням схова"
 
 #: builtin/stash.c:755
 msgid "The stash entry is kept in case you need it again."
