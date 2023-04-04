@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-03-31 18:38-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-04-02 18:58-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -14277,20 +14277,17 @@ msgid "failed to create directory for sparse-checkout file"
 msgstr "не вдалося створити директорію '%s'"
 
 #: builtin/sparse-checkout.c:367
-#, fuzzy
 msgid "failed to initialize worktree config"
-msgstr "не вдалося ініціалізувати частковий перехід"
+msgstr "не вдалося ініціалізувати конфігурацію робочого дерева"
 
 #: builtin/sparse-checkout.c:412
-#, fuzzy
 msgid "failed to modify sparse-index config"
-msgstr "не вдалося ініціалізувати частковий перехід"
+msgstr "не вдалося змінити sparse-index конфігурацію"
 
 #: builtin/sparse-checkout.c:445 builtin/sparse-checkout.c:797
 #: builtin/sparse-checkout.c:852
-#, fuzzy
 msgid "initialize the sparse-checkout in cone mode"
-msgstr "ініціалізувати, щоб файл sparse-checkout включав лише файли в корені"
+msgstr "ініціалізувати sparse-checkout в режимі конуса"
 
 #: builtin/sparse-checkout.c:447 builtin/sparse-checkout.c:799
 #: builtin/sparse-checkout.c:854
@@ -14298,19 +14295,19 @@ msgid "toggle the use of a sparse index"
 msgstr ""
 
 #: builtin/sparse-checkout.c:479 commit-graph.c:1849 midx.c:1242 sequencer.c:4161
-#, fuzzy, c-format
+#, c-format
 msgid "unable to create leading directories of %s"
-msgstr "не вдалося створити провідні директорії для '%s'"
+msgstr "не вдалося створити провідні директорії %s"
 
 #: builtin/sparse-checkout.c:483
-#, fuzzy, c-format
+#, c-format
 msgid "failed to open '%s'"
-msgstr "не вдалося розʼєднати '%s'"
+msgstr "не вдалося відкрити \"%s\""
 
 #: builtin/sparse-checkout.c:535
-#, fuzzy, c-format
+#, c-format
 msgid "could not normalize path %s"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося нормалізувати шлях %s"
 
 #: builtin/sparse-checkout.c:564
 #, c-format
@@ -14318,9 +14315,8 @@ msgid "unable to unquote C-style string '%s'"
 msgstr ""
 
 #: builtin/sparse-checkout.c:619 builtin/sparse-checkout.c:647
-#, fuzzy
 msgid "unable to load existing sparse-checkout patterns"
-msgstr "не вдалося ініціалізувати частковий перехід"
+msgstr "не вдалося завантажити існуючі sparse-checkout шаблони"
 
 #: builtin/sparse-checkout.c:623
 msgid "existing sparse-checkout patterns do not use cone mode"
@@ -14386,14 +14382,12 @@ msgid "must be in a sparse-checkout to reapply sparsity patterns"
 msgstr ""
 
 #: builtin/sparse-checkout.c:920
-#, fuzzy
 msgid "error while refreshing working directory"
-msgstr "помилка під час закриття файлу пакунка"
+msgstr "помилка під час оновлення робочої директорії"
 
 #: builtin/stash.c:25
-#, fuzzy
 msgid "git stash list [<log-options>]"
-msgstr "git switch [<опції>] [<гілка>]"
+msgstr "git stash list [<log-опції>]"
 
 #: builtin/stash.c:27
 msgid ""
@@ -14442,9 +14436,9 @@ msgid "git stash create [<message>]"
 msgstr ""
 
 #: builtin/stash.c:158
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a stash-like commit"
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "\"%s\" не є сховоподібним комітом"
 
 #: builtin/stash.c:178
 #, c-format
@@ -14456,9 +14450,9 @@ msgid "No stash entries found."
 msgstr ""
 
 #: builtin/stash.c:204
-#, fuzzy, c-format
+#, c-format
 msgid "%s is not a valid reference"
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "%s не є припустимим посиланням"
 
 #: builtin/stash.c:250
 msgid "git stash clear with arguments is unimplemented"
@@ -14473,23 +14467,21 @@ msgid ""
 msgstr ""
 
 #: builtin/stash.c:532
-#, fuzzy
 msgid "cannot apply a stash in the middle of a merge"
-msgstr "Неможливо виконати %s скидання посеред злиття."
+msgstr "неможливо додати до схову посеред злиття"
 
 #: builtin/stash.c:543
-#, fuzzy, c-format
+#, c-format
 msgid "could not generate diff %s^!."
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося згенерувати diff %s^!."
 
 #: builtin/stash.c:550
 msgid "conflicts in index. Try without --index."
 msgstr ""
 
 #: builtin/stash.c:556
-#, fuzzy
 msgid "could not save index tree"
-msgstr "Не вдалося записати новий індексний файл."
+msgstr "не вдалося зберегти дерево індекса"
 
 #: builtin/stash.c:577
 #, c-format
@@ -14501,14 +14493,12 @@ msgid "Index was not unstashed."
 msgstr ""
 
 #: builtin/stash.c:617
-#, fuzzy
 msgid "could not restore untracked files from stash"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося відновити невідстежувані файли зі схову"
 
 #: builtin/stash.c:649 builtin/stash.c:744
-#, fuzzy
 msgid "attempt to recreate the index"
-msgstr "відновити індекс"
+msgstr "спроба відтворити індекс"
 
 #: builtin/stash.c:686
 #, c-format
@@ -14521,9 +14511,9 @@ msgid "%s: Could not drop stash entry"
 msgstr ""
 
 #: builtin/stash.c:708
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a stash reference"
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "\"%s\" не є посиланням на схов"
 
 #: builtin/stash.c:755
 msgid "The stash entry is kept in case you need it again."
@@ -14534,29 +14524,25 @@ msgid "No branch name specified"
 msgstr ""
 
 #: builtin/stash.c:858
-#, fuzzy
 msgid "failed to parse tree"
-msgstr "не вдалося застосувати дельту"
+msgstr "не вдалося розібрати дерево"
 
 #: builtin/stash.c:869
-#, fuzzy
 msgid "failed to unpack trees"
-msgstr "не вдалося розʼєднати '%s'"
+msgstr "не вдалося розпакувати дерева"
 
 #: builtin/stash.c:889
-#, fuzzy
 msgid "include untracked files in the stash"
-msgstr "Невідстежувані файли не вказано%s"
+msgstr "включати невідстежувані файли до схову"
 
 #: builtin/stash.c:892
-#, fuzzy
 msgid "only show untracked files in the stash"
-msgstr "Невідстежувані файли не вказано%s"
+msgstr "показувати тільки невідстежувані файли в схову"
 
 #: builtin/stash.c:985 builtin/stash.c:1022
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot update %s with %s"
-msgstr "Неможливо виконати %s скидання зі шляхами."
+msgstr "Не вдається оновити %s з %s"
 
 #: builtin/stash.c:1003 builtin/stash.c:1725 builtin/stash.c:1802
 msgid "stash message"
@@ -14567,48 +14553,40 @@ msgid "\"git stash store\" requires one <commit> argument"
 msgstr ""
 
 #: builtin/stash.c:1197
-#, fuzzy
 msgid "No staged changes"
-msgstr "Немає змін"
+msgstr "Немає індексованих змін"
 
 #: builtin/stash.c:1258
-#, fuzzy
 msgid "No changes selected"
-msgstr "Немає змін"
+msgstr "Не обрано жодних змін"
 
 #: builtin/stash.c:1357
-#, fuzzy
 msgid "You do not have the initial commit yet"
-msgstr "У вас немає дійсного HEAD."
+msgstr "У вас ще немає початкового коміту"
 
 #: builtin/stash.c:1384
-#, fuzzy
 msgid "Cannot save the current index state"
-msgstr "спочатку потрібно розібратись з вашим поточним індексом"
+msgstr "Не вдається зберегти поточний стан індексу"
 
 #: builtin/stash.c:1393
-#, fuzzy
 msgid "Cannot save the untracked files"
-msgstr "неможливо зробити fstat файла пакунка"
+msgstr "Не вдається зберегти невідстежувані файли"
 
 #: builtin/stash.c:1404 builtin/stash.c:1423
 msgid "Cannot save the current worktree state"
 msgstr ""
 
 #: builtin/stash.c:1414
-#, fuzzy
 msgid "Cannot save the current staged state"
-msgstr "не можливо %s: У вас є не індексовані зміни."
+msgstr "Не вдається зберегти поточний індексований стан"
 
 #: builtin/stash.c:1451
-#, fuzzy
 msgid "Cannot record working tree state"
-msgstr "відновити робоче дерево (типово)"
+msgstr "Не вдається записати стан робочого дерева"
 
 #: builtin/stash.c:1501
-#, fuzzy
 msgid "Can't use --patch and --include-untracked or --all at the same time"
-msgstr "Неможливо одночасно оновити шляхи та переключитись на гілку '%s'."
+msgstr "Не можна використовувати --patch і --include-untracked або --all одночасно"
 
 #: builtin/stash.c:1512
 msgid "Can't use --staged and --include-untracked or --all at the same time"
@@ -14623,9 +14601,8 @@ msgid "No local changes to save"
 msgstr ""
 
 #: builtin/stash.c:1553
-#, fuzzy
 msgid "Cannot initialize stash"
-msgstr "не вдалося ініціалізувати частковий перехід"
+msgstr "Не вдається ініціалізувати схов"
 
 #: builtin/stash.c:1568
 msgid "Cannot save the current status"
@@ -14657,14 +14634,12 @@ msgid "quiet mode"
 msgstr ""
 
 #: builtin/stash.c:1721 builtin/stash.c:1798
-#, fuzzy
 msgid "include untracked files in stash"
-msgstr "Невідстежувані файли не вказано%s"
+msgstr "включити невідстежувані файли до схову"
 
 #: builtin/stash.c:1723 builtin/stash.c:1800
-#, fuzzy
 msgid "include ignore files"
-msgstr "Ігноровані файли"
+msgstr "включити ігнорування файлів"
 
 #: builtin/stripspace.c:37
 msgid "skip and remove all lines starting with comment character"
@@ -14722,18 +14697,17 @@ msgstr ""
 
 #: builtin/submodule--helper.c:398 builtin/submodule--helper.c:731
 #: builtin/submodule--helper.c:1331
-#, fuzzy
 msgid "recurse into nested submodules"
-msgstr "контролювати рекурсивне надсилання підмодулів"
+msgstr "рекурсувати у вкладені підмодулі"
 
 #: builtin/submodule--helper.c:402
 msgid "git submodule foreach [--quiet] [--recursive] [--] <command>"
 msgstr ""
 
 #: builtin/submodule--helper.c:497
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to register url for submodule path '%s'"
-msgstr "не вдалося запустити перебір для '%s'"
+msgstr "Не вдалося зареєструвати url для підмодуля за шляхом \"%s\""
 
 #: builtin/submodule--helper.c:501
 #, c-format
@@ -14746,18 +14720,17 @@ msgid "warning: command update mode suggested for submodule '%s'\n"
 msgstr ""
 
 #: builtin/submodule--helper.c:519
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to register update mode for submodule path '%s'"
-msgstr "не вдалося перебрати '%s'"
+msgstr "Не вдалося зареєструвати режим оновлення для підмодуля за шляхом \"%s\""
 
 #: builtin/submodule--helper.c:541
 msgid "suppress output for initializing a submodule"
 msgstr ""
 
 #: builtin/submodule--helper.c:545
-#, fuzzy
 msgid "git submodule init [<options>] [<path>]"
-msgstr "git switch [<опції>] [<гілка>]"
+msgstr "git submodule init [<опції>] [<шлях>]"
 
 #: builtin/submodule--helper.c:630
 #, c-format
@@ -14770,9 +14743,9 @@ msgid "could not resolve HEAD ref inside the submodule '%s'"
 msgstr ""
 
 #: builtin/submodule--helper.c:703 builtin/submodule--helper.c:1299
-#, fuzzy, c-format
+#, c-format
 msgid "failed to recurse into submodule '%s'"
-msgstr "не вдалося створити посилання '%s'"
+msgstr "не вдалося виконати рекурсію в підмодуль \"%s\""
 
 #: builtin/submodule--helper.c:729 builtin/submodule--helper.c:1472
 msgid "suppress submodule status output"
@@ -14802,9 +14775,9 @@ msgid "%s"
 msgstr ""
 
 #: builtin/submodule--helper.c:904
-#, fuzzy, c-format
+#, c-format
 msgid "couldn't hash object from '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося хешувати обʼєкт з \"%s\""
 
 #: builtin/submodule--helper.c:908
 #, c-format
@@ -14812,9 +14785,8 @@ msgid "unexpected mode %o\n"
 msgstr ""
 
 #: builtin/submodule--helper.c:1157
-#, fuzzy
 msgid "use the commit stored in the index instead of the submodule HEAD"
-msgstr "перейти до <гілки> замість HEAD віддаленого сховища"
+msgstr "використовувати коміт, що зберігається в індексі, замість підмодуля HEAD"
 
 #: builtin/submodule--helper.c:1159
 msgid "compare the commit in the index with that in the submodule HEAD"
@@ -14842,14 +14814,14 @@ msgid "Synchronizing submodule url for '%s'\n"
 msgstr ""
 
 #: builtin/submodule--helper.c:1261
-#, fuzzy, c-format
+#, c-format
 msgid "failed to register url for submodule path '%s'"
-msgstr "не вдалося запустити перебір для '%s'"
+msgstr "не вдалося зареєструвати url для підмодуля за шляхом \"%s\""
 
 #: builtin/submodule--helper.c:1279
-#, fuzzy, c-format
+#, c-format
 msgid "failed to update remote for submodule '%s'"
-msgstr "не вдалося перебрати '%s'"
+msgstr "не вдалося оновити віддалене призначення для підмодуля \"%s\""
 
 #: builtin/submodule--helper.c:1329
 msgid "suppress output of synchronizing submodule url"
@@ -14872,19 +14844,19 @@ msgid "Submodule work tree '%s' contains local modifications; use '-f' to discar
 msgstr ""
 
 #: builtin/submodule--helper.c:1415
-#, fuzzy, c-format
+#, c-format
 msgid "Cleared directory '%s'\n"
-msgstr "не вдалося створити директорію '%s'"
+msgstr "Очищено директорію \"%s\"\n"
 
 #: builtin/submodule--helper.c:1417
-#, fuzzy, c-format
+#, c-format
 msgid "Could not remove submodule work tree '%s'\n"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "Не вдалося видалити підмодульне робоче дерево \"%s\"\n"
 
 #: builtin/submodule--helper.c:1428
-#, fuzzy, c-format
+#, c-format
 msgid "could not create empty submodule directory %s"
-msgstr "не вдалося створити провідні директорії для '%s'"
+msgstr "не вдалося створити порожню підмодульну директорію %s"
 
 #: builtin/submodule--helper.c:1445
 #, c-format
@@ -14916,14 +14888,14 @@ msgid ""
 msgstr ""
 
 #: builtin/submodule--helper.c:1568
-#, fuzzy, c-format
+#, c-format
 msgid "could not get a repository handle for gitdir '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося отримати дескриптор сховища для gitdir \"%s\""
 
 #: builtin/submodule--helper.c:1593 builtin/submodule--helper.c:1596
-#, fuzzy, c-format
+#, c-format
 msgid "submodule '%s' cannot add alternate: %s"
-msgstr "инфо: Не вдалося додати альтернативу для '%s': %s\n"
+msgstr "підмодуль \"%s\" не може додати заміну: %s"
 
 #: builtin/submodule--helper.c:1632
 #, c-format
@@ -14951,18 +14923,17 @@ msgid "directory not empty: '%s'"
 msgstr ""
 
 #: builtin/submodule--helper.c:1737
-#, fuzzy, c-format
+#, c-format
 msgid "could not get submodule directory for '%s'"
-msgstr "не вдалося створити провідні директорії для '%s'"
+msgstr "не вдалося отримати директорію підмодуля для \"%s\""
 
 #: builtin/submodule--helper.c:1769
 msgid "alternative anchor for relative paths"
 msgstr ""
 
 #: builtin/submodule--helper.c:1772
-#, fuzzy
 msgid "where the new submodule will be cloned to"
-msgstr "будь-які клоновані підмодулі будуть поверхневими"
+msgstr "куди буде клоновано новий підмодуль"
 
 #: builtin/submodule--helper.c:1775
 msgid "name of the new submodule"
@@ -14978,9 +14949,8 @@ msgstr ""
 
 #: builtin/submodule--helper.c:1789 builtin/submodule--helper.c:2685
 #: builtin/submodule--helper.c:3267
-#, fuzzy
 msgid "force cloning progress"
-msgstr "примусово звітувати прогрес"
+msgstr "прогрес примусового клонування"
 
 #: builtin/submodule--helper.c:1791
 msgid "disallow cloning into non-empty directory"
@@ -14994,9 +14964,9 @@ msgid ""
 msgstr ""
 
 #: builtin/submodule--helper.c:1841
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid update mode '%s' configured for submodule path '%s'"
-msgstr "першоджерельне сховище не налаштовано для гілки '%s'"
+msgstr "Неприпустимий режим оновлення \"%s\" налаштовано для підмодуля за шляхом \"%s\""
 
 #: builtin/submodule--helper.c:1951
 #, c-format
@@ -15033,14 +15003,14 @@ msgid "Unable to checkout '%s' in submodule path '%s'"
 msgstr ""
 
 #: builtin/submodule--helper.c:2282
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to rebase '%s' in submodule path '%s'"
-msgstr "не вдається перейменувати тимчасовий файл '*.%s' на '%s'"
+msgstr "Не вдається перебазувати \"%s\" у підмодулі за шляхом \"%s\""
 
 #: builtin/submodule--helper.c:2286
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to merge '%s' in submodule path '%s'"
-msgstr "Неможливо додати результат злиття для '%s'"
+msgstr "Не вдається злити \"%s\" у підмодулі за шляхом \"%s\""
 
 #: builtin/submodule--helper.c:2290
 #, c-format
@@ -15080,9 +15050,9 @@ msgid ""
 msgstr ""
 
 #: builtin/submodule--helper.c:2367
-#, fuzzy, c-format
+#, c-format
 msgid "could not initialize submodule at path '%s'"
-msgstr "ініціалізувати підмодулі в клоні"
+msgstr "не вдалося ініціалізувати підмодуль за шляхом \"%s\""
 
 #: builtin/submodule--helper.c:2388
 #, c-format
@@ -15107,25 +15077,21 @@ msgid "Unable to find %s revision in submodule path '%s'"
 msgstr ""
 
 #: builtin/submodule--helper.c:2573
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to recurse into submodule path '%s'"
-msgstr "контролювати рекурсивне надсилання підмодулів"
+msgstr "Не вдалося виконати рекурсію в підмодуль за шляхом \"%s\""
 
 #: builtin/submodule--helper.c:2654
-#, fuzzy
 msgid "force checkout updates"
-msgstr "оновити примусово"
+msgstr "переключитися на оновлення примусово"
 
 #: builtin/submodule--helper.c:2656
-#, fuzzy
 msgid "initialize uninitialized submodules before update"
-msgstr "ініціалізувати підмодулі в клоні"
+msgstr "ініціалізувати неініціалізовані підмодулі перед оновленням"
 
 #: builtin/submodule--helper.c:2658
-#, fuzzy
 msgid "use SHA-1 of submodule's remote tracking branch"
-msgstr ""
-"будь-які клоновані підмодулі будуть використовувати свою гілку віддаленого відстеження"
+msgstr "використовувати SHA-1 гілки віддаленого відстеження підмодуля"
 
 #: builtin/submodule--helper.c:2660
 msgid "traverse submodules recursively"
@@ -15148,9 +15114,8 @@ msgid "use the 'rebase' update strategy"
 msgstr ""
 
 #: builtin/submodule--helper.c:2677
-#, fuzzy
 msgid "create a shallow clone truncated to the specified number of revisions"
-msgstr "створити поверхневий клон з певного часу"
+msgstr "створити поверхневий клон, урізаний до вказаної кількості ревізій"
 
 #: builtin/submodule--helper.c:2680
 msgid "parallel jobs"
@@ -15176,9 +15141,8 @@ msgid ""
 msgstr ""
 
 #: builtin/submodule--helper.c:2855
-#, fuzzy
 msgid "git submodule absorbgitdirs [<options>] [<path>...]"
-msgstr "git switch [<опції>] [<гілка>]"
+msgstr "git submodule absorbgitdirs [<опції>] [<шлях>...]"
 
 #: builtin/submodule--helper.c:2884
 msgid "suppress output for setting url of a submodule"
@@ -15193,9 +15157,8 @@ msgid "set the default tracking branch to master"
 msgstr ""
 
 #: builtin/submodule--helper.c:2923
-#, fuzzy
 msgid "set the default tracking branch"
-msgstr "'%s' відповідає декільком (%d) гілкам віддаленого відстеження"
+msgstr "встановити типову гілку відстеження"
 
 #: builtin/submodule--helper.c:2927
 msgid "git submodule set-branch [-q|--quiet] (-d|--default) <path>"
@@ -15228,9 +15191,9 @@ msgid ""
 msgstr ""
 
 #: builtin/submodule--helper.c:2980
-#, fuzzy, c-format
+#, c-format
 msgid "creating branch '%s'"
-msgstr "Скинути гілку '%s'\n"
+msgstr "створення гілки \"%s\""
 
 #: builtin/submodule--helper.c:3042
 #, c-format
@@ -15238,9 +15201,9 @@ msgid "Adding existing repo at '%s' to the index\n"
 msgstr ""
 
 #: builtin/submodule--helper.c:3045
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' already exists and is not a valid git repo"
-msgstr "%s існує і не є директорією"
+msgstr "\"%s\" вже існує і не є дійсним git сховищем"
 
 #: builtin/submodule--helper.c:3059
 #, c-format
@@ -15262,24 +15225,24 @@ msgid "Reactivating local git directory for submodule '%s'\n"
 msgstr ""
 
 #: builtin/submodule--helper.c:3117
-#, fuzzy, c-format
+#, c-format
 msgid "unable to checkout submodule '%s'"
-msgstr "не вдалося завантажити стан робочої директорії"
+msgstr "не вдалося переключитись на підмодуль \"%s\""
 
 #: builtin/submodule--helper.c:3131 builtin/submodule--helper.c:3287
 msgid "please make sure that the .gitmodules file is in the working tree"
 msgstr ""
 
 #: builtin/submodule--helper.c:3159
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to add submodule '%s'"
-msgstr "не вдалося перебрати '%s'"
+msgstr "Не вдалося додати підмодуль \"%s\""
 
 #: builtin/submodule--helper.c:3163 builtin/submodule--helper.c:3168
 #: builtin/submodule--helper.c:3176
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to register submodule '%s'"
-msgstr "не вдалося перебрати '%s'"
+msgstr "Не вдалося зареєструвати підмодуль \"%s\""
 
 #: builtin/submodule--helper.c:3231
 #, c-format
@@ -15292,9 +15255,9 @@ msgid "'%s' already exists in the index and is not a submodule"
 msgstr ""
 
 #: builtin/submodule--helper.c:3251 read-cache.c:785
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' does not have a commit checked out"
-msgstr "шлях '%s' не містить їхньої версії"
+msgstr "\"%s\" не має активного коміту"
 
 #: builtin/submodule--helper.c:3263
 msgid "branch of repository to add as submodule"
@@ -15313,9 +15276,8 @@ msgid "sets the submodule's name to the given string instead of defaulting to it
 msgstr ""
 
 #: builtin/submodule--helper.c:3278
-#, fuzzy
 msgid "git submodule add [<options>] [--] <repository> [<path>]"
-msgstr "git clone [<опції>] [--] <сховище> [<директорія>]"
+msgstr "git submodule add [<опції>] [--] <сховище> [<шлях>]"
 
 #: builtin/submodule--helper.c:3312
 msgid "Relative path can only be used from the toplevel of the working tree"
@@ -15327,9 +15289,9 @@ msgid "repo URL: '%s' must be absolute or begin with ./|../"
 msgstr ""
 
 #: builtin/submodule--helper.c:3353
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a valid submodule name"
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "\"%s\" не є припустимою назвою підмодуля"
 
 #: builtin/submodule--helper.c:3378
 msgid "git submodule--helper <command>"
@@ -15360,9 +15322,8 @@ msgid "shorten ref output"
 msgstr ""
 
 #: builtin/symbolic-ref.c:49
-#, fuzzy
 msgid "recursively dereference (default)"
-msgstr "використовувати режим накладення (типово)"
+msgstr "рекурсивне розіменування (типове)"
 
 #: builtin/symbolic-ref.c:50 builtin/update-ref.c:505
 msgid "reason"
@@ -15423,9 +15384,8 @@ msgid ""
 msgstr ""
 
 #: builtin/tag.c:243
-#, fuzzy
 msgid "unable to sign the tag"
-msgstr "не вдалося оновити %s"
+msgstr "не вдалося підписати тег"
 
 #: builtin/tag.c:261
 #, c-format
@@ -15437,9 +15397,8 @@ msgid ""
 msgstr ""
 
 #: builtin/tag.c:277
-#, fuzzy
 msgid "bad object type."
-msgstr "невідомий тип обʼєкта %d"
+msgstr "поганий тип обʼєкта."
 
 #: builtin/tag.c:328
 msgid "no tag message?"
@@ -15459,9 +15418,8 @@ msgid "print <n> lines of each tag message"
 msgstr ""
 
 #: builtin/tag.c:451
-#, fuzzy
 msgid "delete tags"
-msgstr "видалити посилання"
+msgstr "видалити теги"
 
 #: builtin/tag.c:452
 msgid "verify tags"
@@ -15496,9 +15454,8 @@ msgid "replace the tag if exists"
 msgstr ""
 
 #: builtin/tag.c:466 builtin/update-ref.c:511
-#, fuzzy
 msgid "create a reflog"
-msgstr "створити порожнє сховище"
+msgstr "створити reflog"
 
 #: builtin/tag.c:468
 msgid "Tag listing options"
@@ -15534,19 +15491,19 @@ msgid "the '%s' option is only allowed in list mode"
 msgstr ""
 
 #: builtin/tag.c:600
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a valid tag name."
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "\"%s\" не є допустимою назвою тегу."
 
 #: builtin/tag.c:605
-#, fuzzy, c-format
+#, c-format
 msgid "tag '%s' already exists"
-msgstr "робоче дерево '%s' вже існує."
+msgstr "тег \"%s\" вже існує"
 
 #: builtin/tag.c:617 sequencer.c:617
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid cleanup mode %s"
-msgstr "неприпустимий об’єкт blob %s"
+msgstr "Неприпустимий режим очищення %s"
 
 #: builtin/tag.c:636
 #, c-format
@@ -15554,44 +15511,40 @@ msgid "Updated tag '%s' (was %s)\n"
 msgstr ""
 
 #: builtin/unpack-objects.c:96
-#, fuzzy
 msgid "pack exceeds maximum allowed size"
-msgstr "пакунок перевищує максимально дозволений розмір (%s)"
+msgstr "пакунок перевищує максимально допустимий розмір"
 
 #: builtin/unpack-objects.c:400
-#, fuzzy
 msgid "failed to write object in stream"
-msgstr "не вдалося створити посилання '%s'"
+msgstr "не вдалося записати обʼєкт у потоку"
 
 #: builtin/unpack-objects.c:403
-#, fuzzy, c-format
+#, c-format
 msgid "inflate returned (%d)"
-msgstr "розпаковувач повернув %d"
+msgstr "розпаковувач повернув (%d)"
 
 #: builtin/unpack-objects.c:410
-#, fuzzy
 msgid "invalid blob object from stream"
-msgstr "неприпустимий об’єкт blob %s"
+msgstr "неприпустимий обʼєкт blob з потоку"
 
 #: builtin/unpack-objects.c:587
-#, fuzzy
 msgid "Unpacking objects"
-msgstr "Перевірка обʼєктів"
+msgstr "Розпакування обʼєктів"
 
 #: builtin/update-index.c:93
-#, fuzzy, c-format
+#, c-format
 msgid "failed to create directory %s"
-msgstr "не вдалося створити директорію '%s'"
+msgstr "не вдалося створити директорію %s"
 
 #: builtin/update-index.c:115
-#, fuzzy, c-format
+#, c-format
 msgid "failed to delete file %s"
-msgstr "не вдалося створити посилання '%s'"
+msgstr "не вдалося видалити файл %s"
 
 #: builtin/update-index.c:122 builtin/update-index.c:228
-#, fuzzy, c-format
+#, c-format
 msgid "failed to delete directory %s"
-msgstr "не вдалося створити директорію '%s'"
+msgstr "не вдалося видалити директорію %s"
 
 #: builtin/update-index.c:147
 #, c-format
@@ -15627,23 +15580,20 @@ msgid " OK"
 msgstr ""
 
 #: builtin/update-index.c:598
-#, fuzzy
 msgid "git update-index [<options>] [--] [<file>...]"
-msgstr "git checkout [<опції>] [<гілка>] -- <файл>..."
+msgstr "git update-index [<опції>] [--] [<файл>...]"
 
 #: builtin/update-index.c:1003
 msgid "continue refresh even when index needs update"
 msgstr ""
 
 #: builtin/update-index.c:1006
-#, fuzzy
 msgid "refresh: ignore submodules"
-msgstr "контролювати рекурсивне надсилання підмодулів"
+msgstr "оновити: ігнорувати підмодулі"
 
 #: builtin/update-index.c:1009
-#, fuzzy
 msgid "do not ignore new files"
-msgstr "Не вдалося записати новий індексний файл."
+msgstr "не ігнорувати нові файли"
 
 #: builtin/update-index.c:1011
 msgid "let files replace directories and vice-versa"
@@ -15670,9 +15620,8 @@ msgid "<mode>,<object>,<path>"
 msgstr ""
 
 #: builtin/update-index.c:1027
-#, fuzzy
 msgid "add the specified entry to the index"
-msgstr "Оновлено %d шлях з індексу"
+msgstr "додати вказаний запис до індексу"
 
 #: builtin/update-index.c:1037
 msgid "mark files as \"not changing\""
@@ -15789,9 +15738,8 @@ msgid ""
 msgstr ""
 
 #: builtin/update-index.c:1241
-#, fuzzy
 msgid "Untracked cache disabled"
-msgstr "Невідстежувані файли"
+msgstr "Невідстежуваний кеш вимкнено"
 
 #: builtin/update-index.c:1249
 msgid ""
@@ -15800,9 +15748,9 @@ msgid ""
 msgstr ""
 
 #: builtin/update-index.c:1253
-#, fuzzy, c-format
+#, c-format
 msgid "Untracked cache enabled for '%s'"
-msgstr "невдала спроба make_cache_entry для шляху '%s'"
+msgstr "Увімкнено невідстежуваний кеш для \"%s\""
 
 #: builtin/update-index.c:1278
 msgid "core.fsmonitor is unset; set it if you really want to enable fsmonitor"
@@ -15821,9 +15769,8 @@ msgid "fsmonitor disabled"
 msgstr ""
 
 #: builtin/update-ref.c:10
-#, fuzzy
 msgid "git update-ref [<options>] -d <refname> [<old-val>]"
-msgstr "git clone [<опції>] [--] <сховище> [<директорія>]"
+msgstr "git update-ref [<опції>] -d <назва посилання> [<старе значення>]"
 
 #: builtin/update-ref.c:11
 msgid "git update-ref [<options>]    <refname> <new-val> [<old-val>]"
@@ -15834,7 +15781,6 @@ msgid "git update-ref [<options>] --stdin [-z]"
 msgstr ""
 
 #: builtin/update-ref.c:506
-#, fuzzy
 msgid "delete the reference"
 msgstr "видалити посилання"
 
@@ -15851,9 +15797,8 @@ msgid "read updates from stdin"
 msgstr ""
 
 #: builtin/update-server-info.c:15
-#, fuzzy
 msgid "update the info files from scratch"
-msgstr "оновити ігноровані файли (типово)"
+msgstr "оновити інформаційні файли з нуля"
 
 #: builtin/upload-pack.c:11
 msgid ""
@@ -15949,23 +15894,22 @@ msgid "Removing %s/%s: %s"
 msgstr ""
 
 #: builtin/worktree.c:207
-#, fuzzy
 msgid "report pruned working trees"
-msgstr "скинути HEAD, індекс та робоче дерево"
+msgstr "звітувати про обрізані робочі дерева"
 
 #: builtin/worktree.c:209
 msgid "expire working trees older than <time>"
 msgstr ""
 
 #: builtin/worktree.c:280
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' already exists"
-msgstr "робоче дерево '%s' вже існує."
+msgstr "\"%s\" вже існує"
 
 #: builtin/worktree.c:289
-#, fuzzy, c-format
+#, c-format
 msgid "unusable worktree destination '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "непридатне місце призначення робочого дерева \"%s\""
 
 #: builtin/worktree.c:294
 #, c-format
