@@ -14639,7 +14639,7 @@ msgstr "включити невідстежувані файли до схову
 
 #: builtin/stash.c:1723 builtin/stash.c:1800
 msgid "include ignore files"
-msgstr "включити ігнорування файлів"
+msgstr "в тому числи файли ігнорування"
 
 #: builtin/stripspace.c:37
 msgid "skip and remove all lines starting with comment character"
