@@ -15798,7 +15798,7 @@ msgstr ""
 
 #: builtin/update-server-info.c:15
 msgid "update the info files from scratch"
-msgstr "оновити інформаційні файли з нуля"
+msgstr "оновити інформаційні файли з чистого аркуша"
 
 #: builtin/upload-pack.c:11
 msgid ""
