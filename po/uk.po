@@ -14635,7 +14635,7 @@ msgstr ""
 
 #: builtin/stash.c:1721 builtin/stash.c:1798
 msgid "include untracked files in stash"
-msgstr "включити невідстежувані файли до схову"
+msgstr "в тому числі невідстежувані файли схову"
 
 #: builtin/stash.c:1723 builtin/stash.c:1800
 msgid "include ignore files"
