@@ -14542,7 +14542,7 @@ msgstr "показувати тільки невідстежувані файл�
 #: builtin/stash.c:985 builtin/stash.c:1022
 #, c-format
 msgid "Cannot update %s with %s"
-msgstr "Не вдається оновити %s з %s"
+msgstr "Неможливо оновити %s з %s"
 
 #: builtin/stash.c:1003 builtin/stash.c:1725 builtin/stash.c:1802
 msgid "stash message"
