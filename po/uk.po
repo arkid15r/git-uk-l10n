@@ -15512,7 +15512,7 @@ msgstr ""
 
 #: builtin/unpack-objects.c:96
 msgid "pack exceeds maximum allowed size"
-msgstr "пакунок перевищує максимально допустимий розмір"
+msgstr "пакунок перевищує максимально дозволений розмір"
 
 #: builtin/unpack-objects.c:400
 msgid "failed to write object in stream"
