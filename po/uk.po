@@ -15203,7 +15203,7 @@ msgstr ""
 #: builtin/submodule--helper.c:3045
 #, c-format
 msgid "'%s' already exists and is not a valid git repo"
-msgstr "\"%s\" вже існує і не є дійсним git сховищем"
+msgstr "\"%s\" вже існує і не є припустимим git сховищем"
 
 #: builtin/submodule--helper.c:3059
 #, c-format
