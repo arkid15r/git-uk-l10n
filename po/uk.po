@@ -14473,7 +14473,7 @@ msgstr "неможливо застосувати схов посеред зли
 #: builtin/stash.c:543
 #, c-format
 msgid "could not generate diff %s^!."
-msgstr "не вдалося згенерувати diff %s^!."
+msgstr "не вдалося згенерувати різницю %s^!."
 
 #: builtin/stash.c:550
 msgid "conflicts in index. Try without --index."
