@@ -14950,7 +14950,7 @@ msgstr ""
 #: builtin/submodule--helper.c:1789 builtin/submodule--helper.c:2685
 #: builtin/submodule--helper.c:3267
 msgid "force cloning progress"
-msgstr "прогрес примусового клонування"
+msgstr "примусово звітувати прогрес клонування"
 
 #: builtin/submodule--helper.c:1791
 msgid "disallow cloning into non-empty directory"
