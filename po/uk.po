@@ -7247,7 +7247,7 @@ msgstr "Перевірка %s"
 #: builtin/fsck.c:390
 #, c-format
 msgid "Checking connectivity (%d objects)"
-msgstr "Перевірка підключення (%d об'єктів)"
+msgstr "Перевірка підключення (%d обʼєктів)"
 
 #: builtin/fsck.c:409
 #, c-format
