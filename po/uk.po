@@ -15323,7 +15323,7 @@ msgstr ""
 
 #: builtin/symbolic-ref.c:49
 msgid "recursively dereference (default)"
-msgstr "рекурсивне розіменування (типове)"
+msgstr "рекурсивне розіменування (типово)"
 
 #: builtin/symbolic-ref.c:50 builtin/update-ref.c:505
 msgid "reason"
