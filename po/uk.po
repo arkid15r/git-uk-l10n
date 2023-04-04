@@ -15005,7 +15005,7 @@ msgstr ""
 #: builtin/submodule--helper.c:2282
 #, c-format
 msgid "Unable to rebase '%s' in submodule path '%s'"
-msgstr "Не вдається перебазувати \"%s\" у підмодулі за шляхом \"%s\""
+msgstr "Не вдалося перебазувати \"%s\" в підмодулі за шляхом \"%s\""
 
 #: builtin/submodule--helper.c:2286
 #, c-format
