@@ -7232,7 +7232,7 @@ msgstr "не вдалося створити lost-found"
 #: rerere.c:469 rerere.c:677 sequencer.c:3961 sequencer.c:3987 sequencer.c:6125
 #, c-format
 msgid "could not write '%s'"
-msgstr "не вдалося записати %s"
+msgstr "не вдалося записати \"%s\""
 
 #: builtin/fsck.c:335
 #, c-format
