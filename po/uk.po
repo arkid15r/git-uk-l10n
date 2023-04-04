@@ -7091,7 +7091,7 @@ msgstr ""
 
 #: builtin/fmt-merge-msg.c:28
 msgid "use <name> instead of the real target branch"
-msgstr "використовувати <name> замість реальної цільової гілки"
+msgstr "використовувати <імʼя> замість реальної цільової гілки"
 
 #: builtin/fmt-merge-msg.c:29
 msgid "file to read from"
