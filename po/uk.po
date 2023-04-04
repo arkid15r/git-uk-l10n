@@ -14851,7 +14851,7 @@ msgstr "Очищено директорію \"%s\"\n"
 #: builtin/submodule--helper.c:1417
 #, c-format
 msgid "Could not remove submodule work tree '%s'\n"
-msgstr "Не вдалося видалити підмодульне робоче дерево \"%s\"\n"
+msgstr "Не вдалося видалити робоче дерево підмодуля \"%s\"\n"
 
 #: builtin/submodule--helper.c:1428
 #, c-format
