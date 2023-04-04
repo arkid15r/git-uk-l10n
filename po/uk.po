@@ -14895,7 +14895,7 @@ msgstr "не вдалося отримати дескриптор сховища
 #: builtin/submodule--helper.c:1593 builtin/submodule--helper.c:1596
 #, c-format
 msgid "submodule '%s' cannot add alternate: %s"
-msgstr "підмодуль \"%s\" не може додати заміну: %s"
+msgstr "підмодуль \"%s\" не може додати спільний обʼєкт: %s"
 
 #: builtin/submodule--helper.c:1632
 #, c-format
