@@ -14570,7 +14570,7 @@ msgstr "Неможливо зберегти поточний стан індек
 
 #: builtin/stash.c:1393
 msgid "Cannot save the untracked files"
-msgstr "Не вдається зберегти невідстежувані файли"
+msgstr "Неможливо зберегти невідстежувані файли"
 
 #: builtin/stash.c:1404 builtin/stash.c:1423
 msgid "Cannot save the current worktree state"
