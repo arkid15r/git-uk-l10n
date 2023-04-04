@@ -15079,7 +15079,7 @@ msgstr ""
 #: builtin/submodule--helper.c:2573
 #, c-format
 msgid "Failed to recurse into submodule path '%s'"
-msgstr "Не вдалося виконати рекурсію в підмодуль за шляхом \"%s\""
+msgstr "Не вдалося обробити рекурсивно підмодуль за шляхом \"%s\""
 
 #: builtin/submodule--helper.c:2654
 msgid "force checkout updates"
