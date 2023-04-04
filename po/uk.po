@@ -14578,7 +14578,7 @@ msgstr ""
 
 #: builtin/stash.c:1414
 msgid "Cannot save the current staged state"
-msgstr "Не вдається зберегти поточний індексований стан"
+msgstr "Неможливо зберегти поточний індексований стан"
 
 #: builtin/stash.c:1451
 msgid "Cannot record working tree state"
