@@ -7324,7 +7324,7 @@ msgstr ""
 
 #: builtin/fsck.c:688
 msgid "Checking object directory"
-msgstr "Перевірка директорії об’єктів"
+msgstr "Перевірка директорії об’єкта"
 
 #: builtin/fsck.c:691
 msgid "Checking object directories"
