@@ -14468,7 +14468,7 @@ msgstr ""
 
 #: builtin/stash.c:532
 msgid "cannot apply a stash in the middle of a merge"
-msgstr "неможливо додати до схову посеред злиття"
+msgstr "неможливо застосувати схов посеред злиття"
 
 #: builtin/stash.c:543
 #, c-format
