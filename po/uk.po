@@ -7752,7 +7752,7 @@ msgstr ""
 #: builtin/gc.c:1613
 #, c-format
 msgid "unable to unset '%s' value of '%s'"
-msgstr "не вдається скинути значення \"%s\" для \"%s\""
+msgstr "не вдалося скинути значення \"%s\" для \"%s\""
 
 #: builtin/gc.c:1616
 #, c-format
