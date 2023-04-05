@@ -14152,7 +14152,7 @@ msgstr "показати тільки теги (можна комбінуват�
 
 #: builtin/show-ref.c:158
 msgid "only show heads (can be combined with tags)"
-msgstr "показувати тільки заголовки (можна комбінувати з тегами)"
+msgstr "показати тільки верхівки (можна комбінувати з tags)"
 
 #: builtin/show-ref.c:159
 msgid "stricter reference checking, requires exact ref path"
