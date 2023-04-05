@@ -7741,67 +7741,62 @@ msgid "use at most one of --auto and --schedule=<frequency>"
 msgstr ""
 
 #: builtin/gc.c:1543
-#, fuzzy, c-format
+#, c-format
 msgid "unable to add '%s' value of '%s'"
-msgstr "не вдається перейменувати тимчасовий файл '*.%s' на '%s'"
+msgstr "не вдалося додати значення \"%s\" до \"%s\""
 
 #: builtin/gc.c:1563
 msgid "return success even if repository was not registered"
 msgstr ""
 
 #: builtin/gc.c:1613
-#, fuzzy, c-format
+#, c-format
 msgid "unable to unset '%s' value of '%s'"
-msgstr "не вдається перейменувати тимчасовий файл '*.%s' на '%s'"
+msgstr "не вдалося скинути значення \"%s\" для \"%s\""
 
 #: builtin/gc.c:1616
-#, fuzzy, c-format
+#, c-format
 msgid "repository '%s' is not registered"
-msgstr "сховище '%s' не існує"
+msgstr "сховище \"%s\" не зареєстровано"
 
 #: builtin/gc.c:1740
-#, fuzzy, c-format
+#, c-format
 msgid "failed to expand path '%s'"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося розгорнути шлях \"%s\""
 
 #: builtin/gc.c:1767 builtin/gc.c:1805
-#, fuzzy
 msgid "failed to start launchctl"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося запустити launchctl"
 
 #: builtin/gc.c:1880 builtin/gc.c:2351
-#, fuzzy, c-format
+#, c-format
 msgid "failed to create directories for '%s'"
-msgstr "не вдалося створити директорію '%s'"
+msgstr "не вдалося створити директорії для \"%s\""
 
 #: builtin/gc.c:1907
-#, fuzzy, c-format
+#, c-format
 msgid "failed to bootstrap service %s"
-msgstr "не вдалося перебрати '%s'"
+msgstr "не вдалося розгорнути службу %s"
 
 #: builtin/gc.c:1996
-#, fuzzy
 msgid "failed to create temp xml file"
-msgstr "не вдалося створити посилання '%s'"
+msgstr "не вдалося створити тимчасовий xml файл"
 
 #: builtin/gc.c:2086
-#, fuzzy
 msgid "failed to start schtasks"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося запустити schtasks"
 
 #: builtin/gc.c:2171
 msgid "failed to run 'crontab -l'; your system might not support 'cron'"
 msgstr ""
 
 #: builtin/gc.c:2178
-#, fuzzy
 msgid "failed to create crontab temporary file"
-msgstr "не вдалося створити директорію '%s'"
+msgstr "не вдалося створити тимчасовий crontab файл"
 
 #: builtin/gc.c:2183
-#, fuzzy
 msgid "failed to open temporary file"
-msgstr "не вдалося скопіювати файл у '%s'"
+msgstr "не вдалося відкрити тимчасовий файл"
 
 #: builtin/gc.c:2233
 msgid "failed to run 'crontab'; your system might not support 'cron'"
@@ -7812,24 +7807,22 @@ msgid "'crontab' died"
 msgstr ""
 
 #: builtin/gc.c:2305
-#, fuzzy
 msgid "failed to start systemctl"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося стартувати systemctl"
 
 #: builtin/gc.c:2315
-#, fuzzy
 msgid "failed to run systemctl"
-msgstr "не вдалося розʼєднати '%s'"
+msgstr "не вдалося запустити systemctl"
 
 #: builtin/gc.c:2324 builtin/gc.c:2329 builtin/worktree.c:121 builtin/worktree.c:1085
-#, fuzzy, c-format
+#, c-format
 msgid "failed to delete '%s'"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося видалити \"%s\""
 
 #: builtin/gc.c:2377 builtin/gc.c:2412 rerere.c:482
-#, fuzzy, c-format
+#, c-format
 msgid "failed to flush '%s'"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося очистити \"%s\""
 
 #: builtin/gc.c:2509
 #, c-format
