@@ -13878,9 +13878,9 @@ msgstr ""
 #: builtin/rm.c:228
 msgid "the following file has local modifications:"
 msgid_plural "the following files have local modifications:"
-msgstr[0] "наступний файл має локальні модифікації:"
-msgstr[1] "наступні файли мають локальні модифікації:"
-msgstr[2] "наступних файлів мають локальні модифікації:"
+msgstr[0] "наступний файл має локальні зміни:"
+msgstr[1] "наступні файли мають локальні зміни:"
+msgstr[2] "наступних файлів мають локальні зміни:"
 
 #: builtin/rm.c:246
 msgid "do not list removed files"
