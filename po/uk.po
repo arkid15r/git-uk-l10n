@@ -14155,7 +14155,7 @@ msgstr ""
 
 #: builtin/show-ref.c:157
 msgid "only show tags (can be combined with heads)"
-msgstr "показувати тільки теги (можна комбінувати з заголовками)"
+msgstr "показати тільки теги (можна комбінувати з heads)"
 
 #: builtin/show-ref.c:158
 msgid "only show heads (can be combined with tags)"
