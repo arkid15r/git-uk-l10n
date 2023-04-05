@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-04-02 18:58-0700\n"
+"PO-Revision-Date: 2023-04-04 17:49-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -13757,9 +13757,8 @@ msgid ""
 msgstr ""
 
 #: builtin/revert.c:32
-#, fuzzy
 msgid "git cherry-pick (--continue | --skip | --abort | --quit)"
-msgstr "  (виконайте \"git cherry-pick --continue\", щоб продовжити)"
+msgstr "git cherry-pick (--continue | --skip | --abort | --quit)"
 
 #: builtin/revert.c:73
 #, c-format
@@ -13767,9 +13766,9 @@ msgid "option `%s' expects a number greater than zero"
 msgstr ""
 
 #: builtin/revert.c:93
-#, fuzzy, c-format
+#, c-format
 msgid "%s: %s cannot be used with %s"
-msgstr "'%s' або '%s' не можна використовувати з %s"
+msgstr "%s: %s неможливо використовувати з %s"
 
 #: builtin/revert.c:103
 msgid "end revert or cherry-pick sequence"
@@ -13788,9 +13787,8 @@ msgid "skip current commit and continue"
 msgstr ""
 
 #: builtin/revert.c:108
-#, fuzzy
 msgid "don't automatically commit"
-msgstr "Початковий коміт"
+msgstr "не комітити автоматично"
 
 #: builtin/revert.c:109
 msgid "edit the commit message"
@@ -13809,9 +13807,8 @@ msgid "merge strategy"
 msgstr ""
 
 #: builtin/revert.c:117
-#, fuzzy
 msgid "option for merge strategy"
-msgstr "опція для передачі"
+msgstr "опція для стратегії злиття"
 
 #: builtin/revert.c:126
 msgid "append commit name"
@@ -13834,9 +13831,8 @@ msgid "use the 'reference' format to refer to commits"
 msgstr ""
 
 #: builtin/revert.c:250
-#, fuzzy
 msgid "revert failed"
-msgstr "не вдалося налаштувати проходження по ревізіям"
+msgstr "вивертання не вдалося"
 
 #: builtin/revert.c:269
 msgid "cherry-pick failed"
@@ -13880,21 +13876,19 @@ msgid ""
 msgstr ""
 
 #: builtin/rm.c:228
-#, fuzzy
 msgid "the following file has local modifications:"
 msgid_plural "the following files have local modifications:"
-msgstr[0] "викинути локальні зміни"
-msgstr[1] "викинути локальні зміни"
-msgstr[2] "викинути локальні зміни"
+msgstr[0] "наступний файл має локальні модифікації:"
+msgstr[1] "наступні файли мають локальні модифікації:"
+msgstr[2] "наступних файлів мають локальні модифікації:"
 
 #: builtin/rm.c:246
 msgid "do not list removed files"
 msgstr ""
 
 #: builtin/rm.c:247
-#, fuzzy
 msgid "only remove from the index"
-msgstr "відновити індекс"
+msgstr "видалити тільки з індексу"
 
 #: builtin/rm.c:248
 msgid "override the up-to-date check"
@@ -13922,9 +13916,9 @@ msgid "not removing '%s' recursively without -r"
 msgstr ""
 
 #: builtin/rm.c:389
-#, fuzzy, c-format
+#, c-format
 msgid "git rm: unable to remove %s"
-msgstr "не вдалося прочитати %s"
+msgstr "git rm: не вдалося видалити %s"
 
 #: builtin/send-pack.c:20
 msgid ""
@@ -13936,9 +13930,8 @@ msgid ""
 msgstr ""
 
 #: builtin/send-pack.c:193
-#, fuzzy
 msgid "remote name"
-msgstr "перейменовано:"
+msgstr "віддалене імʼя"
 
 #: builtin/send-pack.c:206
 msgid "use stateless RPC protocol"
@@ -13953,9 +13946,8 @@ msgid "print status from remote helper"
 msgstr ""
 
 #: builtin/shortlog.c:16
-#, fuzzy
 msgid "git shortlog [<options>] [<revision-range>] [[--] <path>...]"
-msgstr "git push [<опції>] [<сховище> [<специфікатор посилання>...]]"
+msgstr "git shortlog [<опції>] [<діапазон-ревізій>] [[--] <шлях>...]"
 
 #: builtin/shortlog.c:17
 msgid "git log --pretty=short | git shortlog [<options>]"
@@ -13971,9 +13963,9 @@ msgid "using %s with stdin is not supported"
 msgstr ""
 
 #: builtin/shortlog.c:342
-#, fuzzy, c-format
+#, c-format
 msgid "unknown group type: %s"
-msgstr "невідомий тип обʼєкта %d"
+msgstr "невідомий тип групи: %s"
 
 #: builtin/shortlog.c:384
 msgid "group by committer rather than author"
@@ -14043,9 +14035,8 @@ msgid "show remote-tracking and local branches"
 msgstr ""
 
 #: builtin/show-branch.c:648
-#, fuzzy
 msgid "show remote-tracking branches"
-msgstr "'%s' відповідає декільком (%d) гілкам віддаленого відстеження"
+msgstr "показати віддалено відстежувані гілки"
 
 #: builtin/show-branch.c:650
 msgid "color '*!+-' corresponding to the branch"
@@ -14065,9 +14056,8 @@ msgid "suppress naming strings"
 msgstr "не звітувати прогрес"
 
 #: builtin/show-branch.c:657
-#, fuzzy
 msgid "include the current branch"
-msgstr "нова гілка без джерела"
+msgstr "включити поточну гілку"
 
 #: builtin/show-branch.c:659
 msgid "name commits with their object names"
@@ -14110,9 +14100,8 @@ msgid "no branches given, and HEAD is not valid"
 msgstr ""
 
 #: builtin/show-branch.c:743
-#, fuzzy
 msgid "--reflog option needs one branch name"
-msgstr "--track потребує назви гілки"
+msgstr "--reflog потребує одну назву гілки"
 
 #: builtin/show-branch.c:746
 #, c-format
@@ -14123,9 +14112,9 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: builtin/show-branch.c:750
-#, fuzzy, c-format
+#, c-format
 msgid "no such ref %s"
-msgstr "немає такої гілки: '%s'"
+msgstr "немає такого посилання %s"
 
 #: builtin/show-branch.c:836
 #, c-format
@@ -14136,9 +14125,9 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: builtin/show-branch.c:840
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a valid ref."
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "\"%s\" не є припустимим посиланням."
 
 #: builtin/show-branch.c:843
 #, c-format
@@ -14146,14 +14135,12 @@ msgid "cannot find commit %s (%s)"
 msgstr ""
 
 #: builtin/show-index.c:21
-#, fuzzy
 msgid "hash-algorithm"
-msgstr "невідомий хеш-алгоритм '%s'"
+msgstr "хеш-алгоритм"
 
 #: builtin/show-index.c:31
-#, fuzzy
 msgid "Unknown hash algorithm"
-msgstr "невідомий хеш-алгоритм '%s'"
+msgstr "Невідомий хеш-алгоритм"
 
 #: builtin/show-ref.c:12
 msgid ""
@@ -14167,14 +14154,12 @@ msgid "git show-ref --exclude-existing[=<pattern>]"
 msgstr ""
 
 #: builtin/show-ref.c:157
-#, fuzzy
 msgid "only show tags (can be combined with heads)"
-msgstr "--all не можна комбінувати зі специфікаторами посилань"
+msgstr "показувати тільки теги (можна комбінувати з заголовками)"
 
 #: builtin/show-ref.c:158
-#, fuzzy
 msgid "only show heads (can be combined with tags)"
-msgstr "--all не можна комбінувати зі специфікаторами посилань"
+msgstr "показувати тільки заголовки (можна комбінувати з тегами)"
 
 #: builtin/show-ref.c:159
 msgid "stricter reference checking, requires exact ref path"
@@ -14185,9 +14170,8 @@ msgid "show the HEAD reference, even if it would be filtered out"
 msgstr ""
 
 #: builtin/show-ref.c:166
-#, fuzzy
 msgid "dereference tags into object IDs"
-msgstr "посилання не є деревом: %s"
+msgstr "розіменування тегів на ідентифікатори обʼєктів"
 
 #: builtin/show-ref.c:168
 msgid "only show SHA1 hash using <n> digits"
@@ -14198,9 +14182,8 @@ msgid "do not print results to stdout (useful with --verify)"
 msgstr ""
 
 #: builtin/show-ref.c:174
-#, fuzzy
 msgid "show refs from stdin that aren't in local repository"
-msgstr "клонувати з локального сховища"
+msgstr "показати посилання з stdin, яких немає в локальному сховищі"
 
 #: builtin/sparse-checkout.c:23
 msgid "git sparse-checkout (init | list | set | add | reapply | disable) [<options>]"
@@ -14220,14 +14203,13 @@ msgid "directory '%s' contains untracked files, but is not in the sparse-checkou
 msgstr ""
 
 #: builtin/sparse-checkout.c:185
-#, fuzzy, c-format
+#, c-format
 msgid "failed to remove directory '%s'"
-msgstr "не вдалося створити директорію '%s'"
+msgstr "не вдалося видалити директорію \"%s\""
 
 #: builtin/sparse-checkout.c:328
-#, fuzzy
 msgid "failed to create directory for sparse-checkout file"
-msgstr "не вдалося створити директорію '%s'"
+msgstr "не вдалося створити директорію для sparse-checkout файлу"
 
 #: builtin/sparse-checkout.c:367
 msgid "failed to initialize worktree config"
