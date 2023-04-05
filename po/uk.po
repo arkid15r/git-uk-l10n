@@ -14171,7 +14171,7 @@ msgstr ""
 
 #: builtin/show-ref.c:166
 msgid "dereference tags into object IDs"
-msgstr "розіменування тегів на ідентифікатори обʼєктів"
+msgstr "розіменувати теги в ідентифікатори обʼєктів"
 
 #: builtin/show-ref.c:168
 msgid "only show SHA1 hash using <n> digits"
