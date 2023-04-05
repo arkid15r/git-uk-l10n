@@ -7817,7 +7817,7 @@ msgstr "не вдалося запустити systemctl"
 #: builtin/gc.c:2324 builtin/gc.c:2329 builtin/worktree.c:121 builtin/worktree.c:1085
 #, c-format
 msgid "failed to delete '%s'"
-msgstr "не вдалося видалити '%s'"
+msgstr "не вдалося видалити \"%s\""
 
 #: builtin/gc.c:2377 builtin/gc.c:2412 rerere.c:482
 #, c-format
