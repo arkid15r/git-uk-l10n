@@ -13299,7 +13299,7 @@ msgstr "mktree не повернув імʼя обʼєкта"
 #: builtin/replace.c:300
 #, c-format
 msgid "unable to fstat %s"
-msgstr "не вдалося fstat %s"
+msgstr "не вдалося виконати fstat %s"
 
 #: builtin/replace.c:305
 msgid "unable to write object to database"
