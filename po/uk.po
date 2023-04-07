@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-04-05 15:33-0700\n"
+"PO-Revision-Date: 2023-04-06 17:24-0700\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -11794,24 +11794,23 @@ msgid "only emit output related to the second range"
 msgstr ""
 
 #: builtin/range-diff.c:74 builtin/range-diff.c:78 builtin/range-diff.c:82
-#, fuzzy, c-format
+#, c-format
 msgid "not a revision: '%s'"
-msgstr "погане сховище '%s'"
+msgstr "не є ревізією: \"%s\""
 
 #: builtin/range-diff.c:98 builtin/range-diff.c:102
-#, fuzzy, c-format
+#, c-format
 msgid "not a commit range: '%s'"
-msgstr "немає такої гілки: '%s'"
+msgstr "не діапазон комітів: \"%s\""
 
 #: builtin/range-diff.c:120
-#, fuzzy, c-format
+#, c-format
 msgid "not a symmetric range: '%s'"
-msgstr "немає такої гілки: '%s'"
+msgstr "не симетричний діапазон: \"%s\""
 
 #: builtin/range-diff.c:143
-#, fuzzy
 msgid "need two commit ranges"
-msgstr "нові коміти, "
+msgstr "потрібно два діапазони комітів"
 
 #: builtin/read-tree.c:41
 msgid ""
@@ -11825,18 +11824,16 @@ msgid "write resulting index to <file>"
 msgstr ""
 
 #: builtin/read-tree.c:122
-#, fuzzy
 msgid "only empty the index"
-msgstr "відновити індекс"
+msgstr "тільки очистити індекс"
 
 #: builtin/read-tree.c:124
 msgid "Merging"
 msgstr ""
 
 #: builtin/read-tree.c:126
-#, fuzzy
 msgid "perform a merge in addition to a read"
-msgstr "здійснити 3-стороннє злиття з новою гілкою"
+msgstr "виконати злиття на додачу до читання"
 
 #: builtin/read-tree.c:128
 msgid "3-way merge if no file level merging required"
@@ -11847,9 +11844,8 @@ msgid "3-way merge in presence of adds and removes"
 msgstr ""
 
 #: builtin/read-tree.c:132
-#, fuzzy
 msgid "same as -m, but discard unmerged entries"
-msgstr "ігнорувати незлиті записи"
+msgstr "те саме, що й -m, але відкидає незлиті записи"
 
 #: builtin/read-tree.c:133
 msgid "<subdirectory>/"
@@ -11872,18 +11868,16 @@ msgid "allow explicitly ignored files to be overwritten"
 msgstr ""
 
 #: builtin/read-tree.c:143
-#, fuzzy
 msgid "don't check the working tree after merging"
-msgstr "не перевіряти, чи інше робоче дерево містить дане посилання"
+msgstr "не перевіряти робоче дерево після злиття"
 
 #: builtin/read-tree.c:144
 msgid "don't update the index or the work tree"
 msgstr ""
 
 #: builtin/read-tree.c:146
-#, fuzzy
 msgid "skip applying sparse checkout filter"
-msgstr "Ви перебуваєте в частковому переході до гілки."
+msgstr "пропустити застосування sparse checkout фільтра"
 
 #: builtin/read-tree.c:148
 msgid "debug unpack-trees"
@@ -11894,9 +11888,8 @@ msgid "suppress feedback messages"
 msgstr ""
 
 #: builtin/read-tree.c:193
-#, fuzzy
 msgid "You need to resolve your current index first"
-msgstr "спочатку потрібно розібратись з вашим поточним індексом"
+msgstr "Спочатку вам потрібно вирішити поточний індекс"
 
 #: builtin/rebase.c:34
 msgid ""
@@ -11909,24 +11902,22 @@ msgid "git rebase [-i] [options] [--exec <cmd>] [--onto <newbase>] --root [<bran
 msgstr ""
 
 #: builtin/rebase.c:197 sequencer.c:2686
-#, fuzzy, c-format
+#, c-format
 msgid "could not read '%s'."
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося прочитати \"%s\"."
 
 #: builtin/rebase.c:243
-#, fuzzy, c-format
+#, c-format
 msgid "could not create temporary %s"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося створити тимчасовий %s"
 
 #: builtin/rebase.c:249
-#, fuzzy
 msgid "could not mark as interactive"
-msgstr "обирати шматки інтерактивно"
+msgstr "не вдалося позначити як інтерактивний"
 
 #: builtin/rebase.c:290
-#, fuzzy
 msgid "could not generate todo list"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося створити список справ"
 
 #: builtin/rebase.c:329
 msgid "a base commit must be provided with --upstream or --onto"
