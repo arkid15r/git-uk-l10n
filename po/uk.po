@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-04-05 15:33-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-04-06 18:11-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -13285,33 +13285,30 @@ msgid "unable to spawn mktree"
 msgstr "не вдалося оновити %s"
 
 #: builtin/replace.c:278
-#, fuzzy
 msgid "unable to read from mktree"
-msgstr "не вдалося прочитати %s"
+msgstr "не вдалося прочитати з mktree"
 
 #: builtin/replace.c:287
 msgid "mktree reported failure"
 msgstr ""
 
 #: builtin/replace.c:291
-#, fuzzy
 msgid "mktree did not return an object name"
-msgstr "віддалене сховище не надіслало всі необхідні обʼєкти"
+msgstr "mktree не повернув імʼя обʼєкта"
 
 #: builtin/replace.c:300
-#, fuzzy, c-format
+#, c-format
 msgid "unable to fstat %s"
-msgstr "не вдалося оновити %s"
+msgstr "не вдалося fstat %s"
 
 #: builtin/replace.c:305
-#, fuzzy
 msgid "unable to write object to database"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "не вдалося записати обʼєкт до бази даних"
 
 #: builtin/replace.c:328
-#, fuzzy, c-format
+#, c-format
 msgid "unable to get object type for %s"
-msgstr "не вдалося створити потік: %s"
+msgstr "не вдалося отримати тип обʼєкта для %s"
 
 #: builtin/replace.c:344
 msgid "editing object file failed"
@@ -13323,14 +13320,14 @@ msgid "new object is the same as the old one: '%s'"
 msgstr ""
 
 #: builtin/replace.c:386
-#, fuzzy, c-format
+#, c-format
 msgid "could not parse %s as a commit"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося розібрати %s як коміт"
 
 #: builtin/replace.c:418
-#, fuzzy, c-format
+#, c-format
 msgid "bad mergetag in commit '%s'"
-msgstr "погане сховище '%s'"
+msgstr "неправильний mergetag в коміті \"%s\""
 
 #: builtin/replace.c:420
 #, c-format
@@ -13354,9 +13351,9 @@ msgid "the signature will be removed in the replacement commit!"
 msgstr ""
 
 #: builtin/replace.c:482
-#, fuzzy, c-format
+#, c-format
 msgid "could not write replacement commit for: '%s'"
-msgstr "не вдалося створити провідні директорії для '%s'"
+msgstr "не вдалося записати коміт заміни для: \"%s\""
 
 #: builtin/replace.c:490
 #, c-format
@@ -13380,14 +13377,12 @@ msgid "list replace refs"
 msgstr ""
 
 #: builtin/replace.c:551
-#, fuzzy
 msgid "delete replace refs"
-msgstr "видалити посилання"
+msgstr "видалити змінні посилання"
 
 #: builtin/replace.c:552
-#, fuzzy
 msgid "edit existing object"
-msgstr "Індексація об’єктів"
+msgstr "редагувати існуючий обʼєкт"
 
 #: builtin/replace.c:553
 msgid "change a commit's parents"
@@ -13406,9 +13401,8 @@ msgid "do not pretty-print contents for --edit"
 msgstr ""
 
 #: builtin/replace.c:558
-#, fuzzy
 msgid "use this format"
-msgstr "використовуйте тонке пакування"
+msgstr "використовувати цей формат"
 
 #: builtin/replace.c:571
 #, fuzzy
@@ -13460,9 +13454,9 @@ msgid "'git rerere forget' without paths is deprecated"
 msgstr ""
 
 #: builtin/rerere.c:111
-#, fuzzy, c-format
+#, c-format
 msgid "unable to generate diff for '%s'"
-msgstr "не вдалося перебрати '%s'"
+msgstr "не вдалося згенерувати diff для \"%s\""
 
 #: builtin/reset.c:33
 msgid "git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]"
@@ -13602,9 +13596,9 @@ msgid "Could not write new index file."
 msgstr "Не вдалося записати новий індексний файл."
 
 #: builtin/rev-list.c:95
-#, fuzzy, c-format
+#, c-format
 msgid "unable to get disk usage of %s"
-msgstr "не вдалося оновити %s"
+msgstr "не вдається отримати дані про використання диска %s"
 
 #: builtin/rev-list.c:648
 #, c-format
@@ -13616,14 +13610,13 @@ msgid "rev-list does not support display of notes"
 msgstr ""
 
 #: builtin/rev-list.c:693
-#, fuzzy, c-format
+#, c-format
 msgid "marked counting and '%s' cannot be used together"
-msgstr "опції '%s' і '%s' не можна використовувати разом"
+msgstr "позначений підрахунок та \"%s\" не можна використовувати разом"
 
 #: builtin/rev-parse.c:411
-#, fuzzy
 msgid "git rev-parse --parseopt [<options>] -- [<args>...]"
-msgstr "git reset --patch [<деревоподібне джерело>] [--] [<специфікатор шляху>...]"
+msgstr "git rev-parse --parseopt [<опції>] -- [<аргументи>...]"
 
 #: builtin/rev-parse.c:416
 msgid "keep the `--` passed as an arg"
@@ -13638,9 +13631,8 @@ msgid "output in stuck long form"
 msgstr ""
 
 #: builtin/rev-parse.c:440
-#, fuzzy
 msgid "premature end of input"
-msgstr "помилка зчитування на вході"
+msgstr "передчасне закінчення вхідних даних"
 
 #: builtin/rev-parse.c:444
 msgid "no usage string given before the `--' separator"
@@ -13677,9 +13669,8 @@ msgid "--git-path requires an argument"
 msgstr ""
 
 #: builtin/rev-parse.c:758
-#, fuzzy
 msgid "-n requires an argument"
-msgstr "--stdin вимагає наявності git сховища"
+msgstr "-n потребує аргумент"
 
 #: builtin/rev-parse.c:772
 msgid "--path-format requires an argument"
@@ -13704,9 +13695,8 @@ msgid "unknown mode for --abbrev-ref: %s"
 msgstr ""
 
 #: builtin/rev-parse.c:881 revision.c:2719 revision.c:2753
-#, fuzzy
 msgid "--exclude-hidden cannot be used together with --branches"
-msgstr "шляхи не можуть використовуватись при переключенні гілок"
+msgstr "--exclude-hidden неможливо використовувати разом з --branches"
 
 #: builtin/rev-parse.c:887 revision.c:2730 revision.c:2760
 msgid "--exclude-hidden cannot be used together with --tags"
