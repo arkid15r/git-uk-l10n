@@ -13402,7 +13402,7 @@ msgstr ""
 
 #: builtin/replace.c:558
 msgid "use this format"
-msgstr "використовувати цей формат"
+msgstr "використати цей формат"
 
 #: builtin/replace.c:571
 #, fuzzy
