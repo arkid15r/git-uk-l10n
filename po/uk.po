@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-04-04 17:49-0700\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-04-05 15:33-0700\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -7863,19 +7863,18 @@ msgid "git maintenance <subcommand> [<options>]"
 msgstr ""
 
 #: builtin/grep.c:31
-#, fuzzy
 msgid "git grep [<options>] [-e] <pattern> [<rev>...] [[--] <path>...]"
-msgstr "git push [<опції>] [<сховище> [<специфікатор посилання>...]]"
+msgstr "git grep [<опції>] [-e] <шаблон> [<ревізія>...] [[--] <шлях>...]"
 
 #: builtin/grep.c:240
-#, fuzzy, c-format
+#, c-format
 msgid "grep: failed to create thread: %s"
-msgstr "не вдалося створити потік: %s"
+msgstr "grep: не вдалося створити потік: %s"
 
 #: builtin/grep.c:294
-#, fuzzy, c-format
+#, c-format
 msgid "invalid number of threads specified (%d) for %s"
-msgstr "вказано неприпустиму кількість потоків (%d)"
+msgstr "невірно вказано кількість потоків (%d) для %s"
 
 #. TRANSLATORS: %s is the configuration
 #. variable for tweaking threads, currently
@@ -7888,14 +7887,14 @@ msgid "no threads support, ignoring %s"
 msgstr "немає підтримки потоків, ігноруються %s"
 
 #: builtin/grep.c:516 builtin/grep.c:655 builtin/grep.c:695
-#, fuzzy, c-format
+#, c-format
 msgid "unable to read tree (%s)"
-msgstr "не вдалося прочитати %s"
+msgstr "не вдалося прочитати дерево (%s)"
 
 #: builtin/grep.c:710
-#, fuzzy, c-format
+#, c-format
 msgid "unable to grep from object of type %s"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося виконати grep з об’єкта типу %s"
 
 #: builtin/grep.c:790
 #, c-format
@@ -7903,27 +7902,24 @@ msgid "switch `%c' expects a numerical value"
 msgstr ""
 
 #: builtin/grep.c:888
-#, fuzzy
 msgid "search in index instead of in the work tree"
-msgstr "використовуйте <імʼя> замість 'origin' для відстеження першоджерельного сховища"
+msgstr "шукати в індексі замість робочого дерева"
 
 #: builtin/grep.c:890
 msgid "find in contents not managed by git"
 msgstr ""
 
 #: builtin/grep.c:892
-#, fuzzy
 msgid "search in both tracked and untracked files"
-msgstr " (використовуйте опцію -u для відображення невідстежуваних файлів)"
+msgstr "шукати як у відстежуваних, так і в невідстежуваних файлах"
 
 #: builtin/grep.c:894
 msgid "ignore files specified via '.gitignore'"
 msgstr ""
 
 #: builtin/grep.c:896
-#, fuzzy
 msgid "recursively search in each submodule"
-msgstr "контролювати рекурсивне надсилання підмодулів"
+msgstr "шукати рекурсивно в кожному підмодулі"
 
 #: builtin/grep.c:899
 msgid "show non-matching lines"
@@ -8098,14 +8094,13 @@ msgid "no pattern given"
 msgstr ""
 
 #: builtin/grep.c:1107
-#, fuzzy
 msgid "--no-index or --untracked cannot be used with revs"
-msgstr "'%s' або '%s' не можна використовувати з %s"
+msgstr "--no-index або --untracked не можна використовувати з ревізіями"
 
 #: builtin/grep.c:1115
-#, fuzzy, c-format
+#, c-format
 msgid "unable to resolve revision: %s"
-msgstr "не вдалося створити потік: %s"
+msgstr "не вдалося вирішити ревізію: %s"
 
 #: builtin/grep.c:1145
 msgid "--untracked not supported with --recurse-submodules"
@@ -8116,9 +8111,8 @@ msgid "invalid option combination, ignoring --threads"
 msgstr ""
 
 #: builtin/grep.c:1159 builtin/pack-objects.c:4358
-#, fuzzy
 msgid "no threads support, ignoring --threads"
-msgstr "немає підтримки потоків, ігноруються %s"
+msgstr "немає підтримки потоків, ігнорування --threads"
 
 #: builtin/grep.c:1162 builtin/index-pack.c:1584 builtin/pack-objects.c:3173
 #, c-format
@@ -8148,9 +8142,8 @@ msgid "git hash-object [-t <type>] [-w] --stdin-paths [--no-filters]"
 msgstr ""
 
 #: builtin/hash-object.c:99
-#, fuzzy
 msgid "object type"
-msgstr "невідомий тип обʼєкта %d"
+msgstr "тип обʼєкта"
 
 #: builtin/hash-object.c:100
 msgid "write the object into the object database"
@@ -8230,14 +8223,12 @@ msgid "unrecognized help format '%s'"
 msgstr ""
 
 #: builtin/help.c:237
-#, fuzzy
 msgid "Failed to start emacsclient."
-msgstr "не вдалося виконати stat '%s'"
+msgstr "Не вдалося запустити emacs клієнт."
 
 #: builtin/help.c:250
-#, fuzzy
 msgid "Failed to parse emacsclient version."
-msgstr "Не вдалося розпізнати '%s' як припустиму ревізію."
+msgstr "Не вдалося розібрати версію emacs клієнта."
 
 #: builtin/help.c:258
 #, c-format
@@ -8245,9 +8236,9 @@ msgid "emacsclient version '%d' too old (< 22)."
 msgstr ""
 
 #: builtin/help.c:276 builtin/help.c:298 builtin/help.c:308 builtin/help.c:316
-#, fuzzy, c-format
+#, c-format
 msgid "failed to exec '%s'"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося виконати \"%s\""
 
 #: builtin/help.c:354
 #, c-format
@@ -8277,9 +8268,9 @@ msgid "no info viewer handled the request"
 msgstr ""
 
 #: builtin/help.c:567 builtin/help.c:578 git.c:333
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is aliased to '%s'"
-msgstr "'%s' не може використовуватись з '%s'"
+msgstr "\"%s\" є псевдонімом для \"%s\""
 
 #: builtin/help.c:581 git.c:365
 #, c-format
