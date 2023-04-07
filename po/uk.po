@@ -7894,7 +7894,7 @@ msgstr "не вдалося прочитати дерево (%s)"
 #: builtin/grep.c:710
 #, c-format
 msgid "unable to grep from object of type %s"
-msgstr "не вдається виконати grep з об’єкта типу %s"
+msgstr "не вдалося виконати grep з об’єкта типу %s"
 
 #: builtin/grep.c:790
 #, c-format
