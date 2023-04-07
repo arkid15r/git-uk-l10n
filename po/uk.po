@@ -13696,7 +13696,7 @@ msgstr ""
 
 #: builtin/rev-parse.c:881 revision.c:2719 revision.c:2753
 msgid "--exclude-hidden cannot be used together with --branches"
-msgstr "--exclude-hidden неможливо використовувати разом з --branches"
+msgstr "--exclude-hidden неможливо використати разом з --branches"
 
 #: builtin/rev-parse.c:887 revision.c:2730 revision.c:2760
 msgid "--exclude-hidden cannot be used together with --tags"
