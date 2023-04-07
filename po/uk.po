@@ -8143,7 +8143,7 @@ msgstr ""
 
 #: builtin/hash-object.c:99
 msgid "object type"
-msgstr "тип об'єкта"
+msgstr "тип обʼєкта"
 
 #: builtin/hash-object.c:100
 msgid "write the object into the object database"
