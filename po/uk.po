@@ -8586,29 +8586,29 @@ msgid "fsck error in pack objects"
 msgstr "Помилка fsck в об’єктах пакунка"
 
 #: builtin/init-db.c:63
-#, fuzzy, c-format
+#, c-format
 msgid "cannot stat template '%s'"
-msgstr "неможливо зробити fstat файла пакунка"
+msgstr "неможливо виконати stat шаблона \"%s\""
 
 #: builtin/init-db.c:68
-#, fuzzy, c-format
+#, c-format
 msgid "cannot opendir '%s'"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "неможливо виконати opendir \"%s\""
 
 #: builtin/init-db.c:80
-#, fuzzy, c-format
+#, c-format
 msgid "cannot readlink '%s'"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "неможливо виконати readlink \"%s\""
 
 #: builtin/init-db.c:82
-#, fuzzy, c-format
+#, c-format
 msgid "cannot symlink '%s' '%s'"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "неможливо виконати symlink \"%s\" \"%s\""
 
 #: builtin/init-db.c:88
-#, fuzzy, c-format
+#, c-format
 msgid "cannot copy '%s' to '%s'"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "неможливо скопіювати \"%s\" до \"%s\""
 
 #: builtin/init-db.c:92
 #, c-format
@@ -8616,38 +8616,38 @@ msgid "ignoring template %s"
 msgstr ""
 
 #: builtin/init-db.c:123
-#, fuzzy, c-format
+#, c-format
 msgid "templates not found in %s"
-msgstr "Віддалену гілку %s не знайдено у першоджерельному сховищі %s"
+msgstr "шаблонів не знайдено в %s"
 
 #: builtin/init-db.c:138
-#, fuzzy, c-format
+#, c-format
 msgid "not copying templates from '%s': %s"
-msgstr "Неможливо виконати reflog для '%s': %s\n"
+msgstr "не копіюються шаблони з \"%s\": %s"
 
 #: builtin/init-db.c:263
-#, fuzzy, c-format
+#, c-format
 msgid "invalid initial branch name: '%s'"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неприпустиме початкове ім’я гілки: \"%s\""
 
 #: builtin/init-db.c:354
-#, fuzzy, c-format
+#, c-format
 msgid "unable to handle file type %d"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося обробити тип файлу %d"
 
 #: builtin/init-db.c:357
-#, fuzzy, c-format
+#, c-format
 msgid "unable to move %s to %s"
-msgstr "не вдалося прочитати %s"
+msgstr "не вдалося перемістити %s на %s"
 
 #: builtin/init-db.c:373
 msgid "attempt to reinitialize repository with different hash"
 msgstr ""
 
 #: builtin/init-db.c:397 builtin/init-db.c:400
-#, fuzzy, c-format
+#, c-format
 msgid "%s already exists"
-msgstr "робоче дерево '%s' вже існує."
+msgstr "%s вже існує"
 
 #: builtin/init-db.c:432
 #, c-format
@@ -8683,9 +8683,8 @@ msgid ""
 msgstr ""
 
 #: builtin/init-db.c:547
-#, fuzzy
 msgid "permissions"
-msgstr "ревізія"
+msgstr "права доступу"
 
 #: builtin/init-db.c:548
 msgid "specify that the git repository is to be shared amongst several users"
@@ -8721,14 +8720,13 @@ msgid ""
 msgstr ""
 
 #: builtin/init-db.c:682
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot access work tree '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "Не вдається отримати доступ до робочого дерева \"%s\""
 
 #: builtin/init-db.c:687
-#, fuzzy
 msgid "--separate-git-dir incompatible with bare repository"
-msgstr "%s скидання не дозволяється у порожньому сховищі"
+msgstr "--separate-git-dir несумісна з порожнім сховищем"
 
 #: builtin/interpret-trailers.c:16
 msgid ""
@@ -8750,9 +8748,8 @@ msgid "where to place the new trailer"
 msgstr ""
 
 #: builtin/interpret-trailers.c:103
-#, fuzzy
 msgid "action if trailer already exists"
-msgstr "робоче дерево '%s' вже існує."
+msgstr "що робити, якщо trailer вже існує"
 
 #: builtin/interpret-trailers.c:105
 msgid "action if trailer is missing"
