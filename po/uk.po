@@ -8608,7 +8608,7 @@ msgstr "неможливо виконати symlink \"%s\" \"%s\""
 #: builtin/init-db.c:88
 #, c-format
 msgid "cannot copy '%s' to '%s'"
-msgstr "неможливо виконати copy \"%s\" \"%s\""
+msgstr "неможливо скопіювати \"%s\" до \"%s\""
 
 #: builtin/init-db.c:92
 #, c-format
