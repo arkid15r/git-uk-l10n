@@ -8726,7 +8726,7 @@ msgstr "Не вдається отримати доступ до робочог�
 
 #: builtin/init-db.c:687
 msgid "--separate-git-dir incompatible with bare repository"
-msgstr "-separate-git-dir несумісна з порожнім сховищем"
+msgstr "--separate-git-dir несумісна з порожнім сховищем"
 
 #: builtin/interpret-trailers.c:16
 msgid ""
