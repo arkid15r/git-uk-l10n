@@ -8588,7 +8588,7 @@ msgstr "Помилка fsck в об’єктах пакунка"
 #: builtin/init-db.c:63
 #, c-format
 msgid "cannot stat template '%s'"
-msgstr "неможливо виконати fstat шаблона \"%s\""
+msgstr "неможливо виконати stat шаблона \"%s\""
 
 #: builtin/init-db.c:68
 #, c-format
