@@ -13039,7 +13039,7 @@ msgstr ""
 #: builtin/repack.c:307
 #, c-format
 msgid "cannot open index for %s"
-msgstr "не вдалося відкрити індекс для %s"
+msgstr "неможливо відкрити індекс для %s"
 
 #: builtin/repack.c:390
 #, c-format
