@@ -13264,7 +13264,7 @@ msgstr "не вдалося відкрити %s для читання"
 
 #: builtin/replace.c:274
 msgid "unable to spawn mktree"
-msgstr "нeможливо розмножити mktree"
+msgstr "не вдалося породити mktree"
 
 #: builtin/replace.c:278
 msgid "unable to read from mktree"
