@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-04-07 16:49-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-04-07 17:31-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -12906,19 +12906,19 @@ msgid "Multiple remote HEAD branches. Please choose one explicitly with:"
 msgstr ""
 
 #: builtin/remote.c:1407
-#, fuzzy, c-format
+#, c-format
 msgid "Could not delete %s"
-msgstr "не вдалося вирішити %s"
+msgstr "Не вдалося видалити %s"
 
 #: builtin/remote.c:1415
-#, fuzzy, c-format
+#, c-format
 msgid "Not a valid ref: %s"
-msgstr "неприпустиме посилання: %s"
+msgstr "Не є припустимим посиланням: %s"
 
 #: builtin/remote.c:1417
-#, fuzzy, c-format
+#, c-format
 msgid "Could not setup %s"
-msgstr "не вдалося вирішити %s"
+msgstr "Не вдалося налаштувати %s"
 
 #: builtin/remote.c:1435
 #, c-format
@@ -12931,9 +12931,9 @@ msgid " %s has become dangling!"
 msgstr ""
 
 #: builtin/remote.c:1445
-#, fuzzy, c-format
+#, c-format
 msgid "Pruning %s"
-msgstr "Надсилання до %s\n"
+msgstr "Видалення %s"
 
 #: builtin/remote.c:1446
 #, c-format
@@ -12955,14 +12955,13 @@ msgid "prune remotes after fetching"
 msgstr ""
 
 #: builtin/remote.c:1573 builtin/remote.c:1630 builtin/remote.c:1701
-#, fuzzy, c-format
+#, c-format
 msgid "No such remote '%s'"
-msgstr "немає такої гілки: '%s'"
+msgstr "Немає такого віддаленого призначення \"%s\""
 
 #: builtin/remote.c:1591
-#, fuzzy
 msgid "add branch"
-msgstr "гілка"
+msgstr "додати гілку"
 
 #: builtin/remote.c:1598
 msgid "no remote specified"
@@ -12977,9 +12976,9 @@ msgid "return all URLs"
 msgstr ""
 
 #: builtin/remote.c:1648
-#, fuzzy, c-format
+#, c-format
 msgid "no URLs configured for remote '%s'"
-msgstr "першоджерельне сховище не налаштовано для гілки '%s'"
+msgstr "не налаштовано URL-адреси для віддаленого \"%s\""
 
 #: builtin/remote.c:1674
 msgid "manipulate push URLs"
@@ -12990,14 +12989,12 @@ msgid "add URL"
 msgstr ""
 
 #: builtin/remote.c:1678
-#, fuzzy
 msgid "delete URLs"
-msgstr "видалити посилання"
+msgstr "видалити URL-адреси"
 
 #: builtin/remote.c:1686
-#, fuzzy
 msgid "--add --delete doesn't make sense"
-msgstr "--delete не має сенсу без рефів"
+msgstr "--add --delete не має сенсу"
 
 #: builtin/remote.c:1727
 #, c-format
@@ -13018,9 +13015,8 @@ msgid "be verbose; must be placed before a subcommand"
 msgstr ""
 
 #: builtin/repack.c:37
-#, fuzzy
 msgid "git repack [<options>]"
-msgstr "git checkout [<опції>] <гілка>"
+msgstr "git repack [<опції>]"
 
 #: builtin/repack.c:42
 msgid ""
@@ -13041,9 +13037,9 @@ msgid "could not finish pack-objects to repack promisor objects"
 msgstr ""
 
 #: builtin/repack.c:307
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open index for %s"
-msgstr "Неможливо відкрити існуючий індексний файл пакунка для '%s"
+msgstr "неможливо відкрити індекс для %s"
 
 #: builtin/repack.c:390
 #, c-format
@@ -13065,9 +13061,9 @@ msgid "could not close refs snapshot tempfile"
 msgstr ""
 
 #: builtin/repack.c:651
-#, fuzzy, c-format
+#, c-format
 msgid "could not remove stale bitmap: %s"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося видалити застарілий bitmap: %s"
 
 #: builtin/repack.c:765
 msgid "pack everything in a single pack"
@@ -13110,9 +13106,8 @@ msgid "pass --local to git-pack-objects"
 msgstr ""
 
 #: builtin/repack.c:786
-#, fuzzy
 msgid "write bitmap index"
-msgstr "відновити індекс"
+msgstr "записати bitmap індекс"
 
 #: builtin/repack.c:788
 msgid "pass --delta-islands to git-pack-objects"
@@ -13179,9 +13174,9 @@ msgid "Nothing new to pack."
 msgstr ""
 
 #: builtin/repack.c:988
-#, fuzzy, c-format
+#, c-format
 msgid "pack prefix %s does not begin with objdir %s"
-msgstr "ім’я файла пакунка '%s' не закінчується на '.%s'"
+msgstr "префікс пакунку %s не починається з objdir %s"
 
 #: builtin/repack.c:1072
 #, c-format
@@ -13194,9 +13189,9 @@ msgid "pack-objects did not write a '%s' file for pack %s-%s"
 msgstr ""
 
 #: builtin/repack.c:1077 sequencer.c:4156
-#, fuzzy, c-format
+#, c-format
 msgid "could not unlink: %s"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося відʼєднати %s"
 
 #: builtin/replace.c:22
 msgid "git replace [-f] <object> <replacement>"
@@ -13236,14 +13231,14 @@ msgid "Deleted replace ref '%s'"
 msgstr ""
 
 #: builtin/replace.c:156
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a valid ref name"
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "\"%s\" не є припустимим імʼям посилання"
 
 #: builtin/replace.c:161
-#, fuzzy, c-format
+#, c-format
 msgid "replace ref '%s' already exists"
-msgstr "робоче дерево '%s' вже існує."
+msgstr "змінний ref \"%s\" вже існує"
 
 #: builtin/replace.c:181
 #, c-format
@@ -13254,23 +13249,22 @@ msgid ""
 msgstr ""
 
 #: builtin/replace.c:232
-#, fuzzy, c-format
+#, c-format
 msgid "unable to open %s for writing"
-msgstr "не вдалося оновити %s"
+msgstr "не вдалося відкрити %s для запису"
 
 #: builtin/replace.c:245
 msgid "cat-file reported failure"
 msgstr ""
 
 #: builtin/replace.c:261
-#, fuzzy, c-format
+#, c-format
 msgid "unable to open %s for reading"
-msgstr "не вдалося оновити %s"
+msgstr "не вдалося відкрити %s для читання"
 
 #: builtin/replace.c:274
-#, fuzzy
 msgid "unable to spawn mktree"
-msgstr "не вдалося оновити %s"
+msgstr "не вдалося породити mktree"
 
 #: builtin/replace.c:278
 msgid "unable to read from mktree"
