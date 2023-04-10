@@ -8845,7 +8845,7 @@ msgstr ""
 
 #: builtin/log.c:489
 msgid "unable to create temporary object directory"
-msgstr "не вдається створити тимчасову директорію об’єктів"
+msgstr "не вдалося створити тимчасову директорію об’єкта"
 
 #: builtin/log.c:667
 #, c-format
