@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-04-07 17:31-0700\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-04-09 12:15-0700\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -2175,7 +2175,7 @@ msgstr "індексний файл пошкоджено"
 #: builtin/am.c:186 builtin/mailinfo.c:46 mailinfo.c:1254
 #, c-format
 msgid "bad action '%s' for '%s'"
-msgstr "погана дія \"%s\" для \"%s\""
+msgstr "невірна дія \"%s\" для \"%s\""
 
 #: builtin/am.c:204 builtin/am.c:2257 builtin/am.c:2301 builtin/blame.c:732
 #: builtin/blame.c:750 builtin/fetch.c:796 builtin/pack-objects.c:3755 builtin/pull.c:45
@@ -3248,7 +3248,7 @@ msgstr "не вдалося розібрати рядок форматуванн
 
 #: builtin/branch.c:480
 msgid "could not resolve HEAD"
-msgstr "не вдалося вирішити HEAD"
+msgstr "не вдалося розвʼязати HEAD"
 
 #: builtin/branch.c:486
 #, c-format
@@ -4480,7 +4480,7 @@ msgstr "відсутня назва гілки; спробуйте -%c"
 #: builtin/checkout.c:1750
 #, c-format
 msgid "could not resolve %s"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося розвʼязати %s"
 
 #: builtin/checkout.c:1766
 msgid "invalid path specification"
@@ -8100,7 +8100,7 @@ msgstr "--no-index або --untracked не можна використовува
 #: builtin/grep.c:1115
 #, c-format
 msgid "unable to resolve revision: %s"
-msgstr "не вдалося вирішити ревізію: %s"
+msgstr "не вдалося розвʼязати ревізію: %s"
 
 #: builtin/grep.c:1145
 msgid "--untracked not supported with --recurse-submodules"
@@ -8359,7 +8359,7 @@ msgstr "версія пакунка %<PRIu32> не підтримується"
 #: builtin/index-pack.c:380
 #, c-format
 msgid "pack has bad object at offset %<PRIuMAX>: %s"
-msgstr "пакунок має поганий обʼєкт зі зміщенням %<PRIuMAX>: %s"
+msgstr "пакунок має невірний обʼєкт зі зміщенням %<PRIuMAX>: %s"
 
 #: builtin/index-pack.c:485
 #, c-format
@@ -8530,7 +8530,7 @@ msgstr "помилка під час закриття файлу пакунка"
 #: builtin/index-pack.c:1578 builtin/pack-objects.c:3184
 #, c-format
 msgid "bad pack.indexVersion=%<PRIu32>"
-msgstr "поганий pack.indexVersion=%<PRIu32>"
+msgstr "невірний pack.indexVersion=%<PRIu32>"
 
 #: builtin/index-pack.c:1648
 #, c-format
@@ -8566,7 +8566,7 @@ msgstr "Неможливо повернутися до поточної робо
 #: builtin/index-pack.c:1829
 #, c-format
 msgid "bad %s"
-msgstr "поганий %s"
+msgstr "невірний %s"
 
 #: builtin/index-pack.c:1835 builtin/init-db.c:379 builtin/init-db.c:617
 #, c-format
@@ -8788,19 +8788,17 @@ msgid "no input file given for in-place editing"
 msgstr ""
 
 #: builtin/log.c:61
-#, fuzzy
 msgid "git log [<options>] [<revision-range>] [[--] <path>...]"
-msgstr "git push [<опції>] [<сховище> [<специфікатор посилання>...]]"
+msgstr "git log [<опції>] [<діапазон-ревізій>] [[--] <шлях>...]"
 
 #: builtin/log.c:62
-#, fuzzy
 msgid "git show [<options>] <object>..."
-msgstr "git checkout [<опції>] <гілка>"
+msgstr "git show [<опції>] <обʼєкт>..."
 
 #: builtin/log.c:129
-#, fuzzy, c-format
+#, c-format
 msgid "invalid --decorate option: %s"
-msgstr "неприпустиме посилання: %s"
+msgstr "неприпустима --decorate опція: %s"
 
 #: builtin/log.c:238 diff.c:5421
 msgid "suppress diff output"
@@ -8837,9 +8835,8 @@ msgid "unrecognized argument: %s"
 msgstr ""
 
 #: builtin/log.c:276
-#, fuzzy
 msgid "-L<range>:<file> cannot be used with pathspec"
-msgstr "'%s' не можна використовувати зі шляхами оновлення"
+msgstr "-L<діапазон>:<файл> не можна використовувати зі специфікатором шляху"
 
 #: builtin/log.c:382
 #, c-format
@@ -8847,9 +8844,8 @@ msgid "Final output: %d %s\n"
 msgstr ""
 
 #: builtin/log.c:489
-#, fuzzy
 msgid "unable to create temporary object directory"
-msgstr "не вдається перейменувати тимчасовий файл '*.%s' на '%s'"
+msgstr "не вдалося створити тимчасову директорію об’єкта"
 
 #: builtin/log.c:667
 #, c-format
@@ -8857,14 +8853,14 @@ msgid "git show %s: bad file"
 msgstr ""
 
 #: builtin/log.c:682 builtin/log.c:779
-#, fuzzy, c-format
+#, c-format
 msgid "could not read object %s"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося прочитати об’єкт %s"
 
 #: builtin/log.c:817
-#, fuzzy, c-format
+#, c-format
 msgid "unknown type: %d"
-msgstr "невідомий тип обʼєкта %d"
+msgstr "невідомий тип: %d"
 
 #: builtin/log.c:969
 #, c-format
@@ -8876,9 +8872,9 @@ msgid "format.headers without value"
 msgstr ""
 
 #: builtin/log.c:1113
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open patch file %s"
-msgstr "неможливо прочитати файл пакунка"
+msgstr "не вдається відкрити файл латки %s"
 
 #: builtin/log.c:1130
 msgid "need exactly one range"
@@ -8893,9 +8889,8 @@ msgid "cover letter needs email format"
 msgstr ""
 
 #: builtin/log.c:1310
-#, fuzzy
 msgid "failed to create cover-letter file"
-msgstr "не вдалося створити директорію '%s'"
+msgstr "не вдалося створити файл супровідного листа"
 
 #: builtin/log.c:1398
 #, c-format
@@ -8903,28 +8898,26 @@ msgid "insane in-reply-to: %s"
 msgstr ""
 
 #: builtin/log.c:1425
-#, fuzzy
 msgid "git format-patch [<options>] [<since> | <revision-range>]"
-msgstr "git switch [<опції>] [<гілка>]"
+msgstr "git format-patch [<опції>] [<відколи> | <діапазон-ревізій>]"
 
 #: builtin/log.c:1483
 msgid "two output directories?"
 msgstr ""
 
 #: builtin/log.c:1634 builtin/log.c:2475 builtin/log.c:2477 builtin/log.c:2489
-#, fuzzy, c-format
+#, c-format
 msgid "unknown commit %s"
-msgstr "нові коміти, "
+msgstr "невідомий коміт %s"
 
 #: builtin/log.c:1645 builtin/replace.c:58 builtin/replace.c:210 builtin/replace.c:213
-#, fuzzy, c-format
+#, c-format
 msgid "failed to resolve '%s' as a valid ref"
-msgstr "Не вдалося розпізнати '%s' як припустиме дерево."
+msgstr "не вдалося розпізнати \"%s\" як припустиме посилання"
 
 #: builtin/log.c:1654
-#, fuzzy
 msgid "could not find exact merge base"
-msgstr "не вдалося знайти віддалене посилання %s"
+msgstr "не вдалося знайти точну базу для злиття"
 
 #: builtin/log.c:1664
 msgid ""
@@ -8934,9 +8927,8 @@ msgid ""
 msgstr ""
 
 #: builtin/log.c:1687
-#, fuzzy
 msgid "failed to find exact merge base"
-msgstr "Не вдалося знайти дерево %s."
+msgstr "не вдалося знайти точну базу для злиття"
 
 #: builtin/log.c:1704
 msgid "base commit should be the ancestor of revision list"
@@ -8947,9 +8939,8 @@ msgid "base commit shouldn't be in revision list"
 msgstr ""
 
 #: builtin/log.c:1772
-#, fuzzy
 msgid "cannot get patch id"
-msgstr "неможливо прочитати файл пакунка"
+msgstr "неможливо отримати ідентифікатор латки"
 
 #: builtin/log.c:1835
 msgid "failed to infer range-diff origin of current series"
@@ -9049,9 +9040,8 @@ msgid "Messaging"
 msgstr ""
 
 #: builtin/log.c:1928
-#, fuzzy
 msgid "header"
-msgstr "попереду "
+msgstr "заголовок"
 
 #: builtin/log.c:1929
 msgid "add email header"
@@ -9146,9 +9136,9 @@ msgid "show in-body From: even if identical to the e-mail header"
 msgstr ""
 
 #: builtin/log.c:2056
-#, fuzzy, c-format
+#, c-format
 msgid "invalid ident line: %s"
-msgstr "неприпустиме посилання: %s"
+msgstr "неприпустимий рядок ідентифікатора: %s"
 
 #: builtin/log.c:2081
 msgid "--name-only does not make sense"
@@ -9168,9 +9158,9 @@ msgstr ""
 
 #: builtin/log.c:2142 builtin/submodule--helper.c:1677 builtin/submodule--helper.c:1727
 #: rerere.c:866 submodule.c:2296
-#, fuzzy, c-format
+#, c-format
 msgid "could not create directory '%s'"
-msgstr "не вдалося створити директорію '%s'"
+msgstr "не вдалося створити директорію \"%s\""
 
 #: builtin/log.c:2229
 msgid "--interdiff requires --cover-letter or single patch"
@@ -9199,19 +9189,17 @@ msgid "Range-diff against v%d:"
 msgstr ""
 
 #: builtin/log.c:2264
-#, fuzzy, c-format
+#, c-format
 msgid "unable to read signature file '%s'"
-msgstr "не вдалося прочитати %s"
+msgstr "не вдалося прочитати файл підпису \"%s\""
 
 #: builtin/log.c:2302
-#, fuzzy
 msgid "Generating patches"
-msgstr "Не злиті шляхи:"
+msgstr "Створення латок"
 
 #: builtin/log.c:2346
-#, fuzzy
 msgid "failed to create output files"
-msgstr "не вдалося створити посилання '%s'"
+msgstr "не вдалося створити вихідні файли"
 
 #: builtin/log.c:2410
 msgid "git cherry [-v] [<upstream> [<head> [<limit>]]]"
@@ -9223,14 +9211,14 @@ msgid "Could not find a tracked remote branch, please specify <upstream> manuall
 msgstr ""
 
 #: builtin/ls-files.c:255
-#, fuzzy, c-format
+#, c-format
 msgid "bad ls-files format: element '%s' does not start with '('"
-msgstr "ім’я файла пакунка '%s' не закінчується на '.%s'"
+msgstr "невірний формат ls-файлів: елемент \"%s\" не починається з \"(\""
 
 #: builtin/ls-files.c:260
-#, fuzzy, c-format
+#, c-format
 msgid "bad ls-files format: element '%s' does not end in ')'"
-msgstr "ім’я файла пакунка '%s' не закінчується на '.%s'"
+msgstr "невірний формат ls-файлів: елемент \"%s\" не закінчується на \")\""
 
 #: builtin/ls-files.c:284
 #, c-format
@@ -9238,9 +9226,8 @@ msgid "bad ls-files format: %%%.*s"
 msgstr ""
 
 #: builtin/ls-files.c:650
-#, fuzzy
 msgid "git ls-files [<options>] [<file>...]"
-msgstr "git checkout [<опції>] [<гілка>] -- <файл>..."
+msgstr "git ls-files [<опції>] [<файл>...]"
 
 #: builtin/ls-files.c:704 builtin/merge-tree.c:523
 msgid "separate paths with the NUL character"
@@ -9371,7 +9358,6 @@ msgid "exec"
 msgstr ""
 
 #: builtin/ls-remote.c:62 builtin/ls-remote.c:64
-#, fuzzy
 msgid "path of git-upload-pack on the remote host"
 msgstr "шлях до git-upload-pack на віддаленому сервері"
 
@@ -9400,24 +9386,23 @@ msgid "show underlying ref in addition to the object pointed by it"
 msgstr ""
 
 #: builtin/ls-tree.c:18
-#, fuzzy
 msgid "git ls-tree [<options>] <tree-ish> [<path>...]"
-msgstr "git reset [-q] [<деревоподібне джерело>] [--] <специфікатор шляху>..."
+msgstr "git ls-tree [<опції>] <деревоподібне-джерело> [<шлях>...]"
 
 #: builtin/ls-tree.c:28
-#, fuzzy, c-format
+#, c-format
 msgid "could not get object info about '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося отримати інформацію про обʼєкт \"%s\""
 
 #: builtin/ls-tree.c:77
-#, fuzzy, c-format
+#, c-format
 msgid "bad ls-tree format: element '%s' does not start with '('"
-msgstr "ім’я файла пакунка '%s' не закінчується на '.%s'"
+msgstr "невірний формат ls-дерева: елемент \"%s\" не починається з \"(\""
 
 #: builtin/ls-tree.c:81
-#, fuzzy, c-format
+#, c-format
 msgid "bad ls-tree format: element '%s' does not end in ')'"
-msgstr "ім’я файла пакунка '%s' не закінчується на '.%s'"
+msgstr "невірний формат ls-дерева: елемент \"%s\" не закінчується на \")\""
 
 #: builtin/ls-tree.c:107
 #, c-format
@@ -9441,18 +9426,16 @@ msgid "terminate entries with NUL byte"
 msgstr ""
 
 #: builtin/ls-tree.c:382
-#, fuzzy
 msgid "include object size"
-msgstr "неприпустимий об’єкт blob %s"
+msgstr "включити розмір об’єкта"
 
 #: builtin/ls-tree.c:384 builtin/ls-tree.c:386
 msgid "list only filenames"
 msgstr ""
 
 #: builtin/ls-tree.c:388
-#, fuzzy
 msgid "list only objects"
-msgstr "неприпустимий об’єкт blob %s"
+msgstr "показати лише обʼєкти"
 
 #: builtin/ls-tree.c:391
 msgid "use full path names"
@@ -9463,9 +9446,8 @@ msgid "list entire tree; not just current directory (implies --full-name)"
 msgstr ""
 
 #: builtin/ls-tree.c:432
-#, fuzzy
 msgid "--format can't be combined with other format-altering options"
-msgstr "--mirror не можна комбінувати зі специфікаторами посилань"
+msgstr "--format не можна комбінувати з іншими опціями зміни формату"
 
 #. TRANSLATORS: keep <> in "<" mail ">" info.
 #: builtin/mailinfo.c:14
@@ -9608,14 +9590,14 @@ msgid "set labels for file1/orig-file/file2"
 msgstr ""
 
 #: builtin/merge-recursive.c:47
-#, fuzzy, c-format
+#, c-format
 msgid "unknown option %s"
-msgstr "невідомий тип обʼєкта %d"
+msgstr "невідома опція %s"
 
 #: builtin/merge-recursive.c:53
-#, fuzzy, c-format
+#, c-format
 msgid "could not parse object '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося розібрати обʼєкт \"%s\""
 
 #: builtin/merge-recursive.c:57
 #, c-format
@@ -9630,9 +9612,9 @@ msgid "not handling anything other than two heads merge."
 msgstr ""
 
 #: builtin/merge-recursive.c:74 builtin/merge-recursive.c:76
-#, fuzzy, c-format
+#, c-format
 msgid "could not resolve ref '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося розвʼязати посилання \"%s\""
 
 #: builtin/merge-recursive.c:82
 #, c-format
@@ -9684,9 +9666,8 @@ msgid "perform multiple merges, one per line of input"
 msgstr ""
 
 #: builtin/merge-tree.c:539
-#, fuzzy
 msgid "specify a merge-base for the merge"
-msgstr "  (використовуйте команду \"git merge --abort\", щоб перервати злиття)."
+msgstr "вказати базу для злиття"
 
 #: builtin/merge-tree.c:553 builtin/merge-tree.c:618
 msgid "--trivial-merge is incompatible with all other options"
@@ -9697,9 +9678,9 @@ msgid "--merge-base is incompatible with --stdin"
 msgstr ""
 
 #: builtin/merge-tree.c:564 builtin/merge-tree.c:580 builtin/notes.c:307
-#, fuzzy, c-format
+#, c-format
 msgid "malformed input line: '%s'."
-msgstr "не вдалося розʼєднати '%s'"
+msgstr "невірно сформований рядок вводу: \"%s\"."
 
 #: builtin/merge-tree.c:584
 #, c-format
@@ -9707,23 +9688,22 @@ msgid "merging cannot continue; got unclean result of %d"
 msgstr ""
 
 #: builtin/merge.c:59
-#, fuzzy
 msgid "git merge [<options>] [<commit>...]"
-msgstr "git switch [<опції>] [<гілка>]"
+msgstr "git merge [<опції>] [<коміт>...]"
 
 #: builtin/merge.c:125
 msgid "switch `m' requires a value"
 msgstr ""
 
 #: builtin/merge.c:148
-#, fuzzy, c-format
+#, c-format
 msgid "option `%s' requires a value"
-msgstr "опція '%s' вимагає '%s'"
+msgstr "опція \"%s\" вимагає значення"
 
 #: builtin/merge.c:201
-#, fuzzy, c-format
+#, c-format
 msgid "Could not find merge strategy '%s'.\n"
-msgstr "не вдалося знайти віддалене посилання %s"
+msgstr "Не вдалося знайти стратегію злиття \"%s\".\n"
 
 #: builtin/merge.c:202
 #, c-format
@@ -9760,9 +9740,8 @@ msgid "perform a commit if the merge succeeds (default)"
 msgstr ""
 
 #: builtin/merge.c:271 builtin/pull.c:156
-#, fuzzy
 msgid "edit message before committing"
-msgstr "Зміни, що не будуть додані до коміту:"
+msgstr "редагувати повідомлення перед комітом"
 
 #: builtin/merge.c:273
 msgid "allow fast-forward (default)"
@@ -9798,42 +9777,37 @@ msgid "merge commit message (for a non-fast-forward merge)"
 msgstr ""
 
 #: builtin/merge.c:291
-#, fuzzy
 msgid "use <name> instead of the real target"
-msgstr "використовуйте <імʼя> замість 'origin' для відстеження першоджерельного сховища"
+msgstr "використовувати <імʼя> замість реальної цілі"
 
 #: builtin/merge.c:294
-#, fuzzy
 msgid "abort the current in-progress merge"
-msgstr "Наразі виконується операція вивертання."
+msgstr "перервати поточне злиття"
 
 #: builtin/merge.c:296
-#, fuzzy
 msgid "--abort but leave index and working tree alone"
-msgstr "скинути HEAD, індекс та робоче дерево"
+msgstr "--abort, але зберегти стан індекса і робочого дерева"
 
 #: builtin/merge.c:298
-#, fuzzy
 msgid "continue the current in-progress merge"
-msgstr "Наразі виконується операція вивертання."
+msgstr "продовжити поточний процес злиття"
 
 #: builtin/merge.c:307
 msgid "bypass pre-merge-commit and commit-msg hooks"
 msgstr ""
 
 #: builtin/merge.c:331
-#, fuzzy
 msgid "could not run stash."
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося виконати stash."
 
 #: builtin/merge.c:336
 msgid "stash failed"
 msgstr ""
 
 #: builtin/merge.c:341
-#, fuzzy, c-format
+#, c-format
 msgid "not a valid object: %s"
-msgstr "неприпустимий об’єкт blob %s"
+msgstr "не є припустимим обʼєктом: %s"
 
 #: builtin/merge.c:357 builtin/merge.c:369
 msgid "read-tree failed"
@@ -9858,9 +9832,9 @@ msgid "No merge message -- not updating HEAD\n"
 msgstr ""
 
 #: builtin/merge.c:518
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' does not point to a commit"
-msgstr "HEAD не вказує на гілку"
+msgstr "\"%s\" не вказує на коміт"
 
 #: builtin/merge.c:605
 #, c-format
@@ -9868,9 +9842,8 @@ msgid "Bad branch.%s.mergeoptions string: %s"
 msgstr ""
 
 #: builtin/merge.c:722 builtin/merge.c:919 builtin/stash.c:512 merge-recursive.c:3842
-#, fuzzy
 msgid "Unable to write index."
-msgstr "не вдалося записати новий файл індексу"
+msgstr "Не вдалося записати індекс."
 
 #: builtin/merge.c:734
 msgid "Not handling anything other than two heads merge."
@@ -9882,19 +9855,19 @@ msgid "unknown strategy option: -X%s"
 msgstr ""
 
 #: builtin/merge.c:769 t/helper/test-fast-rebase.c:224
-#, fuzzy, c-format
+#, c-format
 msgid "unable to write %s"
-msgstr "не вдалося прочитати %s"
+msgstr "не вдалося записати %s"
 
 #: builtin/merge.c:821
-#, fuzzy, c-format
+#, c-format
 msgid "Could not read from '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "Не вдалося прочитати з \"%s\""
 
 #: builtin/merge.c:830
-#, fuzzy, c-format
+#, c-format
 msgid "Not committing merge; use 'git commit' to complete the merge.\n"
-msgstr "  (використовуйте \"git commit\" для завершення злиття)"
+msgstr "Не виконується злиття; використовуйте \"git commit\" для завершення злиття.\n"
 
 #: builtin/merge.c:836
 msgid ""
@@ -9929,14 +9902,12 @@ msgid "Automatic merge failed; fix conflicts and then commit the result.\n"
 msgstr ""
 
 #: builtin/merge.c:1023
-#, fuzzy
 msgid "No current branch."
-msgstr "Наразі не знаходитесь в жодній гілці."
+msgstr "Немає поточної гілки."
 
 #: builtin/merge.c:1025
-#, fuzzy
 msgid "No remote for the current branch."
-msgstr "Наразі не знаходитесь в жодній гілці."
+msgstr "Немає віддаленого призначення для поточної гілки."
 
 #: builtin/merge.c:1027
 msgid "No default upstream defined for the current branch."
@@ -9953,9 +9924,9 @@ msgid "Bad value '%s' in environment '%s'"
 msgstr ""
 
 #: builtin/merge.c:1164 read-cache.c:3171 strbuf.c:1192 wrapper.c:701
-#, fuzzy, c-format
+#, c-format
 msgid "could not close '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося закрити \"%s\""
 
 #: builtin/merge.c:1191
 #, c-format
@@ -10007,9 +9978,8 @@ msgid "Squash commit into empty head not supported yet"
 msgstr ""
 
 #: builtin/merge.c:1454
-#, fuzzy
 msgid "Non-fast-forward commit does not make sense into an empty head"
-msgstr "--delete не має сенсу без рефів"
+msgstr "Не fast-forward коміт не має сенсу з порожнім HEAD"
 
 #: builtin/merge.c:1459
 #, c-format
@@ -10093,9 +10063,9 @@ msgid "%d (FSCK_IGNORE?) should never trigger this callback"
 msgstr ""
 
 #: builtin/mktag.c:56
-#, fuzzy, c-format
+#, c-format
 msgid "could not read tagged object '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося прочитати тегований об’єкт \"%s\""
 
 #: builtin/mktag.c:59
 #, c-format
@@ -10103,9 +10073,8 @@ msgid "object '%s' tagged as '%s', but is a '%s' type"
 msgstr ""
 
 #: builtin/mktag.c:88 imap-send.c:1563 trailer.c:768
-#, fuzzy
 msgid "could not read from stdin"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося прочитати з stdin"
 
 #: builtin/mktag.c:97
 msgid "tag on stdin did not pass our strict fsck check"
@@ -10116,18 +10085,16 @@ msgid "tag on stdin did not refer to a valid object"
 msgstr ""
 
 #: builtin/mktag.c:103 builtin/tag.c:245
-#, fuzzy
 msgid "unable to write tag file"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "не вдалося записати файл тегів"
 
 #: builtin/mktree.c:161
 msgid "input is NUL terminated"
 msgstr ""
 
 #: builtin/mktree.c:162 builtin/write-tree.c:26
-#, fuzzy
 msgid "allow missing objects"
-msgstr "Отримання об’єктів"
+msgstr "дозволити відсутні об’єкти"
 
 #: builtin/mktree.c:163
 msgid "allow creation of more than one tree"
@@ -10141,21 +10108,19 @@ msgstr ""
 
 #: builtin/multi-pack-index.c:14
 msgid "git multi-pack-index [<options>] verify"
-msgstr ""
+msgstr "git multi-pack-index [<опції>] verify"
 
 #: builtin/multi-pack-index.c:17
-#, fuzzy
 msgid "git multi-pack-index [<options>] expire"
-msgstr "git clone [<опції>] [--] <сховище> [<директорія>]"
+msgstr "git multi-pack-index [<опції>] expire"
 
 #: builtin/multi-pack-index.c:20
 msgid "git multi-pack-index [<options>] repack [--batch-size=<size>]"
 msgstr ""
 
 #: builtin/multi-pack-index.c:70
-#, fuzzy
 msgid "directory"
-msgstr "директорія-шаблонів"
+msgstr "директорія"
 
 #: builtin/multi-pack-index.c:71
 msgid "object directory containing set of packfile and pack-index pairs"
@@ -10188,9 +10153,8 @@ msgid ""
 msgstr ""
 
 #: builtin/mv.c:19
-#, fuzzy
 msgid "git mv [<options>] <source>... <destination>"
-msgstr "git clone [<опції>] [--] <сховище> [<директорія>]"
+msgstr "git mv [<опції>] <джерело>... <призначення>"
 
 #: builtin/mv.c:91
 #, c-format
@@ -10215,9 +10179,9 @@ msgid "skip move/rename errors"
 msgstr ""
 
 #: builtin/mv.c:223
-#, fuzzy, c-format
+#, c-format
 msgid "destination '%s' is not a directory"
-msgstr "%s існує і не є директорією"
+msgstr "місце призначення \"%s\" не є директорією"
 
 #: builtin/mv.c:251
 #, c-format
@@ -10225,9 +10189,8 @@ msgid "Checking rename of '%s' to '%s'\n"
 msgstr ""
 
 #: builtin/mv.c:268 builtin/mv.c:273
-#, fuzzy
 msgid "bad source"
-msgstr "поганий %s"
+msgstr "невірне джерело"
 
 #: builtin/mv.c:286 builtin/mv.c:356
 msgid "destination exists"
@@ -10267,14 +10230,12 @@ msgid "multiple sources for the same target"
 msgstr ""
 
 #: builtin/mv.c:376
-#, fuzzy
 msgid "destination directory does not exist"
-msgstr "сховище '%s' не існує"
+msgstr "директорія призначення не існує"
 
 #: builtin/mv.c:383
-#, fuzzy
 msgid "destination exists in the index"
-msgstr "відновити індекс"
+msgstr "призначення існує в індексі"
 
 #: builtin/mv.c:418
 #, c-format
@@ -10282,9 +10243,9 @@ msgid "%s, source=%s, destination=%s"
 msgstr ""
 
 #: builtin/mv.c:449
-#, fuzzy, c-format
+#, c-format
 msgid "Renaming %s to %s\n"
-msgstr "Надсилання до %s\n"
+msgstr "Перейменування %s на %s\n"
 
 #: builtin/mv.c:457 builtin/remote.c:823
 #, c-format
@@ -10292,14 +10253,12 @@ msgid "renaming '%s' failed"
 msgstr ""
 
 #: builtin/name-rev.c:514
-#, fuzzy
 msgid "git name-rev [<options>] <commit>..."
-msgstr "git checkout [<опції>] <гілка>"
+msgstr "git name-rev [<опції>] <коміт>..."
 
 #: builtin/name-rev.c:515
-#, fuzzy
 msgid "git name-rev [<options>] --all"
-msgstr "git checkout [<опції>] <гілка>"
+msgstr "git name-rev [<опції>] --all"
 
 #: builtin/name-rev.c:516
 msgid "git name-rev [<options>] --annotate-stdin"
@@ -10390,9 +10349,8 @@ msgid "git notes [list [<object>]]"
 msgstr ""
 
 #: builtin/notes.c:49
-#, fuzzy
 msgid "git notes add [<options>] [<object>]"
-msgstr "git switch [<опції>] [<гілка>]"
+msgstr "git notes add [<опції>] [<обʼєкт>]"
 
 #: builtin/notes.c:54
 msgid "git notes copy [<options>] <from-object> <to-object>"
@@ -10403,9 +10361,8 @@ msgid "git notes copy --stdin [<from-object> <to-object>]..."
 msgstr ""
 
 #: builtin/notes.c:60
-#, fuzzy
 msgid "git notes append [<options>] [<object>]"
-msgstr "git switch [<опції>] [<гілка>]"
+msgstr "git notes append [<опції>] [<обʼєкт>]"
 
 #: builtin/notes.c:65
 msgid "git notes edit [<object>]"
@@ -10416,9 +10373,8 @@ msgid "git notes show [<object>]"
 msgstr ""
 
 #: builtin/notes.c:75
-#, fuzzy
 msgid "git notes merge [<options>] <notes-ref>"
-msgstr "git checkout [<опції>] <гілка>"
+msgstr "git notes merge [<опції>] <посилання-нотатки>"
 
 #: builtin/notes.c:76
 msgid "git notes merge --commit [<options>]"
@@ -10433,37 +10389,34 @@ msgid "git notes remove [<object>]"
 msgstr ""
 
 #: builtin/notes.c:87
-#, fuzzy
 msgid "git notes prune [<options>]"
-msgstr "git checkout [<опції>] <гілка>"
+msgstr "git notes prune [<опції>]"
 
 #: builtin/notes.c:97
 msgid "Write/edit the notes for the following object:"
 msgstr ""
 
 #: builtin/notes.c:149
-#, fuzzy, c-format
+#, c-format
 msgid "unable to start 'show' for object '%s'"
-msgstr "не вдалося запустити перебір для '%s'"
+msgstr "не вдалося запустити \"show\" для об’єкта \"%s\""
 
 #: builtin/notes.c:153
-#, fuzzy
 msgid "could not read 'show' output"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося прочитати вивід \"show\""
 
 #: builtin/notes.c:161
-#, fuzzy, c-format
+#, c-format
 msgid "failed to finish 'show' for object '%s'"
-msgstr "не вдалося надіслати деякі посилання до '%s'"
+msgstr "не вдалося завершити \"show\" для об’єкта \"%s\""
 
 #: builtin/notes.c:194
 msgid "please supply the note contents using either -m or -F option"
 msgstr ""
 
 #: builtin/notes.c:203
-#, fuzzy
 msgid "unable to write note object"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "не вдалося записати об’єкт нотатки"
 
 #: builtin/notes.c:206
 #, c-format
@@ -10471,31 +10424,31 @@ msgid "the note contents have been left in %s"
 msgstr ""
 
 #: builtin/notes.c:240 builtin/tag.c:584
-#, fuzzy, c-format
+#, c-format
 msgid "could not open or read '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося відкрити або прочитати \"%s\""
 
 #: builtin/notes.c:261 builtin/notes.c:311 builtin/notes.c:313 builtin/notes.c:381
 #: builtin/notes.c:436 builtin/notes.c:524 builtin/notes.c:529 builtin/notes.c:608
 #: builtin/notes.c:670
-#, fuzzy, c-format
+#, c-format
 msgid "failed to resolve '%s' as a valid ref."
-msgstr "Не вдалося розпізнати '%s' як припустиме дерево."
+msgstr "не вдалося розпізнати \"%s\" як припустиме посилання."
 
 #: builtin/notes.c:263
-#, fuzzy, c-format
+#, c-format
 msgid "failed to read object '%s'."
-msgstr "не вдалося створити директорію '%s'"
+msgstr "не вдалося прочитати обʼєкт \"%s\"."
 
 #: builtin/notes.c:266
-#, fuzzy, c-format
+#, c-format
 msgid "cannot read note data from non-blob object '%s'."
-msgstr "неможливо прочитати існуючий об’єкт %s"
+msgstr "неможливо прочитати дані нотатки з не-blob обʼєкту \"%s\"."
 
 #: builtin/notes.c:322
-#, fuzzy, c-format
+#, c-format
 msgid "failed to copy notes from '%s' to '%s'"
-msgstr "не вдалося скопіювати файл у '%s'"
+msgstr "не вдалося скопіювати нотатки з \"%s\" в \"%s\""
 
 #. TRANSLATORS: the first %s will be replaced by a git
 #. notes command: 'add', 'merge', 'remove', etc.
@@ -10506,9 +10459,9 @@ msgid "refusing to %s notes in %s (outside of refs/notes/)"
 msgstr ""
 
 #: builtin/notes.c:387 builtin/notes.c:676
-#, fuzzy, c-format
+#, c-format
 msgid "no note found for object %s."
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "для обʼєкта %s не знайдено жодної нотатки."
 
 #: builtin/notes.c:408 builtin/notes.c:574
 msgid "note contents as a string"
@@ -10531,9 +10484,8 @@ msgid "allow storing empty note"
 msgstr ""
 
 #: builtin/notes.c:421 builtin/notes.c:494
-#, fuzzy
 msgid "replace existing notes"
-msgstr "неможливо прочитати існуючий об’єкт %s"
+msgstr "замінити існуючі нотатки"
 
 #: builtin/notes.c:446
 #, c-format
@@ -10548,9 +10500,9 @@ msgid "Overwriting existing notes for object %s\n"
 msgstr ""
 
 #: builtin/notes.c:473 builtin/notes.c:635 builtin/notes.c:904
-#, fuzzy, c-format
+#, c-format
 msgid "Removing note for object %s\n"
-msgstr "Отримання об’єктів"
+msgstr "Видалення нотатки для обʼєкта %s\n"
 
 #: builtin/notes.c:495
 msgid "read objects from stdin"
@@ -10561,9 +10513,8 @@ msgid "load rewriting config for <command> (implies --stdin)"
 msgstr ""
 
 #: builtin/notes.c:515
-#, fuzzy
 msgid "too few arguments"
-msgstr "Забагато аргументів."
+msgstr "замало аргументів"
 
 #: builtin/notes.c:536
 #, c-format
@@ -10613,9 +10564,8 @@ msgid "failed to resolve NOTES_MERGE_REF"
 msgstr ""
 
 #: builtin/notes.c:740
-#, fuzzy
 msgid "failed to finalize notes merge"
-msgstr "не вдалося ініціалізувати частковий перехід"
+msgstr "не вдалося завершити злиття нотаток"
 
 #: builtin/notes.c:766
 #, c-format
@@ -10637,9 +10587,8 @@ msgid ""
 msgstr ""
 
 #: builtin/notes.c:788
-#, fuzzy
 msgid "Committing unmerged notes"
-msgstr "ігнорувати незлиті записи"
+msgstr "Виконнання коміту незлитих нотаток"
 
 #: builtin/notes.c:790
 msgid "finalize notes merge by committing unmerged notes"
@@ -10650,18 +10599,16 @@ msgid "Aborting notes merge resolution"
 msgstr ""
 
 #: builtin/notes.c:794
-#, fuzzy
 msgid "abort notes merge"
-msgstr "шлях '%s': неможливо злити"
+msgstr "перервати злиття нотаток"
 
 #: builtin/notes.c:805
 msgid "cannot mix --commit, --abort or -s/--strategy"
 msgstr ""
 
 #: builtin/notes.c:810
-#, fuzzy
 msgid "must specify a notes ref to merge"
-msgstr "необхідно вказати шлях(и) для відновлення"
+msgstr "необхідно вказати посилання нотаток для злиття"
 
 #: builtin/notes.c:834
 #, c-format
@@ -10761,7 +10708,7 @@ msgstr ""
 #: builtin/pack-objects.c:1039
 #, fuzzy, c-format
 msgid "expected object at offset %<PRIuMAX> in pack %s"
-msgstr "пакунок має поганий обʼєкт зі зміщенням %<PRIuMAX>: %s"
+msgstr "пакунок має невірний обʼєкт зі зміщенням %<PRIuMAX>: %s"
 
 #: builtin/pack-objects.c:1163
 msgid "disabling bitmap writing, packs are split due to pack.packSizeLimit"
@@ -10942,7 +10889,7 @@ msgstr ""
 #: builtin/pack-objects.c:4036 builtin/rev-parse.c:1080
 #, fuzzy, c-format
 msgid "bad revision '%s'"
-msgstr "погане сховище '%s'"
+msgstr "невірне сховище '%s'"
 
 #: builtin/pack-objects.c:4064
 #, fuzzy
@@ -10957,7 +10904,7 @@ msgstr ""
 #: builtin/pack-objects.c:4121
 #, fuzzy, c-format
 msgid "bad index version '%s'"
-msgstr "погане сховище '%s'"
+msgstr "невірна сховище '%s'"
 
 #: builtin/pack-objects.c:4177
 msgid "<version>[,<offset>]"
@@ -11723,7 +11670,7 @@ msgstr "--delete не має сенсу без рефів"
 #: builtin/push.c:660 t/helper/test-bundle-uri.c:89
 #, c-format
 msgid "bad repository '%s'"
-msgstr "погане сховище '%s'"
+msgstr "невірне сховище \"%s\""
 
 #: builtin/push.c:661
 msgid ""
@@ -11886,7 +11833,7 @@ msgstr ""
 
 #: builtin/read-tree.c:193
 msgid "You need to resolve your current index first"
-msgstr "Спочатку вам потрібно вирішити поточний індекс"
+msgstr "Спочатку вам потрібно розвʼязати поточний індекс"
 
 #: builtin/rebase.c:34
 msgid ""
@@ -11944,7 +11891,7 @@ msgstr ""
 #: sequencer.c:5029
 #, fuzzy, c-format
 msgid "could not remove '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося видалити %s"
 
 #: builtin/rebase.c:599
 msgid ""
@@ -15289,7 +15236,7 @@ msgstr ""
 
 #: builtin/tag.c:277
 msgid "bad object type."
-msgstr "поганий тип обʼєкта."
+msgstr "невірний тип обʼєкта."
 
 #: builtin/tag.c:328
 msgid "no tag message?"
@@ -18244,7 +18191,7 @@ msgstr ""
 #: delta-islands.c:288
 #, c-format
 msgid "bad tree object %s"
-msgstr "поганий обʼєкт дерева %s"
+msgstr "невірний обʼєкт дерева %s"
 
 #: delta-islands.c:358
 #, fuzzy, c-format
@@ -20615,7 +20562,7 @@ msgstr ""
 #: notes-utils.c:145
 #, c-format
 msgid "Bad %s value: '%s'"
-msgstr "Погане %s значення: \"%s\""
+msgstr "Невірне %s значення: \"%s\""
 
 #: object-file.c:463
 #, c-format
@@ -21724,7 +21671,7 @@ msgstr ""
 #: read-cache.c:1827
 #, c-format
 msgid "bad index version %d"
-msgstr "погана версія індексу %d"
+msgstr "невірна версія індексу %d"
 
 #: read-cache.c:1842
 msgid "bad index file sha1 signature"
@@ -22627,7 +22574,7 @@ msgstr "надсилання не має призначення (push.default д
 
 #: remote.c:1955
 msgid "cannot resolve 'simple' push to a single destination"
-msgstr "неможливо вирішити 'простe' надсилання до одного пункту призначення"
+msgstr "неможливо розвʼязати \"simple\" надсилання до одного пункту призначення"
 
 #: remote.c:2088
 #, c-format
@@ -23940,7 +23887,7 @@ msgstr ""
 #: sequencer.c:5162
 #, c-format
 msgid "%s: bad revision"
-msgstr "%s: погана ревізія"
+msgstr "%s: невірна ревізія"
 
 #: sequencer.c:5197
 msgid "can't revert as initial commit"
