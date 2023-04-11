@@ -10676,7 +10676,7 @@ msgstr ""
 #: builtin/notes.c:878
 #, c-format
 msgid "failed to store link to current notes ref (%s)"
-msgstr "не вдалося зберегти посилання на поточні нотатки посилання (%s)"
+msgstr "не вдалося зберегти ланку на поточні нотатки посилання (%s)"
 
 #: builtin/notes.c:880
 #, c-format
