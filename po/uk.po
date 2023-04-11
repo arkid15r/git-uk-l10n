@@ -11240,7 +11240,7 @@ msgstr "git pull [<опції>] [<сховище> [<специфікатор-п�
 
 #: builtin/pull.c:125
 msgid "control for recursive fetching of submodules"
-msgstr "управління для рекурсивного отримання підмодулів"
+msgstr "управління рекурсивним отриманням підмодулів"
 
 #: builtin/pull.c:129
 msgid "Options related to merging"
