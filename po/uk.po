@@ -7274,7 +7274,7 @@ msgstr ""
 
 #: builtin/for-each-ref.c:57
 msgid "read reference patterns from stdin"
-msgstr "читати шаблоны посилань з stdin"
+msgstr "читати шаблони посилань з stdin"
 
 #: builtin/for-each-ref.c:88
 msgid "unknown arguments supplied with --stdin"
