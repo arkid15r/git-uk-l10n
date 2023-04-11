@@ -10797,7 +10797,7 @@ msgstr ""
 #: builtin/pack-objects.c:2009
 #, c-format
 msgid "delta base offset overflow in pack for %s"
-msgstr "переповнення зсуву основи дельти у пакунку для %s"
+msgstr "переповнення зміщення дельти бази у пакунку для %s"
 
 #: builtin/pack-objects.c:2018
 #, c-format
