@@ -10761,7 +10761,7 @@ msgstr ""
 #: builtin/pack-objects.c:1039
 #, c-format
 msgid "expected object at offset %<PRIuMAX> in pack %s"
-msgstr "очікуваний обʼєкт на зміщенні %<PRIuMAX> у пакунку %s"
+msgstr "очікувався обʼєкт на зміщенні %<PRIuMAX> пакунка %s"
 
 #: builtin/pack-objects.c:1163
 msgid "disabling bitmap writing, packs are split due to pack.packSizeLimit"
