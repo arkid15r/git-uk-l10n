@@ -11950,7 +11950,7 @@ msgstr "не вдалося переключитись на %s"
 
 #: builtin/rebase.c:919 builtin/rebase.c:935 builtin/rebase.c:952 builtin/rebase.c:1511
 msgid "apply options and merge options cannot be used together"
-msgstr "застосувати опції та обʼєднати опції не можна використовувати разом"
+msgstr "apply опції не можна використовувати разом з merge опціями"
 
 #: builtin/rebase.c:969
 #, c-format
