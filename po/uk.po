@@ -10769,7 +10769,7 @@ msgstr ""
 
 #: builtin/pack-objects.c:1176
 msgid "Writing objects"
-msgstr "Написання обʼєктів"
+msgstr "Запис обʼєктів"
 
 #: builtin/pack-objects.c:1248 builtin/update-index.c:99
 #, c-format
