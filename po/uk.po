@@ -11195,7 +11195,7 @@ msgstr ""
 
 #: builtin/pack-refs.c:17
 msgid "prune loose refs (default)"
-msgstr "видалити вільні посилання (типово)"
+msgstr "видалити незакріплені посилання (типово)"
 
 #: builtin/patch-id.c:189
 msgid "git patch-id [--stable | --unstable | --verbatim]"
