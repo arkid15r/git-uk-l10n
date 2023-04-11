@@ -11905,7 +11905,7 @@ msgstr ""
 #: builtin/rebase.c:431
 #, c-format
 msgid "invalid onto: '%s'"
-msgstr "неприпустимий на: \"%s\""
+msgstr "неприпустимий onto: \"%s\""
 
 #: builtin/rebase.c:448
 #, c-format
