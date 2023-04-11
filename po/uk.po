@@ -12159,7 +12159,7 @@ msgstr ""
 
 #: builtin/rebase.c:1237
 msgid "No rebase in progress?"
-msgstr "Перебазування не виконується?"
+msgstr "Перебазування не відбувається?"
 
 #: builtin/rebase.c:1240
 msgid "The --edit-todo action can only be used during interactive rebase."
