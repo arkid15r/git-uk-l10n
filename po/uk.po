@@ -10870,7 +10870,7 @@ msgstr ""
 #: builtin/pack-objects.c:3248
 #, c-format
 msgid "could not get type of object %s in pack %s"
-msgstr "не вдалося отримати тип обєкта %s у пакеті %s"
+msgstr "не вдалося отримати тип обʼєкта %s у пакунку %s"
 
 #: builtin/pack-objects.c:3377 builtin/pack-objects.c:3390 builtin/pack-objects.c:3514
 #, c-format
