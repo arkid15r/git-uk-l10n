@@ -1,6 +1,7 @@
-# Ukrainian translations for Git package.
-# Переклад українською для пакету Git.
+# Ukrainian translation for Git package.
+# Український переклад пакету Git.
 # Copyright (c) 2023 Arkadii Yakovets.
+# Copyright (c) 2023 Kateryna Golovanova.
 # This file is distributed under the same license as the Git package.
 #
 msgid ""
@@ -3169,7 +3170,7 @@ msgstr ""
 #: builtin/blame.c:968
 msgid "--progress can't be used with --incremental or porcelain formats"
 msgstr ""
-"-—progress не можна використовувати з форматами -—incremental або porcelain"
+"--progress не можна використовувати з форматами --incremental або porcelain"
 
 #. TRANSLATORS: This string is used to tell us the
 #. maximum display width for a relative timestamp in
@@ -3722,9 +3723,8 @@ msgid "historical; same as --progress"
 msgstr ""
 
 #: builtin/bundle.c:85
-#, fuzzy
 msgid "historical; does nothing"
-msgstr "файл git директорії не існує"
+msgstr "історична; не робить нічогісенько"
 
 #: builtin/bundle.c:87
 msgid "specify bundle format version"
@@ -3952,7 +3952,7 @@ msgstr ""
 msgid ""
 "git check-attr --stdin [-z] [--source <tree-ish>] [-a | --all | <attr>...]"
 msgstr ""
-"git check-attr -—stdin [-z] [-—source <деревоподібне джерело>] [-a | -—all | "
+"git check-attr --stdin [-z] [--source <деревоподібне джерело>] [-a | --all | "
 "<атрибут>...]"
 
 #: builtin/check-attr.c:26
@@ -4035,7 +4035,7 @@ msgstr ""
 
 #: builtin/checkout--worker.c:112
 msgid "git checkout--worker [<options>]"
-msgstr "git checkout —worker [<опції>]"
+msgstr "git checkout--worker [<опції>]"
 
 #: builtin/checkout--worker.c:120 builtin/checkout-index.c:237
 #: builtin/column.c:32 builtin/column.c:33 builtin/submodule--helper.c:1780
@@ -5491,7 +5491,7 @@ msgstr ""
 
 #: builtin/commit.c:451 builtin/commit.c:475 builtin/commit.c:523
 msgid "unable to write new_index file"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "не вдалося записати new_index файл"
 
 #: builtin/commit.c:504
 msgid "cannot do a partial commit during a merge."
@@ -7138,9 +7138,9 @@ msgid "--unshallow on a complete repository does not make sense"
 msgstr ""
 
 #: builtin/fetch.c:2228
-#, fuzzy, c-format
+#, c-format
 msgid "failed to fetch bundles from '%s'"
-msgstr "не вдалося отримати об'єкти з пакету URI '%s'"
+msgstr "не вдалося отримати пакунки з \"%s\""
 
 #: builtin/fetch.c:2232
 msgid "fetch --all does not take a repository argument"
@@ -7273,9 +7273,8 @@ msgid "print only refs which don't contain the commit"
 msgstr ""
 
 #: builtin/for-each-ref.c:57
-#, fuzzy
 msgid "read reference patterns from stdin"
-msgstr "читати команди з stdin"
+msgstr "читати шаблони посилань з stdin"
 
 #: builtin/for-each-ref.c:88
 msgid "unknown arguments supplied with --stdin"
@@ -7486,23 +7485,23 @@ msgid "notice: %s points to an unborn branch (%s)"
 msgstr ""
 
 #: builtin/fsck.c:744
-#, fuzzy, c-format
+#, c-format
 msgid "Checking cache tree of %s"
-msgstr "Перевірка дерева кеша"
+msgstr "Перевірка дерева кеша для \"%s\""
 
 #: builtin/fsck.c:749
-#, fuzzy, c-format
+#, c-format
 msgid "%s: invalid sha1 pointer in cache-tree of %s"
-msgstr "%s: невірний вказівник sha1 %s"
+msgstr "%s: невірний sha1 вказівник в cache-tree для %s"
 
 #: builtin/fsck.c:758
 msgid "non-tree in cache-tree"
 msgstr ""
 
 #: builtin/fsck.c:789
-#, fuzzy, c-format
+#, c-format
 msgid "%s: invalid sha1 pointer in resolve-undo of %s"
-msgstr "%s: невірний вказівник sha1 %s"
+msgstr "%s: невірний sha1 вказівник в resolve-undo для %s"
 
 #: builtin/fsck.c:860
 msgid ""
@@ -8445,9 +8444,8 @@ msgid "silently ignore missing requested <hook-name>"
 msgstr ""
 
 #: builtin/hook.c:33
-#, fuzzy
 msgid "file to read into hooks' stdin"
-msgstr "не вдалося прочитати індекс"
+msgstr "файл, з якого читати stdin хука"
 
 #: builtin/index-pack.c:228
 #, c-format
@@ -16201,9 +16199,9 @@ msgid "core.fsyncMethod = batch is unsupported on this platform"
 msgstr ""
 
 #: bundle-uri.c:213
-#, fuzzy, c-format
+#, c-format
 msgid "could not parse bundle list key %s with value '%s'"
-msgstr "не вдалося розібрати конфліктні шматки в \"%s\""
+msgstr "не вдалося розібрати ключ списку пакунків %s зі значенням \"%s\""
 
 #: bundle-uri.c:258
 #, c-format
@@ -16219,14 +16217,13 @@ msgid "insufficient capabilities"
 msgstr ""
 
 #: bundle-uri.c:570
-#, fuzzy, c-format
+#, c-format
 msgid "file downloaded from '%s' is not a bundle"
-msgstr "не вдалося завантажити пакунок з URI \"%s\""
+msgstr "файл, завантажений з \"%s\", не є пакунком"
 
 #: bundle-uri.c:620
-#, fuzzy
 msgid "failed to store maximum creation token"
-msgstr "не вдалося запустити перебір для '%s'"
+msgstr "не вдалося зберегти токен максимального створення"
 
 #: bundle-uri.c:660
 #, c-format
@@ -19650,11 +19647,12 @@ msgid "gpg.ssh.defaultKeyCommand failed: %s %s"
 msgstr ""
 
 #: gpg-interface.c:1006
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "gpg failed to sign the data:\n"
 "%s"
-msgstr "gpg не вдалося підписати дані"
+msgstr "gpg не вдалося підписати дані:\n"
+"%s"
 
 #: gpg-interface.c:1034
 msgid "user.signingKey needs to be set for ssh signing"
@@ -21558,9 +21556,9 @@ msgid "need a subcommand"
 msgstr ""
 
 #: parse-options.c:991
-#, fuzzy, c-format
+#, c-format
 msgid "unknown option `%s'"
-msgstr "невідома опція %s"
+msgstr "невідома опція \"%s\""
 
 #: parse-options.c:993
 #, c-format
@@ -23735,12 +23733,12 @@ msgid "git %s: failed to refresh the index"
 msgstr ""
 
 #: sequencer.c:2508
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a valid label"
-msgstr "\"%s\" не є допустимим терміном"
+msgstr "\"%s\" не є припустимою міткою"
 
 #: sequencer.c:2513
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a valid refname"
 msgstr "\"%s\" не є припустимим імʼям посилання"
 
@@ -23750,9 +23748,9 @@ msgid "update-ref requires a fully qualified refname e.g. refs/heads/%s"
 msgstr ""
 
 #: sequencer.c:2552
-#, fuzzy, c-format
+#, c-format
 msgid "invalid command '%.*s'"
-msgstr "неприпустимий коміт %s"
+msgstr "неприпустима команда \"%.*s\""
 
 #: sequencer.c:2561
 #, c-format
@@ -23809,9 +23807,9 @@ msgid "cannot revert during a cherry-pick."
 msgstr ""
 
 #: sequencer.c:2942
-#, fuzzy, c-format
+#, c-format
 msgid "could not split '%s': %s"
-msgstr "не вдалося встановити \"%s\""
+msgstr "не вдалося розділити \"%s\": %s"
 
 #: sequencer.c:3040
 msgid "unusable squash-onto"
@@ -24058,7 +24056,7 @@ msgstr ""
 
 #: sequencer.c:4473
 msgid "could not reset --hard"
-msgstr "не вдалося виконати жорстке скидання"
+msgstr "не вдалося виконати скидання з --hard"
 
 #: sequencer.c:4497
 #, c-format
