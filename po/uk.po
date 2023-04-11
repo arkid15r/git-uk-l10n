@@ -16056,7 +16056,7 @@ msgstr "не вдалося продублювати дескриптор пак
 
 #: bundle.c:364
 msgid "Could not spawn pack-objects"
-msgstr "Не вдалося створити об’єкти пакунків"
+msgstr "Не вдалося розмножити об’єкти пакунків"
 
 #: bundle.c:375
 msgid "pack-objects died"
