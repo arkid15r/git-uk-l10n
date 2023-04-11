@@ -17389,7 +17389,7 @@ msgstr ""
 #: config.c:170
 #, c-format
 msgid "could not expand include path '%s'"
-msgstr "не вдалося визначити include patch \"%s\""
+msgstr "не вдалося визначити include path \"%s\""
 
 #: config.c:181
 msgid "relative config includes must come from files"
