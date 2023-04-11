@@ -12177,7 +12177,7 @@ msgstr ""
 
 #: builtin/rebase.c:1291
 msgid "could not discard worktree changes"
-msgstr "не вдалося відкинути зміни в робочому дереві"
+msgstr "не вдалося відкинути зміни робочого дерева"
 
 #: builtin/rebase.c:1316
 #, c-format
