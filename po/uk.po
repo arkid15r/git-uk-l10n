@@ -11298,7 +11298,7 @@ msgstr ""
 
 #: builtin/pull.c:461 builtin/rebase.c:995
 msgid "You are not currently on a branch."
-msgstr "Наразі ви не перебуваєте на гілці."
+msgstr "Наразі ви не на гілці."
 
 #: builtin/pull.c:463 builtin/pull.c:478
 msgid "Please specify which branch you want to rebase against."
