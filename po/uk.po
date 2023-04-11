@@ -12113,7 +12113,7 @@ msgstr ""
 #: builtin/rebase.c:1144
 msgid "use 'merge-base --fork-point' to refine upstream"
 msgstr ""
-"використовувати \"merge-base --fork-point\" для уточнення першоджерельного сховища"
+"використовуйте \"merge-base --fork-point\" для уточнення першоджерельного сховища"
 
 #: builtin/rebase.c:1146
 msgid "use the given merge strategy"
