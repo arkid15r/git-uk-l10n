@@ -10779,7 +10779,7 @@ msgstr "не вдалося виконати stat %s"
 #: builtin/pack-objects.c:1256 object-file.c:2067
 #, c-format
 msgid "failed utime() on %s"
-msgstr "невдалий utime() на %s"
+msgstr "не вдалося виконати utime() на %s"
 
 #: builtin/pack-objects.c:1285
 msgid "failed to write bitmap index"
