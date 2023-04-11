@@ -10892,7 +10892,7 @@ msgstr "не вдалося додати марні обʼєкти"
 
 #: builtin/pack-objects.c:3570
 msgid "Traversing cruft objects"
-msgstr "Проходження марних обʼєктів "
+msgstr "Проходження по марним обʼєктам"
 
 #: builtin/pack-objects.c:3656
 #, c-format
