@@ -17366,7 +17366,7 @@ msgstr "не вдалося запустити thread[0] для \"%s\""
 #: compat/simple-ipc/ipc-win32.c:861
 #, c-format
 msgid "wait for hEvent failed for '%s'"
-msgstr "очікування на hEvent не вдалося для ‘%s’"
+msgstr "очікування на hEvent не вдалося для \"%s\""
 
 #: compat/terminal.c:167
 msgid "cannot resume in the background, please use 'fg' to resume"
