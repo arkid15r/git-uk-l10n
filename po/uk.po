@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-04-09 12:15-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-04-09 15:14-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -10621,9 +10621,9 @@ msgid "a notes merge into %s is already in-progress at %s"
 msgstr ""
 
 #: builtin/notes.c:878
-#, fuzzy, c-format
+#, c-format
 msgid "failed to store link to current notes ref (%s)"
-msgstr "не вдалося запустити перебір для '%s'"
+msgstr "не вдалося зберегти ланку на поточні нотатки посилання (%s)"
 
 #: builtin/notes.c:880
 #, c-format
@@ -10633,9 +10633,9 @@ msgid ""
 msgstr ""
 
 #: builtin/notes.c:899 builtin/tag.c:597
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to resolve '%s' as a valid ref."
-msgstr "Не вдалося розпізнати '%s' як припустиме дерево."
+msgstr "Не вдалося розвʼязати \"%s\" як припустиме посилання."
 
 #: builtin/notes.c:902
 #, c-format
@@ -10691,14 +10691,14 @@ msgid "bad packed object CRC for %s"
 msgstr ""
 
 #: builtin/pack-objects.c:592
-#, fuzzy, c-format
+#, c-format
 msgid "corrupt packed object for %s"
-msgstr "Помилка fsck у запакованому об'єкті"
+msgstr "пошкоджений запакований обʼєкт для %s"
 
 #: builtin/pack-objects.c:723
-#, fuzzy, c-format
+#, c-format
 msgid "recursive delta detected for object %s"
-msgstr "очікуваних обʼєктів не отримано %s"
+msgstr "виявлено рекурсивну дельту для обʼєкта %s"
 
 #: builtin/pack-objects.c:944
 #, c-format
@@ -10706,33 +10706,31 @@ msgid "ordered %u objects, expected %<PRIu32>"
 msgstr ""
 
 #: builtin/pack-objects.c:1039
-#, fuzzy, c-format
+#, c-format
 msgid "expected object at offset %<PRIuMAX> in pack %s"
-msgstr "пакунок має невірний обʼєкт зі зміщенням %<PRIuMAX>: %s"
+msgstr "очікувався обʼєкт на зміщенні %<PRIuMAX> пакунка %s"
 
 #: builtin/pack-objects.c:1163
 msgid "disabling bitmap writing, packs are split due to pack.packSizeLimit"
 msgstr ""
 
 #: builtin/pack-objects.c:1176
-#, fuzzy
 msgid "Writing objects"
-msgstr "Отримання об’єктів"
+msgstr "Запис обʼєктів"
 
 #: builtin/pack-objects.c:1248 builtin/update-index.c:99
-#, fuzzy, c-format
+#, c-format
 msgid "failed to stat %s"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося виконати stat %s"
 
 #: builtin/pack-objects.c:1256 object-file.c:2067
-#, fuzzy, c-format
+#, c-format
 msgid "failed utime() on %s"
-msgstr "не вдалося скопіювати файл у '%s'"
+msgstr "не вдалося виконати utime() на %s"
 
 #: builtin/pack-objects.c:1285
-#, fuzzy
 msgid "failed to write bitmap index"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "не вдалося записати bitmap індекс"
 
 #: builtin/pack-objects.c:1311
 #, c-format
@@ -10744,34 +10742,33 @@ msgid "disabling bitmap writing, as some objects are not being packed"
 msgstr ""
 
 #: builtin/pack-objects.c:2009
-#, fuzzy, c-format
+#, c-format
 msgid "delta base offset overflow in pack for %s"
-msgstr "зсув дельти з базою виходить за межі"
+msgstr "переповнення зміщення дельти бази у пакунку для %s"
 
 #: builtin/pack-objects.c:2018
-#, fuzzy, c-format
+#, c-format
 msgid "delta base offset out of bound for %s"
-msgstr "зсув дельти з базою виходить за межі"
+msgstr "зміщення бази дельти виходить за межі для %s"
 
 #: builtin/pack-objects.c:2299
-#, fuzzy
 msgid "Counting objects"
-msgstr "Перевірка обʼєктів"
+msgstr "Підрахунок обʼєктів"
 
 #: builtin/pack-objects.c:2449 pack-bitmap.c:1372 pack-bitmap.c:1378
-#, fuzzy, c-format
+#, c-format
 msgid "unable to get size of %s"
-msgstr "не вдалося оновити %s"
+msgstr "не вдалося отримати розмір %s"
 
 #: builtin/pack-objects.c:2464
-#, fuzzy, c-format
+#, c-format
 msgid "unable to parse object header of %s"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося розібрати заголовок обʼєкта %s"
 
 #: builtin/pack-objects.c:2534 builtin/pack-objects.c:2550 builtin/pack-objects.c:2560
-#, fuzzy, c-format
+#, c-format
 msgid "object %s cannot be read"
-msgstr "шлях '%s': неможливо злити"
+msgstr "обʼєкт %s не може бути прочитаний"
 
 #: builtin/pack-objects.c:2537 builtin/pack-objects.c:2564
 #, c-format
@@ -10788,19 +10785,18 @@ msgid "Delta compression using up to %d threads"
 msgstr ""
 
 #: builtin/pack-objects.c:3028
-#, fuzzy, c-format
+#, c-format
 msgid "unable to pack objects reachable from tag %s"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося запакувати обʼєкти, доступні з тегу %s"
 
 #: builtin/pack-objects.c:3096 commit-graph.c:1369
-#, fuzzy, c-format
+#, c-format
 msgid "unable to get type of object %s"
-msgstr "не вдалося запакувати доданий об’єкт (%d)"
+msgstr "не вдалося отримати тип обʼєкта %s"
 
 #: builtin/pack-objects.c:3115
-#, fuzzy
 msgid "Compressing objects"
-msgstr "Перевірка обʼєктів"
+msgstr "Компресія обʼєктів"
 
 #: builtin/pack-objects.c:3121
 msgid "inconsistency with delta count"
@@ -10819,14 +10815,14 @@ msgid "object already configured in another uploadpack.blobpackfileuri (got '%s'
 msgstr ""
 
 #: builtin/pack-objects.c:3248
-#, fuzzy, c-format
+#, c-format
 msgid "could not get type of object %s in pack %s"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося отримати тип обʼєкта %s у пакунку %s"
 
 #: builtin/pack-objects.c:3377 builtin/pack-objects.c:3390 builtin/pack-objects.c:3514
-#, fuzzy, c-format
+#, c-format
 msgid "could not find pack '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося знайти пакунок \"%s\""
 
 #: builtin/pack-objects.c:3379
 #, c-format
@@ -10834,19 +10830,16 @@ msgid "packfile %s cannot be accessed"
 msgstr ""
 
 #: builtin/pack-objects.c:3525 builtin/pack-objects.c:3551
-#, fuzzy
 msgid "Enumerating cruft objects"
-msgstr "Індексація об’єктів"
+msgstr "Перерахування марних обʼєктів"
 
 #: builtin/pack-objects.c:3557
-#, fuzzy
 msgid "unable to add cruft objects"
-msgstr "не вдалося прочитати %s"
+msgstr "не вдалося додати марні обʼєкти"
 
 #: builtin/pack-objects.c:3570
-#, fuzzy
 msgid "Traversing cruft objects"
-msgstr "Перевірка обʼєктів"
+msgstr "Проходження по марним обʼєктам"
 
 #: builtin/pack-objects.c:3656
 #, c-format
@@ -10867,9 +10860,8 @@ msgid "could not load cruft pack .mtimes"
 msgstr ""
 
 #: builtin/pack-objects.c:3797 builtin/pack-objects.c:3896
-#, fuzzy
 msgid "cannot open pack index"
-msgstr "неможливо прочитати файл пакунка"
+msgstr "не вдалося відкрити індекс пакунка"
 
 #: builtin/pack-objects.c:3806
 #, c-format
@@ -10887,14 +10879,13 @@ msgid "not a rev '%s'"
 msgstr ""
 
 #: builtin/pack-objects.c:4036 builtin/rev-parse.c:1080
-#, fuzzy, c-format
+#, c-format
 msgid "bad revision '%s'"
-msgstr "невірне сховище '%s'"
+msgstr "невірна ревізія \"%s\""
 
 #: builtin/pack-objects.c:4064
-#, fuzzy
 msgid "unable to add recent objects"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося додати нещодавні обʼєкти"
 
 #: builtin/pack-objects.c:4117
 #, c-format
@@ -10902,9 +10893,9 @@ msgid "unsupported index version %s"
 msgstr ""
 
 #: builtin/pack-objects.c:4121
-#, fuzzy, c-format
+#, c-format
 msgid "bad index version '%s'"
-msgstr "невірна сховище '%s'"
+msgstr "невірна версія індексу \"%s\""
 
 #: builtin/pack-objects.c:4177
 msgid "<version>[,<offset>]"
@@ -10923,9 +10914,8 @@ msgid "ignore borrowed objects from alternate object store"
 msgstr ""
 
 #: builtin/pack-objects.c:4185
-#, fuzzy
 msgid "ignore packed objects"
-msgstr "Помилка fsck у запакованому об'єкті"
+msgstr "ігнорувати запаковані обʼєкти"
 
 #: builtin/pack-objects.c:4187
 msgid "limit pack window by objects"
@@ -10940,14 +10930,12 @@ msgid "maximum length of delta chain allowed in the resulting pack"
 msgstr ""
 
 #: builtin/pack-objects.c:4193
-#, fuzzy
 msgid "reuse existing deltas"
-msgstr "Розв’язання дельт"
+msgstr "повторно використати існуючі дельти"
 
 #: builtin/pack-objects.c:4195
-#, fuzzy
 msgid "reuse existing objects"
-msgstr "неможливо прочитати існуючий об’єкт %s"
+msgstr "повторно використати існуючі обʼєкти"
 
 #: builtin/pack-objects.c:4197
 msgid "use OFS_DELTA objects"
@@ -10958,9 +10946,8 @@ msgid "use threads when searching for best delta matches"
 msgstr ""
 
 #: builtin/pack-objects.c:4201
-#, fuzzy
 msgid "do not create an empty pack output"
-msgstr "не переходити до гілки"
+msgstr "не створювати вивід порожнього пакунка"
 
 #: builtin/pack-objects.c:4203
 msgid "read revision arguments from standard input"
@@ -11019,9 +11006,8 @@ msgid "use the sparse reachability algorithm"
 msgstr ""
 
 #: builtin/pack-objects.c:4236
-#, fuzzy
 msgid "create thin packs"
-msgstr "використовуйте тонке пакування"
+msgstr "створити тонкі пакунки"
 
 #: builtin/pack-objects.c:4238
 msgid "create packs suitable for shallow fetches"
@@ -11032,9 +11018,8 @@ msgid "ignore packs that have companion .keep file"
 msgstr ""
 
 #: builtin/pack-objects.c:4242
-#, fuzzy
 msgid "ignore this pack"
-msgstr "використовуйте тонке пакування"
+msgstr "ігнорувати цей пакунок"
 
 #: builtin/pack-objects.c:4244
 msgid "pack compression level"
@@ -11057,9 +11042,8 @@ msgid "write a bitmap index if possible"
 msgstr ""
 
 #: builtin/pack-objects.c:4258
-#, fuzzy
 msgid "handling for missing objects"
-msgstr "неможливо прочитати існуючий об’єкт %s"
+msgstr "обробка для відсутніх обʼєктів"
 
 #: builtin/pack-objects.c:4261
 msgid "do not pack objects in promisor packfiles"
@@ -11129,9 +11113,8 @@ msgid "cannot use --max-pack-size with --cruft"
 msgstr ""
 
 #: builtin/pack-objects.c:4452
-#, fuzzy
 msgid "Enumerating objects"
-msgstr "Індексація об’єктів"
+msgstr "Перерахування обʼєктів"
 
 #: builtin/pack-objects.c:4495
 #, c-format
@@ -11158,9 +11141,8 @@ msgid "pack everything"
 msgstr ""
 
 #: builtin/pack-refs.c:17
-#, fuzzy
 msgid "prune loose refs (default)"
-msgstr "використовувати режим накладення (типово)"
+msgstr "видалити незакріплені посилання (типово)"
 
 #: builtin/patch-id.c:189
 msgid "git patch-id [--stable | --unstable | --verbatim]"
@@ -11200,14 +11182,12 @@ msgid "cannot prune in a precious-objects repo"
 msgstr "неможливо прочитати існуючий об’єкт %s"
 
 #: builtin/pull.c:67
-#, fuzzy
 msgid "git pull [<options>] [<repository> [<refspec>...]]"
-msgstr "git push [<опції>] [<сховище> [<специфікатор посилання>...]]"
+msgstr "git pull [<опції>] [<сховище> [<специфікатор-посилання>...]]"
 
 #: builtin/pull.c:125
-#, fuzzy
 msgid "control for recursive fetching of submodules"
-msgstr "контролювати рекурсивне надсилання підмодулів"
+msgstr "управління рекурсивним отриманням підмодулів"
 
 #: builtin/pull.c:129
 msgid "Options related to merging"
@@ -11238,9 +11218,8 @@ msgid "force overwrite of local branch"
 msgstr ""
 
 #: builtin/pull.c:206
-#, fuzzy
 msgid "number of submodules pulled in parallel"
-msgstr "кількість підмодулів, що клонуються паралельно"
+msgstr "кількість підмодулів, що затягуються паралельно"
 
 #: builtin/pull.c:450
 msgid "There is no candidate for rebasing against among the refs that you just fetched."
@@ -11265,9 +11244,8 @@ msgid ""
 msgstr ""
 
 #: builtin/pull.c:461 builtin/rebase.c:995
-#, fuzzy
 msgid "You are not currently on a branch."
-msgstr "Наразі не знаходитесь в жодній гілці."
+msgstr "Наразі ви не на гілці."
 
 #: builtin/pull.c:463 builtin/pull.c:478
 msgid "Please specify which branch you want to rebase against."
@@ -11286,9 +11264,8 @@ msgid "<remote>"
 msgstr ""
 
 #: builtin/pull.c:468 builtin/pull.c:483 builtin/pull.c:488 scalar.c:410
-#, fuzzy
 msgid "<branch>"
-msgstr "гілка"
+msgstr "<гілка>"
 
 #: builtin/pull.c:476 builtin/rebase.c:993
 msgid "There is no tracking information for the current branch."
@@ -11306,9 +11283,9 @@ msgid ""
 msgstr ""
 
 #: builtin/pull.c:600
-#, fuzzy, c-format
+#, c-format
 msgid "unable to access commit %s"
-msgstr "не вдалося розібрати коміт %s"
+msgstr "не вдалося отримати доступ до коміту %s"
 
 #: builtin/pull.c:905
 msgid "ignoring --verify-signatures for rebase"
@@ -11873,14 +11850,14 @@ msgid "%s requires the merge backend"
 msgstr ""
 
 #: builtin/rebase.c:431
-#, fuzzy, c-format
+#, c-format
 msgid "invalid onto: '%s'"
-msgstr "неприпустимий %s"
+msgstr "неприпустимий onto: \"%s\""
 
 #: builtin/rebase.c:448
-#, fuzzy, c-format
+#, c-format
 msgid "invalid orig-head: '%s'"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неприпустимий orig-head: \"%s\""
 
 #: builtin/rebase.c:473
 #, c-format
@@ -11889,9 +11866,9 @@ msgstr ""
 
 #: builtin/rebase.c:562 builtin/rebase.c:1335 builtin/rm.c:413 sequencer.c:388
 #: sequencer.c:5029
-#, fuzzy, c-format
+#, c-format
 msgid "could not remove '%s'"
-msgstr "не вдалося видалити %s"
+msgstr "не вдалося видалити \"%s\""
 
 #: builtin/rebase.c:599
 msgid ""
@@ -11914,14 +11891,13 @@ msgid ""
 msgstr ""
 
 #: builtin/rebase.c:840
-#, fuzzy, c-format
+#, c-format
 msgid "could not switch to %s"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося переключитись на %s"
 
 #: builtin/rebase.c:919 builtin/rebase.c:935 builtin/rebase.c:952 builtin/rebase.c:1511
-#, fuzzy
 msgid "apply options and merge options cannot be used together"
-msgstr "опції '%s' і '%s' не можна використовувати разом"
+msgstr "apply опції не можна використовувати разом з merge опціями"
 
 #: builtin/rebase.c:969
 #, c-format
@@ -11940,16 +11916,17 @@ msgid ""
 msgstr ""
 
 #: builtin/rebase.c:1003
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "If you wish to set tracking information for this branch you can do so with:\n"
 "\n"
 "    git branch --set-upstream-to=%s/<branch> %s\n"
 "\n"
 msgstr ""
-"Якщо ви хочете зберегти його, створивши нову гілку, то зараз є чудова нагода\n"
-"зробити це за допомогою:\n"
-"git branch <назва-нової-гілки> %s\n"
+"Якщо ви бажаєте налаштувати відстеження для цієї гілки, ви можете зробити це за "
+"допомогою:\n"
+"\n"
+"    git branch --set-upstream-to=%s/<гілка> %s\n"
 "\n"
 
 #: builtin/rebase.c:1016
@@ -12021,9 +11998,8 @@ msgid "skip current patch and continue"
 msgstr ""
 
 #: builtin/rebase.c:1089
-#, fuzzy
 msgid "abort and check out the original branch"
-msgstr "  (використовуйте \"git rebase --abort\", щоб перейти до початкової гілки)"
+msgstr "перервати і перейти до початкової гілки"
 
 #: builtin/rebase.c:1092
 msgid "abort but keep HEAD where it is"
@@ -12082,9 +12058,9 @@ msgid "try to rebase merges instead of skipping them"
 msgstr ""
 
 #: builtin/rebase.c:1144
-#, fuzzy
 msgid "use 'merge-base --fork-point' to refine upstream"
-msgstr "використовуйте <імʼя> замість 'origin' для відстеження першоджерельного сховища"
+msgstr ""
+"використовуйте \"merge-base --fork-point\" для уточнення першоджерельного сховища"
 
 #: builtin/rebase.c:1146
 msgid "use the given merge strategy"
@@ -12129,9 +12105,8 @@ msgid ""
 msgstr ""
 
 #: builtin/rebase.c:1237
-#, fuzzy
 msgid "No rebase in progress?"
-msgstr "перебазовування в процесі; на "
+msgstr "Перебазування не відбувається?"
 
 #: builtin/rebase.c:1240
 msgid "The --edit-todo action can only be used during interactive rebase."
@@ -12148,14 +12123,13 @@ msgid ""
 msgstr ""
 
 #: builtin/rebase.c:1291
-#, fuzzy
 msgid "could not discard worktree changes"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося відкинути зміни робочого дерева"
 
 #: builtin/rebase.c:1316
-#, fuzzy, c-format
+#, c-format
 msgid "could not move back to %s"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося повернутися до %s"
 
 #: builtin/rebase.c:1361
 #, c-format
@@ -12205,29 +12179,27 @@ msgid "--reschedule-failed-exec requires --exec or --interactive"
 msgstr ""
 
 #: builtin/rebase.c:1598
-#, fuzzy, c-format
+#, c-format
 msgid "invalid upstream '%s'"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неприпустиме першоджерельне сховище \"%s\""
 
 #: builtin/rebase.c:1604
-#, fuzzy
 msgid "Could not create new root commit"
-msgstr "Не вдалося записати новий індексний файл."
+msgstr "Не вдалося створити новий кореневий коміт"
 
 #: builtin/rebase.c:1648
-#, fuzzy, c-format
+#, c-format
 msgid "no such branch/commit '%s'"
-msgstr "немає такої гілки: '%s'"
+msgstr "немає такої гілки/коміту \"%s\""
 
 #: builtin/rebase.c:1655 builtin/submodule--helper.c:43 builtin/submodule--helper.c:2384
-#, fuzzy, c-format
+#, c-format
 msgid "No such ref: %s"
-msgstr "немає такої гілки: '%s'"
+msgstr "Немає такого посилання: %s"
 
 #: builtin/rebase.c:1667
-#, fuzzy
 msgid "Could not resolve HEAD to a commit"
-msgstr "не вдалося вирішити %s"
+msgstr "Не вдалося розвʼязати HEAD у коміт"
 
 #: builtin/rebase.c:1683
 #, c-format
@@ -12240,41 +12212,40 @@ msgid "'%s': need exactly one merge base"
 msgstr ""
 
 #: builtin/rebase.c:1695
-#, fuzzy, c-format
+#, c-format
 msgid "Does not point to a valid commit '%s'"
-msgstr "HEAD не вказує на гілку"
+msgstr "Не вказує на припустимий коміт \"%s\""
 
 #: builtin/rebase.c:1716
 msgid "Please commit or stash them."
 msgstr ""
 
 #: builtin/rebase.c:1748
-#, fuzzy
 msgid "HEAD is up to date."
-msgstr "HEAD зараз на"
+msgstr "HEAD знаходиться в актуальному стані"
 
 #: builtin/rebase.c:1750
-#, fuzzy, c-format
+#, c-format
 msgid "Current branch %s is up to date.\n"
-msgstr "Ваша гілка не відрізняється від '%s'.\n"
+msgstr "Поточна гілка %s знаходиться в актуальному стані.\n"
 
 #: builtin/rebase.c:1758
 msgid "HEAD is up to date, rebase forced."
 msgstr ""
 
 #: builtin/rebase.c:1760
-#, fuzzy, c-format
+#, c-format
 msgid "Current branch %s is up to date, rebase forced.\n"
-msgstr "Ваша гілка не відрізняється від '%s'.\n"
+msgstr "Поточна гілка %s знаходиться в актуальному стані, перебазовуйте примусово.\n"
 
 #: builtin/rebase.c:1768
 msgid "The pre-rebase hook refused to rebase."
 msgstr ""
 
 #: builtin/rebase.c:1775
-#, fuzzy, c-format
+#, c-format
 msgid "Changes to %s:\n"
-msgstr "Надсилання до %s\n"
+msgstr "Зміни у %s:\n"
 
 #: builtin/rebase.c:1778
 #, c-format
@@ -12287,9 +12258,8 @@ msgid "First, rewinding head to replay your work on top of it...\n"
 msgstr ""
 
 #: builtin/rebase.c:1815
-#, fuzzy
 msgid "Could not detach HEAD"
-msgstr "У вас немає дійсного HEAD."
+msgstr "Не вдалося відʼєднати HEAD"
 
 #: builtin/rebase.c:1823
 #, c-format
@@ -12297,9 +12267,8 @@ msgid "Fast-forwarded %s to %s.\n"
 msgstr ""
 
 #: builtin/receive-pack.c:35
-#, fuzzy
 msgid "git receive-pack <git-dir>"
-msgstr "отримати пакетну програму"
+msgstr "git receive-pack <git-директорія>"
 
 #: builtin/receive-pack.c:1264
 msgid ""
@@ -12335,14 +12304,12 @@ msgid "quiet"
 msgstr ""
 
 #: builtin/receive-pack.c:2489
-#, fuzzy
 msgid "you must specify a directory"
-msgstr "необхідно вказати шлях(и) для відновлення"
+msgstr "необхідно вказати директорію"
 
 #: builtin/reflog.c:9
-#, fuzzy
 msgid "git reflog [show] [<log-options>] [<ref>]"
-msgstr "git switch [<опції>] [<гілка>]"
+msgstr "git reflog [show] [<лог-опції>] [<посилання>]"
 
 #: builtin/reflog.c:12
 msgid ""
@@ -12362,9 +12329,9 @@ msgid "git reflog exists <ref>"
 msgstr ""
 
 #: builtin/reflog.c:201 builtin/reflog.c:217
-#, fuzzy, c-format
+#, c-format
 msgid "invalid timestamp '%s' given to '--%s'"
-msgstr "не вдається перейменувати тимчасовий файл '*.%s' на '%s'"
+msgstr "неприпустима позначка часу \"%s\" передана до \"--%s\""
 
 #: builtin/reflog.c:246 builtin/reflog.c:366
 msgid "do not actually prune any entries"
@@ -12383,9 +12350,8 @@ msgid "print extra information on screen"
 msgstr ""
 
 #: builtin/reflog.c:255 builtin/reflog.c:259
-#, fuzzy
 msgid "timestamp"
-msgstr "час"
+msgstr "позначка часу"
 
 #: builtin/reflog.c:256
 msgid "prune entries older than the specified time"
@@ -12424,9 +12390,9 @@ msgid "no reflog specified to delete"
 msgstr ""
 
 #: builtin/reflog.c:403
-#, fuzzy, c-format
+#, c-format
 msgid "invalid ref format: %s"
-msgstr "неприпустиме посилання: %s"
+msgstr "неприпустимий формат посилання: %s"
 
 #: builtin/remote.c:19
 msgid ""
@@ -12479,9 +12445,8 @@ msgid "git remote set-url --delete <name> <url>"
 msgstr ""
 
 #: builtin/remote.c:35
-#, fuzzy
 msgid "git remote add [<options>] <name> <url>"
-msgstr "git clone [<опції>] [--] <сховище> [<директорія>]"
+msgstr "git remote add [<опції>] <імʼя> <url>"
 
 #: builtin/remote.c:55
 msgid "git remote set-branches <name> <branch>..."
@@ -12492,19 +12457,16 @@ msgid "git remote set-branches --add <name> <branch>..."
 msgstr ""
 
 #: builtin/remote.c:61
-#, fuzzy
 msgid "git remote show [<options>] <name>"
-msgstr "git checkout [<опції>] <гілка>"
+msgstr "git remote show [<опції>] <імʼя>"
 
 #: builtin/remote.c:66
-#, fuzzy
 msgid "git remote prune [<options>] <name>"
-msgstr "git checkout [<опції>] <гілка>"
+msgstr "git remote prune [<опції>] <імʼя>"
 
 #: builtin/remote.c:71
-#, fuzzy
 msgid "git remote update [<options>] [<group> | <remote>]..."
-msgstr "git checkout [<опції>] [<гілка>] -- <файл>..."
+msgstr "git remote update [<опції>] [<група> | <віддаленe-призначення>]..."
 
 #: builtin/remote.c:102
 #, c-format
@@ -12512,9 +12474,9 @@ msgid "Updating %s"
 msgstr ""
 
 #: builtin/remote.c:104
-#, fuzzy, c-format
+#, c-format
 msgid "Could not fetch %s"
-msgstr "не вдалося вирішити %s"
+msgstr "Не вдалося отримати %s"
 
 #: builtin/remote.c:134
 msgid ""
@@ -12544,9 +12506,8 @@ msgid "branch(es) to track"
 msgstr ""
 
 #: builtin/remote.c:175
-#, fuzzy
 msgid "master branch"
-msgstr "гілка"
+msgstr "master гілка"
 
 #: builtin/remote.c:177
 msgid "set up remote as a mirror to push to or fetch from"
@@ -12561,14 +12522,14 @@ msgid "specifying branches to track makes sense only with fetch mirrors"
 msgstr ""
 
 #: builtin/remote.c:198 builtin/remote.c:725
-#, fuzzy, c-format
+#, c-format
 msgid "remote %s already exists."
-msgstr "робоче дерево '%s' вже існує."
+msgstr "віддалений %s вже існує."
 
 #: builtin/remote.c:243
-#, fuzzy, c-format
+#, c-format
 msgid "Could not setup master '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "Не вдалося налаштувати master \"%s\""
 
 #: builtin/remote.c:303 builtin/remote.c:331 trailer.c:549 trailer.c:554 trailer.c:559
 #, c-format
@@ -12581,28 +12542,27 @@ msgid "unhandled branch.%s.rebase=%s; assuming 'true'"
 msgstr ""
 
 #: builtin/remote.c:371
-#, fuzzy, c-format
+#, c-format
 msgid "Could not get fetch map for refspec %s"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "Не вдалося визначити карту отримання для специфікатора посилання %s"
 
 #: builtin/remote.c:468 builtin/remote.c:476
 msgid "(matching)"
 msgstr ""
 
 #: builtin/remote.c:480
-#, fuzzy
 msgid "(delete)"
-msgstr "видалено:"
+msgstr "(видалити)"
 
 #: builtin/remote.c:673
-#, fuzzy, c-format
+#, c-format
 msgid "could not set '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося встановити \"%s\""
 
 #: builtin/remote.c:675 builtin/remote.c:898 builtin/remote.c:906 config.c:3459
-#, fuzzy, c-format
+#, c-format
 msgid "could not unset '%s'"
-msgstr "не вдалося вирішити %s"
+msgstr "не вдалося скинути \"%s\""
 
 #: builtin/remote.c:678
 #, c-format
@@ -12613,14 +12573,14 @@ msgid ""
 msgstr ""
 
 #: builtin/remote.c:716 builtin/remote.c:879 builtin/remote.c:988
-#, fuzzy, c-format
+#, c-format
 msgid "No such remote: '%s'"
-msgstr "немає такої гілки: '%s'"
+msgstr "Немає такого віддаленого призначення: \"%s\""
 
 #: builtin/remote.c:735
-#, fuzzy, c-format
+#, c-format
 msgid "Could not rename config section '%s' to '%s'"
-msgstr "не вдалося створити провідні директорії для '%s'"
+msgstr "Не вдалося перейменувати розділ конфігурації з \"%s\" на \"%s\""
 
 #: builtin/remote.c:756
 #, c-format
@@ -12656,9 +12616,9 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: builtin/remote.c:939
-#, fuzzy, c-format
+#, c-format
 msgid "Could not remove config section '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "Не вдалося видалити секцію конфігурації \"%s\""
 
 #: builtin/remote.c:1049
 #, c-format
@@ -12666,9 +12626,8 @@ msgid " new (next fetch will store in remotes/%s)"
 msgstr ""
 
 #: builtin/remote.c:1052
-#, fuzzy
 msgid " tracked"
-msgstr "Невідстежувані файли"
+msgstr " відстежується"
 
 #: builtin/remote.c:1054
 msgid " skipped"
@@ -12688,9 +12647,9 @@ msgid "invalid branch.%s.merge; cannot rebase onto > 1 branch"
 msgstr ""
 
 #: builtin/remote.c:1108
-#, fuzzy, c-format
+#, c-format
 msgid "rebases interactively onto remote %s"
-msgstr "запросити атомарну транзакцію на віддаленій стороні"
+msgstr "перебазувати інтерактивно у віддалену %s"
 
 #: builtin/remote.c:1110
 #, c-format
@@ -12722,14 +12681,12 @@ msgid "create"
 msgstr ""
 
 #: builtin/remote.c:1169
-#, fuzzy
 msgid "delete"
-msgstr "видалено:"
+msgstr "видалити"
 
 #: builtin/remote.c:1173
-#, fuzzy
 msgid "up to date"
-msgstr "не вдалося оновити %s"
+msgstr "в актуальному стані"
 
 #: builtin/remote.c:1176
 msgid "fast-forwardable"
@@ -12787,18 +12744,17 @@ msgid "  Push  URL: %s"
 msgstr ""
 
 #: builtin/remote.c:1313 builtin/remote.c:1315 builtin/remote.c:1317
-#, fuzzy, c-format
+#, c-format
 msgid "  HEAD branch: %s"
-msgstr "HEAD (немає гілки)"
+msgstr "HEAD гілка: %s"
 
 #: builtin/remote.c:1313
 msgid "(not queried)"
 msgstr ""
 
 #: builtin/remote.c:1315
-#, fuzzy
 msgid "(unknown)"
-msgstr "невідомо:"
+msgstr "(невідомо)"
 
 #: builtin/remote.c:1319
 #, c-format
@@ -12806,12 +12762,12 @@ msgid "  HEAD branch (remote HEAD is ambiguous, may be one of the following):\n"
 msgstr ""
 
 #: builtin/remote.c:1332
-#, fuzzy, c-format
+#, c-format
 msgid "  Remote branch:%s"
 msgid_plural "  Remote branches:%s"
-msgstr[0] "Скинути гілку '%s'\n"
-msgstr[1] "Скинути гілку '%s'\n"
-msgstr[2] "Скинути гілку '%s'\n"
+msgstr[0] " Віддалена гілка:%s"
+msgstr[1] " Віддалені гілки:%s"
+msgstr[2] " Віддалених гілок:%s"
 
 #: builtin/remote.c:1335 builtin/remote.c:1361
 msgid " (status not queried)"
@@ -12829,12 +12785,12 @@ msgid "  Local refs will be mirrored by 'git push'"
 msgstr ""
 
 #: builtin/remote.c:1358
-#, fuzzy, c-format
+#, c-format
 msgid "  Local ref configured for 'git push'%s:"
 msgid_plural "  Local refs configured for 'git push'%s:"
-msgstr[0] "першоджерельне сховище не налаштовано для гілки '%s'"
-msgstr[1] "першоджерельне сховище не налаштовано для гілки '%s'"
-msgstr[2] "першоджерельне сховище не налаштовано для гілки '%s'"
+msgstr[0] "  Локальне посилання налаштовано для \"git push\"%s:"
+msgstr[1] "  Локальних посилання налаштовано для \"git push\"%s:"
+msgstr[2] "  Локальних посилань налаштовано для \"git push\"%s:"
 
 #: builtin/remote.c:1379
 msgid "set refs/remotes/<name>/HEAD according to remote"
