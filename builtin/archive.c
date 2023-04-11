@@ -5,6 +5,7 @@
 #include "cache.h"
 #include "builtin.h"
 #include "archive.h"
+#include "gettext.h"
 #include "transport.h"
 #include "parse-options.h"
 #include "pkt-line.h"
@@ -81,7 +82,7 @@ static int run_remote_archiver(int argc, const char **argv,
 int cmd_archive(int argc, const char **argv, const char *prefix)
 {
 	const char *exec = "git-upload-archive";
-	const char *output = NULL;
+	char *output = NULL;
 	const char *remote = NULL;
 	struct option local_opts[] = {
 		OPT_FILENAME('o', "output", &output,
@@ -106,5 +107,6 @@ int cmd_archive(int argc, const char **argv, const char *prefix)
 
 	setvbuf(stderr, NULL, _IOLBF, BUFSIZ);
 
+	UNLEAK(output);
 	return write_archive(argc, argv, prefix, the_repository, output, 0);
 }

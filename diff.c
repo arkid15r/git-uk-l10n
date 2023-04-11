@@ -2,8 +2,11 @@
  * Copyright (C) 2005 Junio C Hamano
  */
 #include "cache.h"
+#include "abspath.h"
 #include "alloc.h"
 #include "config.h"
+#include "environment.h"
+#include "gettext.h"
 #include "tempfile.h"
 #include "quote.h"
 #include "diff.h"
@@ -30,7 +33,9 @@
 #include "help.h"
 #include "promisor-remote.h"
 #include "dir.h"
+#include "setup.h"
 #include "strmap.h"
+#include "wrapper.h"
 
 #ifdef NO_FAST_WORKING_DIRECTORY
 #define FAST_WORKING_DIRECTORY 0
@@ -3376,6 +3381,17 @@ void diff_set_mnemonic_prefix(struct diff_options *options, const char *a, const
 		options->b_prefix = b;
 }
 
+void diff_set_noprefix(struct diff_options *options)
+{
+	options->a_prefix = options->b_prefix = "";
+}
+
+void diff_set_default_prefix(struct diff_options *options)
+{
+	options->a_prefix = "a/";
+	options->b_prefix = "b/";
+}
+
 struct userdiff_driver *get_textconv(struct repository *r,
 				     struct diff_filespec *one)
 {
@@ -4353,7 +4369,7 @@ static int similarity_index(struct diff_filepair *p)
 static const char *diff_abbrev_oid(const struct object_id *oid, int abbrev)
 {
 	if (startup_info->have_repository)
-		return find_unique_abbrev(oid, abbrev);
+		return repo_find_unique_abbrev(the_repository, oid, abbrev);
 	else {
 		char *hex = oid_to_hex(oid);
 		if (abbrev < 0)
@@ -4676,10 +4692,9 @@ void repo_diff_setup(struct repository *r, struct diff_options *options)
 		options->flags.ignore_untracked_in_submodules = 1;
 
 	if (diff_no_prefix) {
-		options->a_prefix = options->b_prefix = "";
+		diff_set_noprefix(options);
 	} else if (!diff_mnemonic_prefix) {
-		options->a_prefix = "a/";
-		options->b_prefix = "b/";
+		diff_set_default_prefix(options);
 	}
 
 	options->color_moved = diff_color_moved_default;
@@ -4990,7 +5005,7 @@ static int diff_opt_find_object(const struct option *option,
 	struct object_id oid;
 
 	BUG_ON_OPT_NEG(unset);
-	if (get_oid(arg, &oid))
+	if (repo_get_oid(the_repository, arg, &oid))
 		return error(_("unable to resolve '%s'"), arg);
 
 	if (!opt->objfind)
@@ -5263,8 +5278,18 @@ static int diff_opt_no_prefix(const struct option *opt,
 
 	BUG_ON_OPT_NEG(unset);
 	BUG_ON_OPT_ARG(optarg);
-	options->a_prefix = "";
-	options->b_prefix = "";
+	diff_set_noprefix(options);
+	return 0;
+}
+
+static int diff_opt_default_prefix(const struct option *opt,
+				   const char *optarg, int unset)
+{
+	struct diff_options *options = opt->value;
+
+	BUG_ON_OPT_NEG(unset);
+	BUG_ON_OPT_ARG(optarg);
+	diff_set_default_prefix(options);
 	return 0;
 }
 
@@ -5557,6 +5582,9 @@ struct option *add_diff_options(const struct option *opts,
 		OPT_CALLBACK_F(0, "no-prefix", options, NULL,
 			       N_("do not show any source or destination prefix"),
 			       PARSE_OPT_NONEG | PARSE_OPT_NOARG, diff_opt_no_prefix),
+		OPT_CALLBACK_F(0, "default-prefix", options, NULL,
+			       N_("use default prefixes a/ and b/"),
+			       PARSE_OPT_NONEG | PARSE_OPT_NOARG, diff_opt_default_prefix),
 		OPT_INTEGER_F(0, "inter-hunk-context", &options->interhunkcontext,
 			      N_("show context between diff hunks up to the specified number of lines"),
 			      PARSE_OPT_NONEG),
@@ -6862,7 +6890,7 @@ void diffcore_std(struct diff_options *options)
 	 * If no prefetching occurs, diffcore_rename() will prefetch if it
 	 * decides that it needs inexact rename detection.
 	 */
-	if (options->repo == the_repository && has_promisor_remote() &&
+	if (options->repo == the_repository && repo_has_promisor_remote(the_repository) &&
 	    (options->output_format & output_formats_to_prefetch ||
 	     options->pickaxe_opts & DIFF_PICKAXE_KINDS_MASK))
 		diff_queued_diff_prefetch(options->repo);

@@ -1,6 +1,8 @@
 #include "cache.h"
 #include "add-interactive.h"
 #include "alloc.h"
+#include "environment.h"
+#include "gettext.h"
 #include "strbuf.h"
 #include "run-command.h"
 #include "strvec.h"
@@ -415,7 +417,7 @@ static int parse_diff(struct add_p_state *s, const struct pathspec *ps)
 		strvec_push(&args,
 			    /* could be on an unborn branch */
 			    !strcmp("HEAD", s->revision) &&
-			    get_oid("HEAD", &oid) ?
+			    repo_get_oid(the_repository, "HEAD", &oid) ?
 			    empty_tree_oid_hex() : s->revision);
 	}
 	color_arg_index = args.nr;
@@ -484,7 +486,8 @@ static int parse_diff(struct add_p_state *s, const struct pathspec *ps)
 		if (!eol)
 			eol = pend;
 
-		if (starts_with(p, "diff ")) {
+		if (starts_with(p, "diff ") ||
+		    starts_with(p, "* Unmerged path ")) {
 			complete_file(marker, hunk);
 			ALLOC_GROW_BY(s->file_diff, s->file_diff_nr, 1,
 				   file_diff_alloc);

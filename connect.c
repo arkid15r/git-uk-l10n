@@ -1,6 +1,8 @@
 #include "git-compat-util.h"
 #include "cache.h"
 #include "config.h"
+#include "environment.h"
+#include "gettext.h"
 #include "hex.h"
 #include "pkt-line.h"
 #include "quote.h"
@@ -31,7 +33,8 @@ static int check_ref(const char *name, unsigned int flags)
 		return 0;
 
 	/* REF_NORMAL means that we don't want the magic fake tag refs */
-	if ((flags & REF_NORMAL) && check_refname_format(name, 0))
+	if ((flags & REF_NORMAL) && check_refname_format(name,
+							 REFNAME_ALLOW_ONELEVEL))
 		return 0;
 
 	/* REF_HEADS means that we want regular branch heads */
@@ -1407,6 +1410,7 @@ static void fill_ssh_args(struct child_process *conn, const char *ssh_host,
  * the connection failed).
  */
 struct child_process *git_connect(int fd[2], const char *url,
+				  const char *name,
 				  const char *prog, int flags)
 {
 	char *hostandport, *path;
@@ -1416,10 +1420,11 @@ struct child_process *git_connect(int fd[2], const char *url,
 
 	/*
 	 * NEEDSWORK: If we are trying to use protocol v2 and we are planning
-	 * to perform a push, then fallback to v0 since the client doesn't know
-	 * how to push yet using v2.
+	 * to perform any operation that doesn't involve upload-pack (i.e., a
+	 * fetch, ls-remote, etc), then fallback to v0 since we don't know how
+	 * to do anything else (like push or remote archive) via v2.
 	 */
-	if (version == protocol_v2 && !strcmp("git-receive-pack", prog))
+	if (version == protocol_v2 && strcmp("git-upload-pack", name))
 		version = protocol_v0;
 
 	/* Without this we cannot rely on waitpid() to tell
