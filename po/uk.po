@@ -1,6 +1,7 @@
-# Ukrainian translations for Git package.
-# Переклад українською для пакету Git.
+# Ukrainian translation for Git package.
+# Український переклад пакету Git.
 # Copyright (c) 2023 Arkadii Yakovets.
+# Copyright (c) 2023 Kateryna Golovanova.
 # This file is distributed under the same license as the Git package.
 #
 msgid ""
@@ -3169,7 +3170,7 @@ msgstr ""
 #: builtin/blame.c:968
 msgid "--progress can't be used with --incremental or porcelain formats"
 msgstr ""
-"-—progress не можна використовувати з форматами -—incremental або porcelain"
+"--progress не можна використовувати з форматами --incremental або porcelain"
 
 #. TRANSLATORS: This string is used to tell us the
 #. maximum display width for a relative timestamp in
@@ -3951,7 +3952,7 @@ msgstr ""
 msgid ""
 "git check-attr --stdin [-z] [--source <tree-ish>] [-a | --all | <attr>...]"
 msgstr ""
-"git check-attr -—stdin [-z] [-—source <деревоподібне джерело>] [-a | -—all | "
+"git check-attr --stdin [-z] [--source <деревоподібне джерело>] [-a | --all | "
 "<атрибут>...]"
 
 #: builtin/check-attr.c:26
@@ -4034,7 +4035,7 @@ msgstr ""
 
 #: builtin/checkout--worker.c:112
 msgid "git checkout--worker [<options>]"
-msgstr "git checkout —worker [<опції>]"
+msgstr "git checkout--worker [<опції>]"
 
 #: builtin/checkout--worker.c:120 builtin/checkout-index.c:237
 #: builtin/column.c:32 builtin/column.c:33 builtin/submodule--helper.c:1780
@@ -5490,7 +5491,7 @@ msgstr ""
 
 #: builtin/commit.c:451 builtin/commit.c:475 builtin/commit.c:523
 msgid "unable to write new_index file"
-msgstr "не вдалося записати новий файл індексу"
+msgstr "не вдалося записати new_index файл"
 
 #: builtin/commit.c:504
 msgid "cannot do a partial commit during a merge."
@@ -24055,7 +24056,7 @@ msgstr ""
 
 #: sequencer.c:4473
 msgid "could not reset --hard"
-msgstr "не вдалося виконати жорстке скидання"
+msgstr "не вдалося виконати скидання з --hard"
 
 #: sequencer.c:4497
 #, c-format
