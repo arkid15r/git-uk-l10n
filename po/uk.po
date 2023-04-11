@@ -12252,7 +12252,7 @@ msgstr "Немає такого посилання: %s"
 
 #: builtin/rebase.c:1667
 msgid "Could not resolve HEAD to a commit"
-msgstr "Не вдалося розвʼязати HEAD у коміті"
+msgstr "Не вдалося розвʼязати HEAD у коміт"
 
 #: builtin/rebase.c:1683
 #, c-format
