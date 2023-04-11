@@ -12702,7 +12702,7 @@ msgstr ""
 #: builtin/remote.c:1108
 #, c-format
 msgid "rebases interactively onto remote %s"
-msgstr "інтерактивно перебазовує у віддалену %s"
+msgstr "перебазувати інтерактивно у віддалену %s"
 
 #: builtin/remote.c:1110
 #, c-format
