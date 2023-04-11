@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-02-13 17:45-0800\n"
-"PO-Revision-Date: 2023-04-09 15:14-0700\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-04-11 15:11-0700\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -10869,9 +10869,8 @@ msgid "loose object at %s could not be examined"
 msgstr ""
 
 #: builtin/pack-objects.c:3904
-#, fuzzy
 msgid "unable to force loose object"
-msgstr "не вдалося запакувати доданий об’єкт (%d)"
+msgstr "не вдалося примусово вивільнити обʼєкт"
 
 #: builtin/pack-objects.c:4033
 #, c-format
@@ -11142,7 +11141,7 @@ msgstr ""
 
 #: builtin/pack-refs.c:17
 msgid "prune loose refs (default)"
-msgstr "видалити незакріплені посилання (типово)"
+msgstr "видалити вивільнені посилання (типово)"
 
 #: builtin/patch-id.c:189
 msgid "git patch-id [--stable | --unstable | --verbatim]"
@@ -11177,9 +11176,8 @@ msgid "limit traversal to objects outside promisor packfiles"
 msgstr ""
 
 #: builtin/prune.c:165
-#, fuzzy
 msgid "cannot prune in a precious-objects repo"
-msgstr "неможливо прочитати існуючий об’єкт %s"
+msgstr "неможливо виконати видалення в precious-objects сховищі"
 
 #: builtin/pull.c:67
 msgid "git pull [<options>] [<repository> [<refspec>...]]"
@@ -12222,7 +12220,7 @@ msgstr ""
 
 #: builtin/rebase.c:1748
 msgid "HEAD is up to date."
-msgstr "HEAD знаходиться в актуальному стані"
+msgstr "HEAD знаходиться в актуальному стані."
 
 #: builtin/rebase.c:1750
 #, c-format
@@ -12746,7 +12744,7 @@ msgstr ""
 #: builtin/remote.c:1313 builtin/remote.c:1315 builtin/remote.c:1317
 #, c-format
 msgid "  HEAD branch: %s"
-msgstr "HEAD гілка: %s"
+msgstr "  HEAD гілка: %s"
 
 #: builtin/remote.c:1313
 msgid "(not queried)"
@@ -13290,9 +13288,8 @@ msgid "use this format"
 msgstr "використати цей формат"
 
 #: builtin/replace.c:571
-#, fuzzy
 msgid "--format cannot be used when not listing"
-msgstr "шляхи не можуть використовуватись при переключенні гілок"
+msgstr "--format не можна використовувати без list"
 
 #: builtin/replace.c:579
 msgid "-f only makes sense when writing a replacement"
@@ -13847,9 +13844,8 @@ msgid "<w>[,<i1>[,<i2>]]"
 msgstr ""
 
 #: builtin/shortlog.c:393
-#, fuzzy
 msgid "linewrap output"
-msgstr "машинозчитуваний вивід"
+msgstr "обгортати рядки виводу"
 
 #: builtin/shortlog.c:395
 msgid "field"
@@ -13910,9 +13906,8 @@ msgid "synonym to more=-1"
 msgstr ""
 
 #: builtin/show-branch.c:655
-#, fuzzy
 msgid "suppress naming strings"
-msgstr "не звітувати прогрес"
+msgstr "не показувати імʼя"
 
 #: builtin/show-branch.c:657
 msgid "include the current branch"
@@ -16060,9 +16055,8 @@ msgid "unable to dup bundle descriptor"
 msgstr "не вдалося продублювати дескриптор пакунка"
 
 #: bundle.c:364
-#, fuzzy
 msgid "Could not spawn pack-objects"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "Не вдалося розмножити об’єкти пакунків"
 
 #: bundle.c:375
 msgid "pack-objects died"
@@ -17370,9 +17364,9 @@ msgid "could not start thread[0] for '%s'"
 msgstr "не вдалося запустити thread[0] для \"%s\""
 
 #: compat/simple-ipc/ipc-win32.c:861
-#, fuzzy, c-format
+#, c-format
 msgid "wait for hEvent failed for '%s'"
-msgstr "невдала спроба make_cache_entry для шляху '%s'"
+msgstr "очікування на hEvent не вдалося для \"%s\""
 
 #: compat/terminal.c:167
 msgid "cannot resume in the background, please use 'fg' to resume"
@@ -17393,9 +17387,9 @@ msgid ""
 msgstr ""
 
 #: config.c:170
-#, fuzzy, c-format
+#, c-format
 msgid "could not expand include path '%s'"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося визначити include path \"%s\""
 
 #: config.c:181
 msgid "relative config includes must come from files"
@@ -17571,7 +17565,7 @@ msgstr "неправильне булеве значення конфігура�
 #: config.c:1469
 #, c-format
 msgid "failed to expand user dir in: '%s'"
-msgstr "не вдалося розширити директорію користувача в: \"%s\""
+msgstr "не вдалося визначити директорію користувача в: \"%s\""
 
 #: config.c:1478
 #, c-format
@@ -17704,9 +17698,9 @@ msgid "fstat on %s failed"
 msgstr ""
 
 #: config.c:3328
-#, fuzzy, c-format
+#, c-format
 msgid "unable to mmap '%s'%s"
-msgstr "не вдалося прочитати %s"
+msgstr "не вдалося виконати mmap \"%s\"%s"
 
 #: config.c:3338 config.c:3590
 #, c-format
@@ -18150,9 +18144,9 @@ msgid "bad tree object %s"
 msgstr "невірний обʼєкт дерева %s"
 
 #: delta-islands.c:358
-#, fuzzy, c-format
+#, c-format
 msgid "failed to load island regex for '%s': %s"
-msgstr "не вдалося скопіювати файл у '%s'"
+msgstr "не вдалося завантажити island регвир для \"%s\": %s"
 
 #: delta-islands.c:417
 #, c-format
@@ -18400,9 +18394,8 @@ msgid "synonym for '-p --stat'"
 msgstr ""
 
 #: diff.c:5443
-#, fuzzy
 msgid "machine friendly --stat"
-msgstr "машинозчитуваний вивід"
+msgstr "машинний вивід --stat"
 
 #: diff.c:5446
 msgid "output only the last line of --stat"
@@ -19691,9 +19684,9 @@ msgid "'%s' for 'object:type=<type>' is not a valid object type"
 msgstr ""
 
 #: list-objects-filter-options.c:109
-#, fuzzy, c-format
+#, c-format
 msgid "invalid filter-spec '%s'"
-msgstr "неприпустиме посилання: %s"
+msgstr "неприпустима специфікація фільтра \"%s\""
 
 #: list-objects-filter-options.c:125
 #, c-format
@@ -19824,7 +19817,7 @@ msgstr ""
 #: merge-ort.c:2119 merge-recursive.c:1381
 #, c-format
 msgid "Unable to add %s to database"
-msgstr "не вдалося додати %s до бази даних"
+msgstr "Не вдалося додати %s до бази даних"
 
 #: merge-ort.c:2127 merge-recursive.c:1414
 #, c-format
@@ -20460,14 +20453,12 @@ msgid "Finding and deleting unreferenced packfiles"
 msgstr ""
 
 #: midx.c:2060
-#, fuzzy
 msgid "could not start pack-objects"
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "не вдалося розпочати pack-objects"
 
 #: midx.c:2080
-#, fuzzy
 msgid "could not finish pack-objects"
-msgstr "Помилка fsck в об’єктах пакунка"
+msgstr "не вдалося завершити pack-objects"
 
 #: name-hash.c:542
 #, c-format
@@ -20694,9 +20685,9 @@ msgid "write stream object %ld != %<PRIuMAX>"
 msgstr ""
 
 #: object-file.c:2163
-#, fuzzy, c-format
+#, c-format
 msgid "unable to stream deflate new object (%d)"
-msgstr "не вдалося запакувати для передачі новий обʼєкт (%d)"
+msgstr "не вдалося запакувати новий обʼєкт (%d) при передачі"
 
 #: object-file.c:2166
 #, c-format
@@ -20758,9 +20749,9 @@ msgid "hash mismatch for %s (expected %s)"
 msgstr ""
 
 #: object-file.c:2769
-#, fuzzy, c-format
+#, c-format
 msgid "unable to mmap %s"
-msgstr "не вдалося прочитати %s"
+msgstr "не вдалося виконати mmap %s"
 
 #: object-file.c:2775
 #, c-format
@@ -21051,9 +21042,9 @@ msgid "corrupt ewah bitmap: truncated header for bitmap of commit \"%s\""
 msgstr ""
 
 #: pack-bitmap.c:1929
-#, fuzzy, c-format
+#, c-format
 msgid "object '%s' not found in type bitmaps"
-msgstr "обʼєкт \"%s\" не знайдено в bitmap типах"
+msgstr "обʼєкт \"%s\" не знайдено в типах bitmap"
 
 #: pack-bitmap.c:1933
 #, c-format
@@ -21392,9 +21383,9 @@ msgid "invalid parameter for pathspec magic 'prefix'"
 msgstr ""
 
 #: pathspec.c:347
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid pathspec magic '%.*s' in '%s'"
-msgstr "неприпустиме зазначення шляху"
+msgstr "неприпустиме магічне значення \"%.*s\" для специфікатора шляху в \"%s\""
 
 #: pathspec.c:352
 #, c-format
@@ -21693,7 +21684,7 @@ msgid "%s: index file smaller than expected"
 msgstr ""
 
 #: read-cache.c:2346
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unable to map index file%s"
 msgstr "%s: не вдалося зіставити індексний файл%s"
 
@@ -21741,7 +21732,7 @@ msgid "unable to unlink: %s"
 msgstr "не вдалося відʼєднати: %s"
 
 #: read-cache.c:3339
-#, fuzzy, c-format
+#, c-format
 msgid "cannot fix permission bits on '%s'"
 msgstr "неможливо виправити біти дозволу на \"%s\""
 
@@ -22626,9 +22617,9 @@ msgid "cannot strip one component off url '%s'"
 msgstr "неможливо вилучити один компонент з url '%s'"
 
 #: replace-object.c:22
-#, fuzzy, c-format
+#, c-format
 msgid "bad replace ref name: %s"
-msgstr "неприпустиме посилання: %s"
+msgstr "неприпустиме імʼя змінного посилання: %s"
 
 #: replace-object.c:31
 #, c-format
