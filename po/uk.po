@@ -10934,7 +10934,7 @@ msgstr ""
 #: builtin/pack-objects.c:4036 builtin/rev-parse.c:1080
 #, c-format
 msgid "bad revision '%s'"
-msgstr "погана ревізія \"%s\""
+msgstr "невірна ревізія \"%s\""
 
 #: builtin/pack-objects.c:4064
 msgid "unable to add recent objects"
