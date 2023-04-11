@@ -12362,7 +12362,7 @@ msgstr "необхідно вказати директорію"
 
 #: builtin/reflog.c:9
 msgid "git reflog [show] [<log-options>] [<ref>]"
-msgstr "git reflog [показати] [<лог-опції>] [<посилання>]"
+msgstr "git reflog [show] [<лог-опції>] [<посилання>]"
 
 #: builtin/reflog.c:12
 msgid ""
