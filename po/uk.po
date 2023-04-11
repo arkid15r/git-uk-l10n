@@ -12680,7 +12680,7 @@ msgstr ""
 
 #: builtin/remote.c:1052
 msgid " tracked"
-msgstr " відстежуваний"
+msgstr " відстежується"
 
 #: builtin/remote.c:1054
 msgid " skipped"
