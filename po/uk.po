@@ -12289,7 +12289,7 @@ msgstr ""
 #: builtin/rebase.c:1760
 #, c-format
 msgid "Current branch %s is up to date, rebase forced.\n"
-msgstr "Поточна гілка %s знаходиться в актуальному стані, примусове перебазування.\n"
+msgstr "Поточна гілка %s знаходиться в актуальному стані, перебазовуйте примусово.\n"
 
 #: builtin/rebase.c:1768
 msgid "The pre-rebase hook refused to rebase."
