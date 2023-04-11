@@ -11946,7 +11946,7 @@ msgstr ""
 #: builtin/rebase.c:840
 #, c-format
 msgid "could not switch to %s"
-msgstr "не вдалося перейти на %s"
+msgstr "не вдалося переключитись на %s"
 
 #: builtin/rebase.c:919 builtin/rebase.c:935 builtin/rebase.c:952 builtin/rebase.c:1511
 msgid "apply options and merge options cannot be used together"
