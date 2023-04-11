@@ -10802,7 +10802,7 @@ msgstr "переповнення зміщення дельти бази у па�
 #: builtin/pack-objects.c:2018
 #, c-format
 msgid "delta base offset out of bound for %s"
-msgstr "зсув основи дельти виходить за межі для %s"
+msgstr "зміщення бази дельти виходить за межі для %s"
 
 #: builtin/pack-objects.c:2299
 msgid "Counting objects"
