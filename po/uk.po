@@ -12052,7 +12052,7 @@ msgstr ""
 
 #: builtin/rebase.c:1089
 msgid "abort and check out the original branch"
-msgstr "перервати і перейти до оригінальної гілки"
+msgstr "перервати і перейти до початкової гілки"
 
 #: builtin/rebase.c:1092
 msgid "abort but keep HEAD where it is"
