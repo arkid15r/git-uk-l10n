@@ -10875,7 +10875,7 @@ msgstr "не вдалося отримати тип обʼєкта %s у пак�
 #: builtin/pack-objects.c:3377 builtin/pack-objects.c:3390 builtin/pack-objects.c:3514
 #, c-format
 msgid "could not find pack '%s'"
-msgstr "не вдалося знайти пакет \"%s\""
+msgstr "не вдалося знайти пакунок \"%s\""
 
 #: builtin/pack-objects.c:3379
 #, c-format
