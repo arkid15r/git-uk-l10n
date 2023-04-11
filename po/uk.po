@@ -12633,7 +12633,7 @@ msgstr "Немає такого віддаленого призначення: \
 #: builtin/remote.c:735
 #, c-format
 msgid "Could not rename config section '%s' to '%s'"
-msgstr "Could not rename config section \"%s\" to \"%s\""
+msgstr "Не вдалося перейменувати розділ конфігурації \"%s\" на \"%s\""
 
 #: builtin/remote.c:756
 #, c-format
