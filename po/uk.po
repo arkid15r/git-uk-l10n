@@ -10948,7 +10948,7 @@ msgstr ""
 #: builtin/pack-objects.c:4121
 #, c-format
 msgid "bad index version '%s'"
-msgstr "погана версія індексу \"%s\""
+msgstr "невірна версія індексу \"%s\""
 
 #: builtin/pack-objects.c:4177
 msgid "<version>[,<offset>]"
