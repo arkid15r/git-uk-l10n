@@ -21734,7 +21734,7 @@ msgstr "не вдалося відʼєднати: %s"
 #: read-cache.c:3339
 #, c-format
 msgid "cannot fix permission bits on '%s'"
-msgstr "неможливо виправити біти дозволу на “%s”"
+msgstr "неможливо виправити біти дозволу на \"%s\""
 
 #: read-cache.c:3496
 #, c-format
