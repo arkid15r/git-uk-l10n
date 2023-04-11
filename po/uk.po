@@ -11272,7 +11272,7 @@ msgstr ""
 
 #: builtin/pull.c:206
 msgid "number of submodules pulled in parallel"
-msgstr "кількість паралельно стягнутих підмодулів"
+msgstr "кількість підмодулів, що затягуються паралельно"
 
 #: builtin/pull.c:450
 msgid "There is no candidate for rebasing against among the refs that you just fetched."
