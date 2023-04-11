@@ -12841,9 +12841,9 @@ msgstr ""
 #, c-format
 msgid "  Local ref configured for 'git push'%s:"
 msgid_plural "  Local refs configured for 'git push'%s:"
-msgstr[0] "Локальне посилання налаштовано на \"git push\"%s:"
-msgstr[1] "Локальних посилання налаштовано на \"git push\"%s:"
-msgstr[2] "Локальних посилань налаштовано на \"git push\"%s:"
+msgstr[0] "  Локальне посилання налаштовано для \"git push\"%s:"
+msgstr[1] "  Локальних посилання налаштовано для \"git push\"%s:"
+msgstr[2] "  Локальних посилань налаштовано для \"git push\"%s:"
 
 #: builtin/remote.c:1379
 msgid "set refs/remotes/<name>/HEAD according to remote"
