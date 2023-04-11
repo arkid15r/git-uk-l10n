@@ -10676,7 +10676,7 @@ msgstr ""
 #: builtin/notes.c:878
 #, c-format
 msgid "failed to store link to current notes ref (%s)"
-msgstr "не вдалося зберегти посилання на поточні нотатки посилання (%s)"
+msgstr "не вдалося зберегти ланку на поточні нотатки посилання (%s)"
 
 #: builtin/notes.c:880
 #, c-format
@@ -10761,7 +10761,7 @@ msgstr ""
 #: builtin/pack-objects.c:1039
 #, c-format
 msgid "expected object at offset %<PRIuMAX> in pack %s"
-msgstr "очікуваний обʼєкт на зміщенні %<PRIuMAX> у пакунку %s"
+msgstr "очікувався обʼєкт на зміщенні %<PRIuMAX> пакунка %s"
 
 #: builtin/pack-objects.c:1163
 msgid "disabling bitmap writing, packs are split due to pack.packSizeLimit"
@@ -10769,7 +10769,7 @@ msgstr ""
 
 #: builtin/pack-objects.c:1176
 msgid "Writing objects"
-msgstr "Написання обʼєктів"
+msgstr "Запис обʼєктів"
 
 #: builtin/pack-objects.c:1248 builtin/update-index.c:99
 #, c-format
@@ -10779,7 +10779,7 @@ msgstr "не вдалося виконати stat %s"
 #: builtin/pack-objects.c:1256 object-file.c:2067
 #, c-format
 msgid "failed utime() on %s"
-msgstr "невдалий utime() на %s"
+msgstr "не вдалося виконати utime() на %s"
 
 #: builtin/pack-objects.c:1285
 msgid "failed to write bitmap index"
@@ -10797,12 +10797,12 @@ msgstr ""
 #: builtin/pack-objects.c:2009
 #, c-format
 msgid "delta base offset overflow in pack for %s"
-msgstr "переповнення зсуву основи дельти у пакунку для %s"
+msgstr "переповнення зміщення дельти бази у пакунку для %s"
 
 #: builtin/pack-objects.c:2018
 #, c-format
 msgid "delta base offset out of bound for %s"
-msgstr "зсув основи дельти виходить за межі для %s"
+msgstr "зміщення бази дельти виходить за межі для %s"
 
 #: builtin/pack-objects.c:2299
 msgid "Counting objects"
@@ -10870,12 +10870,12 @@ msgstr ""
 #: builtin/pack-objects.c:3248
 #, c-format
 msgid "could not get type of object %s in pack %s"
-msgstr "не вдалося отримати тип обєкта %s у пакеті %s"
+msgstr "не вдалося отримати тип обʼєкта %s у пакунку %s"
 
 #: builtin/pack-objects.c:3377 builtin/pack-objects.c:3390 builtin/pack-objects.c:3514
 #, c-format
 msgid "could not find pack '%s'"
-msgstr "не вдалося знайти пакет \"%s\""
+msgstr "не вдалося знайти пакунок \"%s\""
 
 #: builtin/pack-objects.c:3379
 #, c-format
@@ -10892,7 +10892,7 @@ msgstr "не вдалося додати марні обʼєкти"
 
 #: builtin/pack-objects.c:3570
 msgid "Traversing cruft objects"
-msgstr "Проходження марних обʼєктів "
+msgstr "Проходження по марним обʼєктам"
 
 #: builtin/pack-objects.c:3656
 #, c-format
@@ -10934,7 +10934,7 @@ msgstr ""
 #: builtin/pack-objects.c:4036 builtin/rev-parse.c:1080
 #, c-format
 msgid "bad revision '%s'"
-msgstr "погана ревізія \"%s\""
+msgstr "невірна ревізія \"%s\""
 
 #: builtin/pack-objects.c:4064
 msgid "unable to add recent objects"
@@ -10948,7 +10948,7 @@ msgstr ""
 #: builtin/pack-objects.c:4121
 #, c-format
 msgid "bad index version '%s'"
-msgstr "погана версія індексу \"%s\""
+msgstr "невірна версія індексу \"%s\""
 
 #: builtin/pack-objects.c:4177
 msgid "<version>[,<offset>]"
@@ -11195,7 +11195,7 @@ msgstr ""
 
 #: builtin/pack-refs.c:17
 msgid "prune loose refs (default)"
-msgstr "видалити вільні посилання (типово)"
+msgstr "видалити незакріплені посилання (типово)"
 
 #: builtin/patch-id.c:189
 msgid "git patch-id [--stable | --unstable | --verbatim]"
@@ -11240,7 +11240,7 @@ msgstr "git pull [<опції>] [<сховище> [<специфікатор-п�
 
 #: builtin/pull.c:125
 msgid "control for recursive fetching of submodules"
-msgstr "управління для рекурсивного отримання підмодулів"
+msgstr "управління рекурсивним отриманням підмодулів"
 
 #: builtin/pull.c:129
 msgid "Options related to merging"
@@ -11272,7 +11272,7 @@ msgstr ""
 
 #: builtin/pull.c:206
 msgid "number of submodules pulled in parallel"
-msgstr "кількість паралельно стягнутих підмодулів"
+msgstr "кількість підмодулів, що затягуються паралельно"
 
 #: builtin/pull.c:450
 msgid "There is no candidate for rebasing against among the refs that you just fetched."
@@ -11298,7 +11298,7 @@ msgstr ""
 
 #: builtin/pull.c:461 builtin/rebase.c:995
 msgid "You are not currently on a branch."
-msgstr "Наразі ви не перебуваєте на гілці."
+msgstr "Наразі ви не на гілці."
 
 #: builtin/pull.c:463 builtin/pull.c:478
 msgid "Please specify which branch you want to rebase against."
@@ -11905,7 +11905,7 @@ msgstr ""
 #: builtin/rebase.c:431
 #, c-format
 msgid "invalid onto: '%s'"
-msgstr "неприпустимий на: \"%s\""
+msgstr "неприпустимий onto: \"%s\""
 
 #: builtin/rebase.c:448
 #, c-format
@@ -11946,11 +11946,11 @@ msgstr ""
 #: builtin/rebase.c:840
 #, c-format
 msgid "could not switch to %s"
-msgstr "не вдалося перейти на %s"
+msgstr "не вдалося переключитись на %s"
 
 #: builtin/rebase.c:919 builtin/rebase.c:935 builtin/rebase.c:952 builtin/rebase.c:1511
 msgid "apply options and merge options cannot be used together"
-msgstr "застосувати опції та обʼєднати опції не можна використовувати разом"
+msgstr "apply опції не можна використовувати разом з merge опціями"
 
 #: builtin/rebase.c:969
 #, c-format
@@ -11976,7 +11976,7 @@ msgid ""
 "    git branch --set-upstream-to=%s/<branch> %s\n"
 "\n"
 msgstr ""
-"Якщо ви бажаєте встановити відстеження для цієї гілки, ви можете зробити це за "
+"Якщо ви бажаєте налаштувати відстеження для цієї гілки, ви можете зробити це за "
 "допомогою:\n"
 "\n"
 "    git branch --set-upstream-to=%s/<гілка> %s\n"
@@ -12052,7 +12052,7 @@ msgstr ""
 
 #: builtin/rebase.c:1089
 msgid "abort and check out the original branch"
-msgstr "перервати і перейти до оригінальної гілки"
+msgstr "перервати і перейти до початкової гілки"
 
 #: builtin/rebase.c:1092
 msgid "abort but keep HEAD where it is"
@@ -12113,7 +12113,7 @@ msgstr ""
 #: builtin/rebase.c:1144
 msgid "use 'merge-base --fork-point' to refine upstream"
 msgstr ""
-"використовувати \"merge-base --fork-point\" для уточнення першоджерельного сховища"
+"використовуйте \"merge-base --fork-point\" для уточнення першоджерельного сховища"
 
 #: builtin/rebase.c:1146
 msgid "use the given merge strategy"
@@ -12159,7 +12159,7 @@ msgstr ""
 
 #: builtin/rebase.c:1237
 msgid "No rebase in progress?"
-msgstr "Перебазування не виконується?"
+msgstr "Перебазування не відбувається?"
 
 #: builtin/rebase.c:1240
 msgid "The --edit-todo action can only be used during interactive rebase."
@@ -12177,7 +12177,7 @@ msgstr ""
 
 #: builtin/rebase.c:1291
 msgid "could not discard worktree changes"
-msgstr "не вдалося відкинути зміни в робочому дереві"
+msgstr "не вдалося відкинути зміни робочого дерева"
 
 #: builtin/rebase.c:1316
 #, c-format
@@ -12252,7 +12252,7 @@ msgstr "Немає такого посилання: %s"
 
 #: builtin/rebase.c:1667
 msgid "Could not resolve HEAD to a commit"
-msgstr "Не вдалося розвʼязати HEAD у коміті"
+msgstr "Не вдалося розвʼязати HEAD у коміт"
 
 #: builtin/rebase.c:1683
 #, c-format
@@ -12289,7 +12289,7 @@ msgstr ""
 #: builtin/rebase.c:1760
 #, c-format
 msgid "Current branch %s is up to date, rebase forced.\n"
-msgstr "Поточна гілка %s знаходиться в актуальному стані, примусове перебазування.\n"
+msgstr "Поточна гілка %s знаходиться в актуальному стані, перебазовуйте примусово.\n"
 
 #: builtin/rebase.c:1768
 msgid "The pre-rebase hook refused to rebase."
@@ -12362,7 +12362,7 @@ msgstr "необхідно вказати директорію"
 
 #: builtin/reflog.c:9
 msgid "git reflog [show] [<log-options>] [<ref>]"
-msgstr "git reflog [показати] [<лог-опції>] [<посилання>]"
+msgstr "git reflog [show] [<лог-опції>] [<посилання>]"
 
 #: builtin/reflog.c:12
 msgid ""
@@ -12680,7 +12680,7 @@ msgstr ""
 
 #: builtin/remote.c:1052
 msgid " tracked"
-msgstr " відстежуваний"
+msgstr " відстежується"
 
 #: builtin/remote.c:1054
 msgid " skipped"
@@ -12702,7 +12702,7 @@ msgstr ""
 #: builtin/remote.c:1108
 #, c-format
 msgid "rebases interactively onto remote %s"
-msgstr "інтерактивно перебазовує у віддалену %s"
+msgstr "перебазувати інтерактивно у віддалену %s"
 
 #: builtin/remote.c:1110
 #, c-format
@@ -12841,9 +12841,9 @@ msgstr ""
 #, c-format
 msgid "  Local ref configured for 'git push'%s:"
 msgid_plural "  Local refs configured for 'git push'%s:"
-msgstr[0] "Локальне посилання налаштовано на \"git push\"%s:"
-msgstr[1] "Локальних посилання налаштовано на \"git push\"%s:"
-msgstr[2] "Локальних посилань налаштовано на \"git push\"%s:"
+msgstr[0] "  Локальне посилання налаштовано для \"git push\"%s:"
+msgstr[1] "  Локальних посилання налаштовано для \"git push\"%s:"
+msgstr[2] "  Локальних посилань налаштовано для \"git push\"%s:"
 
 #: builtin/remote.c:1379
 msgid "set refs/remotes/<name>/HEAD according to remote"
