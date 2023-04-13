@@ -26485,7 +26485,7 @@ msgstr "(%s) не вдалося закрити канал до \"%s\""
 
 #: git-send-email.perl:2057
 msgid "cannot send message as 7bit"
-msgstr "не вдалося надіслати повідомлення у форматі 7bit"
+msgstr "неможливо надіслати повідомлення як 7bit"
 
 #: git-send-email.perl:2065
 msgid "invalid transfer encoding"
