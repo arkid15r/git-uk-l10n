@@ -26441,7 +26441,7 @@ msgstr "Результат: "
 
 #: git-send-email.perl:1734
 msgid "Result: OK\n"
-msgstr "Результат: OK.\n"
+msgstr "Результат: OK\n"
 
 #: git-send-email.perl:1751
 #, perl-format
