@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-04-11 15:11-0700\n"
+"PO-Revision-Date: 2023-04-12 20:32-0700\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -23,7 +23,7 @@ msgstr ""
 #: add-interactive.c:384
 #, c-format
 msgid "Huh (%s)?"
-msgstr ""
+msgstr "Га (%s)?"
 
 #: add-interactive.c:537 add-interactive.c:845 builtin/merge.c:401
 #: builtin/rebase.c:1321 builtin/rebase.c:1758 reset.c:139 sequencer.c:3619
@@ -33,11 +33,11 @@ msgstr "не вдалося прочитати індекс"
 
 #: add-interactive.c:591
 msgid "binary"
-msgstr ""
+msgstr "бінарний"
 
 #: add-interactive.c:649
 msgid "nothing"
-msgstr ""
+msgstr "нічого"
 
 #: add-interactive.c:650
 msgid "unchanged"
@@ -45,7 +45,7 @@ msgstr "без змін"
 
 #: add-interactive.c:687
 msgid "Update"
-msgstr ""
+msgstr "Оновити"
 
 #: add-interactive.c:708 add-interactive.c:712 add-interactive.c:900
 #, c-format
@@ -68,7 +68,7 @@ msgstr[2] "оновлено %d шляхів\n"
 #: add-interactive.c:739
 #, c-format
 msgid "note: %s is untracked now.\n"
-msgstr ""
+msgstr "примітка: %s зараз не відстежується.\n"
 
 #: add-interactive.c:744 apply.c:4153 builtin/checkout.c:317
 #: builtin/reset.c:175
@@ -78,7 +78,7 @@ msgstr "невдала спроба make_cache_entry для шляху '%s'"
 
 #: add-interactive.c:774
 msgid "Revert"
-msgstr ""
+msgstr "Вивернути"
 
 #: add-interactive.c:790
 msgid "Could not parse HEAD^{tree}"
@@ -88,9 +88,9 @@ msgstr "Не вдалося розібрати HEAD^{tree}"
 #, c-format
 msgid "reverted %d path\n"
 msgid_plural "reverted %d paths\n"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "вивернуто %d шлях\n"
+msgstr[1] "вивернуто %d шляхи\n"
+msgstr[2] "вивернуто %d шляхів\n"
 
 #: add-interactive.c:879
 #, c-format
@@ -99,7 +99,7 @@ msgstr "Невідстежуваних файлів немає\n"
 
 #: add-interactive.c:883
 msgid "Add untracked"
-msgstr ""
+msgstr "Додати невідстежувані"
 
 #: add-interactive.c:910
 #, c-format
@@ -117,7 +117,7 @@ msgstr "ігноруються незлиті записи: %s"
 #: add-interactive.c:952 add-patch.c:1776
 #, c-format
 msgid "Only binary files changed.\n"
-msgstr ""
+msgstr "Змінилися лише бінарні файли.\n"
 
 #: add-interactive.c:954 add-patch.c:1774
 #, c-format
@@ -130,19 +130,19 @@ msgstr "Оновлення патча"
 
 #: add-interactive.c:997
 msgid "Review diff"
-msgstr ""
+msgstr "Переглянути різницю"
 
 #: add-interactive.c:1024
 msgid "show paths with changes"
-msgstr ""
+msgstr "показати шляхи зі змінами"
 
 #: add-interactive.c:1026
 msgid "add working tree state to the staged set of changes"
-msgstr ""
+msgstr "додати стан робочого дерева до індексу"
 
 #: add-interactive.c:1028
 msgid "revert staged set of changes back to the HEAD version"
-msgstr ""
+msgstr "вивернути зміни індексу до версії HEAD"
 
 #: add-interactive.c:1030
 msgid "pick hunks and update selectively"
@@ -1894,12 +1894,10 @@ msgstr ""
 msgid "not tracking: ambiguous information for ref '%s'"
 msgstr ""
 
-#. #-#-#-#-#  branch.c.po  #-#-#-#-#
 #. TRANSLATORS: This is a line listing a remote with duplicate
 #. refspecs in the advice message below. For RTL languages you'll
 #. probably want to swap the "%s" and leading "  " space around.
 #.
-#. #-#-#-#-#  object-name.c.po  #-#-#-#-#
 #. TRANSLATORS: This is line item of ambiguous object output
 #. from describe_ambiguous_object() above. For RTL languages
 #. you'll probably want to swap the "%s" and leading " " space
@@ -8011,7 +8009,6 @@ msgstr "grep: не вдалося створити потік: %s"
 msgid "invalid number of threads specified (%d) for %s"
 msgstr "невірно вказано кількість потоків (%d) для %s"
 
-#. #-#-#-#-#  grep.c.po  #-#-#-#-#
 #. TRANSLATORS: %s is the configuration
 #. variable for tweaking threads, currently
 #. grep.threads
@@ -20281,7 +20278,7 @@ msgstr ""
 #. conflict in a submodule. The first argument is the submodule
 #. name, and the second argument is the abbreviated id of the
 #. commit that needs to be merged.  For example:
-#.  - go to submodule (mysubmodule), and either merge commit abc1234"
+#. - go to submodule (mysubmodule), and either merge commit abc1234"
 #.
 #: merge-ort.c:4552
 #, c-format
@@ -21110,7 +21107,7 @@ msgstr ""
 #. TRANSLATORS: This is a line of ambiguous commit
 #. object output. E.g.:
 #. *
-#.    "deadbeef commit 2021-01-01 - Some Commit Message"
+#. "deadbeef commit 2021-01-01 - Some Commit Message"
 #.
 #: object-name.c:413
 #, c-format
@@ -21120,7 +21117,7 @@ msgstr "%s коміт %s - %s"
 #. TRANSLATORS: This is a line of ambiguous
 #. tag object output. E.g.:
 #. *
-#.    "deadbeef tag 2022-01-01 - Some Tag Message"
+#. "deadbeef tag 2022-01-01 - Some Tag Message"
 #. *
 #. The second argument is the YYYY-MM-DD found
 #. in the tag.
@@ -21137,7 +21134,7 @@ msgstr "%s тег %s - %s"
 #. tag object output where we couldn't parse
 #. the tag itself. E.g.:
 #. *
-#.    "deadbeef [bad tag, could not parse it]"
+#. "deadbeef [bad tag, could not parse it]"
 #.
 #: object-name.c:445
 #, c-format
