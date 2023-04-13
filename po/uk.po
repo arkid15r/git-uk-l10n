@@ -26446,7 +26446,7 @@ msgstr "Результат: OK\n"
 #: git-send-email.perl:1751
 #, perl-format
 msgid "can't open file %s"
-msgstr "не вдалося відкрити файл %s"
+msgstr "неможливо відкрити файл %s"
 
 #: git-send-email.perl:1799 git-send-email.perl:1819
 #, perl-format
