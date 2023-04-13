@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-04-12 20:32-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-04-12 20:48-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -26437,11 +26437,11 @@ msgstr ""
 
 #: git-send-email.perl:1731
 msgid "Result: "
-msgstr ""
+msgstr "Результат: "
 
 #: git-send-email.perl:1734
 msgid "Result: OK\n"
-msgstr ""
+msgstr "Результат: OK\n"
 
 #: git-send-email.perl:1751
 #, perl-format
@@ -26451,22 +26451,22 @@ msgstr "неможливо відкрити файл %s"
 #: git-send-email.perl:1799 git-send-email.perl:1819
 #, perl-format
 msgid "(mbox) Adding cc: %s from line '%s'\n"
-msgstr ""
+msgstr "(mbox) Додавання cc: %s з рядка \"%s\"\n"
 
 #: git-send-email.perl:1805
 #, perl-format
 msgid "(mbox) Adding to: %s from line '%s'\n"
-msgstr ""
+msgstr "(mbox) Додавання до: %s з рядка \"%s\"\n"
 
 #: git-send-email.perl:1862
 #, perl-format
 msgid "(non-mbox) Adding cc: %s from line '%s'\n"
-msgstr ""
+msgstr "(non-mbox) Додавання cc: %s з рядка \"%s\"\n"
 
 #: git-send-email.perl:1897
 #, perl-format
 msgid "(body) Adding cc: %s from line '%s'\n"
-msgstr ""
+msgstr "(тіло) Додавання cc: %s з рядка \"%s\"\n"
 
 #: git-send-email.perl:2016
 #, perl-format
@@ -26476,7 +26476,7 @@ msgstr "(%s) Не вдалося виконати \"%s\""
 #: git-send-email.perl:2023
 #, perl-format
 msgid "(%s) Adding %s: %s from: '%s'\n"
-msgstr ""
+msgstr "(%s) Додавання %s: %s з: \"%s\"\n"
 
 #: git-send-email.perl:2027
 #, perl-format
@@ -26485,7 +26485,7 @@ msgstr "(%s) не вдалося закрити канал до \"%s\""
 
 #: git-send-email.perl:2057
 msgid "cannot send message as 7bit"
-msgstr ""
+msgstr "неможливо надіслати повідомлення як 7bit"
 
 #: git-send-email.perl:2065
 msgid "invalid transfer encoding"
@@ -26498,6 +26498,9 @@ msgid ""
 "%s\n"
 "warning: no patches were sent\n"
 msgstr ""
+"збій: %s: відхилено %s хуком\n"
+"%s\n"
+"попередження: не було надіслано жодних латок\n"
 
 #: git-send-email.perl:2117 git-send-email.perl:2170 git-send-email.perl:2180
 #, perl-format
@@ -26510,17 +26513,19 @@ msgid ""
 "fatal: %s:%d is longer than 998 characters\n"
 "warning: no patches were sent\n"
 msgstr ""
+"збій: %s:%d довше ніж 998 символів\n"
+"попередження: не було надіслано жодних латок\n"
 
 #: git-send-email.perl:2138
 #, perl-format
 msgid "Skipping %s with backup suffix '%s'.\n"
-msgstr ""
+msgstr "Пропуск %s з резервним суфіксом \"%s\".\n"
 
 #. TRANSLATORS: please keep "[y|N]" as is.
 #: git-send-email.perl:2142
 #, perl-format
 msgid "Do you really want to send %s? [y|N]: "
-msgstr ""
+msgstr "Ви дійсно хочете відправити %s? [y|N]: "
 
 #, c-format
 #~ msgid "unknown option \"%s\""
