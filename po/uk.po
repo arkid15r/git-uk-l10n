@@ -26424,7 +26424,7 @@ msgstr ""
 
 #: git-send-email.perl:1624
 msgid "The required SMTP server is not properly defined."
-msgstr "Необхідний SMTP-сервер не визначено належним чином."
+msgstr "Потрібний SMTP-сервер не визначено належним чином."
 
 #: git-send-email.perl:1671
 #, perl-format
