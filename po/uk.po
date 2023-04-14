@@ -26325,7 +26325,7 @@ msgstr "Не вдалося відкрити %s.final: %s"
 
 #: git-send-email.perl:929
 msgid "Summary email is empty, skipping it\n"
-msgstr "Підсумковий лист порожній, пропустити його\n"
+msgstr "Підсумковий лист порожній, перескочено\n"
 
 #. TRANSLATORS: please keep [y/N] as is.
 #: git-send-email.perl:978
