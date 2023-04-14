@@ -26341,7 +26341,7 @@ msgstr ""
 
 #: git-send-email.perl:1038
 msgid "Which 8bit encoding should I declare [UTF-8]? "
-msgstr "Яке 8-бітне кодування слід оголошувати [UTF-8]? "
+msgstr "Яке 8-бітне кодування слід оголосити [UTF-8]? "
 
 #: git-send-email.perl:1046
 #, perl-format
