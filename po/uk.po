@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-04-12 20:48-0700\n"
+"PO-Revision-Date: 2023-04-13 18:53-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -26268,6 +26268,11 @@ msgid ""
 "    * Saying \"./%s\" if you mean a file; or\n"
 "    * Giving --format-patch option if you mean a range.\n"
 msgstr ""
+"Файл \"%s\" існує, але це також може бути діапазон комітів\n"
+"для яких випускаються латки.  Будь ласка, розтлумачте...\n"
+"\n"
+"    * Вказавши \"./%s\", якщо на увазі мається файл або\n"
+"    * Додавши --format-patch, якщо на увазі мається діапазон.\n"
 
 #: git-send-email.perl:773
 #, perl-format
@@ -26280,11 +26285,14 @@ msgid ""
 "No patch files specified!\n"
 "\n"
 msgstr ""
+"\n"
+"Файли латок не вказано!\n"
+"\n"
 
 #: git-send-email.perl:823
 #, perl-format
 msgid "No subject line in %s?"
-msgstr ""
+msgstr "Немає рядка теми в %s?"
 
 #: git-send-email.perl:834
 #, perl-format
@@ -26299,6 +26307,11 @@ msgid ""
 "\n"
 "Clear the body content if you don't wish to send a summary.\n"
 msgstr ""
+"Рядки, що починаються з \"GIT:\", будуть вилучені.\n"
+"Подумайте про те, щоб додати загальний diffstat або зміст\n"
+"для латки, яку ви пишете.\n"
+"\n"
+"Очистіть вміст тіла, якщо ви не бажаєте надсилати підсумок.\n"
 
 #: git-send-email.perl:869
 #, perl-format
@@ -26312,13 +26325,13 @@ msgstr "Не вдалося відкрити %s.final: %s"
 
 #: git-send-email.perl:929
 msgid "Summary email is empty, skipping it\n"
-msgstr ""
+msgstr "Підсумковий лист порожній, перескочено\n"
 
 #. TRANSLATORS: please keep [y/N] as is.
 #: git-send-email.perl:978
 #, perl-format
 msgid "Are you sure you want to use <%s> [y/N]? "
-msgstr ""
+msgstr "Ви впевнені, що хочете використати <%s> [y/N]? "
 
 #: git-send-email.perl:1033
 msgid ""
@@ -26328,7 +26341,7 @@ msgstr ""
 
 #: git-send-email.perl:1038
 msgid "Which 8bit encoding should I declare [UTF-8]? "
-msgstr ""
+msgstr "Яке 8-бітне кодування слід оголосити [UTF-8]? "
 
 #: git-send-email.perl:1046
 #, perl-format
@@ -26338,15 +26351,19 @@ msgid ""
 "has the template subject '*** SUBJECT HERE ***'. Pass --force if you really "
 "want to send.\n"
 msgstr ""
+"Відмова у надсиланні, тому що латка\n"
+"\t%s\n"
+"має шаблонну тему \"*** SUBJECT HERE ***\". Додайте --force, якщо ви дійсно "
+"хочете відправити.\n"
 
 #: git-send-email.perl:1065
 msgid "To whom should the emails be sent (if anyone)?"
-msgstr ""
+msgstr "Кому слід надсилати електронні листи (якщо комусь)?"
 
 #: git-send-email.perl:1083
 #, perl-format
 msgid "fatal: alias '%s' expands to itself\n"
-msgstr ""
+msgstr "збій: аліас \"%s\" розгортається на самого себе\n"
 
 #: git-send-email.perl:1095
 msgid "Message-ID to be used as In-Reply-To for the first email (if any)? "
@@ -26355,14 +26372,14 @@ msgstr ""
 #: git-send-email.perl:1157 git-send-email.perl:1165
 #, perl-format
 msgid "error: unable to extract a valid address from: %s\n"
-msgstr ""
+msgstr "помилка: не вдалося витягти дійсну адресу з: %s\n"
 
 #. TRANSLATORS: Make sure to include [q] [d] [e] in your
 #. translation. The program will only accept English input
 #. at this point.
 #: git-send-email.perl:1169
 msgid "What to do with this address? ([q]uit|[d]rop|[e]dit): "
-msgstr ""
+msgstr "Що робити з цією адресою? ([q]uit|[d]rop|[e]dit): "
 
 #: git-send-email.perl:1489
 #, perl-format
@@ -26382,13 +26399,24 @@ msgid ""
 "    run 'git config --global sendemail.confirm auto'.\n"
 "\n"
 msgstr ""
+"    Наведений вище список копій було розширено додатковими\n"
+"    адресами, знайденими у повідомленні коміта латки. Зазвичай\n"
+"    send-email запитує перед надсиланням, коли це трапляється.\n"
+"    Цю поведінку можна контролювати за допомогою параметра sendemail."
+"confirm\n"
+"    налаштування конфігурації.\n"
+"\n"
+"    Для отримання додаткової інформації виконайте команду \"git send-email --"
+"help\".\n"
+"Для утримання поточної поведінки, але без цього повідомлення,\n"
+"    виконайте \"git config --global sendemail.confirm auto\".\n"
 
 #. TRANSLATORS: Make sure to include [y] [n] [e] [q] [a] in your
 #. translation. The program will only accept English input
 #. at this point.
 #: git-send-email.perl:1587
 msgid "Send this email? ([y]es|[n]o|[e]dit|[q]uit|[a]ll): "
-msgstr ""
+msgstr "Надіслати цей лист? ([y]es|[n]o|[e]dit|[q]uit|[a]ll): "
 
 #: git-send-email.perl:1590
 msgid "Send this email reply required"
@@ -26396,12 +26424,12 @@ msgstr ""
 
 #: git-send-email.perl:1624
 msgid "The required SMTP server is not properly defined."
-msgstr ""
+msgstr "Потрібний SMTP-сервер не визначено належним чином."
 
 #: git-send-email.perl:1671
 #, perl-format
 msgid "Server does not support STARTTLS! %s"
-msgstr ""
+msgstr "Сервер не підтримує STARTTLS! %s"
 
 #: git-send-email.perl:1676 git-send-email.perl:1680
 #, perl-format
@@ -26411,21 +26439,23 @@ msgstr ""
 #: git-send-email.perl:1689
 msgid "Unable to initialize SMTP properly. Check config and use --smtp-debug."
 msgstr ""
+"Не вдалося правильно ініціалізувати SMTP. Перевірте конфігурацію і "
+"скористайтеся --smtp-debug."
 
 #: git-send-email.perl:1707
 #, perl-format
 msgid "Failed to send %s\n"
-msgstr "Не вдалося відправити %s\n"
+msgstr "Не вдалося надіслати %s\n"
 
 #: git-send-email.perl:1710
 #, perl-format
 msgid "Dry-Sent %s\n"
-msgstr ""
+msgstr "Пробно відправлено %s\n"
 
 #: git-send-email.perl:1710
 #, perl-format
 msgid "Sent %s\n"
-msgstr ""
+msgstr "Відправлено %s\n"
 
 #: git-send-email.perl:1712
 msgid "Dry-OK. Log says:\n"
@@ -26433,7 +26463,7 @@ msgstr ""
 
 #: git-send-email.perl:1712
 msgid "OK. Log says:\n"
-msgstr ""
+msgstr "ОК. Лог каже:\n"
 
 #: git-send-email.perl:1731
 msgid "Result: "
