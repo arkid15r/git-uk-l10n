@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-04-13 18:53-0700\n"
+"PO-Revision-Date: 2023-04-14 17:17-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -26195,22 +26195,22 @@ msgstr ""
 
 #: git-send-email.perl:261
 msgid "the editor exited uncleanly, aborting everything"
-msgstr ""
+msgstr "редактор вийшов нечисто, перервано всі процеси"
 
 #: git-send-email.perl:350
 #, perl-format
 msgid ""
 "'%s' contains an intermediate version of the email you were composing.\n"
-msgstr ""
+msgstr "\"%s\" містить проміжну версію листа, який ви створювали.\n"
 
 #: git-send-email.perl:355
 #, perl-format
 msgid "'%s.final' contains the composed email.\n"
-msgstr ""
+msgstr "\"%s.final\" містить створений лист.\n"
 
 #: git-send-email.perl:488
 msgid "--dump-aliases incompatible with other options\n"
-msgstr ""
+msgstr "--dump-aliases несумісні з іншими опціями\n"
 
 #: git-send-email.perl:566
 msgid ""
@@ -26218,46 +26218,54 @@ msgid ""
 "git-send-email is configured with the sendemail.* options - note the 'e'.\n"
 "Set sendemail.forbidSendmailVariables to false to disable this check.\n"
 msgstr ""
+"збій: знайдено опції конфігурації для \"sendmail\"\n"
+"git-send-email налаштовано з параметрами sendemail.* options - зверніть "
+"увагу на \"e\".\n"
+"Встановіть sendemail.forbidSendmailVariables у false, щоб вимкнути цю "
+"перевірку.\n"
 
 #: git-send-email.perl:571 git-send-email.perl:787
 msgid "Cannot run git format-patch from outside a repository\n"
-msgstr ""
+msgstr "Неможливо запустити git format-patch за межами сховища\n"
 
 #: git-send-email.perl:574
 msgid ""
 "`batch-size` and `relogin` must be specified together (via command-line or "
 "configuration option)\n"
 msgstr ""
+"\"batch-size\" і \"relogin\" повинні бути вказані разом (через командний рядок "
+"або опцію конфігурації)\n"
 
 #: git-send-email.perl:587
 #, perl-format
 msgid "Unknown --suppress-cc field: '%s'\n"
-msgstr ""
+msgstr "Невідоме --suppress-cc поле: \"%s\"\n"
 
 #: git-send-email.perl:618
 #, perl-format
 msgid "Unknown --confirm setting: '%s'\n"
-msgstr ""
+msgstr "Невідомий --confirm параметр: \"%s\"\n"
 
 #: git-send-email.perl:658
 #, perl-format
 msgid "warning: sendmail alias with quotes is not supported: %s\n"
-msgstr ""
+msgstr "попередження: sendmail аліас у лапках не підтримується: %s\n"
 
 #: git-send-email.perl:660
 #, perl-format
 msgid "warning: `:include:` not supported: %s\n"
-msgstr ""
+msgstr "попередження: \":include:\" не підтримується: %s\n"
 
 #: git-send-email.perl:662
 #, perl-format
 msgid "warning: `/file` or `|pipe` redirection not supported: %s\n"
 msgstr ""
+"попередження: \"/file\" або \"|pipe\" перенаправлення не підтримуються: %s\n"
 
 #: git-send-email.perl:667
 #, perl-format
 msgid "warning: sendmail line is not recognized: %s\n"
-msgstr ""
+msgstr "попередження: рядок sendmail не розпізнано: %s\n"
 
 #: git-send-email.perl:752
 #, perl-format
