@@ -26234,7 +26234,7 @@ msgid ""
 "configuration option)\n"
 msgstr ""
 "\"batch-size\" і \"relogin\" повинні бути вказані разом (через командний рядок "
-"або опцію конфігурації)\n"
+"або опції конфігурації)\n"
 
 #: git-send-email.perl:587
 #, perl-format
