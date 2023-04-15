@@ -26195,7 +26195,7 @@ msgstr ""
 
 #: git-send-email.perl:261
 msgid "the editor exited uncleanly, aborting everything"
-msgstr "редактор вийшов нечисто, перервано всі процеси"
+msgstr "редактор вийшов неналежним чином, перервано всі процеси"
 
 #: git-send-email.perl:350
 #, perl-format
