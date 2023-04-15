@@ -26210,7 +26210,7 @@ msgstr "\"%s.final\" містить створений лист.\n"
 
 #: git-send-email.perl:488
 msgid "--dump-aliases incompatible with other options\n"
-msgstr "--dump-aliases несумісні з іншими опціями\n"
+msgstr "--dump-aliases несумісна з іншими опціями\n"
 
 #: git-send-email.perl:566
 msgid ""
