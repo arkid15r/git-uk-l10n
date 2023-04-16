@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-04-14 17:47-0700\n"
+"PO-Revision-Date: 2023-04-15 18:54-0700\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -70,8 +70,7 @@ msgstr[2] "оновлено %d шляхів\n"
 msgid "note: %s is untracked now.\n"
 msgstr "примітка: %s зараз не відстежується.\n"
 
-#: add-interactive.c:744 apply.c:4153 builtin/checkout.c:317
-#: builtin/reset.c:175
+#: add-interactive.c:744 apply.c:4153 builtin/checkout.c:317 builtin/reset.c:175
 #, c-format
 msgid "make_cache_entry failed for path '%s'"
 msgstr "невдала спроба make_cache_entry для шляху '%s'"
@@ -227,33 +226,35 @@ msgstr "не вдалося оновити індекс"
 #: add-interactive.c:1179 builtin/clean.c:807
 #, c-format
 msgid "Bye.\n"
-msgstr ""
+msgstr "До побачення.\n"
 
 #: add-patch.c:37
 #, c-format
 msgid "Stage mode change [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Індексувати зміну режиму [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:38
 #, c-format
 msgid "Stage deletion [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Індексувати видалення [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:39
 #, c-format
 msgid "Stage addition [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Індексувати додавання [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:40
 #, c-format
 msgid "Stage this hunk [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Індексувати цей шматок [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:42
 msgid ""
 "If the patch applies cleanly, the edited hunk will immediately be marked for "
 "staging."
 msgstr ""
+"Якщо патч буде застосовано без помилок, відредагований шматок буде одразу ж "
+"позначено для індексації."
 
 #: add-patch.c:45
 msgid ""
@@ -263,32 +264,39 @@ msgid ""
 "a - stage this hunk and all later hunks in the file\n"
 "d - do not stage this hunk or any of the later hunks in the file\n"
 msgstr ""
+"y - індексувати цей шматок\n"
+"n - не індексувати цей шматок\n"
+"q - вийти; не індексувати ні цей шматок, ні решту\n"
+"a - індексувати цей шматок і всі наступні шматки у файлі\n"
+"d - не індексувати цей шматок і всі наступні шматки у файлі\n"
 
 #: add-patch.c:59
 #, c-format
 msgid "Stash mode change [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Сховати зміну режиму [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:60
 #, c-format
 msgid "Stash deletion [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Сховати видалення [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:61
 #, c-format
 msgid "Stash addition [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Сховати додавання [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:62
 #, c-format
 msgid "Stash this hunk [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Сховати цей шматок [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:64
 msgid ""
 "If the patch applies cleanly, the edited hunk will immediately be marked for "
 "stashing."
 msgstr ""
+"Якщо патч буде застосовано без помилок, відредагований шматок буде одразу ж "
+"позначено для схову."
 
 #: add-patch.c:67
 msgid ""
@@ -298,32 +306,36 @@ msgid ""
 "a - stash this hunk and all later hunks in the file\n"
 "d - do not stash this hunk or any of the later hunks in the file\n"
 msgstr ""
+"Якщо патч буде застосовано без помилок, відредагований шматок буде одразу "
+"позначено для схову.\n"
 
 #: add-patch.c:83
 #, c-format
 msgid "Unstage mode change [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Розіндексувати зміну режиму [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:84
 #, c-format
 msgid "Unstage deletion [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Розіндексувати видалення [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:85
 #, c-format
 msgid "Unstage addition [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Розіндексувати додавання [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:86
 #, c-format
 msgid "Unstage this hunk [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Розіндексувати цей шматок [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:88
 msgid ""
 "If the patch applies cleanly, the edited hunk will immediately be marked for "
 "unstaging."
 msgstr ""
+"Якщо патч буде застосовано без помилок, відредагований шматок буде одразу ж "
+"позначено для розіндексації."
 
 #: add-patch.c:91
 msgid ""
@@ -333,32 +345,39 @@ msgid ""
 "a - unstage this hunk and all later hunks in the file\n"
 "d - do not unstage this hunk or any of the later hunks in the file\n"
 msgstr ""
+"y - розіндексувати цей шматок\n"
+"n - не розіндексовувати цей шматок\n"
+"q - вийти; не розіндексовувати ні цей шматок, ні решту\n"
+"a - розіндексувати цей шматок і всі наступні шматки у файлі\n"
+"d - не розіндексувати цей шматок і всі наступні шматки у файлі\n"
 
 #: add-patch.c:106
 #, c-format
 msgid "Apply mode change to index [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Застосувати зміну режиму до індексу [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:107
 #, c-format
 msgid "Apply deletion to index [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Застосувати видалення до індексу [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:108
 #, c-format
 msgid "Apply addition to index [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Застосувати додавання до індексу [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:109
 #, c-format
 msgid "Apply this hunk to index [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Застосувати цей шматок до індексу [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:111 add-patch.c:179 add-patch.c:224
 msgid ""
 "If the patch applies cleanly, the edited hunk will immediately be marked for "
 "applying."
 msgstr ""
+"Якщо патч буде застосовано без помилок, відредагований шматок буде одразу ж "
+"позначено для застосування."
 
 #: add-patch.c:114
 msgid ""
@@ -368,32 +387,39 @@ msgid ""
 "a - apply this hunk and all later hunks in the file\n"
 "d - do not apply this hunk or any of the later hunks in the file\n"
 msgstr ""
+"y - застосувати цей шматок до індексу\n"
+"n - не застосовувати цей шматок до індексу\n"
+"q - вийти; не застосовувати ні цей шматок, ні решту\n"
+"a - застосувати цей шматок і всі наступні шматки у файлі\n"
+"d - не застосовувати цей шматок і всі наступні шматки у файлі\n"
 
 #: add-patch.c:129 add-patch.c:197
 #, c-format
 msgid "Discard mode change from worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Відкинути зміну режиму з робочого дерева [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:130 add-patch.c:198
 #, c-format
 msgid "Discard deletion from worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Відкинути видалення з робочого дерева [y,n,q,a,d%s,?] "
 
 #: add-patch.c:131 add-patch.c:199
 #, c-format
 msgid "Discard addition from worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Відкинути додавання з робочого дерева [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:132 add-patch.c:200
 #, c-format
 msgid "Discard this hunk from worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Відкинути цей шматок з з робочого дерева [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:134 add-patch.c:157 add-patch.c:202
 msgid ""
 "If the patch applies cleanly, the edited hunk will immediately be marked for "
 "discarding."
 msgstr ""
+"Якщо патч буде застосовано без помилок, відредагований шматок буде одразу ж "
+"позначено для відкидання."
 
 #: add-patch.c:137 add-patch.c:205
 msgid ""
@@ -403,26 +429,31 @@ msgid ""
 "a - discard this hunk and all later hunks in the file\n"
 "d - do not discard this hunk or any of the later hunks in the file\n"
 msgstr ""
+"y - відкинути цей шматок з робочого дерева\n"
+"n - не відкидати цей шматок з робочого дерева\n"
+"q - вийти; не відкидати ні цей шматок, ні решту\n"
+"a - відкинути цей шматок і всі наступні шматки у файлі\n"
+"d - не відкидати цей шматок і всі наступні шматки у файлі\n"
 
 #: add-patch.c:152
 #, c-format
 msgid "Discard mode change from index and worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Відкинути зміну режиму з індексу та робочого дерева [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:153
 #, c-format
 msgid "Discard deletion from index and worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Відкинути видалення з індексу та робочого дерева [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:154
 #, c-format
 msgid "Discard addition from index and worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Відкинути додавання з індексу та робочого дерева [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:155
 #, c-format
 msgid "Discard this hunk from index and worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Відкинути цей шматок з індексу та робочого дерева [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:160
 msgid ""
@@ -432,26 +463,31 @@ msgid ""
 "a - discard this hunk and all later hunks in the file\n"
 "d - do not discard this hunk or any of the later hunks in the file\n"
 msgstr ""
+"y - відкинути цей шматок з індексу та робочого дерева\n"
+"n - не відкидати цей шматок з індексу та робочого дерева\n"
+"q - вийти; не відкидати ні цей шматок, ні решту\n"
+"a - відкинути цей шматок і всі наступні шматки у файлі\n"
+"d - не відкидати цей шматок і всі наступні шматки у файлі\n"
 
 #: add-patch.c:174
 #, c-format
 msgid "Apply mode change to index and worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Застосувати зміну режиму до індексу та робочого дерева [y,n,q,a,d%s,?] "
 
 #: add-patch.c:175
 #, c-format
 msgid "Apply deletion to index and worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Застосувати видалення до індексу та робочого дерева [y,n,q,a,d%s,?] "
 
 #: add-patch.c:176
 #, c-format
 msgid "Apply addition to index and worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Застосувати додавання до індексу та робочого дерева [y,n,q,a,d%s,?] "
 
 #: add-patch.c:177
 #, c-format
 msgid "Apply this hunk to index and worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Застосувати цей шматок до індексу та робочого дерева [y,n,q,a,d%s,?] "
 
 #: add-patch.c:182
 msgid ""
@@ -461,26 +497,31 @@ msgid ""
 "a - apply this hunk and all later hunks in the file\n"
 "d - do not apply this hunk or any of the later hunks in the file\n"
 msgstr ""
+"y - застосувати цей шматок до індексу та робочого дерева\n"
+"n - не застосовувати цей шматок до індексу та робочого дерева\n"
+"q - вийти; не застосовувати ні цей шматок, ні решту\n"
+"a - застосувати цей шматок і всі наступні шматки у файлі\n"
+"d - не застосовувати цей шматок і всі наступні шматки у файлі\n"
 
 #: add-patch.c:219
 #, c-format
 msgid "Apply mode change to worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Застосувати зміну режиму до робочого дерева [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:220
 #, c-format
 msgid "Apply deletion to worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Застосувати видалення до робочого дерева [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:221
 #, c-format
 msgid "Apply addition to worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Застосувати додавання до робочого дерева [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:222
 #, c-format
 msgid "Apply this hunk to worktree [y,n,q,a,d%s,?]? "
-msgstr ""
+msgstr "Застосувати цей шматок до робочого дерева [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:227
 msgid ""
@@ -490,6 +531,11 @@ msgid ""
 "a - apply this hunk and all later hunks in the file\n"
 "d - do not apply this hunk or any of the later hunks in the file\n"
 msgstr ""
+"y - застосувати цей шматок до робочого дерева\n"
+"n - не застосовувати цей шматок до робочого дерева\n"
+"q - вийти; не застосовувати ні цей шматок, ні решту\n"
+"a - застосувати цей шматок і всі наступні шматки у файлі\n"
+"d - не застосовувати цей шматок і всі наступні шматки у файлі\n"
 
 #: add-patch.c:347
 #, c-format
@@ -776,8 +822,7 @@ msgid ""
 "\n"
 "  git switch -\n"
 "\n"
-"Turn off this advice by setting config variable advice.detachedHead to "
-"false\n"
+"Turn off this advice by setting config variable advice.detachedHead to false\n"
 "\n"
 msgstr ""
 
@@ -834,12 +879,12 @@ msgstr ""
 #: builtin/log.c:2100 builtin/log.c:2102 builtin/ls-files.c:879
 #: builtin/merge-base.c:166 builtin/merge-base.c:172 builtin/merge.c:1421
 #: builtin/merge.c:1423 builtin/pack-objects.c:4385 builtin/push.c:641
-#: builtin/push.c:679 builtin/push.c:685 builtin/push.c:690
-#: builtin/rebase.c:1276 builtin/rebase.c:1278 builtin/rebase.c:1287
-#: builtin/repack.c:830 builtin/repack.c:836 builtin/repack.c:838
-#: builtin/repack.c:877 builtin/reset.c:361 builtin/reset.c:398
-#: builtin/rev-list.c:556 builtin/show-branch.c:715 builtin/show-branch.c:720
-#: builtin/stash.c:1766 builtin/stash.c:1769 builtin/submodule--helper.c:1202
+#: builtin/push.c:679 builtin/push.c:685 builtin/push.c:690 builtin/rebase.c:1276
+#: builtin/rebase.c:1278 builtin/rebase.c:1287 builtin/repack.c:830
+#: builtin/repack.c:836 builtin/repack.c:838 builtin/repack.c:877
+#: builtin/reset.c:361 builtin/reset.c:398 builtin/rev-list.c:556
+#: builtin/show-branch.c:715 builtin/show-branch.c:720 builtin/stash.c:1766
+#: builtin/stash.c:1769 builtin/submodule--helper.c:1202
 #: builtin/submodule--helper.c:2944 builtin/tag.c:530 builtin/tag.c:576
 #: builtin/worktree.c:843 parse-options.c:1223 range-diff.c:566 revision.c:2409
 #: revision.c:2413 revision.c:2422 revision.c:2427 revision.c:2656
@@ -1129,8 +1174,7 @@ msgstr ""
 msgid "%s has type %o, expected %o"
 msgstr ""
 
-#: apply.c:3920 apply.c:3922 read-cache.c:914 read-cache.c:943
-#: read-cache.c:1410
+#: apply.c:3920 apply.c:3922 read-cache.c:914 read-cache.c:943 read-cache.c:1410
 #, c-format
 msgid "invalid path '%s'"
 msgstr "неприпустимий шлях \"%s\""
@@ -1626,8 +1670,7 @@ msgstr "сховище"
 msgid "retrieve the archive from remote repository <repo>"
 msgstr ""
 
-#: archive.c:632 builtin/archive.c:92 builtin/difftool.c:717
-#: builtin/notes.c:500
+#: archive.c:632 builtin/archive.c:92 builtin/difftool.c:717 builtin/notes.c:500
 msgid "command"
 msgstr ""
 
@@ -1642,9 +1685,9 @@ msgstr ""
 #: archive.c:642 builtin/add.c:493 builtin/add.c:525 builtin/checkout.c:1821
 #: builtin/clone.c:1128 builtin/clone.c:1131 builtin/commit.c:380
 #: builtin/fast-export.c:1243 builtin/index-pack.c:1864 builtin/log.c:2270
-#: builtin/reset.c:370 builtin/reset.c:431 builtin/rm.c:285
-#: builtin/stash.c:1778 builtin/worktree.c:644 builtin/worktree.c:845
-#: fetch-pack.c:343 http-fetch.c:150 http-fetch.c:159 revision.c:3027
+#: builtin/reset.c:370 builtin/reset.c:431 builtin/rm.c:285 builtin/stash.c:1778
+#: builtin/worktree.c:644 builtin/worktree.c:845 fetch-pack.c:343
+#: http-fetch.c:150 http-fetch.c:159 revision.c:3027
 #, c-format
 msgid "the option '%s' requires '%s'"
 msgstr "опція '%s' вимагає '%s'"
@@ -1821,15 +1864,14 @@ msgstr ""
 #: blame.c:2821 builtin/commit.c:1136 builtin/log.c:504 builtin/log.c:1172
 #: builtin/log.c:1787 builtin/log.c:2226 builtin/log.c:2523 builtin/merge.c:437
 #: builtin/pack-objects.c:3422 builtin/pack-objects.c:3580
-#: builtin/pack-objects.c:4064 builtin/pack-objects.c:4079
-#: builtin/shortlog.c:273 midx.c:1118 pack-bitmap.c:1124 pack-bitmap.c:2018
-#: remote.c:2197 sequencer.c:2433 sequencer.c:5216 submodule.c:915
+#: builtin/pack-objects.c:4064 builtin/pack-objects.c:4079 builtin/shortlog.c:273
+#: midx.c:1118 pack-bitmap.c:1124 pack-bitmap.c:2018 remote.c:2197
+#: sequencer.c:2433 sequencer.c:5216 submodule.c:915
 msgid "revision walk setup failed"
 msgstr "не вдалося налаштувати проходження по ревізіям"
 
 #: blame.c:2839
-msgid ""
-"--reverse --first-parent together require range along first-parent chain"
+msgid "--reverse --first-parent together require range along first-parent chain"
 msgstr ""
 
 #: blame.c:2850
@@ -1844,8 +1886,8 @@ msgstr "неможливо прочитати blob %s для шляху %s"
 
 #: branch.c:97
 msgid ""
-"cannot inherit upstream tracking configuration of multiple refs when "
-"rebasing is requested"
+"cannot inherit upstream tracking configuration of multiple refs when rebasing "
+"is requested"
 msgstr ""
 
 #: branch.c:108
@@ -1961,8 +2003,8 @@ msgid ""
 "\"git push -u\" to set the upstream config as you push."
 msgstr ""
 
-#: branch.c:544 builtin/replace.c:328 builtin/replace.c:384
-#: builtin/replace.c:430 builtin/replace.c:460
+#: branch.c:544 builtin/replace.c:328 builtin/replace.c:384 builtin/replace.c:430
+#: builtin/replace.c:460
 #, c-format
 msgid "not a valid object name: '%s'"
 msgstr "не є допустимим ім’ям об’єкта: \"%s\""
@@ -2448,8 +2490,7 @@ msgstr ""
 #: builtin/am.c:1941
 msgid ""
 "You still have unmerged paths in your index.\n"
-"You should 'git add' each file with resolved conflicts to mark them as "
-"such.\n"
+"You should 'git add' each file with resolved conflicts to mark them as such.\n"
 "You might run `git rm` on a file to accept \"deleted by them\" for it."
 msgstr ""
 
@@ -2558,11 +2599,10 @@ msgstr ""
 
 #: builtin/am.c:2375 builtin/commit.c:1533 builtin/fmt-merge-msg.c:20
 #: builtin/fmt-merge-msg.c:23 builtin/grep.c:963 builtin/merge.c:269
-#: builtin/pull.c:145 builtin/pull.c:207 builtin/pull.c:224
-#: builtin/rebase.c:1126 builtin/repack.c:797 builtin/repack.c:801
-#: builtin/repack.c:803 builtin/show-branch.c:654 builtin/show-ref.c:169
-#: builtin/tag.c:449 parse-options.h:215 parse-options.h:276
-#: parse-options.h:514
+#: builtin/pull.c:145 builtin/pull.c:207 builtin/pull.c:224 builtin/rebase.c:1126
+#: builtin/repack.c:797 builtin/repack.c:801 builtin/repack.c:803
+#: builtin/show-branch.c:654 builtin/show-ref.c:169 builtin/tag.c:449
+#: parse-options.h:215 parse-options.h:276 parse-options.h:514
 msgid "n"
 msgstr ""
 
@@ -2767,8 +2807,7 @@ msgstr "\"%s\" не є дійсним комітом"
 
 #: builtin/bisect.c:254
 #, c-format
-msgid ""
-"could not check out original HEAD '%s'. Try 'git bisect reset <commit>'."
+msgid "could not check out original HEAD '%s'. Try 'git bisect reset <commit>'."
 msgstr ""
 
 #: builtin/bisect.c:297
@@ -3376,8 +3415,7 @@ msgstr ""
 msgid "suppress informational messages"
 msgstr ""
 
-#: builtin/branch.c:655 builtin/checkout.c:1610
-#: builtin/submodule--helper.c:2966
+#: builtin/branch.c:655 builtin/checkout.c:1610 builtin/submodule--helper.c:2966
 msgid "set branch tracking configuration"
 msgstr "налаштувати конфігурацію відстежуваних гілок"
 
@@ -3478,8 +3516,7 @@ msgid "list branches in columns"
 msgstr ""
 
 #: builtin/branch.c:690 builtin/for-each-ref.c:50 builtin/notes.c:417
-#: builtin/notes.c:420 builtin/notes.c:583 builtin/notes.c:586
-#: builtin/tag.c:479
+#: builtin/notes.c:420 builtin/notes.c:583 builtin/notes.c:586 builtin/tag.c:479
 msgid "object"
 msgstr ""
 
@@ -3589,8 +3626,8 @@ msgstr ""
 
 #: builtin/branch.c:906
 msgid ""
-"the '--set-upstream' option is no longer supported. Please use '--track' or "
-"'--set-upstream-to' instead."
+"the '--set-upstream' option is no longer supported. Please use '--track' or '--"
+"set-upstream-to' instead."
 msgstr ""
 
 #: builtin/bugreport.c:20
@@ -4291,8 +4328,7 @@ msgid_plural ""
 " git branch <new-branch-name> %s\n"
 "\n"
 msgstr[0] ""
-"Якщо ви хочете зберегти його, створивши нову гілку, то зараз є чудова "
-"нагода\n"
+"Якщо ви хочете зберегти його, створивши нову гілку, то зараз є чудова нагода\n"
 "зробити це за допомогою:\n"
 "git branch <назва-нової-гілки> %s\n"
 "\n"
@@ -4571,8 +4607,7 @@ msgstr "необхідно вказати шлях(и) для відновлен
 #: builtin/checkout.c:1858 builtin/checkout.c:1860 builtin/checkout.c:1913
 #: builtin/checkout.c:1915 builtin/clone.c:137 builtin/remote.c:174
 #: builtin/remote.c:176 builtin/submodule--helper.c:2928
-#: builtin/submodule--helper.c:3267 builtin/worktree.c:619
-#: builtin/worktree.c:621
+#: builtin/submodule--helper.c:3267 builtin/worktree.c:619 builtin/worktree.c:621
 msgid "branch"
 msgstr "гілка"
 
@@ -4762,9 +4797,8 @@ msgid "remove whole directories"
 msgstr ""
 
 #: builtin/clean.c:935 builtin/describe.c:573 builtin/describe.c:575
-#: builtin/grep.c:981 builtin/log.c:254 builtin/log.c:256
-#: builtin/ls-files.c:742 builtin/name-rev.c:568 builtin/name-rev.c:570
-#: builtin/show-ref.c:176
+#: builtin/grep.c:981 builtin/log.c:254 builtin/log.c:256 builtin/ls-files.c:742
+#: builtin/name-rev.c:568 builtin/name-rev.c:570 builtin/show-ref.c:176
 msgid "pattern"
 msgstr ""
 
@@ -4788,8 +4822,8 @@ msgstr ""
 
 #: builtin/clean.c:957
 msgid ""
-"clean.requireForce defaults to true and neither -i, -n, nor -f given; "
-"refusing to clean"
+"clean.requireForce defaults to true and neither -i, -n, nor -f given; refusing "
+"to clean"
 msgstr ""
 
 #: builtin/clean.c:969
@@ -4869,8 +4903,7 @@ msgstr "імʼя"
 #: builtin/clone.c:136
 msgid "use <name> instead of 'origin' to track upstream"
 msgstr ""
-"використовуйте <імʼя> замість 'origin' для відстеження першоджерельного "
-"сховища"
+"використовуйте <імʼя> замість 'origin' для відстеження першоджерельного сховища"
 
 #: builtin/clone.c:138
 msgid "checkout <branch> instead of the remote's HEAD"
@@ -4880,8 +4913,7 @@ msgstr "перейти до <гілки> замість HEAD віддалено�
 msgid "path to git-upload-pack on the remote"
 msgstr "шлях до git-upload-pack на віддаленому сервері"
 
-#: builtin/clone.c:141 builtin/fetch.c:197 builtin/grep.c:920
-#: builtin/pull.c:215
+#: builtin/clone.c:141 builtin/fetch.c:197 builtin/grep.c:920 builtin/pull.c:215
 msgid "depth"
 msgstr "глибина"
 
@@ -4893,8 +4925,8 @@ msgstr "створити поверхневий клон вказаної гли
 msgid "create a shallow clone since a specific time"
 msgstr "створити поверхневий клон з певного часу"
 
-#: builtin/clone.c:145 builtin/fetch.c:201 builtin/fetch.c:227
-#: builtin/pull.c:221 builtin/pull.c:246 builtin/rebase.c:1102
+#: builtin/clone.c:145 builtin/fetch.c:201 builtin/fetch.c:227 builtin/pull.c:221
+#: builtin/pull.c:246 builtin/rebase.c:1102
 msgid "revision"
 msgstr "ревізія"
 
@@ -4942,13 +4974,11 @@ msgstr "тільки для сервера"
 msgid "option to transmit"
 msgstr "опція для передачі"
 
-#: builtin/clone.c:159 builtin/fetch.c:223 builtin/pull.c:241
-#: builtin/push.c:625
+#: builtin/clone.c:159 builtin/fetch.c:223 builtin/pull.c:241 builtin/push.c:625
 msgid "use IPv4 addresses only"
 msgstr "використовувати тільки IPv4 адреси"
 
-#: builtin/clone.c:161 builtin/fetch.c:225 builtin/pull.c:244
-#: builtin/push.c:627
+#: builtin/clone.c:161 builtin/fetch.c:225 builtin/pull.c:244 builtin/push.c:627
 msgid "use IPv6 addresses only"
 msgstr "використовувати тільки IPv6 адреси"
 
@@ -4979,8 +5009,7 @@ msgstr "URI для завантаження пакунків перед отри
 msgid "info: Could not add alternate for '%s': %s\n"
 msgstr "инфо: Не вдалося додати альтернативу для '%s': %s\n"
 
-#: builtin/clone.c:317 builtin/diff.c:93 builtin/rm.c:140 grep.c:1937
-#: setup.c:186
+#: builtin/clone.c:317 builtin/diff.c:93 builtin/rm.c:140 grep.c:1937 setup.c:186
 #, c-format
 msgid "failed to stat '%s'"
 msgstr "не вдалося виконати stat '%s'"
@@ -5085,8 +5114,7 @@ msgstr "Треба вказати сховище для клонування."
 msgid ""
 "--bundle-uri is incompatible with --depth, --shallow-since, and --shallow-"
 "exclude"
-msgstr ""
-"--bundle-uri несумісний з --depth, --shallow-since та --shallow-exclude"
+msgstr "--bundle-uri несумісний з --depth, --shallow-since та --shallow-exclude"
 
 #: builtin/clone.c:964
 #, c-format
@@ -5154,8 +5182,8 @@ msgstr ""
 #: builtin/clone.c:1186
 msgid "--shallow-since is ignored in local clones; use file:// instead."
 msgstr ""
-"--shallow-since ігнорується у локальних клонах; використовуйте file:// "
-"замість цього."
+"--shallow-since ігнорується у локальних клонах; використовуйте file:// замість "
+"цього."
 
 #: builtin/clone.c:1188
 msgid "--shallow-exclude is ignored in local clones; use file:// instead."
@@ -5166,8 +5194,7 @@ msgstr ""
 #: builtin/clone.c:1190
 msgid "--filter is ignored in local clones; use file:// instead."
 msgstr ""
-"--filter ігнорується у локальних клонах; використовуйте file:// замість "
-"нього."
+"--filter ігнорується у локальних клонах; використовуйте file:// замість нього."
 
 #: builtin/clone.c:1193 fetch-pack.c:1222 fetch-pack.c:1575
 msgid "source repository is shallow, reject to clone."
@@ -5251,8 +5278,8 @@ msgstr ""
 #: builtin/commit-graph.c:20
 msgid ""
 "git commit-graph write [--object-dir <dir>] [--append]\n"
-"                       [--split[=<strategy>]] [--reachable | --stdin-packs | "
-"--stdin-commits]\n"
+"                       [--split[=<strategy>]] [--reachable | --stdin-packs | --"
+"stdin-commits]\n"
 "                       [--changed-paths] [--[no-]max-new-filters <n>] [--"
 "[no-]progress]\n"
 "                       <split options>"
@@ -5383,8 +5410,7 @@ msgid "id of a parent commit object"
 msgstr ""
 
 #: builtin/commit-tree.c:107 builtin/commit.c:1641 builtin/merge.c:290
-#: builtin/notes.c:411 builtin/notes.c:577 builtin/stash.c:1735
-#: builtin/tag.c:458
+#: builtin/notes.c:411 builtin/notes.c:577 builtin/stash.c:1735 builtin/tag.c:458
 msgid "message"
 msgstr ""
 
@@ -5772,8 +5798,8 @@ msgstr ""
 
 #: builtin/commit.c:1528
 msgid ""
-"ignore changes to submodules, optional when: all, dirty, untracked. "
-"(Default: all)"
+"ignore changes to submodules, optional when: all, dirty, untracked. (Default: "
+"all)"
 msgstr ""
 
 #: builtin/commit.c:1530
@@ -6244,8 +6270,7 @@ msgstr ""
 
 #: builtin/config.c:776
 msgid ""
-"--show-origin is only applicable to --get, --get-all, --get-regexp, and --"
-"list"
+"--show-origin is only applicable to --get, --get-all, --get-regexp, and --list"
 msgstr ""
 
 #: builtin/config.c:782
@@ -6626,8 +6651,7 @@ msgstr ""
 
 #: builtin/difftool.c:715
 msgid ""
-"make 'git-difftool' exit when an invoked diff tool returns a non-zero exit "
-"code"
+"make 'git-difftool' exit when an invoked diff tool returns a non-zero exit code"
 msgstr ""
 
 #: builtin/difftool.c:718
@@ -6864,8 +6888,7 @@ msgstr ""
 msgid "allow updating of HEAD ref"
 msgstr ""
 
-#: builtin/fetch.c:198 builtin/fetch.c:204 builtin/pull.c:216
-#: builtin/pull.c:225
+#: builtin/fetch.c:198 builtin/fetch.c:204 builtin/pull.c:216 builtin/pull.c:225
 msgid "deepen history of shallow clone"
 msgstr "поглибити історію поверхневого клону"
 
@@ -6887,8 +6910,7 @@ msgstr ""
 
 #: builtin/fetch.c:215
 msgid ""
-"default for recursive fetching of submodules (lower priority than config "
-"files)"
+"default for recursive fetching of submodules (lower priority than config files)"
 msgstr ""
 
 #: builtin/fetch.c:219 builtin/pull.c:231
@@ -6986,8 +7008,7 @@ msgstr "примусове оновлення"
 msgid "non-fast-forward"
 msgstr ""
 
-#: builtin/fetch.c:1083 builtin/fetch.c:1464 builtin/grep.c:817
-#: sequencer.c:3284
+#: builtin/fetch.c:1083 builtin/fetch.c:1464 builtin/grep.c:817 sequencer.c:3284
 #, c-format
 msgid "cannot open '%s'"
 msgstr "неможливо відкрити \"%s\""
@@ -7003,8 +7024,7 @@ msgstr ""
 #, c-format
 msgid ""
 "it took %.2f seconds to check forced updates; you can use\n"
-"'--no-show-forced-updates' or run 'git config fetch.showForcedUpdates "
-"false'\n"
+"'--no-show-forced-updates' or run 'git config fetch.showForcedUpdates false'\n"
 "to avoid this check\n"
 msgstr ""
 
@@ -7075,14 +7095,13 @@ msgstr ""
 #: builtin/fetch.c:1781
 #, c-format
 msgid ""
-"could not set upstream of HEAD to '%s' from '%s' when it does not point to "
-"any branch."
+"could not set upstream of HEAD to '%s' from '%s' when it does not point to any "
+"branch."
 msgstr ""
 
 #: builtin/fetch.c:1794
 msgid "not setting upstream for a remote remote-tracking branch"
-msgstr ""
-"не встановлено першоджерельне сховище для віддалено відстежуваної гілки"
+msgstr "не встановлено першоджерельне сховище для віддалено відстежуваної гілки"
 
 #: builtin/fetch.c:1796
 msgid "not setting upstream for a remote tag"
@@ -7167,23 +7186,20 @@ msgstr ""
 
 #: builtin/fetch.c:2297
 msgid ""
-"--filter can only be used with the remote configured in extensions."
-"partialclone"
+"--filter can only be used with the remote configured in extensions.partialclone"
 msgstr ""
 
 #: builtin/fetch.c:2301
 msgid "--atomic can only be used when fetching from one remote"
 msgstr ""
-"--atomic може бути використано лише при отриманні з одного віддаленого "
-"джерела"
+"--atomic може бути використано лише при отриманні з одного віддаленого джерела"
 
 #: builtin/fetch.c:2305
 msgid "--stdin can only be used when fetching from one remote"
 msgstr ""
 
 #: builtin/fmt-merge-msg.c:9
-msgid ""
-"git fmt-merge-msg [-m <message>] [--log[=<n>] | --no-log] [--file <file>]"
+msgid "git fmt-merge-msg [-m <message>] [--log[=<n>] | --no-log] [--file <file>]"
 msgstr ""
 
 #: builtin/fmt-merge-msg.c:21
@@ -7768,8 +7784,7 @@ msgstr ""
 
 #: builtin/gc.c:677
 #, c-format
-msgid ""
-"gc is already running on machine '%s' pid %<PRIuMAX> (use --force if not)"
+msgid "gc is already running on machine '%s' pid %<PRIuMAX> (use --force if not)"
 msgstr ""
 
 #: builtin/gc.c:746
@@ -7778,8 +7793,7 @@ msgid ""
 msgstr ""
 
 #: builtin/gc.c:756
-msgid ""
-"git maintenance run [--auto] [--[no-]quiet] [--task=<task>] [--schedule]"
+msgid "git maintenance run [--auto] [--[no-]quiet] [--task=<task>] [--schedule]"
 msgstr ""
 
 #: builtin/gc.c:786
@@ -7820,8 +7834,7 @@ msgid "'git multi-pack-index repack' failed"
 msgstr ""
 
 #: builtin/gc.c:1208
-msgid ""
-"skipping incremental-repack task because core.multiPackIndex is disabled"
+msgid "skipping incremental-repack task because core.multiPackIndex is disabled"
 msgstr ""
 
 #: builtin/gc.c:1312
@@ -8291,8 +8304,7 @@ msgid "store file as is without filters"
 msgstr ""
 
 #: builtin/hash-object.c:110
-msgid ""
-"just hash any random garbage to create corrupt objects for debugging Git"
+msgid "just hash any random garbage to create corrupt objects for debugging Git"
 msgstr ""
 
 #: builtin/hash-object.c:111
@@ -8542,8 +8554,8 @@ msgstr "серйозне неспівпадіння під час розпаку
 msgid "SHA1 COLLISION FOUND WITH %s !"
 msgstr "ВИЯВЛЕНО SHA1 КОЛІЗІЮ З %s!"
 
-#: builtin/index-pack.c:764 builtin/pack-objects.c:300
-#: builtin/pack-objects.c:361 builtin/pack-objects.c:469
+#: builtin/index-pack.c:764 builtin/pack-objects.c:300 builtin/pack-objects.c:361
+#: builtin/pack-objects.c:469
 #, c-format
 msgid "unable to read %s"
 msgstr "не вдалося прочитати %s"
@@ -8703,8 +8715,8 @@ msgstr[2] "довжина ланцюжка = %d: %lu об’єктів"
 msgid "Cannot come back to cwd"
 msgstr "Неможливо повернутися до поточної робочої директорії"
 
-#: builtin/index-pack.c:1812 builtin/index-pack.c:1815
-#: builtin/index-pack.c:1835 builtin/index-pack.c:1839
+#: builtin/index-pack.c:1812 builtin/index-pack.c:1815 builtin/index-pack.c:1835
+#: builtin/index-pack.c:1839
 #, c-format
 msgid "bad %s"
 msgstr "невірний %s"
@@ -9483,8 +9495,8 @@ msgstr ""
 
 #: builtin/ls-files.c:799
 msgid ""
-"--format cannot be used with -s, -o, -k, -t, --resolve-undo, --deduplicate, "
-"--eol"
+"--format cannot be used with -s, -o, -k, -t, --resolve-undo, --deduplicate, --"
+"eol"
 msgstr ""
 
 #: builtin/ls-remote.c:12
@@ -9694,8 +9706,8 @@ msgstr ""
 
 #: builtin/merge-file.c:12
 msgid ""
-"git merge-file [<options>] [-L <name1> [-L <orig> [-L <name2>]]] <file1> "
-"<orig-file> <file2>"
+"git merge-file [<options>] [-L <name1> [-L <orig> [-L <name2>]]] <file1> <orig-"
+"file> <file2>"
 msgstr ""
 
 #: builtin/merge-file.c:38
@@ -10295,8 +10307,8 @@ msgstr ""
 
 #: builtin/multi-pack-index.c:235
 msgid ""
-"during repack, collect pack-files of smaller size into a batch that is "
-"larger than this size"
+"during repack, collect pack-files of smaller size into a batch that is larger "
+"than this size"
 msgstr ""
 
 #: builtin/mv.c:24
@@ -10453,8 +10465,8 @@ msgstr ""
 
 #: builtin/notes.c:32
 msgid ""
-"git notes [--ref <notes-ref>] add [-f] [--allow-empty] [-m <msg> | -F <file> "
-"| (-c | -C) <object>] [<object>]"
+"git notes [--ref <notes-ref>] add [-f] [--allow-empty] [-m <msg> | -F <file> | "
+"(-c | -C) <object>] [<object>]"
 msgstr ""
 
 #: builtin/notes.c:33
@@ -10463,8 +10475,8 @@ msgstr ""
 
 #: builtin/notes.c:34
 msgid ""
-"git notes [--ref <notes-ref>] append [--allow-empty] [-m <msg> | -F <file> | "
-"(-c | -C) <object>] [<object>]"
+"git notes [--ref <notes-ref>] append [--allow-empty] [-m <msg> | -F <file> | (-"
+"c | -C) <object>] [<object>]"
 msgstr ""
 
 #: builtin/notes.c:35
@@ -10476,8 +10488,7 @@ msgid "git notes [--ref <notes-ref>] show [<object>]"
 msgstr ""
 
 #: builtin/notes.c:37
-msgid ""
-"git notes [--ref <notes-ref>] merge [-v | -q] [-s <strategy>] <notes-ref>"
+msgid "git notes [--ref <notes-ref>] merge [-v | -q] [-s <strategy>] <notes-ref>"
 msgstr ""
 
 #: builtin/notes.c:40
@@ -10825,15 +10836,14 @@ msgid "git pack-objects --stdout [<options>] [< <ref-list> | < <object-list>]"
 msgstr ""
 
 #: builtin/pack-objects.c:190
-msgid ""
-"git pack-objects [<options>] <base-name> [< <ref-list> | < <object-list>]"
+msgid "git pack-objects [<options>] <base-name> [< <ref-list> | < <object-list>]"
 msgstr ""
 
 #: builtin/pack-objects.c:583
 #, c-format
 msgid ""
-"write_reuse_object: could not locate %s, expected at offset %<PRIuMAX> in "
-"pack %s"
+"write_reuse_object: could not locate %s, expected at offset %<PRIuMAX> in pack "
+"%s"
 msgstr ""
 
 #: builtin/pack-objects.c:591
@@ -11392,8 +11402,7 @@ msgid ""
 msgstr ""
 
 #: builtin/pull.c:448
-msgid ""
-"There are no candidates for merging among the refs that you just fetched."
+msgid "There are no candidates for merging among the refs that you just fetched."
 msgstr ""
 
 #: builtin/pull.c:449
@@ -11426,8 +11435,7 @@ msgstr ""
 msgid "See git-pull(1) for details."
 msgstr ""
 
-#: builtin/pull.c:464 builtin/pull.c:470 builtin/pull.c:479
-#: builtin/rebase.c:1055
+#: builtin/pull.c:464 builtin/pull.c:470 builtin/pull.c:479 builtin/rebase.c:1055
 msgid "<remote>"
 msgstr ""
 
@@ -11470,8 +11478,7 @@ msgid ""
 "  git config pull.rebase true   # rebase\n"
 "  git config pull.ff only       # fast-forward only\n"
 "\n"
-"You can replace \"git config\" with \"git config --global\" to set a "
-"default\n"
+"You can replace \"git config\" with \"git config --global\" to set a default\n"
 "preference for all repositories. You can also pass --rebase, --no-rebase,\n"
 "or --ff-only on the command line to override the configured default per\n"
 "invocation.\n"
@@ -11577,8 +11584,7 @@ msgid ""
 "    git push %s HEAD\n"
 "%s%s"
 msgstr ""
-"Назва гілки перводжерельного сховища для вашої поточної гілки не збігається "
-"з\n"
+"Назва гілки перводжерельного сховища для вашої поточної гілки не збігається з\n"
 "назвою вашої поточної гілки.  Щоб надіслати до гілки\n"
 "першоджерельного сховища, скористайтесь командою\n"
 "\n"
@@ -11625,8 +11631,8 @@ msgid ""
 "%s"
 msgstr ""
 "Поточна гілка %s не має гілки у першоджeрельному сховищі.\n"
-"Щоб надіслати поточну гілку і встановити віддалене призначення "
-"першоджерельним сховищем, скористайтеся\n"
+"Щоб надіслати поточну гілку і встановити віддалене призначення першоджерельним "
+"сховищем, скористайтеся\n"
 "\n"
 "    git push --set-upstream %s %s\n"
 "%s"
@@ -11637,8 +11643,7 @@ msgid "The current branch %s has multiple upstream branches, refusing to push."
 msgstr "Поточна гілка %s має декілька висхідних гілок, відмова надсилання."
 
 #: builtin/push.c:251
-msgid ""
-"You didn't specify any refspecs to push, and push.default is \"nothing\"."
+msgid "You didn't specify any refspecs to push, and push.default is \"nothing\"."
 msgstr ""
 "Ви не вказали жодних специфікацій посилань для надсилання, і push.default "
 "дорівнює \"nothing\"."
@@ -11665,8 +11670,7 @@ msgstr ""
 "позаду\n"
 "її віддаленого аналога. Інтегруйте віддалені зміни (наприклад, через\n"
 "'git pull ...') перед повторним надсиланням.\n"
-"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --"
-"help\"."
+"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --help\"."
 
 #: builtin/push.c:306
 msgid ""
@@ -11679,8 +11683,7 @@ msgstr ""
 "позаду\n"
 "її віддаленого аналога. Стягнить цю гілку та інтегруйте віддалені зміни\n"
 "(наприклад, через 'git pull...') перед повторним надсиланням.\n"
-"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --"
-"help\"."
+"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --help\"."
 
 #: builtin/push.c:312
 msgid ""
@@ -11696,13 +11699,11 @@ msgstr ""
 "до того самого посилання. Можливо, вам слід спочатку інтегрувати віддалені "
 "зміни\n"
 "(наприклад, через 'git pull ...') перед повторним надсиланням.\n"
-"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --"
-"help\"."
+"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --help\"."
 
 #: builtin/push.c:319
 msgid "Updates were rejected because the tag already exists in the remote."
-msgstr ""
-"Оновлення було відхилено, оскільки тег вже існує на віддаленому сховищі."
+msgstr "Оновлення було відхилено, оскільки тег вже існує на віддаленому сховищі."
 
 #: builtin/push.c:322
 msgid ""
@@ -11743,8 +11744,8 @@ msgid ""
 "recursing into submodule with push.recurseSubmodules=only; using on-demand "
 "instead"
 msgstr ""
-"рекурсія в підмодулі з push.recurseSubmodules=only; натомість використовую "
-"on-demand"
+"рекурсія в підмодулі з push.recurseSubmodules=only; натомість використовую on-"
+"demand"
 
 #: builtin/push.c:538 builtin/send-pack.c:150 submodule-config.c:506
 #, c-format
@@ -11836,8 +11837,8 @@ msgstr "невірне сховище \"%s\""
 #: builtin/push.c:664
 msgid ""
 "No configured push destination.\n"
-"Either specify the URL from the command-line or configure a remote "
-"repository using\n"
+"Either specify the URL from the command-line or configure a remote repository "
+"using\n"
 "\n"
 "    git remote add <name> <url>\n"
 "\n"
@@ -11920,8 +11921,7 @@ msgstr "потрібно два діапазони комітів"
 
 #: builtin/read-tree.c:44
 msgid ""
-"git read-tree [(-m [--trivial] [--aggressive] | --reset | --"
-"prefix=<prefix>)\n"
+"git read-tree [(-m [--trivial] [--aggressive] | --reset | --prefix=<prefix>)\n"
 "              [-u | -i]] [--index-output=<file>] [--no-sparse-checkout]\n"
 "              (--empty | <tree-ish1> [<tree-ish2> [<tree-ish3>]])"
 msgstr ""
@@ -12096,8 +12096,7 @@ msgstr "apply опції не можна використовувати разо
 #: builtin/rebase.c:1001
 #, c-format
 msgid ""
-"unrecognized empty type '%s'; valid values are \"drop\", \"keep\", and "
-"\"ask\"."
+"unrecognized empty type '%s'; valid values are \"drop\", \"keep\", and \"ask\"."
 msgstr ""
 
 #: builtin/rebase.c:1024
@@ -12364,8 +12363,8 @@ msgstr ""
 
 #: builtin/rebase.c:1559
 msgid ""
-"apply options are incompatible with rebase.rebaseMerges.  Consider adding --"
-"no-rebase-merges"
+"apply options are incompatible with rebase.rebaseMerges.  Consider adding --no-"
+"rebase-merges"
 msgstr ""
 
 #: builtin/rebase.c:1561
@@ -12546,8 +12545,7 @@ msgid "do not actually prune any entries"
 msgstr ""
 
 #: builtin/reflog.c:251 builtin/reflog.c:371
-msgid ""
-"rewrite the old SHA1 with the new SHA1 of the entry that now precedes it"
+msgid "rewrite the old SHA1 with the new SHA1 of the entry that now precedes it"
 msgstr ""
 
 #: builtin/reflog.c:254 builtin/reflog.c:374
@@ -12568,8 +12566,8 @@ msgstr ""
 
 #: builtin/reflog.c:262
 msgid ""
-"prune entries older than <time> that are not reachable from the current tip "
-"of the branch"
+"prune entries older than <time> that are not reachable from the current tip of "
+"the branch"
 msgstr ""
 
 #: builtin/reflog.c:266
@@ -12969,8 +12967,7 @@ msgstr "(невідомо)"
 
 #: builtin/remote.c:1320
 #, c-format
-msgid ""
-"  HEAD branch (remote HEAD is ambiguous, may be one of the following):\n"
+msgid "  HEAD branch (remote HEAD is ambiguous, may be one of the following):\n"
 msgstr ""
 
 #: builtin/remote.c:1333
@@ -13556,18 +13553,15 @@ msgid "unable to generate diff for '%s'"
 msgstr "не вдалося згенерувати diff для \"%s\""
 
 #: builtin/reset.c:38
-msgid ""
-"git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]"
-msgstr ""
-"git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]"
+msgid "git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]"
+msgstr "git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]"
 
 #: builtin/reset.c:39
 msgid "git reset [-q] [<tree-ish>] [--] <pathspec>..."
 msgstr "git reset [-q] [<деревоподібне джерело>] [--] <специфікатор шляху>..."
 
 #: builtin/reset.c:40
-msgid ""
-"git reset [-q] [--pathspec-from-file [--pathspec-file-nul]] [<tree-ish>]"
+msgid "git reset [-q] [--pathspec-from-file [--pathspec-file-nul]] [<tree-ish>]"
 msgstr ""
 "git reset [-q] [--pathspec-from-file [--pathspec-file-nul]] [<деревоподібне "
 "джерело>]"
@@ -13685,8 +13679,8 @@ msgid ""
 "It took %.2f seconds to refresh the index after reset.  You can use\n"
 "'--no-refresh' to avoid this."
 msgstr ""
-"Оновлення індексу після скидання зайняло %.2f секунд.  Ви можете "
-"скористатися параметром\n"
+"Оновлення індексу після скидання зайняло %.2f секунд.  Ви можете скористатися "
+"параметром\n"
 "'--no-refresh', щоб уникнути цього."
 
 #: builtin/reset.c:482
@@ -14278,8 +14272,7 @@ msgstr ""
 #: builtin/sparse-checkout.c:181
 #, c-format
 msgid ""
-"directory '%s' contains untracked files, but is not in the sparse-checkout "
-"cone"
+"directory '%s' contains untracked files, but is not in the sparse-checkout cone"
 msgstr ""
 
 #: builtin/sparse-checkout.c:189
@@ -14309,8 +14302,7 @@ msgstr "ініціалізувати sparse-checkout в режимі конус�
 msgid "toggle the use of a sparse index"
 msgstr ""
 
-#: builtin/sparse-checkout.c:485 commit-graph.c:1917 midx.c:1246
-#: sequencer.c:4208
+#: builtin/sparse-checkout.c:485 commit-graph.c:1917 midx.c:1246 sequencer.c:4208
 #, c-format
 msgid "unable to create leading directories of %s"
 msgstr "не вдалося створити провідні директорії %s"
@@ -14355,22 +14347,22 @@ msgstr ""
 
 #: builtin/sparse-checkout.c:728
 msgid ""
-"specify directories rather than patterns.  If your directory really has any "
-"of '*?[]\\' in it, pass --skip-checks"
+"specify directories rather than patterns.  If your directory really has any of "
+"'*?[]\\' in it, pass --skip-checks"
 msgstr ""
 
 #: builtin/sparse-checkout.c:744
 #, c-format
 msgid ""
-"'%s' is not a directory; to treat it as a directory anyway, rerun with --"
-"skip-checks"
+"'%s' is not a directory; to treat it as a directory anyway, rerun with --skip-"
+"checks"
 msgstr ""
 
 #: builtin/sparse-checkout.c:746
 #, c-format
 msgid ""
-"pass a leading slash before paths such as '%s' if you want a single file "
-"(see NON-CONE PROBLEMS in the git-sparse-checkout manual)."
+"pass a leading slash before paths such as '%s' if you want a single file (see "
+"NON-CONE PROBLEMS in the git-sparse-checkout manual)."
 msgstr ""
 
 #: builtin/sparse-checkout.c:751
@@ -14392,8 +14384,8 @@ msgstr ""
 
 #: builtin/sparse-checkout.c:788
 msgid ""
-"git sparse-checkout set [--[no-]cone] [--[no-]sparse-index] [--skip-checks] "
-"(--stdin | <patterns>)"
+"git sparse-checkout set [--[no-]cone] [--[no-]sparse-index] [--skip-checks] (--"
+"stdin | <patterns>)"
 msgstr ""
 
 #: builtin/sparse-checkout.c:870
@@ -14428,8 +14420,8 @@ msgstr "git stash list [<лог-опції>]"
 
 #: builtin/stash.c:33
 msgid ""
-"git stash show [-u | --include-untracked | --only-untracked] [<diff-"
-"options>] [<stash>]"
+"git stash show [-u | --include-untracked | --only-untracked] [<diff-options>] "
+"[<stash>]"
 msgstr ""
 
 #: builtin/stash.c:35
@@ -14454,8 +14446,8 @@ msgstr ""
 
 #: builtin/stash.c:45
 msgid ""
-"git stash [push [-p | --patch] [-S | --staged] [-k | --[no-]keep-index] [-q "
-"| --quiet]\n"
+"git stash [push [-p | --patch] [-S | --staged] [-k | --[no-]keep-index] [-q | "
+"--quiet]\n"
 "          [-u | --include-untracked] [-a | --all] [(-m | --message) "
 "<message>]\n"
 "          [--pathspec-from-file=<file> [--pathspec-file-nul]]\n"
@@ -14464,8 +14456,8 @@ msgstr ""
 
 #: builtin/stash.c:50
 msgid ""
-"git stash save [-p | --patch] [-S | --staged] [-k | --[no-]keep-index] [-q | "
-"--quiet]\n"
+"git stash save [-p | --patch] [-S | --staged] [-k | --[no-]keep-index] [-q | --"
+"quiet]\n"
 "          [-u | --include-untracked] [-a | --all] [<message>]"
 msgstr ""
 
@@ -14726,8 +14718,8 @@ msgstr ""
 #: builtin/submodule--helper.c:386
 #, c-format
 msgid ""
-"run_command returned non-zero status while recursing in the nested "
-"submodules of %s\n"
+"run_command returned non-zero status while recursing in the nested submodules "
+"of %s\n"
 "."
 msgstr ""
 
@@ -14762,8 +14754,7 @@ msgstr ""
 #: builtin/submodule--helper.c:525
 #, c-format
 msgid "Failed to register update mode for submodule path '%s'"
-msgstr ""
-"Не вдалося зареєструвати режим оновлення для підмодуля за шляхом \"%s\""
+msgstr "Не вдалося зареєструвати режим оновлення для підмодуля за шляхом \"%s\""
 
 #: builtin/submodule--helper.c:547
 msgid "suppress output for initializing a submodule"
@@ -14794,8 +14785,7 @@ msgstr ""
 
 #: builtin/submodule--helper.c:736
 msgid ""
-"use commit stored in the index instead of the one stored in the submodule "
-"HEAD"
+"use commit stored in the index instead of the one stored in the submodule HEAD"
 msgstr ""
 
 #: builtin/submodule--helper.c:741
@@ -14877,15 +14867,14 @@ msgstr ""
 #: builtin/submodule--helper.c:1396
 #, c-format
 msgid ""
-"Submodule work tree '%s' contains a .git directory. This will be replaced "
-"with a .git file by using absorbgitdirs."
+"Submodule work tree '%s' contains a .git directory. This will be replaced with "
+"a .git file by using absorbgitdirs."
 msgstr ""
 
 #: builtin/submodule--helper.c:1413
 #, c-format
 msgid ""
-"Submodule work tree '%s' contains local modifications; use '-f' to discard "
-"them"
+"Submodule work tree '%s' contains local modifications; use '-f' to discard them"
 msgstr ""
 
 #: builtin/submodule--helper.c:1421
@@ -14917,8 +14906,7 @@ msgid "unregister all submodules"
 msgstr ""
 
 #: builtin/submodule--helper.c:1484
-msgid ""
-"git submodule deinit [--quiet] [-f | --force] [--all | [--] [<path>...]]"
+msgid "git submodule deinit [--quiet] [-f | --force] [--all | [--] [<path>...]]"
 msgstr ""
 
 #: builtin/submodule--helper.c:1499
@@ -15013,8 +15001,7 @@ msgstr ""
 #, c-format
 msgid "Invalid update mode '%s' configured for submodule path '%s'"
 msgstr ""
-"Неприпустимий режим оновлення \"%s\" налаштовано для підмодуля за шляхом "
-"\"%s\""
+"Неприпустимий режим оновлення \"%s\" налаштовано для підмодуля за шляхом \"%s\""
 
 #: builtin/submodule--helper.c:1957
 #, c-format
@@ -15093,8 +15080,8 @@ msgstr ""
 #: builtin/submodule--helper.c:2357
 #, c-format
 msgid ""
-"Fetched in submodule path '%s', but it did not contain %s. Direct fetching "
-"of that commit failed."
+"Fetched in submodule path '%s', but it did not contain %s. Direct fetching of "
+"that commit failed."
 msgstr ""
 
 #: builtin/submodule--helper.c:2373
@@ -15105,8 +15092,8 @@ msgstr "не вдалося ініціалізувати підмодуль за
 #: builtin/submodule--helper.c:2394
 #, c-format
 msgid ""
-"Submodule (%s) branch configured to inherit branch from superproject, but "
-"the superproject is not on any branch"
+"Submodule (%s) branch configured to inherit branch from superproject, but the "
+"superproject is not on any branch"
 msgstr ""
 
 #: builtin/submodule--helper.c:2525
@@ -15183,10 +15170,10 @@ msgstr ""
 
 #: builtin/submodule--helper.c:2700
 msgid ""
-"git submodule [--quiet] update [--init [--filter=<filter-spec>]] [--remote] "
-"[-N|--no-fetch] [-f|--force] [--checkout|--merge|--rebase] [--[no-]recommend-"
-"shallow] [--reference <repository>] [--recursive] [--[no-]single-branch] "
-"[--] [<path>...]"
+"git submodule [--quiet] update [--init [--filter=<filter-spec>]] [--remote] [-"
+"N|--no-fetch] [-f|--force] [--checkout|--merge|--rebase] [--[no-]recommend-"
+"shallow] [--reference <repository>] [--recursive] [--[no-]single-branch] [--] "
+"[<path>...]"
 msgstr ""
 
 #: builtin/submodule--helper.c:2861
@@ -15264,10 +15251,8 @@ msgstr ""
 msgid ""
 "If you want to reuse this local git directory instead of cloning again from\n"
 "  %s\n"
-"use the '--force' option. If the local git directory is not the correct "
-"repo\n"
-"or you are unsure what this means choose another name with the '--name' "
-"option."
+"use the '--force' option. If the local git directory is not the correct repo\n"
+"or you are unsure what this means choose another name with the '--name' option."
 msgstr ""
 
 #: builtin/submodule--helper.c:3084
@@ -15324,8 +15309,7 @@ msgstr ""
 
 #: builtin/submodule--helper.c:3277
 msgid ""
-"sets the submodule's name to the given string instead of defaulting to its "
-"path"
+"sets the submodule's name to the given string instead of defaulting to its path"
 msgstr ""
 
 #: builtin/submodule--helper.c:3283
@@ -15787,8 +15771,8 @@ msgstr ""
 
 #: builtin/update-index.c:1242
 msgid ""
-"core.untrackedCache is set to true; remove or change it, if you really want "
-"to disable the untracked cache"
+"core.untrackedCache is set to true; remove or change it, if you really want to "
+"disable the untracked cache"
 msgstr ""
 
 #: builtin/update-index.c:1246
@@ -15815,8 +15799,7 @@ msgid "fsmonitor enabled"
 msgstr ""
 
 #: builtin/update-index.c:1292
-msgid ""
-"core.fsmonitor is set; remove it if you really want to disable fsmonitor"
+msgid "core.fsmonitor is set; remove it if you really want to disable fsmonitor"
 msgstr ""
 
 #: builtin/update-index.c:1296
@@ -16313,8 +16296,8 @@ msgstr ""
 
 #: bundle.c:249
 msgid ""
-"some prerequisite commits exist in the object store, but are not connected "
-"to the repository's history"
+"some prerequisite commits exist in the object store, but are not connected to "
+"the repository's history"
 msgstr ""
 
 #: bundle.c:257
@@ -18241,8 +18224,8 @@ msgstr ""
 #: convert.c:283
 #, c-format
 msgid ""
-"The file '%s' contains a byte order mark (BOM). Please use UTF-%.*s as "
-"working-tree-encoding."
+"The file '%s' contains a byte order mark (BOM). Please use UTF-%.*s as working-"
+"tree-encoding."
 msgstr ""
 
 #: convert.c:296
@@ -18303,8 +18286,8 @@ msgstr ""
 #: convert.c:938
 #, c-format
 msgid ""
-"external filter '%s' is not available anymore although not all paths have "
-"been filtered"
+"external filter '%s' is not available anymore although not all paths have been "
+"filtered"
 msgstr ""
 
 #: convert.c:1239
@@ -18525,8 +18508,8 @@ msgstr ""
 
 #: diff.c:308
 msgid ""
-"color moved setting must be one of 'no', 'default', 'blocks', 'zebra', "
-"'dimmed-zebra', 'plain'"
+"color moved setting must be one of 'no', 'default', 'blocks', 'zebra', 'dimmed-"
+"zebra', 'plain'"
 msgstr ""
 
 #: diff.c:336
@@ -18568,16 +18551,16 @@ msgstr "опції \"%s\", \"%s\", \"%s\" та \"%s\" неможливо вик�
 #, c-format
 msgid "options '%s' and '%s' cannot be used together, use '%s' with '%s'"
 msgstr ""
-"опції \"%s\" і \"%s\" неможливо використовувати разом, використовуйте \"%s\" "
-"з \"%s\""
+"опції \"%s\" і \"%s\" неможливо використовувати разом, використовуйте \"%s\" з "
+"\"%s\""
 
 #: diff.c:4769
 #, c-format
 msgid ""
 "options '%s' and '%s' cannot be used together, use '%s' with '%s' and '%s'"
 msgstr ""
-"опції \"%s\" і \"%s\" неможливо використовувати разом, використовуйте \"%s\" "
-"з \"%s\" і \"%s\""
+"опції \"%s\" і \"%s\" неможливо використовувати разом, використовуйте \"%s\" з "
+"\"%s\" і \"%s\""
 
 #: diff.c:4849
 msgid "--follow requires exactly one pathspec"
@@ -18785,14 +18768,13 @@ msgstr ""
 
 #: diff.c:5567
 msgid ""
-"highlight whitespace errors in the 'context', 'old' or 'new' lines in the "
-"diff"
+"highlight whitespace errors in the 'context', 'old' or 'new' lines in the diff"
 msgstr ""
 
 #: diff.c:5570
 msgid ""
-"do not munge pathnames and use NULs as output field terminators in --raw or "
-"--numstat"
+"do not munge pathnames and use NULs as output field terminators in --raw or --"
+"numstat"
 msgstr ""
 
 #: diff.c:5573 diff.c:5576 diff.c:5579 diff.c:5693
@@ -19623,14 +19605,14 @@ msgstr "не вдалося записати відʼєднаний підпис
 
 #: gpg-interface.c:467
 msgid ""
-"gpg.ssh.allowedSignersFile needs to be configured and exist for ssh "
-"signature verification"
+"gpg.ssh.allowedSignersFile needs to be configured and exist for ssh signature "
+"verification"
 msgstr ""
 
 #: gpg-interface.c:496
 msgid ""
-"ssh-keygen -Y find-principals/verify is needed for ssh signature "
-"verification (available in openssh version 8.2p1+)"
+"ssh-keygen -Y find-principals/verify is needed for ssh signature verification "
+"(available in openssh version 8.2p1+)"
 msgstr ""
 
 #: gpg-interface.c:567
@@ -19704,8 +19686,8 @@ msgstr ""
 
 #: grep.c:503
 msgid ""
-"given pattern contains NULL byte (via -f <file>). This is only supported "
-"with -P under PCRE v2"
+"given pattern contains NULL byte (via -f <file>). This is only supported with -"
+"P under PCRE v2"
 msgstr ""
 
 #: grep.c:1920
@@ -20119,8 +20101,7 @@ msgstr "Не вдалося злити підмодуль %s"
 
 #: merge-ort.c:1864
 #, c-format
-msgid ""
-"Failed to merge submodule %s, but a possible merge resolution exists: %s"
+msgid "Failed to merge submodule %s, but a possible merge resolution exists: %s"
 msgstr ""
 
 #: merge-ort.c:1875
@@ -20147,23 +20128,23 @@ msgstr ""
 #: merge-ort.c:2270 merge-recursive.c:2140
 #, c-format
 msgid ""
-"CONFLICT (implicit dir rename): Existing file/dir at %s in the way of "
-"implicit directory rename(s) putting the following path(s) there: %s."
+"CONFLICT (implicit dir rename): Existing file/dir at %s in the way of implicit "
+"directory rename(s) putting the following path(s) there: %s."
 msgstr ""
 
 #: merge-ort.c:2282 merge-recursive.c:2150
 #, c-format
 msgid ""
-"CONFLICT (implicit dir rename): Cannot map more than one path to %s; "
-"implicit directory renames tried to put these paths there: %s"
+"CONFLICT (implicit dir rename): Cannot map more than one path to %s; implicit "
+"directory renames tried to put these paths there: %s"
 msgstr ""
 
 #: merge-ort.c:2341
 #, c-format
 msgid ""
 "CONFLICT (directory rename split): Unclear where to rename %s to; it was "
-"renamed to multiple other directories, with no destination getting a "
-"majority of the files."
+"renamed to multiple other directories, with no destination getting a majority "
+"of the files."
 msgstr ""
 
 #: merge-ort.c:2523 merge-recursive.c:2486
@@ -20176,8 +20157,8 @@ msgstr ""
 #: merge-ort.c:2697 merge-recursive.c:3269
 #, c-format
 msgid ""
-"Path updated: %s added in %s inside a directory that was renamed in %s; "
-"moving it to %s."
+"Path updated: %s added in %s inside a directory that was renamed in %s; moving "
+"it to %s."
 msgstr ""
 
 #: merge-ort.c:2705 merge-recursive.c:3276
@@ -20197,8 +20178,8 @@ msgstr ""
 #: merge-ort.c:2728 merge-recursive.c:3279
 #, c-format
 msgid ""
-"CONFLICT (file location): %s renamed to %s in %s, inside a directory that "
-"was renamed in %s, suggesting it should perhaps be moved to %s."
+"CONFLICT (file location): %s renamed to %s in %s, inside a directory that was "
+"renamed in %s, suggesting it should perhaps be moved to %s."
 msgstr ""
 
 #: merge-ort.c:2887
@@ -20232,8 +20213,8 @@ msgstr "обʼєкт %s не є blob"
 #: merge-ort.c:3951
 #, c-format
 msgid ""
-"CONFLICT (file/directory): directory in the way of %s from %s; moving it to "
-"%s instead."
+"CONFLICT (file/directory): directory in the way of %s from %s; moving it to %s "
+"instead."
 msgstr ""
 
 #: merge-ort.c:4034
@@ -20246,8 +20227,8 @@ msgstr ""
 #: merge-ort.c:4043
 #, c-format
 msgid ""
-"CONFLICT (distinct types): %s had different types on each side; renamed one "
-"of them so each can be recorded somewhere."
+"CONFLICT (distinct types): %s had different types on each side; renamed one of "
+"them so each can be recorded somewhere."
 msgstr ""
 
 #: merge-ort.c:4130 merge-recursive.c:3109
@@ -20270,8 +20251,8 @@ msgstr ""
 #: merge-ort.c:4182
 #, c-format
 msgid ""
-"CONFLICT (modify/delete): %s deleted in %s and modified in %s.  Version %s "
-"of %s left in tree."
+"CONFLICT (modify/delete): %s deleted in %s and modified in %s.  Version %s of "
+"%s left in tree."
 msgstr ""
 
 #. TRANSLATORS: This is a line of advice to resolve a merge
@@ -20411,8 +20392,8 @@ msgstr ""
 #: merge-recursive.c:1514
 #, c-format
 msgid ""
-"CONFLICT (%s/delete): %s deleted in %s and %s in %s. Version %s of %s left "
-"in tree."
+"CONFLICT (%s/delete): %s deleted in %s and %s in %s. Version %s of %s left in "
+"tree."
 msgstr ""
 
 #: merge-recursive.c:1519
@@ -20425,8 +20406,8 @@ msgstr ""
 #: merge-recursive.c:1526
 #, c-format
 msgid ""
-"CONFLICT (%s/delete): %s deleted in %s and %s in %s. Version %s of %s left "
-"in tree at %s."
+"CONFLICT (%s/delete): %s deleted in %s and %s in %s. Version %s of %s left in "
+"tree at %s."
 msgstr ""
 
 #: merge-recursive.c:1531
@@ -20472,8 +20453,8 @@ msgstr ""
 #: merge-recursive.c:1748
 #, c-format
 msgid ""
-"CONFLICT (rename/rename): Rename \"%s\"->\"%s\" in branch \"%s\" rename "
-"\"%s\"->\"%s\" in \"%s\"%s"
+"CONFLICT (rename/rename): Rename \"%s\"->\"%s\" in branch \"%s\" rename \"%s\"-"
+">\"%s\" in \"%s\"%s"
 msgstr ""
 
 #: merge-recursive.c:1753
@@ -20488,9 +20469,9 @@ msgstr ""
 #: merge-recursive.c:2108
 #, c-format
 msgid ""
-"CONFLICT (directory rename split): Unclear where to place %s because "
-"directory %s was renamed to multiple other directories, with no destination "
-"getting a majority of the files."
+"CONFLICT (directory rename split): Unclear where to place %s because directory "
+"%s was renamed to multiple other directories, with no destination getting a "
+"majority of the files."
 msgstr ""
 
 #: merge-recursive.c:2242
@@ -20731,8 +20712,7 @@ msgstr "Пошук файлів пакунків, на які є посилан�
 
 #: midx.c:1748
 #, c-format
-msgid ""
-"oid fanout out of order: fanout[%d] = %<PRIx32> > %<PRIx32> = fanout[%d]"
+msgid "oid fanout out of order: fanout[%d] = %<PRIx32> > %<PRIx32> = fanout[%d]"
 msgstr ""
 
 #: midx.c:1753
@@ -20806,8 +20786,8 @@ msgstr "не вдалося приєднатися до lazy_name потоку: 
 #, c-format
 msgid ""
 "You have not concluded your previous notes merge (%s exists).\n"
-"Please, use 'git notes merge --commit' or 'git notes merge --abort' to "
-"commit/abort the previous merge before you start a new notes merge."
+"Please, use 'git notes merge --commit' or 'git notes merge --abort' to commit/"
+"abort the previous merge before you start a new notes merge."
 msgstr ""
 
 #: notes-merge.c:286
@@ -21413,8 +21393,7 @@ msgstr ""
 #: pack-bitmap.c:2289
 #, c-format
 msgid "unable to get disk usage of '%s'"
-msgstr ""
-"не вдалося отримати дані про використання дискового простору для \"%s\""
+msgstr "не вдалося отримати дані про використання дискового простору для \"%s\""
 
 #: pack-mtimes.c:47
 #, c-format
@@ -21714,8 +21693,7 @@ msgstr ""
 #: pathspec.c:351
 #, c-format
 msgid "Invalid pathspec magic '%.*s' in '%s'"
-msgstr ""
-"неприпустиме магічне значення \"%.*s\" для специфікатора шляху в \"%s\""
+msgstr "неприпустиме магічне значення \"%.*s\" для специфікатора шляху в \"%s\""
 
 #: pathspec.c:356
 #, c-format
@@ -21872,8 +21850,7 @@ msgstr "не вдалося розібрати коміт \"%s\""
 #: range-diff.c:111
 #, c-format
 msgid ""
-"could not parse first line of `log` output: did not start with 'commit ': "
-"'%s'"
+"could not parse first line of `log` output: did not start with 'commit ': '%s'"
 msgstr ""
 
 #: range-diff.c:134
@@ -22083,8 +22060,7 @@ msgstr ""
 
 #: rebase-interactive.c:36
 #, c-format
-msgid ""
-"unrecognized setting %s for option rebase.missingCommitsCheck. Ignoring."
+msgid "unrecognized setting %s for option rebase.missingCommitsCheck. Ignoring."
 msgstr ""
 
 #: rebase-interactive.c:45
@@ -22168,8 +22144,7 @@ msgstr ""
 msgid ""
 "To avoid this message, use \"drop\" to explicitly remove a commit.\n"
 "\n"
-"Use 'git config rebase.missingCommitsCheck' to change the level of "
-"warnings.\n"
+"Use 'git config rebase.missingCommitsCheck' to change the level of warnings.\n"
 "The possible behaviours are: ignore, warn, error.\n"
 "\n"
 msgstr ""
@@ -22290,8 +22265,7 @@ msgstr ""
 
 #: ref-filter.c:763
 #, c-format
-msgid ""
-"not a git repository, but the field '%.*s' requires access to object data"
+msgid "not a git repository, but the field '%.*s' requires access to object data"
 msgstr ""
 
 #: ref-filter.c:896 ref-filter.c:963 ref-filter.c:1000 ref-filter.c:1002
@@ -22866,8 +22840,7 @@ msgstr "надсилання не має призначення (push.default д
 
 #: remote.c:1963
 msgid "cannot resolve 'simple' push to a single destination"
-msgstr ""
-"неможливо розвʼязати \"simple\" надсилання до одного пункту призначення"
+msgstr "неможливо розвʼязати \"simple\" надсилання до одного пункту призначення"
 
 #: remote.c:2096
 #, c-format
@@ -22922,11 +22895,9 @@ msgid "Your branch is behind '%s' by %d commit, and can be fast-forwarded.\n"
 msgid_plural ""
 "Your branch is behind '%s' by %d commits, and can be fast-forwarded.\n"
 msgstr[0] ""
-"Ваша гілка відстає від гілки '%s' на %d коміт, і її можна швидко "
-"перемотати.\n"
+"Ваша гілка відстає від гілки '%s' на %d коміт, і її можна швидко перемотати.\n"
 msgstr[1] ""
-"Ваша гілка відстає від гілки '%s' на %d коміти, і її можна швидко "
-"перемотати.\n"
+"Ваша гілка відстає від гілки '%s' на %d коміти, і її можна швидко перемотати.\n"
 msgstr[2] ""
 "Ваша гілка відстає від гілки '%s' на %d комітів, і її можна швидко "
 "перемотати.\n"
@@ -24035,8 +24006,7 @@ msgstr "злиття: Не вдалося записати новий файл �
 
 #: sequencer.c:4214
 #, c-format
-msgid ""
-"another 'rebase' process appears to be running; '%s.lock' already exists"
+msgid "another 'rebase' process appears to be running; '%s.lock' already exists"
 msgstr ""
 
 #: sequencer.c:4392
@@ -24531,8 +24501,8 @@ msgstr ""
 #: submodule.c:868
 #, c-format
 msgid ""
-"Submodule in commit %s at path: '%s' collides with a submodule named the "
-"same. Skipping it."
+"Submodule in commit %s at path: '%s' collides with a submodule named the same. "
+"Skipping it."
 msgstr ""
 
 #: submodule.c:992
@@ -25241,16 +25211,14 @@ msgstr ""
 #: unpack-trees.c:164
 #, c-format
 msgid ""
-"The following untracked working tree files would be overwritten by "
-"checkout:\n"
+"The following untracked working tree files would be overwritten by checkout:\n"
 "%%sPlease move or remove them before you switch branches."
 msgstr ""
 
 #: unpack-trees.c:166
 #, c-format
 msgid ""
-"The following untracked working tree files would be overwritten by "
-"checkout:\n"
+"The following untracked working tree files would be overwritten by checkout:\n"
 "%%s"
 msgstr ""
 
@@ -25297,8 +25265,7 @@ msgstr ""
 #: unpack-trees.c:190
 #, c-format
 msgid ""
-"The following paths are not up to date and were left despite sparse "
-"patterns:\n"
+"The following paths are not up to date and were left despite sparse patterns:\n"
 "%s"
 msgstr ""
 
@@ -25539,13 +25506,12 @@ msgstr ""
 #, c-format
 msgid "  (use \"git restore --source=%s --staged <file>...\" to unstage)"
 msgstr ""
-"  (використовуйте \"git restore --source=%s --staged <file>...\", щоб "
-"вилучити з індексу)"
+"  (використовуйте \"git restore --source=%s --staged <file>...\", щоб вилучити "
+"з індексу)"
 
 #: wt-status.c:199 wt-status.c:231
 msgid "  (use \"git rm --cached <file>...\" to unstage)"
-msgstr ""
-"  (використовуйте \"git rm --cached <file>...\", щоб вилучити з індексу)"
+msgstr "  (використовуйте \"git rm --cached <file>...\", щоб вилучити з індексу)"
 
 #: wt-status.c:203
 msgid "  (use \"git add <file>...\" to mark resolution)"
@@ -25582,8 +25548,7 @@ msgstr ""
 "закомічено)"
 
 #: wt-status.c:247
-msgid ""
-"  (use \"git restore <file>...\" to discard changes in working directory)"
+msgid "  (use \"git restore <file>...\" to discard changes in working directory)"
 msgstr ""
 "  (використовуйте \"git restore <файл>...\", щоб скасувати зміни в робочій "
 "директорії)"
@@ -25718,8 +25683,7 @@ msgstr "  (виправте конфлікти та виконайте \"git com
 
 #: wt-status.c:1230
 msgid "  (use \"git merge --abort\" to abort the merge)"
-msgstr ""
-"  (використовуйте команду \"git merge --abort\", щоб перервати злиття)."
+msgstr "  (використовуйте команду \"git merge --abort\", щоб перервати злиття)."
 
 #: wt-status.c:1234
 msgid "All conflicts fixed but you are still merging."
@@ -25746,11 +25710,10 @@ msgid "  (use \"git am --skip\" to skip this patch)"
 msgstr "  (використовуйте команду \"git am --skip\", щоб пропустити цю латку)"
 
 #: wt-status.c:1261
-msgid ""
-"  (use \"git am --allow-empty\" to record this patch as an empty commit)"
+msgid "  (use \"git am --allow-empty\" to record this patch as an empty commit)"
 msgstr ""
-"  (використовуйте \"git am --allow-empty\", щоб записати цю латку як "
-"порожній коміт)"
+"  (використовуйте \"git am --allow-empty\", щоб записати цю латку як порожній "
+"коміт)"
 
 #: wt-status.c:1263
 msgid "  (use \"git am --abort\" to restore the original branch)"
@@ -25822,11 +25785,9 @@ msgstr "  (усі конфлікти виправлено: виконайте \"
 
 #: wt-status.c:1473
 #, c-format
-msgid ""
-"You are currently splitting a commit while rebasing branch '%s' on '%s'."
+msgid "You are currently splitting a commit while rebasing branch '%s' on '%s'."
 msgstr ""
-"Наразі виконується розділення коміту під час перебазування гілки '%s' на "
-"'%s'."
+"Наразі виконується розділення коміту під час перебазування гілки '%s' на '%s'."
 
 #: wt-status.c:1478
 msgid "You are currently splitting a commit during a rebase."
@@ -25849,15 +25810,14 @@ msgstr "Ви редагуєте коміт під час перебазуван�
 #: wt-status.c:1493
 msgid "  (use \"git commit --amend\" to amend the current commit)"
 msgstr ""
-"  (використовуйте \"git commit --amend\" для внесення змін до поточного "
-"коміту)"
+"  (використовуйте \"git commit --amend\" для внесення змін до поточного коміту)"
 
 #: wt-status.c:1495
 msgid ""
 "  (use \"git rebase --continue\" once you are satisfied with your changes)"
 msgstr ""
-"  (скористайтесь командою \"git rebase --continue\", коли ви будете "
-"задоволені своїми змінами)"
+"  (скористайтесь командою \"git rebase --continue\", коли ви будете задоволені "
+"своїми змінами)"
 
 #: wt-status.c:1506
 msgid "Cherry-pick currently in progress."
@@ -25883,8 +25843,7 @@ msgstr "  (усі конфлікти виправлено: виконайте \"
 #: wt-status.c:1524
 msgid "  (use \"git cherry-pick --skip\" to skip this patch)"
 msgstr ""
-"  (скористайтесь командою \"git cherry-pick --skip\", щоб пропустити цю "
-"латку)"
+"  (скористайтесь командою \"git cherry-pick --skip\", щоб пропустити цю латку)"
 
 #: wt-status.c:1526
 msgid "  (use \"git cherry-pick --abort\" to cancel the cherry-pick operation)"
@@ -26058,8 +26017,7 @@ msgstr "нічого комітити\n"
 #: wt-status.c:1941
 #, c-format
 msgid "nothing to commit (use -u to show untracked files)\n"
-msgstr ""
-"нічого комітити (скористайтесь -u щоб подивитись невідстежувані файли)\n"
+msgstr "нічого комітити (скористайтесь -u щоб подивитись невідстежувані файли)\n"
 
 #: wt-status.c:1946
 #, c-format
@@ -26103,8 +26061,7 @@ msgstr "не можливо %s: Ваш індекс містить не зако
 
 #: git-merge-octopus.sh:46 git-merge-resolve.sh:13
 msgid ""
-"Error: Your local changes to the following files would be overwritten by "
-"merge"
+"Error: Your local changes to the following files would be overwritten by merge"
 msgstr ""
 
 #: git-merge-octopus.sh:61
@@ -26199,8 +26156,7 @@ msgstr "редактор вийшов неналежним чином, пере�
 
 #: git-send-email.perl:350
 #, perl-format
-msgid ""
-"'%s' contains an intermediate version of the email you were composing.\n"
+msgid "'%s' contains an intermediate version of the email you were composing.\n"
 msgstr "\"%s\" містить проміжну версію листа, який ви створювали.\n"
 
 #: git-send-email.perl:355
@@ -26219,8 +26175,8 @@ msgid ""
 "Set sendemail.forbidSendmailVariables to false to disable this check.\n"
 msgstr ""
 "збій: знайдено опції конфігурації для \"sendmail\"\n"
-"git-send-email налаштовано з параметрами sendemail.* options - зверніть "
-"увагу на \"e\".\n"
+"git-send-email налаштовано з параметрами sendemail.* options - зверніть увагу "
+"на \"e\".\n"
 "Встановіть sendemail.forbidSendmailVariables у false, щоб вимкнути цю "
 "перевірку.\n"
 
@@ -26343,8 +26299,7 @@ msgstr "Ви впевнені, що хочете використати <%s> [y/
 
 #: git-send-email.perl:1033
 msgid ""
-"The following files are 8bit, but do not declare a Content-Transfer-"
-"Encoding.\n"
+"The following files are 8bit, but do not declare a Content-Transfer-Encoding.\n"
 msgstr ""
 
 #: git-send-email.perl:1038
@@ -26410,8 +26365,7 @@ msgstr ""
 "    Наведений вище список копій було розширено додатковими\n"
 "    адресами, знайденими у повідомленні коміта латки. Зазвичай\n"
 "    send-email запитує перед надсиланням, коли це трапляється.\n"
-"    Цю поведінку можна контролювати за допомогою параметра sendemail."
-"confirm\n"
+"    Цю поведінку можна контролювати за допомогою параметра sendemail.confirm\n"
 "    налаштування конфігурації.\n"
 "\n"
 "    Для отримання додаткової інформації виконайте команду \"git send-email --"
