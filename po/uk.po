@@ -411,7 +411,7 @@ msgstr "Відкинути додавання з робочого дерева [
 #: add-patch.c:132 add-patch.c:200
 #, c-format
 msgid "Discard this hunk from worktree [y,n,q,a,d%s,?]? "
-msgstr "Відкинути цей шматок з з робочого дерева [y,n,q,a,d%s,?]? "
+msgstr "Відкинути цей шматок з робочого дерева [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:134 add-patch.c:157 add-patch.c:202
 msgid ""
