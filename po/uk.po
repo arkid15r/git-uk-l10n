@@ -25303,7 +25303,7 @@ msgstr "відсутній хост і схема не \"file:\""
 
 #: urlmatch.c:235
 msgid "a 'file:' URL may not have a port number"
-msgstr "\"file:\" URL-адреса може не мати номера порту"
+msgstr "\"file:\" URL-адреса не може мати номера порту"
 
 #: urlmatch.c:250
 msgid "invalid characters in host name"
