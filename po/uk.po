@@ -4856,7 +4856,7 @@ msgstr "імʼя"
 #: builtin/clone.c:136
 msgid "use <name> instead of 'origin' to track upstream"
 msgstr ""
-"використовуйте <імʼя> замість 'origin' для відстеження першоджерельного сховища"
+"використовуйте <імʼя> замість \"origin\" для відстеження першоджерельного сховища"
 
 #: builtin/clone.c:138
 msgid "checkout <branch> instead of the remote's HEAD"
