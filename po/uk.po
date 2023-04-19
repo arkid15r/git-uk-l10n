@@ -26056,7 +26056,7 @@ msgstr "Вже в актуальному стані з $pretty_name"
 #: git-merge-octopus.sh:89
 #, sh-format
 msgid "Fast-forwarding to: $pretty_name"
-msgstr "Перемотування до: $pretty_name"
+msgstr "Перемотування вперед до: $pretty_name"
 
 #: git-merge-octopus.sh:97
 #, sh-format
