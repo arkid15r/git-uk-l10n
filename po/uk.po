@@ -25315,7 +25315,7 @@ msgstr "неприпустимий номер порту"
 
 #: urlmatch.c:374
 msgid "invalid '..' path segment"
-msgstr "неприпустимий \"...\" сегмент шляху"
+msgstr "неприпустимий \"..\" сегмент шляху"
 
 #: usage.c:38
 msgid "usage: "
