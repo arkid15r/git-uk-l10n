@@ -26119,7 +26119,7 @@ msgstr "зміщення місцевого часу більше або дор�
 #: git-send-email.perl:248
 #, perl-format
 msgid "fatal: command '%s' died with exit code %d"
-msgstr "збій: команда \"%s\" завершилася з кодом виходу %d"
+msgstr "збій: команда \"%s\" завершилася невдало з кодом виходу %d"
 
 #: git-send-email.perl:261
 msgid "the editor exited uncleanly, aborting everything"
