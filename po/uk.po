@@ -25277,7 +25277,7 @@ msgstr ""
 
 #: unpack-trees.c:1760
 msgid "Updating index flags"
-msgstr "Оновлення міток індексу"
+msgstr "Оновлення прапорців індексу"
 
 #: unpack-trees.c:3042
 #, c-format
