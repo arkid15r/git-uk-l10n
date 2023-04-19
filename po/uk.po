@@ -25282,7 +25282,7 @@ msgstr "Оновлення прапорців індексу"
 #: unpack-trees.c:3042
 #, c-format
 msgid "worktree and untracked commit have duplicate entries: %s"
-msgstr "робоче дерево та невідстежений коміт мають дубльовані записи: %s"
+msgstr "робоче дерево та невідстежуваний коміт мають дубльовані записи: %s"
 
 #: upload-pack.c:1596
 msgid "expected flush after fetch arguments"
