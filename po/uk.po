@@ -25299,7 +25299,7 @@ msgstr "неприпустима %XX екрануюча послідовніст
 
 #: urlmatch.c:218
 msgid "missing host and scheme is not 'file:'"
-msgstr "відсутній хост і схема не типу \"file:\""
+msgstr "відсутній хост і схема не \"file:\""
 
 #: urlmatch.c:235
 msgid "a 'file:' URL may not have a port number"
