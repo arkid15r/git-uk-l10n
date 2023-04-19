@@ -26106,7 +26106,7 @@ msgstr "Цю команду потрібно запускати з верхнь�
 
 #: git-sh-setup.sh:337
 msgid "Unable to determine absolute path of git directory"
-msgstr "Не вдалося визначити абсолютний шлях git каталогу"
+msgstr "Не вдалося визначити абсолютний шлях git директорії"
 
 #: git-send-email.perl:159
 msgid "local zone differs from GMT by a non-minute interval\n"
