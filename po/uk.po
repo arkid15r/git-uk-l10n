@@ -25414,7 +25414,7 @@ msgstr "не вдалося прочитати файл git директорії
 #, c-format
 msgid "short read (expected %<PRIuMAX> bytes, read %<PRIuMAX>)"
 msgstr ""
-"помилка при зчитуванні (очікувалось %<PRIuMAX> байт, прочитано %<PRIuMAX>)"
+"помилка при зчитуванні (очікувалось %<PRIuMAX> байтів, прочитано %<PRIuMAX>)"
 
 #: worktree.c:766
 msgid "invalid gitdir file"
