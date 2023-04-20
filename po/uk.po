@@ -25053,7 +25053,7 @@ msgid ""
 "Your local changes to the following files would be overwritten by checkout:\n"
 "%%s"
 msgstr ""
-"Ваші локальні зміни в наступних файлах будуть перезаписані при виході з системи:\n"
+"Ваші локальні зміни в наступних файлах будуть перезаписані при переключенні стану:\n"
 "%%s"
 
 #: unpack-trees.c:127
