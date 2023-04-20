@@ -25157,8 +25157,8 @@ msgid ""
 "The following untracked working tree files would be removed by %s:\n"
 "%%sPlease move or remove them before you %s."
 msgstr ""
-"Наступні невідстежувані файли робочого дерева будуть вилучені при виконанні %s:\n"
-"%%sПеремістіть або вилучіть їх перед %s."
+"Наступні невідстежувані файли робочого дерева будуть видалені при виконанні %s:\n"
+"%%sБудь ласка, перемістіть або видаліть їх перед %s."
 
 #: unpack-trees.c:158
 #, c-format
