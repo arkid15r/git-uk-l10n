@@ -560,13 +560,15 @@ msgstr "не вдалося запустити \"%s\""
 
 #: add-patch.c:626
 msgid "mismatched output from interactive.diffFilter"
-msgstr ""
+msgstr "неспівпадіння виводу з interactive.diffFilter"
 
 #: add-patch.c:627
 msgid ""
 "Your filter must maintain a one-to-one correspondence\n"
 "between its input and output lines."
 msgstr ""
+"Ваш фільтр повинен підтримувати один до одного відповідність\n"
+"між його вхідними та вихідними рядками."
 
 #: add-patch.c:814
 #, c-format
@@ -574,6 +576,8 @@ msgid ""
 "expected context line #%d in\n"
 "%.*s"
 msgstr ""
+"очікувався рядок контексту #%d в\n"
+"%.*s"
 
 #: add-patch.c:829
 #, c-format
@@ -583,10 +587,14 @@ msgid ""
 "\tdoes not end with:\n"
 "%.*s"
 msgstr ""
+"шматки не перетинаються:\n"
+"%.*s\n"
+"\tне закінчується на:\n"
+"%.*s"
 
 #: add-patch.c:1105
 msgid "Manual hunk edit mode -- see bottom for a quick guide.\n"
-msgstr ""
+msgstr "Режим ручного редагування шматка -- див. короткий посібник внизу.\n"
 
 #: add-patch.c:1109
 #, c-format
@@ -596,6 +604,10 @@ msgid ""
 "To remove '%c' lines, delete them.\n"
 "Lines starting with %c will be removed.\n"
 msgstr ""
+"---\n"
+"Щоб видалити рядки \"%c\", зробіть їх рядками \" \" (контекст).\n"
+"Щоб видалити рядки \"%c\", вилучіть їх.\n"
+"Буде видалено рядки, що починаються з %c.\n"
 
 #: add-patch.c:1123
 msgid ""
@@ -603,14 +615,17 @@ msgid ""
 "edit again.  If all lines of the hunk are removed, then the edit is\n"
 "aborted and the hunk is left unchanged.\n"
 msgstr ""
+"Якщо шматок буде застосований з помилками, вам буде надана можливість\n"
+"відредагувати ще раз.  Якщо всі рядки шматка буде вилучено, то редагування буде\n"
+"перервано, і шматок залишиться без змін.\n"
 
 #: add-patch.c:1156
 msgid "could not parse hunk header"
-msgstr ""
+msgstr "не вдалося розібрати заголовок шматка"
 
 #: add-patch.c:1201
 msgid "'git apply --cached' failed"
-msgstr ""
+msgstr "\"git apply --cached\" завершився невдало"
 
 #. TRANSLATORS: do not translate [y/n]
 #. The program will only accept that input at this point.
@@ -622,18 +637,20 @@ msgstr ""
 msgid ""
 "Your edited hunk does not apply. Edit again (saying \"no\" discards!) [y/n]? "
 msgstr ""
+"Ваш відредагований шматок неможливо застосувати. Відредагувати ще раз (\"no\" - "
+"відкинути!) [y/n]? "
 
 #: add-patch.c:1313
 msgid "The selected hunks do not apply to the index!"
-msgstr ""
+msgstr "Вибрані шматки неможливо застосувати до індексу!"
 
 #: add-patch.c:1314
 msgid "Apply them to the worktree anyway? "
-msgstr ""
+msgstr "Все одно застосувати їх до робочого дерева? "
 
 #: add-patch.c:1321
 msgid "Nothing was applied.\n"
-msgstr ""
+msgstr "Нічого не застосовано.\n"
 
 #: add-patch.c:1378
 msgid ""
@@ -21627,7 +21644,7 @@ msgstr ""
 #: pathspec.c:351
 #, c-format
 msgid "Invalid pathspec magic '%.*s' in '%s'"
-msgstr "неприпустиме магічне значення \"%.*s\" для специфікатора шляху в \"%s\""
+msgstr "Неприпустиме магічне значення \"%.*s\" для специфікатора шляху в \"%s\""
 
 #: pathspec.c:356
 #, c-format
