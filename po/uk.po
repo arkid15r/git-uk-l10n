@@ -25185,8 +25185,8 @@ msgid ""
 "The following untracked working tree files would be overwritten by checkout:\n"
 "%%s"
 msgstr ""
-"Наступні невідстежувані файли робочого дерева будуть перезаписані при виході з "
-"системи:\n"
+"Наступні невідстежувані файли робочого дерева будуть перезаписані при переключенні "
+"стану:\n"
 "%%s"
 
 #: unpack-trees.c:169
