@@ -25175,9 +25175,9 @@ msgid ""
 "The following untracked working tree files would be overwritten by checkout:\n"
 "%%sPlease move or remove them before you switch branches."
 msgstr ""
-"Наступні невідстежувані файли робочого дерева будуть перезаписані при виході з "
-"системи:\n"
-"%%sПеремістіть або видаліть їх перш ніж перейти до іншої гілки."
+"Наступні невідстежувані файли робочого дерева будуть перезаписані при переключенні "
+"стану\n"
+"%%sБудь ласка, перемістіть або видаліть їх перед переходом до іншої гілки."
 
 #: unpack-trees.c:166
 #, c-format
