@@ -25166,7 +25166,7 @@ msgid ""
 "The following untracked working tree files would be removed by %s:\n"
 "%%s"
 msgstr ""
-"Наступні невідстежувані файли робочого дерева будуть вилучені при виконанні %s:\n"
+"Наступні невідстежувані файли робочого дерева будуть видалені при виконанні %s:\n"
 "%%s"
 
 #: unpack-trees.c:164
