@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-04-19 19:22-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-04-19 19:49-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -18515,14 +18515,14 @@ msgstr "опції \"%s\", \"%s\", \"%s\" та \"%s\" неможливо вик�
 #, c-format
 msgid "options '%s' and '%s' cannot be used together, use '%s' with '%s'"
 msgstr ""
-"опції \"%s\" і \"%s\" неможливо використати разом, використовуйте \"%s\" з “%s”"
+"опції \"%s\" і \"%s\" неможливо використати разом, використовуйте \"%s\" з \"%s\""
 
 #: diff.c:4769
 #, c-format
 msgid "options '%s' and '%s' cannot be used together, use '%s' with '%s' and '%s'"
 msgstr ""
-"опції \"%s\" і \"%s\" неможливо використати разом, використовуйте \"%s\" з “%s” і "
-"“%s”"
+"опції \"%s\" і \"%s\" неможливо використати разом, використовуйте \"%s\" з \"%s\" "
+"та \"%s\""
 
 #: diff.c:4849
 msgid "--follow requires exactly one pathspec"
@@ -25061,6 +25061,8 @@ msgid ""
 "Your local changes to the following files would be overwritten by checkout:\n"
 "%%sPlease commit your changes or stash them before you switch branches."
 msgstr ""
+"Ваші локальні зміни в наступних файлах будуть перезаписані при переключенні стану:\n"
+"%%sБудь ласка, зробіть коміт або додайте їх до схову перед переходом до іншої гілки."
 
 #: unpack-trees.c:124
 #, c-format
@@ -25068,6 +25070,8 @@ msgid ""
 "Your local changes to the following files would be overwritten by checkout:\n"
 "%%s"
 msgstr ""
+"Ваші локальні зміни в наступних файлах будуть перезаписані при переключенні стану:\n"
+"%%s"
 
 #: unpack-trees.c:127
 #, c-format
@@ -25075,6 +25079,8 @@ msgid ""
 "Your local changes to the following files would be overwritten by merge:\n"
 "%%sPlease commit your changes or stash them before you merge."
 msgstr ""
+"Ваші локальні зміни у наступних файлах будуть перезаписані під час злиття:\n"
+"%%sБудь ласка, зробіть коміт або додайте їх до схову перед злиттям."
 
 #: unpack-trees.c:129
 #, c-format
@@ -25082,6 +25088,8 @@ msgid ""
 "Your local changes to the following files would be overwritten by merge:\n"
 "%%s"
 msgstr ""
+"Ваші локальні зміни у наступних файлах будуть перезаписані під час злиття:\n"
+"%%s"
 
 #: unpack-trees.c:132
 #, c-format
@@ -25089,6 +25097,8 @@ msgid ""
 "Your local changes to the following files would be overwritten by %s:\n"
 "%%sPlease commit your changes or stash them before you %s."
 msgstr ""
+"Ваші локальні зміни у наступних файлах будуть перезаписані %s:\n"
+"%%sБудь ласка, зробіть коміт або додайте їх до схову перед %s."
 
 #: unpack-trees.c:134
 #, c-format
@@ -25096,6 +25106,8 @@ msgid ""
 "Your local changes to the following files would be overwritten by %s:\n"
 "%%s"
 msgstr ""
+"Ваші локальні зміни у наступних файлах будуть перезаписані %s:\n"
+"%%s"
 
 #: unpack-trees.c:139
 #, c-format
@@ -25103,6 +25115,9 @@ msgid ""
 "Updating the following directories would lose untracked files in them:\n"
 "%s"
 msgstr ""
+"Оновлення наступних директорій призведе до втрати невідстежуваних файлів у "
+"цих директоріях:\n"
+"%s"
 
 #: unpack-trees.c:142
 #, c-format
@@ -25110,6 +25125,8 @@ msgid ""
 "Refusing to remove the current working directory:\n"
 "%s"
 msgstr ""
+"Відмова видалення поточної робочої директорії:\n"
+"%s"
 
 #: unpack-trees.c:146
 #, c-format
@@ -25117,6 +25134,9 @@ msgid ""
 "The following untracked working tree files would be removed by checkout:\n"
 "%%sPlease move or remove them before you switch branches."
 msgstr ""
+"Наступні невідстежувані файли робочого дерева будуть видалені під час "
+"переключення:\n"
+"%%sБудь ласка, перемістіть або видаліть їх перед переходом до іншої гілки."
 
 #: unpack-trees.c:148
 #, c-format
@@ -25124,6 +25144,9 @@ msgid ""
 "The following untracked working tree files would be removed by checkout:\n"
 "%%s"
 msgstr ""
+"Наступні невідстежувані файли робочого дерева будуть видалені під час "
+"переключення:\n"
+"%%s"
 
 #: unpack-trees.c:151
 #, c-format
@@ -25131,6 +25154,9 @@ msgid ""
 "The following untracked working tree files would be removed by merge:\n"
 "%%sPlease move or remove them before you merge."
 msgstr ""
+"Наступні невідстежувані файли робочого дерева будуть видалені при виконанні "
+"злиття:\n"
+"%%sБудь ласка, перемістіть або видаліть їх перед злиттям."
 
 #: unpack-trees.c:153
 #, c-format
@@ -25138,6 +25164,9 @@ msgid ""
 "The following untracked working tree files would be removed by merge:\n"
 "%%s"
 msgstr ""
+"Наступні невідстежувані файли робочого дерева будуть видалені при виконанні "
+"злиття:\n"
+"%%s"
 
 #: unpack-trees.c:156
 #, c-format
@@ -25145,6 +25174,8 @@ msgid ""
 "The following untracked working tree files would be removed by %s:\n"
 "%%sPlease move or remove them before you %s."
 msgstr ""
+"Наступні невідстежувані файли робочого дерева будуть видалені при виконанні %s:\n"
+"%%sБудь ласка, перемістіть або видаліть їх перед %s."
 
 #: unpack-trees.c:158
 #, c-format
@@ -25152,6 +25183,8 @@ msgid ""
 "The following untracked working tree files would be removed by %s:\n"
 "%%s"
 msgstr ""
+"Наступні невідстежувані файли робочого дерева будуть видалені при виконанні %s:\n"
+"%%s"
 
 #: unpack-trees.c:164
 #, c-format
@@ -25159,6 +25192,9 @@ msgid ""
 "The following untracked working tree files would be overwritten by checkout:\n"
 "%%sPlease move or remove them before you switch branches."
 msgstr ""
+"Наступні невідстежувані файли робочого дерева будуть перезаписані при переключенні "
+"стану\n"
+"%%sБудь ласка, перемістіть або видаліть їх перед переходом до іншої гілки."
 
 #: unpack-trees.c:166
 #, c-format
@@ -25166,6 +25202,9 @@ msgid ""
 "The following untracked working tree files would be overwritten by checkout:\n"
 "%%s"
 msgstr ""
+"Наступні невідстежувані файли робочого дерева будуть перезаписані при переключенні "
+"стану:\n"
+"%%s"
 
 #: unpack-trees.c:169
 #, c-format
@@ -25173,6 +25212,8 @@ msgid ""
 "The following untracked working tree files would be overwritten by merge:\n"
 "%%sPlease move or remove them before you merge."
 msgstr ""
+"Наступні невідстежувані файли робочого дерева будуть перезаписані при злитті:\n"
+"%%sБудь ласка, перемістіть або видаліть їх перед злиттям."
 
 #: unpack-trees.c:171
 #, c-format
@@ -25180,6 +25221,8 @@ msgid ""
 "The following untracked working tree files would be overwritten by merge:\n"
 "%%s"
 msgstr ""
+"Наступні невідстежувані файли робочого дерева будуть перезаписані при виконанні злиття:\n"
+"%%s"
 
 #: unpack-trees.c:174
 #, c-format
@@ -25187,6 +25230,8 @@ msgid ""
 "The following untracked working tree files would be overwritten by %s:\n"
 "%%sPlease move or remove them before you %s."
 msgstr ""
+"Наступні невідстежувані файли робочого дерева будуть перезаписані %s:\n"
+"%%sБудь ласка, перемістіть або видаліть їх перед %s."
 
 #: unpack-trees.c:176
 #, c-format
@@ -25194,11 +25239,13 @@ msgid ""
 "The following untracked working tree files would be overwritten by %s:\n"
 "%%s"
 msgstr ""
+"Наступні невідстежувані файли робочого дерева будуть перезаписані %s:\n"
+"%%s"
 
 #: unpack-trees.c:184
 #, c-format
 msgid "Entry '%s' overlaps with '%s'.  Cannot bind."
-msgstr ""
+msgstr "Запис \"%s\" перетинається з \"%s\".  Неможливо звʼязати."
 
 #: unpack-trees.c:187
 #, c-format
@@ -25465,7 +25512,7 @@ msgstr ""
 #, c-format
 msgid "  (use \"git restore --source=%s --staged <file>...\" to unstage)"
 msgstr ""
-"  (використовуйте \"git restore --source=%s --staged <file>...\", щоб вилучити з "
+"  (використовуйте \"git restore --source=%s --staged <file>...\", щоб видалити з "
 "індексу)"
 
 #: wt-status.c:199 wt-status.c:231
