@@ -25044,8 +25044,8 @@ msgid ""
 "Your local changes to the following files would be overwritten by checkout:\n"
 "%%sPlease commit your changes or stash them before you switch branches."
 msgstr ""
-"Ваші локальні зміни в наступних файлах будуть перезаписані при виході з системи:\n"
-"%%sЗробіть коміт або додайте їх до схову перш ніж перейти на іншу гілку."
+"Ваші локальні зміни в наступних файлах будуть перезаписані при переключенні стану:\n"
+"%%sБудь ласка, зробіть коміт або додайте їх до схову перед переходом до іншої гілки."
 
 #: unpack-trees.c:124
 #, c-format
