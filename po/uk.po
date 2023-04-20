@@ -25204,7 +25204,7 @@ msgid ""
 "The following untracked working tree files would be overwritten by merge:\n"
 "%%s"
 msgstr ""
-"Наступні невідстежувані файли робочого дерева будуть перезаписані при злитті:\n"
+"Наступні невідстежувані файли робочого дерева будуть перезаписані при виконанні злиття:\n"
 "%%s"
 
 #: unpack-trees.c:174
