@@ -25495,7 +25495,7 @@ msgstr ""
 #, c-format
 msgid "  (use \"git restore --source=%s --staged <file>...\" to unstage)"
 msgstr ""
-"  (використовуйте \"git restore --source=%s --staged <file>...\", щоб вилучити з "
+"  (використовуйте \"git restore --source=%s --staged <file>...\", щоб видалити з "
 "індексу)"
 
 #: wt-status.c:199 wt-status.c:231
