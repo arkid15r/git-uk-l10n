@@ -662,26 +662,35 @@ msgid ""
 "e - manually edit the current hunk\n"
 "? - print help\n"
 msgstr ""
+"j - залишити цей шматок невизначеним, перейти до наступного невизначеного шматка\n"
+"J - залишити цей шматок невизначеним, перейти до наступного шматка\n"
+"k - залишити цей шматок невизначеним, перейти до попереднього невизначеного шматка\n"
+"K - залишити цей шматок невизначеним, перейти до попереднього шматка\n"
+"g - вибрати шматок, до якого ви хочете перейти\n"
+"/ - шукати шматок, що відповідає заданому регвиру\n"
+"s - розбити поточний шматок на менші шматки\n"
+"e - редагувати поточний шматок вручну\n"
+"? - показати довідку\n"
 
 #: add-patch.c:1540 add-patch.c:1550
 msgid "No previous hunk"
-msgstr ""
+msgstr "Немає попереднього шматка"
 
 #: add-patch.c:1545 add-patch.c:1555
 msgid "No next hunk"
-msgstr ""
+msgstr "Немає наступного шматка"
 
 #: add-patch.c:1561
 msgid "No other hunks to goto"
-msgstr ""
+msgstr "Немає інших шматків для переходу"
 
 #: add-patch.c:1572
 msgid "go to which hunk (<ret> to see more)? "
-msgstr ""
+msgstr "до якого шматка перейти (<ret>, щоб побачити більше)? "
 
 #: add-patch.c:1573
 msgid "go to which hunk? "
-msgstr ""
+msgstr "до якого шматка перейти? "
 
 #: add-patch.c:1584
 #, c-format
@@ -692,43 +701,43 @@ msgstr "Неприпустиме число: \"%s\""
 #, c-format
 msgid "Sorry, only %d hunk available."
 msgid_plural "Sorry, only %d hunks available."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Вибачте, доступний лише %d шматок."
+msgstr[1] "Вибачте, доступно лише %d шматки."
+msgstr[2] "Вибачте, доступно лише %d шматків."
 
 #: add-patch.c:1598
 msgid "No other hunks to search"
-msgstr ""
+msgstr "Немає інших шматків для пошуку"
 
 #: add-patch.c:1604
 msgid "search for regex? "
-msgstr ""
+msgstr "шукати регвир? "
 
 #: add-patch.c:1619
 #, c-format
 msgid "Malformed search regexp %s: %s"
-msgstr ""
+msgstr "Невірно сформований регвир пошуку %s: %s"
 
 #: add-patch.c:1636
 msgid "No hunk matches the given pattern"
-msgstr ""
+msgstr "Жоден шматок не відповідає заданому шаблону"
 
 #: add-patch.c:1643
 msgid "Sorry, cannot split this hunk"
-msgstr ""
+msgstr "Вибачте, не можу розділити цей шматок"
 
 #: add-patch.c:1647
 #, c-format
 msgid "Split into %d hunks."
-msgstr ""
+msgstr "Розділити на %d шматків."
 
 #: add-patch.c:1651
 msgid "Sorry, cannot edit this hunk"
-msgstr ""
+msgstr "Вибачте, не можу редагувати цей шматок"
 
 #: add-patch.c:1703
 msgid "'git apply' failed"
-msgstr ""
+msgstr "\"git apply\" завершився невдало"
 
 #: advice.c:84
 #, c-format
@@ -736,6 +745,8 @@ msgid ""
 "\n"
 "Disable this message with \"git config advice.%s false\""
 msgstr ""
+"\n"
+"Вимкнути це повідомлення можна за допомогою \"git config advice.%s false\""
 
 #: advice.c:100
 #, c-format
@@ -744,28 +755,28 @@ msgstr "%sпідказка: %.*s%s\n"
 
 #: advice.c:184
 msgid "Cherry-picking is not possible because you have unmerged files."
-msgstr ""
+msgstr "Висмикування неможливе, оскільки у вас є не злиті файли."
 
 #: advice.c:186
 msgid "Committing is not possible because you have unmerged files."
-msgstr ""
+msgstr "Створення коміту неможливе, оскільки у вас є не злиті файли."
 
 #: advice.c:188
 msgid "Merging is not possible because you have unmerged files."
-msgstr ""
+msgstr "Злиття неможливе, оскільки у вас є не злиті файли."
 
 #: advice.c:190
 msgid "Pulling is not possible because you have unmerged files."
-msgstr ""
+msgstr "Отримання неможливе, оскільки у вас є не злиті файли."
 
 #: advice.c:192
 msgid "Reverting is not possible because you have unmerged files."
-msgstr ""
+msgstr "Вивертання неможливе, оскільки у вас є не злиті файли."
 
 #: advice.c:194
 #, c-format
 msgid "It is not possible to %s because you have unmerged files."
-msgstr ""
+msgstr "Неможливо виконати %s, оскільки у вас є не злиті файли."
 
 #: advice.c:202
 msgid ""
@@ -774,23 +785,23 @@ msgid ""
 msgstr ""
 "Виправте їх у робочому дереві, а потім скористайтеся командою \"git add/rm "
 "<файл>\"\n"
-"щоб позначити вирішення і зробити коміт."
+"щоб позначити розвʼязання і зробити коміт."
 
 #: advice.c:210
 msgid "Exiting because of an unresolved conflict."
-msgstr ""
+msgstr "Вихід через нерозв’язаний конфлікт."
 
 #: advice.c:215 builtin/merge.c:1400
 msgid "You have not concluded your merge (MERGE_HEAD exists)."
-msgstr ""
+msgstr "Ви не завершили злиття (існує MERGE_HEAD)."
 
 #: advice.c:217
 msgid "Please, commit your changes before merging."
-msgstr ""
+msgstr "Будь ласка, зробіть коміт ваших змін перед злиттям."
 
 #: advice.c:218
 msgid "Exiting because of unfinished merge."
-msgstr ""
+msgstr "Вихід через незавершене злиття."
 
 #: advice.c:224
 msgid ""
@@ -802,10 +813,17 @@ msgid ""
 "\n"
 "\tgit rebase\n"
 msgstr ""
+"Гілки, що розходяться, не можуть бути перемотані вперед, вам потрібно зробити:\n"
+"\n"
+"\tgit merge --no-ff\n"
+"\n"
+"або\n"
+"\n"
+"\tgit rebase\n"
 
 #: advice.c:231
 msgid "Not possible to fast-forward, aborting."
-msgstr ""
+msgstr "Неможливо перемотати вперед, переривання."
 
 #: advice.c:241
 #, c-format
@@ -814,6 +832,9 @@ msgid ""
 "outside of your sparse-checkout definition, so will not be\n"
 "updated in the index:\n"
 msgstr ""
+"Наступні шляхи та/або специфікації шляхів відповідають шляхам, які існують\n"
+"за межами визначення вашого часткового переходу, тому не будуть\n"
+"оновлені в індексі:\n"
 
 #: advice.c:248
 msgid ""
@@ -821,6 +842,10 @@ msgid ""
 "* Use the --sparse option.\n"
 "* Disable or modify the sparsity rules."
 msgstr ""
+"Якщо ви маєте намір оновити такі записи, спробуйте один із наведених нижче "
+"способів:\n"
+"* Використайте параметр --sparse.\n"
+"* Вимкніть або змініть правила частковості."
 
 #: advice.c:256
 #, c-format
@@ -843,6 +868,25 @@ msgid ""
 "Turn off this advice by setting config variable advice.detachedHead to false\n"
 "\n"
 msgstr ""
+"Примітка: перемикання на \"%s\".\n"
+"\n"
+"Ви перебуваєте в стані \"відʼєднаного HEAD\". Ви можете озирнутися довкола, внести "
+"експериментальні\n"
+"зміни і зробити коміт, також ви можете відкинути будь-які коміти, зроблені у цьому\n"
+"стані, не впливаючи на інші гілки, просто перейшовши до іншної гілки.\n"
+"\n"
+"Якщо ви хочете створити нову гілку для збереження зроблених вами комітів, ви "
+"можете\n"
+"використати (зараз або пізніше) -c з командою switch. Наприклад:\n"
+"\n"
+"  git switch -c <назва-нової-гілки\n"
+"\n"
+"Або скасувати цю операцію за допомогою:\n"
+"\n"
+"  git switch -\n"
+"\n"
+"Щоб вимкнути цю пораду, встановіть конфігураційний параметр advice.detachedHead у "
+"false\n"
 
 #: advice.c:283
 #, c-format
@@ -4984,7 +5028,7 @@ msgstr ""
 
 #: builtin/clone.c:169
 msgid "initialize sparse-checkout file to include only files at root"
-msgstr "ініціалізувати, щоб файл sparse-checkout включав лише файли в корені"
+msgstr "ініціалізувати, щоб файл часткового переходу включав лише файли в корені"
 
 #: builtin/clone.c:171
 msgid "uri"
@@ -14226,7 +14270,7 @@ msgstr "не вдалося видалити директорію \"%s\""
 
 #: builtin/sparse-checkout.c:330
 msgid "failed to create directory for sparse-checkout file"
-msgstr "не вдалося створити директорію для sparse-checkout файлу"
+msgstr "не вдалося створити директорію для файлу часткового переходу"
 
 #: builtin/sparse-checkout.c:369
 msgid "failed to initialize worktree config"
@@ -14239,7 +14283,7 @@ msgstr "не вдалося змінити sparse-index конфігурацію
 #: builtin/sparse-checkout.c:450 builtin/sparse-checkout.c:806
 #: builtin/sparse-checkout.c:862
 msgid "initialize the sparse-checkout in cone mode"
-msgstr "ініціалізувати sparse-checkout в режимі конуса"
+msgstr "ініціалізувати частковий перехід в режимі конуса"
 
 #: builtin/sparse-checkout.c:452 builtin/sparse-checkout.c:808
 #: builtin/sparse-checkout.c:864
@@ -14269,7 +14313,7 @@ msgstr ""
 #: builtin/sparse-checkout.c:626 builtin/sparse-checkout.c:654
 #: builtin/sparse-checkout.c:1014
 msgid "unable to load existing sparse-checkout patterns"
-msgstr "не вдалося завантажити існуючі sparse-checkout шаблони"
+msgstr "не вдалося завантажити існуючі шаблони часткових переходів"
 
 #: builtin/sparse-checkout.c:630
 msgid "existing sparse-checkout patterns do not use cone mode"
@@ -22806,7 +22850,7 @@ msgstr[0] "Ваша гілка відстає від \"%s\" на %d коміт, 
 msgstr[1] ""
 "Ваша гілка відстає від \"%s\" на %d коміти, і її можна перемотати вперед.\n"
 msgstr[2] ""
-"Ваша гілка відстає від гілки '%s' на %d комітів, і її можна швидко перемотати.\n"
+"Ваша гілка відстає від гілки '%s' на %d комітів, і її можна перемотати вперед.\n"
 
 #: remote.c:2311
 msgid "  (use \"git pull\" to update your local branch)\n"
