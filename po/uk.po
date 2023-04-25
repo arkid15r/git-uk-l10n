@@ -716,7 +716,7 @@ msgstr "шукати регвир? "
 #: add-patch.c:1619
 #, c-format
 msgid "Malformed search regexp %s: %s"
-msgstr "Невірно сформований регвир для пошуку %s: %s"
+msgstr "Невірно сформований регвир пошуку %s: %s"
 
 #: add-patch.c:1636
 msgid "No hunk matches the given pattern"
