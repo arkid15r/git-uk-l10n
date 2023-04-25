@@ -25019,7 +25019,7 @@ msgstr "занадто короткий обʼєкт дерева"
 
 #: tree-walk.c:42
 msgid "malformed mode in tree entry"
-msgstr "невірно сформований режим у записі дерева"
+msgstr "невірно визначений режим у записі дерева"
 
 #: tree-walk.c:46
 msgid "empty filename in tree entry"
