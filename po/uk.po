@@ -24896,7 +24896,7 @@ msgstr "%s потік не зміг приєднатись: %s"
 #: transport-helper.c:1510 transport-helper.c:1514
 #, c-format
 msgid "can't start thread for copying data: %s"
-msgstr "не вдається запустити потік для копіювання даних: %s"
+msgstr "неможливо запустити потік для копіювання даних: %s"
 
 #: transport-helper.c:1551
 #, c-format
