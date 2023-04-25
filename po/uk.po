@@ -24906,7 +24906,7 @@ msgstr "%s процес не зміг дочекатися"
 #: transport-helper.c:1555
 #, c-format
 msgid "%s process failed"
-msgstr "Процес %s завершився невдало"
+msgstr "%s процес завершився невдало"
 
 #: transport-helper.c:1573 transport-helper.c:1582
 msgid "can't start thread for copying data"
