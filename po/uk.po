@@ -24934,7 +24934,7 @@ msgstr ""
 
 #: transport.c:301
 msgid "server options require protocol version 2 or later"
-msgstr "опції сервера вимагають протокол версії 2 або вишче"
+msgstr "опції сервера вимагають протокол версії 2 або пізнішої"
 
 #: transport.c:463
 msgid "server does not support wait-for-done"
