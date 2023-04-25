@@ -24737,7 +24737,7 @@ msgid ""
 "unknown mandatory capability %s; this remote helper probably needs newer version of "
 "Git"
 msgstr ""
-"невідомий обовʼязковий параметр %s; цей віддалений помічник напевно потребує "
+"невідома обовʼязкова здібність %s; цей віддалений помічник напевно потребує "
 "новішої версії Git"
 
 #: transport-helper.c:224
