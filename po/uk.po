@@ -24956,7 +24956,7 @@ msgstr "невідоме значення для конфігурації \"%s\"
 #: transport.c:1092
 #, c-format
 msgid "transport '%s' not allowed"
-msgstr "транспортування \"%s\" не дозволено"
+msgstr "засіб передачі \"%s\" не дозволений"
 
 #: transport.c:1145
 msgid "git-over-rsync is no longer supported"
