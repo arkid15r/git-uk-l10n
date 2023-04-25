@@ -24915,7 +24915,7 @@ msgstr "неможливо запустити потік для копіюван
 #: transport.c:122
 #, c-format
 msgid "Would set upstream of '%s' to '%s' of '%s'\n"
-msgstr "Встановить першоджерельне сховище \"%s\" на \"%s\" від \"%s\"\n"
+msgstr "Встановить першоджерельне сховище для \"%s\" на \"%s\" в \"%s\"\n"
 
 #: transport.c:144
 #, c-format
