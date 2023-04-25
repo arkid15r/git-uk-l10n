@@ -24729,7 +24729,7 @@ msgstr "не вдалося знайти віддаленого помічник
 
 #: transport-helper.c:165 transport-helper.c:579
 msgid "can't dup helper output fd"
-msgstr "неможливо продублювати вивід помічника fd"
+msgstr "неможливо зробити копію дескриптора файла виводу помічника"
 
 #: transport-helper.c:218
 #, c-format
