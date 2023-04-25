@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-04-23 19:35-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-04-23 19:52-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -24688,15 +24688,15 @@ msgstr ""
 
 #: t/helper/test-simple-ipc.c:600
 msgid "number of threads in server thread pool"
-msgstr ""
+msgstr "кількість потоків у пулі потоків сервера"
 
 #: t/helper/test-simple-ipc.c:601
 msgid "seconds to wait for daemon to start or stop"
-msgstr ""
+msgstr "секунд чекати на запуск або зупинку демона"
 
 #: t/helper/test-simple-ipc.c:603
 msgid "number of bytes"
-msgstr ""
+msgstr "кількість байтів"
 
 #: t/helper/test-simple-ipc.c:604
 msgid "number of requests per thread"
@@ -24704,34 +24704,34 @@ msgstr "кількість запитів на потік"
 
 #: t/helper/test-simple-ipc.c:606
 msgid "byte"
-msgstr ""
+msgstr "байт"
 
 #: t/helper/test-simple-ipc.c:606
 msgid "ballast character"
-msgstr ""
+msgstr "баластний символ"
 
 #: t/helper/test-simple-ipc.c:607
 msgid "token"
-msgstr ""
+msgstr "токен"
 
 #: t/helper/test-simple-ipc.c:607
 msgid "command token to send to the server"
-msgstr ""
+msgstr "токен команди для відправки на сервер"
 
 #: trailer.c:247
 #, c-format
 msgid "running trailer command '%s' failed"
-msgstr ""
+msgstr "не вдалося виконати команду трейлера \"%s\""
 
 #: trailer.c:497 trailer.c:502 trailer.c:507 trailer.c:567 trailer.c:571 trailer.c:575
 #, c-format
 msgid "unknown value '%s' for key '%s'"
-msgstr "невідоме значення '%s' для ключа '%s'"
+msgstr "невідоме значення \"%s\" для ключа \"%s\""
 
 #: trailer.c:748
 #, c-format
 msgid "empty trailer token in trailer '%.*s'"
-msgstr ""
+msgstr "порожній токен трейлера в трейлері \"%.*s\""
 
 #: trailer.c:768
 #, c-format
@@ -24746,12 +24746,12 @@ msgstr "не вдалося прочитати %s"
 #: trailer.c:1031
 #, c-format
 msgid "file %s is not a regular file"
-msgstr ""
+msgstr "файл %s не є звичайним файлом"
 
 #: trailer.c:1033
 #, c-format
 msgid "file %s is not writable by user"
-msgstr ""
+msgstr "файл %s не доступний для запису користувачем"
 
 #: trailer.c:1045
 msgid "could not open temporary file"
@@ -24764,7 +24764,7 @@ msgstr "не вдалося перейменувати тимчасовий фа
 
 #: transport-helper.c:66 transport-helper.c:95
 msgid "full write to remote helper failed"
-msgstr ""
+msgstr "не вдалося виконати повний запис до віддаленого помічника"
 
 #: transport-helper.c:149
 #, c-format
@@ -24773,7 +24773,7 @@ msgstr "не вдалося знайти віддаленого помічник
 
 #: transport-helper.c:165 transport-helper.c:579
 msgid "can't dup helper output fd"
-msgstr ""
+msgstr "неможливо зробити копію дескриптора файла виводу помічника"
 
 #: transport-helper.c:218
 #, c-format
@@ -24781,24 +24781,26 @@ msgid ""
 "unknown mandatory capability %s; this remote helper probably needs newer version of "
 "Git"
 msgstr ""
+"невідома обовʼязкова здібність %s; цей віддалений помічник напевно потребує "
+"новішої версії Git"
 
 #: transport-helper.c:224
 msgid "this remote helper should implement refspec capability"
-msgstr ""
+msgstr "цей віддалений помічник має реалізовувати здібність refspec"
 
 #: transport-helper.c:291 transport-helper.c:433
 #, c-format
 msgid "%s unexpectedly said: '%s'"
-msgstr ""
+msgstr "%s несподівано сказав: \"%s\""
 
 #: transport-helper.c:421
 #, c-format
 msgid "%s also locked %s"
-msgstr ""
+msgstr "%s також заблокувало %s"
 
 #: transport-helper.c:501
 msgid "couldn't run fast-import"
-msgstr ""
+msgstr "не вдалося запустити fast-import"
 
 #: transport-helper.c:524
 msgid "error while running fast-import"
@@ -24812,11 +24814,11 @@ msgstr "не вдалося прочитати посилання %s"
 #: transport-helper.c:598
 #, c-format
 msgid "unknown response to connect: %s"
-msgstr ""
+msgstr "невідома відповідь на зʼєднання: %s"
 
 #: transport-helper.c:620
 msgid "setting remote service path not supported by protocol"
-msgstr ""
+msgstr "встановлення шляху до віддаленого сервісу не підтримується протоколом"
 
 #: transport-helper.c:622
 msgid "invalid remote service path"
@@ -24824,73 +24826,73 @@ msgstr "неприпустимий шлях до віддаленої служб
 
 #: transport-helper.c:665 transport.c:1583
 msgid "operation not supported by protocol"
-msgstr ""
+msgstr "операція не підтримується протоколом"
 
 #: transport-helper.c:668
 #, c-format
 msgid "can't connect to subservice %s"
-msgstr ""
+msgstr "неможливо підключитися до підсервісу %s"
 
 #: transport-helper.c:697 transport.c:460
 msgid "--negotiate-only requires protocol v2"
-msgstr ""
+msgstr "--negotiate-only потребує протоколу v2"
 
 #: transport-helper.c:762
 msgid "'option' without a matching 'ok/error' directive"
-msgstr ""
+msgstr "\"option\" без відповідної директиви \"ok/error\""
 
 #: transport-helper.c:805
 #, c-format
 msgid "expected ok/error, helper said '%s'"
-msgstr ""
+msgstr "очікувалося ok/error, помічник сказав \"%s\""
 
 #: transport-helper.c:866
 #, c-format
 msgid "helper reported unexpected status of %s"
-msgstr ""
+msgstr "helper повідомив про неочікуваний статус %s"
 
 #: transport-helper.c:949
 #, c-format
 msgid "helper %s does not support dry-run"
-msgstr ""
+msgstr "помічник %s не підтримує dry-run"
 
 #: transport-helper.c:952
 #, c-format
 msgid "helper %s does not support --signed"
-msgstr ""
+msgstr "помічник %s не підтримує --signed"
 
 #: transport-helper.c:955
 #, c-format
 msgid "helper %s does not support --signed=if-asked"
-msgstr ""
+msgstr "помічник %s не підтримує --signed=if-asked"
 
 #: transport-helper.c:960
 #, c-format
 msgid "helper %s does not support --atomic"
-msgstr ""
+msgstr "помічник %s не підтримує --atomic"
 
 #: transport-helper.c:964
 #, c-format
 msgid "helper %s does not support --%s"
-msgstr ""
+msgstr "помічник %s не підтримує --%s"
 
 #: transport-helper.c:971
 #, c-format
 msgid "helper %s does not support 'push-option'"
-msgstr ""
+msgstr "помічник %s не підтримує \"push-option\""
 
 #: transport-helper.c:1071
 msgid "remote-helper doesn't support push; refspec needed"
-msgstr ""
+msgstr "remote-helper не підтримує push; потрібен refspec"
 
 #: transport-helper.c:1076
 #, c-format
 msgid "helper %s does not support 'force'"
-msgstr ""
+msgstr "помічник %s не підтримує \"force\""
 
 #: transport-helper.c:1123
 msgid "couldn't run fast-export"
-msgstr ""
+msgstr "не вдалося запустити fast-export"
 
 #: transport-helper.c:1128
 msgid "error while running fast-export"
@@ -24902,31 +24904,33 @@ msgid ""
 "No refs in common and none specified; doing nothing.\n"
 "Perhaps you should specify a branch.\n"
 msgstr ""
+"Немає спільних посилань і жодного не вказано; нічого не робиться.\n"
+"Можливо, вам слід вказати гілку.\n"
 
 #: transport-helper.c:1235
 #, c-format
 msgid "unsupported object format '%s'"
-msgstr ""
+msgstr "непідтримуваний обʼєкт формата \"%s\""
 
 #: transport-helper.c:1244
 #, c-format
 msgid "malformed response in ref list: %s"
-msgstr ""
+msgstr "неправильно сформована відповідь у списку посилань: %s"
 
 #: transport-helper.c:1411
 #, c-format
 msgid "read(%s) failed"
-msgstr ""
+msgstr "read(%s) завершився невдало"
 
 #: transport-helper.c:1438
 #, c-format
 msgid "write(%s) failed"
-msgstr ""
+msgstr "write(%s) завершився невдало"
 
 #: transport-helper.c:1487
 #, c-format
 msgid "%s thread failed"
-msgstr ""
+msgstr "%s потік завершився невдало"
 
 #: transport-helper.c:1491
 #, c-format
@@ -24936,26 +24940,26 @@ msgstr "%s потік не зміг приєднатись: %s"
 #: transport-helper.c:1510 transport-helper.c:1514
 #, c-format
 msgid "can't start thread for copying data: %s"
-msgstr ""
+msgstr "неможливо запустити потік для копіювання даних: %s"
 
 #: transport-helper.c:1551
 #, c-format
 msgid "%s process failed to wait"
-msgstr ""
+msgstr "%s процес не зміг дочекатися"
 
 #: transport-helper.c:1555
 #, c-format
 msgid "%s process failed"
-msgstr ""
+msgstr "%s процес завершився невдало"
 
 #: transport-helper.c:1573 transport-helper.c:1582
 msgid "can't start thread for copying data"
-msgstr ""
+msgstr "неможливо запустити потік для копіювання даних"
 
 #: transport.c:122
 #, c-format
 msgid "Would set upstream of '%s' to '%s' of '%s'\n"
-msgstr ""
+msgstr "Встановить першоджерельне сховище для \"%s\" на \"%s\" в \"%s\"\n"
 
 #: transport.c:144
 #, c-format
@@ -24965,41 +24969,42 @@ msgstr "не вдалося прочитати пакет \"%s\""
 #: transport.c:241
 #, c-format
 msgid "transport: invalid depth option '%s'"
-msgstr ""
+msgstr "transport: неприпустимий параметр глибини \"%s\""
 
 #: transport.c:300
 msgid "see protocol.version in 'git help config' for more details"
 msgstr ""
+"Дивіться protocol.version у \"git help config\" для більш детальної інформації"
 
 #: transport.c:301
 msgid "server options require protocol version 2 or later"
-msgstr ""
+msgstr "опції сервера вимагають протокол версії 2 або пізнішої"
 
 #: transport.c:463
 msgid "server does not support wait-for-done"
-msgstr ""
+msgstr "сервер не підтримує wait-for-done"
 
 #: transport.c:817
 msgid "could not parse transport.color.* config"
-msgstr ""
+msgstr "не вдалося розібрати конфігурацію transport.color.*"
 
 #: transport.c:892
 msgid "support for protocol v2 not implemented yet"
-msgstr ""
+msgstr "підтримка протоколу v2 ще не запроваджена"
 
 #: transport.c:1027
 #, c-format
 msgid "unknown value for config '%s': %s"
-msgstr "невідоме значення для конфігураціі \"%s\": %s"
+msgstr "невідоме значення для конфігурації \"%s\": %s"
 
 #: transport.c:1092
 #, c-format
 msgid "transport '%s' not allowed"
-msgstr ""
+msgstr "засіб передачі \"%s\" не дозволений"
 
 #: transport.c:1145
 msgid "git-over-rsync is no longer supported"
-msgstr ""
+msgstr "git-over-rsync більше не підтримується"
 
 #: transport.c:1249
 #, c-format
@@ -25007,6 +25012,8 @@ msgid ""
 "The following submodule paths contain changes that can\n"
 "not be found on any remote:\n"
 msgstr ""
+"Наступні шляхи до підмодулів містять зміни, які неможливо\n"
+"знайти в жодному віддаленому призначенні:\n"
 
 #: transport.c:1253
 #, c-format
@@ -25023,10 +25030,20 @@ msgid ""
 "to push them to a remote.\n"
 "\n"
 msgstr ""
+"\n"
+"Будь ласка, спробуйте\n"
+"\n"
+"\tgit push --recurse-submodules=on-demand\n"
+"\n"
+"або перейдіть до директорії та використайте\n"
+"\n"
+"\tgit push\n"
+"\n"
+"щоб надіслати їх до віддаленого призначення.\n"
 
 #: transport.c:1261
 msgid "Aborting."
-msgstr ""
+msgstr "Відміна."
 
 #: transport.c:1412
 msgid "failed to push all needed submodules"
@@ -25034,7 +25051,7 @@ msgstr "не вдалося надіслати всі необхідні під�
 
 #: transport.c:1556
 msgid "bundle-uri operation not supported by protocol"
-msgstr ""
+msgstr "bundle-uri операція не підтримується протоколом"
 
 #: transport.c:1559
 msgid "could not retrieve server-advertised bundle-uri list"
@@ -25042,19 +25059,19 @@ msgstr "не вдалося отримати список адрес пакет�
 
 #: tree-walk.c:36
 msgid "too-short tree object"
-msgstr ""
+msgstr "занадто короткий обʼєкт дерева"
 
 #: tree-walk.c:42
 msgid "malformed mode in tree entry"
-msgstr ""
+msgstr "невірно визначений режим у записі дерева"
 
 #: tree-walk.c:46
 msgid "empty filename in tree entry"
-msgstr ""
+msgstr "порожнє імʼя файлу у записі дерева"
 
 #: tree-walk.c:125
 msgid "too-short tree file"
-msgstr ""
+msgstr "занадто короткий файл дерева"
 
 #: unpack-trees.c:122
 #, c-format
