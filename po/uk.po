@@ -24886,7 +24886,7 @@ msgstr "write(%s) завершився невдало"
 #: transport-helper.c:1487
 #, c-format
 msgid "%s thread failed"
-msgstr "Потік %s завершився невдало"
+msgstr "%s потік завершився невдало"
 
 #: transport-helper.c:1491
 #, c-format
