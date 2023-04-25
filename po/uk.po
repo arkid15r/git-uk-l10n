@@ -24901,7 +24901,7 @@ msgstr "неможливо запустити потік для копіюван
 #: transport-helper.c:1551
 #, c-format
 msgid "%s process failed to wait"
-msgstr "Процес %s не зміг дочекатися"
+msgstr "%s процес не зміг дочекатися"
 
 #: transport-helper.c:1555
 #, c-format
