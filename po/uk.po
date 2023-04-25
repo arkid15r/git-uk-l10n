@@ -707,7 +707,7 @@ msgstr[2] "Вибачте, доступно лише %d шматків."
 
 #: add-patch.c:1598
 msgid "No other hunks to search"
-msgstr "Немає Інших шматків для пошуку"
+msgstr "Немає інших шматків для пошуку"
 
 #: add-patch.c:1604
 msgid "search for regex? "
