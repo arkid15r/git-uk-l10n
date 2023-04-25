@@ -24942,7 +24942,7 @@ msgstr "сервер не підтримує wait-for-done"
 
 #: transport.c:817
 msgid "could not parse transport.color.* config"
-msgstr "не вдалося розібрати transport.color.* config"
+msgstr "не вдалося розібрати конфігурацію transport.color.*"
 
 #: transport.c:892
 msgid "support for protocol v2 not implemented yet"
