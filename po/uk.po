@@ -24910,7 +24910,7 @@ msgstr "%s процес завершився невдало"
 
 #: transport-helper.c:1573 transport-helper.c:1582
 msgid "can't start thread for copying data"
-msgstr "не вдається запустити потік для копіювання даних"
+msgstr "неможливо запустити потік для копіювання даних"
 
 #: transport.c:122
 #, c-format
