@@ -24742,7 +24742,7 @@ msgstr ""
 
 #: transport-helper.c:224
 msgid "this remote helper should implement refspec capability"
-msgstr "цей віддалений помічник має реалізовувати можливість refspec"
+msgstr "цей віддалений помічник має реалізовувати здібність refspec"
 
 #: transport-helper.c:291 transport-helper.c:433
 #, c-format
