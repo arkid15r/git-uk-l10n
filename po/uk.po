@@ -24787,7 +24787,7 @@ msgstr "операція не підтримується протоколом"
 #: transport-helper.c:668
 #, c-format
 msgid "can't connect to subservice %s"
-msgstr "не вдається підключитися до підсервісу %s"
+msgstr "неможливо підключитися до підсервісу %s"
 
 #: transport-helper.c:697 transport.c:460
 msgid "--negotiate-only requires protocol v2"
