@@ -24860,7 +24860,7 @@ msgid ""
 "No refs in common and none specified; doing nothing.\n"
 "Perhaps you should specify a branch.\n"
 msgstr ""
-"Немає спільних рефів і жодного не вказано; нічого не робиться.\n"
+"Немає спільних посилань і жодного не вказано; нічого не робиться.\n"
 "Можливо, вам слід вказати гілку.\n"
 
 #: transport-helper.c:1235
