@@ -24684,7 +24684,7 @@ msgstr ""
 
 #: t/helper/test-simple-ipc.c:596
 msgid "name or pathname of unix domain socket"
-msgstr "імʼя або назва шляху сокета unix-домену"
+msgstr "імʼя або назва шляху сокета домену unix"
 
 #: t/helper/test-simple-ipc.c:598
 msgid "named-pipe name"
