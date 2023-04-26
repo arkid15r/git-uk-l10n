@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-04-23 19:52-0700\n"
+"PO-Revision-Date: 2023-04-25 20:39-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -24622,11 +24622,11 @@ msgstr ""
 
 #: t/helper/test-cache-tree.c:28
 msgid "number of entries in the cache tree to invalidate (default 0)"
-msgstr ""
+msgstr "кількість записів у дереві кешу, які потрібно зробити недійсними (типово 0)"
 
 #: t/helper/test-fast-rebase.c:149
 msgid "unhandled options"
-msgstr ""
+msgstr "необроблені опції"
 
 #: t/helper/test-fast-rebase.c:156
 msgid "error preparing revisions"
@@ -24635,52 +24635,56 @@ msgstr "помилка при підготовці ревізій"
 #: t/helper/test-reach.c:162
 #, c-format
 msgid "commit %s is not marked reachable"
-msgstr ""
+msgstr "коміт %s не позначений як досяжний"
 
 #: t/helper/test-reach.c:172
 msgid "too many commits marked reachable"
-msgstr ""
+msgstr "Забагато комітів позначено як досяжні"
 
 #: t/helper/test-serve-v2.c:8
 msgid "test-tool serve-v2 [<options>]"
-msgstr ""
+msgstr "test-tool serve-v2 [<опції>]"
 
 #: t/helper/test-serve-v2.c:20
 msgid "exit immediately after advertising capabilities"
-msgstr ""
+msgstr "вихід відразу після реклами можливостей"
 
 #: t/helper/test-simple-ipc.c:582
 msgid "test-helper simple-ipc is-active    [<name>] [<options>]"
-msgstr ""
+msgstr "test-helper simple-ipc is-active    [<імʼя>] [<опції>]"
 
 #: t/helper/test-simple-ipc.c:583
 msgid "test-helper simple-ipc run-daemon   [<name>] [<threads>]"
-msgstr ""
+msgstr "test-helper simple-ipc run-daemon   [<імʼя>] [<потоки>]"
 
 #: t/helper/test-simple-ipc.c:584
 msgid "test-helper simple-ipc start-daemon [<name>] [<threads>] [<max-wait>]"
 msgstr ""
+"test-helper simple-ipc start-daemon [<імʼя>] [<потоки>] [<максимальний час "
+"очікування>]"
 
 #: t/helper/test-simple-ipc.c:585
 msgid "test-helper simple-ipc stop-daemon  [<name>] [<max-wait>]"
-msgstr ""
+msgstr "test-helper simple-ipc stop-daemon  [<імʼя>] [<максимальний час очікування>]"
 
 #: t/helper/test-simple-ipc.c:586
 msgid "test-helper simple-ipc send         [<name>] [<token>]"
-msgstr ""
+msgstr "test-helper simple-ipc send         [<імʼя>] [<токен>]"
 
 #: t/helper/test-simple-ipc.c:587
 msgid "test-helper simple-ipc sendbytes    [<name>] [<bytecount>] [<byte>]"
-msgstr ""
+msgstr "test-helper simple-ipc sendbytes    [<імʼя>] [<кількість байт>] [<байт>]"
 
 #: t/helper/test-simple-ipc.c:588
 msgid ""
 "test-helper simple-ipc multiple     [<name>] [<threads>] [<bytecount>] [<batchsize>]"
 msgstr ""
+"test-helper simple-ipc multiple     [<імʼя>] [<потоки>] [<кількість байт>] [<розмір "
+"пакетів>]"
 
 #: t/helper/test-simple-ipc.c:596
 msgid "name or pathname of unix domain socket"
-msgstr ""
+msgstr "імʼя або назва шляху сокета unix-домену"
 
 #: t/helper/test-simple-ipc.c:598
 msgid "named-pipe name"
@@ -24781,8 +24785,8 @@ msgid ""
 "unknown mandatory capability %s; this remote helper probably needs newer version of "
 "Git"
 msgstr ""
-"невідома обовʼязкова здібність %s; цей віддалений помічник напевно потребує "
-"новішої версії Git"
+"невідома обовʼязкова здібність %s; цей віддалений помічник напевно потребує новішої "
+"версії Git"
 
 #: transport-helper.c:224
 msgid "this remote helper should implement refspec capability"
