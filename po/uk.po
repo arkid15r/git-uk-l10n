@@ -24622,7 +24622,7 @@ msgstr ""
 
 #: t/helper/test-cache-tree.c:28
 msgid "number of entries in the cache tree to invalidate (default 0)"
-msgstr "кількість записів у дереві кешу, які потрібно зробити недійсними (типово 0)"
+msgstr "кількість записів у дереві кешу, які потрібно анулювати (типово 0)"
 
 #: t/helper/test-fast-rebase.c:149
 msgid "unhandled options"
