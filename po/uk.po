@@ -895,6 +895,9 @@ msgid ""
 "sparse-checkout definition but are not sparse due to local\n"
 "modifications.\n"
 msgstr ""
+"Наступні шляхи, що було винесено за межі визначення часткового\n"
+"переходу, не є частковими через локальні\n"
+"зміни.\n"
 
 #: advice.c:290
 msgid ""
@@ -902,14 +905,17 @@ msgid ""
 "* Use \"git add --sparse <paths>\" to update the index\n"
 "* Use \"git sparse-checkout reapply\" to apply the sparsity rules"
 msgstr ""
+"Щоб виправити частковість цих шляхів, виконайте наступне:\n"
+"* Використайте \"git add --sparse <шляхи>\" для оновлення індексу\n"
+"* Використайте \"git sparse-checkout reapply\", щоб застосувати правила частковості"
 
 #: alias.c:53
 msgid "cmdline ends with \\"
-msgstr ""
+msgstr "cmdline завершується символом \\"
 
 #: alias.c:54
 msgid "unclosed quote"
-msgstr ""
+msgstr "незакриті лапки"
 
 #: alias.c:55 builtin/cat-file.c:1059 builtin/notes.c:378 builtin/notes.c:433
 #: builtin/notes.c:511 builtin/notes.c:523 builtin/notes.c:600 builtin/notes.c:668
@@ -921,12 +927,12 @@ msgstr "забагато аргументів"
 #: apply.c:77
 #, c-format
 msgid "unrecognized whitespace option '%s'"
-msgstr ""
+msgstr "нерозпізнана опція символів пробілу \"%s\""
 
 #: apply.c:93
 #, c-format
 msgid "unrecognized whitespace ignore option '%s'"
-msgstr ""
+msgstr "нерозпізнана опція ігнорування символів пробілу \"%s\""
 
 #: apply.c:145 archive.c:646 builtin/add.c:470 builtin/add.c:472 builtin/add.c:478
 #: builtin/add.c:490 builtin/branch.c:754 builtin/checkout.c:478
@@ -24785,8 +24791,8 @@ msgid ""
 "unknown mandatory capability %s; this remote helper probably needs newer version of "
 "Git"
 msgstr ""
-"невідома обовʼязкова здібність %s; цей віддалений помічник напевно потребує новішої "
-"версії Git"
+"невідома обовʼязкова здібність %s; цей віддалений помічник напевно "
+"потребує новішої версії Git"
 
 #: transport-helper.c:224
 msgid "this remote helper should implement refspec capability"
