@@ -24639,7 +24639,7 @@ msgstr "коміт %s не позначений як досяжний"
 
 #: t/helper/test-reach.c:172
 msgid "too many commits marked reachable"
-msgstr "Забагато комітів позначено як досяжні"
+msgstr "забагато комітів позначено як досяжні"
 
 #: t/helper/test-serve-v2.c:8
 msgid "test-tool serve-v2 [<options>]"
