@@ -906,7 +906,7 @@ msgid ""
 "* Use \"git sparse-checkout reapply\" to apply the sparsity rules"
 msgstr ""
 "Щоб виправити частковість цих шляхів, виконайте наступне:\n"
-"* Використайте \\”git add --sparse <шляхи>\\” для оновлення індексу\n"
+"* Використайте \"git add --sparse <шляхи>\" для оновлення індексу\n"
 "* Використайте \"git sparse-checkout reapply\", щоб застосувати правила частковості"
 
 #: alias.c:53
