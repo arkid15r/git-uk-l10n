@@ -24647,7 +24647,7 @@ msgstr "test-tool serve-v2 [<опції>]"
 
 #: t/helper/test-serve-v2.c:20
 msgid "exit immediately after advertising capabilities"
-msgstr "вихід відразу після реклами можливостей"
+msgstr "вихід відразу після показу можливостей"
 
 #: t/helper/test-simple-ipc.c:582
 msgid "test-helper simple-ipc is-active    [<name>] [<options>]"
