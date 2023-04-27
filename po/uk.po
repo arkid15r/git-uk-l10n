@@ -24616,7 +24616,7 @@ msgstr "не вдалося виконати lstat для \"%s\""
 
 #: t/helper/test-bundle-uri.c:91
 msgid "no remote configured to get bundle URIs from"
-msgstr "немає налаштованого віддаленого призначення для отримання пакунка URI з нього"
+msgstr "немає налаштованого віддаленого призначення для отримання URI пакунків з нього"
 
 #: t/helper/test-bundle-uri.c:94
 #, c-format
