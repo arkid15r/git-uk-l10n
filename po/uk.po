@@ -24471,11 +24471,13 @@ msgstr ""
 msgid ""
 "Could not run 'git rev-list <commits> --not --remotes -n 1' command in submodule %s"
 msgstr ""
+"Не вдалося виконати команду \"git rev-list <коміти> --not --remotes -n 1\" у "
+"підмодулі %s"
 
 #: submodule.c:1203
 #, c-format
 msgid "process for submodule '%s' failed"
-msgstr ""
+msgstr "процес для підмодуля \"%s\" завершився невдало"
 
 #: submodule.c:1243
 #, c-format
@@ -24490,7 +24492,7 @@ msgstr "Не вдалося надіслати підмодуль \"%s\"\n"
 #: submodule.c:1579
 #, c-format
 msgid "Fetching submodule %s%s\n"
-msgstr ""
+msgstr "Отримання підмодуля %s%s\n"
 
 #: submodule.c:1601
 #, c-format
@@ -24500,12 +24502,12 @@ msgstr "Не вдалося отримати доступ до підмодул�
 #: submodule.c:1630
 #, c-format
 msgid "Could not access submodule '%s' at commit %s\n"
-msgstr ""
+msgstr "Не вдалося отримати доступ до підмодуля \"%s\" для коміта %s\n"
 
 #: submodule.c:1641
 #, c-format
 msgid "Fetching submodule %s%s at commit %s\n"
-msgstr ""
+msgstr "Отримання підмодуля %s%s для коміта %s\n"
 
 #: submodule.c:1867
 #, c-format
@@ -24513,6 +24515,8 @@ msgid ""
 "Errors during submodule fetch:\n"
 "%s"
 msgstr ""
+"Помилки під час отримання підмодуля:\n"
+"%s"
 
 #: submodule.c:1892
 #, c-format
@@ -24522,22 +24526,22 @@ msgstr "\"%s\" не розпізнано як git сховище"
 #: submodule.c:1909
 #, c-format
 msgid "Could not run 'git status --porcelain=2' in submodule %s"
-msgstr ""
+msgstr "Не вдалося виконати команду \"git status --porcelain=2\" у підмодулі %s"
 
 #: submodule.c:1950
 #, c-format
 msgid "'git status --porcelain=2' failed in submodule %s"
-msgstr ""
+msgstr "\"git status --porcelain=2\" завершився невдало у підмодулі %s"
 
 #: submodule.c:2025
 #, c-format
 msgid "could not start 'git status' in submodule '%s'"
-msgstr ""
+msgstr "не вдалося запустити \"git status\" у підмодулі \"%s\""
 
 #: submodule.c:2038
 #, c-format
 msgid "could not run 'git status' in submodule '%s'"
-msgstr ""
+msgstr "не вдалося запустити \"git status\" у підмодулі \"%s\""
 
 #: submodule.c:2055
 #, c-format
@@ -24556,7 +24560,7 @@ msgstr "не вдалося скинути індекс підмодуля"
 #: submodule.c:2137
 #, c-format
 msgid "submodule '%s' has dirty index"
-msgstr ""
+msgstr "підмодуль \"%s\" має брудний індекс"
 
 #: submodule.c:2191
 #, c-format
@@ -24566,12 +24570,14 @@ msgstr "Не вдалося оновити підмодуль \"%s\"."
 #: submodule.c:2259
 #, c-format
 msgid "submodule git dir '%s' is inside git dir '%.*s'"
-msgstr ""
+msgstr "підмодуль git dir \"%s\" знаходиться всередині git директорії \"%.*s\""
 
 #: submodule.c:2281
 #, c-format
 msgid "relocate_gitdir for submodule '%s' with more than one worktree not supported"
 msgstr ""
+"relocate_gitdir для підмодуля \"%s\" з більш ніж одним робочим деревом не "
+"підтримується"
 
 #: submodule.c:2293 submodule.c:2372
 #, c-format
@@ -24581,7 +24587,7 @@ msgstr "не вдалося знайти імʼя для підмодуля \"%s
 #: submodule.c:2297
 #, c-format
 msgid "refusing to move '%s' into an existing git dir"
-msgstr ""
+msgstr "відмова переміщення \"%s\" до існуючої git директорії"
 
 #: submodule.c:2303
 #, c-format
@@ -24590,6 +24596,9 @@ msgid ""
 "'%s' to\n"
 "'%s'\n"
 msgstr ""
+"Міграція git-директорії \"%s%s\" з\n"
+"\"%s\" до\n"
+"\"%s\"\n"
 
 #: submodule.c:2431
 msgid "could not start ls-files in .."
@@ -24598,7 +24607,7 @@ msgstr "не вдалося запустити ls-файли в .."
 #: submodule.c:2472
 #, c-format
 msgid "ls-tree returned unexpected return code %d"
-msgstr ""
+msgstr "ls-tree повернув неочікуваний код повернення %d"
 
 #: symlinks.c:246
 #, c-format
@@ -24607,32 +24616,32 @@ msgstr "не вдалося виконати lstat для \"%s\""
 
 #: t/helper/test-bundle-uri.c:91
 msgid "no remote configured to get bundle URIs from"
-msgstr ""
+msgstr "немає налаштованого віддаленого призначення для отримання URI пакунків з нього"
 
 #: t/helper/test-bundle-uri.c:94
 #, c-format
 msgid "remote '%s' has no configured URL"
-msgstr ""
+msgstr "віддалений \"%s\" не має налаштованої URL-адреси"
 
 #: t/helper/test-bundle-uri.c:98
 msgid "could not get the bundle-uri list"
-msgstr ""
+msgstr "не вдалося отримати список bundle-uri"
 
 #: t/helper/test-cache-tree.c:12
 msgid "test-tool cache-tree <options> (control|prime|update)"
-msgstr ""
+msgstr "test-tool cache-tree <опції> (control|prime|update)"
 
 #: t/helper/test-cache-tree.c:26
 msgid "clear the cache tree before each iteration"
-msgstr ""
+msgstr "очищати дерево кешу перед кожною ітерацією"
 
 #: t/helper/test-cache-tree.c:28
 msgid "number of entries in the cache tree to invalidate (default 0)"
-msgstr ""
+msgstr "кількість записів у дереві кешу, які потрібно анулювати (типово 0)"
 
 #: t/helper/test-fast-rebase.c:149
 msgid "unhandled options"
-msgstr ""
+msgstr "необроблені опції"
 
 #: t/helper/test-fast-rebase.c:156
 msgid "error preparing revisions"
@@ -24641,52 +24650,56 @@ msgstr "помилка при підготовці ревізій"
 #: t/helper/test-reach.c:162
 #, c-format
 msgid "commit %s is not marked reachable"
-msgstr ""
+msgstr "коміт %s не позначений як досяжний"
 
 #: t/helper/test-reach.c:172
 msgid "too many commits marked reachable"
-msgstr ""
+msgstr "забагато комітів позначено як досяжні"
 
 #: t/helper/test-serve-v2.c:8
 msgid "test-tool serve-v2 [<options>]"
-msgstr ""
+msgstr "test-tool serve-v2 [<опції>]"
 
 #: t/helper/test-serve-v2.c:20
 msgid "exit immediately after advertising capabilities"
-msgstr ""
+msgstr "вихід відразу після показу здібностей"
 
 #: t/helper/test-simple-ipc.c:582
 msgid "test-helper simple-ipc is-active    [<name>] [<options>]"
-msgstr ""
+msgstr "test-helper simple-ipc is-active    [<імʼя>] [<опції>]"
 
 #: t/helper/test-simple-ipc.c:583
 msgid "test-helper simple-ipc run-daemon   [<name>] [<threads>]"
-msgstr ""
+msgstr "test-helper simple-ipc run-daemon   [<імʼя>] [<потоки>]"
 
 #: t/helper/test-simple-ipc.c:584
 msgid "test-helper simple-ipc start-daemon [<name>] [<threads>] [<max-wait>]"
 msgstr ""
+"test-helper simple-ipc start-daemon [<імʼя>] [<потоки>] [<максимальний час "
+"очікування>]"
 
 #: t/helper/test-simple-ipc.c:585
 msgid "test-helper simple-ipc stop-daemon  [<name>] [<max-wait>]"
-msgstr ""
+msgstr "test-helper simple-ipc stop-daemon  [<імʼя>] [<максимальний час очікування>]"
 
 #: t/helper/test-simple-ipc.c:586
 msgid "test-helper simple-ipc send         [<name>] [<token>]"
-msgstr ""
+msgstr "test-helper simple-ipc send         [<імʼя>] [<токен>]"
 
 #: t/helper/test-simple-ipc.c:587
 msgid "test-helper simple-ipc sendbytes    [<name>] [<bytecount>] [<byte>]"
-msgstr ""
+msgstr "test-helper simple-ipc sendbytes    [<імʼя>] [<кількість байт>] [<байт>]"
 
 #: t/helper/test-simple-ipc.c:588
 msgid ""
 "test-helper simple-ipc multiple     [<name>] [<threads>] [<bytecount>] [<batchsize>]"
 msgstr ""
+"test-helper simple-ipc multiple     [<імʼя>] [<потоки>] [<кількість байт>] [<розмір "
+"пакетів>]"
 
 #: t/helper/test-simple-ipc.c:596
 msgid "name or pathname of unix domain socket"
-msgstr ""
+msgstr "імʼя або назва шляху сокета домену unix"
 
 #: t/helper/test-simple-ipc.c:598
 msgid "named-pipe name"
