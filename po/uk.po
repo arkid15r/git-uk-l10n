@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-04-25 20:39-0700\n"
+"PO-Revision-Date: 2023-04-26 19:11-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -24471,11 +24471,13 @@ msgstr ""
 msgid ""
 "Could not run 'git rev-list <commits> --not --remotes -n 1' command in submodule %s"
 msgstr ""
+"Не вдалося виконати команду \"git rev-list <коміти> --not --remotes -n 1\" у "
+"підмодулі %s"
 
 #: submodule.c:1203
 #, c-format
 msgid "process for submodule '%s' failed"
-msgstr ""
+msgstr "процес для підмодуля \"%s\" завершився невдало"
 
 #: submodule.c:1243
 #, c-format
@@ -24490,7 +24492,7 @@ msgstr "Не вдалося надіслати підмодуль \"%s\"\n"
 #: submodule.c:1579
 #, c-format
 msgid "Fetching submodule %s%s\n"
-msgstr ""
+msgstr "Отримання підмодуля %s%s\n"
 
 #: submodule.c:1601
 #, c-format
@@ -24500,12 +24502,12 @@ msgstr "Не вдалося отримати доступ до підмодул�
 #: submodule.c:1630
 #, c-format
 msgid "Could not access submodule '%s' at commit %s\n"
-msgstr ""
+msgstr "Не вдалося отримати доступ до підмодуля \"%s\" для коміта %s\n"
 
 #: submodule.c:1641
 #, c-format
 msgid "Fetching submodule %s%s at commit %s\n"
-msgstr ""
+msgstr "Отримання підмодуля %s%s для коміта %s\n"
 
 #: submodule.c:1867
 #, c-format
@@ -24513,6 +24515,8 @@ msgid ""
 "Errors during submodule fetch:\n"
 "%s"
 msgstr ""
+"Помилки під час отримання підмодуля:\n"
+"%s"
 
 #: submodule.c:1892
 #, c-format
@@ -24522,22 +24526,22 @@ msgstr "\"%s\" не розпізнано як git сховище"
 #: submodule.c:1909
 #, c-format
 msgid "Could not run 'git status --porcelain=2' in submodule %s"
-msgstr ""
+msgstr "Не вдалося виконати команду \"git status --porcelain=2\" у підмодулі %s"
 
 #: submodule.c:1950
 #, c-format
 msgid "'git status --porcelain=2' failed in submodule %s"
-msgstr ""
+msgstr "\"git status --porcelain=2\" завершився невдало у підмодулі %s"
 
 #: submodule.c:2025
 #, c-format
 msgid "could not start 'git status' in submodule '%s'"
-msgstr ""
+msgstr "не вдалося запустити \"git status\" у підмодулі \"%s\""
 
 #: submodule.c:2038
 #, c-format
 msgid "could not run 'git status' in submodule '%s'"
-msgstr ""
+msgstr "не вдалося запустити \"git status\" у підмодулі \"%s\""
 
 #: submodule.c:2055
 #, c-format
@@ -24556,7 +24560,7 @@ msgstr "не вдалося скинути індекс підмодуля"
 #: submodule.c:2137
 #, c-format
 msgid "submodule '%s' has dirty index"
-msgstr ""
+msgstr "підмодуль \"%s\" має брудний індекс"
 
 #: submodule.c:2191
 #, c-format
@@ -24566,12 +24570,14 @@ msgstr "Не вдалося оновити підмодуль \"%s\"."
 #: submodule.c:2259
 #, c-format
 msgid "submodule git dir '%s' is inside git dir '%.*s'"
-msgstr ""
+msgstr "підмодуль git dir \"%s\" знаходиться всередині git директорії \"%.*s\""
 
 #: submodule.c:2281
 #, c-format
 msgid "relocate_gitdir for submodule '%s' with more than one worktree not supported"
 msgstr ""
+"relocate_gitdir для підмодуля \"%s\" з більш ніж одним робочим деревом не "
+"підтримується"
 
 #: submodule.c:2293 submodule.c:2372
 #, c-format
@@ -24581,7 +24587,7 @@ msgstr "не вдалося знайти імʼя для підмодуля \"%s
 #: submodule.c:2297
 #, c-format
 msgid "refusing to move '%s' into an existing git dir"
-msgstr ""
+msgstr "відмова переміщення \"%s\" до існуючої git директорії"
 
 #: submodule.c:2303
 #, c-format
@@ -24590,6 +24596,9 @@ msgid ""
 "'%s' to\n"
 "'%s'\n"
 msgstr ""
+"Міграція git-директорії \"%s%s\" з\n"
+"\"%s\" до\n"
+"\"%s\"\n"
 
 #: submodule.c:2431
 msgid "could not start ls-files in .."
@@ -24598,7 +24607,7 @@ msgstr "не вдалося запустити ls-файли в .."
 #: submodule.c:2472
 #, c-format
 msgid "ls-tree returned unexpected return code %d"
-msgstr ""
+msgstr "ls-tree повернув неочікуваний код повернення %d"
 
 #: symlinks.c:246
 #, c-format
@@ -24607,24 +24616,24 @@ msgstr "не вдалося виконати lstat для \"%s\""
 
 #: t/helper/test-bundle-uri.c:91
 msgid "no remote configured to get bundle URIs from"
-msgstr ""
+msgstr "немає налаштованого віддаленого призначення для отримання URI пакунків з нього"
 
 #: t/helper/test-bundle-uri.c:94
 #, c-format
 msgid "remote '%s' has no configured URL"
-msgstr ""
+msgstr "віддалений \"%s\" не має налаштованої URL-адреси"
 
 #: t/helper/test-bundle-uri.c:98
 msgid "could not get the bundle-uri list"
-msgstr ""
+msgstr "не вдалося отримати список bundle-uri"
 
 #: t/helper/test-cache-tree.c:12
 msgid "test-tool cache-tree <options> (control|prime|update)"
-msgstr ""
+msgstr "test-tool cache-tree <опції> (control|prime|update)"
 
 #: t/helper/test-cache-tree.c:26
 msgid "clear the cache tree before each iteration"
-msgstr ""
+msgstr "очищати дерево кешу перед кожною ітерацією"
 
 #: t/helper/test-cache-tree.c:28
 msgid "number of entries in the cache tree to invalidate (default 0)"
@@ -24791,8 +24800,8 @@ msgid ""
 "unknown mandatory capability %s; this remote helper probably needs newer version of "
 "Git"
 msgstr ""
-"невідома обовʼязкова здібність %s; цей віддалений помічник напевно "
-"потребує новішої версії Git"
+"невідома обовʼязкова здібність %s; цей віддалений помічник напевно потребує новішої "
+"версії Git"
 
 #: transport-helper.c:224
 msgid "this remote helper should implement refspec capability"
