@@ -24587,7 +24587,7 @@ msgstr "не вдалося знайти імʼя для підмодуля \"%s
 #: submodule.c:2297
 #, c-format
 msgid "refusing to move '%s' into an existing git dir"
-msgstr "відмова від переміщення \"%s\" до існуючої git директорії"
+msgstr "відмова переміщення \"%s\" до існуючої git директорії"
 
 #: submodule.c:2303
 #, c-format
