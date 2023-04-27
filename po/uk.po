@@ -24633,7 +24633,7 @@ msgstr "test-tool cache-tree <опції> (control|prime|update)"
 
 #: t/helper/test-cache-tree.c:26
 msgid "clear the cache tree before each iteration"
-msgstr "очистити дерево кешу перед кожною ітерацією"
+msgstr "очищати дерево кешу перед кожною ітерацією"
 
 #: t/helper/test-cache-tree.c:28
 msgid "number of entries in the cache tree to invalidate (default 0)"
