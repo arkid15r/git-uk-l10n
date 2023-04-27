@@ -24607,7 +24607,7 @@ msgstr "не вдалося запустити ls-файли в .."
 #: submodule.c:2472
 #, c-format
 msgid "ls-tree returned unexpected return code %d"
-msgstr "ls-дерево повернуло неочікуваний код повернення %d"
+msgstr "ls-tree повернув неочікуваний код повернення %d"
 
 #: symlinks.c:246
 #, c-format
