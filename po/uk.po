@@ -24531,7 +24531,7 @@ msgstr "Не вдалося виконати команду \"git status --porce
 #: submodule.c:1950
 #, c-format
 msgid "'git status --porcelain=2' failed in submodule %s"
-msgstr "\"git status --porcelain=2\" не вдалося виконати у підмодулі %s"
+msgstr "\"git status --porcelain=2\" завершився невдало у підмодулі %s"
 
 #: submodule.c:2025
 #, c-format
