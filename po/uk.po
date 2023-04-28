@@ -24437,7 +24437,7 @@ msgid ""
 "Submodule in commit %s at path: '%s' collides with a submodule named the same. "
 "Skipping it."
 msgstr ""
-"Підмодуль у коміті %s за шляхом: \"%s\" зіткнувся з підмодулем з такою самою назвою. "
+"Підмодуль у коміті %s за шляхом \"%s\" зіткнувся з підмодулем з такою самою назвою. "
 "Пропускаю його."
 
 #: submodule.c:992
