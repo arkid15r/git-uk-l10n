@@ -1069,7 +1069,7 @@ msgstr "** попередження: файл %s стане порожнім, а
 #: apply.c:2002
 #, c-format
 msgid "corrupt binary patch at line %d: %.*s"
-msgstr "пошкоджена бінарний латка у рядку %d: %.*s"
+msgstr "пошкоджена бінарна латка у рядку %d: %.*s"
 
 #: apply.c:2039
 #, c-format
