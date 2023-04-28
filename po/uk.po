@@ -1044,7 +1044,7 @@ msgstr "новий файл залежить від старого вмісту"
 
 #: apply.c:1778
 msgid "deleted file still has contents"
-msgstr "видалений файл все ще має зміст"
+msgstr "видалений файл все ще має вміст"
 
 #: apply.c:1812
 #, c-format
