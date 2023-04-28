@@ -24400,7 +24400,7 @@ msgstr "Не вдалося оновити запис %s у .gitmodules"
 
 #: submodule.c:120 submodule.c:149
 msgid "Cannot change unmerged .gitmodules, resolve merge conflicts first"
-msgstr "Неможливо змінити незлиті .gitmodules, спочатку вирішіть конфлікти злиття"
+msgstr "Неможливо змінити незлиті .gitmodules, спочатку розвʼяжіть конфлікти злиття"
 
 #: submodule.c:124 submodule.c:153
 #, c-format
