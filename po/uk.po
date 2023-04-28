@@ -24323,7 +24323,7 @@ msgstr "не можна використовувати розділений ін
 #: strbuf.c:857
 #, c-format
 msgid "%u.%2.2u GiB"
-msgstr "%u.%2.2u Гб"
+msgstr "%u.%2.2u ГіБ"
 
 #. TRANSLATORS: IEC 80000-13:2008 gibibyte/second
 #: strbuf.c:859
