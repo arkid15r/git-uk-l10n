@@ -1003,7 +1003,7 @@ msgstr "недійсний режим у рядку %d: %s"
 #: apply.c:1305
 #, c-format
 msgid "inconsistent header lines %d and %d"
-msgstr ""
+msgstr "невідповідні рядки заголовка %d та %d"
 
 #: apply.c:1395
 #, c-format
@@ -1014,66 +1014,72 @@ msgid_plural ""
 "git diff header lacks filename information when removing %d leading pathname "
 "components (line %d)"
 msgstr[0] ""
+"у заголовку git diff відсутня інформація про ім’я файлу при видаленні %d провідного "
+"компонента назви шляху (рядок %d)"
 msgstr[1] ""
+"у заголовку git diff відсутня інформація про ім’я файлу при видаленні %d провідних "
+"компонентів назви шляху (рядок %d)"
 msgstr[2] ""
+"у заголовку git diff відсутня інформація про ім’я файлу при видаленні %d провідних "
+"компонентів назви шляху (рядок %d)"
 
 #: apply.c:1408
 #, c-format
 msgid "git diff header lacks filename information (line %d)"
-msgstr ""
+msgstr "у заголовку git diff відсутня інформація про ім’я файлу (рядок %d)"
 
 #: apply.c:1504
 #, c-format
 msgid "recount: unexpected line: %.*s"
-msgstr ""
+msgstr "recount: неочікуваний рядок: %.*s"
 
 #: apply.c:1573
 #, c-format
 msgid "patch fragment without header at line %d: %.*s"
-msgstr ""
+msgstr "фрагмент латки без заголовка у рядку %d: %.*s"
 
 #: apply.c:1776
 msgid "new file depends on old contents"
-msgstr ""
+msgstr "новий файл залежить від старого вмісту"
 
 #: apply.c:1778
 msgid "deleted file still has contents"
-msgstr ""
+msgstr "видалений файл все ще має вміст"
 
 #: apply.c:1812
 #, c-format
 msgid "corrupt patch at line %d"
-msgstr ""
+msgstr "пошкоджена латка у рядку %d"
 
 #: apply.c:1849
 #, c-format
 msgid "new file %s depends on old contents"
-msgstr ""
+msgstr "новий файл %s залежить від старого вмісту"
 
 #: apply.c:1851
 #, c-format
 msgid "deleted file %s still has contents"
-msgstr ""
+msgstr "видалений файл %s все ще має вміст"
 
 #: apply.c:1854
 #, c-format
 msgid "** warning: file %s becomes empty but is not deleted"
-msgstr ""
+msgstr "** попередження: файл %s стане порожнім, але не буде видалений"
 
 #: apply.c:2002
 #, c-format
 msgid "corrupt binary patch at line %d: %.*s"
-msgstr ""
+msgstr "пошкоджена бінарна латка у рядку %d: %.*s"
 
 #: apply.c:2039
 #, c-format
 msgid "unrecognized binary patch at line %d"
-msgstr ""
+msgstr "нерозпізнана бінарна латка у рядку %d"
 
 #: apply.c:2201
 #, c-format
 msgid "patch with only garbage at line %d"
-msgstr ""
+msgstr "латка, що містить лише непотріб у рядку %d"
 
 #: apply.c:2287
 #, c-format
