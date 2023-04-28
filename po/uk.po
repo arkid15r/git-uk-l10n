@@ -24304,7 +24304,7 @@ msgstr ""
 
 #: setup.c:1693
 msgid "fork failed"
-msgstr "розгалуження не вдалося"
+msgstr "fork завершився невдало"
 
 #: setup.c:1698
 msgid "setsid failed"
