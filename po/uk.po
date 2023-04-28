@@ -24329,7 +24329,7 @@ msgstr "%u.%2.2u ГіБ"
 #: strbuf.c:859
 #, c-format
 msgid "%u.%2.2u GiB/s"
-msgstr "%u.%2.2u Гб/с"
+msgstr "%u.%2.2u ГіБ/с"
 
 #. TRANSLATORS: IEC 80000-13:2008 mebibyte
 #: strbuf.c:867
