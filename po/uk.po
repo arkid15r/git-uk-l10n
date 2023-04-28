@@ -24347,7 +24347,7 @@ msgstr "%u.%2.2u МіБ/с"
 #: strbuf.c:876
 #, c-format
 msgid "%u.%2.2u KiB"
-msgstr "%u.%2.2u Кб"
+msgstr "%u.%2.2u КіБ"
 
 #. TRANSLATORS: IEC 80000-13:2008 kibibyte/second
 #: strbuf.c:878
