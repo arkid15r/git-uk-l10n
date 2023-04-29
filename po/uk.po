@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-04-28 17:21-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-04-28 18:46-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Generator: Poedit 3.3\n"
 
 #: add-interactive.c:384
@@ -24410,7 +24410,7 @@ msgstr ""
 #: setup.c:274
 #, c-format
 msgid "option '%s' must come before non-option arguments"
-msgstr ""
+msgstr "опція \"%s\" повинна стояти перед аргументами без опцій"
 
 #: setup.c:293
 #, c-format
@@ -24419,39 +24419,42 @@ msgid ""
 "Use '--' to separate paths from revisions, like this:\n"
 "'git <command> [<revision>...] -- [<file>...]'"
 msgstr ""
+"неоднозначний аргумент \"%s\": і ревізія, і назва файлу\n"
+"Використовуйте \"--\", щоб відокремити шляхи від ревізій, наприклад, так:\n"
+"\"git <команда> [<ревізія>...] -- [<файл>...]\""
 
 #: setup.c:429
 msgid "unable to set up work tree using invalid config"
-msgstr ""
+msgstr "не вдалося налаштувати робоче дерево, використовуючи неприпустиму конфігурацію"
 
 #: setup.c:741
 #, c-format
 msgid "Expected git repo version <= %d, found %d"
-msgstr ""
+msgstr "Очікувалось git сховищe версії <= %d, знайдено %d"
 
 #: setup.c:749
 msgid "unknown repository extension found:"
 msgid_plural "unknown repository extensions found:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "знайдено невідомих розширень сховища:"
+msgstr[1] "знайдено невідомих розширень сховища:"
+msgstr[2] "знайдено невідомих розширень сховища:"
 
 #: setup.c:763
 msgid "repo version is 0, but v1-only extension found:"
 msgid_plural "repo version is 0, but v1-only extensions found:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "версія сховища дорівнює 0, але знайдено v1-only розширень:"
+msgstr[1] "версія сховища дорівнює 0, але знайдено v1-only розширень:"
+msgstr[2] "версія сховища дорівнює 0, але знайдено v1-only розширень:"
 
 #: setup.c:784
 #, c-format
 msgid "error opening '%s'"
-msgstr ""
+msgstr "помилка при відкритті \"%s\""
 
 #: setup.c:786
 #, c-format
 msgid "too large to be a .git file: '%s'"
-msgstr ""
+msgstr "занадто великий для .git-файлу: \"%s\""
 
 #: setup.c:788
 #, c-format
@@ -24466,7 +24469,7 @@ msgstr "неприпустимий формат git файлу: %s"
 #: setup.c:792
 #, c-format
 msgid "no path in gitfile: %s"
-msgstr ""
+msgstr "немає шляху в gitfile: %s"
 
 #: setup.c:794
 #, c-format
@@ -24476,7 +24479,7 @@ msgstr "не є git сховищем: %s"
 #: setup.c:896
 #, c-format
 msgid "'$%s' too big"
-msgstr ""
+msgstr "\"$%s\" занадто великий"
 
 #: setup.c:910
 #, c-format
@@ -24509,7 +24512,7 @@ msgstr "неможливо змінити на \"%s\""
 #: setup.c:1476
 #, c-format
 msgid "not a git repository (or any of the parent directories): %s"
-msgstr ""
+msgstr "не є git сховищем (як і жодна з батьківських директорій): %s"
 
 #: setup.c:1482
 #, c-format
@@ -24517,6 +24520,8 @@ msgid ""
 "not a git repository (or any parent up to mount point %s)\n"
 "Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set)."
 msgstr ""
+"не є git сховищем (як і жодна з батьківських директорій до місця монтування %s)\n"
+"Зупинка на межі файлової системи (GIT_DISCOVERY_ACROSS_FILESYSTEM не встановлено)."
 
 #: setup.c:1493
 #, c-format
@@ -24526,11 +24531,15 @@ msgid ""
 "\n"
 "\tgit config --global --add safe.directory %s"
 msgstr ""
+"виявлено сумнівне право власності у сховищі за адресою \"%s\"\n"
+"%sЩоб додати виняток для цієї директорії, виконайте:\n"
+"\n"
+"\tgit config --global --add safe.directory %s"
 
 #: setup.c:1504
 #, c-format
 msgid "cannot use bare repository '%s' (safe.bareRepository is '%s')"
-msgstr ""
+msgstr "неможливо використовувати порожнє сховище \"%s\" (safe.bareRepository встановлено в \"%s\")"
 
 #: setup.c:1631
 #, c-format
@@ -24538,6 +24547,8 @@ msgid ""
 "problem with core.sharedRepository filemode value (0%.3o).\n"
 "The owner of files must always have read and write permissions."
 msgstr ""
+"проблема зі значенням файлового режиму core.sharedRepository (0%.3o).\n"
+"Власник файлів завжди повинен мати права на читання та запис."
 
 #: setup.c:1693
 msgid "fork failed"
