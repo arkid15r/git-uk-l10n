@@ -1148,7 +1148,7 @@ msgstr "відсутні дані бінарної латки для \"%s\""
 #: apply.c:3129
 #, c-format
 msgid "cannot reverse-apply a binary patch without the reverse hunk to '%s'"
-msgstr "неможливо виконати reverse-apply без зворотнього шматка до \"%s\""
+msgstr "неможливо виконати reverse-apply бінарної латки без зворотнього шматка до \"%s\""
 
 #: apply.c:3176
 #, c-format
