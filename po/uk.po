@@ -24425,7 +24425,7 @@ msgstr ""
 
 #: setup.c:429
 msgid "unable to set up work tree using invalid config"
-msgstr "не вдається налаштувати робоче дерево за допомогою неприпустимої конфігурації"
+msgstr "не вдалося налаштувати робоче дерево, використовуючи неприпустиму конфігурацію"
 
 #: setup.c:741
 #, c-format
