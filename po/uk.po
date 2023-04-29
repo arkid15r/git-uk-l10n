@@ -24410,7 +24410,7 @@ msgstr ""
 #: setup.c:274
 #, c-format
 msgid "option '%s' must come before non-option arguments"
-msgstr "опція \"%s\" повинна стояти перед аргументами, які не є опціями"
+msgstr "опція \"%s\" повинна стояти перед аргументами без опцій"
 
 #: setup.c:293
 #, c-format
