@@ -1137,7 +1137,7 @@ msgid ""
 "while searching for:\n"
 "%.*s"
 msgstr ""
-"поки йшов пошук:\n"
+"поки йде пошук:\n"
 "%.*s"
 
 #: apply.c:3121
