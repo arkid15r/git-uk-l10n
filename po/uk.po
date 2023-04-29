@@ -1176,7 +1176,7 @@ msgstr "неможливо прочитати необхідний postimage %s 
 #: apply.c:3227
 #, c-format
 msgid "binary patch does not apply to '%s'"
-msgstr "бінарний латки не застосовується до \"%s\""
+msgstr "бінарна латка не застосовується до \"%s\""
 
 #: apply.c:3234
 #, c-format
