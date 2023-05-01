@@ -939,12 +939,12 @@ msgstr "забагато аргументів"
 #: apply.c:77
 #, c-format
 msgid "unrecognized whitespace option '%s'"
-msgstr "нерозпізнана опція символів пробілу \"%s\""
+msgstr "нерозпізнана опція пробільних символів \"%s\""
 
 #: apply.c:93
 #, c-format
 msgid "unrecognized whitespace ignore option '%s'"
-msgstr "нерозпізнана опція ігнорування символів пробілу \"%s\""
+msgstr "нерозпізнана опція ігнорування пробільних символів \"%s\""
 
 #: apply.c:145 archive.c:646 builtin/add.c:470 builtin/add.c:472
 #: builtin/add.c:478 builtin/add.c:490 builtin/branch.c:754
@@ -1148,7 +1148,9 @@ msgstr "відсутні дані бінарної латки для \"%s\""
 #: apply.c:3129
 #, c-format
 msgid "cannot reverse-apply a binary patch without the reverse hunk to '%s'"
-msgstr "неможливо виконати reverse-apply бінарної латки без зворотнього шматка до \"%s\""
+msgstr ""
+"неможливо виконати reverse-apply бінарної латки без зворотнього шматка до "
+"\"%s\""
 
 #: apply.c:3176
 #, c-format
@@ -1204,17 +1206,17 @@ msgstr "не вдалося прочитати %s"
 #: apply.c:3439
 #, c-format
 msgid "reading from '%s' beyond a symbolic link"
-msgstr ""
+msgstr "читання з \\“%s\\” за символьним посиланням"
 
 #: apply.c:3468 apply.c:3741
 #, c-format
 msgid "path %s has been renamed/deleted"
-msgstr ""
+msgstr "шлях %s перейменовано/видалено"
 
 #: apply.c:3579 apply.c:3756
 #, c-format
 msgid "%s: does not exist in index"
-msgstr ""
+msgstr "%s: не існує в індексі"
 
 #: apply.c:3588 apply.c:3764 apply.c:3980
 #, c-format
@@ -1224,11 +1226,12 @@ msgstr "%s: не співпадає з індексом"
 #: apply.c:3625
 msgid "repository lacks the necessary blob to perform 3-way merge."
 msgstr ""
+"у сховищі відсутній необхідний blob для виконання тристороннього злиття."
 
 #: apply.c:3628
 #, c-format
 msgid "Performing three-way merge...\n"
-msgstr ""
+msgstr "Виконання тристороннього злиття…\n"
 
 #: apply.c:3644 apply.c:3648
 #, c-format
@@ -1238,36 +1241,36 @@ msgstr "неможливо прочитати поточний вміст \"%s\"
 #: apply.c:3660
 #, c-format
 msgid "Failed to perform three-way merge...\n"
-msgstr ""
+msgstr "Не вдалося виконати тристороннє злиття…\n"
 
 #: apply.c:3674
 #, c-format
 msgid "Applied patch to '%s' with conflicts.\n"
-msgstr ""
+msgstr "Латка до ‘%s’ застосована з конфліктами.\n"
 
 #: apply.c:3679
 #, c-format
 msgid "Applied patch to '%s' cleanly.\n"
-msgstr ""
+msgstr "Латка до ‘%s’ застосована чисто.\n"
 
 #: apply.c:3696
 #, c-format
 msgid "Falling back to direct application...\n"
-msgstr ""
+msgstr "Повернення до прямого застосування…\n"
 
 #: apply.c:3708
 msgid "removal patch leaves file contents"
-msgstr ""
+msgstr "латка видалення залишає вміст файлу"
 
 #: apply.c:3781
 #, c-format
 msgid "%s: wrong type"
-msgstr ""
+msgstr "%s: невірний тип"
 
 #: apply.c:3783
 #, c-format
 msgid "%s has type %o, expected %o"
-msgstr ""
+msgstr "%s має тип %o, очікувався %o"
 
 #: apply.c:3920 apply.c:3922 read-cache.c:914 read-cache.c:943
 #: read-cache.c:1410
@@ -1278,7 +1281,7 @@ msgstr "неприпустимий шлях \"%s\""
 #: apply.c:3978
 #, c-format
 msgid "%s: already exists in index"
-msgstr ""
+msgstr "%s: вже існує в індексі"
 
 #: apply.c:3982
 #, c-format
@@ -1288,22 +1291,22 @@ msgstr "%s: вже існує в робочій директорії"
 #: apply.c:4002
 #, c-format
 msgid "new mode (%o) of %s does not match old mode (%o)"
-msgstr ""
+msgstr "новий режим (%o) для %s не відповідає старому режиму (%o)"
 
 #: apply.c:4007
 #, c-format
 msgid "new mode (%o) of %s does not match old mode (%o) of %s"
-msgstr ""
+msgstr "новий режим (%o) для %s не відповідає старому режиму (%o) для %s"
 
 #: apply.c:4027 apply.c:4456
 #, c-format
 msgid "affected file '%s' is beyond a symbolic link"
-msgstr ""
+msgstr "уражений файл ‘%s’ знаходиться за межами символічного посилання"
 
 #: apply.c:4031
 #, c-format
 msgid "%s: patch does not apply"
-msgstr ""
+msgstr "%s: латка не може бути застосована"
 
 #: apply.c:4046
 #, c-format
@@ -1313,22 +1316,22 @@ msgstr "Перевірка латки %s..."
 #: apply.c:4138
 #, c-format
 msgid "sha1 information is lacking or useless for submodule %s"
-msgstr ""
+msgstr "sha1 інформація відсутня або марна для підмодуля %s"
 
 #: apply.c:4145
 #, c-format
 msgid "mode change for %s, which is not in current HEAD"
-msgstr ""
+msgstr "зміна режиму для %s, якого немає в поточному HEAD"
 
 #: apply.c:4148
 #, c-format
 msgid "sha1 information is lacking or useless (%s)."
-msgstr ""
+msgstr "sha1 інформація відсутня або марна (%s)."
 
 #: apply.c:4157
 #, c-format
 msgid "could not add %s to temporary index"
-msgstr ""
+msgstr "не вдалося додати %s до тимчасового індексу"
 
 #: apply.c:4167
 #, c-format
@@ -1378,7 +1381,7 @@ msgstr "не вдалося записати файл \"%s\" в режимі %o"
 #: apply.c:4601
 #, c-format
 msgid "Applied patch %s cleanly."
-msgstr ""
+msgstr "Латка %s застосована чисто."
 
 #: apply.c:4609
 msgid "internal error"
@@ -1388,29 +1391,29 @@ msgstr "внутрішня помилка"
 #, c-format
 msgid "Applying patch %%s with %d reject..."
 msgid_plural "Applying patch %%s with %d rejects..."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Застосування латки %%s з %d відкиданням..."
+msgstr[1] "Застосування латки %%s з %d відкиданнями..."
+msgstr[2] "Застосування латки %%s з %d відкиданнями..."
 
 #: apply.c:4623
 #, c-format
 msgid "truncating .rej filename to %.*s.rej"
-msgstr ""
+msgstr "скорочення імені файлу .rej до %.*s.rej"
 
 #: apply.c:4631
 #, c-format
 msgid "cannot open %s"
-msgstr ""
+msgstr "неможливо відкрити %s"
 
 #: apply.c:4645
 #, c-format
 msgid "Hunk #%d applied cleanly."
-msgstr ""
+msgstr "Шматок #%d застосовано чисто."
 
 #: apply.c:4649
 #, c-format
 msgid "Rejected hunk #%d."
-msgstr ""
+msgstr "Шматок #%d відкинуто."
 
 #: apply.c:4778
 #, c-format
@@ -1419,7 +1422,7 @@ msgstr "Пропущена латка \"%s\"."
 
 #: apply.c:4787
 msgid "No valid patches in input (allow with \"--allow-empty\")"
-msgstr ""
+msgstr "Немає коректних латок на вході (дозволити через \"--allow-empty\")"
 
 #: apply.c:4808 t/helper/test-cache-tree.c:38
 msgid "unable to read index file"
@@ -1428,31 +1431,32 @@ msgstr "не вдалося прочитати індексний файл"
 #: apply.c:4965
 #, c-format
 msgid "can't open patch '%s': %s"
-msgstr ""
+msgstr "неможливо відкрити латку \"%s\": %s"
 
 #: apply.c:4992
 #, c-format
 msgid "squelched %d whitespace error"
 msgid_plural "squelched %d whitespace errors"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "ігнорована %d помилка пробільних символів"
+msgstr[1] "ігноровані %d помилки пробільних символів"
+msgstr[2] "ігноровані %d помилок пробільних символів"
 
 #: apply.c:4998 apply.c:5013
 #, c-format
 msgid "%d line adds whitespace errors."
 msgid_plural "%d lines add whitespace errors."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d рядок додає помилки пробільних символів."
+msgstr[1] "%d рядки додають помилки пробільних символів."
+msgstr[2] "%d рядків додають помилки пробільних символів."
 
 #: apply.c:5006
 #, c-format
 msgid "%d line applied after fixing whitespace errors."
 msgid_plural "%d lines applied after fixing whitespace errors."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d рядок застосовано після виправлення помилок пробільних символів."
+msgstr[1] "%d рядки застосовано після виправлення помилок пробільних символів."
 msgstr[2] ""
+"%d рядків застосовано після виправлення помилок пробільних символів."
 
 #: apply.c:5022 builtin/add.c:653 builtin/mv.c:563 builtin/rm.c:437
 msgid "Unable to write new index file"
@@ -1460,126 +1464,128 @@ msgstr "Не вдалося записати новий файл індексу"
 
 #: apply.c:5050
 msgid "don't apply changes matching the given path"
-msgstr ""
+msgstr "не застосовувати зміни, що відповідають вказаному шляху"
 
 #: apply.c:5053
 msgid "apply changes matching the given path"
-msgstr ""
+msgstr "застосувати зміни, що відповідають вказаному шляху"
 
 #: apply.c:5055 builtin/am.c:2378
 msgid "num"
-msgstr ""
+msgstr "число"
 
 #: apply.c:5056
 msgid "remove <num> leading slashes from traditional diff paths"
-msgstr ""
+msgstr "видалити <num> перших слешів з традиційних diff-шляхів"
 
 #: apply.c:5059
 msgid "ignore additions made by the patch"
-msgstr ""
+msgstr "ігнорувати доповнення, зроблені латкою"
 
 #: apply.c:5061
 msgid "instead of applying the patch, output diffstat for the input"
-msgstr ""
+msgstr "замість застосування латки вивести diffstat для вхідних даних"
 
 #: apply.c:5065
 msgid "show number of added and deleted lines in decimal notation"
-msgstr ""
+msgstr "показати кількість доданих і видалених рядків у десятковій нотації"
 
 #: apply.c:5067
 msgid "instead of applying the patch, output a summary for the input"
-msgstr ""
+msgstr "замість застосування латки вивести підсумок для вхідних даних"
 
 #: apply.c:5069
 msgid "instead of applying the patch, see if the patch is applicable"
-msgstr ""
+msgstr "замість застосування латки перевірити можливість її застосування"
 
 #: apply.c:5071
 msgid "make sure the patch is applicable to the current index"
-msgstr ""
+msgstr "переконатися, що латка може бути застосовна до поточного індексу"
 
 #: apply.c:5073
 msgid "mark new files with `git add --intent-to-add`"
-msgstr ""
+msgstr "позначити нові файли командою \"git add --intent-to-add\""
 
 #: apply.c:5075
 msgid "apply a patch without touching the working tree"
-msgstr ""
+msgstr "застосувати латку, не торкаючись робочого дерева"
 
 #: apply.c:5077
 msgid "accept a patch that touches outside the working area"
-msgstr ""
+msgstr "прийняти латку, яка виходить за межі робочого простору"
 
 #: apply.c:5080
 msgid "also apply the patch (use with --stat/--summary/--check)"
-msgstr ""
+msgstr "також застосувати патч (використовуйте з --stat/--summary/--check)"
 
 #: apply.c:5082
 msgid "attempt three-way merge, fall back on normal patch if that fails"
 msgstr ""
+"спробувати тристороннє злиття, повернутися до звичайного латання, якщо це не "
+"вдасться"
 
 #: apply.c:5084
 msgid "build a temporary index based on embedded index information"
-msgstr ""
+msgstr "створити тимчасовий індекс на основі вбудованої індексної інформації"
 
 #: apply.c:5087 builtin/checkout-index.c:232
 msgid "paths are separated with NUL character"
-msgstr ""
+msgstr "шляхи відокремлюються символом NUL"
 
 #: apply.c:5089
 msgid "ensure at least <n> lines of context match"
-msgstr ""
+msgstr "забезпечити збіг принаймні <n> рядків контексту"
 
 #: apply.c:5090 builtin/am.c:2354 builtin/am.c:2357
 #: builtin/interpret-trailers.c:101 builtin/interpret-trailers.c:103
 #: builtin/interpret-trailers.c:105 builtin/pack-objects.c:4270
 #: builtin/rebase.c:1131
 msgid "action"
-msgstr ""
+msgstr "дія"
 
 #: apply.c:5091
 msgid "detect new or modified lines that have whitespace errors"
-msgstr ""
+msgstr "виявляти нові або змінені рядки з помилками пробільних символів"
 
 #: apply.c:5094 apply.c:5097
 msgid "ignore changes in whitespace when finding context"
-msgstr ""
+msgstr "ігнорувати зміни пробільних символів при пошуку контексту"
 
 #: apply.c:5100
 msgid "apply the patch in reverse"
-msgstr ""
+msgstr "застосувати латку у зворотному порядку"
 
 #: apply.c:5102
 msgid "don't expect at least one line of context"
-msgstr ""
+msgstr "не очікувати на хоча б один рядок контексту"
 
 #: apply.c:5104
 msgid "leave the rejected hunks in corresponding *.rej files"
-msgstr ""
+msgstr "залишити відкинуті шматки у відповідних *.rej файлах"
 
 #: apply.c:5106
 msgid "allow overlapping hunks"
-msgstr ""
+msgstr "дозволити перекриття шматків"
 
 #: apply.c:5109
 msgid "tolerate incorrectly detected missing new-line at the end of file"
-msgstr ""
+msgstr "дозволяти некоректно виявлену відсутність нового рядка в кінці файлу"
 
 #: apply.c:5112
 msgid "do not trust the line counts in the hunk headers"
-msgstr ""
+msgstr "не довіряти кількості рядків у заголовках шматків"
 
 #: apply.c:5114 builtin/am.c:2366
 msgid "root"
-msgstr ""
+msgstr "корінь"
 
 #: apply.c:5115
 msgid "prepend <root> to all filenames"
-msgstr ""
+msgstr "додати <корінь> до всіх назв файлів"
 
 #: apply.c:5118
 msgid "don't return error for empty patches"
-msgstr ""
+msgstr "не повертати помилку для порожніх латок"
 
 #: archive-tar.c:136 archive-zip.c:349
 #, c-format
@@ -1589,13 +1595,13 @@ msgstr "неможливо транслювати blob %s"
 #: archive-tar.c:276 archive-zip.c:362
 #, c-format
 msgid "unsupported file mode: 0%o (SHA1: %s)"
-msgstr ""
+msgstr "непідтримуваний режим файлу: 0%o (SHA1: %s)"
 
 #: archive-tar.c:455 archive-zip.c:473 builtin/pack-objects.c:374
 #: builtin/pack-objects.c:377
 #, c-format
 msgid "deflate error (%d)"
-msgstr ""
+msgstr "помилка пакування (%d)"
 
 #: archive-tar.c:508
 #, c-format
@@ -1614,17 +1620,17 @@ msgstr "Фільтр \"%s\" повідомив про помилку"
 #: archive-zip.c:322
 #, c-format
 msgid "path is not valid UTF-8: %s"
-msgstr ""
+msgstr "шлях не є припустимим UTF-8: %s"
 
 #: archive-zip.c:326
 #, c-format
 msgid "path too long (%d chars, SHA1: %s): %s"
-msgstr ""
+msgstr "шлях занадто довгий (%d символів, SHA1: %s): %s"
 
 #: archive-zip.c:607
 #, c-format
 msgid "timestamp too large for this system: %<PRIuMAX>"
-msgstr ""
+msgstr "позначка часу занадто велика для цієї системи: %<PRIuMAX>"
 
 #: archive.c:21
 msgid "git archive [<options>] <tree-ish> [<path>...]"
@@ -1634,10 +1640,12 @@ msgstr "git archive [<опції>] <деревоподібне джерело> [
 msgid ""
 "git archive --remote <repo> [--exec <cmd>] [<options>] <tree-ish> [<path>...]"
 msgstr ""
+"git archive --remote <сховище> [--exec <команда>] [<опції>] <деревоподібне "
+"джерело> [<шлях>...]"
 
 #: archive.c:24
 msgid "git archive --remote <repo> [--exec <cmd>] --list"
-msgstr ""
+msgstr "git archive --remote <сховище> [--exec <команда>] --list"
 
 #: archive.c:194 archive.c:349 builtin/gc.c:510 builtin/notes.c:242
 #: builtin/tag.c:582
@@ -1667,48 +1675,48 @@ msgstr "не є об’єктом дерева: %s"
 
 #: archive.c:500
 msgid "current working directory is untracked"
-msgstr ""
+msgstr "поточна робоча директорія не відстежується"
 
 #: archive.c:543
 #, c-format
 msgid "File not found: %s"
-msgstr ""
+msgstr "Файл не знайдено: %s"
 
 #: archive.c:545
 #, c-format
 msgid "Not a regular file: %s"
-msgstr ""
+msgstr "Не звичайний файл: %s"
 
 #: archive.c:554
 #, c-format
 msgid "unclosed quote: '%s'"
-msgstr ""
+msgstr "незакриті лапки: \"%s\""
 
 #: archive.c:557
 #, c-format
 msgid "missing colon: '%s'"
-msgstr ""
+msgstr "відсутня двокрапка: \"%s\""
 
 #: archive.c:560
 #, c-format
 msgid "empty file name: '%s'"
-msgstr ""
+msgstr "порожнє ім'я файлу: \"%s\""
 
 #: archive.c:607
 msgid "fmt"
-msgstr ""
+msgstr "fmt"
 
 #: archive.c:607
 msgid "archive format"
-msgstr ""
+msgstr "формат архіву"
 
 #: archive.c:608 builtin/log.c:1935 parse-options.h:520
 msgid "prefix"
-msgstr ""
+msgstr "префікс"
 
 #: archive.c:609
 msgid "prepend prefix to each pathname in the archive"
-msgstr ""
+msgstr "додати префікс до кожного імені шляху в архіві"
 
 #: archive.c:610 archive.c:616 builtin/blame.c:896 builtin/blame.c:900
 #: builtin/blame.c:901 builtin/commit-tree.c:110 builtin/config.c:141
@@ -1726,19 +1734,19 @@ msgstr "додати невідстежуваний файл до архіву"
 
 #: archive.c:614
 msgid "path:content"
-msgstr ""
+msgstr "шлях:вміст"
 
 #: archive.c:617 builtin/archive.c:89
 msgid "write the archive to this file"
-msgstr ""
+msgstr "записати архів до цього файлу"
 
 #: archive.c:619
 msgid "read .gitattributes in working directory"
-msgstr ""
+msgstr "прочитати .gitattributes робочої директорії"
 
 #: archive.c:620
 msgid "report archived files on stderr"
-msgstr ""
+msgstr "звітувати про заархівовані файли в stderr"
 
 #: archive.c:621 builtin/clone.c:143 builtin/fetch.c:199
 #: builtin/pack-objects.c:4239 builtin/pack-objects.c:4243 builtin/pull.c:218
@@ -1747,15 +1755,15 @@ msgstr "час"
 
 #: archive.c:622
 msgid "set modification time of archive entries"
-msgstr ""
+msgstr "встановити час модифікації архівних записів"
 
 #: archive.c:625
 msgid "set compression level"
-msgstr ""
+msgstr "встановити рівень компресії"
 
 #: archive.c:628
 msgid "list supported archive formats"
-msgstr ""
+msgstr "показати список підтримуваних форматів архівів"
 
 #: archive.c:630 builtin/archive.c:90 builtin/clone.c:129 builtin/clone.c:132
 #: builtin/submodule--helper.c:1786 builtin/submodule--helper.c:2678
@@ -1764,12 +1772,12 @@ msgstr "сховище"
 
 #: archive.c:631 builtin/archive.c:91
 msgid "retrieve the archive from remote repository <repo>"
-msgstr ""
+msgstr "отримати архів з віддаленого <сховища>"
 
 #: archive.c:632 builtin/archive.c:92 builtin/difftool.c:717
 #: builtin/notes.c:500
 msgid "command"
-msgstr ""
+msgstr "команда"
 
 #: archive.c:633 builtin/archive.c:93
 msgid "path to the remote git-upload-archive command"
@@ -1777,7 +1785,7 @@ msgstr "шлях до віддаленої команди git-upload-archive"
 
 #: archive.c:640
 msgid "Unexpected option --remote"
-msgstr ""
+msgstr "Неочікувана опція --remote"
 
 #: archive.c:642 builtin/add.c:493 builtin/add.c:525 builtin/checkout.c:1821
 #: builtin/clone.c:1128 builtin/clone.c:1131 builtin/commit.c:380
@@ -1787,11 +1795,11 @@ msgstr ""
 #: fetch-pack.c:343 http-fetch.c:150 http-fetch.c:159 revision.c:3027
 #, c-format
 msgid "the option '%s' requires '%s'"
-msgstr "опція '%s' вимагає '%s'"
+msgstr "опція \"%s\" вимагає \"%s\""
 
 #: archive.c:644
 msgid "Unexpected option --output"
-msgstr ""
+msgstr "Неочікувана опція --output"
 
 #: archive.c:668
 #, c-format
@@ -1806,27 +1814,29 @@ msgstr "Аргумент не підтримується для формату \
 #: attr.c:204
 #, c-format
 msgid "%.*s is not a valid attribute name"
-msgstr "%.*s не є допустимим імʼям атрибута"
+msgstr "%.*s не є припустимим імʼям атрибута"
 
 #: attr.c:232
 msgid "unable to add additional attribute"
-msgstr ""
+msgstr "не вдалося додати додатковий атрибут"
 
 #: attr.c:354
 #, c-format
 msgid "ignoring overly long attributes line %d"
-msgstr ""
+msgstr "ігнорування надто довгого рядка атрибутів %d"
 
 #: attr.c:369
 #, c-format
 msgid "%s not allowed: %s:%d"
-msgstr ""
+msgstr "%s не дозволено: %s:%d"
 
 #: attr.c:408
 msgid ""
 "Negative patterns are ignored in git attributes\n"
 "Use '\\!' for literal leading exclamation."
 msgstr ""
+"Негативні шаблони ігноруються в git атрибутах\n"
+"Використовуйте \"\\!\" для додання знака оклику."
 
 #: attr.c:731
 #, c-format
@@ -1836,22 +1846,22 @@ msgstr "неможливо виконати fstat для файла git атри
 #: attr.c:736
 #, c-format
 msgid "ignoring overly large gitattributes file '%s'"
-msgstr ""
+msgstr "ігнорування надто великого файлу gitattributes \"%s\""
 
 #: attr.c:831
 #, c-format
 msgid "ignoring overly large gitattributes blob '%s'"
-msgstr ""
+msgstr "ігнорування надто великих gitattributes blob \"%s\""
 
 #: bisect.c:489
 #, c-format
 msgid "Badly quoted content in file '%s': %s"
-msgstr ""
+msgstr "Невірно процитований вміст у файлі \"%s\": %s"
 
 #: bisect.c:701
 #, c-format
 msgid "We cannot bisect more!\n"
-msgstr ""
+msgstr "Неможливо бісектувати більше!\n"
 
 #: bisect.c:771
 #, c-format
@@ -1864,6 +1874,8 @@ msgid ""
 "The merge base %s is bad.\n"
 "This means the bug has been fixed between %s and [%s].\n"
 msgstr ""
+"База злиття %s є невірною.\n"
+"Це означає, що помилку було виправлено між %s та [%s].\n"
 
 #: bisect.c:801
 #, c-format
@@ -1871,6 +1883,8 @@ msgid ""
 "The merge base %s is new.\n"
 "The property has changed between %s and [%s].\n"
 msgstr ""
+"База злиття %s є новою.\n"
+"Властивість змінилася між %s та [%s].\n"
 
 #: bisect.c:806
 #, c-format
@@ -1878,6 +1892,8 @@ msgid ""
 "The merge base %s is %s.\n"
 "This means the first '%s' commit is between %s and [%s].\n"
 msgstr ""
+"Базою злиття %s є %s.\n"
+"Це означає, що перший \"%s\" коміт знаходиться між %s і [%s].\n"
 
 #: bisect.c:814
 #, c-format
@@ -1886,6 +1902,9 @@ msgid ""
 "git bisect cannot work properly in this case.\n"
 "Maybe you mistook %s and %s revs?\n"
 msgstr ""
+"Деякі %s revs не є предками %s rev.\n"
+"git bisect не може працювати належним чином в таких випадках.\n"
+"Можливо, ви переплутали %s і %s revs?\n"
 
 #: bisect.c:827
 #, c-format
@@ -1894,16 +1913,20 @@ msgid ""
 "So we cannot be sure the first %s commit is between %s and %s.\n"
 "We continue anyway."
 msgstr ""
+"базу злиття між %s і [%s] потрібно пропустити.\n"
+"Тому ми не можемо бути впевнені, що перший коміт %s знаходиться між %s і "
+"%s.\n"
+"Ми все одно продовжимо."
 
 #: bisect.c:867
 #, c-format
 msgid "Bisecting: a merge base must be tested\n"
-msgstr ""
+msgstr "Бісекція: база злиття повинна бути протестована\n"
 
 #: bisect.c:920
 #, c-format
 msgid "a %s revision is needed"
-msgstr ""
+msgstr "необхідна ревізія %s"
 
 #: bisect.c:950
 #, c-format
@@ -6087,7 +6110,7 @@ msgstr ""
 #: builtin/commit.c:1797
 #, c-format
 msgid "could not read commit message: %s"
-msgstr "не вдалося прочитати повідомлення коміта: %s"
+msgstr "не вдалося прочитати допис до коміта: %s"
 
 #: builtin/commit.c:1804
 #, c-format
@@ -23752,7 +23775,7 @@ msgstr "не вдалося розібрати автора коміту"
 #: sequencer.c:1527 sequencer.c:1647
 #, c-format
 msgid "unable to read commit message from '%s'"
-msgstr "не вдалося прочитати повідомлення коміта від \"%s\""
+msgstr "не вдалося прочитати допис до коміта від \"%s\""
 
 #: sequencer.c:1558 sequencer.c:1590
 #, c-format
@@ -23827,7 +23850,7 @@ msgstr ""
 #: sequencer.c:2037
 #, c-format
 msgid "could not read commit message of %s"
-msgstr "не вдалося прочитати повідомлення коміта %s"
+msgstr "не вдалося прочитати допис до коміта %s"
 
 #: sequencer.c:2162
 msgid "your index file is unmerged."
@@ -24161,7 +24184,7 @@ msgstr ""
 #: sequencer.c:3998
 #, c-format
 msgid "could not get commit message of '%s'"
-msgstr "не вдалося отримати повідомлення коміта \"%s\""
+msgstr "не вдалося отримати допис до коміта \"%s\""
 
 #: sequencer.c:4144
 #, c-format
@@ -24425,7 +24448,9 @@ msgstr ""
 
 #: setup.c:429
 msgid "unable to set up work tree using invalid config"
-msgstr "не вдалося налаштувати робоче дерево, використовуючи неприпустиму конфігурацію"
+msgstr ""
+"не вдалося налаштувати робоче дерево, використовуючи неприпустиму "
+"конфігурацію"
 
 #: setup.c:741
 #, c-format
@@ -24520,8 +24545,10 @@ msgid ""
 "not a git repository (or any parent up to mount point %s)\n"
 "Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set)."
 msgstr ""
-"не є git сховищем (як і жодна з батьківських директорій до місця монтування %s)\n"
-"Зупинка на межі файлової системи (GIT_DISCOVERY_ACROSS_FILESYSTEM не встановлено)."
+"не є git сховищем (як і жодна з батьківських директорій до місця монтування "
+"%s)\n"
+"Зупинка на межі файлової системи (GIT_DISCOVERY_ACROSS_FILESYSTEM не "
+"встановлено)."
 
 #: setup.c:1493
 #, c-format
@@ -24539,7 +24566,9 @@ msgstr ""
 #: setup.c:1504
 #, c-format
 msgid "cannot use bare repository '%s' (safe.bareRepository is '%s')"
-msgstr "неможливо використовувати порожнє сховище \"%s\" (safe.bareRepository встановлено в \"%s\")"
+msgstr ""
+"неможливо використовувати порожнє сховище \"%s\" (safe.bareRepository "
+"встановлено в \"%s\")"
 
 #: setup.c:1631
 #, c-format
