@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-04-28 18:46-0700\n"
+"PO-Revision-Date: 2023-04-30 17:28-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && "
-"(n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Generator: Poedit 3.3\n"
 
 #: add-interactive.c:384
@@ -23515,46 +23515,48 @@ msgstr "не вдалося розібрати стан розпакування
 #: send-pack.c:160
 #, c-format
 msgid "remote unpack failed: %s"
-msgstr ""
+msgstr "віддалене розпакування не вдалося: %s"
 
 #: send-pack.c:384
 msgid "failed to sign the push certificate"
-msgstr ""
+msgstr "не вдалося підписати сертифікат надсилання"
 
 #: send-pack.c:441
 msgid "send-pack: unable to fork off fetch subprocess"
-msgstr ""
+msgstr "send-pack: не вдалося розгалужити підпроцес отримання"
 
 #: send-pack.c:463
 msgid "push negotiation failed; proceeding anyway with push"
-msgstr ""
+msgstr "переговори з надсилання не вдалися; все одно продовжуємо надсилання"
 
 #: send-pack.c:538
 msgid "the receiving end does not support this repository's hash algorithm"
-msgstr ""
+msgstr "отримуюча сторона не підтримує хеш-алгоритм цього сховища"
 
 #: send-pack.c:547
 msgid "the receiving end does not support --signed push"
-msgstr ""
+msgstr "отримуюча сторона не підтримує --signed push"
 
 #: send-pack.c:549
 msgid ""
 "not sending a push certificate since the receiving end does not support --"
 "signed push"
 msgstr ""
+"сертифікат надсилання не відправлено, оскільки отримуюча сторона не "
+"підтримує --signed push"
 
 #: send-pack.c:556
 msgid "the receiving end does not support --atomic push"
-msgstr ""
+msgstr "отримуюча сторона не підтримує --atomic push"
 
 #: send-pack.c:561
 msgid "the receiving end does not support push options"
-msgstr ""
+msgstr "отримуюча сторона не підтримує опції push"
 
 #: sequencer.c:242
 #, c-format
 msgid "invalid commit message cleanup mode '%s'"
-msgstr ""
+msgstr "неприпустимий режим очищення дописів до коміту \"%s\""
 
 #: sequencer.c:384
 #, c-format
@@ -23563,15 +23565,15 @@ msgstr "не вдалося видалити \"%s\""
 
 #: sequencer.c:406
 msgid "revert"
-msgstr ""
+msgstr "вивертання"
 
 #: sequencer.c:408
 msgid "cherry-pick"
-msgstr ""
+msgstr "висмикування"
 
 #: sequencer.c:410
 msgid "rebase"
-msgstr ""
+msgstr "перебазування"
 
 #: sequencer.c:412
 #, c-format
@@ -23583,6 +23585,8 @@ msgid ""
 "after resolving the conflicts, mark the corrected paths\n"
 "with 'git add <paths>' or 'git rm <paths>'"
 msgstr ""
+"після розвʼязання конфліктів позначте виправлені шляхи\n"
+"за допомогою \"git add <шляхи>\" або \"git rm <шляхи>\""
 
 #: sequencer.c:476
 msgid ""
@@ -23593,6 +23597,13 @@ msgid ""
 "To abort and get back to the state before \"git cherry-pick\",\n"
 "run \"git cherry-pick --abort\"."
 msgstr ""
+"Після розвʼязання конфліктів позначте їх за допомогою\n"
+"\"git add/rm <специфікація-шляху>\", а потім виконайте\n"
+"\"git cherry-pick --continue\".\n"
+"Замість цього ви можете пропустити цей комміт за допомогою \"git cherry-pick "
+"--skip\".\n"
+"Щоб перервати процес і повернутися до стану перед \"git cherry-pick\",\n"
+"виконайте \"git cherry-pick --abort\"."
 
 #: sequencer.c:483
 msgid ""
@@ -23603,6 +23614,13 @@ msgid ""
 "To abort and get back to the state before \"git revert\",\n"
 "run \"git revert --abort\"."
 msgstr ""
+"Після розвʼязання конфліктів позначте їх за допомогою\n"
+"\"git add/rm <специфікація-шляху>\", а потім виконайте\n"
+"\"git revert --continue\".\n"
+"Замість цього ви можете пропустити цей коміт за допомогою \"git revert --"
+"skip\".\n"
+"Щоб перервати і повернутися до стану перед \"git revert\",\n"
+"виконайте \"git revert --abort\".ч"
 
 #: sequencer.c:501 sequencer.c:3396
 #, c-format
@@ -23628,11 +23646,11 @@ msgstr "не вдалося завершити \"%s\""
 #: sequencer.c:552
 #, c-format
 msgid "your local changes would be overwritten by %s."
-msgstr ""
+msgstr "ваші локальні зміни будуть перезаписані %s."
 
 #: sequencer.c:556
 msgid "commit your changes or stash them to proceed."
-msgstr ""
+msgstr "зробіть коміт або додайте ваші зміни до схову, щоб продовжити."
 
 #. TRANSLATORS: %s will be "revert", "cherry-pick" or
 #. "rebase".
@@ -23653,7 +23671,7 @@ msgstr "не вдалося розпізнати HEAD коміт"
 #: sequencer.c:846
 #, c-format
 msgid "no key present in '%.*s'"
-msgstr ""
+msgstr "немає ключа у \"%.*s\""
 
 #: sequencer.c:857
 #, c-format
@@ -23662,15 +23680,15 @@ msgstr "не вдалося вилучити лапки зі значення \"
 
 #: sequencer.c:904
 msgid "'GIT_AUTHOR_NAME' already given"
-msgstr ""
+msgstr "\"GIT_AUTHOR_NAME\" вже надано"
 
 #: sequencer.c:909
 msgid "'GIT_AUTHOR_EMAIL' already given"
-msgstr ""
+msgstr "\"GIT_AUTHOR_EMAIL\" вже надано"
 
 #: sequencer.c:914
 msgid "'GIT_AUTHOR_DATE' already given"
-msgstr ""
+msgstr "\"GIT_AUTHOR_DATE\" вже надано"
 
 #: sequencer.c:918
 #, c-format
@@ -23679,15 +23697,15 @@ msgstr "невідома змінна \"%s\""
 
 #: sequencer.c:923
 msgid "missing 'GIT_AUTHOR_NAME'"
-msgstr ""
+msgstr "бракує \"GIT_AUTHOR_NAME\""
 
 #: sequencer.c:925
 msgid "missing 'GIT_AUTHOR_EMAIL'"
-msgstr ""
+msgstr "бракує \"GIT_AUTHOR_EMAIL\""
 
 #: sequencer.c:927
 msgid "missing 'GIT_AUTHOR_DATE'"
-msgstr ""
+msgstr "бракує \"GIT_AUTHOR_DATE\""
 
 #: sequencer.c:992
 #, c-format
@@ -23705,10 +23723,22 @@ msgid ""
 "\n"
 "  git rebase --continue\n"
 msgstr ""
+"ви маєте індексовані зміни у вашому робочому дереві\n"
+"Якщо ці зміни мають бути стиснуті у попередній коміт, запустіть:\n"
+"\n"
+"  git commit --amend %s\n"
+"\n"
+"Якщо вони мають потрапити до нового коміту, виконайте:\n"
+"\n"
+"  git commit %s\n"
+"\n"
+"В обох випадках, як тільки ви закінчите, продовжуйте за допомогою:\n"
+"\n"
+"  git rebase --continue\n"
 
 #: sequencer.c:1280
 msgid "'prepare-commit-msg' hook failed"
-msgstr ""
+msgstr "\"prepare-commit-msg\" гачок завершився невдало"
 
 #: sequencer.c:1286
 msgid ""
@@ -23724,6 +23754,21 @@ msgid ""
 "\n"
 "    git commit --amend --reset-author\n"
 msgstr ""
+"Ваше імʼя та адреса електронної пошти були налаштовані автоматично на "
+"основі\n"
+"вашого імені користувача та імені хосту. Будь ласка, перевірте їх "
+"правильність.\n"
+"Ви можете приховати це повідомлення, встановивши їх явно. Запустіть\n"
+"наступну команду і дотримуйтесь інструкцій у вашому редакторі, щоб "
+"відредагувати\n"
+"ваш конфігураційний файл:\n"
+"\n"
+"    git config --global --edit\n"
+"\n"
+"Після цього ви можете виправити особистість автора, використану для цього "
+"коміту, за допомогою\n"
+"\n"
+"    git commit --amend --reset-author\n"
 
 #: sequencer.c:1299
 msgid ""
@@ -23738,18 +23783,31 @@ msgid ""
 "\n"
 "    git commit --amend --reset-author\n"
 msgstr ""
+"Ваше імʼя та адреса електронної пошти були налаштовані автоматично на "
+"основі\n"
+"вашого імені користувача та імені хосту. Будь ласка, перевірте їх "
+"правильність.\n"
+"Ви можете приховати це повідомлення, вказавши їх явно:\n"
+"\n"
+"    git config --global user.name \"Ваше Імʼя\"\n"
+"    git config --global user.email you@example.com\n"
+"\n"
+"Після цього ви можете виправити особистість автора, використану для цього "
+"коміту, за допомогою\n"
+"\n"
+"    git commit --amend --reset-author\n"
 
 #: sequencer.c:1342
 msgid "couldn't look up newly created commit"
-msgstr ""
+msgstr "не вдалося знайти новостворений коміт"
 
 #: sequencer.c:1344
 msgid "could not parse newly created commit"
-msgstr ""
+msgstr "не вдалося розібрати новостворений коміт"
 
 #: sequencer.c:1392
 msgid "unable to resolve HEAD after creating commit"
-msgstr ""
+msgstr "не вдалося розвʼязати HEAD після створення коміту"
 
 #: sequencer.c:1394
 msgid "detached HEAD"
@@ -23757,7 +23815,7 @@ msgstr "відʼєднаний HEAD"
 
 #: sequencer.c:1398
 msgid " (root-commit)"
-msgstr ""
+msgstr " (кореневий комміт)"
 
 #: sequencer.c:1420
 msgid "could not parse HEAD"
@@ -23784,7 +23842,7 @@ msgstr "неприпустима ідентичність автора \"%s\""
 
 #: sequencer.c:1564
 msgid "corrupt author: missing date information"
-msgstr ""
+msgstr "пошкоджені дані про автора: відсутня інформація про дату"
 
 #: sequencer.c:1630 sequencer.c:4846 t/helper/test-fast-rebase.c:209
 #: t/helper/test-fast-rebase.c:225
@@ -23800,7 +23858,7 @@ msgstr "не вдалося розібрати коміт %s"
 #: sequencer.c:1684
 #, c-format
 msgid "could not parse parent commit %s"
-msgstr "не вдалося розібрати джерельный коміт %s"
+msgstr "не вдалося розібрати джерельний коміт %s"
 
 #: sequencer.c:1768 sequencer.c:2050
 #, c-format
@@ -23809,26 +23867,26 @@ msgstr "невідома команда: %d"
 
 #: sequencer.c:1810
 msgid "This is the 1st commit message:"
-msgstr ""
+msgstr "Це перший допис до коміта:"
 
 #: sequencer.c:1811
 #, c-format
 msgid "This is the commit message #%d:"
-msgstr ""
+msgstr "Це допис до коміта #%d:"
 
 #: sequencer.c:1812
 msgid "The 1st commit message will be skipped:"
-msgstr ""
+msgstr "Перший допис до коміта буде пропущено:"
 
 #: sequencer.c:1813
 #, c-format
 msgid "The commit message #%d will be skipped:"
-msgstr ""
+msgstr "Допис до коміта #%d буде пропущено:"
 
 #: sequencer.c:1814
 #, c-format
 msgid "This is a combination of %d commits."
-msgstr ""
+msgstr "Це комбінація %d комітів."
 
 #: sequencer.c:1961 sequencer.c:2019
 #, c-format
@@ -23837,7 +23895,7 @@ msgstr "неможливо записати \"%s\""
 
 #: sequencer.c:2008
 msgid "need a HEAD to fixup"
-msgstr ""
+msgstr "потрібен HEAD, щоб виправити"
 
 #: sequencer.c:2010 sequencer.c:3705
 msgid "could not read HEAD"
@@ -23845,7 +23903,7 @@ msgstr "не вдалося прочитати HEAD"
 
 #: sequencer.c:2013
 msgid "could not read HEAD's commit message"
-msgstr ""
+msgstr "не вдалося прочитати допис до коміта HEAD"
 
 #: sequencer.c:2037
 #, c-format
@@ -23854,7 +23912,7 @@ msgstr "не вдалося прочитати допис до коміта %s"
 
 #: sequencer.c:2162
 msgid "your index file is unmerged."
-msgstr ""
+msgstr "ваш індексний файл не злитий."
 
 #: sequencer.c:2169
 msgid "cannot fixup root commit"
@@ -23863,7 +23921,7 @@ msgstr "не вдалося виправити кореневий коміт"
 #: sequencer.c:2188
 #, c-format
 msgid "commit %s is a merge but no -m option was given."
-msgstr ""
+msgstr "коміт %s - це злиття, але опція -m не була вказана."
 
 #: sequencer.c:2196 sequencer.c:2204
 #, c-format
@@ -23873,7 +23931,7 @@ msgstr "коміт %s не має джерела %d"
 #: sequencer.c:2210
 #, c-format
 msgid "cannot get commit message for %s"
-msgstr ""
+msgstr "неможливо отримати допис до коміта для %s"
 
 #. TRANSLATORS: The first %s will be a "todo" command like
 #. "revert" or "pick", the second %s a SHA1.
@@ -23901,6 +23959,7 @@ msgstr "не вдалося застосувати %s... %s"
 #, c-format
 msgid "dropping %s %s -- patch contents already upstream\n"
 msgstr ""
+"скидання %s %s -- вміст латки вже знаходиться у першоджерельному сховищі\n"
 
 #: sequencer.c:2445
 #, c-format
@@ -23910,7 +23969,7 @@ msgstr "git %s: не вдалося прочитати індекс"
 #: sequencer.c:2453
 #, c-format
 msgid "git %s: failed to refresh the index"
-msgstr ""
+msgstr "git %s: не вдалося оновити індекс"
 
 #: sequencer.c:2508
 #, c-format
@@ -23925,7 +23984,7 @@ msgstr "\"%s\" не є припустимим імʼям посилання"
 #: sequencer.c:2515
 #, c-format
 msgid "update-ref requires a fully qualified refname e.g. refs/heads/%s"
-msgstr ""
+msgstr "update-ref потребує повного імені посилання, наприклад, refs/heads/%s"
 
 #: sequencer.c:2552
 #, c-format
@@ -23940,7 +23999,7 @@ msgstr "%s не приймає аргументи: \"%s\""
 #: sequencer.c:2570
 #, c-format
 msgid "missing arguments for %s"
-msgstr ""
+msgstr "відсутні аргументи для %s"
 
 #: sequencer.c:2620
 #, c-format
@@ -23955,7 +24014,7 @@ msgstr "невірний рядок %d: %.*s"
 #: sequencer.c:2692
 #, c-format
 msgid "cannot '%s' without a previous commit"
-msgstr ""
+msgstr "неможливо зробити \"%s\" без попереднього коміту"
 
 #: sequencer.c:2778
 msgid "cancelling a cherry picking in progress"
@@ -23963,16 +24022,16 @@ msgstr "скасування поточного висмикування"
 
 #: sequencer.c:2787
 msgid "cancelling a revert in progress"
-msgstr ""
+msgstr "наразі йде скасування вивертання"
 
 #: sequencer.c:2827
 msgid "please fix this using 'git rebase --edit-todo'."
-msgstr ""
+msgstr "будь ласка, виправте це за допомогою \"git rebase --edit-todo\"."
 
 #: sequencer.c:2829
 #, c-format
 msgid "unusable instruction sheet: '%s'"
-msgstr ""
+msgstr "непридатна інструкція: \"%s\""
 
 #: sequencer.c:2834
 msgid "no commits parsed."
@@ -23980,11 +24039,11 @@ msgstr "не розібрано жодного коміту."
 
 #: sequencer.c:2845
 msgid "cannot cherry-pick during a revert."
-msgstr ""
+msgstr "неможливо зробити висмикування під час вивертання."
 
 #: sequencer.c:2847
 msgid "cannot revert during a cherry-pick."
-msgstr ""
+msgstr "неможливо зробити вивертання під час висмикування."
 
 #: sequencer.c:2942
 #, c-format
@@ -23993,7 +24052,7 @@ msgstr "не вдалося розділити \"%s\": %s"
 
 #: sequencer.c:3040
 msgid "unusable squash-onto"
-msgstr ""
+msgstr "непридатний squash-onto"
 
 #: sequencer.c:3060
 #, c-format
@@ -24002,7 +24061,7 @@ msgstr "невірно сформований список опцій: \"%s\""
 
 #: sequencer.c:3158 sequencer.c:5219
 msgid "empty commit set passed"
-msgstr ""
+msgstr "передано порожній набір комітів"
 
 #: sequencer.c:3175
 msgid "revert is already in progress"
@@ -24046,16 +24105,18 @@ msgstr "неможливо прочитати \"%s\": %s"
 
 #: sequencer.c:3287
 msgid "unexpected end of file"
-msgstr ""
+msgstr "несподіваний кінець файлу"
 
 #: sequencer.c:3293
 #, c-format
 msgid "stored pre-cherry-pick HEAD file '%s' is corrupt"
-msgstr ""
+msgstr "збережений pre-cherry-pick HEAD файл \"%s\" пошкоджено"
 
 #: sequencer.c:3304
 msgid "You seem to have moved HEAD. Not rewinding, check your HEAD!"
 msgstr ""
+"Здається, ви пересунули HEAD. Перемотування не виконується, перевірте свій "
+"HEAD!"
 
 #: sequencer.c:3345
 msgid "no revert in progress"
@@ -24071,7 +24132,7 @@ msgstr "не вдалося пропустити коміт"
 
 #: sequencer.c:3371
 msgid "there is nothing to skip"
-msgstr ""
+msgstr "немає чого пропускати"
 
 #: sequencer.c:3374
 #, c-format
@@ -24079,6 +24140,8 @@ msgid ""
 "have you committed already?\n"
 "try \"git %s --continue\""
 msgstr ""
+"ви вже зробили коміт?\n"
+"спробуйте \"git %s --continue\""
 
 #: sequencer.c:3540 sequencer.c:4826
 msgid "cannot read HEAD"
@@ -24100,11 +24163,18 @@ msgid ""
 "\n"
 "  git rebase --continue\n"
 msgstr ""
+"Ви можете внести зміни до коміту зараз за допомогою\n"
+"\n"
+"  git commit --amend %s\n"
+"\n"
+"Після того, як ви будете задоволені своїми змінами, виконайте\n"
+"\n"
+"  git rebase --continue\n"
 
 #: sequencer.c:3575
 #, c-format
 msgid "Could not apply %s... %.*s"
-msgstr ""
+msgstr "Не вдалося застосувати %s... %.*s"
 
 #: sequencer.c:3582
 #, c-format
@@ -24114,7 +24184,7 @@ msgstr "Не вдалося злити %.*s"
 #: sequencer.c:3611
 #, c-format
 msgid "Executing: %s\n"
-msgstr ""
+msgstr "Виконання: %s\n"
 
 #: sequencer.c:3624
 #, c-format
@@ -24144,11 +24214,16 @@ msgid ""
 "  git rebase --continue\n"
 "\n"
 msgstr ""
+"виконання пройшло успішно: %s\n"
+"але залишило зміни в індексі та/або робочому дереві\n"
+"Зробіть коміт або додайте зміни до схову, а потім запустіть\n"
+"\n"
+"  git rebase --continue\n"
 
 #: sequencer.c:3695
 #, c-format
 msgid "illegal label name: '%.*s'"
-msgstr ""
+msgstr "неправомірна назва мітки: \"%.*s\""
 
 #: sequencer.c:3775
 #, c-format
@@ -24161,11 +24236,11 @@ msgstr "написання підробленого кореневого ком�
 
 #: sequencer.c:3806
 msgid "writing squash-onto"
-msgstr ""
+msgstr "запис squash-onto"
 
 #: sequencer.c:3899
 msgid "cannot merge without a current revision"
-msgstr ""
+msgstr "неможливо злити без поточної ревізії"
 
 #: sequencer.c:3921
 #, c-format
@@ -24175,11 +24250,11 @@ msgstr "не вдалося розібрати \"%.*s\""
 #: sequencer.c:3930
 #, c-format
 msgid "nothing to merge: '%.*s'"
-msgstr ""
+msgstr "нічого зливати: \"%.*s\""
 
 #: sequencer.c:3942
 msgid "octopus merge cannot be executed on top of a [new root]"
-msgstr ""
+msgstr "octopus злиття неможливо виконати поверх [new root]"
 
 #: sequencer.c:3998
 #, c-format
@@ -24199,7 +24274,7 @@ msgstr "злиття: Не вдалося записати новий файл �
 #, c-format
 msgid ""
 "another 'rebase' process appears to be running; '%s.lock' already exists"
-msgstr ""
+msgstr "здається, запущено інший процес \"rebase\"; \"%s.lock\" вже існує"
 
 #: sequencer.c:4392
 #, c-format
@@ -24207,6 +24282,8 @@ msgid ""
 "Updated the following refs with %s:\n"
 "%s"
 msgstr ""
+"Оновлені наступні посилання з %s:\n"
+"%s"
 
 #: sequencer.c:4398
 #, c-format
@@ -24214,15 +24291,17 @@ msgid ""
 "Failed to update the following refs with %s:\n"
 "%s"
 msgstr ""
+"Не вдалося оновити наступні посилання з %s:\n"
+"%s"
 
 #: sequencer.c:4459
 msgid "Cannot autostash"
-msgstr ""
+msgstr "Неможливо зробити автосхов"
 
 #: sequencer.c:4462
 #, c-format
 msgid "Unexpected stash response: '%s'"
-msgstr ""
+msgstr "Неочікувана відповідь схову: \"%s\""
 
 #: sequencer.c:4468
 #, c-format
@@ -24232,7 +24311,7 @@ msgstr "Не вдалося створити директорію для \"%s\""
 #: sequencer.c:4471
 #, c-format
 msgid "Created autostash: %s\n"
-msgstr ""
+msgstr "Створено автосхов: %s\n"
 
 #: sequencer.c:4473
 msgid "could not reset --hard"
@@ -24241,7 +24320,7 @@ msgstr "не вдалося виконати скидання з --hard"
 #: sequencer.c:4497
 #, c-format
 msgid "Applied autostash.\n"
-msgstr ""
+msgstr "Застосовано автосхов.\n"
 
 #: sequencer.c:4509
 #, c-format
@@ -24255,14 +24334,18 @@ msgid ""
 "Your changes are safe in the stash.\n"
 "You can run \"git stash pop\" or \"git stash drop\" at any time.\n"
 msgstr ""
+"%s\n"
+"Ваші зміни в безпеці у схову.\n"
+"Ви можете запустити \"git stash pop\" або \"git stash drop\" у будь-який "
+"час.\n"
 
 #: sequencer.c:4517
 msgid "Applying autostash resulted in conflicts."
-msgstr ""
+msgstr "Застосування автосхову призвело до конфліктів."
 
 #: sequencer.c:4518
 msgid "Autostash exists; creating a new stash entry."
-msgstr ""
+msgstr "Автосхов існує; створення нового запису схову."
 
 #: sequencer.c:4574
 msgid "could not detach HEAD"
@@ -24271,12 +24354,12 @@ msgstr "не вдалося відʼєднати HEAD"
 #: sequencer.c:4589
 #, c-format
 msgid "Stopped at HEAD\n"
-msgstr ""
+msgstr "Зупинено на HEAD\n"
 
 #: sequencer.c:4591
 #, c-format
 msgid "Stopped at %s\n"
-msgstr ""
+msgstr "Зупинено на %s\n"
 
 #: sequencer.c:4623
 #, c-format
@@ -24290,16 +24373,25 @@ msgid ""
 "    git rebase --edit-todo\n"
 "    git rebase --continue\n"
 msgstr ""
+"Не вдалося виконати команду todo\n"
+"\n"
+"    %.*s\n"
+"Її було перенесено; Щоб відредагувати команду перед продовженням, будь "
+"ласка\n"
+"спочатку відредагуйте список справ:\n"
+"\n"
+"    git rebase --edit-todo\n"
+"    git rebase --continue\n"
 
 #: sequencer.c:4666
 #, c-format
 msgid "Rebasing (%d/%d)%s"
-msgstr ""
+msgstr "Перебазування (%d/%d)%s"
 
 #: sequencer.c:4710
 #, c-format
 msgid "Stopped at %s...  %.*s\n"
-msgstr ""
+msgstr "Зупинено на %s... %.*s\n"
 
 #: sequencer.c:4786
 #, c-format
@@ -24322,7 +24414,7 @@ msgstr "не вдалося оновити HEAD до %s"
 #: sequencer.c:4904
 #, c-format
 msgid "Successfully rebased and updated %s.\n"
-msgstr ""
+msgstr "Успішно перебазовано та оновлено %s.\n"
 
 #: sequencer.c:4957
 msgid "cannot rebase: You have unstaged changes."
@@ -24348,6 +24440,10 @@ msgid ""
 "You have uncommitted changes in your working tree. Please, commit them\n"
 "first and then run 'git rebase --continue' again."
 msgstr ""
+"\n"
+"У вас є незакомічені зміни у вашому робочому дереві. Будь ласка, спочатку "
+"зробіть коміт,\n"
+"а потім знову виконайте \"git rebase --continue\"."
 
 #: sequencer.c:5009 sequencer.c:5048
 #, c-format
@@ -24365,7 +24461,7 @@ msgstr "не вдалося записати індексовані зміни."
 #: sequencer.c:5196
 #, c-format
 msgid "%s: can't cherry-pick a %s"
-msgstr ""
+msgstr "%s: неможливо зробити висмикування %s"
 
 #: sequencer.c:5200
 #, c-format
@@ -24374,24 +24470,24 @@ msgstr "%s: невірна ревізія"
 
 #: sequencer.c:5235
 msgid "can't revert as initial commit"
-msgstr ""
+msgstr "неможливо зробити вивертання як початковий коміт"
 
 #: sequencer.c:5508 sequencer.c:5744
 #, c-format
 msgid "skipped previously applied commit %s"
-msgstr ""
+msgstr "пропущено попередньо застосований коміт %s"
 
 #: sequencer.c:5578 sequencer.c:5760
 msgid "use --reapply-cherry-picks to include skipped commits"
-msgstr ""
+msgstr "використовуйте --reapply-cherry-picks, щоб включити пропущені коміти"
 
 #: sequencer.c:5725
 msgid "make_script: unhandled options"
-msgstr ""
+msgstr "make_script: необроблені опції"
 
 #: sequencer.c:5730
 msgid "make_script: error preparing revisions"
-msgstr ""
+msgstr "make_script: помилка при підготовці ревізій"
 
 #: sequencer.c:6123 sequencer.c:6140
 msgid "nothing to do"
@@ -24399,16 +24495,16 @@ msgstr "нічого робити"
 
 #: sequencer.c:6159
 msgid "could not skip unnecessary pick commands"
-msgstr ""
+msgstr "не вдалося пропустити непотрібні команди вибору"
 
 #: sequencer.c:6259
 msgid "the script was already rearranged."
-msgstr ""
+msgstr "скрипт вже був перероблений."
 
 #: sequencer.c:6415 sequencer.c:6423
 #, c-format
 msgid "update-refs file at '%s' is invalid"
-msgstr ""
+msgstr "файл update-refs за адресою \"%s\" є неприпустимим"
 
 #: setup.c:143
 #, c-format
@@ -24421,6 +24517,9 @@ msgid ""
 "%s: no such path in the working tree.\n"
 "Use 'git <command> -- <path>...' to specify paths that do not exist locally."
 msgstr ""
+"%s: немає такого шляху у робочому дереві.\n"
+"Використовуйте \"git <команда> -- <шлях>...\", щоб вказати шляхи, які не "
+"існують локально."
 
 #: setup.c:208
 #, c-format
@@ -24429,6 +24528,10 @@ msgid ""
 "Use '--' to separate paths from revisions, like this:\n"
 "'git <command> [<revision>...] -- [<file>...]'"
 msgstr ""
+"неоднозначний аргумент \"%s\": невідома ревізія або шлях не у робочому "
+"дереві.\n"
+"Використовуйте \"--\", щоб відокремити шлях від ревізій, наприклад, так:\n"
+"\"git <команда> [<ревізія>...] -- [<файл>...]\""
 
 #: setup.c:274
 #, c-format
@@ -24567,7 +24670,7 @@ msgstr ""
 #, c-format
 msgid "cannot use bare repository '%s' (safe.bareRepository is '%s')"
 msgstr ""
-"неможливо використовувати порожнє сховище \"%s\" (safe.bareRepository "
+"неможливо використати порожнє сховище \"%s\" (safe.bareRepository "
 "встановлено в \"%s\")"
 
 #: setup.c:1631
