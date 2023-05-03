@@ -1977,7 +1977,7 @@ msgstr[2] "Бісекція: залишилося протестувати %d р
 
 #: blame.c:2762
 msgid "--contents and --reverse do not blend well."
-msgstr "--contents і--reverse поєднуються не дуже добре."
+msgstr "--contents і --reverse поєднуються не дуже добре."
 
 #: blame.c:2812
 msgid "--reverse and --first-parent together require specified latest commit"
@@ -2025,7 +2025,7 @@ msgstr "гілку \"%s\" не встановлено власним першо�
 #: branch.c:164
 #, c-format
 msgid "branch '%s' set up to track '%s' by rebasing."
-msgstr "гілку '%s' налаштовано на відстежування '%s' через перебазування."
+msgstr "гілку \"%s\" налаштовано на відстежування \"%s\" через перебазування."
 
 #: branch.c:165
 #, c-format
@@ -2035,7 +2035,7 @@ msgstr "гілку \"%s\" налаштовано на відстежуваня \
 #: branch.c:168
 #, c-format
 msgid "branch '%s' set up to track:"
-msgstr "гілку '%s' налаштовано на відстежування:"
+msgstr "гілку \"%s\" налаштовано на відстежування:"
 
 #: branch.c:180
 msgid "unable to write upstream branch configuration"
@@ -4523,7 +4523,7 @@ msgstr ""
 #: builtin/checkout.c:1259
 #, c-format
 msgid "'%s' matched multiple (%d) remote tracking branches"
-msgstr "'%s' відповідає декільком (%d) гілкам віддаленого відстежування"
+msgstr "\"%s\" відповідає декільком (%d) гілкам віддаленого відстежування"
 
 #: builtin/checkout.c:1325
 msgid "only one reference expected"
