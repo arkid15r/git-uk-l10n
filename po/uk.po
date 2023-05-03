@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-04-30 17:28-0700\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-05-02 17:25-0700\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -1940,7 +1940,7 @@ msgstr "не вдалося прочитати файл \"%s\""
 
 #: bisect.c:1038
 msgid "reading bisect refs failed"
-msgstr ""
+msgstr "не вдалося прочитати бісекційні посилання"
 
 #: bisect.c:1068
 #, c-format
@@ -1953,14 +1953,16 @@ msgid ""
 "No testable commit found.\n"
 "Maybe you started with bad path arguments?\n"
 msgstr ""
+"Не знайдено коміт для тестування.\n"
+"Можливо, ви почали з неправильних аргументів шляху?\n"
 
 #: bisect.c:1109
 #, c-format
 msgid "(roughly %d step)"
 msgid_plural "(roughly %d steps)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "(приблизно %d крок)"
+msgstr[1] "(приблизно %d кроки)"
+msgstr[2] "(приблизно %d кроків)"
 
 #. TRANSLATORS: the last %s will be replaced with "(roughly %d
 #. steps)" translation.
@@ -1969,17 +1971,17 @@ msgstr[2] ""
 #, c-format
 msgid "Bisecting: %d revision left to test after this %s\n"
 msgid_plural "Bisecting: %d revisions left to test after this %s\n"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Бісекція: залишилося протестувати %d ревізію після цього %s\n"
+msgstr[1] "Бісекція: залишилося протестувати %d ревізії після цього %s\n"
+msgstr[2] "Бісекція: залишилося протестувати %d ревізій після цього %s\n"
 
 #: blame.c:2762
 msgid "--contents and --reverse do not blend well."
-msgstr ""
+msgstr "--contents і --reverse поєднуються не дуже добре."
 
 #: blame.c:2812
 msgid "--reverse and --first-parent together require specified latest commit"
-msgstr ""
+msgstr "--reverse і --first-parent разом вимагають вказівки останнього коміту"
 
 #: blame.c:2821 builtin/commit.c:1136 builtin/log.c:504 builtin/log.c:1172
 #: builtin/log.c:1787 builtin/log.c:2226 builtin/log.c:2523 builtin/merge.c:437
@@ -1994,6 +1996,8 @@ msgstr "не вдалося налаштувати проходження по �
 msgid ""
 "--reverse --first-parent together require range along first-parent chain"
 msgstr ""
+"--reverse --first-parent разом вимагають вказівки діапазона вздовж ланцюжка "
+"першого батька"
 
 #: blame.c:2850
 #, c-format
@@ -2010,6 +2014,8 @@ msgid ""
 "cannot inherit upstream tracking configuration of multiple refs when "
 "rebasing is requested"
 msgstr ""
+"неможливо успадковувати першоджерельну конфігурацію відстежування декількох "
+"посилань при запиті перебазування"
 
 #: branch.c:108
 #, c-format
@@ -2019,17 +2025,17 @@ msgstr "гілку \"%s\" не встановлено власним першо�
 #: branch.c:164
 #, c-format
 msgid "branch '%s' set up to track '%s' by rebasing."
-msgstr ""
+msgstr "гілку \"%s\" налаштовано на відстежування \"%s\" через перебазування."
 
 #: branch.c:165
 #, c-format
 msgid "branch '%s' set up to track '%s'."
-msgstr "гілку \"%s\" налаштовано на відстеження \"%s\"."
+msgstr "гілку \"%s\" налаштовано на відстежуваня \"%s\"."
 
 #: branch.c:168
 #, c-format
 msgid "branch '%s' set up to track:"
-msgstr ""
+msgstr "гілку \"%s\" налаштовано на відстежування:"
 
 #: branch.c:180
 msgid "unable to write upstream branch configuration"
@@ -4517,7 +4523,7 @@ msgstr ""
 #: builtin/checkout.c:1259
 #, c-format
 msgid "'%s' matched multiple (%d) remote tracking branches"
-msgstr "'%s' відповідає декільком (%d) гілкам віддаленого відстеження"
+msgstr "\"%s\" відповідає декільком (%d) гілкам віддаленого відстежування"
 
 #: builtin/checkout.c:1325
 msgid "only one reference expected"
@@ -5032,7 +5038,7 @@ msgstr "імʼя"
 #: builtin/clone.c:136
 msgid "use <name> instead of 'origin' to track upstream"
 msgstr ""
-"використовуйте <імʼя> замість \"origin\" для відстеження першоджерельного "
+"використовуйте <імʼя> замість \"origin\" для відстежування першоджерельного "
 "сховища"
 
 #: builtin/clone.c:138
@@ -12290,7 +12296,7 @@ msgid ""
 "    git branch --set-upstream-to=%s/<branch> %s\n"
 "\n"
 msgstr ""
-"Якщо ви бажаєте налаштувати відстеження для цієї гілки, ви можете зробити це "
+"Якщо ви бажаєте налаштувати відстежування для цієї гілки, ви можете зробити це "
 "за допомогою:\n"
 "\n"
 "    git branch --set-upstream-to=%s/<гілка> %s\n"
@@ -15303,7 +15309,7 @@ msgstr "ініціалізувати неініціалізовані підмо
 
 #: builtin/submodule--helper.c:2664
 msgid "use SHA-1 of submodule's remote tracking branch"
-msgstr "використовувати SHA-1 гілки віддаленого відстеження підмодуля"
+msgstr "використовувати SHA-1 гілки віддаленого відстежування підмодуля"
 
 #: builtin/submodule--helper.c:2666
 msgid "traverse submodules recursively"
@@ -15371,7 +15377,7 @@ msgstr ""
 
 #: builtin/submodule--helper.c:2929
 msgid "set the default tracking branch"
-msgstr "встановити типову гілку відстеження"
+msgstr "встановити типову гілку відстежування"
 
 #: builtin/submodule--helper.c:2933
 msgid "git submodule set-branch [-q|--quiet] (-d|--default) <path>"
@@ -23012,7 +23018,7 @@ msgstr ""
 msgid "push destination '%s' on remote '%s' has no local tracking branch"
 msgstr ""
 "шлях призначення надсилання '%s' на віддаленому '%s' не має гілки локального "
-"відстеження"
+"відстежування"
 
 #: remote.c:1918
 #, c-format
@@ -25363,7 +25369,7 @@ msgstr "transport: неприпустимий параметр глибини \"
 #: transport.c:300
 msgid "see protocol.version in 'git help config' for more details"
 msgstr ""
-"Дивіться protocol.version у \"git help config\" для більш детальної "
+"дивіться protocol.version у \"git help config\" для більш детальної "
 "інформації"
 
 #: transport.c:301
