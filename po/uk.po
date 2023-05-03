@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-04-30 17:28-0700\n"
+"PO-Revision-Date: 2023-05-02 17:56-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -23384,7 +23384,7 @@ msgstr "неможливо вивести імʼя робочого дерева
 #: scalar.c:456
 #, c-format
 msgid "directory '%s' exists already"
-msgstr ""
+msgstr "директорія \"%s\" вже існує"
 
 #: scalar.c:483
 #, c-format
@@ -23403,11 +23403,11 @@ msgstr "не вдалося налаштувати \"%s\""
 
 #: scalar.c:508
 msgid "partial clone failed; attempting full clone"
-msgstr ""
+msgstr "часткове клонування не вдалося; спроба повного клонування"
 
 #: scalar.c:512
 msgid "could not configure for full clone"
-msgstr ""
+msgstr "не вдалося налаштувати для повного клона"
 
 #: scalar.c:549
 msgid "scalar diagnose [<enlistment>]"
@@ -23415,7 +23415,7 @@ msgstr ""
 
 #: scalar.c:571
 msgid "`scalar list` does not take arguments"
-msgstr ""
+msgstr "\"scalar list\" не приймає аргументів"
 
 #: scalar.c:584
 msgid "scalar register [<enlistment>]"
@@ -23431,7 +23431,7 @@ msgstr ""
 
 #: scalar.c:651
 msgid "--all or <enlistment>, but not both"
-msgstr ""
+msgstr "--all або <enlistment>, але не обидва"
 
 #: scalar.c:673
 #, c-format
@@ -23441,7 +23441,7 @@ msgstr "неможливо видалити застаріле scalar.repo \"%s\
 #: scalar.c:676
 #, c-format
 msgid "removing stale scalar.repo '%s'"
-msgstr ""
+msgstr "видалення застарілого scalar.repo \"%s\""
 
 #: scalar.c:680
 #, c-format
@@ -23465,19 +23465,19 @@ msgstr ""
 
 #: scalar.c:817
 msgid "scalar delete <enlistment>"
-msgstr ""
+msgstr "скалярне видалення <enlistment>"
 
 #: scalar.c:832
 msgid "refusing to delete current working directory"
-msgstr ""
+msgstr "відмова видалення поточної робочої директорії"
 
 #: scalar.c:866
 msgid "include Git version"
-msgstr ""
+msgstr "включити версію Git"
 
 #: scalar.c:868
 msgid "include Git's build options"
-msgstr ""
+msgstr "включити опції збірки Git"
 
 #: scalar.c:872
 msgid "scalar verbose [-v | --verbose] [--build-options]"
@@ -23485,7 +23485,7 @@ msgstr ""
 
 #: scalar.c:915
 msgid "-C requires a <directory>"
-msgstr "-C вимагає наявності <директорії>"
+msgstr "-C потребує наявності <директорії>"
 
 #: scalar.c:917
 #, c-format
@@ -23494,7 +23494,7 @@ msgstr "не вдалося змінити на \"%s\""
 
 #: scalar.c:923
 msgid "-c requires a <key>=<value> argument"
-msgstr ""
+msgstr "-c потребує аргумент <ключ>=<значення>"
 
 #: scalar.c:941
 msgid ""
@@ -23502,10 +23502,14 @@ msgid ""
 "\n"
 "Commands:\n"
 msgstr ""
+"scalar [-C <директорія>] [-c <ключ>=<значення>] <команда> [<опції>]\n"
+"\n"
+"Команди:\n"
 
 #: send-pack.c:156
 msgid "unexpected flush packet while reading remote unpack status"
 msgstr ""
+"несподіваний flush пакет під час зчитування статусу віддаленого розпакування"
 
 #: send-pack.c:158
 #, c-format
