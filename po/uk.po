@@ -23409,7 +23409,7 @@ msgstr "не вдалося налаштувати \"%s\""
 
 #: scalar.c:508
 msgid "partial clone failed; attempting full clone"
-msgstr "часткове клонування не вдалося; спроба повного клонування"
+msgstr "не вдалося зробити частковий клон; спроба зробити повний клон"
 
 #: scalar.c:512
 msgid "could not configure for full clone"
@@ -23437,7 +23437,7 @@ msgstr ""
 
 #: scalar.c:651
 msgid "--all or <enlistment>, but not both"
-msgstr "--all або <enlistment>, але не обидва"
+msgstr "--all або <коренева-директорія-проекту>, але не обидва"
 
 #: scalar.c:673
 #, c-format
@@ -23471,7 +23471,7 @@ msgstr ""
 
 #: scalar.c:817
 msgid "scalar delete <enlistment>"
-msgstr "скалярне видалення <enlistment>"
+msgstr "scalar delete <коренева-директорія-проекту>"
 
 #: scalar.c:832
 msgid "refusing to delete current working directory"
@@ -23500,7 +23500,7 @@ msgstr "не вдалося змінити на \"%s\""
 
 #: scalar.c:923
 msgid "-c requires a <key>=<value> argument"
-msgstr "-c потребує аргумент <ключ>=<значення>"
+msgstr "-c потребує <ключ>=<значення> аргумент"
 
 #: scalar.c:941
 msgid ""
