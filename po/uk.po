@@ -23283,7 +23283,7 @@ msgstr "для фільтрації обʼєктів потрібен парам
 
 #: revision.c:3031
 msgid "-L does not yet support diff formats besides -p and -s"
-msgstr "-L поки що не підтримує diff формати , окрім -p та -s"
+msgstr "-L поки що не підтримує diff формати, окрім -p та -s"
 
 #: run-command.c:1232
 #, c-format
