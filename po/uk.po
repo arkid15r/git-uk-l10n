@@ -23319,7 +23319,7 @@ msgstr "не вдалося налаштувати log.excludeDecoration"
 
 #: scalar.c:261
 msgid "could not add enlistment"
-msgstr "не вдалося додати кореневу директорію проекта"
+msgstr "не вдалося додати кореневу директорію проекту"
 
 #: scalar.c:264
 msgid "could not set recommended config"
