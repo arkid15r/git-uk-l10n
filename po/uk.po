@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-05-02 17:56-0700\n"
+"PO-Revision-Date: 2023-05-03 19:36-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -12296,8 +12296,8 @@ msgid ""
 "    git branch --set-upstream-to=%s/<branch> %s\n"
 "\n"
 msgstr ""
-"Якщо ви бажаєте налаштувати відстежування для цієї гілки, ви можете зробити це "
-"за допомогою:\n"
+"Якщо ви бажаєте налаштувати відстежування для цієї гілки, ви можете зробити "
+"це за допомогою:\n"
 "\n"
 "    git branch --set-upstream-to=%s/<гілка> %s\n"
 "\n"
@@ -23266,7 +23266,7 @@ msgstr ""
 
 #: revision.c:2454
 msgid "--unpacked=<packfile> no longer supported"
-msgstr ""
+msgstr "--unpacked=<файл пакунка> більше не підтримується"
 
 #: revision.c:2823
 msgid "your current branch appears to be broken"
@@ -23275,15 +23275,15 @@ msgstr "ваша поточна гілка виглядає зламаною"
 #: revision.c:2826
 #, c-format
 msgid "your current branch '%s' does not have any commits yet"
-msgstr ""
+msgstr "ваша поточна гілка \"%s\" ще не має жодних комітів"
 
 #: revision.c:3014
 msgid "object filtering requires --objects"
-msgstr ""
+msgstr "для фільтрації обʼєктів потрібен параметр --objects"
 
 #: revision.c:3031
 msgid "-L does not yet support diff formats besides -p and -s"
-msgstr ""
+msgstr "-L поки що не підтримує diff формати, окрім -p та -s"
 
 #: run-command.c:1232
 #, c-format
@@ -23302,7 +23302,7 @@ msgstr "не вдалося переключитися на \"%s\""
 
 #: scalar.c:43
 msgid "need a working directory"
-msgstr ""
+msgstr "потрібна робоча директорія"
 
 #: scalar.c:60 scalar.c:221
 msgid "Scalar enlistments require a worktree"
@@ -23315,27 +23315,27 @@ msgstr "не вдалося налаштувати %s=%s"
 
 #: scalar.c:197
 msgid "could not configure log.excludeDecoration"
-msgstr ""
+msgstr "не вдалося налаштувати log.excludeDecoration"
 
 #: scalar.c:261
 msgid "could not add enlistment"
-msgstr ""
+msgstr "не вдалося додати кореневу директорію проекту"
 
 #: scalar.c:264
 msgid "could not set recommended config"
-msgstr ""
+msgstr "не вдалося встановити рекомендовану конфігурацію"
 
 #: scalar.c:267
 msgid "could not turn on maintenance"
-msgstr ""
+msgstr "не вдалося ввімкнути технічне обслуговування"
 
 #: scalar.c:270
 msgid "could not start the FSMonitor daemon"
-msgstr ""
+msgstr "не вдалося запустити FSMonitor демон"
 
 #: scalar.c:281
 msgid "could not turn off maintenance"
-msgstr ""
+msgstr "не вдалося вимкнути технічне обслуговування"
 
 #: scalar.c:284
 msgid "could not remove enlistment"
@@ -23344,15 +23344,17 @@ msgstr "не вдалося видалити директорію верхньо
 #: scalar.c:338
 #, c-format
 msgid "remote HEAD is not a branch: '%.*s'"
-msgstr ""
+msgstr "віддалений HEAD не є гілкою: \"%.*s\""
 
 #: scalar.c:344
 msgid "failed to get default branch name from remote; using local default"
 msgstr ""
+"не вдалося отримати типову назву гілки з віддаленого сховища; використано "
+"локальне типовe значення"
 
 #: scalar.c:357
 msgid "failed to get default branch name"
-msgstr ""
+msgstr "не вдалося отримати типову назву гілки"
 
 #: scalar.c:370
 msgid "failed to unregister repository"
@@ -23360,7 +23362,7 @@ msgstr "не вдалося скасувати реєстрацію сховищ
 
 #: scalar.c:390
 msgid "failed to stop the FSMonitor daemon"
-msgstr ""
+msgstr "не вдалося зупинити FSMonitor демон"
 
 #: scalar.c:393
 msgid "failed to delete enlistment directory"
@@ -23368,15 +23370,16 @@ msgstr "не вдалося видалити директорію верхньо
 
 #: scalar.c:413
 msgid "branch to checkout after clone"
-msgstr ""
+msgstr "гілка, на яку перейти після клонування"
 
 #: scalar.c:415
 msgid "when cloning, create full working directory"
-msgstr ""
+msgstr "при клонуванні створювати повну робочу директорію"
 
 #: scalar.c:417
 msgid "only download metadata for the branch that will be checked out"
 msgstr ""
+"завантажити метадані тільки для гілки, на яку буде здійснюватися перехід"
 
 #: scalar.c:422
 msgid "scalar clone [<options>] [--] <repo> [<dir>]"
@@ -23417,7 +23420,7 @@ msgstr "не вдалося налаштувати для повного кло�
 
 #: scalar.c:549
 msgid "scalar diagnose [<enlistment>]"
-msgstr ""
+msgstr "scalar diagnose [<коренева-директорія-проекту>]"
 
 #: scalar.c:571
 msgid "`scalar list` does not take arguments"
@@ -23425,15 +23428,15 @@ msgstr "\"scalar list\" не приймає аргументів"
 
 #: scalar.c:584
 msgid "scalar register [<enlistment>]"
-msgstr ""
+msgstr "scalar register [<коренева-директорія-проекту>]"
 
 #: scalar.c:629
 msgid "reconfigure all registered enlistments"
-msgstr ""
+msgstr "переналаштувати всі зареєстровані кореневі директорії проекту"
 
 #: scalar.c:633
 msgid "scalar reconfigure [--all | <enlistment>]"
-msgstr ""
+msgstr "scalar reconfigure [--all | <коренева-директорія-проекту>]"
 
 #: scalar.c:651
 msgid "--all or <enlistment>, but not both"
@@ -23459,6 +23462,8 @@ msgid ""
 "scalar run <task> [<enlistment>]\n"
 "Tasks:\n"
 msgstr ""
+"scalar run <завдання> [<коренева-директорія-проекту>]\n"
+"Завдання:\n"
 
 #: scalar.c:738
 #, c-format
@@ -23467,7 +23472,7 @@ msgstr "немає такого завдання: \"%s\""
 
 #: scalar.c:770
 msgid "scalar unregister [<enlistment>]"
-msgstr ""
+msgstr "scalar unregister [<коренева-директорія-проекту>]"
 
 #: scalar.c:817
 msgid "scalar delete <enlistment>"
