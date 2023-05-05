@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-05-03 19:56-0700\n"
+"PO-Revision-Date: 2023-05-04 17:49-0700\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -2122,12 +2122,14 @@ msgstr "гілка з ім’ям \"%s\" вже існує"
 #: branch.c:470
 #, c-format
 msgid "cannot force update the branch '%s' checked out at '%s'"
-msgstr ""
+msgstr "неможливо примусово оновити гілку \"%s\", розташовану в \"%s\""
 
 #: branch.c:492
 #, c-format
 msgid "cannot set up tracking information; starting point '%s' is not a branch"
 msgstr ""
+"неможливо налаштувати інформацію про відстежування; початкова точка \"%s\" "
+"не є гілкою"
 
 #: branch.c:494
 #, c-format
@@ -2145,6 +2147,15 @@ msgid ""
 "will track its remote counterpart, you may want to use\n"
 "\"git push -u\" to set the upstream config as you push."
 msgstr ""
+"\n"
+"Якщо ви плануєте базувати свою роботу на основі першоджерельної\n"
+"гілки, яка вже існує на віддаленому призначенні, вам може знадобитися\n"
+"запустити \"git fetch\", щоб отримати її.\n"
+"\n"
+"Якщо ви плануєте надіслати нову локальну гілку, яка\n"
+"буде відстежувати свою віддалену гілку, вам слід скористатися командою\n"
+"\"git push -u\", щоб встановити конфігурацію першоджерельного сховища під "
+"час надсилання."
 
 #: branch.c:544 builtin/replace.c:328 builtin/replace.c:384
 #: builtin/replace.c:430 builtin/replace.c:460
@@ -2165,7 +2176,7 @@ msgstr "не є допустимим ім’ям точки розгалужен
 #: branch.c:760
 #, c-format
 msgid "submodule '%s': unable to find submodule"
-msgstr ""
+msgstr "підмодуль \"%s\": не вдалося знайти підмодуль"
 
 #: branch.c:763
 #, c-format
@@ -2173,6 +2184,8 @@ msgid ""
 "You may try updating the submodules using 'git checkout --no-recurse-"
 "submodules %s && git submodule update --init'"
 msgstr ""
+"Ви можете спробувати оновити підмодулі за допомогою \"git checkout --no-"
+"recurse-submodules %s && git submodule update --init\"."
 
 #: branch.c:774 branch.c:800
 #, c-format
@@ -2182,12 +2195,12 @@ msgstr "підмодуль \"%s\": неможливо створити гілк�
 #: branch.c:834
 #, c-format
 msgid "'%s' is already checked out at '%s'"
-msgstr ""
+msgstr "\"%s\" вже існує в \"%s\""
 
 #: branch.c:861
 #, c-format
 msgid "HEAD of working tree %s is not updated"
-msgstr ""
+msgstr "HEAD робочого дерева %s не оновлено"
 
 #: builtin/add.c:27
 msgid "git add [<options>] [--] <pathspec>..."
@@ -2201,7 +2214,7 @@ msgstr "неможливо виконати chmod %cx \"%s\""
 #: builtin/add.c:106
 #, c-format
 msgid "unexpected diff status %c"
-msgstr ""
+msgstr "неочікуваний статус diff %c"
 
 #: builtin/add.c:111 builtin/commit.c:308
 msgid "updating files failed"
@@ -2221,6 +2234,8 @@ msgid ""
 "the add.interactive.useBuiltin setting has been removed!\n"
 "See its entry in 'git help config' for details."
 msgstr ""
+"параметр add.interactive.useBuiltin було видалено!\n"
+"Дивіться запис у \"git help config\" для більш детальної інформації."
 
 #: builtin/add.c:274 builtin/rev-parse.c:1022
 msgid "Could not read the index"
