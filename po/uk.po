@@ -2235,7 +2235,7 @@ msgid ""
 "See its entry in 'git help config' for details."
 msgstr ""
 "параметр add.interactive.useBuiltin було видалено!\n"
-"Дивіться запис у \"git help config\" для більш детальної інформації\"."
+"Дивіться запис у \"git help config\" для більш детальної інформації."
 
 #: builtin/add.c:274 builtin/rev-parse.c:1022
 msgid "Could not read the index"
