@@ -2234,7 +2234,7 @@ msgid ""
 "the add.interactive.useBuiltin setting has been removed!\n"
 "See its entry in 'git help config' for details."
 msgstr ""
-"параметр add.interactive.useBuiltin! Було вилучено!\n"
+"параметр add.interactive.useBuiltin було видалено!\n"
 "Дивіться запис у \"git help config\" для більш детальної інформації\"."
 
 #: builtin/add.c:274 builtin/rev-parse.c:1022
