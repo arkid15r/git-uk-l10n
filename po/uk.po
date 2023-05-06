@@ -2256,7 +2256,7 @@ msgstr "Не вдалося виконати stat \"%s\""
 
 #: builtin/add.c:295
 msgid "Empty patch. Aborted."
-msgstr ""
+msgstr "Порожня латка. Перервано."
 
 #: builtin/add.c:301
 #, c-format
@@ -2265,7 +2265,7 @@ msgstr "Не вдалося застосувати \"%s\""
 
 #: builtin/add.c:310
 msgid "The following paths are ignored by one of your .gitignore files:\n"
-msgstr ""
+msgstr "Наступні шляхи ігноруються одним з ваших .gitignore файлів:\n"
 
 #: builtin/add.c:330 builtin/clean.c:930 builtin/fetch.c:190 builtin/mv.c:170
 #: builtin/prune-packed.c:15 builtin/pull.c:211 builtin/push.c:599
@@ -2277,11 +2277,11 @@ msgstr "пробний запуск"
 #: builtin/count-objects.c:102 builtin/fsck.c:868 builtin/log.c:2474
 #: builtin/mv.c:169 builtin/read-tree.c:126
 msgid "be verbose"
-msgstr ""
+msgstr "розгорнутий вивід"
 
 #: builtin/add.c:333
 msgid "interactive picking"
-msgstr ""
+msgstr "інтерактивний вибір"
 
 #: builtin/add.c:334 builtin/checkout.c:1638 builtin/reset.c:345
 msgid "select hunks interactively"
@@ -2289,11 +2289,11 @@ msgstr "обирати шматки інтерактивно"
 
 #: builtin/add.c:335
 msgid "edit current diff and apply"
-msgstr ""
+msgstr "відредагувати поточну різницю і застосувати"
 
 #: builtin/add.c:336
 msgid "allow adding otherwise ignored files"
-msgstr ""
+msgstr "дозволити додавання ігнорованих файлів"
 
 #: builtin/add.c:337
 msgid "update tracked files"
@@ -2301,7 +2301,7 @@ msgstr "оновити відстежувані файли"
 
 #: builtin/add.c:338
 msgid "renormalize EOL of tracked files (implies -u)"
-msgstr ""
+msgstr "перенормувати EOL відстежуваних файлів (мається на увазі -u)"
 
 #: builtin/add.c:339
 msgid "record only the fact that the path will be added later"
@@ -2309,7 +2309,7 @@ msgstr "записати лише той факт, що шлях будe дод�
 
 #: builtin/add.c:340
 msgid "add changes from all tracked and untracked files"
-msgstr ""
+msgstr "додати зміни з усіх відстежуваних і невідстежуваних файлів"
 
 #: builtin/add.c:343
 msgid "ignore paths removed in the working tree (same as --no-all)"
@@ -2317,23 +2317,25 @@ msgstr "ігнорувати шляхи, видалені у робочому д
 
 #: builtin/add.c:345
 msgid "don't add, only refresh the index"
-msgstr ""
+msgstr "не додавати, лише оновити індекс"
 
 #: builtin/add.c:346
 msgid "just skip files which cannot be added because of errors"
-msgstr ""
+msgstr "просто пропустити файли, які не можуть бути додані через помилки"
 
 #: builtin/add.c:347
 msgid "check if - even missing - files are ignored in dry run"
 msgstr ""
+"перевірити, чи ігноруються файли, навіть якщо вони відсутні, під час "
+"пробного запуску"
 
 #: builtin/add.c:348 builtin/mv.c:174 builtin/rm.c:255
 msgid "allow updating entries outside of the sparse-checkout cone"
-msgstr ""
+msgstr "дозволити оновлення записів за межами конуса часткового переходу"
 
 #: builtin/add.c:350 builtin/update-index.c:1038
 msgid "override the executable bit of the listed files"
-msgstr ""
+msgstr "перевизначити біт виконання для зазначених файлів"
 
 #: builtin/add.c:352
 msgid "warn when adding an embedded repository"
