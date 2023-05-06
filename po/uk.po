@@ -22760,7 +22760,7 @@ msgstr "Невдала аутентифікація для \"%s\""
 #, c-format
 msgid "unable to access '%s' with http.pinnedPubkey configuration: %s"
 msgstr ""
-"не вдається отримати доступ до \"%s\" з конфігурацією http.pinnedPubkey: %s"
+"не вдалося отримати доступ до \"%s\" з конфігурацією http.pinnedPubkey: %s"
 
 #: remote-curl.c:519
 #, c-format
@@ -22825,7 +22825,7 @@ msgstr "%d байт тіла все ще очікуються"
 
 #: remote-curl.c:1150
 msgid "dumb http transport does not support shallow capabilities"
-msgstr "тупе http пересування не підтримує неглибокі можливості"
+msgstr "тупе http пересування не підтримує неглибокі здібності"
 
 #: remote-curl.c:1165
 msgid "fetch failed."
