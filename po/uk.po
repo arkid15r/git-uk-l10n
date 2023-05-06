@@ -22739,7 +22739,7 @@ msgstr "%sinfo/refs не дійсні: це git сховище?"
 #: remote-curl.c:415
 msgid "invalid server response; expected service, got flush packet"
 msgstr ""
-"неприпустима відповідь сервера; очікувалась послуга, отримано flush пакет"
+"неприпустима відповідь сервера; очікувався service, отримано flush пакет"
 
 #: remote-curl.c:446
 #, c-format
@@ -22783,7 +22783,7 @@ msgstr "віддалений сервер надіслав неочікуван�
 #: remote-curl.c:742
 msgid "unable to rewind rpc post data - try increasing http.postBuffer"
 msgstr ""
-"не вдається перемотати rpc post дані - спробуйте збільшити http.postBuffer"
+"не вдалося перемотати rpc post дані - спробуйте збільшити http.postBuffer"
 
 #: remote-curl.c:767
 #, c-format
@@ -22797,7 +22797,7 @@ msgstr "remote-curl: неочікуваний response end пакет"
 #: remote-curl.c:845
 #, c-format
 msgid "RPC failed; %s"
-msgstr "RPC не вдалося; %s"
+msgstr "RPC завершився невдало; %s"
 
 #: remote-curl.c:885
 msgid "cannot handle pushes this big"
@@ -22811,21 +22811,21 @@ msgstr "неможливо запакувати запит; zlib помилка 
 #: remote-curl.c:1006
 #, c-format
 msgid "cannot deflate request; zlib end error %d"
-msgstr "неможливо запакувати запит; zlib кінцева помилка %d"
+msgstr "неможливо запакувати запит; zlib помилка завершення %d"
 
 #: remote-curl.c:1056
 #, c-format
 msgid "%d bytes of length header were received"
-msgstr "%d байт заголовку було отримано"
+msgstr "%d байтів заголовку було отримано"
 
 #: remote-curl.c:1058
 #, c-format
 msgid "%d bytes of body are still expected"
-msgstr "%d байт тіла все ще очікуються"
+msgstr "%d байтів тіла все ще очікуються"
 
 #: remote-curl.c:1150
 msgid "dumb http transport does not support shallow capabilities"
-msgstr "тупе http пересування не підтримує неглибокі здібності"
+msgstr "засіб передачі dumb http не підтримує shallow здібності"
 
 #: remote-curl.c:1165
 msgid "fetch failed."
@@ -22843,7 +22843,7 @@ msgstr "помилка протоколу: очікувалося sha/ref, от�
 #: remote-curl.c:1275 remote-curl.c:1416
 #, c-format
 msgid "http transport does not support %s"
-msgstr "http пересування не підтримує %s"
+msgstr "http засіб передачі не підтримує %s"
 
 #: remote-curl.c:1303
 msgid "protocol error: expected '<url> <path>', missing space"
