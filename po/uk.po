@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-05-04 18:36-0700\n"
+"PO-Revision-Date: 2023-05-05 18:36-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -22729,7 +22729,7 @@ msgstr "неприпустимий специфікатор посилання \
 #: remote-curl.c:190
 #, c-format
 msgid "invalid quoting in push-option value: '%s'"
-msgstr ""
+msgstr "неприпустимі лапки у значенні push-опції: \"%s\""
 
 #: remote-curl.c:314
 #, c-format
@@ -22739,6 +22739,7 @@ msgstr "%sinfo/refs не дійсні: це git сховище?"
 #: remote-curl.c:415
 msgid "invalid server response; expected service, got flush packet"
 msgstr ""
+"неприпустима відповідь сервера; очікувалась послуга, отримано flush пакет"
 
 #: remote-curl.c:446
 #, c-format
@@ -22759,6 +22760,7 @@ msgstr "Невдала аутентифікація для \"%s\""
 #, c-format
 msgid "unable to access '%s' with http.pinnedPubkey configuration: %s"
 msgstr ""
+"не вдається отримати доступ до \"%s\" з конфігурацією http.pinnedPubkey: %s"
 
 #: remote-curl.c:519
 #, c-format
@@ -22768,69 +22770,70 @@ msgstr "не вдалося отримати доступ до \"%s\": %s"
 #: remote-curl.c:525
 #, c-format
 msgid "redirecting to %s"
-msgstr ""
+msgstr "перенаправлення на %s"
 
 #: remote-curl.c:659
 msgid "shouldn't have EOF when not gentle on EOF"
-msgstr ""
+msgstr "не повинен мати EOF, якщо не є обережним з EOF"
 
 #: remote-curl.c:671
 msgid "remote server sent unexpected response end packet"
-msgstr ""
+msgstr "віддалений сервер надіслав неочікуваний response end пакет"
 
 #: remote-curl.c:742
 msgid "unable to rewind rpc post data - try increasing http.postBuffer"
 msgstr ""
+"не вдається перемотати rpc post дані - спробуйте збільшити http.postBuffer"
 
 #: remote-curl.c:767
 #, c-format
 msgid "remote-curl: bad line length character: %.4s"
-msgstr ""
+msgstr "remote-curl: невірний символ довжини рядка: %.4s"
 
 #: remote-curl.c:769
 msgid "remote-curl: unexpected response end packet"
-msgstr ""
+msgstr "remote-curl: неочікуваний response end пакет"
 
 #: remote-curl.c:845
 #, c-format
 msgid "RPC failed; %s"
-msgstr ""
+msgstr "RPC не вдалося; %s"
 
 #: remote-curl.c:885
 msgid "cannot handle pushes this big"
-msgstr ""
+msgstr "неможливо впоратися з такими великими надсиланнями."
 
 #: remote-curl.c:1002
 #, c-format
 msgid "cannot deflate request; zlib deflate error %d"
-msgstr ""
+msgstr "неможливо запакувати запит; zlib помилка пакування %d"
 
 #: remote-curl.c:1006
 #, c-format
 msgid "cannot deflate request; zlib end error %d"
-msgstr ""
+msgstr "неможливо запакувати запит; zlib кінцева помилка %d"
 
 #: remote-curl.c:1056
 #, c-format
 msgid "%d bytes of length header were received"
-msgstr ""
+msgstr "%d байт заголовку було отримано"
 
 #: remote-curl.c:1058
 #, c-format
 msgid "%d bytes of body are still expected"
-msgstr ""
+msgstr "%d байт тіла все ще очікуються"
 
 #: remote-curl.c:1150
 msgid "dumb http transport does not support shallow capabilities"
-msgstr ""
+msgstr "тупе http пересування не підтримує неглибокі можливості"
 
 #: remote-curl.c:1165
 msgid "fetch failed."
-msgstr ""
+msgstr "отримання завершилось невдало."
 
 #: remote-curl.c:1213
 msgid "cannot fetch by sha1 over smart http"
-msgstr ""
+msgstr "неможливо отримати дані за допомогою sha1 через smart http"
 
 #: remote-curl.c:1257 remote-curl.c:1263
 #, c-format
@@ -22840,11 +22843,11 @@ msgstr "помилка протоколу: очікувалося sha/ref, от�
 #: remote-curl.c:1275 remote-curl.c:1416
 #, c-format
 msgid "http transport does not support %s"
-msgstr ""
+msgstr "http пересування не підтримує %s"
 
 #: remote-curl.c:1303
 msgid "protocol error: expected '<url> <path>', missing space"
-msgstr ""
+msgstr "помилка протоколу: очікувалося \"<url> <шлях>\", пропущено пробіл"
 
 #: remote-curl.c:1309
 #, c-format
@@ -23267,7 +23270,8 @@ msgstr "неможливо відкрити rr-cache директорію"
 #: rerere.h:42
 msgid "update the index with reused conflict resolution if possible"
 msgstr ""
-"оновити індекс з повторним використанням розвʼязання конфліктів, якщо це можливо"
+"оновити індекс з повторним використанням розвʼязання конфліктів, якщо це "
+"можливо"
 
 #: reset.c:114
 msgid "could not determine HEAD revision"
