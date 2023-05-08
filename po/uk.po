@@ -22016,7 +22016,7 @@ msgstr "помилка протоколу: невірна довжина ряд�
 #: pkt-line.c:479 sideband.c:167
 #, c-format
 msgid "remote error: %s"
-msgstr "віддалена помилка: %s"
+msgstr "помилка віддаленого сховища: %s"
 
 #: preload-index.c:127
 msgid "Refreshing index"
