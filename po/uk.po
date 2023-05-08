@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-05-05 18:36-0700\n"
+"PO-Revision-Date: 2023-05-07 17:05-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -21943,22 +21943,23 @@ msgstr ""
 #: pathspec.c:545
 #, c-format
 msgid "'%s' (mnemonic: '%c')"
-msgstr ""
+msgstr "\"%s\" (мнемонічно: \"%c\")"
 
 #: pathspec.c:555
 #, c-format
 msgid "%s: pathspec magic not supported by this command: %s"
 msgstr ""
+"%s: магічне значення для визначника шляху не підтримується цією командою: %s"
 
 #: pathspec.c:622
 #, c-format
 msgid "pathspec '%s' is beyond a symbolic link"
-msgstr ""
+msgstr "визначник шляху \"%s\" знаходиться за межами символічного посилання"
 
 #: pathspec.c:667
 #, c-format
 msgid "line is badly quoted: %s"
-msgstr ""
+msgstr "рядок погано взято в лапки: %s"
 
 #: pkt-line.c:96
 msgid "unable to write flush packet"
@@ -21974,19 +21975,20 @@ msgstr "не вдалося записати response end пакет"
 
 #: pkt-line.c:117
 msgid "flush packet write failed"
-msgstr ""
+msgstr "не вдалося записати flush пакет"
 
 #: pkt-line.c:157
 msgid "protocol error: impossibly long line"
-msgstr ""
+msgstr "помилка протоколу: неймовірно довгий рядок"
 
 #: pkt-line.c:173 pkt-line.c:175
 msgid "packet write with format failed"
-msgstr ""
+msgstr "не вдалося записати пакет з форматуванням"
 
 #: pkt-line.c:208 pkt-line.c:256
 msgid "packet write failed - data exceeds max packet size"
 msgstr ""
+"не вдалося записати пакет - дані перевищують максимальний розмір пакета"
 
 #: pkt-line.c:226
 #, c-format
@@ -21999,22 +22001,22 @@ msgstr "помилка зчитування"
 
 #: pkt-line.c:367 pkt-line.c:368
 msgid "the remote end hung up unexpectedly"
-msgstr ""
+msgstr "віддалене сховище несподівано відключилося"
 
 #: pkt-line.c:424 pkt-line.c:426
 #, c-format
 msgid "protocol error: bad line length character: %.4s"
-msgstr ""
+msgstr "помилка протоколу: невірний символ довжини рядка: %.4s"
 
 #: pkt-line.c:441 pkt-line.c:443 pkt-line.c:449 pkt-line.c:451
 #, c-format
 msgid "protocol error: bad line length %d"
-msgstr ""
+msgstr "помилка протоколу: невірна довжина рядка %d"
 
 #: pkt-line.c:479 sideband.c:167
 #, c-format
 msgid "remote error: %s"
-msgstr ""
+msgstr "віддалена помилка: %s"
 
 #: preload-index.c:127
 msgid "Refreshing index"
@@ -22031,15 +22033,15 @@ msgstr "не вдалося розібрати --pretty формат"
 
 #: promisor-remote.c:34
 msgid "promisor-remote: unable to fork off fetch subprocess"
-msgstr ""
+msgstr "promisor-remote: не вдається розгалужити від підпроцесу отримання"
 
 #: promisor-remote.c:41 promisor-remote.c:43
 msgid "promisor-remote: could not write to fetch subprocess"
-msgstr ""
+msgstr "promisor-remote: не вдалося записати до підпроцесу отримання"
 
 #: promisor-remote.c:47
 msgid "promisor-remote: could not close stdin to fetch subprocess"
-msgstr ""
+msgstr "promisor-remote: не вдалося закрити stdin для підпроцесу отримання"
 
 #: promisor-remote.c:57
 #, c-format
@@ -22049,11 +22051,11 @@ msgstr "імʼя віддаленого promisor не може починати�
 #: promisor-remote.c:267
 #, c-format
 msgid "could not fetch %s from promisor remote"
-msgstr ""
+msgstr "не вдалося отримати %s з віддаленого promisor"
 
 #: protocol-caps.c:105
 msgid "object-info: expected flush after arguments"
-msgstr ""
+msgstr "object-info: очікувався flush після аргументів"
 
 #: prune-packed.c:38
 msgid "Removing duplicate objects"
@@ -22061,11 +22063,11 @@ msgstr "Видалення дублікатів обʼєктів"
 
 #: range-diff.c:70
 msgid "could not start `log`"
-msgstr ""
+msgstr "не зміг запустити \"log\""
 
 #: range-diff.c:72
 msgid "could not read `log` output"
-msgstr ""
+msgstr "не вдалося прочитати \"log\" вивід"
 
 #: range-diff.c:100 sequencer.c:5930
 #, c-format
@@ -22078,6 +22080,7 @@ msgid ""
 "could not parse first line of `log` output: did not start with 'commit ': "
 "'%s'"
 msgstr ""
+"не вдалося розібрати перший рядок \"log\" виводу : не почався з \"commit \"': \"%s\""
 
 #: range-diff.c:134
 #, c-format
@@ -22096,7 +22099,7 @@ msgstr "не вдалося розібрати лог для \"%s\""
 #: read-cache.c:748
 #, c-format
 msgid "will not add file alias '%s' ('%s' already exists in index)"
-msgstr ""
+msgstr "не буде додавати псевдонім файлу \"%s\" (\"%s\" вже існує в індексі)"
 
 #: read-cache.c:764
 msgid "cannot create an empty blob in the object database"
@@ -22138,6 +22141,8 @@ msgid ""
 "index.version set, but the value is invalid.\n"
 "Using version %i"
 msgstr ""
+"index.version встановлено, але значення неприпустиме.\n"
+"Використання версії %i"
 
 #: read-cache.c:1772
 #, c-format
@@ -22145,11 +22150,13 @@ msgid ""
 "GIT_INDEX_VERSION set, but the value is invalid.\n"
 "Using version %i"
 msgstr ""
+"GIT_INDEX_VERSION встановлено, але значення неприпустиме.\n"
+"Використання версії %i"
 
 #: read-cache.c:1830
 #, c-format
 msgid "bad signature 0x%08x"
-msgstr ""
+msgstr "невірний підпис 0x%08x"
 
 #: read-cache.c:1833
 #, c-format
@@ -22158,31 +22165,31 @@ msgstr "невірна версія індексу %d"
 
 #: read-cache.c:1848
 msgid "bad index file sha1 signature"
-msgstr ""
+msgstr "невірний підпис індексного файлу sha1"
 
 #: read-cache.c:1882
 #, c-format
 msgid "index uses %.4s extension, which we do not understand"
-msgstr ""
+msgstr "індекс використовує %.4s розширення, яке ми не розуміємо"
 
 #: read-cache.c:1884
 #, c-format
 msgid "ignoring %.4s extension"
-msgstr ""
+msgstr "ігнорування %.4s розширення"
 
 #: read-cache.c:1932
 #, c-format
 msgid "unknown index entry format 0x%08x"
-msgstr ""
+msgstr "невідомий формат запису індексу 0x%08x"
 
 #: read-cache.c:1948
 #, c-format
 msgid "malformed name field in the index, near path '%s'"
-msgstr ""
+msgstr "неправильно сформоване поле імені в індексі, біля шляху \"%s\""
 
 #: read-cache.c:2015
 msgid "unordered stage entries in index"
-msgstr ""
+msgstr "невпорядковані записи в індексі"
 
 #: read-cache.c:2018
 #, c-format
@@ -22207,17 +22214,17 @@ msgstr "не вдалося приєднатися до потоку load_cache_
 #: read-cache.c:2340
 #, c-format
 msgid "%s: index file open failed"
-msgstr ""
+msgstr "%s: не вдалося відкрити індексний файл"
 
 #: read-cache.c:2344
 #, c-format
 msgid "%s: cannot stat the open index"
-msgstr ""
+msgstr "%s: не вдалося записати відкритий індекс"
 
 #: read-cache.c:2348
 #, c-format
 msgid "%s: index file smaller than expected"
-msgstr ""
+msgstr "%s: індексний файл менший, ніж очікувалося"
 
 #: read-cache.c:2352
 #, c-format
@@ -22242,11 +22249,11 @@ msgstr "не вдалося оновити спільний індекс \"%s\""
 #: read-cache.c:2525
 #, c-format
 msgid "broken index, expect %s in %s, got %s"
-msgstr ""
+msgstr "пошкоджений індекс, очікується %s у %s, отримано %s"
 
 #: read-cache.c:3105
 msgid "cannot write split index for a sparse index"
-msgstr ""
+msgstr "не можна записати розділений індекс для часткового індексу"
 
 #: read-cache.c:3236
 msgid "failed to convert to a sparse-index"
@@ -22275,7 +22282,7 @@ msgstr "неможливо виправити біти дозволу на \"%s\
 #: read-cache.c:3517
 #, c-format
 msgid "%s: cannot drop to stage #0"
-msgstr ""
+msgstr "%s: не вдається скинути до індексу #0"
 
 #: rebase-interactive.c:14
 msgid ""
@@ -22283,12 +22290,16 @@ msgid ""
 "continue'.\n"
 "Or you can abort the rebase with 'git rebase --abort'.\n"
 msgstr ""
+"Ви можете виправити це командою \"git rebase --edit-todo\", а потім запустити "
+"\"git rebase --continue\".\n"
+"Або ви можете перервати перебазування за допомогою \"git rebase --abort\".\n"
 
 #: rebase-interactive.c:36
 #, c-format
 msgid ""
 "unrecognized setting %s for option rebase.missingCommitsCheck. Ignoring."
 msgstr ""
+"нерозпізнане значення %s для опції rebase.missingCommitsCheck. Ігнорується."
 
 #: rebase-interactive.c:45
 msgid ""
@@ -22317,26 +22328,59 @@ msgid ""
 "\n"
 "These lines can be re-ordered; they are executed from top to bottom.\n"
 msgstr ""
+"\n"
+"Команди:\n"
+"p, pick <коміт> = використати коміт\n"
+"r, reword <коміт> = використати коміт, але відредагувати допис до коміту\n"
+"e, edit <коміт> = використати коміт, але зупинитись для внесення поправок\n"
+"s, squash <коміт> = використати коміт, але обʼєднати з попереднім комітом\n"
+"f, fixup [-C | -c] <коміт> = як \"squash\", але зберігає лише попередній\n"
+"                   допис до коміту, якщо тільки не вказана опція -С, у якому "
+"разі\n"
+"                   зберігається лише допис до цього коміту; -c - те саме, що "
+"й -C, але\n"
+"                   відкриває редактор\n"
+"x, exec <команда> = виконати команду (решту рядка) за допомогою shell\n"
+"b, break = зупинитись тут (продовжити перебазування пізніше за допомогою "
+"'git rebase --continue')\n"
+"d, drop <коміт> = видалити коміт\n"
+"l, label <мітка> = помітити поточний HEAD назвою\n"
+"t, reset <мітка> = скинути HEAD до мітки\n"
+"m, merge [-C <коміт> | -c <коміт>] <мітка> [# <oneline>]\n"
+"        створити коміт злиття, використовуючи допис до початкового коміту\n"
+"        злиття (або oneline, якщо не було вказано коміт\n"
+"        злиття); використовуйте -c <коміт>, щоб перефразувати допис до "
+"коміту\n"
+"u, update-ref <посилання> = відстежити заповнювач для <посилання>, яке "
+"потрібно оновити\n"
+"                      до цієї позиції у нових комітах. <посилання>\n"
+"                      оновлюється в кінці перебазування\n"
+"\n"
+"Ці рядки можна змінювати порядок виконання; вони виконуються зверху вниз.\n"
 
 #: rebase-interactive.c:72
 #, c-format
 msgid "Rebase %s onto %s (%d command)"
 msgid_plural "Rebase %s onto %s (%d commands)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Перебазування %s на %s (%d команда)"
+msgstr[1] "Перебазування %s на %s (%d команди)"
+msgstr[2] "Перебазування %s на %s (%d команд)"
 
 #: rebase-interactive.c:81
 msgid ""
 "\n"
 "Do not remove any line. Use 'drop' explicitly to remove a commit.\n"
 msgstr ""
+"\n"
+"Не видаляйте жодного рядка. Використовуйте \"drop\", щоб явно видалити коміт.\n"
 
 #: rebase-interactive.c:84
 msgid ""
 "\n"
 "If you remove a line here THAT COMMIT WILL BE LOST.\n"
 msgstr ""
+"\n"
+"Якщо ви видалите тут рядок, ЦЕЙ КОМІТ БУДЕ ВТРАЧЕНО.\n"
 
 #: rebase-interactive.c:90
 msgid ""
@@ -22346,6 +22390,10 @@ msgid ""
 "    git rebase --continue\n"
 "\n"
 msgstr ""
+"\n"
+"Ви редагуєте файл todo поточного інтерактивного перебазування.\n"
+"Щоб продовжити перебазування після редагування, виконайте:\n"
+"    git rebase --continue\n"
 
 #: rebase-interactive.c:95
 msgid ""
@@ -22353,6 +22401,9 @@ msgid ""
 "However, if you remove everything, the rebase will be aborted.\n"
 "\n"
 msgstr ""
+"\n"
+"Однак, якщо ви видалите все, перебазування буде перервано.\n"
+"\n"
 
 #: rebase-interactive.c:125
 #, c-format
@@ -22365,6 +22416,8 @@ msgid ""
 "Warning: some commits may have been dropped accidentally.\n"
 "Dropped commits (newer to older):\n"
 msgstr ""
+"Попередження: деякі коміти могли бути видалені випадково.\n"
+"Скинуті коміти (новіші до старіших):\n"
 
 #: rebase-interactive.c:215
 #, c-format
@@ -22376,11 +22429,17 @@ msgid ""
 "The possible behaviours are: ignore, warn, error.\n"
 "\n"
 msgstr ""
+"Щоб уникнути цього повідомлення, використовуйте \"drop\" для явного "
+"видалення коміту.\n"
+"\n"
+"Використовуйте \"git config rebase.missingCommitsCheck\" для зміни рівня "
+"попереджень.\n"
+"Можливі варіанти поведінки: ігнорування, попередження, помилка.\n"
 
 #: rebase.c:30
 #, c-format
 msgid "%s: 'preserve' superseded by 'merges'"
-msgstr ""
+msgstr "%s: \"preserve\" замінено на \"merges\""
 
 #: ref-filter.c:44 wt-status.c:2084
 msgid "gone"
@@ -22399,153 +22458,153 @@ msgstr "позаду %d"
 #: ref-filter.c:47
 #, c-format
 msgid "ahead %d, behind %d"
-msgstr ""
+msgstr "попереду %d, позаду %d"
 
 #: ref-filter.c:237
 #, c-format
 msgid "%%(%.*s) does not take arguments"
-msgstr ""
+msgstr "%%(%.*s) не приймає аргументів"
 
 #: ref-filter.c:245
 #, c-format
 msgid "unrecognized %%(%.*s) argument: %s"
-msgstr ""
+msgstr "нерозпізнаний %%(%.*s) аргумент: %s"
 
 #: ref-filter.c:254
 #, c-format
 msgid "expected format: %%(color:<color>)"
-msgstr ""
+msgstr "очікуваний формат: %%(color:<колір>)"
 
 #: ref-filter.c:256
 #, c-format
 msgid "unrecognized color: %%(color:%s)"
-msgstr ""
+msgstr "нерозпізнаний колір: %%(color:%s)"
 
 #: ref-filter.c:278
 #, c-format
 msgid "Integer value expected refname:lstrip=%s"
-msgstr ""
+msgstr "Очікувалось цілочисельне значення refname:lstrip=%s"
 
 #: ref-filter.c:282
 #, c-format
 msgid "Integer value expected refname:rstrip=%s"
-msgstr ""
+msgstr "Очікувалось цілочисельне значення refname:rstrip=%s"
 
 #: ref-filter.c:422
 #, c-format
 msgid "expected %%(trailers:key=<value>)"
-msgstr ""
+msgstr "очікувалось %%(trailers:key=<значення>)"
 
 #: ref-filter.c:424
 #, c-format
 msgid "unknown %%(trailers) argument: %s"
-msgstr ""
+msgstr "невідомий аргумент %%(trailers): %s"
 
 #: ref-filter.c:455
 #, c-format
 msgid "positive value expected contents:lines=%s"
-msgstr ""
+msgstr "очікувалось додатне значення contents:lines=%s"
 
 #: ref-filter.c:486
 #, c-format
 msgid "positive value expected '%s' in %%(%s)"
-msgstr ""
+msgstr "очікувалось додатне значення \"%s\" у %%(%s)"
 
 #: ref-filter.c:537
 #, c-format
 msgid "expected format: %%(align:<width>,<position>)"
-msgstr ""
+msgstr "очікуваний формат: %%(align:<ширина>,<позиція>)"
 
 #: ref-filter.c:549
 #, c-format
 msgid "unrecognized position:%s"
-msgstr ""
+msgstr "нерозпізнана позиція:%s"
 
 #: ref-filter.c:556
 #, c-format
 msgid "unrecognized width:%s"
-msgstr ""
+msgstr "нерозпізнана ширина:%s"
 
 #: ref-filter.c:565
 #, c-format
 msgid "unrecognized %%(%s) argument: %s"
-msgstr ""
+msgstr "нерозпізнаний %%(%s) аргумент: %s"
 
 #: ref-filter.c:573
 #, c-format
 msgid "positive width expected with the %%(align) atom"
-msgstr ""
+msgstr "очікувалась додатна ширина з %%(align) часткою"
 
 #: ref-filter.c:611
 #, c-format
 msgid "expected format: %%(ahead-behind:<committish>)"
-msgstr ""
+msgstr "очікуваний формат: %%(ahead-behind:<комітоподібне>)"
 
 #: ref-filter.c:732
 #, c-format
 msgid "malformed field name: %.*s"
-msgstr ""
+msgstr "неправильно сформована назва поля: %.*s"
 
 #: ref-filter.c:759
 #, c-format
 msgid "unknown field name: %.*s"
-msgstr ""
+msgstr "невідома назва поля: %.*s"
 
 #: ref-filter.c:763
 #, c-format
 msgid ""
 "not a git repository, but the field '%.*s' requires access to object data"
-msgstr ""
+msgstr "не git сховище, але поле \"%.*s\" потребує доступу до даних обʼєкта"
 
 #: ref-filter.c:896 ref-filter.c:963 ref-filter.c:1000 ref-filter.c:1002
 #, c-format
 msgid "format: %%(%s) atom used without a %%(%s) atom"
-msgstr ""
+msgstr "формат: частка %%(%s) використовується без частки %%(%s)"
 
 #: ref-filter.c:965
 #, c-format
 msgid "format: %%(then) atom used more than once"
-msgstr ""
+msgstr "формат: %%(then) частка використана більше одного разу"
 
 #: ref-filter.c:967
 #, c-format
 msgid "format: %%(then) atom used after %%(else)"
-msgstr ""
+msgstr "формат: %%(then) частка використана після %%(else)"
 
 #: ref-filter.c:1004
 #, c-format
 msgid "format: %%(else) atom used more than once"
-msgstr ""
+msgstr "формат: %%(else) частка використана більше одного разу"
 
 #: ref-filter.c:1020
 #, c-format
 msgid "format: %%(end) atom used without corresponding atom"
-msgstr ""
+msgstr "формат: %%(end) частка використана без відповідної частки"
 
 #: ref-filter.c:1082
 #, c-format
 msgid "malformed format string %s"
-msgstr ""
+msgstr "неправильно сформований рядок форматування %s"
 
 #: ref-filter.c:1088
 #, c-format
 msgid "this command reject atom %%(%.*s)"
-msgstr ""
+msgstr "ця команда відхиляє частку %%(%.*s)"
 
 #: ref-filter.c:1095
 #, c-format
 msgid "--format=%.*s cannot be used with --python, --shell, --tcl"
-msgstr ""
+msgstr "--format=%.*s не можна використовувати з --python, --shell, --tcl"
 
 #: ref-filter.c:1765
 #, c-format
 msgid "(no branch, rebasing %s)"
-msgstr ""
+msgstr "(немає гілки, перебазування %s)"
 
 #: ref-filter.c:1768
 #, c-format
 msgid "(no branch, rebasing detached HEAD %s)"
-msgstr ""
+msgstr "(немає гілки, перебазування відокремленого HEAD %s)"
 
 #: ref-filter.c:1771
 #, c-format
@@ -22574,7 +22633,7 @@ msgstr "відсутній обʼєкт %s для %s"
 #: ref-filter.c:1825
 #, c-format
 msgid "parse_object_buffer failed on %s for %s"
-msgstr ""
+msgstr "parse_object_buffer завершився невдало на %s для %s"
 
 #: ref-filter.c:2228
 #, c-format
@@ -22584,17 +22643,17 @@ msgstr "неправильно сформований обʼєкт за адре
 #: ref-filter.c:2318
 #, c-format
 msgid "ignoring ref with broken name %s"
-msgstr ""
+msgstr "ігнорування посилання з пошкодженим іменем %s"
 
 #: ref-filter.c:2323 refs.c:767
 #, c-format
 msgid "ignoring broken ref %s"
-msgstr ""
+msgstr "ігнорування пошкоджених посилань %s"
 
 #: ref-filter.c:2740
 #, c-format
 msgid "format: %%(end) atom missing"
-msgstr ""
+msgstr "формат: %%(end) частка відсутня"
 
 #: ref-filter.c:2851
 #, c-format
@@ -22604,15 +22663,15 @@ msgstr "неправильно сформованe імʼя обʼєкта %s"
 #: ref-filter.c:2856
 #, c-format
 msgid "option `%s' must point to a commit"
-msgstr ""
+msgstr "опція \"%s\" повинна вказувати на коміт"
 
 #: ref-filter.h:111
 msgid "key"
-msgstr ""
+msgstr "ключ"
 
 #: ref-filter.h:111
 msgid "field name to sort on"
-msgstr ""
+msgstr "назва поля для сортування"
 
 #: reflog.c:408
 #, c-format
@@ -22643,6 +22702,19 @@ msgid ""
 "\n"
 "\tgit branch -m <name>\n"
 msgstr ""
+"Використання \"%s\" як назви початкової гілки. Назву гілки за замовчуванням\n"
+"може бути змінено. Щоб налаштувати назву початкової гілки для використання у "
+"всіх\n"
+"ваших нових сховищах, що приховуватиме це попередження, викличте\n"
+"\n"
+"\tgit config --global init.defaultBranch <назва>.\n"
+"\n"
+"Замість \"master\" зазвичай використовують такі назви, як \"main\", "
+"\"trunk\" та\n"
+"\"development\". Щойно створену гілку можна перейменувати за допомогою цієї "
+"команди:\n"
+"\n"
+"\tgit branch -m <імʼя>\n"
 
 #: refs.c:678
 #, c-format
@@ -22657,45 +22729,45 @@ msgstr "неприпустима назва гілки: %s = %s"
 #: refs.c:765
 #, c-format
 msgid "ignoring dangling symref %s"
-msgstr ""
+msgstr "ігнорування висячих symref %s"
 
 #: refs.c:1041
 #, c-format
 msgid "log for ref %s has gap after %s"
-msgstr ""
+msgstr "лог для посилання %s має пропуск після %s"
 
 #: refs.c:1048
 #, c-format
 msgid "log for ref %s unexpectedly ended on %s"
-msgstr ""
+msgstr "лог для посилання %s несподівано завершився на %s"
 
 #: refs.c:1116
 #, c-format
 msgid "log for %s is empty"
-msgstr ""
+msgstr "лог для %s порожній"
 
 #: refs.c:1209
 #, c-format
 msgid "refusing to update ref with bad name '%s'"
-msgstr ""
+msgstr "відмова оновлення посилання з невірним іменем \"%s\""
 
 #: refs.c:1289
 #, c-format
 msgid "update_ref failed for ref '%s': %s"
-msgstr ""
+msgstr "update_ref завершився невдало для посилання \"%s\": %s"
 
 #: refs.c:2183
 #, c-format
 msgid "multiple updates for ref '%s' not allowed"
-msgstr ""
+msgstr "багатократні оновлення для посилання \"%s\" заборонені"
 
 #: refs.c:2266
 msgid "ref updates forbidden inside quarantine environment"
-msgstr ""
+msgstr "оновлення посилань заборонено у карантинному середовищі"
 
 #: refs.c:2277
 msgid "ref updates aborted by hook"
-msgstr ""
+msgstr "оновлення посилань перервано гачком"
 
 #: refs.c:2385 refs.c:2415
 #, c-format
