@@ -21886,16 +21886,16 @@ msgstr ""
 #: pathspec.c:154
 msgid "Escape character '\\' not allowed as last character in attr value"
 msgstr ""
-"Символ екранування \"\\\" не допускається як останній символ у значенні "
+"Символ екранування \"\\\" не дозволяється як останній символ у значенні "
 "атрибута"
 
 #: pathspec.c:172
 msgid "Only one 'attr:' specification is allowed."
-msgstr "Дозволена лише одна специфікація \"attr:\"."
+msgstr "Дозволений лише один визначник \"attr:\"."
 
 #: pathspec.c:175
 msgid "attr spec must not be empty"
-msgstr "визначник атрибута не повинен бути порожнім"
+msgstr "визначник атрибута повинен бути не порожнім"
 
 #: pathspec.c:218
 #, c-format
@@ -21928,12 +21928,12 @@ msgstr ""
 #: pathspec.c:356
 #, c-format
 msgid "Missing ')' at the end of pathspec magic in '%s'"
-msgstr "Пропущено \")\" в кінці магічного значення для визначника шляху в \"%s\""
+msgstr "Пропущено \")\" наприкінці магічного значення для визначника шляху в \"%s\""
 
 #: pathspec.c:394
 #, c-format
 msgid "Unimplemented pathspec magic '%c' in '%s'"
-msgstr "Нереалізоване магічне значення для визначника шляху \"%c\" в \"%s\""
+msgstr "Нереалізоване магічне значення \"%c\" для визначника шляху в \"%s\""
 
 #: pathspec.c:453
 #, c-format
