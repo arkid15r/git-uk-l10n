@@ -2204,7 +2204,7 @@ msgstr "HEAD робочого дерева %s не оновлено"
 
 #: builtin/add.c:27
 msgid "git add [<options>] [--] <pathspec>..."
-msgstr "git add [<опції>] [--] <визничник шляху>..."
+msgstr "git add [<опції>] [--] <визначник шляху>..."
 
 #: builtin/add.c:64
 #, c-format
