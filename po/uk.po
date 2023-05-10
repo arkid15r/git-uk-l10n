@@ -840,7 +840,7 @@ msgid ""
 "outside of your sparse-checkout definition, so will not be\n"
 "updated in the index:\n"
 msgstr ""
-"Наступні шляхи та/або специфікації шляхів відповідають шляхам, які існують\n"
+"Наступні шляхи та/або визначники шляхів відповідають шляхам, які існують\n"
 "за межами визначення вашого часткового переходу, тому не будуть\n"
 "оновлені в індексі:\n"
 
@@ -1656,7 +1656,7 @@ msgstr "неможливо прочитати \"%s\""
 #: archive.c:442 builtin/add.c:225 builtin/add.c:620 builtin/rm.c:341
 #, c-format
 msgid "pathspec '%s' did not match any files"
-msgstr "специфікатор шляxу \"%s\" не відповідає жодному файлу"
+msgstr "визначник шляxу \"%s\" не відповідає жодному файлу"
 
 #: archive.c:466
 #, c-format
@@ -2098,14 +2098,14 @@ msgid ""
 "different remotes' fetch refspecs map into different\n"
 "tracking namespaces."
 msgstr ""
-"Існує декілька віддалених призначень, специфікатори отримування посилань "
+"Існує декілька віддалених призначень, визначники отримування посилань "
 "яких розвʼязуються у віддалено \n"
 "відстежуване посилання \"%s\":\n"
 "%s\n"
 "Зазвичай це помилка конфігурації.\n"
 "\n"
 "Щоб підтримувати налаштування гілок відстежування, переконайтеся, що\n"
-"специфікатори отримування посилань різних віддалених призначень "
+"визначники отримування посилань різних віддалених призначень "
 "розвʼязуються у різні\n"
 "простори імен відстежування."
 
@@ -2204,7 +2204,7 @@ msgstr "HEAD робочого дерева %s не оновлено"
 
 #: builtin/add.c:27
 msgid "git add [<options>] [--] <pathspec>..."
-msgstr "git add [<опції>] [--] <специфікатор шляху>..."
+msgstr "git add [<опції>] [--] <визначник шляху>..."
 
 #: builtin/add.c:64
 #, c-format
@@ -2358,6 +2358,19 @@ msgid ""
 "\n"
 "See \"git help submodule\" for more information."
 msgstr ""
+"Ви додали ще одне git сховище всередині вашого поточного сховища.\n"
+"Клони зовнішнього сховища не міститимуть вмісту\n"
+"вбудованого сховища і не знатимуть, як його отримати.\n"
+"Якщо ви хочете додати підмодуль, скористайтеся командою\n"
+"\n"
+"\tgit submodule add <url> %s\n"
+"\n"
+"Якщо ви додали цей шлях помилково, ви можете видалити його з\n"
+"індексу за допомогою:\n"
+"\n"
+"\tgit rm --cached %s\n"
+"\n"
+"Докладніше дивіться у \"git help submodule\"."
 
 #: builtin/add.c:399
 #, c-format
@@ -2370,26 +2383,29 @@ msgid ""
 "Turn this message off by running\n"
 "\"git config advice.addIgnoredFile false\""
 msgstr ""
+"Використовуйте -f, якщо ви дійсно хочете їх додати.\n"
+"Щоб вимкнути це повідомлення, виконайте\n"
+"\"git config advice.addIgnoredFile false\""
 
 #: builtin/add.c:434
 msgid "adding files failed"
-msgstr ""
+msgstr "додавання файлів завершилося невдало"
 
 #: builtin/add.c:497
 #, c-format
 msgid "--chmod param '%s' must be either -x or +x"
-msgstr ""
+msgstr "--chmod параметр \"%s\" має бути -x або +x"
 
 #: builtin/add.c:518 builtin/checkout.c:1809 builtin/commit.c:374
 #: builtin/reset.c:364 builtin/rm.c:279 builtin/stash.c:1772
 #, c-format
 msgid "'%s' and pathspec arguments cannot be used together"
-msgstr "'%s' та аргументи специфікації шляху не можна використовувати разом"
+msgstr "\"%s\" та аргументи визначника шляху не можна використовувати разом"
 
 #: builtin/add.c:529
 #, c-format
 msgid "Nothing specified, nothing added.\n"
-msgstr ""
+msgstr "Нічого не зазначено, нічого не додано.\n"
 
 #: builtin/add.c:531
 msgid ""
@@ -2397,6 +2413,9 @@ msgid ""
 "Turn this message off by running\n"
 "\"git config advice.addEmptyPathspec false\""
 msgstr ""
+"Можливо, ви хотіли вказати \"git add .\"?\n"
+"Щоб вимкнути це повідомлення, виконайте\n"
+"\"git config advice.addEmptyPathspec false\""
 
 #: builtin/add.c:549 builtin/check-ignore.c:185 builtin/checkout.c:552
 #: builtin/checkout.c:768 builtin/clean.c:1019 builtin/commit.c:388
@@ -2440,12 +2459,12 @@ msgstr "не вдалося розібрати %s"
 #: builtin/am.c:491
 #, c-format
 msgid "'%s' was deleted by the applypatch-msg hook"
-msgstr ""
+msgstr "\"%s\" було видалено applypatch-msg гачком"
 
 #: builtin/am.c:521
 #, c-format
 msgid "Malformed input line: '%s'."
-msgstr "Неправильно сформований рядок вводу: \"%s\"."
+msgstr "Невірно сформований рядок вводу: \"%s\"."
 
 #: builtin/am.c:559
 #, c-format
@@ -2454,19 +2473,19 @@ msgstr "Не вдалося скопіювати нотатки з \"%s\" в \"%
 
 #: builtin/am.c:585
 msgid "fseek failed"
-msgstr ""
+msgstr "fseek завершився невдало"
 
 #: builtin/am.c:753 builtin/am.c:845 builtin/rebase.c:709 sequencer.c:894
 #: wrapper.c:200 wrapper.c:370
 #, c-format
 msgid "could not open '%s' for reading"
-msgstr ""
+msgstr "не вдалося відкрити \"%s\" для читання"
 
 #: builtin/am.c:762 builtin/rebase.c:663 sequencer.c:4222 strbuf.c:1193
 #: wrapper.c:198 wrapper.c:368
 #, c-format
 msgid "could not open '%s' for writing"
-msgstr ""
+msgstr "не вдалося відкрити \"%s\" для запису"
 
 #: builtin/am.c:773
 #, c-format
@@ -2475,7 +2494,7 @@ msgstr "не вдалося розібрати латку \"%s\""
 
 #: builtin/am.c:838
 msgid "Only one StGIT patch series can be applied at once"
-msgstr ""
+msgstr "Можна застосовувати лише одну серію StGIT латок одразу"
 
 #: builtin/am.c:886
 msgid "invalid timestamp"
@@ -2487,16 +2506,16 @@ msgstr "неприпустимий рядок дати"
 
 #: builtin/am.c:898
 msgid "invalid timezone offset"
-msgstr ""
+msgstr "неприпустиме зміщення часового поясу"
 
 #: builtin/am.c:991
 msgid "Patch format detection failed."
-msgstr ""
+msgstr "Не вдалося визначити формат латки."
 
 #: builtin/am.c:996 builtin/clone.c:315
 #, c-format
 msgid "failed to create directory '%s'"
-msgstr "не вдалося створити директорію '%s'"
+msgstr "не вдалося створити директорію \"%s\""
 
 #: builtin/am.c:1001
 msgid "Failed to split patches."
@@ -2505,26 +2524,32 @@ msgstr "Не вдалося розділити латки."
 #: builtin/am.c:1150
 #, c-format
 msgid "When you have resolved this problem, run \"%s --continue\"."
-msgstr ""
+msgstr "Коли ви вирішите цю проблему, виконайте \"%s --continue\"."
 
 #: builtin/am.c:1151
 #, c-format
 msgid "If you prefer to skip this patch, run \"%s --skip\" instead."
 msgstr ""
+"Якщо ви бажаєте пропустити цю латку, виконайте \"%s --skip\" замість цього."
 
 #: builtin/am.c:1156
 #, c-format
 msgid "To record the empty patch as an empty commit, run \"%s --allow-empty\"."
 msgstr ""
+"Щоб записати порожню латку як порожній коміт, виконайте \"%s --allow-empty\"."
 
 #: builtin/am.c:1158
 #, c-format
 msgid "To restore the original branch and stop patching, run \"%s --abort\"."
 msgstr ""
+"Щоб повернути гілку до початкового стану і зупинити латання, виконайте \"%s "
+"--abort\"."
 
 #: builtin/am.c:1253
 msgid "Patch sent with format=flowed; space at the end of lines might be lost."
 msgstr ""
+"Латку надіслано з параметром format=flowed; пробіли в кінці рядків можуть "
+"бути втрачені."
 
 #: builtin/am.c:1342
 #, c-format
@@ -2534,7 +2559,7 @@ msgstr "відсутній рядок автора в коміті %s"
 #: builtin/am.c:1345
 #, c-format
 msgid "invalid ident line: %.*s"
-msgstr "недійсний ідентифікаційний рядок: %.*s"
+msgstr "неприпустимий ідентифікаційний рядок: %.*s"
 
 #: builtin/am.c:1367 builtin/checkout.c:808 builtin/clone.c:726
 #: commit-graph.c:1108
@@ -2545,20 +2570,25 @@ msgstr "не вдалося розібрати коміт %s"
 #: builtin/am.c:1575
 msgid "Repository lacks necessary blobs to fall back on 3-way merge."
 msgstr ""
+"У сховищі не вистачає необхідних blob-обʼєктів, щоб повернутися до "
+"тристороннього злиття."
 
 #: builtin/am.c:1577
 msgid "Using index info to reconstruct a base tree..."
 msgstr ""
+"Використання індексної інформації для реконстрування базового дерева..."
 
 #: builtin/am.c:1597
 msgid ""
 "Did you hand edit your patch?\n"
 "It does not apply to blobs recorded in its index."
 msgstr ""
+"Ви відредагували свою латку вручну?\n"
+"Це не стосується blob-обʼєктів, записаних у його індексі."
 
 #: builtin/am.c:1603
 msgid "Falling back to patching base and 3-way merge..."
-msgstr ""
+msgstr "Повернення до бази латки та тристороннього злиття..."
 
 #: builtin/am.c:1629
 msgid "Failed to merge in the changes."
@@ -2566,11 +2596,11 @@ msgstr "Не вдалося злити зміни."
 
 #: builtin/am.c:1653 builtin/merge.c:714 sequencer.c:1494
 msgid "git write-tree failed to write a tree"
-msgstr ""
+msgstr "git write-tree не вдалося записати дерево"
 
 #: builtin/am.c:1661
 msgid "applying to an empty history"
-msgstr ""
+msgstr "застосування до порожньої історії"
 
 #: builtin/am.c:1680 builtin/commit.c:1838 builtin/merge.c:932
 #: builtin/merge.c:957 sequencer.c:1603 t/helper/test-fast-rebase.c:85
@@ -2584,7 +2614,7 @@ msgstr "неможливо продовжити: %s не існує."
 
 #: builtin/am.c:1735
 msgid "Commit Body is:"
-msgstr ""
+msgstr "Тіло коміту:"
 
 #. TRANSLATORS: Make sure to include [y], [n], [e], [v] and [a]
 #. in your translation. The program will only accept English
@@ -2594,6 +2624,8 @@ msgstr ""
 #, c-format
 msgid "Apply? [y]es/[n]o/[e]dit/[v]iew patch/[a]ccept all: "
 msgstr ""
+"Застосувати? [y]-так / [n]-ні / [e]-редагувати / [v]-переглянути латку / [a]-"
+"застосувати все: "
 
 #: builtin/am.c:1792 builtin/commit.c:421
 msgid "unable to write index file"
@@ -2602,17 +2634,17 @@ msgstr "не вдалося записати індексний файл"
 #: builtin/am.c:1796
 #, c-format
 msgid "Dirty index: cannot apply patches (dirty: %s)"
-msgstr ""
+msgstr "Індекс забруднено: неможливо застосувати латки (забруднено: %s)"
 
 #: builtin/am.c:1838
 #, c-format
 msgid "Skipping: %.*s"
-msgstr ""
+msgstr "Пропуск: %.*s"
 
 #: builtin/am.c:1843
 #, c-format
 msgid "Creating an empty commit: %.*s"
-msgstr ""
+msgstr "Створення порожнього коміту: %.*s"
 
 #: builtin/am.c:1847
 msgid "Patch is empty."
@@ -2621,11 +2653,11 @@ msgstr "Латка порожня."
 #: builtin/am.c:1858 builtin/am.c:1927
 #, c-format
 msgid "Applying: %.*s"
-msgstr ""
+msgstr "Застосування: %.*s"
 
 #: builtin/am.c:1875
 msgid "No changes -- Patch already applied."
-msgstr ""
+msgstr "Без змін - латку вже застосовано."
 
 #: builtin/am.c:1881
 #, c-format
@@ -2635,6 +2667,7 @@ msgstr "Латання не вдалося на %s %.*s"
 #: builtin/am.c:1885
 msgid "Use 'git am --show-current-patch=diff' to see the failed patch"
 msgstr ""
+"Використовуйте \"git am --show-current-patch=diff\", щоб побачити невдалу латку"
 
 #: builtin/am.c:1931
 msgid "No changes - recorded it as an empty commit."
@@ -2646,6 +2679,9 @@ msgid ""
 "If there is nothing left to stage, chances are that something else\n"
 "already introduced the same changes; you might want to skip this patch."
 msgstr ""
+"Без змін - ви забули використати \"git add\"?\n"
+"Якщо нічого індексувати, є ймовірність того, що хтось інший\n"
+"вже вніс ті самі зміни; можливо, ви захочете пропустити цю латку."
 
 #: builtin/am.c:1941
 msgid ""
@@ -2654,6 +2690,10 @@ msgid ""
 "such.\n"
 "You might run `git rm` on a file to accept \"deleted by them\" for it."
 msgstr ""
+"У вашому індексі все ще залишаються не злиті шляхи.\n"
+"Вам слід виконати \"git add\" для кожного файлу з розвʼязаними конфліктами, "
+"щоб позначити їх як такі.\n"
+"Ви можете виконати \"git rm\" для файлу, щоб прийняти \"видалено ними\"."
 
 #: builtin/am.c:1999 builtin/am.c:2033 builtin/checkout.c:623
 #: builtin/checkout.c:899 builtin/clone.c:735 builtin/stash.c:299 merge.c:104
@@ -2676,6 +2716,8 @@ msgid ""
 "You seem to have moved HEAD since the last 'am' failure.\n"
 "Not rewinding to ORIG_HEAD"
 msgstr ""
+"Здається, ви пересунули HEAD після останньої невдачі з \"am\".\n"
+"Не відбувається перемотування до ORIG_HEAD"
 
 #: builtin/am.c:2218 builtin/bisect.c:181 worktree.c:243
 #, c-format
@@ -2693,7 +2735,7 @@ msgstr "git am [<опції>] [(<скринька> [<поштова директ
 
 #: builtin/am.c:2321
 msgid "git am [<options>] (--continue | --skip | --abort)"
-msgstr ""
+msgstr "git am [<опції>] (--continue | --skip | --abort)"
 
 #: builtin/am.c:2327
 msgid "run interactively"
@@ -2701,24 +2743,24 @@ msgstr "запустити інтерактивно"
 
 #: builtin/am.c:2329
 msgid "bypass pre-applypatch and applypatch-msg hooks"
-msgstr ""
+msgstr "обійти pre-applypatch та applypatch-msg гачки"
 
 #: builtin/am.c:2331
 msgid "historical option -- no-op"
-msgstr ""
+msgstr "стара опція -- не працює"
 
 #: builtin/am.c:2333
 msgid "allow fall back on 3way merging if needed"
-msgstr ""
+msgstr "дозволити повернутися до тристороннього злиття у разі потреби"
 
 #: builtin/am.c:2334 builtin/init-db.c:555 builtin/prune-packed.c:17
 #: builtin/repack.c:786 builtin/stash.c:1010
 msgid "be quiet"
-msgstr ""
+msgstr "працювати тихесенько"
 
 #: builtin/am.c:2336
 msgid "add a Signed-off-by trailer to the commit message"
-msgstr ""
+msgstr "додати Signed-off-by причеп у допис до коміту"
 
 #: builtin/am.c:2339
 msgid "recode into utf8 (default)"
@@ -2726,37 +2768,38 @@ msgstr "перекодувати в utf8 (типово)"
 
 #: builtin/am.c:2341
 msgid "pass -k flag to git-mailinfo"
-msgstr ""
+msgstr "передати -k прапорець до git-mailinfo"
 
 #: builtin/am.c:2343
 msgid "pass -b flag to git-mailinfo"
-msgstr ""
+msgstr "передати -b прапорець до git-mailinfo"
 
 #: builtin/am.c:2345
 msgid "pass -m flag to git-mailinfo"
-msgstr ""
+msgstr "передати -m прапорець до git-mailinfo"
 
 #: builtin/am.c:2347
 msgid "pass --keep-cr flag to git-mailsplit for mbox format"
-msgstr ""
+msgstr "передати --keep-cr прапорець до git-mailinfo для формату mbox"
 
 #: builtin/am.c:2350
 msgid "do not pass --keep-cr flag to git-mailsplit independent of am.keepcr"
 msgstr ""
+"не передавати --keep-cr прапорець до git-mailsplit незалежно від am.keepcr"
 
 #: builtin/am.c:2353
 msgid "strip everything before a scissors line"
-msgstr ""
+msgstr "прибрати все раніше відрізної лінії"
 
 #: builtin/am.c:2355
 msgid "pass it through git-mailinfo"
-msgstr ""
+msgstr "передати через git-mailinfo"
 
 #: builtin/am.c:2358 builtin/am.c:2361 builtin/am.c:2364 builtin/am.c:2367
 #: builtin/am.c:2370 builtin/am.c:2373 builtin/am.c:2376 builtin/am.c:2379
 #: builtin/am.c:2385
 msgid "pass it through git-apply"
-msgstr ""
+msgstr "передати через git-apply"
 
 #: builtin/am.c:2375 builtin/commit.c:1533 builtin/fmt-merge-msg.c:20
 #: builtin/fmt-merge-msg.c:23 builtin/grep.c:963 builtin/merge.c:269
@@ -2766,7 +2809,7 @@ msgstr ""
 #: builtin/tag.c:449 parse-options.h:215 parse-options.h:276
 #: parse-options.h:514
 msgid "n"
-msgstr ""
+msgstr "n"
 
 #: builtin/am.c:2381 builtin/branch.c:694 builtin/bugreport.c:120
 #: builtin/cat-file.c:957 builtin/cat-file.c:961 builtin/cat-file.c:966
@@ -2774,23 +2817,23 @@ msgstr ""
 #: builtin/ls-tree.c:398 builtin/replace.c:562 builtin/tag.c:483
 #: builtin/verify-tag.c:31
 msgid "format"
-msgstr ""
+msgstr "формат"
 
 #: builtin/am.c:2382
 msgid "format the patch(es) are in"
-msgstr ""
+msgstr "формат латки(-ок)"
 
 #: builtin/am.c:2388
 msgid "override error message when patch failure occurs"
-msgstr ""
+msgstr "перевизначити повідомлення про помилку при збої латання"
 
 #: builtin/am.c:2390
 msgid "continue applying patches after resolving a conflict"
-msgstr ""
+msgstr "продовжити застосування латки після розвʼязання конфлікту"
 
 #: builtin/am.c:2393
 msgid "synonyms for --continue"
-msgstr ""
+msgstr "Те ж саме, що й --continue"
 
 #: builtin/am.c:2396
 msgid "skip the current patch"
@@ -2798,15 +2841,15 @@ msgstr "пропустити поточну латку"
 
 #: builtin/am.c:2399
 msgid "restore the original branch and abort the patching operation"
-msgstr ""
+msgstr "відновити початкову гілку і перервати операцію латання"
 
 #: builtin/am.c:2402
 msgid "abort the patching operation but keep HEAD where it is"
-msgstr ""
+msgstr "перервати латання, але залишити HEAD на тому місці, де він знаходиться"
 
 #: builtin/am.c:2406
 msgid "show the patch being applied"
-msgstr ""
+msgstr "показати латку, що застосовується"
 
 #: builtin/am.c:2410
 msgid "record the empty patch as an empty commit"
@@ -2814,17 +2857,17 @@ msgstr "записати порожню латку як порожній ком�
 
 #: builtin/am.c:2414
 msgid "lie about committer date"
-msgstr ""
+msgstr "брехати про дату комітера"
 
 #: builtin/am.c:2416
 msgid "use current timestamp for author date"
-msgstr ""
+msgstr "використовувати поточну мітку часу для дати автора"
 
 #: builtin/am.c:2418 builtin/commit-tree.c:113 builtin/commit.c:1657
 #: builtin/merge.c:308 builtin/pull.c:182 builtin/rebase.c:1182
 #: builtin/revert.c:121 builtin/tag.c:464
 msgid "key-id"
-msgstr ""
+msgstr "key-id"
 
 #: builtin/am.c:2419 builtin/rebase.c:1183
 msgid "GPG-sign commits"
@@ -2832,17 +2875,19 @@ msgstr "підписати коміти GPG-підписом"
 
 #: builtin/am.c:2422
 msgid "how to handle empty patches"
-msgstr ""
+msgstr "як обробляти порожні латки"
 
 #: builtin/am.c:2425
 msgid "(internal use for git-rebase)"
-msgstr ""
+msgstr "(внутрішнє використання для git-rebase)"
 
 #: builtin/am.c:2443
 msgid ""
 "The -b/--binary option has been a no-op for long time, and\n"
 "it will be removed. Please do not use it anymore."
 msgstr ""
+"Опція -b/--binary вже давно не працює і\n"
+"буде видалена. Будь ласка, не використовуйте її більше."
 
 #: builtin/am.c:2450
 msgid "failed to read the index"
@@ -2852,6 +2897,7 @@ msgstr "не вдалося прочитати індекс"
 #, c-format
 msgid "previous rebase directory %s still exists but mbox given."
 msgstr ""
+"попередня директорія перебазування %s все ще існує, але було надано mbox."
 
 #: builtin/am.c:2489
 #, c-format
@@ -2859,14 +2905,16 @@ msgid ""
 "Stray %s directory found.\n"
 "Use \"git am --abort\" to remove it."
 msgstr ""
+"Знайдено блукаючу директорію %s.\n"
+"Скористайтеся командою \"git am --abort\", щоб вилучити її."
 
 #: builtin/am.c:2495
 msgid "Resolve operation not in progress, we are not resuming."
-msgstr ""
+msgstr "Наразі не виконується операція розвʼязання, ми не продовжуємо."
 
 #: builtin/am.c:2505
 msgid "interactive mode requires patches on the command line"
-msgstr ""
+msgstr "інтерактивний режим вимагає латки у командному рядку"
 
 #: builtin/apply.c:8
 msgid "git apply [<options>] [<patch>...]"
@@ -2878,20 +2926,20 @@ msgstr "неможливо перенаправити вивід"
 
 #: builtin/archive.c:36
 msgid "git archive: Remote with no URL"
-msgstr ""
+msgstr "git archive: віддалене призначення без URL"
 
 #: builtin/archive.c:60
 msgid "git archive: expected ACK/NAK, got a flush packet"
-msgstr ""
+msgstr "git archive: очікувалося ACK/NAK, отримано flush-пакет"
 
 #: builtin/archive.c:63
 #, c-format
 msgid "git archive: NACK %s"
-msgstr ""
+msgstr "git archive: NACK %s"
 
 #: builtin/archive.c:64
 msgid "git archive: protocol error"
-msgstr ""
+msgstr "git archive: помилка протоколу"
 
 #: builtin/archive.c:68
 msgid "git archive: expected a flush"
@@ -2902,6 +2950,9 @@ msgid ""
 "git bisect start [--term-{new,bad}=<term> --term-{old,good}=<term>]    [--no-"
 "checkout] [--first-parent] [<bad> [<good>...]] [--]    [<pathspec>...]"
 msgstr ""
+"git bisect start [--term-{new,bad}=<термін> --term-{old,good}=<термін>]    "
+"[--no-checkout] [--first-parent] [<поганий> [<добрий>...]] [--]    "
+"[<визначник шляху>...]"
 
 #: builtin/bisect.c:31
 msgid "git bisect (good|bad) [<rev>...]"
@@ -4723,7 +4774,7 @@ msgstr "використовувати їхню версію для незлит
 
 #: builtin/checkout.c:1640
 msgid "do not limit pathspecs to sparse entries only"
-msgstr "не обмежувати специфікації шляхів лише розрідженими записами"
+msgstr "не обмежувати визначники шляхів лише розрідженими записами"
 
 #: builtin/checkout.c:1698
 #, c-format
@@ -5032,7 +5083,7 @@ msgstr "налаштувати як спільне сховище"
 
 #: builtin/clone.c:122
 msgid "pathspec"
-msgstr "специфікатор шляху"
+msgstr "визначник шляху"
 
 #: builtin/clone.c:122
 msgid "initialize submodules in the clone"
@@ -5627,7 +5678,7 @@ msgstr ""
 
 #: builtin/commit.c:57
 msgid "git status [<options>] [--] [<pathspec>...]"
-msgstr "git status [<опції>] [--] [<специфікатор шляху>...]"
+msgstr "git status [<опції>] [--] [<визначник шляху>...]"
 
 #: builtin/commit.c:62
 msgid ""
@@ -6977,7 +7028,7 @@ msgstr "Файл блокування створено, але не звітов
 
 #: builtin/fetch.c:40
 msgid "git fetch [<options>] [<repository> [<refspec>...]]"
-msgstr "git fetch [<опції>] [<сховище> [<специфікатор посилання>...]]"
+msgstr "git fetch [<опції>] [<сховище> [<визначник посилання>...]]"
 
 #: builtin/fetch.c:41
 msgid "git fetch [<options>] <group>"
@@ -7349,7 +7400,7 @@ msgstr "fetch --all не приймає сховище як аргумент"
 
 #: builtin/fetch.c:2234
 msgid "fetch --all does not make sense with refspecs"
-msgstr "fetch --all не має сенсу зі специфікаторами посилань"
+msgstr "fetch --all не має сенсу з визначниками посилань"
 
 #: builtin/fetch.c:2247
 #, c-format
@@ -9181,7 +9232,7 @@ msgstr ""
 
 #: builtin/log.c:283
 msgid "-L<range>:<file> cannot be used with pathspec"
-msgstr "-L<діапазон>:<файл> не можна використовувати зі специфікатором шляху"
+msgstr "-L<діапазон>:<файл> не можна використовувати з визначником шляху"
 
 #: builtin/log.c:389
 #, c-format
@@ -11550,7 +11601,7 @@ msgstr "неможливо виконати видалення в precious-objec
 
 #: builtin/pull.c:69
 msgid "git pull [<options>] [<repository> [<refspec>...]]"
-msgstr "git pull [<опції>] [<сховище> [<специфікатор-посилання>...]]"
+msgstr "git pull [<опції>] [<сховище> [<визначник посилання>...]]"
 
 #: builtin/pull.c:127
 msgid "control for recursive fetching of submodules"
@@ -11733,7 +11784,7 @@ msgstr ""
 
 #: builtin/push.c:22
 msgid "git push [<options>] [<repository> [<refspec>...]]"
-msgstr "git push [<опції>] [<сховище> [<специфікатор посилання>...]]"
+msgstr "git push [<опції>] [<сховище> [<визначник посилання>...]]"
 
 #: builtin/push.c:107
 msgid "tag shorthand without <tag>"
@@ -11843,7 +11894,7 @@ msgstr "Поточна гілка %s має декілька висхідних 
 msgid ""
 "You didn't specify any refspecs to push, and push.default is \"nothing\"."
 msgstr ""
-"Ви не вказали жодних специфікацій посилань для надсилання, і push.default "
+"Ви не вказали жодних визначників посилань для надсилання, і push.default "
 "дорівнює \"nothing\"."
 
 #: builtin/push.c:277
@@ -11868,8 +11919,7 @@ msgstr ""
 "позаду\n"
 "її віддаленого аналога. Інтегруйте віддалені зміни (наприклад, через\n"
 "'git pull ...') перед повторним надсиланням.\n"
-"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --"
-"help\"."
+"Докладніше у \"Примітці про перемотування\" команди \"git push --help\"."
 
 #: builtin/push.c:306
 msgid ""
@@ -11882,8 +11932,7 @@ msgstr ""
 "позаду\n"
 "її віддаленого аналога. Стягнить цю гілку та інтегруйте віддалені зміни\n"
 "(наприклад, через 'git pull...') перед повторним надсиланням.\n"
-"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --"
-"help\"."
+"Докладніше у \"Примітці про перемотування\" команди \"git push --help\"."
 
 #: builtin/push.c:312
 msgid ""
@@ -11899,8 +11948,7 @@ msgstr ""
 "до того самого посилання. Можливо, вам слід спочатку інтегрувати віддалені "
 "зміни\n"
 "(наприклад, через 'git pull ...') перед повторним надсиланням.\n"
-"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --"
-"help\"."
+"Докладніше у \"Примітці про перемотування\" команди \"git push --help\"."
 
 #: builtin/push.c:319
 msgid "Updates were rejected because the tag already exists in the remote."
@@ -12060,11 +12108,11 @@ msgstr ""
 
 #: builtin/push.c:681
 msgid "--all can't be combined with refspecs"
-msgstr "--all не можна комбінувати зі специфікаторами посилань"
+msgstr "--all не можна комбінувати з визначниками посилань"
 
 #: builtin/push.c:687
 msgid "--mirror can't be combined with refspecs"
-msgstr "--mirror не можна комбінувати зі специфікаторами посилань"
+msgstr "--mirror не можна комбінувати з визначниками посилань"
 
 #: builtin/push.c:697
 msgid "push options must not have new line characters"
@@ -12958,7 +13006,7 @@ msgstr ""
 #: builtin/remote.c:372
 #, c-format
 msgid "Could not get fetch map for refspec %s"
-msgstr "Не вдалося визначити карту отримання для специфікатора посилання %s"
+msgstr "Не вдалося забрати карту отримання для визначника посилання %s"
 
 #: builtin/remote.c:469 builtin/remote.c:477
 msgid "(matching)"
@@ -13766,7 +13814,7 @@ msgstr ""
 
 #: builtin/reset.c:39
 msgid "git reset [-q] [<tree-ish>] [--] <pathspec>..."
-msgstr "git reset [-q] [<деревоподібне джерело>] [--] <специфікатор шляху>..."
+msgstr "git reset [-q] [<деревоподібне джерело>] [--] <визначник шляху>..."
 
 #: builtin/reset.c:40
 msgid ""
@@ -13778,7 +13826,7 @@ msgstr ""
 #: builtin/reset.c:41
 msgid "git reset --patch [<tree-ish>] [--] [<pathspec>...]"
 msgstr ""
-"git reset --patch [<деревоподібне джерело>] [--] [<специфікатор шляху>...]"
+"git reset --patch [<деревоподібне джерело>] [--] [<визначник шляху>...]"
 
 #: builtin/reset.c:47
 msgid "mixed"
@@ -20208,7 +20256,7 @@ msgstr ""
 #: list-objects-filter-options.c:112
 #, c-format
 msgid "invalid filter-spec '%s'"
-msgstr "неприпустима специфікація фільтра \"%s\""
+msgstr "неприпустимий визначник фільтра \"%s\""
 
 #: list-objects-filter-options.c:128
 #, c-format
@@ -21918,7 +21966,7 @@ msgstr ""
 #, c-format
 msgid "Invalid pathspec magic '%.*s' in '%s'"
 msgstr ""
-"Неприпустиме магічне значення \"%.*s\" для специфікатора шляху в \"%s\""
+"Неприпустиме магічне значення \"%.*s\" для визначника шляху в \"%s\""
 
 #: pathspec.c:356
 #, c-format
@@ -22798,7 +22846,7 @@ msgstr "не вдалося видалити посилання: %s"
 #: refspec.c:173
 #, c-format
 msgid "invalid refspec '%s'"
-msgstr "неприпустимий специфікатор посилання \"%s\""
+msgstr "неприпустимий визначник посилання \"%s\""
 
 #: remote-curl.c:190
 #, c-format
@@ -23001,12 +23049,12 @@ msgstr "значення '%s' шаблону не містить '*'"
 #: remote.c:1227
 #, c-format
 msgid "src refspec %s does not match any"
-msgstr "специфікатор посилання джерела %s не збігається з жодним"
+msgstr "визначник посилання джерела %s не збігається з жодним"
 
 #: remote.c:1232
 #, c-format
 msgid "src refspec %s matches more than one"
-msgstr "специфікатора посилання джерела %s збігається більше ніж з одним"
+msgstr "визначник посилання джерела %s збігається з більш ніж одним"
 
 #. TRANSLATORS: "matches '%s'%" is the <dst> part of "git push
 #. <remote> <src>:<dst>" push, and "being pushed ('%s')" is
@@ -23044,7 +23092,7 @@ msgid ""
 "Did you mean to create a new branch by pushing to\n"
 "'%s:refs/heads/%s'?"
 msgstr ""
-"Частина <джерело> специфікатора посилання є об’єктом коміту.\n"
+"Частина <джерело> визаначника посилання є об’єктом коміту.\n"
 "Ви хотіли створити нову гілку, надіславши зміни до\n"
 "'%s:refs/heads/%s'?"
 
@@ -23055,7 +23103,7 @@ msgid ""
 "Did you mean to create a new tag by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
-"Частина <джерело> специфікатора посилання є об’єктом тегу.\n"
+"Частина <джерело> визаначника посилання є об’єктом тегу.\n"
 "Ви хотіли створити новий тег, надіславши зміни до\n"
 "'%s:refs/tags/%s'?"
 
@@ -23066,7 +23114,7 @@ msgid ""
 "Did you mean to tag a new tree by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
-"Частина <джерело> специфікатора посилання є об’єктом дерева.\n"
+"Частина <джерело> визаначника посилання є об’єктом дерева.\n"
 "Ви хотіли позначити нове дерево, надіславши зміни до\n"
 "'%s:refs/tags/%s'?"
 
@@ -23077,7 +23125,7 @@ msgid ""
 "Did you mean to tag a new blob by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
-"Частина <джерело> специфікатора посилання є об’єктом blob.\n"
+"Частина <джерело> визаначника посилання є об’єктом blob.\n"
 "Ви хотіли позначити новий blob, надіславши зміни до\n"
 "'%s:refs/tags/%s'?"
 
@@ -23094,7 +23142,7 @@ msgstr "не вдалося видалити '%s': віддалене посил
 #: remote.c:1341
 #, c-format
 msgid "dst refspec %s matches more than one"
-msgstr "специфікатора посилання призначення %s збігається більше ніж з одним"
+msgstr "визаначник посилання призначення %s збігається з більш ніж одним"
 
 #: remote.c:1348
 #, c-format
@@ -23137,7 +23185,7 @@ msgstr "гілка '%s' не має віддаленого призначенн�
 #: remote.c:1928
 #, c-format
 msgid "push refspecs for '%s' do not include '%s'"
-msgstr "надіслані специфікатори посилань для '%s' не включають '%s'"
+msgstr "надіслані визначники посилань для \"%s\" не включають \"%s\""
 
 #: remote.c:1941
 msgid "push has no destination (push.default is 'nothing')"
@@ -23724,7 +23772,7 @@ msgid ""
 "run \"git cherry-pick --abort\"."
 msgstr ""
 "Після розвʼязання конфліктів позначте їх за допомогою\n"
-"\"git add/rm <специфікація-шляху>\", а потім виконайте\n"
+"\"git add/rm <визначник шляху>\", а потім виконайте\n"
 "\"git cherry-pick --continue\".\n"
 "Замість цього ви можете пропустити цей комміт за допомогою \"git cherry-pick "
 "--skip\".\n"
@@ -23741,12 +23789,12 @@ msgid ""
 "run \"git revert --abort\"."
 msgstr ""
 "Після розвʼязання конфліктів позначте їх за допомогою\n"
-"\"git add/rm <специфікація-шляху>\", а потім виконайте\n"
+"\"git add/rm <визначник шляху>\", а потім виконайте\n"
 "\"git revert --continue\".\n"
 "Замість цього ви можете пропустити цей коміт за допомогою \"git revert --"
 "skip\".\n"
 "Щоб перервати і повернутися до стану перед \"git revert\",\n"
-"виконайте \"git revert --abort\".ч"
+"виконайте \"git revert --abort\"."
 
 #: sequencer.c:501 sequencer.c:3396
 #, c-format
@@ -24932,7 +24980,7 @@ msgstr "у незаповненому підмодулі \"%s\""
 #: submodule.c:382
 #, c-format
 msgid "Pathspec '%s' is in submodule '%.*s'"
-msgstr "Специфікація шляху \"%s\" знаходиться у підмодулі \"%.*s\""
+msgstr "Визначник шляху \"%s\" знаходиться у підмодулі \"%.*s\""
 
 #: submodule.c:457
 #, c-format
