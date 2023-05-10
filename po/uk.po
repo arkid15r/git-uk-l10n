@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-05-09 17:42-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-05-09 17:58-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -21935,14 +21935,16 @@ msgstr ""
 #: pathspec.c:154
 msgid "Escape character '\\' not allowed as last character in attr value"
 msgstr ""
+"Символ екранування \"\\\" не дозволяється як останній символ у значенні "
+"атрибута"
 
 #: pathspec.c:172
 msgid "Only one 'attr:' specification is allowed."
-msgstr ""
+msgstr "Дозволений лише один визначник \"attr:\"."
 
 #: pathspec.c:175
 msgid "attr spec must not be empty"
-msgstr ""
+msgstr "визначник атрибута повинен бути не порожнім"
 
 #: pathspec.c:218
 #, c-format
@@ -21951,17 +21953,20 @@ msgstr "невірне імʼя атрибуту %s"
 
 #: pathspec.c:283
 msgid "global 'glob' and 'noglob' pathspec settings are incompatible"
-msgstr ""
+msgstr "глобальні параметри визначника шляху \"glob\" та \"noglob\" несумісні"
 
 #: pathspec.c:290
 msgid ""
 "global 'literal' pathspec setting is incompatible with all other global "
 "pathspec settings"
 msgstr ""
+"глобальний параметр \"literal\" визначника шляху несумісний з усіма іншими "
+"глобальними параметрами визначника шляху"
 
 #: pathspec.c:330
 msgid "invalid parameter for pathspec magic 'prefix'"
 msgstr ""
+"неприпустимий параметр для магічного значення \"prefix\" визначника шляху"
 
 #: pathspec.c:351
 #, c-format
@@ -21972,22 +21977,22 @@ msgstr ""
 #: pathspec.c:356
 #, c-format
 msgid "Missing ')' at the end of pathspec magic in '%s'"
-msgstr ""
+msgstr "Пропущено \")\" наприкінці магічного значення для визначника шляху в \"%s\""
 
 #: pathspec.c:394
 #, c-format
 msgid "Unimplemented pathspec magic '%c' in '%s'"
-msgstr ""
+msgstr "Нереалізоване магічне значення \"%c\" для визначника шляху в \"%s\""
 
 #: pathspec.c:453
 #, c-format
 msgid "%s: 'literal' and 'glob' are incompatible"
-msgstr ""
+msgstr "%s: \"literal\" та \"glob\" несумісні"
 
 #: pathspec.c:469
 #, c-format
 msgid "%s: '%s' is outside repository at '%s'"
-msgstr ""
+msgstr "%s: \"%s\" знаходиться за межами сховища за адресою \"%s\""
 
 #: pathspec.c:545
 #, c-format
