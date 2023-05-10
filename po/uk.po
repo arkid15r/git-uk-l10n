@@ -22129,7 +22129,7 @@ msgid ""
 "could not parse first line of `log` output: did not start with 'commit ': "
 "'%s'"
 msgstr ""
-"не вдалося розібрати перший рядок \"log\" виводу : не починався з \"commit "
+"не вдалося розібрати перший рядок \"log\" виводу: не починався з \"commit "
 "\"': \"%s\""
 
 #: range-diff.c:134
