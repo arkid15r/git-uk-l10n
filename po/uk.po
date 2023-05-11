@@ -21870,7 +21870,7 @@ msgstr "використання: %s"
 #: parse-options.c:1048
 #, c-format
 msgid "   or: %s"
-msgstr "   або: %s"
+msgstr "         або: %s"
 
 #. TRANSLATORS: You should only need to translate this format
 #. string if your language is a RTL language (e.g. Arabic,
@@ -21907,7 +21907,7 @@ msgstr "-NUM"
 
 #: parse-options.h:304
 msgid "expiry-date"
-msgstr "термін придатності"
+msgstr "закінчення строку дії"
 
 #: parse-options.h:340
 msgid "no-op (backward compatibility)"
@@ -21919,7 +21919,7 @@ msgstr "надавати більш розгорнутий вивід"
 
 #: parse-options.h:504
 msgid "be more quiet"
-msgstr "поводитися тихіше"
+msgstr "надавати менш розгорнутий вивід"
 
 #: parse-options.h:515
 msgid "use <n> digits to display object names"
@@ -21931,7 +21931,7 @@ msgstr "префіксний шлях до початкового суперпр
 
 #: parse-options.h:569
 msgid "how to strip spaces and #comments from message"
-msgstr "як видалити пробіли та #коментарі з повідомлення"
+msgstr "як прибирати пробіли та #коментарі з допису"
 
 #: parse-options.h:570
 msgid "read pathspec from file"
