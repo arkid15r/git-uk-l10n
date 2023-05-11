@@ -3045,7 +3045,7 @@ msgstr "не вдалося відкрити файл \"%s\""
 #: builtin/bisect.c:340
 #, c-format
 msgid "Invalid command: you're currently in a %s/%s bisect"
-msgstr "Неприпустима команда: наразі ви в процесі в %s/%s бісекції"
+msgstr "Неприпустима команда: наразі ви в процесі %s/%s бісекції"
 
 #: builtin/bisect.c:368
 #, c-format
