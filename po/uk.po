@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-05-10 18:34-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-05-10 20:04-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -21834,11 +21834,11 @@ msgstr ""
 #: parse-options.c:727 parse-options.c:1155
 #, c-format
 msgid "alias of --%s"
-msgstr ""
+msgstr "псевдонім --%s"
 
 #: parse-options.c:985
 msgid "need a subcommand"
-msgstr ""
+msgstr "потрібна підкоманда"
 
 #: parse-options.c:991
 #, c-format
@@ -21853,16 +21853,16 @@ msgstr "невідомий перемикач \"%c\""
 #: parse-options.c:995
 #, c-format
 msgid "unknown non-ascii option in string: `%s'"
-msgstr ""
+msgstr "невідомий non-ascii параметр у рядку: \"%s\""
 
 #: parse-options.c:1019
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: parse-options.c:1033
 #, c-format
 msgid "usage: %s"
-msgstr ""
+msgstr "використання: %s"
 
 #. TRANSLATORS: the colon here should align with the
 #. one in "usage: %s" translation.
@@ -21870,7 +21870,7 @@ msgstr ""
 #: parse-options.c:1048
 #, c-format
 msgid "   or: %s"
-msgstr ""
+msgstr "   або: %s"
 
 #. TRANSLATORS: You should only need to translate this format
 #. string if your language is a RTL language (e.g. Arabic,
@@ -21894,36 +21894,36 @@ msgstr ""
 #: parse-options.c:1069
 #, c-format
 msgid "%*s%s"
-msgstr ""
+msgstr "%*s%s"
 
 #: parse-options.c:1092
 #, c-format
 msgid "    %s"
-msgstr ""
+msgstr "    %s"
 
 #: parse-options.c:1141
 msgid "-NUM"
-msgstr ""
+msgstr "-NUM"
 
 #: parse-options.h:304
 msgid "expiry-date"
-msgstr ""
+msgstr "термін придатності"
 
 #: parse-options.h:340
 msgid "no-op (backward compatibility)"
-msgstr ""
+msgstr "не працює (зворотна сумісність)"
 
 #: parse-options.h:496
 msgid "be more verbose"
-msgstr ""
+msgstr "надавати більш розгорнутий вивід"
 
 #: parse-options.h:504
 msgid "be more quiet"
-msgstr ""
+msgstr "поводитися тихіше"
 
 #: parse-options.h:515
 msgid "use <n> digits to display object names"
-msgstr ""
+msgstr "використовувати <n> цифр для відображення назв обʼєктів"
 
 #: parse-options.h:521
 msgid "prefixed path to initial superproject"
@@ -21931,21 +21931,23 @@ msgstr "префіксний шлях до початкового суперпр
 
 #: parse-options.h:569
 msgid "how to strip spaces and #comments from message"
-msgstr ""
+msgstr "як видалити пробіли та #коментарі з повідомлення"
 
 #: parse-options.h:570
 msgid "read pathspec from file"
-msgstr ""
+msgstr "прочитати визначник шляху з файлу"
 
 #: parse-options.h:571
 msgid ""
 "with --pathspec-from-file, pathspec elements are separated with NUL character"
 msgstr ""
+"за допомогою --pathspec-from-file елементи визначника шляху відокремлюються "
+"символом NUL"
 
 #: path.c:934
 #, c-format
 msgid "Could not make %s writable by group"
-msgstr ""
+msgstr "Не вдалося зробити %s доступним для запису групою"
 
 #: pathspec.c:154
 msgid "Escape character '\\' not allowed as last character in attr value"
