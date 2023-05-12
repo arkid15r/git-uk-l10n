@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.39\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-04-11 16:35-0700\n"
-"PO-Revision-Date: 2023-05-11 17:14-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-05-11 18:03-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -21736,7 +21736,7 @@ msgstr ""
 
 #: pack-write.c:246
 msgid "cannot both write and verify reverse index"
-msgstr ""
+msgstr "неможливо одночасно записувати та звіряти зворотний індекс"
 
 #: pack-write.c:265
 #, c-format
@@ -21755,22 +21755,22 @@ msgstr "не вдалося записати promisor файл \"%s\""
 
 #: packfile.c:642
 msgid "offset before end of packfile (broken .idx?)"
-msgstr ""
+msgstr "зміщення перед кінцем файла пакунка (пошкоджений .idx?)"
 
 #: packfile.c:672
 #, c-format
 msgid "packfile %s cannot be mapped%s"
-msgstr ""
+msgstr "файл пакунка %s не може бути mapped%s"
 
 #: packfile.c:1934
 #, c-format
 msgid "offset before start of pack index for %s (corrupt index?)"
-msgstr ""
+msgstr "зміщення перед початком індекса пакунка для %s (пошкоджений індекс?)"
 
 #: packfile.c:1938
 #, c-format
 msgid "offset beyond end of pack index for %s (truncated index?)"
-msgstr ""
+msgstr "зміщення за межою кінця індекса пакунка для %s (зрізаний індекс?)"
 
 #: parse-options-cb.c:44
 #, c-format
@@ -21780,7 +21780,7 @@ msgstr "неправильно сформована дата закінченн�
 #: parse-options-cb.c:57
 #, c-format
 msgid "option `%s' expects \"always\", \"auto\", or \"never\""
-msgstr ""
+msgstr "опція \"%s\" очікує \"always\", \"auto\" або \"never\""
 
 #: parse-options-cb.c:135 parse-options-cb.c:152
 #, c-format
@@ -21790,47 +21790,47 @@ msgstr "неправильно сформоване імʼя обʼєкта \"%s
 #: parse-options-cb.c:294
 #, c-format
 msgid "option `%s' expects \"%s\" or \"%s\""
-msgstr ""
+msgstr "опція \"%s\" очікує \"%s\" або \"%s\""
 
 #: parse-options.c:59
 #, c-format
 msgid "%s requires a value"
-msgstr ""
+msgstr "%s потребує значення"
 
 #: parse-options.c:94
 #, c-format
 msgid "%s is incompatible with %s"
-msgstr ""
+msgstr "%s несумісний з %s"
 
 #: parse-options.c:99
 #, c-format
 msgid "%s : incompatible with something else"
-msgstr ""
+msgstr "%s : несумісний з чимось іншим"
 
 #: parse-options.c:113 parse-options.c:117
 #, c-format
 msgid "%s takes no value"
-msgstr ""
+msgstr "%s не приймає значення"
 
 #: parse-options.c:115
 #, c-format
 msgid "%s isn't available"
-msgstr ""
+msgstr "%s недоступний"
 
 #: parse-options.c:238
 #, c-format
 msgid "%s expects a non-negative integer value with an optional k/m/g suffix"
-msgstr ""
+msgstr "%s очікує невід'ємне ціле значення з опціональним суфіксом k/m/g"
 
 #: parse-options.c:396
 #, c-format
 msgid "ambiguous option: %s (could be --%s%s or --%s%s)"
-msgstr ""
+msgstr "неоднозначна опція: %s (може бути --%s%s або --%s%s)"
 
 #: parse-options.c:444 parse-options.c:452
 #, c-format
 msgid "did you mean `--%s` (with two dashes)?"
-msgstr ""
+msgstr "ви мали на увазі \"--%s\" (з двома рисками)?"
 
 #: parse-options.c:727 parse-options.c:1155
 #, c-format
