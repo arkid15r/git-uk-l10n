@@ -21754,7 +21754,7 @@ msgstr "не вдалося записати promisor файл \"%s\""
 
 #: packfile.c:642
 msgid "offset before end of packfile (broken .idx?)"
-msgstr "зміщення перед кінцем файла пакунка (несправний .idx?)"
+msgstr "зміщення перед кінцем файла пакунка (пошкоджений .idx?)"
 
 #: packfile.c:672
 #, c-format
