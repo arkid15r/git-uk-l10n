@@ -3165,7 +3165,7 @@ msgstr "неприпустиме посилання: \"%s\""
 
 #: builtin/bisect.c:897
 msgid "You need to start by \"git bisect start\"\n"
-msgstr "Вам потрібно почати з “git bisect start”\n"
+msgstr "Вам потрібно почати з \"git bisect start\"\n"
 
 #. TRANSLATORS: Make sure to include [Y] and [n] in your
 #. translation. The program will only accept English input
