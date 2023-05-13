@@ -1,10 +1,11 @@
 /*
  * Copyright (c) 2006 Rene Scharfe
  */
-#include "cache.h"
+#include "git-compat-util.h"
 #include "config.h"
 #include "archive.h"
 #include "gettext.h"
+#include "git-zlib.h"
 #include "hex.h"
 #include "streaming.h"
 #include "utf8.h"

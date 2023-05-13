@@ -11,7 +11,9 @@
 #define USE_THE_INDEX_VARIABLE
 #include "builtin.h"
 #include "abspath.h"
+#include "advice.h"
 #include "config.h"
+#include "copy.h"
 #include "environment.h"
 #include "gettext.h"
 #include "hex.h"
@@ -20,6 +22,7 @@
 #include "fetch-pack.h"
 #include "refs.h"
 #include "refspec.h"
+#include "object-file.h"
 #include "object-store.h"
 #include "tree.h"
 #include "tree-walk.h"
@@ -36,10 +39,12 @@
 #include "setup.h"
 #include "connected.h"
 #include "packfile.h"
+#include "pkt-line.h"
 #include "list-objects-filter-options.h"
 #include "hook.h"
 #include "bundle.h"
 #include "bundle-uri.h"
+#include "wrapper.h"
 
 /*
  * Overall FIXMEs:
@@ -331,8 +336,18 @@ static void copy_or_link_directory(struct strbuf *src, struct strbuf *dest,
 
 	iter = dir_iterator_begin(src->buf, DIR_ITERATOR_PEDANTIC);
 
-	if (!iter)
+	if (!iter) {
+		if (errno == ENOTDIR) {
+			int saved_errno = errno;
+			struct stat st;
+
+			if (!lstat(src->buf, &st) && S_ISLNK(st.st_mode))
+				die(_("'%s' is a symlink, refusing to clone with --local"),
+				    src->buf);
+			errno = saved_errno;
+		}
 		die_errno(_("failed to start iterator over '%s'"), src->buf);
+	}
 
 	strbuf_addch(src, '/');
 	src_len = src->len;

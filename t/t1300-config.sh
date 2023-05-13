@@ -617,6 +617,36 @@ test_expect_success 'renaming to bogus section is rejected' '
 	test_must_fail git config --rename-section branch.zwei "bogus name"
 '
 
+test_expect_success 'renaming a section with a long line' '
+	{
+		printf "[b]\\n" &&
+		printf "  c = d %1024s [a] e = f\\n" " " &&
+		printf "[a] g = h\\n"
+	} >y &&
+	git config -f y --rename-section a xyz &&
+	test_must_fail git config -f y b.e
+'
+
+test_expect_success 'renaming an embedded section with a long line' '
+	{
+		printf "[b]\\n" &&
+		printf "  c = d %1024s [a] [foo] e = f\\n" " " &&
+		printf "[a] g = h\\n"
+	} >y &&
+	git config -f y --rename-section a xyz &&
+	test_must_fail git config -f y foo.e
+'
+
+test_expect_success 'renaming a section with an overly-long line' '
+	{
+		printf "[b]\\n" &&
+		printf "  c = d %525000s e" " " &&
+		printf "[a] g = h\\n"
+	} >y &&
+	test_must_fail git config -f y --rename-section a xyz 2>err &&
+	grep "refusing to work with overly long line in .y. on line 2" err
+'
+
 cat >> .git/config << EOF
   [branch "zwei"] a = 1 [branch "vier"]
 EOF
@@ -1571,11 +1601,11 @@ test_expect_success 'git config --edit respects core.editor' '
 # malformed configuration files
 test_expect_success 'barf on syntax error' '
 	cat >.git/config <<-\EOF &&
-	# broken section line
+	# broken key=value
 	[section]
 	key garbage
 	EOF
-	test_must_fail git config --get section.key >actual 2>error &&
+	test_must_fail git config --get section.key 2>error &&
 	test_i18ngrep " line 3 " error
 '
 
@@ -1585,17 +1615,17 @@ test_expect_success 'barf on incomplete section header' '
 	[section
 	key = value
 	EOF
-	test_must_fail git config --get section.key >actual 2>error &&
+	test_must_fail git config --get section.key 2>error &&
 	test_i18ngrep " line 2 " error
 '
 
 test_expect_success 'barf on incomplete string' '
 	cat >.git/config <<-\EOF &&
-	# broken section line
+	# broken value string
 	[section]
 	key = "value string
 	EOF
-	test_must_fail git config --get section.key >actual 2>error &&
+	test_must_fail git config --get section.key 2>error &&
 	test_i18ngrep " line 3 " error
 '
 

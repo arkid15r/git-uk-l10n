@@ -1,4 +1,4 @@
-#include "cache.h"
+#include "git-compat-util.h"
 #include "alloc.h"
 #include "dir.h"
 #include "environment.h"
@@ -9,8 +9,10 @@
 #include "submodule-config.h"
 #include "submodule.h"
 #include "strbuf.h"
+#include "object-name.h"
 #include "object-store.h"
 #include "parse-options.h"
+#include "thread-utils.h"
 #include "tree-walk.h"
 
 /*

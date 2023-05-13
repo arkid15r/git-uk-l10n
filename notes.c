@@ -1,8 +1,9 @@
-#include "cache.h"
+#include "git-compat-util.h"
 #include "config.h"
 #include "environment.h"
 #include "hex.h"
 #include "notes.h"
+#include "object-name.h"
 #include "object-store.h"
 #include "blob.h"
 #include "tree.h"
@@ -963,7 +964,7 @@ void string_list_add_refs_from_colon_sep(struct string_list *list,
 	char *globs_copy = xstrdup(globs);
 	int i;
 
-	string_list_split_in_place(&split, globs_copy, ':', -1);
+	string_list_split_in_place(&split, globs_copy, ":", -1);
 	string_list_remove_empty_items(&split, 0);
 
 	for (i = 0; i < split.nr; i++)
@@ -1019,13 +1020,13 @@ void init_notes(struct notes_tree *t, const char *notes_ref,
 	t->root = (struct int_node *) xcalloc(1, sizeof(struct int_node));
 	t->first_non_note = NULL;
 	t->prev_non_note = NULL;
-	t->ref = xstrdup_or_null(notes_ref);
+	t->ref = xstrdup(notes_ref);
 	t->update_ref = (flags & NOTES_INIT_WRITABLE) ? t->ref : NULL;
 	t->combine_notes = combine_notes;
 	t->initialized = 1;
 	t->dirty = 0;
 
-	if (flags & NOTES_INIT_EMPTY || !notes_ref ||
+	if (flags & NOTES_INIT_EMPTY ||
 	    repo_get_oid_treeish(the_repository, notes_ref, &object_oid))
 		return;
 	if (flags & NOTES_INIT_WRITABLE && read_ref(notes_ref, &object_oid))

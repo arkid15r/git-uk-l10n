@@ -1,12 +1,14 @@
 #include "git-compat-util.h"
 #include "commit.h"
 #include "config.h"
+#include "date.h"
 #include "gettext.h"
 #include "run-command.h"
 #include "strbuf.h"
 #include "dir.h"
 #include "ident.h"
 #include "gpg-interface.h"
+#include "path.h"
 #include "sigchain.h"
 #include "tempfile.h"
 #include "alias.h"
@@ -650,7 +652,7 @@ int check_signature(struct signature_check *sigc,
 	gpg_interface_lazy_init();
 
 	sigc->result = 'N';
-	sigc->trust_level = -1;
+	sigc->trust_level = TRUST_UNDEFINED;
 
 	fmt = get_format_by_sig(signature);
 	if (!fmt)

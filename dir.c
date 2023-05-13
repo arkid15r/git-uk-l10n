@@ -9,9 +9,11 @@
 #include "abspath.h"
 #include "alloc.h"
 #include "config.h"
+#include "convert.h"
 #include "dir.h"
 #include "environment.h"
 #include "gettext.h"
+#include "object-file.h"
 #include "object-store.h"
 #include "attr.h"
 #include "refs.h"
@@ -23,6 +25,9 @@
 #include "fsmonitor.h"
 #include "setup.h"
 #include "submodule-config.h"
+#include "symlinks.h"
+#include "trace2.h"
+#include "tree.h"
 #include "wrapper.h"
 
 /*

@@ -4,7 +4,9 @@
 #include "cache.h"
 #include "abspath.h"
 #include "alloc.h"
+#include "base85.h"
 #include "config.h"
+#include "convert.h"
 #include "environment.h"
 #include "gettext.h"
 #include "tempfile.h"
@@ -28,13 +30,18 @@
 #include "string-list.h"
 #include "strvec.h"
 #include "graph.h"
+#include "oid-array.h"
 #include "packfile.h"
+#include "pager.h"
 #include "parse-options.h"
 #include "help.h"
 #include "promisor-remote.h"
 #include "dir.h"
+#include "object-file.h"
+#include "object-name.h"
 #include "setup.h"
 #include "strmap.h"
+#include "ws.h"
 #include "wrapper.h"
 
 #ifdef NO_FAST_WORKING_DIRECTORY
@@ -134,7 +141,7 @@ static int parse_dirstat_params(struct diff_options *options, const char *params
 	int i;
 
 	if (*params_copy)
-		string_list_split_in_place(&params, params_copy, ',', -1);
+		string_list_split_in_place(&params, params_copy, ",", -1);
 	for (i = 0; i < params.nr; i++) {
 		const char *p = params.items[i].string;
 		if (!strcmp(p, "changes")) {

@@ -3,12 +3,14 @@
 #include "object-store.h"
 #include "cache-tree.h"
 #include "mergesort.h"
+#include "convert.h"
 #include "diff.h"
 #include "diffcore.h"
 #include "gettext.h"
 #include "hex.h"
 #include "setup.h"
 #include "tag.h"
+#include "trace2.h"
 #include "blame.h"
 #include "alloc.h"
 #include "commit-slab.h"
@@ -206,8 +208,12 @@ static struct commit *fake_working_tree_commit(struct repository *r,
 
 	origin = make_origin(commit, path);
 
-	ident = fmt_ident("Not Committed Yet", "not.committed.yet",
-			WANT_BLANK_IDENT, NULL, 0);
+	if (contents_from)
+		ident = fmt_ident("External file (--contents)", "external.file",
+				  WANT_BLANK_IDENT, NULL, 0);
+	else
+		ident = fmt_ident("Not Committed Yet", "not.committed.yet",
+				  WANT_BLANK_IDENT, NULL, 0);
 	strbuf_addstr(&msg, "tree 0000000000000000000000000000000000000000\n");
 	for (parent = commit->parents; parent; parent = parent->next)
 		strbuf_addf(&msg, "parent %s\n",

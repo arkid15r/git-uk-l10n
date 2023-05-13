@@ -1,4 +1,4 @@
-#include "cache.h"
+#include "git-compat-util.h"
 #include "alloc.h"
 #include "environment.h"
 #include "gettext.h"
@@ -18,6 +18,8 @@
 #include "commit-reach.h"
 #include "prio-queue.h"
 #include "trace2.h"
+#include "tree.h"
+#include "tree-walk.h"
 
 struct bitmapped_commit {
 	struct commit *commit;

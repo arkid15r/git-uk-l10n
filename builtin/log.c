@@ -12,7 +12,10 @@
 #include "gettext.h"
 #include "hex.h"
 #include "refs.h"
+#include "object-file.h"
+#include "object-name.h"
 #include "object-store.h"
+#include "pager.h"
 #include "color.h"
 #include "commit.h"
 #include "diff.h"
@@ -20,6 +23,7 @@
 #include "revision.h"
 #include "log-tree.h"
 #include "builtin.h"
+#include "oid-array.h"
 #include "tag.h"
 #include "reflog-walk.h"
 #include "patch-ids.h"
@@ -40,6 +44,7 @@
 #include "commit-reach.h"
 #include "range-diff.h"
 #include "tmp-objdir.h"
+#include "tree.h"
 #include "write-or-die.h"
 
 #define MAIL_DEFAULT_WRAP 72
