@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-12 18:16-0700\n"
-"PO-Revision-Date: 2023-05-11 18:03-0700\n"
+"PO-Revision-Date: 2023-05-14 18:27-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -2075,12 +2075,10 @@ msgstr ""
 msgid "not tracking: ambiguous information for ref '%s'"
 msgstr "не відстежується: неоднозначна інформація для посилання \"%s\""
 
-#. #-#-#-#-#  branch.c.po  #-#-#-#-#
 #. TRANSLATORS: This is a line listing a remote with duplicate
 #. refspecs in the advice message below. For RTL languages you'll
 #. probably want to swap the "%s" and leading "  " space around.
 #.
-#. #-#-#-#-#  object-name.c.po  #-#-#-#-#
 #. TRANSLATORS: This is line item of ambiguous object output
 #. from describe_ambiguous_object() above. For RTL languages
 #. you'll probably want to swap the "%s" and leading " " space
@@ -8314,7 +8312,6 @@ msgstr "grep: не вдалося створити потік: %s"
 msgid "invalid number of threads specified (%d) for %s"
 msgstr "невірно вказано кількість потоків (%d) для %s"
 
-#. #-#-#-#-#  grep.c.po  #-#-#-#-#
 #. TRANSLATORS: %s is the configuration
 #. variable for tweaking threads, currently
 #. grep.threads
@@ -20593,7 +20590,7 @@ msgstr ""
 #. conflict in a submodule. The first argument is the submodule
 #. name, and the second argument is the abbreviated id of the
 #. commit that needs to be merged.  For example:
-#.  - go to submodule (mysubmodule), and either merge commit abc1234"
+#. - go to submodule (mysubmodule), and either merge commit abc1234"
 #.
 #: merge-ort.c:4557
 #, c-format
@@ -21422,7 +21419,7 @@ msgstr ""
 #. TRANSLATORS: This is a line of ambiguous commit
 #. object output. E.g.:
 #. *
-#.    "deadbeef commit 2021-01-01 - Some Commit Message"
+#. "deadbeef commit 2021-01-01 - Some Commit Message"
 #.
 #: object-name.c:417
 #, c-format
@@ -21432,7 +21429,7 @@ msgstr "%s коміт %s - %s"
 #. TRANSLATORS: This is a line of ambiguous
 #. tag object output. E.g.:
 #. *
-#.    "deadbeef tag 2022-01-01 - Some Tag Message"
+#. "deadbeef tag 2022-01-01 - Some Tag Message"
 #. *
 #. The second argument is the YYYY-MM-DD found
 #. in the tag.
@@ -21449,7 +21446,7 @@ msgstr "%s тег %s - %s"
 #. tag object output where we couldn't parse
 #. the tag itself. E.g.:
 #. *
-#.    "deadbeef [bad tag, could not parse it]"
+#. "deadbeef [bad tag, could not parse it]"
 #.
 #: object-name.c:449
 #, c-format
@@ -21504,17 +21501,17 @@ msgstr ""
 #: object-name.c:1019
 #, c-format
 msgid "log for '%.*s' only goes back to %s"
-msgstr ""
+msgstr "лог для \"%.*s\" переглядає тільки до %s"
 
 #: object-name.c:1027
 #, c-format
 msgid "log for '%.*s' only has %d entries"
-msgstr ""
+msgstr "лог для \"%.*s\" має лише %d записів"
 
 #: object-name.c:1810
 #, c-format
 msgid "path '%s' exists on disk, but not in '%.*s'"
-msgstr ""
+msgstr "шлях \"%s\" існує на диску, але не в \"%.*s\""
 
 #: object-name.c:1816
 #, c-format
@@ -21522,6 +21519,8 @@ msgid ""
 "path '%s' exists, but not '%s'\n"
 "hint: Did you mean '%.*s:%s' aka '%.*s:./%s'?"
 msgstr ""
+"шлях \"%s\" існує, але не \"%s\"\n"
+"підказка: Ви мали на увазі \"%.*s:%s\" або \"%.*s:./%s\"?"
 
 #: object-name.c:1825
 #, c-format
@@ -21534,6 +21533,8 @@ msgid ""
 "path '%s' is in the index, but not at stage %d\n"
 "hint: Did you mean ':%d:%s'?"
 msgstr ""
+"шлях \"%s\" є в індексі, але відсутній на стадії %d\n"
+"підказка: Ви мали на увазі \":%d:%s\"?"
 
 #: object-name.c:1871
 #, c-format
@@ -21541,11 +21542,13 @@ msgid ""
 "path '%s' is in the index, but not '%s'\n"
 "hint: Did you mean ':%d:%s' aka ':%d:./%s'?"
 msgstr ""
+"шлях \"%s\" є в індексі, але не \"%s\"\n"
+"підказка: Ви мали на увазі \"%d:%s\" або \"%d:./%s\"?"
 
 #: object-name.c:1879
 #, c-format
 msgid "path '%s' exists on disk, but not in the index"
-msgstr ""
+msgstr "шлях \"%s\" існує на диску, але відсутній в індексі"
 
 #: object-name.c:1881
 #, c-format
@@ -21555,11 +21558,12 @@ msgstr "шлях \"%s\" не існує (ні на диску, ні в інде�
 #: object-name.c:1894
 msgid "relative path syntax can't be used outside working tree"
 msgstr ""
+"синтаксис відносного шляху не можна використовувати поза робочим деревом"
 
 #: object-name.c:1933
 #, c-format
 msgid "<object>:<path> required, only <object> '%s' given"
-msgstr ""
+msgstr "потрібно <обʼєкт>:<шлях>, подано лише <обʼєкт> \"%s\""
 
 #: object-name.c:2049
 #, c-format
@@ -21579,7 +21583,7 @@ msgstr "обʼєкт %s є %s, а не %s"
 #: object.c:253
 #, c-format
 msgid "object %s has unknown type id %d"
-msgstr ""
+msgstr "обʼєкт %s має невідомий ідентифікатор типу %d"
 
 #: object.c:266
 #, c-format
@@ -21589,59 +21593,60 @@ msgstr "не вдалося розібрати обʼєкт: %s"
 #: object.c:294 object.c:306
 #, c-format
 msgid "hash mismatch %s"
-msgstr ""
+msgstr "невідповідність хешу %s"
 
 #: pack-bitmap-write.c:816
 msgid "trying to write commit not in index"
-msgstr ""
+msgstr "спроба записати коміт, якого немає в індексі"
 
 #: pack-bitmap.c:153
 msgid "failed to load bitmap index (corrupted?)"
-msgstr ""
+msgstr "не вдалося завантажити bitmap індекс (пошкоджено?)"
 
 #: pack-bitmap.c:175
 msgid "corrupted bitmap index (too small)"
-msgstr ""
+msgstr "пошкоджений bitmap індекс (занадто малий)"
 
 #: pack-bitmap.c:178
 msgid "corrupted bitmap index file (wrong header)"
-msgstr ""
+msgstr "пошкоджений файл bitmap індексу (занадто малий)"
 
 #: pack-bitmap.c:182
 #, c-format
 msgid "unsupported version '%d' for bitmap index file"
-msgstr ""
+msgstr "не підтримувана версія \"%d\" для файлу bitmap індексу"
 
 #: pack-bitmap.c:196
 msgid "corrupted bitmap index file (too short to fit hash cache)"
 msgstr ""
+"пошкоджений файл bitmap індексу (занадто короткий щоб умістити хеш кеш)"
 
 #: pack-bitmap.c:205
 msgid "corrupted bitmap index file (too short to fit lookup table)"
-msgstr ""
+msgstr "пошкоджений файл bitmap індексу (занадто короткий, щоб вмістити таблицю пошуку)"
 
 #: pack-bitmap.c:242
 #, c-format
 msgid "duplicate entry in bitmap index: '%s'"
-msgstr ""
+msgstr "дубльований запис в bitmap індексі: \"%s\""
 
 #: pack-bitmap.c:286
 #, c-format
 msgid "corrupt ewah bitmap: truncated header for entry %d"
-msgstr ""
+msgstr "пошкоджений ewah bitmap: урізаний заголовок для запису %d"
 
 #: pack-bitmap.c:293
 #, c-format
 msgid "corrupt ewah bitmap: commit index %u out of range"
-msgstr ""
+msgstr "пошкоджений ewah bitmap: індекс коміту %u поза межами діапазону"
 
 #: pack-bitmap.c:301
 msgid "corrupted bitmap pack index"
-msgstr ""
+msgstr "пошкоджений індекс пакета bitmap"
 
 #: pack-bitmap.c:307
 msgid "invalid XOR offset in bitmap pack index"
-msgstr ""
+msgstr "невірний XOR зміщення в індексі пакета bitmap"
 
 #: pack-bitmap.c:354 pack-bitmap.c:431
 msgid "cannot fstat bitmap file"
@@ -21649,11 +21654,11 @@ msgstr "неможливо виконати fstat для bitmap файла"
 
 #: pack-bitmap.c:380
 msgid "checksum doesn't match in MIDX and bitmap"
-msgstr ""
+msgstr "контрольна сума не збігається в MIDX і bitmap"
 
 #: pack-bitmap.c:385
 msgid "multi-pack bitmap is missing required reverse index"
-msgstr ""
+msgstr "у багатопакетному bitmap відсутній необхідний зворотний індекс"
 
 #: pack-bitmap.c:391
 #, c-format
@@ -21663,25 +21668,27 @@ msgstr "не вдалося відкрити пакунок %s"
 #: pack-bitmap.c:397
 #, c-format
 msgid "preferred pack (%s) is invalid"
-msgstr ""
+msgstr "бажаний пакунок (%s) є недійсним"
 
 #: pack-bitmap.c:651
 msgid "corrupt bitmap lookup table: triplet position out of index"
-msgstr ""
+msgstr "пошкоджена bitmap таблиця пошуку: триплетна позиція поза індексом"
 
 #: pack-bitmap.c:745
 msgid "corrupt bitmap lookup table: xor chain exceeds entry count"
 msgstr ""
+"пошкоджена bitmap таблиця пошуку: ланцюжок xor перевищує кількість записів"
 
 #: pack-bitmap.c:756
 #, c-format
 msgid "corrupt bitmap lookup table: commit index %u out of range"
 msgstr ""
+"пошкоджена bitmap таблиця пошуку: індекс коміту %u поза межами діапазону"
 
 #: pack-bitmap.c:781 pack-bitmap.c:799
 #, c-format
 msgid "corrupt ewah bitmap: truncated header for bitmap of commit \"%s\""
-msgstr ""
+msgstr "пошкоджений ewah bitmap: урізаний заголовок для bitmap коміту \"%s\""
 
 #: pack-bitmap.c:1937
 #, c-format
@@ -21701,7 +21708,7 @@ msgstr "обʼєкт \"%s\": дійсний тип \"%s\", очікуваний:
 #: pack-bitmap.c:1960 pack-bitmap.c:1975
 #, c-format
 msgid "object not in bitmap: '%s'"
-msgstr ""
+msgstr "обʼєкт не у bitmap: \"%s\""
 
 #: pack-bitmap.c:1992 pack-bitmap.c:2058 pack-bitmap.c:2066
 msgid "failed to load bitmap indexes"
@@ -21714,16 +21721,16 @@ msgstr "ви маєте вказати тільки один коміт для �
 #: pack-bitmap.c:2013
 #, c-format
 msgid "commit '%s' doesn't have an indexed bitmap"
-msgstr ""
+msgstr "коміт \"%s\" не має індексованого bitmap"
 
 #: pack-bitmap.c:2040
 msgid "mismatch in bitmap results"
-msgstr ""
+msgstr "bitmap результати не співпадають"
 
 #: pack-bitmap.c:2258
 #, c-format
 msgid "could not find '%s' in pack '%s' at offset %<PRIuMAX>"
-msgstr ""
+msgstr "не вдалося знайти \"%s\" у пакеті \"%s\" зі зміщенням %<PRIuMAX>"
 
 #: pack-bitmap.c:2294
 #, c-format
@@ -21734,22 +21741,22 @@ msgstr ""
 #: pack-mtimes.c:48
 #, c-format
 msgid "mtimes file %s is too small"
-msgstr ""
+msgstr "mtimes файл %s занадто малий"
 
 #: pack-mtimes.c:59
 #, c-format
 msgid "mtimes file %s has unknown signature"
-msgstr ""
+msgstr "mtimes файл %s має невідомий підпис"
 
 #: pack-mtimes.c:64
 #, c-format
 msgid "mtimes file %s has unsupported version %<PRIu32>"
-msgstr ""
+msgstr "mtimes файл %s має непідтримувану версію %<PRIu32>."
 
 #: pack-mtimes.c:70
 #, c-format
 msgid "mtimes file %s has unsupported hash id %<PRIu32>"
-msgstr ""
+msgstr "mtimes файл %s має непідтримуваний хеш-ідентифікатор %<PRIu32>"
 
 #: pack-mtimes.c:81
 #, c-format
@@ -21759,7 +21766,7 @@ msgstr "mtimes файл %s пошкоджено"
 #: pack-revindex.c:229
 #, c-format
 msgid "reverse-index file %s is too small"
-msgstr ""
+msgstr "файл зі зворотним індексом %s занадто малий"
 
 #: pack-revindex.c:234
 #, c-format
@@ -21769,17 +21776,18 @@ msgstr "файл зворотнього індексу %s пошкоджено"
 #: pack-revindex.c:242
 #, c-format
 msgid "reverse-index file %s has unknown signature"
-msgstr ""
+msgstr "файл зі зворотним індексом %s має невідомий підпис"
 
 #: pack-revindex.c:246
 #, c-format
 msgid "reverse-index file %s has unsupported version %<PRIu32>"
-msgstr ""
+msgstr "файл зі зворотним індексом %s має непідтримувану версію %<PRIu32>"
 
 #: pack-revindex.c:251
 #, c-format
 msgid "reverse-index file %s has unsupported hash id %<PRIu32>"
 msgstr ""
+"файл зі зворотним індексом %s має непідтримуваний хеш-ідентифікатор %<PRIu32>"
 
 #: pack-revindex.c:323
 #, fuzzy
@@ -21789,7 +21797,7 @@ msgstr "неприпустимий %s"
 #: pack-revindex.c:336
 #, c-format
 msgid "invalid rev-index position at %<PRIu64>: %<PRIu32> != %<PRIu32>"
-msgstr ""
+msgstr "невірна rev-index позиція у %<PRIu64>: %<PRIu32> != %<PRIu32>"
 
 #: pack-write.c:248
 msgid "cannot both write and verify reverse index"
