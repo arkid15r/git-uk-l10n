@@ -21501,7 +21501,7 @@ msgstr ""
 #: object-name.c:1019
 #, c-format
 msgid "log for '%.*s' only goes back to %s"
-msgstr "лог для \"%.*s\" переглядає тільки до %s"
+msgstr "лог для \"%.*s\" показує записи тільки до %s"
 
 #: object-name.c:1027
 #, c-format
