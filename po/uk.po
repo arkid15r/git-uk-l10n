@@ -21563,7 +21563,7 @@ msgstr ""
 #: object-name.c:1933
 #, c-format
 msgid "<object>:<path> required, only <object> '%s' given"
-msgstr "потрібно <обʼєкт>:<шлях>, подано лише <обʼєкт> \"%s\""
+msgstr "потрібно <обʼєкт>:<шлях>, надано лише <обʼєкт> \"%s\""
 
 #: object-name.c:2049
 #, c-format
@@ -21583,7 +21583,7 @@ msgstr "обʼєкт %s є %s, а не %s"
 #: object.c:253
 #, c-format
 msgid "object %s has unknown type id %d"
-msgstr "обʼєкт %s має невідомий ідентифікатор типу %d"
+msgstr "обʼєкт %s має невідомий тип ідентифікатора %d"
 
 #: object.c:266
 #, c-format
@@ -21593,7 +21593,7 @@ msgstr "не вдалося розібрати обʼєкт: %s"
 #: object.c:294 object.c:306
 #, c-format
 msgid "hash mismatch %s"
-msgstr "невідповідність хешу %s"
+msgstr "хешу невідповідає %s"
 
 #: pack-bitmap-write.c:816
 msgid "trying to write commit not in index"
@@ -21614,12 +21614,12 @@ msgstr "пошкоджений файл bitmap індексу (занадто м
 #: pack-bitmap.c:182
 #, c-format
 msgid "unsupported version '%d' for bitmap index file"
-msgstr "не підтримувана версія \"%d\" для файлу bitmap індексу"
+msgstr "непідтримувана версія \"%d\" для файлу bitmap індексу"
 
 #: pack-bitmap.c:196
 msgid "corrupted bitmap index file (too short to fit hash cache)"
 msgstr ""
-"пошкоджений файл bitmap індексу (занадто короткий щоб умістити хеш кеш)"
+"пошкоджений файл bitmap індексу (занадто короткий щоб умістити кеш хеша)"
 
 #: pack-bitmap.c:205
 msgid "corrupted bitmap index file (too short to fit lookup table)"
@@ -21668,7 +21668,7 @@ msgstr "не вдалося відкрити пакунок %s"
 #: pack-bitmap.c:397
 #, c-format
 msgid "preferred pack (%s) is invalid"
-msgstr "бажаний пакунок (%s) є недійсним"
+msgstr "бажаний пакунок (%s) є неприпустимим"
 
 #: pack-bitmap.c:651
 msgid "corrupt bitmap lookup table: triplet position out of index"
@@ -21797,7 +21797,7 @@ msgstr "неприпустимий %s"
 #: pack-revindex.c:336
 #, c-format
 msgid "invalid rev-index position at %<PRIu64>: %<PRIu32> != %<PRIu32>"
-msgstr "невірна rev-index позиція у %<PRIu64>: %<PRIu32> != %<PRIu32>"
+msgstr "невірна позиція зворортного індексу у %<PRIu64>: %<PRIu32> != %<PRIu32>"
 
 #: pack-write.c:248
 msgid "cannot both write and verify reverse index"
