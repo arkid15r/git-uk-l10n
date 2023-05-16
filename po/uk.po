@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
-"POT-Creation-Date: 2023-05-12 18:16-0700\n"
+"POT-Creation-Date: 2023-05-15 19:15-0700\n"
 "PO-Revision-Date: 2023-05-14 18:27-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
@@ -2075,10 +2075,12 @@ msgstr ""
 msgid "not tracking: ambiguous information for ref '%s'"
 msgstr "не відстежується: неоднозначна інформація для посилання \"%s\""
 
+#. #-#-#-#-#  branch.c.po  #-#-#-#-#
 #. TRANSLATORS: This is a line listing a remote with duplicate
 #. refspecs in the advice message below. For RTL languages you'll
 #. probably want to swap the "%s" and leading "  " space around.
 #.
+#. #-#-#-#-#  object-name.c.po  #-#-#-#-#
 #. TRANSLATORS: This is line item of ambiguous object output
 #. from describe_ambiguous_object() above. For RTL languages
 #. you'll probably want to swap the "%s" and leading " " space
@@ -8313,6 +8315,7 @@ msgstr "grep: не вдалося створити потік: %s"
 msgid "invalid number of threads specified (%d) for %s"
 msgstr "невірно вказано кількість потоків (%d) для %s"
 
+#. #-#-#-#-#  grep.c.po  #-#-#-#-#
 #. TRANSLATORS: %s is the configuration
 #. variable for tweaking threads, currently
 #. grep.threads
@@ -20591,7 +20594,7 @@ msgstr ""
 #. conflict in a submodule. The first argument is the submodule
 #. name, and the second argument is the abbreviated id of the
 #. commit that needs to be merged.  For example:
-#. - go to submodule (mysubmodule), and either merge commit abc1234"
+#.  - go to submodule (mysubmodule), and either merge commit abc1234"
 #.
 #: merge-ort.c:4557
 #, c-format
@@ -21420,7 +21423,7 @@ msgstr ""
 #. TRANSLATORS: This is a line of ambiguous commit
 #. object output. E.g.:
 #. *
-#. "deadbeef commit 2021-01-01 - Some Commit Message"
+#.    "deadbeef commit 2021-01-01 - Some Commit Message"
 #.
 #: object-name.c:417
 #, c-format
@@ -21430,7 +21433,7 @@ msgstr "%s коміт %s - %s"
 #. TRANSLATORS: This is a line of ambiguous
 #. tag object output. E.g.:
 #. *
-#. "deadbeef tag 2022-01-01 - Some Tag Message"
+#.    "deadbeef tag 2022-01-01 - Some Tag Message"
 #. *
 #. The second argument is the YYYY-MM-DD found
 #. in the tag.
@@ -21447,7 +21450,7 @@ msgstr "%s тег %s - %s"
 #. tag object output where we couldn't parse
 #. the tag itself. E.g.:
 #. *
-#. "deadbeef [bad tag, could not parse it]"
+#.    "deadbeef [bad tag, could not parse it]"
 #.
 #: object-name.c:449
 #, c-format
@@ -21624,7 +21627,9 @@ msgstr ""
 
 #: pack-bitmap.c:205
 msgid "corrupted bitmap index file (too short to fit lookup table)"
-msgstr "пошкоджений файл bitmap індексу (занадто короткий, щоб вмістити таблицю пошуку)"
+msgstr ""
+"пошкоджений файл bitmap індексу (занадто короткий, щоб вмістити таблицю "
+"пошуку)"
 
 #: pack-bitmap.c:242
 #, c-format
@@ -21798,7 +21803,8 @@ msgstr "неприпустимий %s"
 #: pack-revindex.c:336
 #, c-format
 msgid "invalid rev-index position at %<PRIu64>: %<PRIu32> != %<PRIu32>"
-msgstr "невірна позиція зворортного індексу у %<PRIu64>: %<PRIu32> != %<PRIu32>"
+msgstr ""
+"невірна позиція зворортного індексу у %<PRIu64>: %<PRIu32> != %<PRIu32>"
 
 #: pack-write.c:248
 msgid "cannot both write and verify reverse index"
