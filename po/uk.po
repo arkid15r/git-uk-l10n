@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
-"POT-Creation-Date: 2023-05-12 18:16-0700\n"
+"POT-Creation-Date: 2023-05-15 19:15-0700\n"
 "PO-Revision-Date: 2023-05-14 18:27-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
@@ -1035,19 +1035,19 @@ msgid_plural ""
 "git diff header lacks filename information when removing %d leading pathname "
 "components (line %d)"
 msgstr[0] ""
-"у заголовку git diff відсутня інформація про ім’я файлу при видаленні %d "
+"у заголовку git diff відсутня інформація про назву файла при видаленні %d "
 "провідного компонента назви шляху (рядок %d)"
 msgstr[1] ""
-"у заголовку git diff відсутня інформація про ім’я файлу при видаленні %d "
+"у заголовку git diff відсутня інформація про назву файла при видаленні %d "
 "провідних компонентів назви шляху (рядок %d)"
 msgstr[2] ""
-"у заголовку git diff відсутня інформація про ім’я файлу при видаленні %d "
+"у заголовку git diff відсутня інформація про назву файла при видаленні %d "
 "провідних компонентів назви шляху (рядок %d)"
 
 #: apply.c:1413
 #, c-format
 msgid "git diff header lacks filename information (line %d)"
-msgstr "у заголовку git diff відсутня інформація про ім’я файлу (рядок %d)"
+msgstr "у заголовку git diff відсутня інформація про назву файла (рядок %d)"
 
 #: apply.c:1509
 #, c-format
@@ -1398,7 +1398,7 @@ msgstr[2] "Застосування латки %%s з %d відкиданням�
 #: apply.c:4628
 #, c-format
 msgid "truncating .rej filename to %.*s.rej"
-msgstr "скорочення імені файлу .rej до %.*s.rej"
+msgstr "скорочення назви файлу .rej до %.*s.rej"
 
 #: apply.c:4637 apply.c:4642 apply.c:4646
 #, c-format
@@ -1706,7 +1706,7 @@ msgstr "відсутня двокрапка: \"%s\""
 #: archive.c:596
 #, c-format
 msgid "empty file name: '%s'"
-msgstr "порожнє імʼя файлу: \"%s\""
+msgstr "порожня назва файлу: \"%s\""
 
 #: archive.c:643
 msgid "fmt"
@@ -1722,7 +1722,7 @@ msgstr "префікс"
 
 #: archive.c:645
 msgid "prepend prefix to each pathname in the archive"
-msgstr "додати префікс до кожного імені шляху в архіві"
+msgstr "додати префікс до кожної назви шляху в архіві"
 
 #: archive.c:646 archive.c:652 builtin/blame.c:898 builtin/blame.c:902
 #: builtin/blame.c:903 builtin/commit-tree.c:111 builtin/config.c:143
@@ -1820,7 +1820,7 @@ msgstr "Аргумент не підтримується для формату \
 #: attr.c:205
 #, c-format
 msgid "%.*s is not a valid attribute name"
-msgstr "%.*s не є припустимим імʼям атрибута"
+msgstr "%.*s не є припустимою назвою атрибута"
 
 #: attr.c:233
 msgid "unable to add additional attribute"
@@ -1872,7 +1872,7 @@ msgstr "Неможливо бісектувати більше!\n"
 #: bisect.c:772
 #, c-format
 msgid "Not a valid commit name %s"
-msgstr "Не є дійсним імʼям коміта %s"
+msgstr "Не є дійсною назвою коміта %s"
 
 #: bisect.c:797
 #, c-format
@@ -2773,7 +2773,7 @@ msgstr "додати Signed-off-by причеп у допис до коміту"
 
 #: builtin/am.c:2343
 msgid "recode into utf8 (default)"
-msgstr "перекодувати в utf8 (типово)"
+msgstr "перекодувати в utf8 (за замовчуванням)"
 
 #: builtin/am.c:2345
 msgid "pass -k flag to git-mailinfo"
@@ -3248,48 +3248,49 @@ msgstr "не вдалося відкрити файл \"%s\" для запису
 
 #: builtin/bisect.c:1290
 msgid "bisect run cannot continue any more"
-msgstr ""
+msgstr "неможливо продовжити бісекцію"
 
 #: builtin/bisect.c:1292
 msgid "bisect run success"
-msgstr ""
+msgstr "бісекцію завершено успішно"
 
 #: builtin/bisect.c:1295
 msgid "bisect found first bad commit"
-msgstr ""
+msgstr "бісекція знайшла перший поганий коміт"
 
 #: builtin/bisect.c:1298
 #, c-format
 msgid "bisect run failed: 'git bisect %s' exited with error code %d"
 msgstr ""
+"бісекція завершилася невдало: \"git bisect %s\" завершено з кодом помилки %d"
 
 #: builtin/bisect.c:1313
 #, c-format
 msgid "'%s' requires either no argument or a commit"
-msgstr ""
+msgstr "\"%s\" вимагає або відсутності аргументу, або коміт"
 
 #: builtin/bisect.c:1324
 #, c-format
 msgid "'%s' requires 0 or 1 argument"
-msgstr ""
+msgstr "\"%s\" вимагає 0 або 1 аргумент"
 
 #: builtin/bisect.c:1348
 #, c-format
 msgid "'%s' requires 0 arguments"
-msgstr ""
+msgstr "\"%s\" вимагає 0 аргументів"
 
 #: builtin/bisect.c:1367
 msgid "no logfile given"
-msgstr ""
+msgstr "не надано лог-файл"
 
 #: builtin/bisect.c:1403
 #, c-format
 msgid "'%s' failed: no command provided."
-msgstr ""
+msgstr "\"%s\" завершено невдало: не надано команду."
 
 #: builtin/bisect.c:1434
 msgid "need a command"
-msgstr ""
+msgstr "потрібна команда"
 
 #: builtin/bisect.c:1439 builtin/cat-file.c:736
 #, c-format
@@ -3311,32 +3312,32 @@ msgstr "<rev-опції> задокументовані у git-rev-list(1)"
 #: builtin/blame.c:422
 #, c-format
 msgid "expecting a color: %s"
-msgstr ""
+msgstr "очікування кольору: %s"
 
 #: builtin/blame.c:429
 msgid "must end with a color"
-msgstr ""
+msgstr "повинно закінчуватися кольором"
 
 #: builtin/blame.c:859
 #, c-format
 msgid "cannot find revision %s to ignore"
-msgstr ""
+msgstr "неможливо знайти ревізію %s для ігнорування"
 
 #: builtin/blame.c:881
 msgid "show blame entries as we find them, incrementally"
-msgstr ""
+msgstr "показувати blame записи по мірі того, як ми їх знаходимо, поступово"
 
 #: builtin/blame.c:882
 msgid "do not show object names of boundary commits (Default: off)"
-msgstr ""
+msgstr "не показувати назви об’єктів межевих комітів (за замовчуванням: off)"
 
 #: builtin/blame.c:883
 msgid "do not treat root commits as boundaries (Default: off)"
-msgstr ""
+msgstr "не розглядати кореневі коміти як межі (за замовчуванням: off)"
 
 #: builtin/blame.c:884
 msgid "show work cost statistics"
-msgstr ""
+msgstr "показати статистику вартості робіт"
 
 #: builtin/blame.c:885 builtin/checkout.c:1597 builtin/clone.c:110
 #: builtin/commit-graph.c:81 builtin/commit-graph.c:235 builtin/fetch.c:203
@@ -3349,11 +3350,11 @@ msgstr "примусово звітувати прогрес"
 
 #: builtin/blame.c:886
 msgid "show output score for blame entries"
-msgstr ""
+msgstr "показати вихідний показник для blame записів"
 
 #: builtin/blame.c:887
 msgid "show original filename (Default: auto)"
-msgstr ""
+msgstr "показати оригінальне ім’я файлу (за замовчуванням: auto)"
 
 #: builtin/blame.c:888
 msgid "show original linenumber (Default: off)"
@@ -3598,7 +3599,7 @@ msgstr "Гілка %s бісектується в точці %s"
 #: builtin/branch.c:554
 #, c-format
 msgid "Invalid branch name: '%s'"
-msgstr "Неприпустиме імʼя гілки: \"%s\""
+msgstr "Неприпустима назва гілки: \"%s\""
 
 #: builtin/branch.c:559 builtin/branch.c:838 builtin/branch.c:883
 #, c-format
@@ -4794,7 +4795,7 @@ msgstr "нова гілка без джерела"
 
 #: builtin/checkout.c:1621 builtin/merge.c:314
 msgid "update ignored files (default)"
-msgstr "оновити ігноровані файли (типово)"
+msgstr "оновити ігноровані файли (за замовчуванням)"
 
 #: builtin/checkout.c:1624
 msgid "do not check if another worktree is holding the given ref"
@@ -4879,11 +4880,11 @@ msgstr "створити reflog для нової гілки"
 
 #: builtin/checkout.c:1868
 msgid "second guess 'git checkout <no-such-branch>' (default)"
-msgstr "друга здогадка 'git checkout <гілка-не-існує>' (типово)"
+msgstr "друга здогадка \"git checkout <гілка-не-існує>\" (за замовчуванням)"
 
 #: builtin/checkout.c:1869
 msgid "use overlay mode (default)"
-msgstr "використовувати режим накладення (типово)"
+msgstr "використовувати режим накладення (за замовчуванням)"
 
 #: builtin/checkout.c:1918
 msgid "create and switch to a new branch"
@@ -4895,7 +4896,7 @@ msgstr "створити/скинути та переключити на гіл�
 
 #: builtin/checkout.c:1922
 msgid "second guess 'git switch <no-such-branch>'"
-msgstr "друга здогадка 'git switch <гілка-не-існує>' (типово)"
+msgstr "друга здогадка \"git switch <гілка-не-існує>\" (за замовчуванням)"
 
 #: builtin/checkout.c:1924
 msgid "throw away local modifications"
@@ -4911,7 +4912,7 @@ msgstr "відновити індекс"
 
 #: builtin/checkout.c:1964
 msgid "restore the working tree (default)"
-msgstr "відновити робоче дерево (типово)"
+msgstr "відновити робоче дерево (за замовчуванням)"
 
 #: builtin/checkout.c:1966
 msgid "ignore unmerged entries"
@@ -5153,12 +5154,12 @@ msgstr "використовуйте --reference тільки під час кл
 #: builtin/submodule--helper.c:3278 t/helper/test-simple-ipc.c:596
 #: t/helper/test-simple-ipc.c:598
 msgid "name"
-msgstr "імʼя"
+msgstr "назва"
 
 #: builtin/clone.c:141
 msgid "use <name> instead of 'origin' to track upstream"
 msgstr ""
-"використовуйте <імʼя> замість \"origin\" для відстежування першоджерельного "
+"використовуйте <назва> замість \"origin\" для відстежування першоджерельного "
 "сховища"
 
 #: builtin/clone.c:143
@@ -5439,7 +5440,7 @@ msgstr ""
 #: builtin/clone.c:1162 builtin/remote.c:204 builtin/remote.c:731
 #, c-format
 msgid "'%s' is not a valid remote name"
-msgstr "'%s' не є дійсним імʼям віддаленого сховища"
+msgstr "\"%s\" не є дійсною назвою віддаленого сховища"
 
 #: builtin/clone.c:1199
 msgid "--depth is ignored in local clones; use file:// instead."
@@ -7499,7 +7500,7 @@ msgstr ""
 
 #: builtin/fmt-merge-msg.c:30
 msgid "use <name> instead of the real target branch"
-msgstr "використовувати <імʼя> замість реальної цільової гілки"
+msgstr "використовувати <назва> замість реальної цільової гілки"
 
 #: builtin/fmt-merge-msg.c:31
 msgid "file to read from"
@@ -7836,7 +7837,7 @@ msgstr ""
 
 #: builtin/fsck.c:910
 msgid "make reflogs head nodes (default)"
-msgstr "зробити reflogs головними вузлами (типово)"
+msgstr "зробити reflogs головними вузлами (за замовчуванням)"
 
 #: builtin/fsck.c:911
 msgid "also consider packs and alternate objects"
@@ -10229,7 +10230,7 @@ msgstr ""
 
 #: builtin/merge.c:300
 msgid "use <name> instead of the real target"
-msgstr "використовувати <імʼя> замість реальної цілі"
+msgstr "використовувати <назва> замість реальної цілі"
 
 #: builtin/merge.c:303
 msgid "abort the current in-progress merge"
@@ -11613,7 +11614,7 @@ msgstr ""
 
 #: builtin/pack-refs.c:18
 msgid "prune loose refs (default)"
-msgstr "видалити вивільнені посилання (типово)"
+msgstr "видалити вивільнені посилання (за замовчуванням)"
 
 #: builtin/patch-id.c:191
 msgid "git patch-id [--stable | --unstable | --verbatim]"
@@ -11844,7 +11845,7 @@ msgstr "скорочення тегу без <тег>"
 
 #: builtin/push.c:119
 msgid "--delete only accepts plain target ref names"
-msgstr "--delete приймає лише прості імена рефів"
+msgstr "--delete приймає лише прості назви посилань"
 
 #: builtin/push.c:178
 msgid ""
@@ -11908,7 +11909,7 @@ msgstr ""
 "Щоб надіслати історію, що веде до поточного (відокремленого HEAD)\n"
 "стану, скористайтесь командою\n"
 "\n"
-"    git push %s HEAD:<імʼя-віддаленої-гілки>\n"
+"    git push %s HEAD:<назва-віддаленої-гілки>\n"
 
 #: builtin/push.c:220
 msgid ""
@@ -12152,9 +12153,9 @@ msgstr ""
 "Або зазначте URL-адресу з командного рядка, або налаштуйте віддалене сховище "
 "за допомогою\n"
 "\n"
-"    git remote add <ім'я> <адреса>\n"
+"    git remote add <назва> <адреса>\n"
 "\n"
-"а потім виконайте надсилання, використовуючи імʼя віддаленого сховища\n"
+"а потім виконайте надсилання, використовуючи назву віддаленого сховища\n"
 "\n"
 "    git push <ім'я>\n"
 
@@ -12955,7 +12956,7 @@ msgstr ""
 
 #: builtin/remote.c:36
 msgid "git remote add [<options>] <name> <url>"
-msgstr "git remote add [<опції>] <імʼя> <url>"
+msgstr "git remote add [<опції>] <назва> <url>"
 
 #: builtin/remote.c:56
 msgid "git remote set-branches <name> <branch>..."
@@ -12967,11 +12968,11 @@ msgstr ""
 
 #: builtin/remote.c:62
 msgid "git remote show [<options>] <name>"
-msgstr "git remote show [<опції>] <імʼя>"
+msgstr "git remote show [<опції>] <назва>"
 
 #: builtin/remote.c:67
 msgid "git remote prune [<options>] <name>"
-msgstr "git remote prune [<опції>] <імʼя>"
+msgstr "git remote prune [<опції>] <назва>"
 
 #: builtin/remote.c:72
 msgid "git remote update [<options>] [<group> | <remote>]..."
@@ -13647,7 +13648,7 @@ msgstr ""
 #: builtin/replace.c:163
 #, c-format
 msgid "'%s' is not a valid ref name"
-msgstr "\"%s\" не є припустимим імʼям посилання"
+msgstr "\"%s\" не є припустимою назвою посилання"
 
 #: builtin/replace.c:168
 #, c-format
@@ -13690,7 +13691,7 @@ msgstr ""
 
 #: builtin/replace.c:298
 msgid "mktree did not return an object name"
-msgstr "mktree не повернув імʼя обʼєкта"
+msgstr "mktree не повернув назву обʼєкта"
 
 #: builtin/replace.c:307
 #, c-format
@@ -14308,7 +14309,7 @@ msgstr ""
 
 #: builtin/send-pack.c:194
 msgid "remote name"
-msgstr "віддалене імʼя"
+msgstr "віддалена назва"
 
 #: builtin/send-pack.c:207
 msgid "use stateless RPC protocol"
@@ -14428,7 +14429,7 @@ msgstr ""
 
 #: builtin/show-branch.c:661
 msgid "suppress naming strings"
-msgstr "не показувати імʼя"
+msgstr "не показувати назву"
 
 #: builtin/show-branch.c:663
 msgid "include the current branch"
@@ -15506,7 +15507,7 @@ msgstr ""
 
 #: builtin/submodule--helper.c:2931
 msgid "set the default tracking branch"
-msgstr "встановити типову гілку відстежування"
+msgstr "встановити гілку відстежування за замовчуванням"
 
 #: builtin/submodule--helper.c:2935
 msgid "git submodule set-branch [-q|--quiet] (-d|--default) <path>"
@@ -15675,7 +15676,7 @@ msgstr ""
 
 #: builtin/symbolic-ref.c:50
 msgid "recursively dereference (default)"
-msgstr "рекурсивне розіменування (типово)"
+msgstr "рекурсивне розіменування (за замовчуванням)"
 
 #: builtin/symbolic-ref.c:51 builtin/update-ref.c:509
 msgid "reason"
@@ -18254,7 +18255,7 @@ msgstr ""
 #: config.c:3076
 #, c-format
 msgid "invalid section name '%s'"
-msgstr "неприпустиме імʼя секції \"%s\""
+msgstr "неприпустима назва секції \"%s\""
 
 #: config.c:3108
 #, c-format
@@ -18309,7 +18310,7 @@ msgstr "не вдалося встановити \"%s\" в \"%s\""
 #: config.c:3739
 #, c-format
 msgid "invalid section name: %s"
-msgstr "неприпустиме імʼя секції: %s"
+msgstr "неприпустима назва секції: %s"
 
 #: config.c:3779
 #, c-format
@@ -20292,7 +20293,7 @@ msgstr ""
 #: ident.c:503
 #, c-format
 msgid "unable to auto-detect name (got '%s')"
-msgstr "не вдалося автоматично визначити імʼя (отримано \"%s\")"
+msgstr "не вдалося автоматично визначити назву (отримано \"%s\")"
 
 #: ident.c:511
 #, c-format
@@ -20593,7 +20594,7 @@ msgstr ""
 #. conflict in a submodule. The first argument is the submodule
 #. name, and the second argument is the abbreviated id of the
 #. commit that needs to be merged.  For example:
-#. - go to submodule (mysubmodule), and either merge commit abc1234"
+#.  - go to submodule (mysubmodule), and either merge commit abc1234"
 #.
 #: merge-ort.c:4557
 #, c-format
@@ -21422,7 +21423,7 @@ msgstr ""
 #. TRANSLATORS: This is a line of ambiguous commit
 #. object output. E.g.:
 #. *
-#. "deadbeef commit 2021-01-01 - Some Commit Message"
+#.    "deadbeef commit 2021-01-01 - Some Commit Message"
 #.
 #: object-name.c:417
 #, c-format
@@ -21432,7 +21433,7 @@ msgstr "%s коміт %s - %s"
 #. TRANSLATORS: This is a line of ambiguous
 #. tag object output. E.g.:
 #. *
-#. "deadbeef tag 2022-01-01 - Some Tag Message"
+#.    "deadbeef tag 2022-01-01 - Some Tag Message"
 #. *
 #. The second argument is the YYYY-MM-DD found
 #. in the tag.
@@ -21449,7 +21450,7 @@ msgstr "%s тег %s - %s"
 #. tag object output where we couldn't parse
 #. the tag itself. E.g.:
 #. *
-#. "deadbeef [bad tag, could not parse it]"
+#.    "deadbeef [bad tag, could not parse it]"
 #.
 #: object-name.c:449
 #, c-format
@@ -21571,7 +21572,7 @@ msgstr "потрібно <обʼєкт>:<шлях>, надано лише <об�
 #: object-name.c:2049
 #, c-format
 msgid "invalid object name '%.*s'."
-msgstr "неприпустиме імʼя обʼєкта \"%.*s\"."
+msgstr "неприпустима назва обʼєкта \"%.*s\"."
 
 #: object.c:56
 #, c-format
@@ -21626,7 +21627,9 @@ msgstr ""
 
 #: pack-bitmap.c:205
 msgid "corrupted bitmap index file (too short to fit lookup table)"
-msgstr "пошкоджений файл bitmap індексу (занадто короткий, щоб вмістити таблицю пошуку)"
+msgstr ""
+"пошкоджений файл bitmap індексу (занадто короткий, щоб вмістити таблицю "
+"пошуку)"
 
 #: pack-bitmap.c:242
 #, c-format
@@ -21800,7 +21803,8 @@ msgstr "неприпустимий %s"
 #: pack-revindex.c:336
 #, c-format
 msgid "invalid rev-index position at %<PRIu64>: %<PRIu32> != %<PRIu32>"
-msgstr "невірна позиція зворортного індексу у %<PRIu64>: %<PRIu32> != %<PRIu32>"
+msgstr ""
+"невірна позиція зворортного індексу у %<PRIu64>: %<PRIu32> != %<PRIu32>"
 
 #: pack-write.c:248
 msgid "cannot both write and verify reverse index"
@@ -21853,7 +21857,7 @@ msgstr "опція \"%s\" очікує \"always\", \"auto\" або \"never\""
 #: parse-options-cb.c:136 parse-options-cb.c:153
 #, c-format
 msgid "malformed object name '%s'"
-msgstr "неправильно сформоване імʼя обʼєкта \"%s\""
+msgstr "неправильно сформована назва обʼєкта \"%s\""
 
 #: parse-options-cb.c:311
 #, c-format
@@ -22035,7 +22039,7 @@ msgstr "визначник атрибута повинен бути не пор�
 #: pathspec.c:220
 #, c-format
 msgid "invalid attribute name %s"
-msgstr "невірне імʼя атрибуту %s"
+msgstr "невірна назва атрибуту %s"
 
 #: pathspec.c:285
 msgid "global 'glob' and 'noglob' pathspec settings are incompatible"
@@ -22186,7 +22190,7 @@ msgstr "promisor-remote: не вдалося закрити stdin для під�
 #: promisor-remote.c:58
 #, c-format
 msgid "promisor remote name cannot begin with '/': %s"
-msgstr "імʼя віддаленого promisor не може починатися з '/': %s"
+msgstr "назва віддаленого promisor не може починатися з \"/\": %s"
 
 #: promisor-remote.c:268
 #, c-format
@@ -22326,7 +22330,7 @@ msgstr "невідомий формат запису індексу 0x%08x"
 #: read-cache.c:1898
 #, c-format
 msgid "malformed name field in the index, near path '%s'"
-msgstr "невірно сформоване поле імені в індексі біля шляху \"%s\""
+msgstr "невірно сформоване поле назви в індексі біля шляху \"%s\""
 
 #: read-cache.c:1965
 msgid "unordered stage entries in index"
@@ -22785,7 +22789,7 @@ msgstr "неправильно сформований обʼєкт за адре
 #: ref-filter.c:2322
 #, c-format
 msgid "ignoring ref with broken name %s"
-msgstr "ігнорування посилання з пошкодженим іменем %s"
+msgstr "ігнорування посилання з пошкодженою назвою %s"
 
 #: ref-filter.c:2327 refs.c:769
 #, c-format
@@ -22800,7 +22804,7 @@ msgstr "формат: %%(end) частка відсутня"
 #: ref-filter.c:2855
 #, c-format
 msgid "malformed object name %s"
-msgstr "неправильно сформованe імʼя обʼєкта %s"
+msgstr "неправильно сформована назва обʼєкта %s"
 
 #: ref-filter.c:2860
 #, c-format
@@ -22844,7 +22848,7 @@ msgid ""
 "\n"
 "\tgit branch -m <name>\n"
 msgstr ""
-"Використання \"%s\" як назви початкової гілки. Назву типової гілки\n"
+"Використання \"%s\" як назви початкової гілки. Назву гілки за замовчуванням\n"
 "може бути змінено. Щоб налаштувати назву початкової гілки для використання у "
 "всіх\n"
 "ваших нових сховищах, що приховуватиме це попередження, викличте\n"
@@ -22856,7 +22860,7 @@ msgstr ""
 "\"development\". Щойно створену гілку можна перейменувати за допомогою цієї "
 "команди:\n"
 "\n"
-"\tgit branch -m <імʼя>\n"
+"\tgit branch -m <назва>\n"
 
 #: refs.c:680
 #, c-format
@@ -22891,7 +22895,7 @@ msgstr "лог для %s порожній"
 #: refs.c:1211
 #, c-format
 msgid "refusing to update ref with bad name '%s'"
-msgstr "відмова оновлення посилання з невірним іменем \"%s\""
+msgstr "відмова оновлення посилання з невірною назвою \"%s\""
 
 #: refs.c:1291
 #, c-format
@@ -23167,7 +23171,7 @@ msgid ""
 "\n"
 "Neither worked, so we gave up. You must fully qualify the ref."
 msgstr ""
-"Призначення, що ви вказали, не є повним імʼям посилання (таким,\n"
+"Призначення, що ви вказали, не є повною назвою посилання (такою,\n"
 "що починається з \"refs/\"). Ми спробували вгадати, що ви мали на увазі "
 "через:\n"
 "\n"
@@ -23379,7 +23383,7 @@ msgstr "  (використовуйте \"git pull\", щоб злити відд
 #: remote.c:2518
 #, c-format
 msgid "cannot parse expected object name '%s'"
-msgstr "неможливо розібрати очікуване імʼя обʼєкту '%s'"
+msgstr "неможливо розібрати очікувану назву обʼєкту \"%s\""
 
 #: remote.c:2794
 #, c-format
@@ -23389,7 +23393,7 @@ msgstr "неможливо вилучити один компонент з url '
 #: replace-object.c:24
 #, c-format
 msgid "bad replace ref name: %s"
-msgstr "неприпустиме імʼя змінного посилання: %s"
+msgstr "неприпустима назва змінного посилання: %s"
 
 #: replace-object.c:33
 #, c-format
@@ -23597,12 +23601,12 @@ msgstr "віддалений HEAD не є гілкою: \"%.*s\""
 #: scalar.c:345
 msgid "failed to get default branch name from remote; using local default"
 msgstr ""
-"не вдалося отримати типову назву гілки з віддаленого сховища; використано "
-"локальне типовe значення"
+"не вдалося отримати назву гілки за замовчуванням з віддаленого сховища; "
+"використано локальне значення за замовчуванням"
 
 #: scalar.c:358
 msgid "failed to get default branch name"
-msgstr "не вдалося отримати типову назву гілки"
+msgstr "не вдалося отримати назву гілки за замовчуванням"
 
 #: scalar.c:371
 msgid "failed to unregister repository"
@@ -23636,7 +23640,7 @@ msgstr "скалярний клон [<опції>] [--] <сховище> [<ди�
 #: scalar.c:448
 #, c-format
 msgid "cannot deduce worktree name from '%s'"
-msgstr "неможливо вивести імʼя робочого дерева з \"%s\""
+msgstr "неможливо вивести назву робочого дерева з \"%s\""
 
 #: scalar.c:457
 #, c-format
@@ -23646,7 +23650,7 @@ msgstr "директорія \"%s\" вже існує"
 #: scalar.c:484
 #, c-format
 msgid "failed to get default branch for '%s'"
-msgstr "не вдалося отримати типову гілку для \"%s\""
+msgstr "не вдалося отримати гілку за замовчуванням для \"%s\""
 
 #: scalar.c:495
 #, c-format
@@ -24013,7 +24017,7 @@ msgid ""
 msgstr ""
 "Ваше імʼя та адреса електронної пошти були налаштовані автоматично на "
 "основі\n"
-"вашого імені користувача та імені хосту. Будь ласка, перевірте їх "
+"вашого імені користувача та назви хосту. Будь ласка, перевірте їх "
 "правильність.\n"
 "Ви можете приховати це повідомлення, встановивши їх явно. Запустіть\n"
 "наступну команду і дотримуйтесь інструкцій у вашому редакторі, щоб "
@@ -24042,11 +24046,11 @@ msgid ""
 msgstr ""
 "Ваше імʼя та адреса електронної пошти були налаштовані автоматично на "
 "основі\n"
-"вашого імені користувача та імені хосту. Будь ласка, перевірте їх "
+"вашого імені користувача та назви хосту. Будь ласка, перевірте їх "
 "правильність.\n"
 "Ви можете приховати це повідомлення, вказавши їх явно:\n"
 "\n"
-"    git config --global user.name \"Ваше Імʼя\"\n"
+"    git config --global user.name \"Ваше імʼя\"\n"
 "    git config --global user.email you@example.com\n"
 "\n"
 "Після цього ви можете виправити особистість автора, використану для цього "
@@ -24236,12 +24240,12 @@ msgstr "\"%s\" не є припустимою міткою"
 #: sequencer.c:2516
 #, c-format
 msgid "'%s' is not a valid refname"
-msgstr "\"%s\" не є припустимим імʼям посилання"
+msgstr "\"%s\" не є припустимою назвою посилання"
 
 #: sequencer.c:2518
 #, c-format
 msgid "update-ref requires a fully qualified refname e.g. refs/heads/%s"
-msgstr "update-ref потребує повного імені посилання, наприклад, refs/heads/%s"
+msgstr "update-ref потребує повної назви посилання, наприклад, refs/heads/%s"
 
 #: sequencer.c:2555
 #, c-format
@@ -24476,7 +24480,7 @@ msgstr ""
 #: sequencer.c:3694
 #, c-format
 msgid "illegal label name: '%.*s'"
-msgstr "неправомірна назва мітки: \"%.*s\""
+msgstr "неприпустима назва мітки: \"%.*s\""
 
 #: sequencer.c:3774
 #, c-format
@@ -25194,7 +25198,7 @@ msgstr ""
 #: submodule.c:2296 submodule.c:2375
 #, c-format
 msgid "could not lookup name for submodule '%s'"
-msgstr "не вдалося знайти імʼя для підмодуля \"%s\""
+msgstr "не вдалося знайти назву для підмодуля \"%s\""
 
 #: submodule.c:2300
 #, c-format
@@ -25251,7 +25255,8 @@ msgstr "очищати дерево кешу перед кожною ітера�
 
 #: t/helper/test-cache-tree.c:29
 msgid "number of entries in the cache tree to invalidate (default 0)"
-msgstr "кількість записів у дереві кешу, які потрібно анулювати (типово 0)"
+msgstr ""
+"кількість записів у дереві кешу, які потрібно анулювати (за замовчуванням 0)"
 
 #: t/helper/test-fast-rebase.c:150
 msgid "unhandled options"
@@ -25280,43 +25285,43 @@ msgstr "вихід відразу після показу здібностей"
 
 #: t/helper/test-simple-ipc.c:582
 msgid "test-helper simple-ipc is-active    [<name>] [<options>]"
-msgstr "test-helper simple-ipc is-active    [<імʼя>] [<опції>]"
+msgstr "test-helper simple-ipc is-active    [<назва>] [<опції>]"
 
 #: t/helper/test-simple-ipc.c:583
 msgid "test-helper simple-ipc run-daemon   [<name>] [<threads>]"
-msgstr "test-helper simple-ipc run-daemon   [<імʼя>] [<потоки>]"
+msgstr "test-helper simple-ipc run-daemon   [<назва>] [<потоки>]"
 
 #: t/helper/test-simple-ipc.c:584
 msgid "test-helper simple-ipc start-daemon [<name>] [<threads>] [<max-wait>]"
 msgstr ""
-"test-helper simple-ipc start-daemon [<імʼя>] [<потоки>] [<максимальний час "
+"test-helper simple-ipc start-daemon [<назва>] [<потоки>] [<максимальний час "
 "очікування>]"
 
 #: t/helper/test-simple-ipc.c:585
 msgid "test-helper simple-ipc stop-daemon  [<name>] [<max-wait>]"
 msgstr ""
-"test-helper simple-ipc stop-daemon  [<імʼя>] [<максимальний час очікування>]"
+"test-helper simple-ipc stop-daemon  [<назва>] [<максимальний час очікування>]"
 
 #: t/helper/test-simple-ipc.c:586
 msgid "test-helper simple-ipc send         [<name>] [<token>]"
-msgstr "test-helper simple-ipc send         [<імʼя>] [<токен>]"
+msgstr "test-helper simple-ipc send         [<назва>] [<токен>]"
 
 #: t/helper/test-simple-ipc.c:587
 msgid "test-helper simple-ipc sendbytes    [<name>] [<bytecount>] [<byte>]"
 msgstr ""
-"test-helper simple-ipc sendbytes    [<імʼя>] [<кількість байт>] [<байт>]"
+"test-helper simple-ipc sendbytes    [<назва>] [<кількість байт>] [<байт>]"
 
 #: t/helper/test-simple-ipc.c:588
 msgid ""
 "test-helper simple-ipc multiple     [<name>] [<threads>] [<bytecount>] "
 "[<batchsize>]"
 msgstr ""
-"test-helper simple-ipc multiple     [<імʼя>] [<потоки>] [<кількість байт>] "
+"test-helper simple-ipc multiple     [<назва>] [<потоки>] [<кількість байт>] "
 "[<розмір пакетів>]"
 
 #: t/helper/test-simple-ipc.c:596
 msgid "name or pathname of unix domain socket"
-msgstr "імʼя або назва шляху сокета домену unix"
+msgstr "назва або назва шляху сокета домену unix"
 
 #: t/helper/test-simple-ipc.c:598
 msgid "named-pipe name"
@@ -25705,7 +25710,7 @@ msgstr "невірно визначений режим у записі дере�
 
 #: tree-walk.c:48
 msgid "empty filename in tree entry"
-msgstr "порожнє імʼя файлу у записі дерева"
+msgstr "порожня назва файлу у записі дерева"
 
 #: tree-walk.c:127
 msgid "too-short tree file"
@@ -26012,7 +26017,7 @@ msgstr "\"file:\" URL-адреса не може мати номера порт�
 
 #: urlmatch.c:250
 msgid "invalid characters in host name"
-msgstr "неприпустимі символи в імені хоста"
+msgstr "неприпустимі символи в назві хоста"
 
 #: urlmatch.c:295 urlmatch.c:306
 msgid "invalid port number"
