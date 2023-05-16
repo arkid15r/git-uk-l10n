@@ -21501,12 +21501,12 @@ msgstr ""
 #: object-name.c:1019
 #, c-format
 msgid "log for '%.*s' only goes back to %s"
-msgstr "лог для \"%.*s\" показує записи тільки до %s"
+msgstr "лог для \"%.*s\" містить записи тільки до %s"
 
 #: object-name.c:1027
 #, c-format
 msgid "log for '%.*s' only has %d entries"
-msgstr "лог для \"%.*s\" має лише %d записів"
+msgstr "лог для \"%.*s\" містить лише %d записів"
 
 #: object-name.c:1810
 #, c-format
@@ -21593,7 +21593,7 @@ msgstr "не вдалося розібрати обʼєкт: %s"
 #: object.c:294 object.c:306
 #, c-format
 msgid "hash mismatch %s"
-msgstr "хешу невідповідає %s"
+msgstr "невідповідність хешу %s"
 
 #: pack-bitmap-write.c:816
 msgid "trying to write commit not in index"
@@ -21642,11 +21642,11 @@ msgstr "пошкоджений ewah bitmap: індекс коміту %u поз�
 
 #: pack-bitmap.c:301
 msgid "corrupted bitmap pack index"
-msgstr "пошкоджений індекс пакета bitmap"
+msgstr "пошкоджений bitmap індекс пакунка"
 
 #: pack-bitmap.c:307
 msgid "invalid XOR offset in bitmap pack index"
-msgstr "невірний XOR зміщення в індексі пакета bitmap"
+msgstr "невірне XOR зміщення в bitmap індексі пакунка"
 
 #: pack-bitmap.c:354 pack-bitmap.c:431
 msgid "cannot fstat bitmap file"
@@ -21658,7 +21658,7 @@ msgstr "контрольна сума не збігається в MIDX і bitma
 
 #: pack-bitmap.c:385
 msgid "multi-pack bitmap is missing required reverse index"
-msgstr "у багатопакетному bitmap відсутній необхідний зворотний індекс"
+msgstr "у мультіпакунковому bitmap відсутній необхідний зворотний індекс"
 
 #: pack-bitmap.c:391
 #, c-format
@@ -21677,7 +21677,7 @@ msgstr "пошкоджена bitmap таблиця пошуку: триплет�
 #: pack-bitmap.c:745
 msgid "corrupt bitmap lookup table: xor chain exceeds entry count"
 msgstr ""
-"пошкоджена bitmap таблиця пошуку: ланцюжок xor перевищує кількість записів"
+"пошкоджена bitmap таблиця пошуку: xor ланцюжок перевищує кількість записів"
 
 #: pack-bitmap.c:756
 #, c-format
@@ -21725,12 +21725,12 @@ msgstr "коміт \"%s\" не має індексованого bitmap"
 
 #: pack-bitmap.c:2040
 msgid "mismatch in bitmap results"
-msgstr "bitmap результати не співпадають"
+msgstr "розбіжність в bitmap результатах"
 
 #: pack-bitmap.c:2258
 #, c-format
 msgid "could not find '%s' in pack '%s' at offset %<PRIuMAX>"
-msgstr "не вдалося знайти \"%s\" у пакеті \"%s\" зі зміщенням %<PRIuMAX>"
+msgstr "не вдалося знайти \"%s\" у пакунку \"%s\" зі зміщенням %<PRIuMAX>"
 
 #: pack-bitmap.c:2294
 #, c-format
@@ -21766,7 +21766,7 @@ msgstr "mtimes файл %s пошкоджено"
 #: pack-revindex.c:229
 #, c-format
 msgid "reverse-index file %s is too small"
-msgstr "файл зі зворотним індексом %s занадто малий"
+msgstr "файл зворотного індексу %s занадто малий"
 
 #: pack-revindex.c:234
 #, c-format
@@ -21776,18 +21776,18 @@ msgstr "файл зворотнього індексу %s пошкоджено"
 #: pack-revindex.c:242
 #, c-format
 msgid "reverse-index file %s has unknown signature"
-msgstr "файл зі зворотним індексом %s має невідомий підпис"
+msgstr "файл зворотного індексу %s має невідомий підпис"
 
 #: pack-revindex.c:246
 #, c-format
 msgid "reverse-index file %s has unsupported version %<PRIu32>"
-msgstr "файл зі зворотним індексом %s має непідтримувану версію %<PRIu32>"
+msgstr "файл зворотного індексу %s має непідтримувану версію %<PRIu32>"
 
 #: pack-revindex.c:251
 #, c-format
 msgid "reverse-index file %s has unsupported hash id %<PRIu32>"
 msgstr ""
-"файл зі зворотним індексом %s має непідтримуваний хеш-ідентифікатор %<PRIu32>"
+"файл зворотного індексу %s має непідтримуваний хеш-ідентифікатор %<PRIu32>"
 
 #: pack-revindex.c:323
 #, fuzzy
