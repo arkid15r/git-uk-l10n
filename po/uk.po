@@ -21236,7 +21236,7 @@ msgstr "пошкоджено вільний обʼєкт \"%s\""
 #: object-file.c:1368 object-file.c:2753
 #, c-format
 msgid "garbage at end of loose object '%s'"
-msgstr "непотріб в кінці вільного обʼєкту \"%s\""
+msgstr "непотріб в кінці вільного обʼєкта \"%s\""
 
 #: object-file.c:1478
 #, c-format
@@ -21322,7 +21322,7 @@ msgstr "збентежений нестабільними початковими
 #: object-file.c:2168
 #, c-format
 msgid "write stream object %ld != %<PRIuMAX>"
-msgstr "записати обʼєкт потоку %ld != %<PRIuMAX>"
+msgstr "запис обʼєкта потока %ld != %<PRIuMAX>"
 
 #: object-file.c:2179
 #, c-format
@@ -21351,7 +21351,7 @@ msgstr ""
 
 #: object-file.c:2350
 msgid "refusing to create malformed object"
-msgstr "відмова створення неправильно сформованого обʼєкта"
+msgstr "відмова створення невірно сформованого обʼєкта"
 
 #: object-file.c:2419
 #, c-format
@@ -21508,9 +21508,9 @@ msgstr ""
 "\n"
 "  git switch -c $br $(git rev-parse ...)\n"
 "\n"
-"де \"$br\" чомусь є порожнім і буде створено 40-hex посилання. Будь ласка\n"
-"перевірте ці посилання і, можливо, видаліть їх. Вимкніть це повідомлення за "
-"допомогою\n"
+"де \"$br\" якимось чином порожнє, створює 40-hex посилання. Будь ласка\n"
+"перевірте ці посилання і, можливо, видаліть їх. Щоб вимкнути це повідомлення, "
+"виконайте\n"
 "\"git config advice.objectNameWarning false\""
 
 #: object-name.c:1019
