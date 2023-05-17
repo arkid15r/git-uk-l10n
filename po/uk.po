@@ -21236,7 +21236,7 @@ msgstr "пошкоджено вільний обʼєкт \"%s\""
 #: object-file.c:1368 object-file.c:2753
 #, c-format
 msgid "garbage at end of loose object '%s'"
-msgstr "непотріб в кінці вільного об'єкту \"%s\""
+msgstr "непотріб в кінці вільного обʼєкту \"%s\""
 
 #: object-file.c:1478
 #, c-format
