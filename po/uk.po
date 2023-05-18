@@ -21147,7 +21147,7 @@ msgstr "Невірнe notes.rewriteMode значення: \"%s""
 #: notes-utils.c:118
 #, c-format
 msgid "Refusing to rewrite notes in %s (outside of refs/notes/)"
-msgstr "Відмова від переписування нотаток у %s (за межами посилань/нотаток/)"
+msgstr "Відмова від переписування нотаток у %s (за межами refs/notes/)"
 
 #. TRANSLATORS: The first %s is the name of
 #. the environment variable, the second %s is
@@ -21172,7 +21172,7 @@ msgstr "не вдалося нормалізувати шлях альтерна
 #, c-format
 msgid "%s: ignoring alternate object stores, nesting too deep"
 msgstr ""
-"%s: ігнорування альтернативних збережень об’єктів, надто глибока вкладеність"
+"%s: ігнорування місць збереження спільних об’єктів, надто глибока вкладеність"
 
 #: object-file.c:655
 msgid "unable to fdopen alternates lockfile"
@@ -21219,7 +21219,7 @@ msgstr "не вдалося знайти директорію обʼєктів, 
 #: object-file.c:880
 #, c-format
 msgid "invalid line while parsing alternate refs: %s"
-msgstr "неприпустимий рядок при розбиранні альтернативних посилань: %s"
+msgstr "неприпустимий рядок при розбиранні посилань спільних обʼєктів: %s"
 
 #: object-file.c:1036
 #, c-format
