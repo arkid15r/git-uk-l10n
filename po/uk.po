@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-05-16 17:28-0700\n"
+"PO-Revision-Date: 2023-05-17 19:56-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -21093,7 +21093,7 @@ msgstr "Підрахунок обʼєктів, на які є посилання
 
 #: midx.c:1867
 msgid "Finding and deleting unreferenced packfiles"
-msgstr ""
+msgstr "Пошук і видалення файлів пакунків без посилань"
 
 #: midx.c:2065
 msgid "could not start pack-objects"
@@ -21125,25 +21125,29 @@ msgid ""
 "Please, use 'git notes merge --commit' or 'git notes merge --abort' to "
 "commit/abort the previous merge before you start a new notes merge."
 msgstr ""
+"Ви не завершили попереднє злиття нотаток (існує %s).\n"
+"Будь ласка, скористайтеся командами \"git notes merge --commit\" або \"git "
+"notes merge --abort\", щоб зробити коміт/скасувати попереднє злиття, перш ніж "
+"розпочати нове злиття нотаток."
 
 #: notes-merge.c:290
 #, c-format
 msgid "You have not concluded your notes merge (%s exists)."
-msgstr ""
+msgstr "Ви не завершили злиття ваших нотаток (%s існує)."
 
 #: notes-utils.c:49
 msgid "Cannot commit uninitialized/unreferenced notes tree"
-msgstr ""
+msgstr "Неможливо зробити коміт неініціалізованого/непосиланого дерева нотаток"
 
 #: notes-utils.c:108
 #, c-format
 msgid "Bad notes.rewriteMode value: '%s'"
-msgstr ""
+msgstr "Невірнe notes.rewriteMode значення: \"%s""
 
 #: notes-utils.c:118
 #, c-format
 msgid "Refusing to rewrite notes in %s (outside of refs/notes/)"
-msgstr ""
+msgstr "Відмова від переписування нотаток у %s (за межами посилань/нотаток/)"
 
 #. TRANSLATORS: The first %s is the name of
 #. the environment variable, the second %s is
@@ -21157,7 +21161,7 @@ msgstr "Невірне %s значення: \"%s\""
 #: object-file.c:473
 #, c-format
 msgid "object directory %s does not exist; check .git/objects/info/alternates"
-msgstr ""
+msgstr "директорія об’єкта %s не існує; перевірте .git/objects/info/alternates"
 
 #: object-file.c:533
 #, c-format
@@ -21168,6 +21172,7 @@ msgstr "не вдалося нормалізувати шлях альтерна
 #, c-format
 msgid "%s: ignoring alternate object stores, nesting too deep"
 msgstr ""
+"%s: ігнорування альтернативних збережень об’єктів, надто глибока вкладеність"
 
 #: object-file.c:655
 msgid "unable to fdopen alternates lockfile"
@@ -21214,12 +21219,12 @@ msgstr "не вдалося знайти директорію обʼєктів, 
 #: object-file.c:880
 #, c-format
 msgid "invalid line while parsing alternate refs: %s"
-msgstr ""
+msgstr "неприпустимий рядок при розбиранні альтернативних посилань: %s"
 
 #: object-file.c:1036
 #, c-format
 msgid "attempting to mmap %<PRIuMAX> over limit %<PRIuMAX>"
-msgstr ""
+msgstr "спроба виконати mmap %<PRIuMAX> за межею %<PRIuMAX>"
 
 #: object-file.c:1071
 #, c-format
@@ -21512,8 +21517,8 @@ msgstr ""
 "  git switch -c $br $(git rev-parse ...)\n"
 "\n"
 "де \"$br\" якимось чином порожнє, створює 40-hex посилання. Будь ласка\n"
-"перевірте ці посилання і, можливо, видаліть їх. Щоб вимкнути це повідомлення, "
-"виконайте\n"
+"перевірте ці посилання і, можливо, видаліть їх. Щоб вимкнути це "
+"повідомлення, виконайте\n"
 "\"git config advice.objectNameWarning false\""
 
 #: object-name.c:1019
@@ -21810,9 +21815,8 @@ msgstr ""
 "файл зворотного індексу %s має непідтримуваний хеш-ідентифікатор %<PRIu32>"
 
 #: pack-revindex.c:323
-#, fuzzy
 msgid "invalid checksum"
-msgstr "неприпустимий %s"
+msgstr "неприпустима контрольна сума"
 
 #: pack-revindex.c:336
 #, c-format
