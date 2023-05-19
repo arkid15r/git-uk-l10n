@@ -21020,19 +21020,19 @@ msgstr ""
 #: midx.c:1468
 #, c-format
 msgid "preferred pack '%s' is expired"
-msgstr ""
+msgstr "у бажаного пакета \"%s\" закінчився термін дії"
 
 #: midx.c:1481
 msgid "no pack files to index."
-msgstr ""
+msgstr "немає файлів пакунків для індексації."
 
 #: midx.c:1488
 msgid "refusing to write multi-pack .bitmap without any objects"
-msgstr ""
+msgstr "відмова від запису мультіпакункового .bitmap без обʼєктів"
 
 #: midx.c:1552
 msgid "could not write multi-pack bitmap"
-msgstr ""
+msgstr "не вдалося записати мультіпакунковий bitmap"
 
 #: midx.c:1566
 msgid "could not write multi-pack-index"
@@ -21045,11 +21045,11 @@ msgstr "не вдалося очистити multi-pack-index при %s"
 
 #: midx.c:1723
 msgid "multi-pack-index file exists, but failed to parse"
-msgstr ""
+msgstr "multi-pack-index файл існує, але його не вдалося розібрати"
 
 #: midx.c:1731
 msgid "incorrect checksum"
-msgstr ""
+msgstr "невірна контрольна сума"
 
 #: midx.c:1734
 msgid "Looking for referenced packfiles"
@@ -21063,20 +21063,20 @@ msgstr ""
 
 #: midx.c:1754
 msgid "the midx contains no oid"
-msgstr ""
+msgstr "midx не містить oid"
 
 #: midx.c:1763
 msgid "Verifying OID order in multi-pack-index"
-msgstr ""
+msgstr "Перевірка OID послідовності в multi-pack-index"
 
 #: midx.c:1772
 #, c-format
 msgid "oid lookup out of order: oid[%d] = %s >= %s = oid[%d]"
-msgstr ""
+msgstr "пошук oid у неправильній послідовності: oid[%d] = %s >= %s = oid[%d]"
 
 #: midx.c:1792
 msgid "Sorting objects by packfile"
-msgstr ""
+msgstr "Сортування обʼєктів за файлом пакунка"
 
 #: midx.c:1799
 msgid "Verifying object offsets"
@@ -21085,17 +21085,17 @@ msgstr "Перевірка зміщень обʼєкта"
 #: midx.c:1815
 #, c-format
 msgid "failed to load pack entry for oid[%d] = %s"
-msgstr ""
+msgstr "не вдалося завантажити запис пакунка для oid[%d] = %s"
 
 #: midx.c:1821
 #, c-format
 msgid "failed to load pack-index for packfile %s"
-msgstr ""
+msgstr "не вдалося завантажити індекс файла пакунка %s"
 
 #: midx.c:1830
 #, c-format
 msgid "incorrect object offset for oid[%d] = %s: %<PRIx64> != %<PRIx64>"
-msgstr ""
+msgstr "невірне зміщення обʼєкта для oid[%d] = %s: %<PRIx64> != %<PRIx64>"
 
 #: midx.c:1857
 msgid "Counting referenced objects"
