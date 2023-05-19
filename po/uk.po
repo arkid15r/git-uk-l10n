@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-05-18 17:34-0700\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-05-18 17:33-0700\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -1661,7 +1661,7 @@ msgstr "неможливо прочитати \"%s\""
 #: archive.c:470
 #, c-format
 msgid "pathspec '%s' matches files outside the current directory"
-msgstr ""
+msgstr "визначник шляху \"%s\" відповідає файлам поза поточною директорією"
 
 #: archive.c:493 builtin/add.c:227 builtin/add.c:622 builtin/rm.c:344
 #, c-format
@@ -3462,29 +3462,31 @@ msgstr ""
 #.
 #: builtin/blame.c:1021
 msgid "4 years, 11 months ago"
-msgstr ""
+msgstr "4 роки, 11 місяців тому"
 
 #: builtin/blame.c:1137
 #, c-format
 msgid "file %s has only %lu line"
 msgid_plural "file %s has only %lu lines"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "файл %s містить лише %lu рядок"
+msgstr[1] "файл %s містить лише %lu рядки"
+msgstr[2] "файл %s містить лише %lu рядків"
 
 #: builtin/blame.c:1185
 msgid "Blaming lines"
-msgstr ""
+msgstr "Blaming рядки"
 
 #: builtin/branch.c:34
 msgid "git branch [<options>] [-r | -a] [--merged] [--no-merged]"
-msgstr ""
+msgstr "git branch [<опції>] [-r | -a] [--merged] [--no-merged]"
 
 #: builtin/branch.c:35
 msgid ""
 "git branch [<options>] [-f] [--recurse-submodules] <branch-name> [<start-"
 "point>]"
 msgstr ""
+"git branch [<опції>] [-f] [--recurse-submodules] <назва-гілки> [<початкова-"
+"точка>]"
 
 #: builtin/branch.c:36
 msgid "git branch [<options>] [-l] [<pattern>...]"
@@ -3516,6 +3518,8 @@ msgid ""
 "deleting branch '%s' that has been merged to\n"
 "         '%s', but not yet merged to HEAD."
 msgstr ""
+"видалення гілки \"%s\", яка була злита з\n"
+"         \"%s\", але ще не злита з HEAD."
 
 #: builtin/branch.c:176
 #, c-format
@@ -3523,6 +3527,8 @@ msgid ""
 "not deleting branch '%s' that is not yet merged to\n"
 "         '%s', even though it is merged to HEAD."
 msgstr ""
+"утримання гілки \"%s\", яка ще не була злита з\n"
+"         \"%s\", незважаючи на те, що вже злита з HEAD."
 
 #: builtin/branch.c:190
 #, c-format
@@ -3535,6 +3541,8 @@ msgid ""
 "The branch '%s' is not fully merged.\n"
 "If you are sure you want to delete it, run 'git branch -D %s'."
 msgstr ""
+"Гілка \"%s\" злита не повністю.\n"
+"Якщо ви впевнені, що хочете її видалити, виконайте \"git branch -D %s\"."
 
 #: builtin/branch.c:207
 msgid "Update of config-file failed"
@@ -21778,7 +21786,7 @@ msgstr "mtimes файл %s має невідомий підпис"
 #: pack-mtimes.c:64
 #, c-format
 msgid "mtimes file %s has unsupported version %<PRIu32>"
-msgstr "mtimes файл %s має непідтримувану версію %<PRIu32>."
+msgstr "mtimes файл %s має непідтримувану версію %<PRIu32>"
 
 #: pack-mtimes.c:70
 #, c-format
