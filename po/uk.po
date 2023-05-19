@@ -21012,7 +21012,7 @@ msgstr ""
 #: midx.c:1468
 #, c-format
 msgid "preferred pack '%s' is expired"
-msgstr "у бажаний пакета \"%s\" закінчився термін придатності"
+msgstr "у бажаного пакета \"%s\" закінчився термін дії"
 
 #: midx.c:1481
 msgid "no pack files to index."
@@ -21020,7 +21020,7 @@ msgstr "немає файлів пакунків для індексації."
 
 #: midx.c:1488
 msgid "refusing to write multi-pack .bitmap without any objects"
-msgstr "відмова від запису мультипакетного .bitmap без обʼєктів"
+msgstr "відмова від запису мультіпакункового .bitmap без обʼєктів"
 
 #: midx.c:1552
 msgid "could not write multi-pack bitmap"
@@ -21087,7 +21087,7 @@ msgstr "не вдалося завантажити індекс файла па�
 #: midx.c:1830
 #, c-format
 msgid "incorrect object offset for oid[%d] = %s: %<PRIx64> != %<PRIx64>"
-msgstr "неправильне зміщення обʼєкта для oid[%d] = %s: %<PRIx64> != %<PRIx64>"
+msgstr "невірне зміщення обʼєкта для oid[%d] = %s: %<PRIx64> != %<PRIx64>"
 
 #: midx.c:1857
 msgid "Counting referenced objects"
