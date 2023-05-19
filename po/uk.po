@@ -21012,7 +21012,7 @@ msgstr ""
 #: midx.c:1468
 #, c-format
 msgid "preferred pack '%s' is expired"
-msgstr "бажаний пакет \"%s\" закінчився"
+msgstr "у бажаний пакета \"%s\" закінчився термін придатності"
 
 #: midx.c:1481
 msgid "no pack files to index."
