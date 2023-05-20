@@ -3546,7 +3546,7 @@ msgstr ""
 
 #: builtin/branch.c:207
 msgid "Update of config-file failed"
-msgstr ""
+msgstr "Не вдалося оновити конфігураційний файл"
 
 #: builtin/branch.c:242
 msgid "cannot use -a with -d"
@@ -3563,11 +3563,13 @@ msgid "remote-tracking branch '%s' not found."
 msgstr "віддалено відстежувана гілка \"%s\" не знайдена."
 
 #: builtin/branch.c:286
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "branch '%s' not found.\n"
 "Did you forget --remote?"
-msgstr "гілка \"%s\" не знайдена."
+msgstr ""
+"гілка \"%s\" не знайдена.\n"
+"Ви забули --remote?"
 
 #: builtin/branch.c:290
 #, c-format
@@ -3577,7 +3579,7 @@ msgstr "гілка \"%s\" не знайдена."
 #: builtin/branch.c:323
 #, c-format
 msgid "Deleted remote-tracking branch %s (was %s).\n"
-msgstr ""
+msgstr "Видалено гілку віддаленого відстеження %s (була %s).\n"
 
 #: builtin/branch.c:324
 #, c-format
@@ -3600,7 +3602,7 @@ msgstr "HEAD (%s) пунктів за межами refs/heads/"
 #: builtin/branch.c:527
 #, c-format
 msgid "Branch %s is being rebased at %s"
-msgstr ""
+msgstr "Гілка %s перебазується на %s"
 
 #: builtin/branch.c:531
 #, c-format
@@ -3624,11 +3626,11 @@ msgstr "Немає гілки з ім’ям \"%s\"."
 
 #: builtin/branch.c:590
 msgid "Branch rename failed"
-msgstr ""
+msgstr "Не вдалося перейменувати гілку"
 
 #: builtin/branch.c:592
 msgid "Branch copy failed"
-msgstr ""
+msgstr "Не вдалося створити копію гілки"
 
 #: builtin/branch.c:596
 #, c-format
