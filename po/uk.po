@@ -20940,7 +20940,7 @@ msgstr "multi-pack-index недостає необхідного фрагмен�
 
 #: midx.c:154
 msgid "multi-pack-index missing required object offsets chunk"
-msgstr "multi-pack-index надостає необхідного фрагмента зміщення обʼєктів"
+msgstr "multi-pack-index недостає необхідного фрагмента зміщення обʼєктів"
 
 #: midx.c:173
 #, c-format
