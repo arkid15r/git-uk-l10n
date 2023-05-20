@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-05-19 18:24-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-05-19 19:11-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -20930,33 +20930,36 @@ msgstr ""
 
 #: midx.c:148
 msgid "multi-pack-index missing required pack-name chunk"
-msgstr ""
+msgstr "multi-pack-index недостає необхідного фрагмента імені пакунка"
 
 #: midx.c:150
 msgid "multi-pack-index missing required OID fanout chunk"
-msgstr ""
+msgstr "multi-pack-index недостає необхідного фрагмента розгортання OID"
 
 #: midx.c:152
 msgid "multi-pack-index missing required OID lookup chunk"
-msgstr ""
+msgstr "multi-pack-index недостає необхідного фрагмента пошуку OID"
 
 #: midx.c:154
 msgid "multi-pack-index missing required object offsets chunk"
-msgstr ""
+msgstr "multi-pack-index недостає необхідного фрагмента зміщення обʼєктів"
 
 #: midx.c:173
 #, c-format
 msgid "multi-pack-index pack names out of order: '%s' before '%s'"
 msgstr ""
+"multi-pack-index назви пакунків знаходяться у неправильній послідовності: "
+"\"%s\" перед \"%s\""
 
 #: midx.c:221
 #, c-format
 msgid "bad pack-int-id: %u (%u total packs)"
-msgstr ""
+msgstr "невірний pack-int-id: %u (%u всього пакунків)"
 
 #: midx.c:271
 msgid "multi-pack-index stores a 64-bit offset, but off_t is too small"
 msgstr ""
+"multi-pack-index зберігає 64-бітне зміщення, але значення off_t занадто мале"
 
 #: midx.c:502
 #, c-format
@@ -20971,7 +20974,7 @@ msgstr "не вдалося відкрити pack-index \"%s\""
 #: midx.c:576
 #, c-format
 msgid "failed to locate object %d in packfile"
-msgstr ""
+msgstr "не вдалося знайти обʼєкт %d у файлі пакунка"
 
 #: midx.c:959
 msgid "cannot store reverse index file"
@@ -20985,11 +20988,12 @@ msgstr "не вдалося розібрати рядок: %s"
 #: midx.c:1069
 #, c-format
 msgid "malformed line: %s"
-msgstr ""
+msgstr "невірно сформований рядок: %s"
 
 #: midx.c:1260
 msgid "ignoring existing multi-pack-index; checksum mismatch"
 msgstr ""
+"ігнорування існуючого multi-pack-index; невідповідність контрольних сум"
 
 #: midx.c:1285
 msgid "could not load pack"
@@ -21002,22 +21006,22 @@ msgstr "не вдалося відкрити індекс для %s"
 
 #: midx.c:1302
 msgid "Adding packfiles to multi-pack-index"
-msgstr ""
+msgstr "Додавання пакунків до multi-pack-index"
 
 #: midx.c:1345
 #, c-format
 msgid "unknown preferred pack: '%s'"
-msgstr ""
+msgstr "невідомий бажаний пакунок: \"%s\""
 
 #: midx.c:1390
 #, c-format
 msgid "cannot select preferred pack %s with no objects"
-msgstr ""
+msgstr "неможливо вибрати бажаний пакунок %s за відсутності об’єктів"
 
 #: midx.c:1422
 #, c-format
 msgid "did not see pack-file %s to drop"
-msgstr ""
+msgstr "не побачив файл пакунка %s, який потрібно скинути"
 
 #: midx.c:1468
 #, c-format
