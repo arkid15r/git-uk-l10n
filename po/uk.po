@@ -21021,7 +21021,7 @@ msgstr "неможливо вибрати бажаний пакунок %s за 
 #: midx.c:1422
 #, c-format
 msgid "did not see pack-file %s to drop"
-msgstr "не побачив %s файла пакунка, який потрібно скинути"
+msgstr "не побачив файл пакунка %s, який потрібно скинути"
 
 #: midx.c:1468
 #, c-format
