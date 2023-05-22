@@ -20501,7 +20501,7 @@ msgid ""
 "CONFLICT (implicit dir rename): Cannot map more than one path to %s; "
 "implicit directory renames tried to put these paths there: %s"
 msgstr ""
-"CONFLICT (неявне перейменування директорії): Неможливо зіставити більше "
+"КОНФЛІКТ (неявне перейменування директорії): Неможливо зіставити більше "
 "одного шляху з %s; неявне перейменування каталогів намагалося помістити туди"
 "ці шляхи: %s"
 
@@ -20600,7 +20600,7 @@ msgid ""
 "CONFLICT (file/directory): directory in the way of %s from %s; moving it to "
 "%s instead."
 msgstr ""
-"КОНФЛІКТ ( файл/директорія): директорія на шляху %s від %s; переміщення її "
+"КОНФЛІКТ (файл/директорія): директорія на шляху %s від %s; переміщення її "
 "до %s замість цього."
 
 #: merge-ort.c:4039
@@ -20784,7 +20784,7 @@ msgid ""
 "\n"
 "which will accept this suggestion.\n"
 msgstr ""
-"Якщо це правильно, просто додайте його до індексу, наприклад\n"
+"Якщо це правильно, просто зробіть додавання до індексу, наприклад\n"
 "за допомогою:\n"
 "\n"
 "  git update-index --cacheinfo 160000 %s \"%s\"\n"
@@ -20887,7 +20887,7 @@ msgstr ""
 
 #: merge-recursive.c:1757
 msgid " (left unresolved)"
-msgstr "(залишилося нерозв'язаним)"
+msgstr "(залишилося нерозвʼязаним)"
 
 #: merge-recursive.c:1849
 #, c-format
