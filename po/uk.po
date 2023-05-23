@@ -3750,7 +3750,7 @@ msgstr "скопіювати гілку та її лог посилань"
 
 #: builtin/branch.c:702
 msgid "copy a branch, even if target exists"
-msgstr "скопіювати гілку гілку, навіть якщо призначення існує"
+msgstr "скопіювати гілку, навіть якщо призначення існує"
 
 #: builtin/branch.c:703
 msgid "list branch names"
@@ -3857,7 +3857,7 @@ msgstr "забагато аргументів для операції перей
 
 #: builtin/branch.c:871
 msgid "too many arguments to set new upstream"
-msgstr "забагато аргументів для встановлення нового першоджерельне сховище"
+msgstr "забагато аргументів для встановлення нового першоджерельного сховища"
 
 #: builtin/branch.c:875
 #, c-format
