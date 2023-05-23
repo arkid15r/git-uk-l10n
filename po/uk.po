@@ -24463,7 +24463,7 @@ msgstr "збережений pre-cherry-pick HEAD файл \"%s\" пошкодж
 #: sequencer.c:3306
 msgid "You seem to have moved HEAD. Not rewinding, check your HEAD!"
 msgstr ""
-"Здається, ви пересунули HEAD. Перемотування  вперед не виконується, "
+"Здається, ви пересунули HEAD. Перемотування назад не виконується, "
 "перевірте свій HEAD!"
 
 #: sequencer.c:3347
