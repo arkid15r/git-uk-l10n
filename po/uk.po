@@ -20314,13 +20314,13 @@ msgstr "CURLSSLOPT_NO_REVOKE не підтримується з cURL < 7.44.0"
 #: http.c:1218
 #, c-format
 msgid "Unsupported SSL backend '%s'. Supported SSL backends:"
-msgstr "Непідтримуваний SSL бекенд \"%s\". Підтримувані бекенди SSL:"
+msgstr "Непідтримуваний SSL бекенд \"%s\". Підтримувані SSL бекенди:"
 
 #: http.c:1225
 #, c-format
 msgid "Could not set SSL backend to '%s': cURL was built without SSL backends"
 msgstr ""
-"Не вдалося встановити SSL бекенд в \"%s\": cURL було збудовано без SSL "
+"Не вдалося встановити SSL бекенд в \"%s\": cURL було зібрано без підтримки SSL "
 "бекендів"
 
 #: http.c:1229
@@ -20336,7 +20336,7 @@ msgid ""
 "   redirect: %s"
 msgstr ""
 "не вдалося оновити базу url з перенаправлення:\n"
-"  asked for: %s\n"
+"  запитували: %s\n"
 "   перенаправлення: %s"
 
 #: ident.c:431
@@ -20367,14 +20367,14 @@ msgstr ""
 "Виконайте\n"
 "\n"
 "  git config --global user.email \"you@example.com\"\n"
-"  git config --global user.name \"Ваше імʼя\"\n"
+"  git config --global user.name \"Ваше Імʼя\"\n"
 "\n"
 "щоб встановити особистість акаунту за замовчуванням.\n"
-"Пропустіть --global, щоб встановити особистість лише у цьому сховищі.\n"
+"Пропустіть --global, щоб встановити особистість лише для цього сховища.\n"
 
 #: ident.c:475
 msgid "no email was given and auto-detection is disabled"
-msgstr "не вказано адресу електронної пошти і автоматичне визначення вимкнено"
+msgstr "не вказана адреса електронної пошти і автоматичне визначення вимкнено"
 
 #: ident.c:480
 #, c-format
