@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-05-21 18:45-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-05-21 18:42-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -20359,7 +20359,7 @@ msgstr ""
 
 #: ident.c:497
 msgid "no name was given and auto-detection is disabled"
-msgstr ""
+msgstr "імʼя не вказано і автоматичне визначення вимкнено"
 
 #: ident.c:503
 #, c-format
@@ -20369,25 +20369,25 @@ msgstr "не вдалося автоматично визначити назву
 #: ident.c:511
 #, c-format
 msgid "empty ident name (for <%s>) not allowed"
-msgstr ""
+msgstr "порожнє імʼя особистості (для <%s>) заборонено"
 
 #: ident.c:517
 #, c-format
 msgid "name consists only of disallowed characters: %s"
-msgstr ""
+msgstr "імʼя складається лише з заборонених символів: %s"
 
 #: list-objects-filter-options.c:71
 msgid "expected 'tree:<depth>'"
-msgstr ""
+msgstr "очікувалось \"tree:<глибина>\""
 
 #: list-objects-filter-options.c:86
 msgid "sparse:path filters support has been dropped"
-msgstr ""
+msgstr "підтримку фільтрів sparse:path було припинено"
 
 #: list-objects-filter-options.c:93
 #, c-format
 msgid "'%s' for 'object:type=<type>' is not a valid object type"
-msgstr ""
+msgstr "\"%s\" для \"object:type=<type>\" не є припустимим типом обʼєкта"
 
 #: list-objects-filter-options.c:112
 #, c-format
@@ -20397,27 +20397,27 @@ msgstr "неприпустимий визначник фільтра \"%s\""
 #: list-objects-filter-options.c:128
 #, c-format
 msgid "must escape char in sub-filter-spec: '%c'"
-msgstr ""
+msgstr "необхідно екранувати символ у sub-filter-spec: \"%c\""
 
 #: list-objects-filter-options.c:171
 msgid "expected something after combine:"
-msgstr ""
+msgstr "щоcь очікувалось після комбінування:"
 
 #: list-objects-filter-options.c:251
 msgid "multiple filter-specs cannot be combined"
-msgstr ""
+msgstr "не можна комбінувати декілька визначників фільтра"
 
 #: list-objects-filter-options.c:356
 msgid "unable to upgrade repository format to support partial clone"
-msgstr ""
+msgstr "не вдалося оновити формат сховища для підтримки часткового клонування"
 
 #: list-objects-filter-options.h:122
 msgid "args"
-msgstr ""
+msgstr "аргументи"
 
 #: list-objects-filter-options.h:123
 msgid "object filtering"
-msgstr ""
+msgstr "фільтрація обʼєктів"
 
 #: list-objects-filter.c:537
 #, c-format
@@ -20432,12 +20432,12 @@ msgstr "не вдалося розібрати дані часткового ф�
 #: list-objects.c:116
 #, c-format
 msgid "entry '%s' in tree %s has tree mode, but is not a tree"
-msgstr ""
+msgstr "запис \"%s\" у дереві %s має режим tree, але не є деревом"
 
 #: list-objects.c:128
 #, c-format
 msgid "entry '%s' in tree %s has blob mode, but is not a blob"
-msgstr ""
+msgstr "запис \"%s\" у дереві %s має режим blob, але не є blob"
 
 #: list-objects.c:390
 #, c-format
@@ -20455,6 +20455,15 @@ msgid ""
 "may have crashed in this repository earlier:\n"
 "remove the file manually to continue."
 msgstr ""
+"Не вдалося створити \"%s.lock\": %s.\n"
+"\n"
+"Схоже, у цьому сховищі запущено інший git процес, наприклад\n"
+"редактор, відкритий командою \"git commit\". Будь ласка, переконайтеся, що "
+"всі процеси\n"
+"завершено, а потім спробуйте ще раз. Якщо все одно не вдасться, можливо, "
+"раніше \n"
+"у цьому сховищі аварійно завершився git процес:\n"
+"видаліть файл вручну, щоб продовжити."
 
 #: lockfile.c:162
 #, c-format
@@ -20464,40 +20473,40 @@ msgstr "Не вдалося створити \"%s.lock\": %s"
 #: ls-refs.c:177
 #, c-format
 msgid "unexpected line: '%s'"
-msgstr ""
+msgstr "неочікуваний рядок: \"%s\""
 
 #: ls-refs.c:181
 msgid "expected flush after ls-refs arguments"
-msgstr ""
+msgstr "очікувався flush після ls-refs аргументів"
 
 #: mailinfo.c:1052
 msgid "quoted CRLF detected"
-msgstr ""
+msgstr "виявлено цитований CRLF"
 
 #: merge-ort.c:1787 merge-recursive.c:1223
 #, c-format
 msgid "Failed to merge submodule %s (not checked out)"
-msgstr ""
+msgstr "Не вдалося обʼєднати підмодуль %s (не активне)"
 
 #: merge-ort.c:1796
 #, c-format
 msgid "Failed to merge submodule %s (no merge base)"
-msgstr ""
+msgstr "Не вдалося злити підмодуль %s (немає бази злиття)"
 
 #: merge-ort.c:1806 merge-recursive.c:1230
 #, c-format
 msgid "Failed to merge submodule %s (commits not present)"
-msgstr ""
+msgstr "Не вдалося злити підмодуль %s (відсутні коміти)"
 
 #: merge-ort.c:1817 merge-recursive.c:1237
 #, c-format
 msgid "Failed to merge submodule %s (commits don't follow merge-base)"
-msgstr ""
+msgstr "Не вдалося злити підмодуль %s (коміти не відповідають базі)"
 
 #: merge-ort.c:1828 merge-ort.c:1837
 #, c-format
 msgid "Note: Fast-forwarding submodule %s to %s"
-msgstr ""
+msgstr "Примітка: перемотування підмодуля %s вперед до %s"
 
 #: merge-ort.c:1861
 #, c-format
@@ -20509,6 +20518,7 @@ msgstr "Не вдалося злити підмодуль %s"
 msgid ""
 "Failed to merge submodule %s, but a possible merge resolution exists: %s"
 msgstr ""
+"Не вдалося злити підмодуль %s, але існує можливе розвʼязання злиття: %s"
 
 #: merge-ort.c:1880
 #, c-format
@@ -20516,10 +20526,13 @@ msgid ""
 "Failed to merge submodule %s, but multiple possible merges exist:\n"
 "%s"
 msgstr ""
+"Не вдалося злити підмодуль %s, але існує декілька можливих варіантів "
+"злиття:\n"
+"%s"
 
 #: merge-ort.c:2122 merge-recursive.c:1384
 msgid "Failed to execute internal merge"
-msgstr ""
+msgstr "Не вдалося виконати внутрішнє злиття"
 
 #: merge-ort.c:2127 merge-recursive.c:1389
 #, c-format
@@ -20529,7 +20542,7 @@ msgstr "Не вдалося додати %s до бази даних"
 #: merge-ort.c:2135 merge-recursive.c:1422
 #, c-format
 msgid "Auto-merging %s"
-msgstr ""
+msgstr "Автоматичне злиття %s"
 
 #: merge-ort.c:2275 merge-recursive.c:2144
 #, c-format
@@ -20537,6 +20550,9 @@ msgid ""
 "CONFLICT (implicit dir rename): Existing file/dir at %s in the way of "
 "implicit directory rename(s) putting the following path(s) there: %s."
 msgstr ""
+"КОНФЛІКТ (неявне перейменування каталогу): існуючий файл/директорія в "
+"%s заважає неявному перейменуванню директорії, додавши наступні "
+"шляхи до: %s."
 
 #: merge-ort.c:2287 merge-recursive.c:2154
 #, c-format
@@ -20544,6 +20560,9 @@ msgid ""
 "CONFLICT (implicit dir rename): Cannot map more than one path to %s; "
 "implicit directory renames tried to put these paths there: %s"
 msgstr ""
+"КОНФЛІКТ (неявне перейменування директорії): Неможливо зіставити більше "
+"одного шляху з %s; неявне перейменування директорій намагалося помістити туди"
+"ці шляхи: %s"
 
 #: merge-ort.c:2346
 #, c-format
@@ -20552,6 +20571,9 @@ msgid ""
 "renamed to multiple other directories, with no destination getting a "
 "majority of the files."
 msgstr ""
+"КОНФЛІКТ (розбіжність під час перейменування директорії): Неясно, як "
+"перейменувати директорію %s; її було перейменовано в декілька інших "
+"директорій, жодна з яких не отримала більшості файлів."
 
 #: merge-ort.c:2528 merge-recursive.c:2490
 #, c-format
@@ -20559,6 +20581,8 @@ msgid ""
 "WARNING: Avoiding applying %s -> %s rename to %s, because %s itself was "
 "renamed."
 msgstr ""
+"ПОПЕРЕДЖЕННЯ: уникнення застосування %s -> %s перейменування на %s, оскільки "
+"%s було перейменовано."
 
 #: merge-ort.c:2702 merge-recursive.c:3273
 #, c-format
@@ -20566,6 +20590,8 @@ msgid ""
 "Path updated: %s added in %s inside a directory that was renamed in %s; "
 "moving it to %s."
 msgstr ""
+"Шлях було оновлено: %s додано до %s всередині директорії, яку було "
+"перейменовано в %s; переміщення до %s."
 
 #: merge-ort.c:2710 merge-recursive.c:3280
 #, c-format
@@ -20573,6 +20599,8 @@ msgid ""
 "Path updated: %s renamed to %s in %s, inside a directory that was renamed in "
 "%s; moving it to %s."
 msgstr ""
+"Шлях було оновлено: %s перейменовано на %s в %s, всередині директорії, яку "
+"було перейменовано в %s; переміщення до %s."
 
 #: merge-ort.c:2724 merge-recursive.c:3276
 #, c-format
@@ -20580,6 +20608,8 @@ msgid ""
 "CONFLICT (file location): %s added in %s inside a directory that was renamed "
 "in %s, suggesting it should perhaps be moved to %s."
 msgstr ""
+"КОНФЛІКТ (розташування файлу): %s додано до %s всередині директорії, яку було"
+"перейменовано в %s, що свідчить про те, що його слід перемістити до %s."
 
 #: merge-ort.c:2733 merge-recursive.c:3283
 #, c-format
@@ -20587,11 +20617,14 @@ msgid ""
 "CONFLICT (file location): %s renamed to %s in %s, inside a directory that "
 "was renamed in %s, suggesting it should perhaps be moved to %s."
 msgstr ""
+"КОНФЛІКТ (розташування файлу): %s перейменовано на %s в %s всередині "
+"директорії, яку було перейменовано в %s, що свідчить про те, що його слід "
+"перемістити до %s."
 
 #: merge-ort.c:2892
 #, c-format
 msgid "CONFLICT (rename/rename): %s renamed to %s in %s and to %s in %s."
-msgstr ""
+msgstr "КОНФЛІКТ (перейменовано/перейменовано): %s перейменовано на %s в %s та на %s в %s."
 
 #: merge-ort.c:2990
 #, c-format
@@ -20600,11 +20633,15 @@ msgid ""
 "conflicts AND collides with another path; this may result in nested conflict "
 "markers."
 msgstr ""
+"КОНФЛІКТ (перейменування призвело до колізії): перейменування %s -> %s має "
+"конфлікт вмісту та зіткається з іншим шляхом; це може призвести до появи "
+"вкладених маркерів конфлікту."
 
 #: merge-ort.c:3010 merge-ort.c:3035
 #, c-format
 msgid "CONFLICT (rename/delete): %s renamed to %s in %s, but deleted in %s."
 msgstr ""
+"КОНФЛІКТ (перейменовано/видалено): %s перейменовано на %s в %s, але видалено в %s."
 
 #: merge-ort.c:3518 merge-recursive.c:3034
 #, c-format
@@ -20622,6 +20659,8 @@ msgid ""
 "CONFLICT (file/directory): directory in the way of %s from %s; moving it to "
 "%s instead."
 msgstr ""
+"КОНФЛІКТ (файл/директорія): директорія на шляху %s від %s; переміщення її "
+"до %s замість цього."
 
 #: merge-ort.c:4039
 #, c-format
@@ -20629,6 +20668,8 @@ msgid ""
 "CONFLICT (distinct types): %s had different types on each side; renamed both "
 "of them so each can be recorded somewhere."
 msgstr ""
+"КОНФЛІКТ (різні типи): %s мали різні типи з обох боків; перейменовано "
+"обидва, щоб кожен можна було десь записати."
 
 #: merge-ort.c:4048
 #, c-format
@@ -20636,23 +20677,25 @@ msgid ""
 "CONFLICT (distinct types): %s had different types on each side; renamed one "
 "of them so each can be recorded somewhere."
 msgstr ""
+"КОНФЛІКТ (різні типи): %s мали різні типи з обох боків; перейменовано один "
+"з них, щоб кожен можна було десь записати."
 
 #: merge-ort.c:4135 merge-recursive.c:3113
 msgid "content"
-msgstr ""
+msgstr "вміст"
 
 #: merge-ort.c:4137 merge-recursive.c:3117
 msgid "add/add"
-msgstr ""
+msgstr "додано/додано"
 
 #: merge-ort.c:4139 merge-recursive.c:3162
 msgid "submodule"
-msgstr ""
+msgstr "підмодуль"
 
 #: merge-ort.c:4142 merge-recursive.c:3163
 #, c-format
 msgid "CONFLICT (%s): Merge conflict in %s"
-msgstr ""
+msgstr "КОНФЛІКТ (%s): конфлікт злиття в %s"
 
 #: merge-ort.c:4187
 #, c-format
@@ -20660,6 +20703,8 @@ msgid ""
 "CONFLICT (modify/delete): %s deleted in %s and modified in %s.  Version %s "
 "of %s left in tree."
 msgstr ""
+"КОНФЛІКТ (змінено/видалено): %s видалено в %s та змінено в %s.  Версію %s з "
+"%s залишено у дереві."
 
 #. TRANSLATORS: This is a line of advice to resolve a merge
 #. conflict in a submodule. The first argument is the submodule
@@ -20673,6 +20718,8 @@ msgid ""
 " - go to submodule (%s), and either merge commit %s\n"
 "   or update to an existing commit which has merged those changes\n"
 msgstr ""
+" - перейдіть до підмодуля (%s), щоб або злити коміт %s\n"
+"   або оновитись до існуючого коміту, в якому ці зміни вже злиті\n"
 
 #: merge-ort.c:4568
 #, c-format
@@ -20688,6 +20735,16 @@ msgid ""
 " - resolve any other conflicts in the superproject\n"
 " - commit the resulting index in the superproject\n"
 msgstr ""
+"Рекурсивне злиття з підмодулями наразі підтримує лише тривіальні випадки.\n"
+"Будь ласка, обробіть злиття кожного конфліктного підмодуля вручну.\n"
+"Це можна зробити за допомогою наступних кроків:\n"
+"%s - поверніться до суперпроекту і виконайте:\n"
+"\n"
+"      git add %s\n"
+"\n"
+"   щоб записати вищезгадане злиття або оновлення\n"
+"- розвʼяжіть будь-які інші конфлікти в суперпроекті\n"
+"- зробіть коміт підсумкового індекса в суперпроекті\n"
 
 #. TRANSLATORS: The %s arguments are: 1) tree hash of a merge
 #. base, and 2-3) the trees for the two trees we're merging.
@@ -20695,11 +20752,11 @@ msgstr ""
 #: merge-ort.c:4973
 #, c-format
 msgid "collecting merge info failed for trees %s, %s, %s"
-msgstr ""
+msgstr "збирання інформації про злиття не вдалося для дерев %s, %s, %s"
 
 #: merge-recursive.c:360
 msgid "(bad commit)\n"
-msgstr ""
+msgstr "(невірний коміт)\n"
 
 #: merge-recursive.c:388
 #, c-format
@@ -20710,6 +20767,8 @@ msgstr "невдала спроба add_cacheinfo для шляху \"%s\"; пе
 #, c-format
 msgid "add_cacheinfo failed to refresh for path '%s'; merge aborting."
 msgstr ""
+"процесу add_cacheinfo не вдалося зробити оновлення для шляху \"%s\"; переривання "
+"злиття."
 
 #: merge-recursive.c:888
 #, c-format
@@ -20719,11 +20778,11 @@ msgstr "не вдалося створити шлях \"%s\"%s"
 #: merge-recursive.c:899
 #, c-format
 msgid "Removing %s to make room for subdirectory\n"
-msgstr ""
+msgstr "Видалення %s, щоб звільнити місце для піддиректорії\n"
 
 #: merge-recursive.c:913 merge-recursive.c:932
 msgid ": perhaps a D/F conflict?"
-msgstr ""
+msgstr ": можливо, D/F конфлікт?"
 
 #: merge-recursive.c:922
 #, c-format
@@ -20748,31 +20807,31 @@ msgstr "не вдалося зробити символьне посилання
 #: merge-recursive.c:1010
 #, c-format
 msgid "do not know what to do with %06o %s '%s'"
-msgstr ""
+msgstr "не знаю, що робити з %06o %s \"%s\""
 
 #: merge-recursive.c:1245 merge-recursive.c:1258
 #, c-format
 msgid "Fast-forwarding submodule %s to the following commit:"
-msgstr ""
+msgstr "Перемотування підмодуля %s вперед до наступного коміту:"
 
 #: merge-recursive.c:1248 merge-recursive.c:1261
 #, c-format
 msgid "Fast-forwarding submodule %s"
-msgstr ""
+msgstr "Перемотування підмодуля %s вперед"
 
 #: merge-recursive.c:1285
 #, c-format
 msgid "Failed to merge submodule %s (merge following commits not found)"
-msgstr ""
+msgstr "Не вдалося злити підмодуль %s (злиття наступних комітів не знайдено)"
 
 #: merge-recursive.c:1289
 #, c-format
 msgid "Failed to merge submodule %s (not fast-forward)"
-msgstr ""
+msgstr "Не вдалося злити підмодуль %s (не вдалося перемотати вперед)"
 
 #: merge-recursive.c:1290
 msgid "Found a possible merge resolution for the submodule:\n"
-msgstr ""
+msgstr "Знайдено можливе розвʼязання злиття для підмодуля:\n"
 
 #: merge-recursive.c:1293
 #, c-format
@@ -20784,16 +20843,24 @@ msgid ""
 "\n"
 "which will accept this suggestion.\n"
 msgstr ""
+"Якщо все вірно, просто додайте це до індекса, наприклад,\n"
+"використавши:\n"
+"\n"
+"  git update-index --cacheinfo 160000 %s \"%s\"\n"
+"\n"
+"який прийме цю пропозицію.\n"
 
 #: merge-recursive.c:1302
 #, c-format
 msgid "Failed to merge submodule %s (multiple merges found)"
-msgstr ""
+msgstr "Не вдалося злити підмодуль %s (знайдено більше одного злиття)"
 
 #: merge-recursive.c:1446
 #, c-format
 msgid "Error: Refusing to lose untracked file at %s; writing to %s instead."
 msgstr ""
+"Помилка: відмова від втрати невідстежуваного файла %s; натомість "
+"записуємо до %s."
 
 #: merge-recursive.c:1518
 #, c-format
@@ -20801,6 +20868,8 @@ msgid ""
 "CONFLICT (%s/delete): %s deleted in %s and %s in %s. Version %s of %s left "
 "in tree."
 msgstr ""
+"КОНФЛІКТ (%s/видалено): %s видалено в %s та %s в %s. Версію %s з %s "
+"залишено в дереві."
 
 #: merge-recursive.c:1523
 #, c-format
@@ -20808,6 +20877,8 @@ msgid ""
 "CONFLICT (%s/delete): %s deleted in %s and %s to %s in %s. Version %s of %s "
 "left in tree."
 msgstr ""
+"КОНФЛІКТ (%s/видалено): %s видалено в %s і %s в %s в %s. Версію %s з %s "
+"залишено у дереві."
 
 #: merge-recursive.c:1530
 #, c-format
@@ -20815,6 +20886,8 @@ msgid ""
 "CONFLICT (%s/delete): %s deleted in %s and %s in %s. Version %s of %s left "
 "in tree at %s."
 msgstr ""
+"КОНФЛІКТ (%s/видалено): %s видалено в %s і %s в %s. Версію %s з %s "
+"залишено у дереві в %s."
 
 #: merge-recursive.c:1535
 #, c-format
@@ -20822,6 +20895,8 @@ msgid ""
 "CONFLICT (%s/delete): %s deleted in %s and %s to %s in %s. Version %s of %s "
 "left in tree at %s."
 msgstr ""
+"КОНФЛІКТ (%s/видалено): %s видалено в %s і %s в %s в %s. Версію %s з %s "
+"залишено в дереві в %s."
 
 #: merge-recursive.c:1570
 msgid "rename"
@@ -20840,21 +20915,25 @@ msgstr "Відмова від втрати брудного файла %s"
 #, c-format
 msgid "Refusing to lose untracked file at %s, even though it's in the way."
 msgstr ""
+"Відмова від втрати невідстежуваного файла %s, не дивлячись на те, "
+"що він знаходиться на шляху."
 
 #: merge-recursive.c:1689
 #, c-format
 msgid "CONFLICT (rename/add): Rename %s->%s in %s.  Added %s in %s"
-msgstr ""
+msgstr "КОНФЛІКТ (перейменовано/додано): перейменовано %s->%s в %s.  Додано %s в %s"
 
 #: merge-recursive.c:1720
 #, c-format
 msgid "%s is a directory in %s adding as %s instead"
-msgstr ""
+msgstr "%s є директорією в %s, натомість додаємо як %s"
 
 #: merge-recursive.c:1725
 #, c-format
 msgid "Refusing to lose untracked file at %s; adding as %s instead"
 msgstr ""
+"Відмова від втрати невідстежуваного файла %s; натомість додаємо "
+"як %s"
 
 #: merge-recursive.c:1752
 #, c-format
@@ -20862,15 +20941,19 @@ msgid ""
 "CONFLICT (rename/rename): Rename \"%s\"->\"%s\" in branch \"%s\" rename "
 "\"%s\"->\"%s\" in \"%s\"%s"
 msgstr ""
+"КОНФЛІКТ (перейменовано/перейменовано): перейменовано \"%s\"->\"%s\" у гілці \"%s\" "
+"перейменовано \"%s\"->\"%s\" у \"%s\"%s"
 
 #: merge-recursive.c:1757
 msgid " (left unresolved)"
-msgstr ""
+msgstr "(залишилося нерозвʼязаним)"
 
 #: merge-recursive.c:1849
 #, c-format
 msgid "CONFLICT (rename/rename): Rename %s->%s in %s. Rename %s->%s in %s"
 msgstr ""
+"КОНФЛІКТ (перейменовано/перейменовано): перейменовано %s->%s в %s. Перейменовано %s->%s в "
+"%s"
 
 #: merge-recursive.c:2112
 #, c-format
@@ -20879,6 +20962,9 @@ msgid ""
 "directory %s was renamed to multiple other directories, with no destination "
 "getting a majority of the files."
 msgstr ""
+"КОНФЛІКТ (розбіжність під час перейменування директорії): Неясно, куди "
+"помістити %s, оскільки директорію %s було перейменовано в декілька інших "
+"директорій,  жодна з яких не отримала більшості файлів."
 
 #: merge-recursive.c:2246
 #, c-format
@@ -20886,6 +20972,8 @@ msgid ""
 "CONFLICT (rename/rename): Rename directory %s->%s in %s. Rename directory %s-"
 ">%s in %s"
 msgstr ""
+"КОНФЛІКТ (перейменовано/перейменовано): перейменовано директорію %s->%s в %s. "
+"Перейменовано директорію %s->%s в %s"
 
 #: merge-recursive.c:3101
 msgid "modify"
@@ -20898,12 +20986,12 @@ msgstr "змінено"
 #: merge-recursive.c:3140
 #, c-format
 msgid "Skipped %s (merged same as existing)"
-msgstr ""
+msgstr "Пропущено %s (злите - те саме, що й існуюче)"
 
 #: merge-recursive.c:3193
 #, c-format
 msgid "Adding as %s instead"
-msgstr ""
+msgstr "Додавання як %s замість цього"
 
 #: merge-recursive.c:3397
 #, c-format
@@ -20916,43 +21004,43 @@ msgstr "файл/директорія"
 
 #: merge-recursive.c:3425
 msgid "directory/file"
-msgstr ""
+msgstr "директорія/файл"
 
 #: merge-recursive.c:3432
 #, c-format
 msgid "CONFLICT (%s): There is a directory with name %s in %s. Adding %s as %s"
-msgstr ""
+msgstr "КОНФЛІКТ (%s): в %s існує директорія з іменем %s. Додавання %s як %s"
 
 #: merge-recursive.c:3441
 #, c-format
 msgid "Adding %s"
-msgstr ""
+msgstr "Додавання %s"
 
 #: merge-recursive.c:3450
 #, c-format
 msgid "CONFLICT (add/add): Merge conflict in %s"
-msgstr ""
+msgstr "КОНФЛІКТ (додано/додано): Конфлікт злиття у %s"
 
 #: merge-recursive.c:3503
 #, c-format
 msgid "merging of trees %s and %s failed"
-msgstr ""
+msgstr "не вдалося злити дерева %s та %s"
 
 #: merge-recursive.c:3597
 msgid "Merging:"
-msgstr ""
+msgstr "Злиття:"
 
 #: merge-recursive.c:3610
 #, c-format
 msgid "found %u common ancestor:"
 msgid_plural "found %u common ancestors:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "знайшли %u спільного предка:"
+msgstr[1] "знайшли %u спільних предків:"
+msgstr[2] "знайшли %u спільних предків:"
 
 #: merge-recursive.c:3660
 msgid "merge returned no commit"
-msgstr ""
+msgstr "злиття не повернуло коміт"
 
 #: merge-recursive.c:3832
 #, c-format
@@ -20965,27 +21053,27 @@ msgstr "не вдалося прочитати кеш"
 
 #: midx.c:72
 msgid "multi-pack-index OID fanout is of the wrong size"
-msgstr ""
+msgstr "multi-pack-index OID fanout має невірний розмір"
 
 #: midx.c:105
 #, c-format
 msgid "multi-pack-index file %s is too small"
-msgstr ""
+msgstr "multi-pack-index файл %s занадто малий"
 
 #: midx.c:121
 #, c-format
 msgid "multi-pack-index signature 0x%08x does not match signature 0x%08x"
-msgstr ""
+msgstr "multi-pack-index підпис 0x%08x не збігається з підписом 0x%08x"
 
 #: midx.c:126
 #, c-format
 msgid "multi-pack-index version %d not recognized"
-msgstr ""
+msgstr "multi-pack-index версія %d не розпізнана"
 
 #: midx.c:131
 #, c-format
 msgid "multi-pack-index hash version %u does not match version %u"
-msgstr ""
+msgstr "версія хешу multi-pack-index %u не збігається з версією %u"
 
 #: midx.c:148
 msgid "multi-pack-index missing required pack-name chunk"
@@ -20993,11 +21081,11 @@ msgstr "multi-pack-index недостає необхідного фрагмен�
 
 #: midx.c:150
 msgid "multi-pack-index missing required OID fanout chunk"
-msgstr "multi-pack-index недостає необхідного фрагмента розгортання OID"
+msgstr "multi-pack-index недостає необхідного OID fanout фрагмента"
 
 #: midx.c:152
 msgid "multi-pack-index missing required OID lookup chunk"
-msgstr "multi-pack-index недостає необхідного фрагмента пошуку OID"
+msgstr "multi-pack-index недостає необхідного OID lookup фрагмента"
 
 #: midx.c:154
 msgid "multi-pack-index missing required object offsets chunk"
@@ -21125,6 +21213,8 @@ msgstr "Пошук файлів пакунків, на які є посилан�
 msgid ""
 "oid fanout out of order: fanout[%d] = %<PRIx32> > %<PRIx32> = fanout[%d]"
 msgstr ""
+"oid fanout знаходиться у неправильній послідовності: fanout[%d] = %<PRIx32> "
+"> %<PRIx32> = fanout[%d]"
 
 #: midx.c:1754
 msgid "the midx contains no oid"
@@ -21137,7 +21227,9 @@ msgstr "Перевірка OID послідовності в multi-pack-index"
 #: midx.c:1772
 #, c-format
 msgid "oid lookup out of order: oid[%d] = %s >= %s = oid[%d]"
-msgstr "пошук oid у неправильній послідовності: oid[%d] = %s >= %s = oid[%d]"
+msgstr ""
+"невірна послідовність oid lookup: oid[%d] = %s >= %s = "
+"oid[%d]"
 
 #: midx.c:1792
 msgid "Sorting objects by packfile"
