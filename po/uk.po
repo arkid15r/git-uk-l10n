@@ -74,7 +74,7 @@ msgstr "примітка: %s зараз не відстежується.\n"
 #: builtin/reset.c:179
 #, c-format
 msgid "make_cache_entry failed for path '%s'"
-msgstr "невдала спроба make_cache_entry для шляху '%s'"
+msgstr "невдала спроба make_cache_entry для шляху \"%s\""
 
 #: add-interactive.c:775
 msgid "Revert"
@@ -1867,7 +1867,7 @@ msgstr "Невірно процитований вміст у файлі \"%s\":
 #: bisect.c:702
 #, c-format
 msgid "We cannot bisect more!\n"
-msgstr "Неможливо бісектувати більше!\n"
+msgstr "Подальше бісектування неможливо!\n"
 
 #: bisect.c:772
 #, c-format
@@ -2045,7 +2045,7 @@ msgstr "гілку \"%s\" налаштовано на відстежування
 
 #: branch.c:182
 msgid "unable to write upstream branch configuration"
-msgstr "не вдалося записати конфігурацію гілки першоджерельного сховища"
+msgstr "не вдалося записати конфігурацію висхідної гілки"
 
 #: branch.c:184
 msgid ""
@@ -2140,7 +2140,7 @@ msgstr ""
 #: branch.c:496
 #, c-format
 msgid "the requested upstream branch '%s' does not exist"
-msgstr "запитувана гілка \"%s\" не існує у першоджерельному сховищі"
+msgstr "запитувана висхідна гілка \"%s\" не існує"
 
 #: branch.c:498
 msgid ""
@@ -2724,7 +2724,7 @@ msgid ""
 "Not rewinding to ORIG_HEAD"
 msgstr ""
 "Здається, ви пересунули HEAD після останньої невдачі з \"am\".\n"
-"Не відбувається перемотування до ORIG_HEAD"
+"Не відбувається перемотування вперед до ORIG_HEAD"
 
 #: builtin/am.c:2222 builtin/bisect.c:184 worktree.c:243
 #, c-format
@@ -3383,7 +3383,7 @@ msgstr "показувати довгу версію SHA1 коміта (за з�
 
 #: builtin/blame.c:894
 msgid "suppress author name and timestamp (Default: off)"
-msgstr "приховувати ім’я автора та мітку часу (за замовчуванням: off)"
+msgstr "приховати ім’я автора та мітку часу (за замовчуванням: off)"
 
 #: builtin/blame.c:895
 msgid "show author email instead of name (Default: off)"
@@ -3645,15 +3645,15 @@ msgstr "Перейменовано неправильно названу гіл�
 #: builtin/branch.c:605
 #, c-format
 msgid "Branch renamed to %s, but HEAD is not updated!"
-msgstr ""
+msgstr "Гілку перейменовано на %s, але HEAD не оновлено!"
 
 #: builtin/branch.c:612
 msgid "Branch is renamed, but update of config-file failed"
-msgstr ""
+msgstr "Гілку перейменовано, але не вдалося оновити конфігураційний файл"
 
 #: builtin/branch.c:614
 msgid "Branch is copied, but update of config-file failed"
-msgstr ""
+msgstr "Гілку скопійовано, але не вдалося оновити конфігураційний файл"
 
 #: builtin/branch.c:633
 #, c-format
@@ -3662,18 +3662,22 @@ msgid ""
 "  %s\n"
 "Lines starting with '%c' will be stripped.\n"
 msgstr ""
+"Будь ласка, відредагуйте опис гілки\n"
+"  %s\n"
+"Рядки, що починаються з \"%c\", будуть вилучені.\n"
 
 #: builtin/branch.c:671
 msgid "Generic options"
-msgstr ""
+msgstr "Загальні опції"
 
 #: builtin/branch.c:673
 msgid "show hash and subject, give twice for upstream branch"
 msgstr ""
+"показувати хеш і тему, додайте двічі, щоб застосувати для висхідної гілки"
 
 #: builtin/branch.c:674
 msgid "suppress informational messages"
-msgstr ""
+msgstr "приховати інформаційні повідомлення"
 
 #: builtin/branch.c:676 builtin/checkout.c:1614
 #: builtin/submodule--helper.c:2968
@@ -3682,23 +3686,23 @@ msgstr "налаштувати конфігурацію відстежувани
 
 #: builtin/branch.c:679
 msgid "do not use"
-msgstr ""
+msgstr "не використовувати"
 
 #: builtin/branch.c:681
 msgid "upstream"
-msgstr ""
+msgstr "першоджерельне сховище"
 
 #: builtin/branch.c:681
 msgid "change the upstream info"
-msgstr ""
+msgstr "змінити інформацію щодо першоджерельного сховища"
 
 #: builtin/branch.c:682
 msgid "unset the upstream info"
-msgstr ""
+msgstr "скинути інформацію щодо першоджерельного сховища"
 
 #: builtin/branch.c:683
 msgid "use colored output"
-msgstr ""
+msgstr "використовувати кольоровий вивід"
 
 #: builtin/branch.c:684
 msgid "act on remote-tracking branches"
@@ -3706,47 +3710,47 @@ msgstr "працювати з віддалено відстежуваними г
 
 #: builtin/branch.c:686 builtin/branch.c:688
 msgid "print only branches that contain the commit"
-msgstr ""
+msgstr "виводити тільки гілки, що містять цей коміт"
 
 #: builtin/branch.c:687 builtin/branch.c:689
 msgid "print only branches that don't contain the commit"
-msgstr ""
+msgstr "виводити тільки гілки, що не містять цей коміт"
 
 #: builtin/branch.c:692
 msgid "Specific git-branch actions:"
-msgstr ""
+msgstr "Специфічні git-branch дії:"
 
 #: builtin/branch.c:693
 msgid "list both remote-tracking and local branches"
-msgstr ""
+msgstr "показати як віддалено відстежувані, так і локальні гілки"
 
 #: builtin/branch.c:695
 msgid "delete fully merged branch"
-msgstr ""
+msgstr "видалити повністю злиту гілку"
 
 #: builtin/branch.c:696
 msgid "delete branch (even if not merged)"
-msgstr ""
+msgstr "видалити гілку (навіть не повністю злиту)"
 
 #: builtin/branch.c:697
 msgid "move/rename a branch and its reflog"
-msgstr ""
+msgstr "перемістити/перейменувати гілку та її лог посилань"
 
 #: builtin/branch.c:698
 msgid "move/rename a branch, even if target exists"
-msgstr ""
+msgstr "перемістити/перейменувати гілку, навіть якщо призначення існує"
 
 #: builtin/branch.c:700 builtin/for-each-ref.c:44 builtin/tag.c:483
 msgid "do not output a newline after empty formatted refs"
-msgstr ""
+msgstr "не виводити новий рядок після порожніх форматованих посилань"
 
 #: builtin/branch.c:701
 msgid "copy a branch and its reflog"
-msgstr ""
+msgstr "скопіювати гілку та її лог посилань"
 
 #: builtin/branch.c:702
 msgid "copy a branch, even if target exists"
-msgstr ""
+msgstr "скопіювати гілку, навіть якщо призначення існує"
 
 #: builtin/branch.c:703
 msgid "list branch names"
@@ -3758,7 +3762,7 @@ msgstr "показати назву поточної гілки"
 
 #: builtin/branch.c:705 builtin/submodule--helper.c:2966
 msgid "create the branch's reflog"
-msgstr ""
+msgstr "створити лог посилань гілки"
 
 #: builtin/branch.c:707
 msgid "edit the description for the branch"
@@ -3766,33 +3770,33 @@ msgstr "редагувати опис гілки"
 
 #: builtin/branch.c:708
 msgid "force creation, move/rename, deletion"
-msgstr ""
+msgstr "примусове створення, переміщення/перейменування, видалення"
 
 #: builtin/branch.c:709
 msgid "print only branches that are merged"
-msgstr ""
+msgstr "вивести тільки злиті гілки"
 
 #: builtin/branch.c:710
 msgid "print only branches that are not merged"
-msgstr ""
+msgstr "вивести тільки не злиті гілки"
 
 #: builtin/branch.c:711
 msgid "list branches in columns"
-msgstr ""
+msgstr "виводити гілки в стовпчиках"
 
 #: builtin/branch.c:713 builtin/for-each-ref.c:52 builtin/notes.c:419
 #: builtin/notes.c:422 builtin/notes.c:585 builtin/notes.c:588
 #: builtin/tag.c:486
 msgid "object"
-msgstr ""
+msgstr "обʼєкт"
 
 #: builtin/branch.c:714
 msgid "print only branches of the object"
-msgstr ""
+msgstr "виводити тільки гілки об’єкта"
 
 #: builtin/branch.c:715 builtin/for-each-ref.c:58 builtin/tag.c:493
 msgid "sorting and filtering are case insensitive"
-msgstr ""
+msgstr "сортувати та фільтрувати незалежно від регістру"
 
 #: builtin/branch.c:716 builtin/ls-files.c:760
 msgid "recurse through submodules"
@@ -3801,7 +3805,7 @@ msgstr "рекурсивно через підмодулі"
 #: builtin/branch.c:717 builtin/for-each-ref.c:48 builtin/ls-files.c:772
 #: builtin/ls-tree.c:400 builtin/tag.c:491 builtin/verify-tag.c:32
 msgid "format to use for the output"
-msgstr ""
+msgstr "формат, що використовувати для виводу"
 
 #: builtin/branch.c:736 builtin/submodule--helper.c:2797 submodule.c:1235
 msgid "Failed to resolve HEAD as a valid ref."
@@ -3816,48 +3820,52 @@ msgid ""
 "branch with --recurse-submodules can only be used if submodule."
 "propagateBranches is enabled"
 msgstr ""
+"гілку з --recurse-submodules можна використовувати лише якщо увімкнено "
+"submodule.propagateBranches"
 
 #: builtin/branch.c:763
 msgid "--recurse-submodules can only be used to create branches"
-msgstr ""
+msgstr "--recurse-підмодулі можна використовувати лише для створення гілок"
 
 #: builtin/branch.c:792 builtin/branch.c:850
 msgid "branch name required"
-msgstr ""
+msgstr "назва гілки є обовʼязковою"
 
 #: builtin/branch.c:826
 msgid "Cannot give description to detached HEAD"
-msgstr ""
+msgstr "Неможливо встановити опис відокремленому HEAD"
 
 #: builtin/branch.c:832
 msgid "cannot edit description of more than one branch"
-msgstr ""
+msgstr "неможливо редагувати опис більш ніж однієї гілки"
 
 #: builtin/branch.c:852
 msgid "cannot copy the current branch while not on any."
-msgstr ""
+msgstr "неможливо скопіювати поточну гілку, не перебуваючи на жодній з них."
 
 #: builtin/branch.c:853
 msgid "cannot rename the current branch while not on any."
-msgstr ""
+msgstr "неможливо перейменувати поточну гілку, не перебуваючи на жодній з них."
 
 #: builtin/branch.c:859
 msgid "too many branches for a copy operation"
-msgstr ""
+msgstr "забагато гілок для операції копіювання"
 
 #: builtin/branch.c:860
 msgid "too many arguments for a rename operation"
-msgstr ""
+msgstr "забагато аргументів для операції перейменування"
 
 #: builtin/branch.c:871
 msgid "too many arguments to set new upstream"
-msgstr ""
+msgstr "забагато аргументів для встановлення нового першоджерельного сховища"
 
 #: builtin/branch.c:875
 #, c-format
 msgid ""
 "could not set upstream of HEAD to %s when it does not point to any branch."
 msgstr ""
+"не вдалося встановити першождерельне сховище HEAD у %s, який не вказує на "
+"жодну гілку."
 
 #: builtin/branch.c:878 builtin/branch.c:907
 #, c-format
@@ -3876,7 +3884,7 @@ msgstr "забагато аргументів для скидання значе
 #: builtin/branch.c:905
 msgid "could not unset upstream of HEAD when it does not point to any branch."
 msgstr ""
-"неможливво скинути значення першоджерельного сховища для HEAD, якщо він не "
+"неможливво скинути значення першоджерельного сховища для HEAD, який не "
 "вказує на жодну гілку."
 
 #: builtin/branch.c:911
@@ -3889,39 +3897,45 @@ msgid ""
 "The -a, and -r, options to 'git branch' do not take a branch name.\n"
 "Did you mean to use: -a|-r --list <pattern>?"
 msgstr ""
+"Опції -a та -r для \"git branch\" не приймають назву гілки.\n"
+"Ви хотіли використати -a|-r --list <шаблон>?"
 
 #: builtin/branch.c:929
 msgid ""
 "the '--set-upstream' option is no longer supported. Please use '--track' or "
 "'--set-upstream-to' instead."
 msgstr ""
+"опція \"--set-upstream\" більше не підтримується. Будь ласка, використовуйте "
+"\"--track\" або \"--set-upstream-to\"."
 
 #: builtin/bugreport.c:22
 msgid "git version:\n"
-msgstr ""
+msgstr "версія git:\n"
 
 #: builtin/bugreport.c:28
 #, c-format
 msgid "uname() failed with error '%s' (%d)\n"
-msgstr ""
+msgstr "uname() завершився невдало з помилкою \"%s\" (%d)\n"
 
 #: builtin/bugreport.c:38
 msgid "compiler info: "
-msgstr ""
+msgstr "інформація щодо компілятора: "
 
 #: builtin/bugreport.c:41
 msgid "libc info: "
-msgstr ""
+msgstr "информація щодо libc: "
 
 #: builtin/bugreport.c:55
 msgid "not run from a git repository - no hooks to show\n"
-msgstr ""
+msgstr "запущено не з git сховища - немає гачків для показу\n"
 
 #: builtin/bugreport.c:68
 msgid ""
 "git bugreport [(-o | --output-directory) <path>] [(-s | --suffix) <format>]\n"
 "              [--diagnose[=<mode>]]"
 msgstr ""
+"git bugreport [(-o | --output-directory) <шлях>] [(-s | --suffix) <формат>]\n"
+"              [--diagnose[=<режим>]]"
 
 #: builtin/bugreport.c:76
 msgid ""
@@ -3941,25 +3955,44 @@ msgid ""
 "Please review the rest of the bug report below.\n"
 "You can delete any lines you don't wish to share.\n"
 msgstr ""
+"Дякуємо, що заповнили звіт про помилку в Git!\n"
+"Будь ласка, дайте відповіді на наступні питання, щоб допомогти нам зрозуміти "
+"вашу проблему.\n"
+"\n"
+"Що ви робили до того, як сталася помилка (кроки для відтворення вашої "
+"проблеми)\n"
+"\n"
+"Який результат ви очікували? (Очікувана поведінка)\n"
+"\n"
+"Що сталося замість цього? (Фактична поведінка)\n"
+"\n"
+"Чим відрізняється те, що ви очікували, від того, що сталося насправді?\n"
+"\n"
+"Будь-що інше, що ви хочете додати:\n"
+"\n"
+"Будь ласка, перегляньте решту повідомлення про ваду нижче.\n"
+"Ви можете видалити будь-які рядки, якими не хочете ділитися.\n"
 
 #: builtin/bugreport.c:117 builtin/commit.c:1523 builtin/commit.c:1527
 #: builtin/commit.c:1686 builtin/fast-export.c:1186 builtin/fast-export.c:1189
 #: builtin/fast-export.c:1192 builtin/rebase.c:1173 parse-options.h:579
 msgid "mode"
-msgstr ""
+msgstr "режим"
 
 #: builtin/bugreport.c:118
 msgid ""
 "create an additional zip archive of detailed diagnostics (default 'stats')"
 msgstr ""
+"створити додатковий zip-архів з детальною діагностикою (за замовчуванням "
+"\"stats\")"
 
 #: builtin/bugreport.c:121
 msgid "specify a destination for the bugreport file(s)"
-msgstr ""
+msgstr "вказати місце призначення для файла(-ів) звіта про помилку"
 
 #: builtin/bugreport.c:123
 msgid "specify a strftime format suffix for the filename(s)"
-msgstr ""
+msgstr "вказати суфікс формату strftime для назви файла(-ів)"
 
 #: builtin/bugreport.c:146 builtin/diagnose.c:53
 #, c-format
@@ -4412,32 +4445,32 @@ msgstr "git restore [<опції>] [--source=<гілка>] <файл>..."
 #: builtin/checkout.c:209 builtin/checkout.c:248
 #, c-format
 msgid "path '%s' does not have our version"
-msgstr "шлях '%s' не містить нашої версії"
+msgstr "шлях \"%s\" не містить нашої версії"
 
 #: builtin/checkout.c:211 builtin/checkout.c:250
 #, c-format
 msgid "path '%s' does not have their version"
-msgstr "шлях '%s' не містить їхньої версії"
+msgstr "шлях \"%s\" не містить їхньої версії"
 
 #: builtin/checkout.c:227
 #, c-format
 msgid "path '%s' does not have all necessary versions"
-msgstr "шлях '%s' не містить всіх необхідних версій"
+msgstr "шлях \"%s\" не містить всіх необхідних версій"
 
 #: builtin/checkout.c:281
 #, c-format
 msgid "path '%s' does not have necessary versions"
-msgstr "шлях '%s' не містить необхідних версій"
+msgstr "шлях \"%s\" не містить необхідних версій"
 
 #: builtin/checkout.c:301
 #, c-format
 msgid "path '%s': cannot merge"
-msgstr "шлях '%s': неможливо злити"
+msgstr "шлях \"%s\": неможливо злити"
 
 #: builtin/checkout.c:317
 #, c-format
 msgid "Unable to add merge result for '%s'"
-msgstr "Неможливо додати результат злиття для '%s'"
+msgstr "Неможливо додати результат злиття для \"%s\""
 
 #: builtin/checkout.c:434
 #, c-format
@@ -4467,27 +4500,27 @@ msgstr[2] "Оновлено %d шляхів з індексу"
 #: builtin/checkout.c:479
 #, c-format
 msgid "'%s' cannot be used with updating paths"
-msgstr "'%s' не можна використовувати зі шляхами оновлення"
+msgstr "\"%s\" не можна використовувати зі шляхами оновлення"
 
 #: builtin/checkout.c:489
 #, c-format
 msgid "Cannot update paths and switch to branch '%s' at the same time."
-msgstr "Неможливо одночасно оновити шляхи та переключитись на гілку '%s'."
+msgstr "Неможливо одночасно оновити шляхи та переключитись на гілку \"%s\"."
 
 #: builtin/checkout.c:493
 #, c-format
 msgid "neither '%s' or '%s' is specified"
-msgstr "не вказано ні '%s', ні '%s'"
+msgstr "не вказано ні \"%s\", ні \"%s\""
 
 #: builtin/checkout.c:497
 #, c-format
 msgid "'%s' must be used when '%s' is not specified"
-msgstr "'%s' повинен використовуватися, якщо не вказано '%s'"
+msgstr "\"%s\" повинен використовуватися, якщо не вказано \"%s\""
 
 #: builtin/checkout.c:515 builtin/checkout.c:519
 #, c-format
 msgid "'%s' or '%s' cannot be used with %s"
-msgstr "'%s' або '%s' не можна використовувати з %s"
+msgstr "\"%s\" або \"%s\" не можна використовувати з %s"
 
 #: builtin/checkout.c:595 builtin/checkout.c:602
 #, c-format
@@ -4510,7 +4543,7 @@ msgstr ""
 #: builtin/checkout.c:940
 #, c-format
 msgid "Can not do reflog for '%s': %s\n"
-msgstr "Неможливо виконати reflog для '%s': %s\n"
+msgstr "Неможливо виконати reflog для \"%s\": %s\n"
 
 #: builtin/checkout.c:985
 msgid "HEAD is now at"
@@ -4524,12 +4557,12 @@ msgstr "не вдалося оновити HEAD"
 #: builtin/checkout.c:993
 #, c-format
 msgid "Reset branch '%s'\n"
-msgstr "Скинути гілку '%s'\n"
+msgstr "Скинути гілку \"%s\"\n"
 
 #: builtin/checkout.c:996
 #, c-format
 msgid "Already on '%s'\n"
-msgstr "Вже на '%s'\n"
+msgstr "Вже на \"%s\"\n"
 
 #: builtin/checkout.c:1000
 #, c-format
@@ -4539,12 +4572,12 @@ msgstr "Переключено на та скинуто гілку '%s'\n"
 #: builtin/checkout.c:1002 builtin/checkout.c:1438
 #, c-format
 msgid "Switched to a new branch '%s'\n"
-msgstr "Переключено на нову гілку '%s'\n"
+msgstr "Переключено на нову гілку \"%s\"\n"
 
 #: builtin/checkout.c:1004
 #, c-format
 msgid "Switched to branch '%s'\n"
-msgstr "Переключено на гілку '%s'\n"
+msgstr "Переключено на гілку \"%s\"\n"
 
 #: builtin/checkout.c:1055
 #, c-format
@@ -4681,22 +4714,22 @@ msgstr "посилання не є деревом: %s"
 #: builtin/checkout.c:1454
 #, c-format
 msgid "a branch is expected, got tag '%s'"
-msgstr "очікувалась гілка, надано тег '%s'"
+msgstr "очікувалась гілка, надано тег \"%s\""
 
 #: builtin/checkout.c:1456
 #, c-format
 msgid "a branch is expected, got remote branch '%s'"
-msgstr "очікувалась гілка, надана віддалена гілка '%s'"
+msgstr "очікувалась гілка, надана віддалена гілка \"%s\""
 
 #: builtin/checkout.c:1458 builtin/checkout.c:1467
 #, c-format
 msgid "a branch is expected, got '%s'"
-msgstr "очікувалась гілка, надано '%s'"
+msgstr "очікувалась гілка, надано \"%s\""
 
 #: builtin/checkout.c:1461
 #, c-format
 msgid "a branch is expected, got commit '%s'"
-msgstr "очікувалась гілка, надано коміт '%s'"
+msgstr "очікувалась гілка, надано коміт \"%s\""
 
 #: builtin/checkout.c:1470
 msgid ""
@@ -4940,6 +4973,8 @@ msgid ""
 "git clean [-d] [-f] [-i] [-n] [-q] [-e <pattern>] [-x | -X] [--] "
 "[<pathspec>...]"
 msgstr ""
+"git clean [-d] [-f] [-i] [-n] [-q] [-e <шаблон>] [-x | -X] [--] [<визначник "
+"шляху>...]"
 
 #: builtin/clean.c:37
 #, c-format
@@ -4987,6 +5022,10 @@ msgid ""
 "foo        - select item based on unique prefix\n"
 "           - (empty) select nothing\n"
 msgstr ""
+"Підказка швидкого вибору:\n"
+"1          - вибрати пронумерований елемент\n"
+"foo        - вибрати елемент за унікальним префіксом\n"
+"           - (порожньо) - не вибирати нічого\n"
 
 #: builtin/clean.c:334
 #, c-format
@@ -5000,31 +5039,39 @@ msgid ""
 "*          - choose all items\n"
 "           - (empty) finish selecting\n"
 msgstr ""
+"Підказка швидкого вибору:\n"
+"1          - вибрати один елемент\n"
+"3-5        - вибрати діапазон елементів\n"
+"2-3,6-9    - вибрати декілька діапазонів\n"
+"foo        - вибрати елемент за унікальним префіксом\n"
+"-...       - скасувати вибір вказаних елементів\n"
+"*          - вибрати всі елементи\n"
+"           - (порожньо) завершити вибір\n"
 
 #: builtin/clean.c:549
 #, c-format
 msgid "Huh (%s)?\n"
-msgstr ""
+msgstr "Га (%s)?\n"
 
 #: builtin/clean.c:689
 #, c-format
 msgid "Input ignore patterns>> "
-msgstr ""
+msgstr "Введіть шаблони ігнорування>> "
 
 #: builtin/clean.c:723
 #, c-format
 msgid "WARNING: Cannot find items matched by: %s"
-msgstr ""
+msgstr "ПОПЕРЕДЖЕННЯ: Не вдалося знайти елементи, що відповідають: %s"
 
 #: builtin/clean.c:744
 msgid "Select items to delete"
-msgstr ""
+msgstr "Виберіть елементи для видалення"
 
 #. TRANSLATORS: Make sure to keep [y/N] as is
 #: builtin/clean.c:785
 #, c-format
 msgid "Remove %s [y/N]? "
-msgstr ""
+msgstr "Видалити %s [y/N]? "
 
 #: builtin/clean.c:816
 msgid ""
@@ -5036,44 +5083,51 @@ msgid ""
 "help                - this screen\n"
 "?                   - help for prompt selection"
 msgstr ""
+"clean               - розпочати прибирання\n"
+"filter by pattern   - виключити елементи з прибирання\n"
+"select by numbers   - вибрати елементи для прибирання за номерами\n"
+"ask each            - підтверджувати кожне видалення (як \"rm -i\")\n"
+"quit                - припинити прибирання\n"
+"help                - показати цей екран\n"
+"?                   - підказка для швидкого вибору"
 
 #: builtin/clean.c:852
 msgid "Would remove the following item:"
 msgid_plural "Would remove the following items:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Видалить наступний елемент:"
+msgstr[1] "Видалить наступні елементи:"
+msgstr[2] "Видалить наступні елементи:"
 
 #: builtin/clean.c:868
 msgid "No more files to clean, exiting."
-msgstr ""
+msgstr "Більше немає файлів для прибирання, вихід."
 
 #: builtin/clean.c:930
 msgid "do not print names of files removed"
-msgstr ""
+msgstr "не виводити назви видалених файлів"
 
 #: builtin/clean.c:932
 msgid "force"
-msgstr ""
+msgstr "примусово"
 
 #: builtin/clean.c:933
 msgid "interactive cleaning"
-msgstr ""
+msgstr "інтерактивне прибирання"
 
 #: builtin/clean.c:935
 msgid "remove whole directories"
-msgstr ""
+msgstr "видаляти цілі директорії"
 
 #: builtin/clean.c:936 builtin/describe.c:574 builtin/describe.c:576
 #: builtin/grep.c:984 builtin/log.c:259 builtin/log.c:261
 #: builtin/ls-files.c:744 builtin/name-rev.c:570 builtin/name-rev.c:572
 #: builtin/show-ref.c:177
 msgid "pattern"
-msgstr ""
+msgstr "шаблон"
 
 #: builtin/clean.c:937
 msgid "add <pattern> to ignore rules"
-msgstr ""
+msgstr "додати <шаблон> в правила ігнорування"
 
 #: builtin/clean.c:938
 msgid "remove ignored files, too"
@@ -5088,12 +5142,16 @@ msgid ""
 "clean.requireForce set to true and neither -i, -n, nor -f given; refusing to "
 "clean"
 msgstr ""
+"clean.requireForce встановлено у true і не задано ні -i, ні -n, ні -f; "
+"відмова від прибирання"
 
 #: builtin/clean.c:958
 msgid ""
 "clean.requireForce defaults to true and neither -i, -n, nor -f given; "
 "refusing to clean"
 msgstr ""
+"clean.requireForce встановлено у true за замовчуванням і не задано ні -i, ні "
+"-n, ні -f; відмова від прибирання"
 
 #: builtin/clean.c:970
 msgid "-x and -X cannot be used together"
@@ -5281,13 +5339,13 @@ msgstr "URI для завантаження пакунків перед отри
 #: builtin/clone.c:251
 #, c-format
 msgid "info: Could not add alternate for '%s': %s\n"
-msgstr "инфо: Не вдалося додати альтернативу для '%s': %s\n"
+msgstr "инфо: Не вдалося додати альтернативу для \"%s\": %s\n"
 
 #: builtin/clone.c:322 builtin/diff.c:94 builtin/rm.c:143 grep.c:1939
 #: setup.c:189
 #, c-format
 msgid "failed to stat '%s'"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося виконати stat \"%s\""
 
 #: builtin/clone.c:324
 #, c-format
@@ -5295,39 +5353,39 @@ msgid "%s exists and is not a directory"
 msgstr "%s існує і не є директорією"
 
 #: builtin/clone.c:345
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is a symlink, refusing to clone with --local"
-msgstr "символьне посилання '%s' існує, не можу клонувати з --local"
+msgstr "\"%s\" є символьним посиланням, відмова від клонування з --local"
 
 #: builtin/clone.c:349
 #, c-format
 msgid "failed to start iterator over '%s'"
-msgstr "не вдалося запустити перебір для '%s'"
+msgstr "не вдалося запустити перебір для \"%s\""
 
 #: builtin/clone.c:364
 #, c-format
 msgid "symlink '%s' exists, refusing to clone with --local"
-msgstr "символьне посилання '%s' існує, не можу клонувати з --local"
+msgstr "символьне посилання \"%s\" існує, не можу клонувати з --local"
 
 #: builtin/clone.c:379 compat/precompose_utf8.c:61
 #, c-format
 msgid "failed to unlink '%s'"
-msgstr "не вдалося розʼєднати '%s'"
+msgstr "не вдалося розʼєднати \"%s\""
 
 #: builtin/clone.c:385
 #, c-format
 msgid "failed to create link '%s'"
-msgstr "не вдалося створити посилання '%s'"
+msgstr "не вдалося створити посилання \"%s\""
 
 #: builtin/clone.c:389
 #, c-format
 msgid "failed to copy file to '%s'"
-msgstr "не вдалося скопіювати файл у '%s'"
+msgstr "не вдалося скопіювати файл у \"%s\""
 
 #: builtin/clone.c:394
 #, c-format
 msgid "failed to iterate over '%s'"
-msgstr "не вдалося перебрати '%s'"
+msgstr "не вдалося перебрати \"%s\""
 
 #: builtin/clone.c:421
 #, c-format
@@ -5400,7 +5458,7 @@ msgstr ""
 #: builtin/clone.c:979
 #, c-format
 msgid "repository '%s' does not exist"
-msgstr "сховище '%s' не існує"
+msgstr "сховище \"%s\" не існує"
 
 #: builtin/clone.c:983 builtin/fetch.c:2222
 #, c-format
@@ -5410,38 +5468,38 @@ msgstr "глибина %s не є додатнім числом"
 #: builtin/clone.c:993
 #, c-format
 msgid "destination path '%s' already exists and is not an empty directory."
-msgstr "шлях призначення '%s' вже існує і не є порожньою директорією."
+msgstr "шлях призначення \"%s\" вже існує і не є порожньою директорією."
 
 #: builtin/clone.c:999
 #, c-format
 msgid "repository path '%s' already exists and is not an empty directory."
-msgstr "шлях до сховища '%s' вже існує і не є порожньою директорією."
+msgstr "шлях до сховища \"%s\" вже існує і не є порожньою директорією."
 
 #: builtin/clone.c:1013
 #, c-format
 msgid "working tree '%s' already exists."
-msgstr "робоче дерево '%s' вже існує."
+msgstr "робоче дерево \"%s\" вже існує."
 
 #: builtin/clone.c:1028 builtin/clone.c:1049 builtin/difftool.c:267
 #: builtin/log.c:2172 builtin/worktree.c:417 builtin/worktree.c:449
 #, c-format
 msgid "could not create leading directories of '%s'"
-msgstr "не вдалося створити провідні директорії для '%s'"
+msgstr "не вдалося створити провідні директорії для \"%s\""
 
 #: builtin/clone.c:1033
 #, c-format
 msgid "could not create work tree dir '%s'"
-msgstr "не вдалося створити директорію робочого дерева '%s'"
+msgstr "не вдалося створити директорію робочого дерева \"%s\""
 
 #: builtin/clone.c:1053
 #, c-format
 msgid "Cloning into bare repository '%s'...\n"
-msgstr "Клонування у порожнє сховище '%s'...\n"
+msgstr "Клонування у порожнє сховище \"%s\"...\n"
 
 #: builtin/clone.c:1055
 #, c-format
 msgid "Cloning into '%s'...\n"
-msgstr "Клонування в '%s'...\n"
+msgstr "Клонування в \"%s\"..\n"
 
 #: builtin/clone.c:1084
 msgid ""
@@ -11876,8 +11934,7 @@ msgid ""
 "in 'git help config'.\n"
 msgstr ""
 "\n"
-"Щоб уникнути автоматичного налаштування гілки перводжерельного сховища, якщо "
-"її назва\n"
+"Щоб уникнути автоматичного налаштування висхідної гілки, якщо її назва\n"
 "не збігається з назвою локальної гілки, скористайтесь опцією 'simple' для "
 "branch.autoSetupMerge\n"
 "у “git help config”.\n"
@@ -11896,10 +11953,9 @@ msgid ""
 "    git push %s HEAD\n"
 "%s%s"
 msgstr ""
-"Назва гілки перводжерельного сховища для вашої поточної гілки не збігається "
-"з\n"
-"назвою вашої поточної гілки.  Щоб надіслати до гілки\n"
-"першоджерельного сховища, скористайтесь командою\n"
+"Назва висхідної гілки для вашої поточної гілки не збігається з\n"
+"назвою вашої поточної гілки.  Щоб надіслати до висхідної гілки,\n"
+"скористайтесь командою\n"
 "\n"
 "    git push %s HEAD:%s\n"
 "\n"
@@ -11943,7 +11999,7 @@ msgid ""
 "    git push --set-upstream %s %s\n"
 "%s"
 msgstr ""
-"Поточна гілка %s не має гілки у першоджeрельному сховищі.\n"
+"Поточна гілка %s не має висхідної гілки.\n"
 "Щоб надіслати поточну гілку і встановити віддалене призначення "
 "першоджерельним сховищем, скористайтеся\n"
 "\n"
@@ -11984,7 +12040,8 @@ msgstr ""
 "позаду\n"
 "її віддаленого аналога. Інтегруйте віддалені зміни (наприклад, через\n"
 "'git pull ...') перед повторним надсиланням.\n"
-"Докладніше у \"Примітці про перемотування\" команди \"git push --help\"."
+"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --"
+"help\"."
 
 #: builtin/push.c:310
 msgid ""
@@ -11997,7 +12054,8 @@ msgstr ""
 "позаду\n"
 "її віддаленого аналога. Стягнить цю гілку та інтегруйте віддалені зміни\n"
 "(наприклад, через 'git pull...') перед повторним надсиланням.\n"
-"Докладніше у \"Примітці про перемотування\" команди \"git push --help\"."
+"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --"
+"help\"."
 
 #: builtin/push.c:316
 msgid ""
@@ -12013,7 +12071,8 @@ msgstr ""
 "до того самого посилання. Можливо, вам слід спочатку інтегрувати віддалені "
 "зміни\n"
 "(наприклад, через 'git pull ...') перед повторним надсиланням.\n"
-"Докладніше у \"Примітці про перемотування\" команди \"git push --help\"."
+"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --"
+"help\"."
 
 #: builtin/push.c:323
 msgid "Updates were rejected because the tag already exists in the remote."
@@ -22977,7 +23036,7 @@ msgstr ""
 "Використання \"%s\" як назви початкової гілки. Назву гілки за замовчуванням\n"
 "може бути змінено. Щоб налаштувати назву початкової гілки для використання у "
 "всіх\n"
-"ваших нових сховищах, що приховуватиме це попередження, викличте\n"
+"ваших нових сховищах, що приховає це попередження, викличте\n"
 "\n"
 "\tgit config --global init.defaultBranch <назва>.\n"
 "\n"
@@ -23129,7 +23188,8 @@ msgstr "віддалений сервер надіслав неочікуван�
 #: remote-curl.c:743
 msgid "unable to rewind rpc post data - try increasing http.postBuffer"
 msgstr ""
-"не вдалося перемотати rpc post дані - спробуйте збільшити http.postBuffer"
+"не вдалося перемотати  вперед rpc post дані - спробуйте збільшити http."
+"postBuffer"
 
 #: remote-curl.c:768
 #, c-format
@@ -23390,9 +23450,7 @@ msgstr "першоджерельне сховище не налаштовано 
 #: remote.c:1889
 #, c-format
 msgid "upstream branch '%s' not stored as a remote-tracking branch"
-msgstr ""
-"гілка '%s' першоджерельного сховища не збережена як віддалено відстежувана "
-"гілка"
+msgstr "висхідна гілка \"%s\" не збережена як віддалено відстежувана гілка"
 
 #: remote.c:1904
 #, c-format
@@ -24176,7 +24234,7 @@ msgstr ""
 "правильність.\n"
 "Ви можете приховати це повідомлення, вказавши їх явно:\n"
 "\n"
-"    git config --global user.name \"Ваше імʼя\"\n"
+"    git config --global user.name \"Ваше Імʼя\"\n"
 "    git config --global user.email you@example.com\n"
 "\n"
 "Після цього ви можете виправити особистість автора, використану для цього "
@@ -24497,8 +24555,8 @@ msgstr "збережений pre-cherry-pick HEAD файл \"%s\" пошкодж
 #: sequencer.c:3306
 msgid "You seem to have moved HEAD. Not rewinding, check your HEAD!"
 msgstr ""
-"Здається, ви пересунули HEAD. Перемотування не виконується, перевірте свій "
-"HEAD!"
+"Здається, ви пересунули HEAD. Перемотування назад не виконується, "
+"перевірте свій HEAD!"
 
 #: sequencer.c:3347
 msgid "no revert in progress"
