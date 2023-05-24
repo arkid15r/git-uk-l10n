@@ -20305,26 +20305,28 @@ msgstr ""
 
 #: http.c:498
 msgid "Public key pinning not supported with cURL < 7.39.0"
-msgstr ""
+msgstr "Закріплення відкритих ключів не підтримується з cURL < 7.39.0"
 
 #: http.c:994
 msgid "CURLSSLOPT_NO_REVOKE not supported with cURL < 7.44.0"
-msgstr ""
+msgstr "CURLSSLOPT_NO_REVOKE не підтримується з cURL < 7.44.0"
 
 #: http.c:1218
 #, c-format
 msgid "Unsupported SSL backend '%s'. Supported SSL backends:"
-msgstr ""
+msgstr "Непідтримуваний SSL бекенд \"%s\". Підтримувані бекенди SSL:"
 
 #: http.c:1225
 #, c-format
 msgid "Could not set SSL backend to '%s': cURL was built without SSL backends"
 msgstr ""
+"Не вдалося встановити SSL бекенд в \"%s\": cURL було збудовано без SSL "
+"бекендів"
 
 #: http.c:1229
 #, c-format
 msgid "Could not set SSL backend to '%s': already set"
-msgstr ""
+msgstr "Не вдалося встановити SSL бекенд в \"%s\": вже встановлено"
 
 #: http.c:2112
 #, c-format
@@ -20333,14 +20335,17 @@ msgid ""
 "  asked for: %s\n"
 "   redirect: %s"
 msgstr ""
+"не вдалося оновити базу url з перенаправлення:\n"
+"  asked for: %s\n"
+"   перенаправлення: %s"
 
 #: ident.c:431
 msgid "Author identity unknown\n"
-msgstr ""
+msgstr "Особистість автора невідома\n"
 
 #: ident.c:434
 msgid "Committer identity unknown\n"
-msgstr ""
+msgstr "Особистість комітера невідома\n"
 
 #: ident.c:440
 msgid ""
@@ -20356,15 +20361,26 @@ msgid ""
 "Omit --global to set the identity only in this repository.\n"
 "\n"
 msgstr ""
+"\n"
+"*** Будь ласка, скажіть мені, хто ви.\n"
+"\n"
+"Виконайте\n"
+"\n"
+"  git config --global user.email \"you@example.com\"\n"
+"  git config --global user.name \"Ваше імʼя\"\n"
+"\n"
+"щоб встановити особистість акаунту за замовчуванням.\n"
+"Пропустіть --global, щоб встановити особистість лише у цьому сховищі.\n"
 
 #: ident.c:475
 msgid "no email was given and auto-detection is disabled"
-msgstr ""
+msgstr "не вказано адресу електронної пошти і автоматичне визначення вимкнено"
 
 #: ident.c:480
 #, c-format
 msgid "unable to auto-detect email address (got '%s')"
 msgstr ""
+"не вдалося автоматично визначити адресу електронної пошти (отримано \"%s\")"
 
 #: ident.c:497
 msgid "no name was given and auto-detection is disabled"
