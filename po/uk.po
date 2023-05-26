@@ -20194,7 +20194,7 @@ msgstr ""
 #: help.c:445
 msgid "User-facing repository, command and file interfaces:"
 msgstr ""
-"Репозиторій, орієнтований на користувача, командні та файлові інтерфейси:"
+"Сховище, орієнтоване на користувача, командні та файлові інтерфейси:"
 
 #: help.c:455
 msgid "File formats, protocols and other developer interfaces:"
@@ -20250,7 +20250,7 @@ msgstr "Запустити натомість \"%s\" [y/N]? "
 #, c-format
 msgid "Continuing in %0.1f seconds, assuming that you meant '%s'."
 msgstr ""
-"Продовження через %0.1f секунд, припускаючи, що ви мали на увазі \"%s\"."
+"Продовжую через %0.1f секунд, припускаючи, що ви мали на увазі \"%s\"."
 
 #: help.c:720
 msgid ""
