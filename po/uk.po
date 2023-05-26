@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-05-23 19:30-0700\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-05-25 17:17-0700\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -4006,11 +4006,11 @@ msgstr "не вдалося створити архів діагностики %
 
 #: builtin/bugreport.c:167
 msgid "System Info"
-msgstr ""
+msgstr "Інформація про систему"
 
 #: builtin/bugreport.c:170
 msgid "Enabled Hooks"
-msgstr ""
+msgstr "Увімкнені гачки"
 
 #: builtin/bugreport.c:177
 #, c-format
@@ -4020,33 +4020,35 @@ msgstr "не вдалося записати до %s"
 #: builtin/bugreport.c:187
 #, c-format
 msgid "Created new report at '%s'.\n"
-msgstr ""
+msgstr "Створено новий звіт в \"%s\".\n"
 
 #: builtin/bundle.c:20
 msgid ""
 "git bundle create [-q | --quiet | --progress]\n"
 "                  [--version=<version>] <file> <git-rev-list-args>"
 msgstr ""
+"git bundle create [-q | --quiet | --progress]\n"
+"                  [--version=<версія>] <файл> <git-rev-list-агрументи>"
 
 #: builtin/bundle.c:23
 msgid "git bundle verify [-q | --quiet] <file>"
-msgstr ""
+msgstr "git bundle verify [-q | --quiet] <файл>"
 
 #: builtin/bundle.c:25
 msgid "git bundle list-heads <file> [<refname>...]"
-msgstr ""
+msgstr "git bundle list-heads <файл> [<назва-посилання>...]"
 
 #: builtin/bundle.c:27
 msgid "git bundle unbundle [--progress] <file> [<refname>...]"
-msgstr ""
+msgstr "git bundle unbundle [--progress] <файл> [<назва-посилання>...]"
 
 #: builtin/bundle.c:66
 msgid "need a <file> argument"
-msgstr ""
+msgstr "потрібен аргумент <файл>"
 
 #: builtin/bundle.c:79 builtin/pack-objects.c:4183
 msgid "do not show progress meter"
-msgstr ""
+msgstr "не показувати прогрес виконання"
 
 #: builtin/bundle.c:81 builtin/bundle.c:202 builtin/pack-objects.c:4185
 msgid "show progress meter"
@@ -20320,8 +20322,8 @@ msgstr "Непідтримуваний SSL бекенд \"%s\". Підтриму
 #, c-format
 msgid "Could not set SSL backend to '%s': cURL was built without SSL backends"
 msgstr ""
-"Не вдалося встановити SSL бекенд в \"%s\": cURL було зібрано без підтримки SSL "
-"бекендів"
+"Не вдалося встановити SSL бекенд в \"%s\": cURL було зібрано без підтримки "
+"SSL бекендів"
 
 #: http.c:1229
 #, c-format
