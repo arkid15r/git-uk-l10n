@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-05-23 19:30-0700\n"
+"PO-Revision-Date: 2023-05-25 17:16-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -20140,31 +20140,31 @@ msgstr ""
 
 #: help.c:36
 msgid "Ancillary Commands / Manipulators"
-msgstr ""
+msgstr "Допоміжні команди / Маніпулятори"
 
 #: help.c:37
 msgid "Ancillary Commands / Interrogators"
-msgstr ""
+msgstr "Допоміжні команди / Допитувачі"
 
 #: help.c:38
 msgid "Interacting with Others"
-msgstr ""
+msgstr "Взаємодія з іншими"
 
 #: help.c:39
 msgid "Low-level Commands / Manipulators"
-msgstr ""
+msgstr "Низькорівневі команди / Маніпулятори"
 
 #: help.c:40
 msgid "Low-level Commands / Interrogators"
-msgstr ""
+msgstr "Низькорівневі команди / Допитувачі"
 
 #: help.c:41
 msgid "Low-level Commands / Syncing Repositories"
-msgstr ""
+msgstr "Низькорівневі команди / Сховища синхронізації"
 
 #: help.c:42
 msgid "Low-level Commands / Internal Helpers"
-msgstr ""
+msgstr "Низькорівневі команди / Внутрішні помічники"
 
 #: help.c:43
 msgid "User-facing repository, command and file interfaces"
@@ -20181,11 +20181,11 @@ msgstr "доступні команди git в \"%s\""
 
 #: help.c:336
 msgid "git commands available from elsewhere on your $PATH"
-msgstr ""
+msgstr "команди git доступні з будь-якого місця на вашому $PATH"
 
 #: help.c:345
 msgid "These are common Git commands used in various situations:"
-msgstr ""
+msgstr "Це загальні команди Git, які використовуються в різних ситуаціях:"
 
 #: help.c:435
 msgid "The Git concept guides are:"
@@ -20194,22 +20194,24 @@ msgstr ""
 #: help.c:445
 msgid "User-facing repository, command and file interfaces:"
 msgstr ""
+"Репозиторій, орієнтований на користувача, командні та файлові інтерфейси:"
 
 #: help.c:455
 msgid "File formats, protocols and other developer interfaces:"
-msgstr ""
+msgstr "Формати файлів, протоколи та інші інтерфейси розробника:"
 
 #: help.c:479
 msgid "External commands"
-msgstr ""
+msgstr "Зовнішні команди"
 
 #: help.c:501
 msgid "Command aliases"
-msgstr ""
+msgstr "Аліаси команд"
 
 #: help.c:519
 msgid "See 'git help <command>' to read about a specific subcommand"
 msgstr ""
+"Дивіться \"git help <команда>\", щоб прочитати про конкретну підкоманду"
 
 #: help.c:597
 #, c-format
@@ -20217,35 +20219,38 @@ msgid ""
 "'%s' appears to be a git command, but we were not\n"
 "able to execute it. Maybe git-%s is broken?"
 msgstr ""
+"Схоже, що \"%s\" є git командою, але ми не змогли\n"
+"виконати її. Можливо, git-%s не працює?"
 
 #: help.c:619 help.c:716
 #, c-format
 msgid "git: '%s' is not a git command. See 'git --help'."
-msgstr ""
+msgstr "git: \"%s\" не є командою git. Дивітья git --help."
 
 #: help.c:667
 msgid "Uh oh. Your system reports no Git commands at all."
-msgstr ""
+msgstr "Ой-ой. Ваша система повідомляє про повну відсутність Git команд."
 
 #: help.c:689
 #, c-format
 msgid "WARNING: You called a Git command named '%s', which does not exist."
-msgstr ""
+msgstr "ПОПЕРЕДЖЕННЯ: Ви викликали Git команду \"%s\", якої не існує."
 
 #: help.c:694
 #, c-format
 msgid "Continuing under the assumption that you meant '%s'."
-msgstr ""
+msgstr "Продовжую, припускаючи, що ви мали на увазі \"%s\"."
 
 #: help.c:700
 #, c-format
 msgid "Run '%s' instead [y/N]? "
-msgstr ""
+msgstr "Запустити натомість \"%s\" [y/N]? "
 
 #: help.c:708
 #, c-format
 msgid "Continuing in %0.1f seconds, assuming that you meant '%s'."
 msgstr ""
+"Продовження через %0.1f секунд, припускаючи, що ви мали на увазі \"%s\"."
 
 #: help.c:720
 msgid ""
@@ -20255,17 +20260,23 @@ msgid_plural ""
 "\n"
 "The most similar commands are"
 msgstr[0] ""
+"\n"
+"Найбільш схожою командою є"
 msgstr[1] ""
+"\n"
+"Найбільш схожими командами є"
 msgstr[2] ""
+"\n"
+"Найбільш схожими командами є"
 
 #: help.c:763
 msgid "git version [--build-options]"
-msgstr ""
+msgstr "git версія [--build-options]"
 
 #: help.c:819
 #, c-format
 msgid "%s: %s - %s"
-msgstr ""
+msgstr "%s: %s - %s"
 
 #: help.c:823
 msgid ""
@@ -20275,8 +20286,14 @@ msgid_plural ""
 "\n"
 "Did you mean one of these?"
 msgstr[0] ""
+"\n"
+"Ви це мали на увазі?"
 msgstr[1] ""
+"\n"
+"Ви мали на увазі одну з цих?"
 msgstr[2] ""
+"\n"
+"Ви мали на увазі одну з цих?"
 
 #: hook.c:32
 #, c-format
@@ -20284,11 +20301,14 @@ msgid ""
 "The '%s' hook was ignored because it's not set as executable.\n"
 "You can disable this warning with `git config advice.ignoredHook false`."
 msgstr ""
+"Гачок \"%s\" було проігноровано, оскільки він не визначений як виконуваний.\n"
+"Ви можете вимкнути це попередження за допомогою \"git config advice."
+"ignoredHook false\"."
 
 #: http-fetch.c:132
 #, c-format
 msgid "argument to --packfile must be a valid hash (got '%s')"
-msgstr ""
+msgstr "аргумент до --packfile має бути коректним хешем (отримано \"%s\")"
 
 #: http-fetch.c:142
 msgid "not a git repository"
@@ -20298,6 +20318,7 @@ msgstr "не є git сховищем"
 #, c-format
 msgid "negative value for http.postBuffer; defaulting to %d"
 msgstr ""
+"відʼємне значення для http.postBuffer; зміна до значеня за замовчуванням %d"
 
 #: http.c:489
 msgid "Delegation control is not supported with cURL < 7.22.0"
@@ -20320,8 +20341,8 @@ msgstr "Непідтримуваний SSL бекенд \"%s\". Підтриму
 #, c-format
 msgid "Could not set SSL backend to '%s': cURL was built without SSL backends"
 msgstr ""
-"Не вдалося встановити SSL бекенд в \"%s\": cURL було зібрано без підтримки SSL "
-"бекендів"
+"Не вдалося встановити SSL бекенд в \"%s\": cURL було зібрано без підтримки "
+"SSL бекендів"
 
 #: http.c:1229
 #, c-format
