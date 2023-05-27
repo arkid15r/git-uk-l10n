@@ -20032,8 +20032,8 @@ msgid ""
 "ssh-keygen -Y find-principals/verify is needed for ssh signature "
 "verification (available in openssh version 8.2p1+)"
 msgstr ""
-"ssh-keygen -Y find-principals/verify потрібен для перевірки підпису ssh "
-"(доступний у версії openssh 8.2p1+)"
+"ssh-keygen -Y find-principals/verify необхідно для перевірки підпису ssh "
+"(доступно у версії openssh 8.2p1+)"
 
 #: gpg-interface.c:569
 #, c-format
