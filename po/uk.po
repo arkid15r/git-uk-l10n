@@ -20043,7 +20043,7 @@ msgstr "файл скасування підпису ssh налаштовано,
 #: gpg-interface.c:659
 #, c-format
 msgid "bad/incompatible signature '%s'"
-msgstr "неправильний/несумісний підпис \"%s\""
+msgstr "невірний/несумісний підпис \"%s\""
 
 #: gpg-interface.c:838 gpg-interface.c:843
 #, c-format
@@ -20060,7 +20060,7 @@ msgstr ""
 #, c-format
 msgid "gpg.ssh.defaultKeyCommand succeeded but returned no keys: %s %s"
 msgstr ""
-"gpg.ssh.defaultKeyCommand команда пройшла успішно, але не повернула ключів: %s %s"
+"gpg.ssh.defaultKeyCommand команда виконалася успішно, але не повернула жодного ключа: %s %s"
 
 #: gpg-interface.c:894
 #, c-format
@@ -20078,7 +20078,7 @@ msgstr ""
 
 #: gpg-interface.c:1036
 msgid "user.signingKey needs to be set for ssh signing"
-msgstr "user.signingКлюч повинен бути встановлен для ssh підпису"
+msgstr "user.signingКлюч має бути налаштований для ssh підписання"
 
 #: gpg-interface.c:1048
 #, c-format
@@ -20095,13 +20095,13 @@ msgid ""
 "ssh-keygen -Y sign is needed for ssh signing (available in openssh version "
 "8.2p1+)"
 msgstr ""
-"ssh-keygen -Y знак потрібен для ssh підпису (доступно у openssh версії "
+"ssh-keygen -Y знак потрібен для ssh підписання (доступно у openssh версії "
 "8.2p1+)"
 
 #: gpg-interface.c:1098
 #, c-format
 msgid "failed reading ssh signing data buffer from '%s'"
-msgstr "не вдалося прочитати буфер даних ssh підпису з \"%s\""
+msgstr "не вдалося прочитати буфер даних ssh підписання з \"%s\""
 
 #: graph.c:99
 #, c-format
@@ -20128,23 +20128,23 @@ msgstr "\"%s\": помилка считування"
 
 #: help.c:27
 msgid "start a working area (see also: git help tutorial)"
-msgstr "запустити робочу область (див. також: git help tutorial)"
+msgstr "запустити робочу область (дивіться також: git help tutorial)"
 
 #: help.c:28
 msgid "work on the current change (see also: git help everyday)"
-msgstr "працювати над поточними змінами (див. також: git help everyday)"
+msgstr "працювати над поточними змінами (дивіться також: git help everyday)"
 
 #: help.c:29
 msgid "examine the history and state (see also: git help revisions)"
-msgstr "переглянути історію та стан (див. також: git help revisions)"
+msgstr "переглянути історію та стан (дивіться також: git help revisions)"
 
 #: help.c:30
 msgid "grow, mark and tweak your common history"
-msgstr "розвивати, помічати та корегувати вашу спільну історію"
+msgstr "розвивати, позначати та підправляти вашу спільну історію"
 
 #: help.c:31
 msgid "collaborate (see also: git help workflows)"
-msgstr "співпрацювати (див. також: git help workflows)"
+msgstr "співпрацювати (дивіться також: git help workflows)"
 
 #: help.c:35
 msgid "Main Porcelain Commands"
