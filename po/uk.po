@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-05-25 17:16-0700\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-05-26 18:40-0700\n"
 "PO-Revision-Date: 2023-05-25 17:17-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -20032,16 +20032,18 @@ msgid ""
 "ssh-keygen -Y find-principals/verify is needed for ssh signature "
 "verification (available in openssh version 8.2p1+)"
 msgstr ""
+"ssh-keygen -Y find-principals/verify необхідно для перевірки підпису ssh "
+"(доступно у версії openssh 8.2p1+)"
 
 #: gpg-interface.c:569
 #, c-format
 msgid "ssh signing revocation file configured but not found: %s"
-msgstr ""
+msgstr "файл скасування підпису ssh налаштовано, але не знайдено: %s"
 
 #: gpg-interface.c:659
 #, c-format
 msgid "bad/incompatible signature '%s'"
-msgstr ""
+msgstr "невірний/несумісний підпис \"%s\""
 
 #: gpg-interface.c:838 gpg-interface.c:843
 #, c-format
@@ -20052,16 +20054,18 @@ msgstr "не вдалося отримати ssh відбиток для клю�
 msgid ""
 "either user.signingkey or gpg.ssh.defaultKeyCommand needs to be configured"
 msgstr ""
+"потрібно налаштувати або user.signingkey, або gpg.ssh.defaultKeyCommand"
 
 #: gpg-interface.c:888
 #, c-format
 msgid "gpg.ssh.defaultKeyCommand succeeded but returned no keys: %s %s"
 msgstr ""
+"gpg.ssh.defaultKeyCommand команда виконалася успішно, але не повернула жодного ключа: %s %s"
 
 #: gpg-interface.c:894
 #, c-format
 msgid "gpg.ssh.defaultKeyCommand failed: %s %s"
-msgstr ""
+msgstr "gpg.ssh.defaultKeyCommand завершився невдало: %s %s"
 
 #: gpg-interface.c:1008
 #, c-format
@@ -20074,7 +20078,7 @@ msgstr ""
 
 #: gpg-interface.c:1036
 msgid "user.signingKey needs to be set for ssh signing"
-msgstr ""
+msgstr "user.signingКлюч має бути налаштований для ssh підписання"
 
 #: gpg-interface.c:1048
 #, c-format
@@ -20091,22 +20095,26 @@ msgid ""
 "ssh-keygen -Y sign is needed for ssh signing (available in openssh version "
 "8.2p1+)"
 msgstr ""
+"ssh-keygen -Y знак потрібен для ssh підписання (доступно у openssh версії "
+"8.2p1+)"
 
 #: gpg-interface.c:1098
 #, c-format
 msgid "failed reading ssh signing data buffer from '%s'"
-msgstr ""
+msgstr "не вдалося прочитати буфер даних ssh підписання з \"%s\""
 
 #: graph.c:99
 #, c-format
 msgid "ignored invalid color '%.*s' in log.graphColors"
-msgstr ""
+msgstr "проігноровано неприпустимий колір \"%.*s\" у log.graphColors"
 
 #: grep.c:505
 msgid ""
 "given pattern contains NULL byte (via -f <file>). This is only supported "
 "with -P under PCRE v2"
 msgstr ""
+"заданий шаблон містить NULL байт (через -f <файл>). Це підтримується лише з "
+"опцією -P у PCRE v2"
 
 #: grep.c:1922
 #, c-format
@@ -20116,27 +20124,27 @@ msgstr "\"%s\": не вдалося прочитати %s"
 #: grep.c:1950
 #, c-format
 msgid "'%s': short read"
-msgstr ""
+msgstr "\"%s\": помилка считування"
 
 #: help.c:27
 msgid "start a working area (see also: git help tutorial)"
-msgstr ""
+msgstr "запустити робочу область (дивіться також: git help tutorial)"
 
 #: help.c:28
 msgid "work on the current change (see also: git help everyday)"
-msgstr ""
+msgstr "працювати над поточними змінами (дивіться також: git help everyday)"
 
 #: help.c:29
 msgid "examine the history and state (see also: git help revisions)"
-msgstr ""
+msgstr "переглянути історію та стан (дивіться також: git help revisions)"
 
 #: help.c:30
 msgid "grow, mark and tweak your common history"
-msgstr ""
+msgstr "розвивати, позначати та підправляти вашу спільну історію"
 
 #: help.c:31
 msgid "collaborate (see also: git help workflows)"
-msgstr ""
+msgstr "співпрацювати (дивіться також: git help workflows)"
 
 #: help.c:35
 msgid "Main Porcelain Commands"
@@ -20197,8 +20205,7 @@ msgstr ""
 
 #: help.c:445
 msgid "User-facing repository, command and file interfaces:"
-msgstr ""
-"Сховище, орієнтоване на користувача, командні та файлові інтерфейси:"
+msgstr "Сховище, орієнтоване на користувача, командні та файлові інтерфейси:"
 
 #: help.c:455
 msgid "File formats, protocols and other developer interfaces:"
@@ -20253,8 +20260,7 @@ msgstr "Запустити натомість \"%s\" [y/N]? "
 #: help.c:708
 #, c-format
 msgid "Continuing in %0.1f seconds, assuming that you meant '%s'."
-msgstr ""
-"Продовжую через %0.1f секунд, припускаючи, що ви мали на увазі \"%s\"."
+msgstr "Продовжую через %0.1f секунд, припускаючи, що ви мали на увазі \"%s\"."
 
 #: help.c:720
 msgid ""
