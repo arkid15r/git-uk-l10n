@@ -19781,7 +19781,7 @@ msgstr "сервер не підтримує алгоритм \"%s\""
 
 #: fetch-pack.c:1381
 msgid "Server does not support shallow requests"
-msgstr ""
+msgstr "Сервер не підтримує поверхневі запити"
 
 #: fetch-pack.c:1426 fetch-pack.c:2184
 msgid "unable to write request to remote"
@@ -19800,12 +19800,12 @@ msgstr "очікувалось \"%s\""
 #: fetch-pack.c:1487
 #, c-format
 msgid "unexpected acknowledgment line: '%s'"
-msgstr ""
+msgstr "несподіваний рядок підтвердження: \"%s\""
 
 #: fetch-pack.c:1492
 #, c-format
 msgid "error processing acks: %d"
-msgstr ""
+msgstr "помилка при обробці підтверджень: %d"
 
 #. TRANSLATORS: The parameter will be 'ready', a protocol
 #. keyword.
@@ -19813,7 +19813,7 @@ msgstr ""
 #: fetch-pack.c:1506
 #, c-format
 msgid "expected packfile to be sent after '%s'"
-msgstr ""
+msgstr "очікувалось надсилання файла пакунка після \"%s\""
 
 #. TRANSLATORS: The parameter will be 'ready', a protocol
 #. keyword.
@@ -19821,12 +19821,12 @@ msgstr ""
 #: fetch-pack.c:1512
 #, c-format
 msgid "expected no other sections to be sent after no '%s'"
-msgstr ""
+msgstr "не очікувалось надсилання жодної секції для статусу не \"%s\""
 
 #: fetch-pack.c:1553
 #, c-format
 msgid "error processing shallow info: %d"
-msgstr ""
+msgstr "помилка при обробці поверхневої інформації: %d"
 
 #: fetch-pack.c:1602
 #, c-format
@@ -19845,15 +19845,15 @@ msgstr ""
 
 #: fetch-pack.c:1642
 msgid "git fetch-pack: expected response end packet"
-msgstr ""
+msgstr "git fetch-pack: очікувався response end пакет"
 
 #: fetch-pack.c:2068
 msgid "no matching remote head"
-msgstr ""
+msgstr "немає відповідного віддаленого head"
 
 #: fetch-pack.c:2206
 msgid "unexpected 'ready' from remote"
-msgstr ""
+msgstr "несподіване \"ready\" з віддаленого призначення"
 
 #: fetch-pack.c:2235
 #, c-format
@@ -19863,26 +19863,26 @@ msgstr "немає такого віддаленного посилання %s"
 #: fetch-pack.c:2238
 #, c-format
 msgid "Server does not allow request for unadvertised object %s"
-msgstr ""
+msgstr "Сервер забороняє запити до неоголошених обʼєктів %s"
 
 #: fsmonitor-ipc.c:123
 #, c-format
 msgid "fsmonitor_ipc__send_query: invalid path '%s'"
-msgstr ""
+msgstr "fsmonitor_ipc__send_query: неприпустимий шлях \"%s\""
 
 #: fsmonitor-ipc.c:129
 #, c-format
 msgid "fsmonitor_ipc__send_query: unspecified error on '%s'"
-msgstr ""
+msgstr "fsmonitor_ipc__send_query: невизначена помилка на \"%s\""
 
 #: fsmonitor-ipc.c:159
 msgid "fsmonitor--daemon is not running"
-msgstr ""
+msgstr "fsmonitor--daemon не запущено"
 
 #: fsmonitor-ipc.c:168
 #, c-format
 msgid "could not send '%s' command to fsmonitor--daemon"
-msgstr ""
+msgstr "не вдалося відправити команду \"%s\" до fsmonitor--daemon"
 
 #: fsmonitor-settings.c:248
 #, c-format
@@ -19892,7 +19892,7 @@ msgstr "порожнє сховище \"%s\" несумісне з fsmonitor"
 #: fsmonitor-settings.c:256
 #, c-format
 msgid "repository '%s' is incompatible with fsmonitor due to errors"
-msgstr ""
+msgstr "сховище \"%s\" несумісне з fsmonitor через помилки"
 
 #: fsmonitor-settings.c:262
 #, c-format
@@ -19902,7 +19902,7 @@ msgstr "віддалене сховище \"%s\" несумісне з fsmonitor
 #: fsmonitor-settings.c:268
 #, c-format
 msgid "virtual repository '%s' is incompatible with fsmonitor"
-msgstr ""
+msgstr "віртуальне сховище \"%s\" несумісне з fsmonitor"
 
 #: fsmonitor-settings.c:275
 #, c-format
@@ -19910,6 +19910,8 @@ msgid ""
 "socket directory '%s' is incompatible with fsmonitor due to lack of Unix "
 "sockets support"
 msgstr ""
+"директорія сокетів \"%s\" несумісна з fsmonitor через відсутність підтримки "
+"сокетів Unix"
 
 #: git.c:34
 msgid ""
@@ -19920,6 +19922,12 @@ msgid ""
 "           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n"
 "           [--config-env=<name>=<envvar>] <command> [<args>]"
 msgstr ""
+"git [-v | --version] [-h | --help] [-C <шлях>] [-c <назва>=<значення>]\n"
+"           [--exec-path[=<шлях>]] [--html-path] [--man-path] [--info-path]\n"
+"           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--"
+"bare]\n"
+"           [--git-dir=<шлях>] [--work-tree=<шлях>] [--namespace=<назва>]\n"
+"[--config-env=<назва>=<змінна-оточення>] <команда> [<аргументи>]"
 
 #: git.c:41
 msgid ""
@@ -19928,41 +19936,46 @@ msgid ""
 "to read about a specific subcommand or concept.\n"
 "See 'git help git' for an overview of the system."
 msgstr ""
+"\"git help -a\" і \"git help -g\" виводять доступні підкоманди та деякі\n"
+"посібники з понять. Дивіться \"git help <команда>\" або \"git help "
+"<поняття>\n"
+"щоб прочитати про конкретну підкоманду або поняття.\n"
+"Дивіться \"git help git\" для ознайомлення з системою."
 
 #: git.c:105 help.c:395
 #, c-format
 msgid "unsupported command listing type '%s'"
-msgstr ""
+msgstr "непідтримуваний тип виводу команд \"%s\""
 
 #: git.c:194 git.c:222 git.c:292
 #, c-format
 msgid "no directory given for '%s' option\n"
-msgstr ""
+msgstr "не вказано директорію для \"%s\" опціі\n"
 
 #: git.c:208
 #, c-format
 msgid "no namespace given for --namespace\n"
-msgstr ""
+msgstr "не вказано простір імен для --namespace\n"
 
 #: git.c:244
 #, c-format
 msgid "-c expects a configuration string\n"
-msgstr ""
+msgstr "-c очікує на рядок конфігурації\n"
 
 #: git.c:252
 #, c-format
 msgid "no config key given for --config-env\n"
-msgstr ""
+msgstr "не вказано ключ конфігурації для --config-env\n"
 
 #: git.c:318
 #, c-format
 msgid "unknown option: %s\n"
-msgstr ""
+msgstr "невідома опція: %s\n"
 
 #: git.c:367
 #, c-format
 msgid "while expanding alias '%s': '%s'"
-msgstr ""
+msgstr "під час розгортання псевдоніма \"%s\": \"%s\""
 
 #: git.c:376
 #, c-format
@@ -19970,50 +19983,52 @@ msgid ""
 "alias '%s' changes environment variables.\n"
 "You can use '!git' in the alias to do this"
 msgstr ""
+"псевдонім \"%s\" перемінює змінні оточення.\n"
+"Ви можете використовувати \"!git\" в псевдонімі для цього"
 
 #: git.c:383
 #, c-format
 msgid "empty alias for %s"
-msgstr ""
+msgstr "порожній псевдонім для %s"
 
 #: git.c:386
 #, c-format
 msgid "recursive alias: %s"
-msgstr ""
+msgstr "рекурсивний псевдонім: %s"
 
 #: git.c:467
 msgid "write failure on standard output"
-msgstr ""
+msgstr "помилка запису в стандартний вивід"
 
 #: git.c:469
 msgid "unknown write failure on standard output"
-msgstr ""
+msgstr "невідома помилка запису в стандартний вивід"
 
 #: git.c:471
 msgid "close failed on standard output"
-msgstr ""
+msgstr "не вдалося закрити стандартний вивід"
 
 #: git.c:822
 #, c-format
 msgid "alias loop detected: expansion of '%s' does not terminate:%s"
-msgstr ""
+msgstr "виявлено цикл псевдонімів: розширення \"%s\" не припиняє:%s"
 
 #: git.c:872
 #, c-format
 msgid "cannot handle %s as a builtin"
-msgstr ""
+msgstr "неможливо обробити %s як вбудовану команду"
 
 #: git.c:883
 #, c-format
 msgid ""
 "usage: %s\n"
 "\n"
-msgstr ""
+msgstr "використання: %s\n"
 
 #: git.c:909
 #, c-format
 msgid "expansion of alias '%s' failed; '%s' is not a git command\n"
-msgstr ""
+msgstr "не вдалося розширити псевдонім \"%s\"; \"%s\" не є командою git\n"
 
 #: git.c:921
 #, c-format
@@ -20190,7 +20205,7 @@ msgstr "Низькорівневі команди / Внутрішні помі�
 
 #: help.c:43
 msgid "User-facing repository, command and file interfaces"
-msgstr ""
+msgstr "Сховище для користувачів, командні та файлові інтерфейси"
 
 #: help.c:44
 msgid "Developer-facing file formats, protocols and other interfaces"
