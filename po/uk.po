@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-05-29 17:03-0700\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-05-29 14:27-0700\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -1639,13 +1639,13 @@ msgstr "позначка часу занадто велика для цієї с
 
 #: archive.c:24
 msgid "git archive [<options>] <tree-ish> [<path>...]"
-msgstr "git archive [<опції>] <деревоподібне джерело> [<шлях>...]"
+msgstr "git archive [<опції>] <деревоподібне-джерело> [<шлях>...]"
 
 #: archive.c:26
 msgid ""
 "git archive --remote <repo> [--exec <cmd>] [<options>] <tree-ish> [<path>...]"
 msgstr ""
-"git archive --remote <сховище> [--exec <команда>] [<опції>] <деревоподібне "
+"git archive --remote <сховище> [--exec <команда>] [<опції>] <деревоподібне-"
 "джерело> [<шлях>...]"
 
 #: archive.c:27
@@ -4094,21 +4094,21 @@ msgstr "неможливо прочитати об’єкт %s \"%s\""
 
 #: builtin/cat-file.c:660
 msgid "flush is only for --buffer mode"
-msgstr ""
+msgstr "flush тільки для режиму --buffer"
 
 #: builtin/cat-file.c:712
 msgid "empty command in input"
-msgstr ""
+msgstr "порожня команда на вході"
 
 #: builtin/cat-file.c:714
 #, c-format
 msgid "whitespace before command: '%s'"
-msgstr ""
+msgstr "пробільний символ перед командою: \"%s\""
 
 #: builtin/cat-file.c:723
 #, c-format
 msgid "%s requires arguments"
-msgstr ""
+msgstr "%s потребує аргументів"
 
 #: builtin/cat-file.c:728
 #, c-format
@@ -4117,19 +4117,19 @@ msgstr "%s не потребує аргументів"
 
 #: builtin/cat-file.c:905
 msgid "only one batch option may be specified"
-msgstr ""
+msgstr "можна вказати лише одну групову опцію"
 
 #: builtin/cat-file.c:934
 msgid "git cat-file <type> <object>"
-msgstr ""
+msgstr "git cat-file <тип> <об’єкт>"
 
 #: builtin/cat-file.c:935
 msgid "git cat-file (-e | -p) <object>"
-msgstr ""
+msgstr "git cat-file (-e | -p) <об’єкт>"
 
 #: builtin/cat-file.c:936
 msgid "git cat-file (-t | -s) [--allow-unknown-type] <object>"
-msgstr ""
+msgstr "git cat-file (-t | -s) [--allow-unknown-type] <об’єкт>"
 
 #: builtin/cat-file.c:937
 msgid ""
@@ -4138,16 +4138,22 @@ msgid ""
 "             [--buffer] [--follow-symlinks] [--unordered]\n"
 "             [--textconv | --filters] [-z]"
 msgstr ""
+"git cat-file (--batch | --batch-check | --batch-command) [--batch-all-"
+"objects] (--batch-all-objects)\n"
+"             [--buffer] [--follow-symlinks] [--unordered]\n"
+"             [--textconv | --filters] [-z]"
 
 #: builtin/cat-file.c:940
 msgid ""
 "git cat-file (--textconv | --filters)\n"
 "             [<rev>:<path|tree-ish> | --path=<path|tree-ish> <rev>]"
 msgstr ""
+"git cat-file (--textconv | --filters)\n"
+"             [<ревізія>:<шлях|деревоподібне-джерело> | --path=<шлях|деревоподібне-джерело> <ревізія>]"
 
 #: builtin/cat-file.c:946
 msgid "Check object existence or emit object contents"
-msgstr ""
+msgstr "Перевірити існування об’єкта або видати вміст об’єкта"
 
 #: builtin/cat-file.c:948
 msgid "check if <object> exists"
@@ -4155,43 +4161,44 @@ msgstr "перевірити, чи існує <об’єкт>"
 
 #: builtin/cat-file.c:949
 msgid "pretty-print <object> content"
-msgstr ""
+msgstr "pretty-print вміст <об’єкта>"
 
 #: builtin/cat-file.c:951
 msgid "Emit [broken] object attributes"
-msgstr ""
+msgstr "Видати [зламані] атрибути об’єкта"
 
 #: builtin/cat-file.c:952
 msgid "show object type (one of 'blob', 'tree', 'commit', 'tag', ...)"
 msgstr ""
+"показати тип об’єкта (один з \"blob\", \"tree\", \"commit\", \"tag\", ...)"
 
 #: builtin/cat-file.c:953
 msgid "show object size"
-msgstr ""
+msgstr "показати розмір об’єкта"
 
 #: builtin/cat-file.c:955
 msgid "allow -s and -t to work with broken/corrupt objects"
-msgstr ""
+msgstr "дозволити -s та -t працювати з пошкодженими/зіпсованими об’єктами"
 
 #: builtin/cat-file.c:956 builtin/log.c:252
 msgid "use mail map file"
-msgstr ""
+msgstr "використувати файл розвʼязання поштових адрес"
 
 #: builtin/cat-file.c:959
 msgid "Batch objects requested on stdin (or --batch-all-objects)"
-msgstr ""
+msgstr "Пакетний запит об’єктів з stdin (або --batch-all-objects)"
 
 #: builtin/cat-file.c:961
 msgid "show full <object> or <rev> contents"
-msgstr ""
+msgstr "показати повний вміст <об’єкта> або <ревізії>"
 
 #: builtin/cat-file.c:965
 msgid "like --batch, but don't emit <contents>"
-msgstr ""
+msgstr "як --batch, але не виводить <вміст>"
 
 #: builtin/cat-file.c:968
 msgid "stdin is NUL-terminated"
-msgstr ""
+msgstr "stdin закінчується NUL"
 
 #: builtin/cat-file.c:970
 msgid "read commands from stdin"
@@ -4199,117 +4206,121 @@ msgstr "читати команди з stdin"
 
 #: builtin/cat-file.c:974
 msgid "with --batch[-check]: ignores stdin, batches all known objects"
-msgstr ""
+msgstr "з --batch[-check]: ігнорує stdin, групує всі відомі об’єкти"
 
 #: builtin/cat-file.c:976
 msgid "Change or optimize batch output"
-msgstr ""
+msgstr "Змінити або оптимізувати груповий вивід"
 
 #: builtin/cat-file.c:977
 msgid "buffer --batch output"
-msgstr ""
+msgstr "буферизувати --batch вивід"
 
 #: builtin/cat-file.c:979
 msgid "follow in-tree symlinks"
-msgstr ""
+msgstr "розвʼязувати символьні посилання в дереві"
 
 #: builtin/cat-file.c:981
 msgid "do not order objects before emitting them"
-msgstr ""
+msgstr "не упорядковувати об’єкти перед випуском"
 
 #: builtin/cat-file.c:983
 msgid ""
 "Emit object (blob or tree) with conversion or filter (stand-alone, or with "
 "batch)"
 msgstr ""
+"Видавати об’єкт (blob або tree) з перетворенням або фільтром (окремо або з "
+"групою)"
 
 #: builtin/cat-file.c:985
 msgid "run textconv on object's content"
-msgstr ""
+msgstr "виконати textconv над вмістом об’єкта"
 
 #: builtin/cat-file.c:987
 msgid "run filters on object's content"
-msgstr ""
+msgstr "запустити фільтри на вміст об’єкта"
 
 #: builtin/cat-file.c:988
 msgid "blob|tree"
-msgstr ""
+msgstr "blob|дерево"
 
 #: builtin/cat-file.c:989
 msgid "use a <path> for (--textconv | --filters); Not with 'batch'"
-msgstr ""
+msgstr "використати <шлях> для (--textconv | --filters); не з \"batch\""
 
 #: builtin/cat-file.c:1010
 #, c-format
 msgid "'%s=<%s>' needs '%s' or '%s'"
-msgstr ""
+msgstr "\"%s=<%s>\" потребує \"%s\" або \"%s\""
 
 #: builtin/cat-file.c:1012
 msgid "path|tree-ish"
-msgstr ""
+msgstr "шлях|деревоподібне-джерело"
 
 #: builtin/cat-file.c:1019 builtin/cat-file.c:1022 builtin/cat-file.c:1025
 #: builtin/cat-file.c:1028
 #, c-format
 msgid "'%s' requires a batch mode"
-msgstr ""
+msgstr "\"%s\" вимагає групового режиму"
 
 #: builtin/cat-file.c:1040
 #, c-format
 msgid "'-%c' is incompatible with batch mode"
-msgstr ""
+msgstr "\"-%c\" несумісний з груповим режимом"
 
 #: builtin/cat-file.c:1043
 msgid "batch modes take no arguments"
-msgstr ""
+msgstr "групові режими не потребують аргументів"
 
 #: builtin/cat-file.c:1051 builtin/cat-file.c:1054
 #, c-format
 msgid "<rev> required with '%s'"
-msgstr ""
+msgstr "<ревізія> є обов’язковою для \"%s\""
 
 #: builtin/cat-file.c:1057
 #, c-format
 msgid "<object> required with '-%c'"
-msgstr ""
+msgstr "<об’єкт> є обов’язковим для \"-%c\""
 
 #: builtin/cat-file.c:1066
 #, c-format
 msgid "only two arguments allowed in <type> <object> mode, not %d"
-msgstr ""
+msgstr "у режимі <тип> <об’єкт> дозволено лише два аргументи, а не %d"
 
 #: builtin/check-attr.c:20
 msgid ""
 "git check-attr [--source <tree-ish>] [-a | --all | <attr>...] [--] "
 "<pathname>..."
 msgstr ""
+"git check-attr [--source <деревоподібне-джерело>] [-a | --all | "
+"<атрибут>...] [--] <назва-шляху>..."
 
 #: builtin/check-attr.c:21
 msgid ""
 "git check-attr --stdin [-z] [--source <tree-ish>] [-a | --all | <attr>...]"
 msgstr ""
-"git check-attr --stdin [-z] [--source <деревоподібне джерело>] [-a | --all | "
+"git check-attr --stdin [-z] [--source <деревоподібне-джерело>] [-a | --all | "
 "<атрибут>...]"
 
 #: builtin/check-attr.c:28
 msgid "report all attributes set on file"
-msgstr ""
+msgstr "звітувати про всі атрибути, встановлені у файлі"
 
 #: builtin/check-attr.c:29
 msgid "use .gitattributes only from the index"
-msgstr ""
+msgstr "використовувати .gitattributes тільки з індексу"
 
 #: builtin/check-attr.c:30 builtin/check-ignore.c:28 builtin/hash-object.c:109
 msgid "read file names from stdin"
-msgstr ""
+msgstr "зчитувати назви файлів з stdin"
 
 #: builtin/check-attr.c:32 builtin/check-ignore.c:30
 msgid "terminate input and output records by a NUL character"
-msgstr ""
+msgstr "завершувати вхідні та вихідні записи символом NUL"
 
 #: builtin/check-attr.c:33
 msgid "<tree-ish>"
-msgstr ""
+msgstr "<деревоподібне-джерело>"
 
 #: builtin/check-attr.c:33
 msgid "which tree-ish to check attributes at"
@@ -4322,7 +4333,7 @@ msgstr "не звітувати прогрес"
 
 #: builtin/check-ignore.c:32
 msgid "show non-matching input paths"
-msgstr ""
+msgstr "показати неспівпадіння вхідних шляхів"
 
 #: builtin/check-ignore.c:34
 msgid "ignore index when checking"
@@ -5540,11 +5551,11 @@ msgstr ""
 
 #: builtin/clone.c:1208 fetch-pack.c:1224 fetch-pack.c:1577
 msgid "source repository is shallow, reject to clone."
-msgstr "джерельне сховище є неглибоким, клонування відхилено."
+msgstr "джерельне сховище є поверхневим, клонування відхилено."
 
 #: builtin/clone.c:1210
 msgid "source repository is shallow, ignoring --local"
-msgstr "джерельне сховище є неглибоким, --local ігнорується"
+msgstr "джерельне сховище є поверхневим, --local ігнорується"
 
 #: builtin/clone.c:1215
 msgid "--local is ignored"
@@ -13945,19 +13956,19 @@ msgstr ""
 
 #: builtin/reset.c:43
 msgid "git reset [-q] [<tree-ish>] [--] <pathspec>..."
-msgstr "git reset [-q] [<деревоподібне джерело>] [--] <визначник шляху>..."
+msgstr "git reset [-q] [<деревоподібне-джерело>] [--] <визначник шляху>..."
 
 #: builtin/reset.c:44
 msgid ""
 "git reset [-q] [--pathspec-from-file [--pathspec-file-nul]] [<tree-ish>]"
 msgstr ""
-"git reset [-q] [--pathspec-from-file [--pathspec-file-nul]] [<деревоподібне "
+"git reset [-q] [--pathspec-from-file [--pathspec-file-nul]] [<деревоподібне-"
 "джерело>]"
 
 #: builtin/reset.c:45
 msgid "git reset --patch [<tree-ish>] [--] [<pathspec>...]"
 msgstr ""
-"git reset --patch [<деревоподібне джерело>] [--] [<визначник шляху>...]"
+"git reset --patch [<деревоподібне-джерело>] [--] [<визначник шляху>...]"
 
 #: builtin/reset.c:51
 msgid "mixed"
@@ -20073,7 +20084,7 @@ msgstr ""
 #, c-format
 msgid "gpg.ssh.defaultKeyCommand succeeded but returned no keys: %s %s"
 msgstr ""
-"gpg.ssh.defaultKeyCommand команду було виконано успішно, але не було повернуто "
+"gpg.ssh.defaultKeyCommand команда виконалася успішно, але не повернула "
 "жодного ключа: %s %s"
 
 #: gpg-interface.c:894
@@ -20231,7 +20242,7 @@ msgstr "Зовнішні команди"
 
 #: help.c:501
 msgid "Command aliases"
-msgstr "Аліаси команд"
+msgstr "Псевдоніми команд"
 
 #: help.c:519
 msgid "See 'git help <command>' to read about a specific subcommand"
@@ -21017,7 +21028,7 @@ msgstr ""
 
 #: merge-recursive.c:1757
 msgid " (left unresolved)"
-msgstr "(залишилося нерозвʼязаним)"
+msgstr " (залишилося нерозвʼязаним)"
 
 #: merge-recursive.c:1849
 #, c-format
@@ -22161,7 +22172,7 @@ msgstr "ви мали на увазі \"--%s\" (з двома рисками)?"
 #: parse-options.c:728 parse-options.c:1156
 #, c-format
 msgid "alias of --%s"
-msgstr "псевдонім --%s"
+msgstr "псевдонім для --%s"
 
 #: parse-options.c:986
 msgid "need a subcommand"
@@ -27151,7 +27162,7 @@ msgstr "Невідомий --confirm параметр: \"%s\"\n"
 #: git-send-email.perl:658
 #, perl-format
 msgid "warning: sendmail alias with quotes is not supported: %s\n"
-msgstr "попередження: sendmail аліас у лапках не підтримується: %s\n"
+msgstr "попередження: sendmail псевдонім у лапках не підтримується: %s\n"
 
 #: git-send-email.perl:660
 #, perl-format
@@ -27273,7 +27284,7 @@ msgstr "Кому слід надсилати електронні листи (я
 #: git-send-email.perl:1101
 #, perl-format
 msgid "fatal: alias '%s' expands to itself\n"
-msgstr "збій: аліас \"%s\" розгортається на самого себе\n"
+msgstr "збій: псевдонім \"%s\" розгортається на самого себе\n"
 
 #: git-send-email.perl:1113
 msgid "Message-ID to be used as In-Reply-To for the first email (if any)? "
