@@ -1646,7 +1646,7 @@ msgid ""
 "git archive --remote <repo> [--exec <cmd>] [<options>] <tree-ish> [<path>...]"
 msgstr ""
 "git archive --remote <сховище> [--exec <команда>] [<опції>] <деревоподібне-"
-"джерело>  [<шлях>...]"
+"джерело> [<шлях>...]"
 
 #: archive.c:27
 msgid "git archive --remote <repo> [--exec <cmd>] --list"
@@ -4149,7 +4149,7 @@ msgid ""
 "             [<rev>:<path|tree-ish> | --path=<path|tree-ish> <rev>]"
 msgstr ""
 "git cat-file (--textconv | --filters)\n"
-"             [<ревізія>:<path|tree-ish> | --path=<path|tree-ish> <ревізія>]"
+"             [<ревізія>:<шлях|деревоподібне-джерело> | --path=<шлях|деревоподібне-джерело> <ревізія>]"
 
 #: builtin/cat-file.c:946
 msgid "Check object existence or emit object contents"
@@ -4210,7 +4210,7 @@ msgstr "з --batch[-check]: ігнорує stdin, групує всі відом
 
 #: builtin/cat-file.c:976
 msgid "Change or optimize batch output"
-msgstr "Змініти або оптимізувати груповий вивід"
+msgstr "Змінити або оптимізувати груповий вивід"
 
 #: builtin/cat-file.c:977
 msgid "buffer --batch output"
@@ -4275,7 +4275,7 @@ msgstr "групові режими не потребують аргументі
 #: builtin/cat-file.c:1051 builtin/cat-file.c:1054
 #, c-format
 msgid "<rev> required with '%s'"
-msgstr "<ревізія> є обов’язково для \"%s\""
+msgstr "<ревізія> є обов’язковою для \"%s\""
 
 #: builtin/cat-file.c:1057
 #, c-format
