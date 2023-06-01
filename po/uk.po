@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-05-29 14:27-0700\n"
+"PO-Revision-Date: 2023-05-31 21:00-0700\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -4149,7 +4149,8 @@ msgid ""
 "             [<rev>:<path|tree-ish> | --path=<path|tree-ish> <rev>]"
 msgstr ""
 "git cat-file (--textconv | --filters)\n"
-"             [<ревізія>:<шлях|деревоподібне-джерело> | --path=<шлях|деревоподібне-джерело> <ревізія>]"
+"             [<ревізія>:<шлях|деревоподібне-джерело> | --path=<шлях|"
+"деревоподібне-джерело> <ревізія>]"
 
 #: builtin/cat-file.c:946
 msgid "Check object existence or emit object contents"
@@ -4337,31 +4338,31 @@ msgstr "показати неспівпадіння вхідних шляхів"
 
 #: builtin/check-ignore.c:34
 msgid "ignore index when checking"
-msgstr ""
+msgstr "ігнорувати індекс під час перевірки"
 
 #: builtin/check-ignore.c:168
 msgid "cannot specify pathnames with --stdin"
-msgstr ""
+msgstr "неможливо вказувати назви шляхів із --stdin"
 
 #: builtin/check-ignore.c:171
 msgid "-z only makes sense with --stdin"
-msgstr ""
+msgstr "-z має сенс тільки з --stdin"
 
 #: builtin/check-ignore.c:173
 msgid "no path specified"
-msgstr "шлях не вказано"
+msgstr "шлях не зазначено"
 
 #: builtin/check-ignore.c:177
 msgid "--quiet is only valid with a single pathname"
-msgstr ""
+msgstr "--quiet дійсний лише з однією назвою шляху"
 
 #: builtin/check-ignore.c:179
 msgid "cannot have both --quiet and --verbose"
-msgstr ""
+msgstr "неможливо мати одночасно --quiet і --verbose"
 
 #: builtin/check-ignore.c:182
 msgid "--non-matching is only valid with --verbose"
-msgstr ""
+msgstr "--non-matching діє тільки з --verbose"
 
 #: builtin/check-mailmap.c:12
 msgid "git check-mailmap [<options>] <contact>..."
@@ -4369,7 +4370,7 @@ msgstr "git check-mailmap [<опції>] <контакт>..."
 
 #: builtin/check-mailmap.c:17
 msgid "also read contacts from stdin"
-msgstr ""
+msgstr "також читати контакти з stdin"
 
 #: builtin/check-mailmap.c:28
 #, c-format
@@ -4378,7 +4379,7 @@ msgstr "не вдалося розібрати контакт: %s"
 
 #: builtin/check-mailmap.c:51
 msgid "no contacts specified"
-msgstr ""
+msgstr "контакти не вказані"
 
 #: builtin/checkout--worker.c:112
 msgid "git checkout--worker [<options>]"
@@ -4389,11 +4390,11 @@ msgstr "git checkout--worker [<опції>]"
 #: builtin/submodule--helper.c:1785 builtin/submodule--helper.c:1793
 #: builtin/worktree.c:630 builtin/worktree.c:876
 msgid "string"
-msgstr ""
+msgstr "строка"
 
 #: builtin/checkout--worker.c:121 builtin/checkout-index.c:239
 msgid "when creating files, prepend <string>"
-msgstr ""
+msgstr "при створенні файлів додавати <строку> напочатку"
 
 #: builtin/checkout-index.c:187
 msgid "git checkout-index [<options>] [--] [<file>...]"
@@ -4401,27 +4402,27 @@ msgstr "git checkout-index [<опції>] [—] [<файл>...]"
 
 #: builtin/checkout-index.c:204
 msgid "stage should be between 1 and 3 or all"
-msgstr ""
+msgstr "стадія має бути від 1 до 3 або all"
 
 #: builtin/checkout-index.c:222
 msgid "check out all files in the index"
-msgstr ""
+msgstr "переключити стан для всіх файлів в індексі"
 
 #: builtin/checkout-index.c:224
 msgid "do not skip files with skip-worktree set"
-msgstr ""
+msgstr "не пропускати файли зі встановленим skip-worktree"
 
 #: builtin/checkout-index.c:225
 msgid "force overwrite of existing files"
-msgstr ""
+msgstr "примусово перезаписати існуючі файли"
 
 #: builtin/checkout-index.c:227
 msgid "no warning for existing files and files not in index"
-msgstr ""
+msgstr "не попереджувати про існуючі файли та файли, яких немає в індексі"
 
 #: builtin/checkout-index.c:229
 msgid "don't checkout new files"
-msgstr ""
+msgstr "не переключати стан для нових файлів"
 
 #: builtin/checkout-index.c:231
 msgid "update stat information in the index file"
@@ -4429,15 +4430,15 @@ msgstr "оновити статистичну інформацію в індек
 
 #: builtin/checkout-index.c:235
 msgid "read list of paths from the standard input"
-msgstr ""
+msgstr "зчитати список шляхів зі стандартного вводу"
 
 #: builtin/checkout-index.c:237
 msgid "write the content to temporary files"
-msgstr ""
+msgstr "записати вміст у тимчасові файли"
 
 #: builtin/checkout-index.c:241
 msgid "copy out the files from named stage"
-msgstr ""
+msgstr "скопіювати файли з іменованої стадії"
 
 #: builtin/checkout.c:43
 msgid "git checkout [<options>] <branch>"
