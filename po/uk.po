@@ -4342,7 +4342,7 @@ msgstr "ігнорувати індекс під час перевірки"
 
 #: builtin/check-ignore.c:168
 msgid "cannot specify pathnames with --stdin"
-msgstr "не можна вказувати назви шляхів із --stdin"
+msgstr "неможливо вказувати назви шляхів із --stdin"
 
 #: builtin/check-ignore.c:171
 msgid "-z only makes sense with --stdin"
@@ -4358,7 +4358,7 @@ msgstr "--quiet дійсний лише з однією назвою шляху"
 
 #: builtin/check-ignore.c:179
 msgid "cannot have both --quiet and --verbose"
-msgstr "не може бути одночасно --quiet і --verbose"
+msgstr "неможливо мати одночасно --quiet і --verbose"
 
 #: builtin/check-ignore.c:182
 msgid "--non-matching is only valid with --verbose"
