@@ -19732,7 +19732,7 @@ msgstr ""
 #: fetch-pack.c:1121
 #, c-format
 msgid "Server version is %.*s"
-msgstr ""
+msgstr "Версія сервера %.*s"
 
 #: fetch-pack.c:1129 fetch-pack.c:1135 fetch-pack.c:1138 fetch-pack.c:1144
 #: fetch-pack.c:1148 fetch-pack.c:1152 fetch-pack.c:1156 fetch-pack.c:1160
@@ -19740,27 +19740,27 @@ msgstr ""
 #: fetch-pack.c:1182 fetch-pack.c:1188 fetch-pack.c:1193 fetch-pack.c:1198
 #, c-format
 msgid "Server supports %s"
-msgstr ""
+msgstr "Сервер підтримує %s"
 
 #: fetch-pack.c:1131
 msgid "Server does not support shallow clients"
-msgstr ""
+msgstr "Сервер не підтримує неглибоких клієнтів"
 
 #: fetch-pack.c:1191
 msgid "Server does not support --shallow-since"
-msgstr ""
+msgstr "Сервер не підтримує параметр --shallow-since"
 
 #: fetch-pack.c:1196
 msgid "Server does not support --shallow-exclude"
-msgstr ""
+msgstr "Сервер не підтримує параметр --shallow-exclude"
 
 #: fetch-pack.c:1200
 msgid "Server does not support --deepen"
-msgstr ""
+msgstr "Сервер не підтримує параметр --deepen"
 
 #: fetch-pack.c:1202
 msgid "Server does not support this repository's object format"
-msgstr ""
+msgstr "Сервер не підтримує формат об’єктів цього сховища"
 
 #: fetch-pack.c:1215
 msgid "no common commits"
@@ -19768,12 +19768,12 @@ msgstr "немає спільних комітів"
 
 #: fetch-pack.c:1230 fetch-pack.c:1790
 msgid "git fetch-pack: fetch failed."
-msgstr ""
+msgstr "git fetch-pack: помилка отримання."
 
 #: fetch-pack.c:1344
 #, c-format
 msgid "mismatched algorithms: client %s; server %s"
-msgstr ""
+msgstr "невідповідність алгоритмів: клієнт %s; сервер %s"
 
 #: fetch-pack.c:1348
 #, c-format
@@ -20051,6 +20051,8 @@ msgid ""
 "gpg.ssh.allowedSignersFile needs to be configured and exist for ssh "
 "signature verification"
 msgstr ""
+"gpg.ssh.allowedSignersFile має бути налаштований та існувати для перевірки "
+"ssh підпису"
 
 #: gpg-interface.c:498
 msgid ""
