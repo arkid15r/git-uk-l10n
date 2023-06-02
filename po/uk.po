@@ -26629,7 +26629,7 @@ msgstr "  (виправте конфлікти та виконайте \"git com
 #: wt-status.c:1235
 msgid "  (use \"git merge --abort\" to abort the merge)"
 msgstr ""
-"  (скористайтесь командой \"git merge --abort\", щоб перервати злиття)."
+"  (скористайтесь командою \"git merge --abort\", щоб перервати злиття)."
 
 #: wt-status.c:1239
 msgid "All conflicts fixed but you are still merging."
@@ -26653,7 +26653,7 @@ msgstr "  (виправте конфлікти, а потім виконайте
 
 #: wt-status.c:1263
 msgid "  (use \"git am --skip\" to skip this patch)"
-msgstr "  (скористайтесь командой \"git am --skip\", щоб пропустити цю латку)"
+msgstr "  (скористайтесь командою \"git am --skip\", щоб пропустити цю латку)"
 
 #: wt-status.c:1266
 msgid ""
