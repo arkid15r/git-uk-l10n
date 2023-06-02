@@ -19768,7 +19768,7 @@ msgstr "немає спільних комітів"
 
 #: fetch-pack.c:1230 fetch-pack.c:1790
 msgid "git fetch-pack: fetch failed."
-msgstr "git fetch-pack: не вдалося виконати отримання."
+msgstr "git fetch-pack: помилка отримання."
 
 #: fetch-pack.c:1344
 #, c-format
