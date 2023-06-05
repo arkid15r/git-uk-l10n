@@ -19033,7 +19033,7 @@ msgstr ""
 #: diff.c:5124
 #, c-format
 msgid "invalid mode '%s' in --color-moved-ws"
-msgstr "недійсний режим \"%s\" у --color-moved-ws"
+msgstr "неприпустимий режим \"%s\" у --color-moved-ws"
 
 #: diff.c:5164
 msgid ""
