@@ -5674,7 +5674,7 @@ msgstr "нерозпізнаний --split аргумент, %s"
 #: builtin/commit-graph.c:157
 #, c-format
 msgid "unexpected non-hex object ID: %s"
-msgstr "неочікуваний не hex ідентифікатор об'єкта: %s"
+msgstr "неочікуваний не hex ідентифікатор обʼєкта: %s"
 
 #: builtin/commit-graph.c:162
 #, c-format
@@ -5684,7 +5684,7 @@ msgstr "неприпустимий об’єкт: %s"
 #: builtin/commit-graph.c:182 parse-options-cb.c:24 parse-options-cb.c:28
 #, c-format
 msgid "option `%s' expects a numerical value"
-msgstr "опція \\\"%s\\\" очікує числове значення"
+msgstr "опція \"%s\" очікує числове значення"
 
 #: builtin/commit-graph.c:212
 msgid "start walk at all refs"
@@ -5775,7 +5775,7 @@ msgstr "батько"
 
 #: builtin/commit-tree.c:106
 msgid "id of a parent commit object"
-msgstr "ідентифікатор об'єкта батьківського коміта"
+msgstr "ідентифікатор обʼєкта батьківського коміта"
 
 #: builtin/commit-tree.c:108 builtin/commit.c:1644 builtin/merge.c:293
 #: builtin/notes.c:413 builtin/notes.c:579 builtin/stash.c:1736
@@ -5875,7 +5875,7 @@ msgid ""
 "    git cherry-pick --skip\n"
 "\n"
 msgstr ""
-"а потім використуйте:\n"
+"а потім скористайтесь:\n"
 "\n"
 "    git cherry-pick --continue\n"
 "\n"
@@ -5886,7 +5886,7 @@ msgstr ""
 
 #: builtin/commit.c:338
 msgid "failed to unpack HEAD tree object"
-msgstr "не вдалося розпакувати HEAD об'єкт дерева"
+msgstr "не вдалося розпакувати HEAD обʼєкт дерева"
 
 #: builtin/commit.c:388
 msgid "No paths with --include/--only does not make sense."
@@ -6009,7 +6009,7 @@ msgid ""
 "with '%c' will be ignored.\n"
 msgstr ""
 "Будь ласка, введіть допис до коміта для ваших змін. Рядки, що починаються з\n"
-"з \"%c\" будуть проігноровані.\n"
+" \"%c\" будуть проігноровані.\n"
 
 #: builtin/commit.c:917
 #, c-format
@@ -6018,7 +6018,7 @@ msgid ""
 "with '%c' will be ignored, and an empty message aborts the commit.\n"
 msgstr ""
 "Будь ласка, введіть допис до коміта для ваших змін. Рядки, що починаються з\n"
-"з \"%c\" будуть проігноровані, а порожній допис перерве коміт.\n"
+" \"%c\" будуть проігноровані, а порожній допис перерве коміт.\n"
 
 #: builtin/commit.c:921
 #, c-format
@@ -6027,7 +6027,7 @@ msgid ""
 "with '%c' will be kept; you may remove them yourself if you want to.\n"
 msgstr ""
 "Будь ласка, введіть допис до коміта для ваших змін. Рядки, що починаються з\n"
-"з \"%c\" будуть збережені; ви можете вилучити їх самостійно, якщо захочете.\n"
+" \"%c\" будуть збережені; ви можете вилучити їх самостійно, якщо захочете.\n"
 
 #: builtin/commit.c:925
 #, c-format
@@ -6037,7 +6037,7 @@ msgid ""
 "An empty message aborts the commit.\n"
 msgstr ""
 "Будь ласка, введіть допис до коміта для ваших змін. Рядки, що починаються з\n"
-"з \"%c\" будуть збережені; ви можете вилучити їх самостійно, якщо захочете.\n"
+" \"%c\" будуть збережені; ви можете вилучити їх самостійно, якщо захочете.\n"
 "Порожній допис перериває коміт.\n"
 
 #: builtin/commit.c:937
@@ -6104,7 +6104,7 @@ msgstr "Будь ласка, надайте допис, використовую
 #, c-format
 msgid "--author '%s' is not 'Name <email>' and matches no existing author"
 msgstr ""
-"--author \"%s\" не в форматі \"Ім'я <адреса електронної пошти>\" і не "
+"--author \"%s\" не в форматі \"Імʼя <адреса електронної пошти>\" і не "
 "відповідає жодному існуючому автору"
 
 #: builtin/commit.c:1164
@@ -6134,7 +6134,7 @@ msgstr ""
 #: builtin/commit.c:1260
 #, c-format
 msgid "reword option of '%s' and '%s' cannot be used together"
-msgstr "опцію переформулювання \"%s\" і \"%s\" не можна використовувати разом"
+msgstr "опцію перефразування \"%s\" і \"%s\" не можна використовувати разом"
 
 #: builtin/commit.c:1285
 msgid "You have nothing to amend."
