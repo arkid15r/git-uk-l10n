@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-06-04 16:49-0700\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-06-04 16:51-0700\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -731,12 +731,12 @@ msgstr "Жоден шматок не відповідає заданому ша�
 
 #: add-patch.c:1646
 msgid "Sorry, cannot split this hunk"
-msgstr "Вибачте, не можу розділити цей шматок"
+msgstr "Вибачте, не можу розщепити цей шматок"
 
 #: add-patch.c:1650
 #, c-format
 msgid "Split into %d hunks."
-msgstr "Розділити на %d шматків."
+msgstr "Розщепити на %d шматків."
 
 #: add-patch.c:1654
 msgid "Sorry, cannot edit this hunk"
@@ -790,7 +790,7 @@ msgid ""
 "Fix them up in the work tree, and then use 'git add/rm <file>'\n"
 "as appropriate to mark resolution and make a commit."
 msgstr ""
-"Виправте їх у робочому дереві, а потім скористайтеся командою \"git add/rm "
+"Виправте їх у робочому дереві, а потім скористайтесь командою \"git add/rm "
 "<файл>\"\n"
 "щоб позначити розвʼязання і зробити коміт."
 
@@ -971,7 +971,7 @@ msgstr "нерозпізнана опція ігнорування пробіл�
 #: revision.c:3028
 #, c-format
 msgid "options '%s' and '%s' cannot be used together"
-msgstr "опції '%s' і '%s' не можна використовувати разом"
+msgstr "опції \"%s\" і \"%s\" не можна використовувати разом"
 
 #: apply.c:153 apply.c:164 apply.c:167
 #, c-format
@@ -991,7 +991,7 @@ msgstr "regexec повернув %d для вводу: %s"
 #: apply.c:912
 #, c-format
 msgid "unable to find filename in patch at line %d"
-msgstr "не вдалося знайти ім’я файлу у латці в рядку %d"
+msgstr "не вдалося знайти назву файла в рядку %d латки"
 
 #: apply.c:950
 #, c-format
@@ -1003,13 +1003,13 @@ msgstr ""
 #, c-format
 msgid "git apply: bad git-diff - inconsistent new filename on line %d"
 msgstr ""
-"git apply: невірний git-diff - невідповідне ім’я нового файлу у рядку %d"
+"git apply: невірний git-diff - невідповідна назва нового файлу в рядку %d"
 
 #: apply.c:957
 #, c-format
 msgid "git apply: bad git-diff - inconsistent old filename on line %d"
 msgstr ""
-"git apply: невірний git-diff - невідповідне ім’я старого файлу у рядку %d"
+"git apply: невірний git-diff - невідповідна назва старого файлу в рядку %d"
 
 #: apply.c:962
 #, c-format
@@ -1019,7 +1019,7 @@ msgstr "git apply: невірний git-diff - очікувався /dev/null у
 #: apply.c:991
 #, c-format
 msgid "invalid mode on line %d: %s"
-msgstr "недійсний режим у рядку %d: %s"
+msgstr "неприпустимий режим у рядку %d: %s"
 
 #: apply.c:1310
 #, c-format
@@ -2367,7 +2367,7 @@ msgstr ""
 "Ви додали ще одне git сховище всередині вашого поточного сховища.\n"
 "Клони зовнішнього сховища не міститимуть вмісту\n"
 "вбудованого сховища і не знатимуть, як його отримати.\n"
-"Якщо ви хочете додати підмодуль, скористайтеся командою\n"
+"Якщо ви хочете додати підмодуль, скористайтесь командою\n"
 "\n"
 "\tgit submodule add <url> %s\n"
 "\n"
@@ -2525,7 +2525,7 @@ msgstr "не вдалося створити директорію \"%s\""
 
 #: builtin/am.c:1005
 msgid "Failed to split patches."
-msgstr "Не вдалося розділити латки."
+msgstr "Не вдалося розщепити латки."
 
 #: builtin/am.c:1154
 #, c-format
@@ -2767,7 +2767,7 @@ msgstr "працювати тихесенько"
 
 #: builtin/am.c:2340
 msgid "add a Signed-off-by trailer to the commit message"
-msgstr "додати Signed-off-by причеп у допис до коміту"
+msgstr "додати Signed-off-by причіп у допис до коміту"
 
 #: builtin/am.c:2343
 msgid "recode into utf8 (default)"
@@ -2913,7 +2913,7 @@ msgid ""
 "Use \"git am --abort\" to remove it."
 msgstr ""
 "Знайдено блукаючу директорію %s.\n"
-"Скористайтеся командою \"git am --abort\", щоб вилучити її."
+"скористайтесь командою \"git am --abort\", щоб вилучити її."
 
 #: builtin/am.c:2499
 msgid "Resolve operation not in progress, we are not resuming."
@@ -4876,7 +4876,7 @@ msgstr "не обмежувати визначники шляхів лише р�
 #: builtin/checkout.c:1702
 #, c-format
 msgid "options '-%c', '-%c', and '%s' cannot be used together"
-msgstr "опції '-%c', '-%c' та '%s' не можуть використовуватись разом"
+msgstr "опції \"-%c\", \"-%c\" та \"%s\" не можна використовувати разом"
 
 #: builtin/checkout.c:1743
 msgid "--track needs a branch name"
@@ -5655,11 +5655,11 @@ msgstr "директорія"
 
 #: builtin/commit-graph.c:57
 msgid "the object directory to store the graph"
-msgstr ""
+msgstr "директорія об’єктів для зберігання графу"
 
 #: builtin/commit-graph.c:79
 msgid "if the commit-graph is split, only verify the tip file"
-msgstr ""
+msgstr "якщо граф комітів розщеплено, перевіряти тільки файл підказок"
 
 #: builtin/commit-graph.c:106
 #, c-format
@@ -5669,12 +5669,12 @@ msgstr "Не вдалося відкрити коміт-граф \"%s\""
 #: builtin/commit-graph.c:144
 #, c-format
 msgid "unrecognized --split argument, %s"
-msgstr ""
+msgstr "нерозпізнаний --split аргумент, %s"
 
 #: builtin/commit-graph.c:157
 #, c-format
 msgid "unexpected non-hex object ID: %s"
-msgstr ""
+msgstr "неочікуваний не hex ідентифікатор обʼєкта: %s"
 
 #: builtin/commit-graph.c:162
 #, c-format
@@ -5684,70 +5684,75 @@ msgstr "неприпустимий об’єкт: %s"
 #: builtin/commit-graph.c:182 parse-options-cb.c:24 parse-options-cb.c:28
 #, c-format
 msgid "option `%s' expects a numerical value"
-msgstr ""
+msgstr "опція \"%s\" очікує числове значення"
 
 #: builtin/commit-graph.c:212
 msgid "start walk at all refs"
-msgstr ""
+msgstr "розпочати проходження по всім посиланням"
 
 #: builtin/commit-graph.c:214
 msgid "scan pack-indexes listed by stdin for commits"
-msgstr ""
+msgstr "просканувати pack-indexes зазначені через stdin для коммітів"
 
 #: builtin/commit-graph.c:216
 msgid "start walk at commits listed by stdin"
-msgstr ""
+msgstr "розпочати проходження по всім комітам зазначеним через stdin"
 
 #: builtin/commit-graph.c:218
 msgid "include all commits already in the commit-graph file"
-msgstr ""
+msgstr "включити всі коміти, які вже є у файлі коміт-графа"
 
 #: builtin/commit-graph.c:220
 msgid "enable computation for changed paths"
-msgstr ""
+msgstr "увімкнути обчислення для змінених шляхів"
 
 #: builtin/commit-graph.c:222
 msgid "allow writing an incremental commit-graph file"
-msgstr ""
+msgstr "дозволити запис інкрементного файлу коміт-графа"
 
 #: builtin/commit-graph.c:226
 msgid "maximum number of commits in a non-base split commit-graph"
-msgstr ""
+msgstr "максимальна кількість комітів у безбазовому розщепленому коміт-графі"
 
 #: builtin/commit-graph.c:228
 msgid "maximum ratio between two levels of a split commit-graph"
-msgstr ""
+msgstr "максимальне співвідношення між двома рівнями розщепленого коміт-графа"
 
 #: builtin/commit-graph.c:230
 msgid "only expire files older than a given date-time"
-msgstr ""
+msgstr "видалити лише файли, старіші за вказану дату"
 
 #: builtin/commit-graph.c:232
 msgid "maximum number of changed-path Bloom filters to compute"
-msgstr ""
+msgstr "максимальна кількість фільтрів Блума зміненого шляху для обчислення"
 
 #: builtin/commit-graph.c:258
 msgid "use at most one of --reachable, --stdin-commits, or --stdin-packs"
 msgstr ""
+"використовувати щонайбільше один з --reachable, --stdin-commits або --stdin-"
+"packs"
 
 #: builtin/commit-graph.c:289
 msgid "Collecting commits from input"
-msgstr ""
+msgstr "Збирання комітів з вхідних даних"
 
 #: builtin/commit-tree.c:21
 msgid "git commit-tree <tree> [(-p <parent>)...]"
-msgstr ""
+msgstr "git commit-tree <дерево> [(-p <батько>)...]"
 
 #: builtin/commit-tree.c:22
 msgid ""
 "git commit-tree [(-p <parent>)...] [-S[<keyid>]] [(-m <message>)...]\n"
 "                [(-F <file>)...] <tree>"
 msgstr ""
+"git commit-tree [(-p <батько>)...] [-S[<ідентифікатор-ключа>]] [(-m "
+"<допис>)...]\n"
+"                [(-F <файл>)...] <дерево>"
 
 #: builtin/commit-tree.c:35
 #, c-format
 msgid "duplicate parent %s ignored"
-msgstr ""
+msgstr "проігноровано дубльований батьківський %s"
 
 #: builtin/commit-tree.c:52 builtin/commit-tree.c:130 builtin/log.c:668
 #, c-format
@@ -5757,34 +5762,34 @@ msgstr "невірне ім’я об’єкта %s"
 #: builtin/commit-tree.c:90
 #, c-format
 msgid "git commit-tree: failed to read '%s'"
-msgstr ""
+msgstr "git commit-tree: не вдалося прочитати \"%s\""
 
 #: builtin/commit-tree.c:92
 #, c-format
 msgid "git commit-tree: failed to close '%s'"
-msgstr ""
+msgstr "git commit-tree: не вдалося закрити \"%s\""
 
 #: builtin/commit-tree.c:105
 msgid "parent"
-msgstr ""
+msgstr "батько"
 
 #: builtin/commit-tree.c:106
 msgid "id of a parent commit object"
-msgstr ""
+msgstr "ідентифікатор обʼєкта батьківського коміта"
 
 #: builtin/commit-tree.c:108 builtin/commit.c:1644 builtin/merge.c:293
 #: builtin/notes.c:413 builtin/notes.c:579 builtin/stash.c:1736
 #: builtin/tag.c:463
 msgid "message"
-msgstr ""
+msgstr "допис"
 
 #: builtin/commit-tree.c:109 builtin/commit.c:1644
 msgid "commit message"
-msgstr ""
+msgstr "допис до коміта"
 
 #: builtin/commit-tree.c:112
 msgid "read commit log message from file"
-msgstr ""
+msgstr "читати допис до коміта з файлу"
 
 #: builtin/commit-tree.c:115 builtin/commit.c:1661 builtin/merge.c:312
 #: builtin/pull.c:185 builtin/revert.c:108
@@ -5793,11 +5798,11 @@ msgstr "підписати коміт за допомогою GPG"
 
 #: builtin/commit-tree.c:127
 msgid "must give exactly one tree"
-msgstr ""
+msgstr "має бути надано рівно одне дерево"
 
 #: builtin/commit-tree.c:134
 msgid "git commit-tree: failed to read"
-msgstr ""
+msgstr "git commit-tree: не вдалося прочитати"
 
 #: builtin/commit.c:48
 msgid ""
@@ -5811,6 +5816,16 @@ msgid ""
 "           [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]\n"
 "           [--] [<pathspec>...]"
 msgstr ""
+"git commit [-a | --interactive | --patch] [-s] [-v] [-u<режим>] [--amend]\n"
+"           [--dry-run] [(-c | -C | --squash) <коміт> | --fixup [(amend|"
+"reword):]<коміт>)]\n"
+"           [-F <файл> | -m <допис>] [--reset-author] [--allow-empty]\n"
+"           [--allow-empty-message] [--no-verify] [-e] [--author=<автор>]\n"
+"           [--date=<дата>] [--cleanup=<режим>] [--[no-]status]\n"
+"           [-i | -o] [--pathspec-from-file=<файл> [--pathspec-file-nul]]\n"
+"           [(--trailer <токен>[(=|:)<значення>])...] [-S[<ідентифікатор "
+"ключа>]]\n"
+"           [--] [<визначник шляху>...]"
 
 #: builtin/commit.c:60
 msgid "git status [<options>] [--] [<pathspec>...]"
@@ -5822,6 +5837,9 @@ msgid ""
 "it empty. You can repeat your command with --allow-empty, or you can\n"
 "remove the commit entirely with \"git reset HEAD^\".\n"
 msgstr ""
+"Ви просили внести зміни до останнього коміта, але це зробить його\n"
+"порожнім. Ви можете повторити команду, скориставшись --allow-empty, або\n"
+"повністю видалити коміт за допомогою \"git reset HEAD^\".\n"
 
 #: builtin/commit.c:70
 msgid ""
@@ -5831,14 +5849,19 @@ msgid ""
 "    git commit --allow-empty\n"
 "\n"
 msgstr ""
+"Попереднє висмикування зараз порожнє, можливо, через розвʼязання конфлікту.\n"
+"Якщо ви все одно бажаєте додати його, скористайтесь командою\n"
+"\n"
+"    git commit --allow-empty\n"
 
 #: builtin/commit.c:77
 msgid "Otherwise, please use 'git rebase --skip'\n"
-msgstr ""
+msgstr "В іншому випадку, будь ласка, скористайтесь \"git rebase --skip\"\n"
 
 #: builtin/commit.c:80
 msgid "Otherwise, please use 'git cherry-pick --skip'\n"
 msgstr ""
+"В іншому випадку, будь ласка, скористайтесь \"git cherry-pick --skip\"\n"
 
 #: builtin/commit.c:83
 msgid ""
@@ -5852,14 +5875,22 @@ msgid ""
 "    git cherry-pick --skip\n"
 "\n"
 msgstr ""
+"а потім скористайтесь:\n"
+"\n"
+"    git cherry-pick --continue\n"
+"\n"
+"щоб продовжити висмикування решти комітів.\n"
+"Якщо ви хочете пропустити цей коміт, скористайтесь\n"
+"\n"
+"    git cherry-pick --skip\n"
 
 #: builtin/commit.c:338
 msgid "failed to unpack HEAD tree object"
-msgstr ""
+msgstr "не вдалося розпакувати HEAD обʼєкт дерева"
 
 #: builtin/commit.c:388
 msgid "No paths with --include/--only does not make sense."
-msgstr ""
+msgstr "Ніякі шляхи з --include/--only не мають сенсу."
 
 #: builtin/commit.c:401
 msgid "unable to create temporary index"
@@ -5867,7 +5898,7 @@ msgstr "не вдалося створити тимчасовий індекс"
 
 #: builtin/commit.c:410
 msgid "interactive add failed"
-msgstr ""
+msgstr "інтерактивне додавання не вдалося"
 
 #: builtin/commit.c:426
 msgid "unable to update temporary index"
@@ -5875,7 +5906,7 @@ msgstr "не вдалося оновити тимчасовий індекс"
 
 #: builtin/commit.c:428
 msgid "Failed to update main cache tree"
-msgstr ""
+msgstr "Не вдалося оновити головне дерево кешу"
 
 #: builtin/commit.c:454 builtin/commit.c:478 builtin/commit.c:526
 msgid "unable to write new_index file"
@@ -5887,7 +5918,7 @@ msgstr "неможливо зробити частковий коміт під �
 
 #: builtin/commit.c:509
 msgid "cannot do a partial commit during a cherry-pick."
-msgstr ""
+msgstr "неможливо зробити частковий коміт під час висмикування."
 
 #: builtin/commit.c:511
 msgid "cannot do a partial commit during a rebase."
@@ -5904,16 +5935,16 @@ msgstr "не вдалося записати тимчасовий файл ін�
 #: builtin/commit.c:636
 #, c-format
 msgid "commit '%s' lacks author header"
-msgstr ""
+msgstr "у коміті \"%s\" немає заголовка автора"
 
 #: builtin/commit.c:638
 #, c-format
 msgid "commit '%s' has malformed author line"
-msgstr ""
+msgstr "у коміті \"%s\" невірно сформовано рядок автора"
 
 #: builtin/commit.c:657
 msgid "malformed --author parameter"
-msgstr ""
+msgstr "невірно сформований --author параметр"
 
 #: builtin/commit.c:665 ident.c:532
 #, c-format
@@ -5925,6 +5956,8 @@ msgid ""
 "unable to select a comment character that is not used\n"
 "in the current commit message"
 msgstr ""
+"не вдалося вибрати символ коментаря, який не використовується\n"
+"у поточному дописі до коміта"
 
 #: builtin/commit.c:766 builtin/commit.c:801 builtin/commit.c:1192
 #: builtin/merge-tree.c:450
@@ -5935,11 +5968,11 @@ msgstr "не вдалося знайти коміт %s"
 #: builtin/commit.c:779 builtin/shortlog.c:458
 #, c-format
 msgid "(reading log message from standard input)\n"
-msgstr ""
+msgstr "(читання лог дописа зі стандартного вводу)\n"
 
 #: builtin/commit.c:781
 msgid "could not read log from standard input"
-msgstr ""
+msgstr "не вдалося прочитати лог зі стандартного вводу"
 
 #: builtin/commit.c:785
 #, c-format
@@ -5953,11 +5986,11 @@ msgstr "опції \"%s\" та \"%s:%s\" не можна використову�
 
 #: builtin/commit.c:835 builtin/commit.c:851
 msgid "could not read SQUASH_MSG"
-msgstr ""
+msgstr "не вдалося прочитати SQUASH_MSG"
 
 #: builtin/commit.c:842
 msgid "could not read MERGE_MSG"
-msgstr ""
+msgstr "не вдалося прочитати MERGE_MSG"
 
 #: builtin/commit.c:883 bundle.c:150 rerere.c:471 rerere.c:682 sequencer.c:2739
 #: sequencer.c:3509
@@ -5975,6 +6008,8 @@ msgid ""
 "Please enter the commit message for your changes. Lines starting\n"
 "with '%c' will be ignored.\n"
 msgstr ""
+"Будь ласка, введіть допис до коміта для ваших змін. Рядки, що починаються з\n"
+" \"%c\" будуть проігноровані.\n"
 
 #: builtin/commit.c:917
 #, c-format
@@ -5982,6 +6017,8 @@ msgid ""
 "Please enter the commit message for your changes. Lines starting\n"
 "with '%c' will be ignored, and an empty message aborts the commit.\n"
 msgstr ""
+"Будь ласка, введіть допис до коміта для ваших змін. Рядки, що починаються з\n"
+" \"%c\" будуть проігноровані, а порожній допис перерве коміт.\n"
 
 #: builtin/commit.c:921
 #, c-format
@@ -5989,6 +6026,8 @@ msgid ""
 "Please enter the commit message for your changes. Lines starting\n"
 "with '%c' will be kept; you may remove them yourself if you want to.\n"
 msgstr ""
+"Будь ласка, введіть допис до коміта для ваших змін. Рядки, що починаються з\n"
+" \"%c\" будуть збережені; ви можете вилучити їх самостійно, якщо захочете.\n"
 
 #: builtin/commit.c:925
 #, c-format
@@ -5997,6 +6036,9 @@ msgid ""
 "with '%c' will be kept; you may remove them yourself if you want to.\n"
 "An empty message aborts the commit.\n"
 msgstr ""
+"Будь ласка, введіть допис до коміта для ваших змін. Рядки, що починаються з\n"
+" \"%c\" будуть збережені; ви можете вилучити їх самостійно, якщо захочете.\n"
+"Порожній допис перериває коміт.\n"
 
 #: builtin/commit.c:937
 msgid ""
@@ -6006,6 +6048,11 @@ msgid ""
 "\tgit update-ref -d MERGE_HEAD\n"
 "and try again.\n"
 msgstr ""
+"\n"
+"Схоже, що ви робите злиття.\n"
+"Якщо це не так, виконайте команду\n"
+"\tgit update-ref -d MERGE_HEAD\n"
+"і спробуйте ще раз.\n"
 
 #: builtin/commit.c:942
 msgid ""
@@ -6015,21 +6062,26 @@ msgid ""
 "\tgit update-ref -d CHERRY_PICK_HEAD\n"
 "and try again.\n"
 msgstr ""
+"\n"
+"Схоже, що ви робите висмикування.\n"
+"Якщо це не так, виконайте\n"
+"\tgit update-ref -d CHERRY_PICK_HEAD\n"
+"і спробуйте ще раз.\n"
 
 #: builtin/commit.c:969
 #, c-format
 msgid "%sAuthor:    %.*s <%.*s>"
-msgstr ""
+msgstr "%sАвтор:    %.*s <%.*s>"
 
 #: builtin/commit.c:977
 #, c-format
 msgid "%sDate:      %s"
-msgstr ""
+msgstr "%sДата:      %s"
 
 #: builtin/commit.c:984
 #, c-format
 msgid "%sCommitter: %.*s <%.*s>"
-msgstr ""
+msgstr "%sКомітер: %.*s <%.*s>"
 
 #: builtin/commit.c:1004
 msgid "Cannot read index"
@@ -6037,21 +6089,23 @@ msgstr "Неможливо прочитати індекс"
 
 #: builtin/commit.c:1050
 msgid "unable to pass trailers to --trailers"
-msgstr "не вдалося передати trailers до --trailers"
+msgstr "не вдалося передати причепи до --trailers"
 
 #: builtin/commit.c:1090
 msgid "Error building trees"
-msgstr ""
+msgstr "Помилка при побудові дерев"
 
 #: builtin/commit.c:1104 builtin/tag.c:324
 #, c-format
 msgid "Please supply the message using either -m or -F option.\n"
-msgstr ""
+msgstr "Будь ласка, надайте допис, використовуючи опцію -m або -F.\n"
 
 #: builtin/commit.c:1150
 #, c-format
 msgid "--author '%s' is not 'Name <email>' and matches no existing author"
 msgstr ""
+"--author \"%s\" не в форматі \"Імʼя <адреса електронної пошти>\" і не "
+"відповідає жодному існуючому автору"
 
 #: builtin/commit.c:1164
 #, c-format
@@ -6065,48 +6119,47 @@ msgstr "Неприпустимий режим невідстежуваних ф�
 
 #: builtin/commit.c:1253
 msgid "You are in the middle of a merge -- cannot reword."
-msgstr "Ви перебуваєте в процесі злиття -- неможливо переформулювати."
+msgstr "Ви перебуваєте в процесі злиття -- неможливо перефразувати."
 
 #: builtin/commit.c:1255
 msgid "You are in the middle of a cherry-pick -- cannot reword."
-msgstr ""
-"Ви перебуваєте в середині процесу висмикування -- неможливо переформулювати."
+msgstr "Ви перебуваєте в процесі висмикування -- неможливо перефразувати."
 
 #: builtin/commit.c:1258
 #, c-format
 msgid "reword option of '%s' and path '%s' cannot be used together"
 msgstr ""
-"параметр переформулювання \"%s\" і шлях \"%s\" не можна використовувати разом"
+"параметр перефразування \"%s\" і шлях \"%s\" не можуть бути використані разом"
 
 #: builtin/commit.c:1260
 #, c-format
 msgid "reword option of '%s' and '%s' cannot be used together"
-msgstr "опція переформулювання \"%s\" і \"%s\" не може бути використана разом"
+msgstr "опцію перефразування \"%s\" і \"%s\" не можна використовувати разом"
 
 #: builtin/commit.c:1285
 msgid "You have nothing to amend."
-msgstr ""
+msgstr "Вам немає до чого вносити зміни."
 
 #: builtin/commit.c:1288
 msgid "You are in the middle of a merge -- cannot amend."
-msgstr "Ви перебуваєте в процесі злиття -- не можна вносити зміни."
+msgstr "Ви перебуваєте в процесі злиття -- неможливо внести зміни."
 
 #: builtin/commit.c:1290
 msgid "You are in the middle of a cherry-pick -- cannot amend."
-msgstr "Ви перебуваєте в процесі висмикування - не можна вносити зміни."
+msgstr "Ви перебуваєте в процесі висмикування - неможливо внести зміни."
 
 #: builtin/commit.c:1292
 msgid "You are in the middle of a rebase -- cannot amend."
-msgstr "Ви перебуваєте в процесі перебазуавння -- не можна вносити зміни."
+msgstr "Ви перебуваєте в процесі перебазуавння -- неможливо внести зміни."
 
 #: builtin/commit.c:1312
 msgid "--reset-author can be used only with -C, -c or --amend."
-msgstr ""
+msgstr "--reset-author можна використовувати лише з -C, -c або --amend."
 
 #: builtin/commit.c:1359
 #, c-format
 msgid "unknown option: --fixup=%s:%s"
-msgstr ""
+msgstr "невідомий параметр: --fixup=%s:%s"
 
 #: builtin/commit.c:1376
 #, c-format
@@ -6115,7 +6168,7 @@ msgstr "шляхи \"%s ...\" з -a не мають сенсу"
 
 #: builtin/commit.c:1507 builtin/commit.c:1672
 msgid "show status concisely"
-msgstr ""
+msgstr "показувати статус стисло"
 
 #: builtin/commit.c:1509 builtin/commit.c:1674
 msgid "show branch information"
@@ -6123,11 +6176,11 @@ msgstr "показати інформацію про гілку"
 
 #: builtin/commit.c:1511
 msgid "show stash information"
-msgstr ""
+msgstr "показати інформацію про схов"
 
 #: builtin/commit.c:1513 builtin/commit.c:1676
 msgid "compute full ahead/behind values"
-msgstr ""
+msgstr "обчислювати повні попереду/позаду значення"
 
 #: builtin/commit.c:1515
 msgid "version"
@@ -6249,7 +6302,7 @@ msgstr ""
 
 #: builtin/commit.c:1654 builtin/interpret-trailers.c:114
 msgid "trailer"
-msgstr ""
+msgstr "причіп"
 
 #: builtin/commit.c:1654
 msgid "add custom trailer(s)"
@@ -9030,9 +9083,9 @@ msgstr "Неочікувана контрольна сума наприкінц�
 #, c-format
 msgid "pack has %d unresolved delta"
 msgid_plural "pack has %d unresolved deltas"
-msgstr[0] "пакунок має %d невирішену дельту"
-msgstr[1] "пакунок має %d невирішених дельти"
-msgstr[2] "пакунок має %d невирішених дельт"
+msgstr[0] "пакунок має %d нерозвʼязану дельту"
+msgstr[1] "пакунок має %d нерозвʼязаних дельти"
+msgstr[2] "пакунок має %d нерозвʼязаних дельт"
 
 #: builtin/index-pack.c:1340
 #, c-format
@@ -9290,7 +9343,7 @@ msgstr ""
 
 #: builtin/interpret-trailers.c:104
 msgid "action if trailer already exists"
-msgstr "що робити, якщо trailer вже існує"
+msgstr "що робити, якщо причіп вже існує"
 
 #: builtin/interpret-trailers.c:106
 msgid "action if trailer is missing"
@@ -12024,7 +12077,7 @@ msgid ""
 msgstr ""
 "Поточна гілка %s не має висхідної гілки.\n"
 "Щоб надіслати поточну гілку і встановити віддалене призначення "
-"першоджерельним сховищем, скористайтеся\n"
+"першоджерельним сховищем, скористайтесь\n"
 "\n"
 "    git push --set-upstream %s %s\n"
 "%s"
@@ -14193,7 +14246,7 @@ msgstr ""
 
 #: builtin/rev-parse.c:892 revision.c:2730 revision.c:2764
 msgid "--exclude-hidden cannot be used together with --branches"
-msgstr "--exclude-hidden неможливо використати разом з --branches"
+msgstr "--exclude-hidden не можна використовувати разом з --branches"
 
 #: builtin/rev-parse.c:898 revision.c:2741 revision.c:2771
 msgid "--exclude-hidden cannot be used together with --tags"
@@ -21402,7 +21455,7 @@ msgid ""
 "commit/abort the previous merge before you start a new notes merge."
 msgstr ""
 "Ви не завершили попереднє злиття нотаток (існує %s).\n"
-"Будь ласка, скористайтеся командами \"git notes merge --commit\" або \"git "
+"Будь ласка, скористайтесь командами \"git notes merge --commit\" або \"git "
 "notes merge --abort\", щоб зробити коміт/скасувати попереднє злиття, перш "
 "ніж розпочати нове злиття нотаток."
 
@@ -22692,7 +22745,7 @@ msgstr "пошкоджений індекс, очікувався %s у %s, от
 
 #: read-cache.c:3055
 msgid "cannot write split index for a sparse index"
-msgstr "неможливо записати розділений індекс для часткового індексу"
+msgstr "неможливо записати розщеплений індекс для часткового індексу"
 
 #: read-cache.c:3186
 msgid "failed to convert to a sparse-index"
@@ -23412,7 +23465,7 @@ msgstr "нерозпізнане значення transfer.credentialsInUrl: '%s
 #: remote.c:659 remote.c:661
 #, c-format
 msgid "URL '%s' uses plaintext credentials"
-msgstr "URL-адреса '%s' використовує облікові дані у відкритому тексті"
+msgstr "URL-адреса \"%s\" використовує облікові дані у відкритому тексті"
 
 #: remote.c:756
 #, c-format
@@ -23759,7 +23812,7 @@ msgstr "не вдалося оновити конфліктний стан у \"
 #: rerere.c:1061 rerere.c:1068
 #, c-format
 msgid "no remembered resolution for '%s'"
-msgstr "немає записаного вирішення для \"%s\""
+msgstr "немає записаного розвʼязання для \"%s\""
 
 #: rerere.c:1080
 #, c-format
@@ -25247,7 +25300,7 @@ msgstr "індексний запис є директорією, але не є 
 
 #: split-index.c:14
 msgid "cannot use split index with a sparse index"
-msgstr "не можна використовувати розділений індекс з частковим індексом"
+msgstr "не можна використовувати розщеплений індекс з частковим індексом"
 
 #. TRANSLATORS: IEC 80000-13:2008 gibibyte
 #: strbuf.c:859
@@ -26489,17 +26542,17 @@ msgstr ""
 
 #: wt-status.c:208
 msgid "  (use \"git add <file>...\" to mark resolution)"
-msgstr "  (використовуйте \"git add <файл>...\", щоб позначити як вирішене)"
+msgstr "  (використовуйте \"git add <файл>...\", щоб позначити як розвʼязане)"
 
 #: wt-status.c:210 wt-status.c:214
 msgid "  (use \"git add/rm <file>...\" as appropriate to mark resolution)"
 msgstr ""
 "  (використовуйте \"git add/rm <файл>...\" за потребою, щоб позначити як "
-"вирішене)"
+"розвʼязане)"
 
 #: wt-status.c:212
 msgid "  (use \"git rm <file>...\" to mark resolution)"
-msgstr "  (використовуйте \"git rm <файл>...\", щоб позначити як вирішене)"
+msgstr "  (використовуйте \"git rm <файл>...\", щоб позначити як розвʼязане)"
 
 #: wt-status.c:222 wt-status.c:1152
 msgid "Changes to be committed:"
@@ -26762,12 +26815,12 @@ msgstr "  (усі конфлікти виправлено: виконайте \"
 msgid ""
 "You are currently splitting a commit while rebasing branch '%s' on '%s'."
 msgstr ""
-"Наразі виконується розділення коміту під час перебазування гілки \"%s\" на "
+"Наразі виконується розщеплення коміту під час перебазування гілки \"%s\" на "
 "\"%s\"."
 
 #: wt-status.c:1483
 msgid "You are currently splitting a commit during a rebase."
-msgstr "Ви розбиваєте коміт під час перебазування."
+msgstr "Ви розщеплюєте коміт під час перебазування."
 
 #: wt-status.c:1486
 msgid "  (Once your working directory is clean, run \"git rebase --continue\")"
@@ -26973,8 +27026,8 @@ msgid ""
 "nothing added to commit but untracked files present (use \"git add\" to "
 "track)\n"
 msgstr ""
-"нічого не додано до коміту, але присутні невідстежувані файли (скористайтесь "
-"\"git add\" щоб почати відстежувати)\n"
+"нічого не додано до коміту, але є невідстежувані файли (скористайтесь \"git "
+"add\" для відстежування)\n"
 
 #: wt-status.c:1935
 #, c-format
@@ -26996,8 +27049,7 @@ msgstr "нічого комітити\n"
 #: wt-status.c:1946
 #, c-format
 msgid "nothing to commit (use -u to show untracked files)\n"
-msgstr ""
-"нічого комітити (скористайтесь -u щоб подивитись невідстежувані файли)\n"
+msgstr "нічого комітити (скористайтесь -u щоб показати невідстежувані файли)\n"
 
 #: wt-status.c:1951
 #, c-format
@@ -27388,7 +27440,7 @@ msgstr ""
 msgid "Unable to initialize SMTP properly. Check config and use --smtp-debug."
 msgstr ""
 "Не вдалося правильно ініціалізувати SMTP. Перевірте конфігурацію і "
-"скористайтеся --smtp-debug."
+"скористайтесь --smtp-debug."
 
 #: git-send-email.perl:1728
 #, perl-format
