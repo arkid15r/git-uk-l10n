@@ -18982,7 +18982,7 @@ msgstr ""
 
 #: diff.c:4856
 msgid "--follow requires exactly one pathspec"
-msgstr "--follow вимагає точно один специфікатор шляху"
+msgstr "--follow вимагає тільки один специфікатор шляху"
 
 #: diff.c:4908
 #, c-format
