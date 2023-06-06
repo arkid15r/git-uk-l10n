@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-06-04 16:49-0700\n"
+"PO-Revision-Date: 2023-06-05 19:15-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -18944,7 +18944,7 @@ msgstr ""
 #: diff.c:428
 #, c-format
 msgid "Unknown value for 'diff.submodule' config variable: '%s'"
-msgstr ""
+msgstr "Невідоме значення конфігураційної змінної \"diff.submodule\": \"%s\""
 
 #: diff.c:488
 #, c-format
@@ -18952,11 +18952,13 @@ msgid ""
 "Found errors in 'diff.dirstat' config variable:\n"
 "%s"
 msgstr ""
+"Знайдено помилки у конфігураційній змінній \"diff.dirstat\":\n"
+"%s"
 
 #: diff.c:4366
 #, c-format
 msgid "external diff died, stopping at %s"
-msgstr ""
+msgstr "зовнішня різниця завершилася невдало, зупинка на %s"
 
 #: diff.c:4764 parse-options.c:1216
 #, c-format
@@ -18980,7 +18982,7 @@ msgstr ""
 
 #: diff.c:4856
 msgid "--follow requires exactly one pathspec"
-msgstr ""
+msgstr "--follow вимагає точно один специфікатор шляху"
 
 #: diff.c:4908
 #, c-format
@@ -18991,7 +18993,7 @@ msgstr "неприпустиме --stat значення: %s"
 #: parse-options.c:219 parse-options.c:223
 #, c-format
 msgid "%s expects a numerical value"
-msgstr ""
+msgstr "%s очікує числове значення"
 
 #: diff.c:4945
 #, c-format
@@ -18999,16 +19001,18 @@ msgid ""
 "Failed to parse --dirstat/-X option parameter:\n"
 "%s"
 msgstr ""
+"Не вдалося розібрати параметр опції --dirstat/-X:\n"
+"%s"
 
 #: diff.c:4978
 #, c-format
 msgid "unknown change class '%c' in --diff-filter=%s"
-msgstr ""
+msgstr "невідома зміна класу \"%c\" у --diff-filter=%s"
 
 #: diff.c:5002
 #, c-format
 msgid "unknown value after ws-error-highlight=%.*s"
-msgstr ""
+msgstr "невідоме значення після ws-error-highlight=%.*s"
 
 #: diff.c:5016
 #, c-format
@@ -19018,7 +19022,7 @@ msgstr "не вдалося розпізнати \"%s\""
 #: diff.c:5066 diff.c:5072
 #, c-format
 msgid "%s expects <n>/<m> form"
-msgstr ""
+msgstr "%s очікує <n>/<m> форму"
 
 #: diff.c:5084
 #, c-format
@@ -19028,7 +19032,7 @@ msgstr "%s очікує символ, отримано \"%s\""
 #: diff.c:5105
 #, c-format
 msgid "bad --color-moved argument: %s"
-msgstr ""
+msgstr "невірний --color-moved аргумент: %s"
 
 #: diff.c:5124
 #, c-format
@@ -19177,7 +19181,7 @@ msgstr "вивести бінарну різницю, яку можна заст
 #: diff.c:5570
 msgid "show full pre- and post-image object names on the \"index\" lines"
 msgstr ""
-"показувати повні назви обʼєктів до та після зображення в "index" рядках"
+"показувати повні назви обʼєктів до та після зображення в \"index\" рядках"
 
 #: diff.c:5572
 msgid "show colored diff"
@@ -19192,8 +19196,8 @@ msgid ""
 "highlight whitespace errors in the 'context', 'old' or 'new' lines in the "
 "diff"
 msgstr ""
-"виділяти помилки пробільних символів у \"context\", \"old\" або "
-"\"new\" рядках різниці"
+"виділяти помилки пробільних символів у \"context\", \"old\" або \"new\" "
+"рядках різниці"
 
 #: diff.c:5577
 msgid ""
@@ -19405,7 +19409,9 @@ msgstr "поміняти місцями два вводи, змінити різ
 
 #: diff.c:5709
 msgid "exit with 1 if there were differences, 0 otherwise"
-msgstr "завершити виконання з кодом 1, якщо були різниці, або з кодом 0 в іншому випадку"
+msgstr ""
+"завершити виконання з кодом 1, якщо були різниці, або з кодом 0 в іншому "
+"випадку"
 
 #: diff.c:5711
 msgid "disable all output of the program"
