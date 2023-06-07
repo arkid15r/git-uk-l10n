@@ -18982,7 +18982,7 @@ msgid ""
 "color moved setting must be one of 'no', 'default', 'blocks', 'zebra', "
 "'dimmed-zebra', 'plain'"
 msgstr ""
-"значення параметра перенесення кольору повинно бути одним з \"no\", "
+"значення параметра кольору перенесення має бути одним з \"no\", "
 "\"default\", \"blocks\", \"zebra\", \"dimmed-zebra\", \"plain\""
 
 #: diff.c:343
@@ -19001,7 +19001,7 @@ msgid ""
 "whitespace modes"
 msgstr ""
 "color-moved-ws: allow-indentation-change не можна комбінувати з іншими "
-"режимами пробілів"
+"режимами відображення пробілів"
 
 #: diff.c:428
 #, c-format
