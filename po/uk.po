@@ -6193,31 +6193,37 @@ msgstr "машинозчитуваний вивід"
 
 #: builtin/commit.c:1518 builtin/commit.c:1680
 msgid "show status in long format (default)"
-msgstr ""
+msgstr "показувати статус у повному форматі (за замовчуванням)"
 
 #: builtin/commit.c:1521 builtin/commit.c:1683
 msgid "terminate entries with NUL"
-msgstr ""
+msgstr "завершувати записи символом NUL"
 
 #: builtin/commit.c:1524 builtin/commit.c:1686
 msgid "show untracked files, optional modes: all, normal, no. (Default: all)"
 msgstr ""
+"показувати невідстежувані файли, варіанти режимів: all, normal, no (за "
+"замовчуванням: all)"
 
 #: builtin/commit.c:1528
 msgid ""
 "show ignored files, optional modes: traditional, matching, no. (Default: "
 "traditional)"
 msgstr ""
+"показувати ігноровані файли, варіанти режимів: traditional, matching, no (за "
+"замовчуванням: traditional)."
 
 #: builtin/commit.c:1530 parse-options.h:338
 msgid "when"
-msgstr ""
+msgstr "коли"
 
 #: builtin/commit.c:1531
 msgid ""
 "ignore changes to submodules, optional when: all, dirty, untracked. "
 "(Default: all)"
 msgstr ""
+"ігнорувати зміни підмодулів, опціонально, якщо: all, dirty, untracked (за "
+"замовчуванням: all)."
 
 #: builtin/commit.c:1533
 msgid "list untracked files in columns"
@@ -6225,19 +6231,21 @@ msgstr "показати невідстежувані файли в стовпч
 
 #: builtin/commit.c:1534
 msgid "do not detect renames"
-msgstr ""
+msgstr "не виявляти перейменування"
 
 #: builtin/commit.c:1536
 msgid "detect renames, optionally set similarity index"
-msgstr ""
+msgstr "виявляти перейменування, опціонально встановлювати індекс схожості"
 
 #: builtin/commit.c:1559
 msgid "Unsupported combination of ignored and untracked-files arguments"
 msgstr ""
+"Непідтримувана комбінація аргументів для ігнорованих та невідстежуваних "
+"файлів"
 
 #: builtin/commit.c:1637
 msgid "suppress summary after successful commit"
-msgstr ""
+msgstr "не показувати підсумок після успішного коміту"
 
 #: builtin/commit.c:1638
 msgid "show diff in commit message template"
