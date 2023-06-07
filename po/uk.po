@@ -6222,7 +6222,7 @@ msgid ""
 "ignore changes to submodules, optional when: all, dirty, untracked. "
 "(Default: all)"
 msgstr ""
-"ігнорувати зміни підмодулів, необов'язково, якщо: all, dirty, untracked (за "
+"ігнорувати зміни підмодулів, опціонально, якщо: all, dirty, untracked (за "
 "замовчуванням: all)."
 
 #: builtin/commit.c:1533
