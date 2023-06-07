@@ -19011,7 +19011,7 @@ msgstr ""
 #: diff.c:4366
 #, c-format
 msgid "external diff died, stopping at %s"
-msgstr "зовнішня різниця завершилася невдало, зупинка на %s"
+msgstr "зовнішній diff завершився невдало, зупинившись на %s"
 
 #: diff.c:4764 parse-options.c:1216
 #, c-format
@@ -19035,7 +19035,7 @@ msgstr ""
 
 #: diff.c:4856
 msgid "--follow requires exactly one pathspec"
-msgstr "--follow вимагає тільки один специфікатор шляху"
+msgstr "--follow вимагає тільки один визначник шляху"
 
 #: diff.c:4908
 #, c-format
