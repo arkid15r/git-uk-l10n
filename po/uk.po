@@ -6305,7 +6305,7 @@ msgstr ""
 #: builtin/commit.c:1652
 msgid "use autosquash formatted message to squash specified commit"
 msgstr ""
-"використовувати допис у форматі autosquash для зварювання вказаного коміта"
+"використовувати допис у форматі autosquash для зчавлювання вказаного коміта"
 
 #: builtin/commit.c:1653
 msgid "the commit is authored by me now (used with -C/-c/--amend)"
