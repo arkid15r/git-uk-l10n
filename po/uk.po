@@ -18850,8 +18850,8 @@ msgstr[2] "%<PRIuMAX> днів тому"
 msgid "%<PRIuMAX> week ago"
 msgid_plural "%<PRIuMAX> weeks ago"
 msgstr[0] "%<PRIuMAX> тиждень тому"
-msgstr[1] "%<PRIuMAX> тиждні тому"
-msgstr[2] "%<PRIuMAX> тижднів тому"
+msgstr[1] "%<PRIuMAX> тижні тому"
+msgstr[2] "%<PRIuMAX> тижнів тому"
 
 #: date.c:182
 #, c-format
@@ -18888,7 +18888,7 @@ msgstr[2] "%<PRIuMAX> років тому"
 
 #: delta-islands.c:273
 msgid "Propagating island marks"
-msgstr "Розмноження острівних знаків"
+msgstr "Розповсюдження острівних знаків"
 
 #: delta-islands.c:291
 #, c-format
