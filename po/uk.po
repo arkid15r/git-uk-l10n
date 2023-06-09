@@ -6366,7 +6366,7 @@ msgstr "обходити pre-commit та commit-msg гачки"
 
 #: builtin/commit.c:1671
 msgid "show what would be committed"
-msgstr "показати, що буде закомітчено"
+msgstr "показати, що буде закомічено"
 
 #: builtin/commit.c:1684
 msgid "amend previous commit"
