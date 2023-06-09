@@ -18719,8 +18719,8 @@ msgid ""
 "The file '%s' is missing a byte order mark (BOM). Please use UTF-%sBE or UTF-"
 "%sLE (depending on the byte order) as working-tree-encoding."
 msgstr ""
-"У файлі \"%s\" відсутня позначка послідовності байт (BOM). Будь ласка, "
-"використовуйте UTF-%sBE або UTF-%sLE (залежно від послідовності байт) як "
+"У файлі \"%s\" відсутня позначка послідовності байтів (BOM). Будь ласка, "
+"використовуйте UTF-%sBE або UTF-%sLE (залежно від послідовності байтів) як "
 "кодування робочого дерева."
 
 #: convert.c:415 convert.c:486
