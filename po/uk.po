@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-06-07 19:10-0700\n"
+"PO-Revision-Date: 2023-06-08 21:23-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-ukrainian-l10n/>\n"
 "Language: uk\n"
@@ -18719,6 +18719,9 @@ msgid ""
 "The file '%s' is missing a byte order mark (BOM). Please use UTF-%sBE or UTF-"
 "%sLE (depending on the byte order) as working-tree-encoding."
 msgstr ""
+"У файлі \"%s\" відсутня позначка послідовності байт (BOM). Будь ласка, "
+"використовуйте UTF-%sBE або UTF-%sLE (залежно від послідовності байт) як "
+"кодування робочого дерева."
 
 #: convert.c:415 convert.c:486
 #, c-format
@@ -18728,7 +18731,7 @@ msgstr "не вдалося закодувати \"%s\" з %s в %s"
 #: convert.c:458
 #, c-format
 msgid "encoding '%s' from %s to %s and back is not the same"
-msgstr ""
+msgstr "кодування \"%s\" з %s в %s і назад не однакове"
 
 #: convert.c:661
 #, c-format
@@ -18743,25 +18746,25 @@ msgstr "неможливо подати вхідні дані на зовніш�
 #: convert.c:688
 #, c-format
 msgid "external filter '%s' failed %d"
-msgstr ""
+msgstr "помилка зовнішнього фільтра \"%s\", код: %d"
 
 #: convert.c:723 convert.c:726
 #, c-format
 msgid "read from external filter '%s' failed"
-msgstr ""
+msgstr "не вдалося прочитати з зовнішнього фільтра \"%s\""
 
 #: convert.c:729 convert.c:784
 #, c-format
 msgid "external filter '%s' failed"
-msgstr ""
+msgstr "помилка зовнішнього фільтра \"%s\""
 
 #: convert.c:833
 msgid "unexpected filter type"
-msgstr ""
+msgstr "несподіваний тип фільтра"
 
 #: convert.c:844
 msgid "path name too long for external filter"
-msgstr ""
+msgstr "назва шляху занадто довга для зовнішнього фільтра"
 
 #: convert.c:942
 #, c-format
@@ -18769,33 +18772,35 @@ msgid ""
 "external filter '%s' is not available anymore although not all paths have "
 "been filtered"
 msgstr ""
+"зовнішній фільтр \"%s\" більше не доступний, хоча не всі шляхи були "
+"відфільтровані"
 
 #: convert.c:1243
 msgid "true/false are no valid working-tree-encodings"
-msgstr ""
+msgstr "true/false не є допустимими кодуваннями робочого дерева"
 
 #: convert.c:1423 convert.c:1456
 #, c-format
 msgid "%s: clean filter '%s' failed"
-msgstr ""
+msgstr "%s: помилка фільтра очистки \"%s\""
 
 #: convert.c:1499
 #, c-format
 msgid "%s: smudge filter %s failed"
-msgstr ""
+msgstr "%s: помилка фільтра розмиття %s"
 
 #: credential.c:102
 #, c-format
 msgid "skipping credential lookup for key: credential.%s"
-msgstr ""
+msgstr "пропуск пошуку облікових даних для ключа: credential.%s"
 
 #: credential.c:118
 msgid "refusing to work with credential missing host field"
-msgstr ""
+msgstr "відмова працювати з відсутнім полем хоста в облікових даних"
 
 #: credential.c:120
 msgid "refusing to work with credential missing protocol field"
-msgstr ""
+msgstr "відмова працювати з відсутнім полем протоколу облікових даних"
 
 #: credential.c:428
 #, c-format
