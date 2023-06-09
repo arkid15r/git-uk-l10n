@@ -6338,15 +6338,15 @@ msgstr "включити статус у шаблон дописа до комі
 
 #: builtin/commit.c:1664
 msgid "Commit contents options"
-msgstr ""
+msgstr "Опції коміта вмисту"
 
 #: builtin/commit.c:1665
 msgid "commit all changed files"
-msgstr ""
+msgstr "закомітити всі змінені файли"
 
 #: builtin/commit.c:1666
 msgid "add specified files to index for commit"
-msgstr ""
+msgstr "додати вказані файли до індексу для коміта"
 
 #: builtin/commit.c:1667
 msgid "interactively add files"
@@ -6354,23 +6354,23 @@ msgstr "додавати файли інтерактивно"
 
 #: builtin/commit.c:1668
 msgid "interactively add changes"
-msgstr ""
+msgstr "додавати зміни інтерактивно"
 
 #: builtin/commit.c:1669
 msgid "commit only specified files"
-msgstr ""
+msgstr "комітити лише вказані файли"
 
 #: builtin/commit.c:1670
 msgid "bypass pre-commit and commit-msg hooks"
-msgstr ""
+msgstr "обходити pre-commit та commit-msg гачки"
 
 #: builtin/commit.c:1671
 msgid "show what would be committed"
-msgstr "показати, що буде додано до коміту"
+msgstr "показати, що буде закомічено"
 
 #: builtin/commit.c:1684
 msgid "amend previous commit"
-msgstr ""
+msgstr "внести зміни до попереднього коміта"
 
 #: builtin/commit.c:1685
 msgid "bypass post-rewrite hook"
@@ -6378,11 +6378,11 @@ msgstr "обійти post-rewrite гачок"
 
 #: builtin/commit.c:1692
 msgid "ok to record an empty change"
-msgstr ""
+msgstr "дозволити записати порожню зміну"
 
 #: builtin/commit.c:1694
 msgid "ok to record a change with an empty message"
-msgstr ""
+msgstr "дозволити записати зміну з порожнім дописом"
 
 #: builtin/commit.c:1726 sequencer.c:1429 sequencer.c:1508
 msgid "could not parse HEAD commit"
@@ -6391,11 +6391,11 @@ msgstr "не вдалося розібрати HEAD коміт"
 #: builtin/commit.c:1772
 #, c-format
 msgid "Corrupt MERGE_HEAD file (%s)"
-msgstr ""
+msgstr "Пошкоджений MERGE_HEAD (%s)"
 
 #: builtin/commit.c:1779
 msgid "could not read MERGE_MODE"
-msgstr ""
+msgstr "не вдалося прочитати MERGE_MODE"
 
 #: builtin/commit.c:1800
 #, c-format
