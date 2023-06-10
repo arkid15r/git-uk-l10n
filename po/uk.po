@@ -18630,7 +18630,7 @@ msgstr "неможливо запустити проксі %s"
 
 #: connect.c:1114
 msgid "no path specified; see 'git help pull' for valid url syntax"
-msgstr "не вказано шлях; дивіться \"git help pull\" для правильного синтаксису url"
+msgstr "не вказано шлях; дивіться \"git help pull\" для чинного url синтаксису"
 
 #: connect.c:1254
 msgid "newline is forbidden in git:// hosts and repo paths"
@@ -18667,7 +18667,7 @@ msgstr "не вдалося записати до rev-list"
 
 #: connected.c:159
 msgid "failed to close rev-list's stdin"
-msgstr "не вдалося закрити stdin списка ревізій"
+msgstr "не вдалося закрити stdin для rev-list"
 
 #: convert.c:190
 #, c-format
@@ -18713,7 +18713,7 @@ msgid ""
 "The file '%s' contains a byte order mark (BOM). Please use UTF-%.*s as "
 "working-tree-encoding."
 msgstr ""
-"Файл \"%s\" містить позначку порядку байт (BOM). Будь ласка, використовуйте "
+"Файл \"%s\" містить позначку порядку байтів (BOM). Будь ласка, використовуйте "
 "UTF-%.*s як кодування робочого дерева."
 
 #: convert.c:300
