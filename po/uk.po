@@ -6410,7 +6410,7 @@ msgstr "Переривання коміта через порожній допи
 #: builtin/commit.c:1812
 #, c-format
 msgid "Aborting commit; you did not edit the message.\n"
-msgstr "Переривання комітав; ви не відредагували допис.\n"
+msgstr "Переривання коміта; ви не відредагували допис.\n"
 
 #: builtin/commit.c:1823
 #, c-format
