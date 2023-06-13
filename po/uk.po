@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-06-09 19:08-0700\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-06-11 15:55-0700\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -1801,7 +1801,7 @@ msgstr "Неочікувана опція --remote"
 #: fetch-pack.c:345 http-fetch.c:150 http-fetch.c:159 revision.c:3030
 #, c-format
 msgid "the option '%s' requires '%s'"
-msgstr "опція \"%s\" вимагає \"%s\""
+msgstr "опція \"%s\" потребує \"%s\""
 
 #: archive.c:680
 msgid "Unexpected option --output"
@@ -2921,7 +2921,7 @@ msgstr "Наразі не виконується операція розвʼяз
 
 #: builtin/am.c:2509
 msgid "interactive mode requires patches on the command line"
-msgstr "інтерактивний режим вимагає латки у командному рядку"
+msgstr "інтерактивний режим потребує латки у командному рядку"
 
 #: builtin/apply.c:9
 msgid "git apply [<options>] [<patch>...]"
@@ -3265,17 +3265,17 @@ msgstr ""
 #: builtin/bisect.c:1313
 #, c-format
 msgid "'%s' requires either no argument or a commit"
-msgstr "\"%s\" вимагає або відсутності аргументу, або коміт"
+msgstr "\"%s\" потребує або відсутності аргументу, або коміт"
 
 #: builtin/bisect.c:1324
 #, c-format
 msgid "'%s' requires 0 or 1 argument"
-msgstr "\"%s\" вимагає 0 або 1 аргумент"
+msgstr "\"%s\" потребує 0 або 1 аргумент"
 
 #: builtin/bisect.c:1348
 #, c-format
 msgid "'%s' requires 0 arguments"
-msgstr "\"%s\" вимагає 0 аргументів"
+msgstr "\"%s\" потребує 0 аргументів"
 
 #: builtin/bisect.c:1367
 msgid "no logfile given"
@@ -4262,7 +4262,7 @@ msgstr "шлях|деревоподібне-джерело"
 #: builtin/cat-file.c:1028
 #, c-format
 msgid "'%s' requires a batch mode"
-msgstr "\"%s\" вимагає групового режиму"
+msgstr "\"%s\" потребує групового режиму"
 
 #: builtin/cat-file.c:1040
 #, c-format
@@ -6466,135 +6466,140 @@ msgstr "використовувати наданий файл конфігур�
 
 #: builtin/config.c:144
 msgid "blob-id"
-msgstr ""
+msgstr "blob-id"
 
 #: builtin/config.c:144
 msgid "read config from given blob object"
-msgstr ""
+msgstr "прочитати конфігурацію з наданого blob-обʼєкту"
 
 #: builtin/config.c:145
 msgid "Action"
-msgstr ""
+msgstr "Дія"
 
 #: builtin/config.c:146
 msgid "get value: name [value-pattern]"
-msgstr ""
+msgstr "отримати значення: назва [шаблон-значення]"
 
 #: builtin/config.c:147
 msgid "get all values: key [value-pattern]"
-msgstr ""
+msgstr "отримати всі значення: ключ [шаблон-значення]"
 
 #: builtin/config.c:148
 msgid "get values for regexp: name-regex [value-pattern]"
-msgstr ""
+msgstr "отримати значення для регвиру: регвир-назви [шаблон-значення]"
 
 #: builtin/config.c:149
 msgid "get value specific for the URL: section[.var] URL"
-msgstr ""
+msgstr "отримати значення для конкретної URL-адреси: розділ[.var] URL-адреса"
 
 #: builtin/config.c:150
 msgid "replace all matching variables: name value [value-pattern]"
-msgstr ""
+msgstr "замінити всі відповідні змінні: назва значення [шаблон-значення]"
 
 #: builtin/config.c:151
 msgid "add a new variable: name value"
-msgstr ""
+msgstr "додати нову змінну: назва значення"
 
 #: builtin/config.c:152
 msgid "remove a variable: name [value-pattern]"
-msgstr ""
+msgstr "видалити змінну: назва [шаблон-значення]"
 
 #: builtin/config.c:153
 msgid "remove all matches: name [value-pattern]"
-msgstr ""
+msgstr "видалити всі збіги: назва [шаблон-значення]"
 
 #: builtin/config.c:154
 msgid "rename section: old-name new-name"
-msgstr ""
+msgstr "перейменувати розділ: стара-назва нова-назва"
 
 #: builtin/config.c:155
 msgid "remove a section: name"
-msgstr ""
+msgstr "видалити розділ: назва"
 
 #: builtin/config.c:156
 msgid "list all"
-msgstr ""
+msgstr "показати всі змінні"
 
 #: builtin/config.c:157
 msgid "use string equality when comparing values to 'value-pattern'"
 msgstr ""
+"використовувати рівність строк при порівнянні значень з \"шаблон-значенням\""
 
 #: builtin/config.c:158
 msgid "open an editor"
-msgstr ""
+msgstr "відкрити редактор"
 
 #: builtin/config.c:159
 msgid "find the color configured: slot [default]"
-msgstr ""
+msgstr "знайти налаштований колір: слот [за замовчуванням]"
 
 #: builtin/config.c:160
 msgid "find the color setting: slot [stdout-is-tty]"
-msgstr ""
+msgstr "знайти налаштування кольору: slot [stdout-is-tty]"
 
 #: builtin/config.c:161
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 #: builtin/config.c:162 builtin/hash-object.c:105
 msgid "type"
-msgstr ""
+msgstr "тип"
 
 #: builtin/config.c:162
 msgid "value is given this type"
-msgstr ""
+msgstr "тип значення"
 
 #: builtin/config.c:163
 msgid "value is \"true\" or \"false\""
-msgstr ""
+msgstr "значення \"true\" або \"false\""
 
 #: builtin/config.c:164
 msgid "value is decimal number"
-msgstr ""
+msgstr "значення десяткове число"
 
 #: builtin/config.c:165
 msgid "value is --bool or --int"
-msgstr ""
+msgstr "значення --bool або --int"
 
 #: builtin/config.c:166
 msgid "value is --bool or string"
-msgstr ""
+msgstr "значення --bool або string"
 
 #: builtin/config.c:167
 msgid "value is a path (file or directory name)"
-msgstr ""
+msgstr "значення шлях (файл або назва директорії)"
 
 #: builtin/config.c:168
 msgid "value is an expiry date"
-msgstr ""
+msgstr "значення - дата закінчення терміну дії"
 
 #: builtin/config.c:169
 msgid "Other"
-msgstr ""
+msgstr "Інше"
 
 #: builtin/config.c:170
 msgid "terminate values with NUL byte"
-msgstr ""
+msgstr "завершити значення байтом NUL"
 
 #: builtin/config.c:171
 msgid "show variable names only"
-msgstr ""
+msgstr "показувати тільки назви змінних"
 
 #: builtin/config.c:172
 msgid "respect include directives on lookup"
-msgstr ""
+msgstr "дотримуватись директив включення при пошуку"
 
 #: builtin/config.c:173
 msgid "show origin of config (file, standard input, blob, command line)"
 msgstr ""
+"показати походження конфігурації (файл, стандартний ввід, blob, командний "
+"рядок)"
 
 #: builtin/config.c:174
 msgid "show scope of config (worktree, local, global, system, command)"
 msgstr ""
+"показати межі дії конфігурації (робоче дерево, локально, глобально, система, "
+"команда)"
 
 #: builtin/config.c:175
 msgid "value"
@@ -6603,16 +6608,17 @@ msgstr "значення"
 #: builtin/config.c:175
 msgid "with --get, use default value when missing entry"
 msgstr ""
+"з --get використовувати значення за замовчуванням, якщо запис відсутній"
 
 #: builtin/config.c:189
 #, c-format
 msgid "wrong number of arguments, should be %d"
-msgstr ""
+msgstr "невірна кількість аргументів, має бути %d"
 
 #: builtin/config.c:191
 #, c-format
 msgid "wrong number of arguments, should be from %d to %d"
-msgstr ""
+msgstr "невірна кількість аргументів, має бути від %d до %d"
 
 #: builtin/config.c:348
 #, c-format
@@ -6640,15 +6646,15 @@ msgstr "не вдалося розібрати початкове значенн
 
 #: builtin/config.c:546 builtin/config.c:844
 msgid "not in a git directory"
-msgstr "не в директорії git"
+msgstr "не в git директорії"
 
 #: builtin/config.c:549
 msgid "writing to stdin is not supported"
-msgstr ""
+msgstr "запис до stdin не підтримується"
 
 #: builtin/config.c:552
 msgid "writing config blobs is not supported"
-msgstr ""
+msgstr "запис blob конфігурації не підтримується"
 
 #: builtin/config.c:637
 #, c-format
@@ -6659,10 +6665,15 @@ msgid ""
 "#\tname = %s\n"
 "#\temail = %s\n"
 msgstr ""
+"# Це файл конфігурації Git для кожного користувача.\n"
+"[user]\n"
+"# Будь ласка, адаптуйте та розкоментуйте наступні рядки:\n"
+"# name = %s\n"
+"# email = %s\n"
 
 #: builtin/config.c:663
 msgid "only one config file at a time"
-msgstr ""
+msgstr "лише один конфігураційний файл за раз"
 
 #: builtin/config.c:669
 msgid "--local can only be used inside a git repository"
@@ -6678,7 +6689,7 @@ msgstr "--worktree можна використовувати лише всере
 
 #: builtin/config.c:695 builtin/gc.c:1535 builtin/gc.c:1603
 msgid "$HOME not set"
-msgstr ""
+msgstr "$HOME не встановлено"
 
 #: builtin/config.c:719
 msgid ""
@@ -6686,32 +6697,38 @@ msgid ""
 "extension worktreeConfig is enabled. Please read \"CONFIGURATION FILE\"\n"
 "section in \"git help worktree\" for details"
 msgstr ""
+"--worktree неможливо використовувати з декількома робочими деревами, якщо не "
+"увімкнено розширення\n"
+"конфігурації worktreeConfig. Будь ласка, прочитайте розділ \"КОНФІГУРАЦІЙНИЙ "
+"ФАЙЛ\"\n"
+"у \"git help worktree\" для більш детальної інформації"
 
 #: builtin/config.c:754
 msgid "--get-color and variable type are incoherent"
-msgstr ""
+msgstr "--get-color і тип змінної не узгоджуються"
 
 #: builtin/config.c:759
 msgid "only one action at a time"
-msgstr ""
+msgstr "лише одна дія за раз"
 
 #: builtin/config.c:772
 msgid "--name-only is only applicable to --list or --get-regexp"
-msgstr ""
+msgstr "--name-only застосовується лише до --list або --get-regexp"
 
 #: builtin/config.c:778
 msgid ""
 "--show-origin is only applicable to --get, --get-all, --get-regexp, and --"
 "list"
 msgstr ""
+"--show-origin застосовується лише до --get, --get-all, --get-regexp та --list"
 
 #: builtin/config.c:784
 msgid "--default is only applicable to --get"
-msgstr ""
+msgstr "--default застосовується лише до --get"
 
 #: builtin/config.c:817
 msgid "--fixed-value only applies with 'value-pattern'"
-msgstr ""
+msgstr "--fixed-value застосовується лише з \"шаблоном-значення\""
 
 #: builtin/config.c:833
 #, c-format
@@ -6724,11 +6741,11 @@ msgstr "помилка при обробці файлу(ів) конфігура
 
 #: builtin/config.c:846
 msgid "editing stdin is not supported"
-msgstr ""
+msgstr "редагування stdin не підтримується"
 
 #: builtin/config.c:848
 msgid "editing blobs is not supported"
-msgstr ""
+msgstr "редагування blobs не підтримується"
 
 #: builtin/config.c:862
 #, c-format
@@ -6741,6 +6758,8 @@ msgid ""
 "cannot overwrite multiple values with a single value\n"
 "       Use a regexp, --add or --replace-all to change %s."
 msgstr ""
+"неможливо перезаписати декілька значень одним значенням\n"
+"       Використовуйте regexp, --add або --replace-all для зміни %s."
 
 #: builtin/config.c:947 builtin/config.c:959
 #, c-format
@@ -6749,7 +6768,7 @@ msgstr "немає такого розділу: %s"
 
 #: builtin/count-objects.c:104
 msgid "print sizes in human readable format"
-msgstr ""
+msgstr "показувати розмір у зручному для читання форматі"
 
 #: builtin/credential-cache--daemon.c:237
 #, c-format
@@ -6759,37 +6778,46 @@ msgid ""
 "\n"
 "\tchmod 0700 %s"
 msgstr ""
+"Дозволи на вашу сокет директорію занадто вільні; інші\n"
+"користувачі можуть прочитати ваші кешовані облікові дані. Подумайте про "
+"запуск:\n"
+"\n"
+"\tchmod 0700 %s"
 
 #: builtin/credential-cache--daemon.c:286
 msgid "print debugging messages to stderr"
-msgstr ""
+msgstr "виводити відлагоджувальні повідомлення в stderr"
 
 #: builtin/credential-cache--daemon.c:326
 msgid "credential-cache--daemon unavailable; no unix socket support"
-msgstr ""
+msgstr "credential-cache--daemon недоступний; немає підтримки unix-сокетів"
 
 #: builtin/credential-cache.c:184
 msgid "credential-cache unavailable; no unix socket support"
-msgstr ""
+msgstr "credential-cache недоступний; немає підтримки unix-сокетів"
 
 #: builtin/credential-store.c:69
 #, c-format
 msgid "unable to get credential storage lock in %d ms"
-msgstr ""
+msgstr "не вдалося отримати файл блокування сховища облікових даних за %d мс"
 
 #: builtin/describe.c:31
 msgid ""
 "git describe [--all] [--tags] [--contains] [--abbrev=<n>] [<commit-ish>...]"
 msgstr ""
+"git describe [--all] [--tags] [--contains] [--abbrev=<ч>] "
+"[<комітоподібне>...]"
 
 #: builtin/describe.c:32
 msgid ""
 "git describe [--all] [--tags] [--contains] [--abbrev=<n>] --dirty[=<mark>]"
 msgstr ""
+"git describe [--all] [--tags] [--contains] [--abbrev=<ч>] --"
+"dirty[=<позначка>]"
 
 #: builtin/describe.c:33
 msgid "git describe <blob>"
-msgstr ""
+msgstr "git describe <blob>"
 
 #: builtin/describe.c:69
 msgid "head"
@@ -6797,36 +6825,36 @@ msgstr "head"
 
 #: builtin/describe.c:69
 msgid "lightweight"
-msgstr ""
+msgstr "lightweight"
 
 #: builtin/describe.c:69
 msgid "annotated"
-msgstr ""
+msgstr "annotated"
 
 #: builtin/describe.c:284
 #, c-format
 msgid "annotated tag %s not available"
-msgstr ""
+msgstr "анотований тег %s недоступний"
 
 #: builtin/describe.c:288
 #, c-format
 msgid "tag '%s' is externally known as '%s'"
-msgstr ""
+msgstr "тег \"%s\" відомий зовні як \"%s\""
 
 #: builtin/describe.c:336
 #, c-format
 msgid "no tag exactly matches '%s'"
-msgstr ""
+msgstr "жоден тег не збігається точно з \"%s\""
 
 #: builtin/describe.c:338
 #, c-format
 msgid "No exact match on refs or tags, searching to describe\n"
-msgstr ""
+msgstr "Немає точного збігу за посиланнями або тегами, пошук для опису\n"
 
 #: builtin/describe.c:405
 #, c-format
 msgid "finished search at %s\n"
-msgstr ""
+msgstr "пошук завершено на %s\n"
 
 #: builtin/describe.c:432
 #, c-format
@@ -6834,6 +6862,8 @@ msgid ""
 "No annotated tags can describe '%s'.\n"
 "However, there were unannotated tags: try --tags."
 msgstr ""
+"Жоден анотований тег не може описати \"%s\".\n"
+"Однак існують неанотовані теги: спробуйте --tags."
 
 #: builtin/describe.c:436
 #, c-format
@@ -6841,11 +6871,13 @@ msgid ""
 "No tags can describe '%s'.\n"
 "Try --always, or create some tags."
 msgstr ""
+"Жоден тег не може описати \"%s\".\n"
+"Спробуйте --always або створіть кілька тегів."
 
 #: builtin/describe.c:466
 #, c-format
 msgid "traversed %lu commits\n"
-msgstr ""
+msgstr "пройдено через %lu коммтів\n"
 
 #: builtin/describe.c:469
 #, c-format
@@ -6853,11 +6885,13 @@ msgid ""
 "more than %i tags found; listed %i most recent\n"
 "gave up search at %s\n"
 msgstr ""
+"знайдено більше %i тегів; показані %i останніх\n"
+"припинено пошук на %s\n"
 
 #: builtin/describe.c:538
 #, c-format
 msgid "describe %s\n"
-msgstr ""
+msgstr "описати %s\n"
 
 #: builtin/describe.c:541
 #, c-format
@@ -6867,15 +6901,15 @@ msgstr "Неприпустиме ім’я об’єкта %s"
 #: builtin/describe.c:549
 #, c-format
 msgid "%s is neither a commit nor blob"
-msgstr ""
+msgstr "%s не є commit чи blob"
 
 #: builtin/describe.c:563
 msgid "find the tag that comes after the commit"
-msgstr ""
+msgstr "знайти тег, що йде після коміту"
 
 #: builtin/describe.c:564
 msgid "debug search strategy on stderr"
-msgstr ""
+msgstr "виводити відлагоджувальні повідомлення стратегії пошуку в stderr"
 
 #: builtin/describe.c:565
 msgid "use any ref"
@@ -6883,52 +6917,55 @@ msgstr "використати будь-яке посилання"
 
 #: builtin/describe.c:566
 msgid "use any tag, even unannotated"
-msgstr ""
+msgstr "використати будь-який тег, навіть неанотований"
 
 #: builtin/describe.c:567
 msgid "always use long format"
-msgstr ""
+msgstr "завжди використовувати довгий формат"
 
 #: builtin/describe.c:568
 msgid "only follow first parent"
-msgstr ""
+msgstr "слідувати тільки за першим з батьків"
 
 #: builtin/describe.c:571
 msgid "only output exact matches"
-msgstr ""
+msgstr "виводити лише точні збіги"
 
 #: builtin/describe.c:573
 msgid "consider <n> most recent tags (default: 10)"
-msgstr ""
+msgstr "враховувати <ч> останніх тегів (за замовчуванням: 10)"
 
 #: builtin/describe.c:575
 msgid "only consider tags matching <pattern>"
-msgstr ""
+msgstr "враховувати лише теги, що відповідають <шаблону>"
 
 #: builtin/describe.c:577
 msgid "do not consider tags matching <pattern>"
-msgstr ""
+msgstr "не враховувати теги, що відповідають <шаблону>"
 
 #: builtin/describe.c:579 builtin/name-rev.c:580
 msgid "show abbreviated commit object as fallback"
-msgstr ""
+msgstr "показувати скорочений обʼєкт коміта як запасний варіант"
 
 #: builtin/describe.c:580 builtin/describe.c:583
 msgid "mark"
-msgstr ""
+msgstr "позначка"
 
 #: builtin/describe.c:581
 msgid "append <mark> on dirty working tree (default: \"-dirty\")"
 msgstr ""
-"додати <mark> на брудному робочому дереві (за замовчуванням: \\”-dirty\\”)"
+"додати <позначку> до брудного робочого дерева (за замовчуванням: \\”-"
+"dirty\\”)"
 
 #: builtin/describe.c:584
 msgid "append <mark> on broken working tree (default: \"-broken\")"
 msgstr ""
+"додати <позначку> до зламаного робочого дерева (за замовчуванням: \"-"
+"broken\")"
 
 #: builtin/describe.c:631
 msgid "No names found, cannot describe anything."
-msgstr ""
+msgstr "Назв не знайдено, неможливо нічого описати."
 
 #: builtin/describe.c:686 builtin/describe.c:688
 #, c-format
@@ -6940,31 +6977,33 @@ msgid ""
 "git diagnose [(-o | --output-directory) <path>] [(-s | --suffix) <format>]\n"
 "             [--mode=<mode>]"
 msgstr ""
+"git diagnose [(-o | --output-directory) <шлях>] [(-s | --suffix) <формат>]\n"
+"             [--mode=<режим>]"
 
 #: builtin/diagnose.c:26
 msgid "specify a destination for the diagnostics archive"
-msgstr ""
+msgstr "вказати місце призначення архіву діагностики"
 
 #: builtin/diagnose.c:28
 msgid "specify a strftime format suffix for the filename"
-msgstr ""
+msgstr "вказати суфікс формату strftime для назви файлу"
 
 #: builtin/diagnose.c:30
 msgid "specify the content of the diagnostic archive"
-msgstr ""
+msgstr "вказати вміст архіву діагностики"
 
 #: builtin/diff-tree.c:162
 msgid "--merge-base only works with two commits"
-msgstr ""
+msgstr "--merge-base працює лише з двома комітами"
 
 #: builtin/diff.c:96
 #, c-format
 msgid "'%s': not a regular file or symlink"
-msgstr ""
+msgstr "\"%s\": не звичайний файл або символьне посилання"
 
 #: builtin/diff.c:226
 msgid "no merge given, only parents."
-msgstr ""
+msgstr "злиття не надано, лише батьки."
 
 #: builtin/diff.c:272
 #, c-format
@@ -6974,7 +7013,7 @@ msgstr "неприпустима опція %s"
 #: builtin/diff.c:390
 #, c-format
 msgid "%s...%s: no merge base"
-msgstr ""
+msgstr "%s...%s: немає бази злиття"
 
 #: builtin/diff.c:506
 msgid "Not a git repository"
@@ -6988,7 +7027,7 @@ msgstr "надано неприпустимий об’єкт \"%s\"."
 #: builtin/diff.c:568
 #, c-format
 msgid "more than two blobs given: '%s'"
-msgstr ""
+msgstr "надано більше двох blob: \"%s\""
 
 #: builtin/diff.c:573
 #, c-format
@@ -6998,11 +7037,11 @@ msgstr "надано необроблений об’єкт \"%s\"."
 #: builtin/diff.c:607
 #, c-format
 msgid "%s...%s: multiple merge bases, using %s"
-msgstr ""
+msgstr "%s...%s: кілька баз злиття, використання %s"
 
 #: builtin/difftool.c:39
 msgid "git difftool [<options>] [<commit> [<commit>]] [--] [<path>...]"
-msgstr ""
+msgstr "git difftool [<опції>] [<коміт> [<коміт>]] [--] [<шлях>...]"
 
 #: builtin/difftool.c:298
 #, c-format
@@ -7024,15 +7063,17 @@ msgid ""
 "combined diff formats ('-c' and '--cc') are not supported in\n"
 "directory diff mode ('-d' and '--dir-diff')."
 msgstr ""
+"комбіновані формати diff (\"-c\" і \"--cc\") не підтримуються у\n"
+"режимі порівняння директорій (\"-d\" і \"--dir-diff\")."
 
 #: builtin/difftool.c:637
 #, c-format
 msgid "both files modified: '%s' and '%s'."
-msgstr ""
+msgstr "обидва файли змінено: \"%s\" і \"%s\"."
 
 #: builtin/difftool.c:639
 msgid "working tree file has been left."
-msgstr "залишено файл робочого дерева."
+msgstr "файл робочого дерева було залишено."
 
 #: builtin/difftool.c:644 sequencer.c:3595 sequencer.c:3599
 #, c-format
@@ -7042,28 +7083,28 @@ msgstr "не вдалося скопіювати \"%s\" в \"%s\""
 #: builtin/difftool.c:650
 #, c-format
 msgid "temporary files exist in '%s'."
-msgstr ""
+msgstr "тимчасові файли існують в \"%s\"."
 
 #: builtin/difftool.c:651
 msgid "you may want to cleanup or recover these."
-msgstr ""
+msgstr "можливо, ви захочете очистити або відновити їх."
 
 #: builtin/difftool.c:656
 #, c-format
 msgid "failed: %d"
-msgstr ""
+msgstr "завершилось невдало: %d"
 
 #: builtin/difftool.c:701
 msgid "use `diff.guitool` instead of `diff.tool`"
-msgstr ""
+msgstr "використовувати \"diff.guitool\" замість \"diff.tool\""
 
 #: builtin/difftool.c:703
 msgid "perform a full-directory diff"
-msgstr ""
+msgstr "виконати порівняння всіх директорій"
 
 #: builtin/difftool.c:705
 msgid "do not prompt before launching a diff tool"
-msgstr ""
+msgstr "не запитувати перед запуском diff"
 
 #: builtin/difftool.c:710
 msgid "use symlinks in dir-diff mode"
@@ -9183,7 +9224,7 @@ msgstr "невідомий хеш-алгоритм '%s'"
 
 #: builtin/index-pack.c:1870
 msgid "--stdin requires a git repository"
-msgstr "--stdin вимагає наявності git сховища"
+msgstr "--stdin потребує наявності git сховища"
 
 #: builtin/index-pack.c:1887
 msgid "--verify with no packfile name given"
@@ -10310,7 +10351,7 @@ msgstr ""
 #: builtin/merge.c:157
 #, c-format
 msgid "option `%s' requires a value"
-msgstr "опція \"%s\" вимагає значення"
+msgstr "опція \"%s\" потребує значення"
 
 #: builtin/merge.c:210
 #, c-format
@@ -18575,7 +18616,7 @@ msgstr ""
 #: connect.c:821 connect.c:884
 #, c-format
 msgid "Looking up %s ... "
-msgstr "Пошук %s ..."
+msgstr "Пошук %s ... "
 
 #: connect.c:825
 #, c-format
@@ -18589,7 +18630,7 @@ msgid ""
 "done.\n"
 "Connecting to %s (port %s) ... "
 msgstr ""
-"Готово.\n"
+"готово.\n"
 "Підключення до %s (порт %s) ... "
 
 #: connect.c:851 connect.c:928
@@ -18716,8 +18757,8 @@ msgid ""
 "The file '%s' contains a byte order mark (BOM). Please use UTF-%.*s as "
 "working-tree-encoding."
 msgstr ""
-"Файл \"%s\" містить позначку порядку байтів (BOM). Будь ласка, використовуйте "
-"UTF-%.*s як кодування робочого дерева."
+"Файл \"%s\" містить позначку порядку байтів (BOM). Будь ласка, "
+"використовуйте UTF-%.*s як кодування робочого дерева."
 
 #: convert.c:300
 #, c-format
@@ -19071,7 +19112,7 @@ msgstr ""
 
 #: diff.c:4856
 msgid "--follow requires exactly one pathspec"
-msgstr "--follow вимагає тільки один визначник шляху"
+msgstr "--follow потребує тільки один визначник шляху"
 
 #: diff.c:4908
 #, c-format
