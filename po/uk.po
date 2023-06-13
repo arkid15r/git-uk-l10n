@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-06-09 19:08-0700\n"
+"PO-Revision-Date: 2023-06-11 15:57-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
@@ -5659,7 +5659,7 @@ msgstr "директорія об’єктів для зберігання гр�
 
 #: builtin/commit-graph.c:79
 msgid "if the commit-graph is split, only verify the tip file"
-msgstr "якщо граф комітів розщеплено, перевіряти тільки файл підказок"
+msgstr "якщо коміт-граф розщеплено, перевіряти тільки файл підказок"
 
 #: builtin/commit-graph.c:106
 #, c-format
@@ -17532,120 +17532,120 @@ msgstr ""
 
 #: command-list.h:220
 msgid "The Git repository browser"
-msgstr ""
+msgstr "Браузер сховища Git"
 
 #: command-list.h:221
 msgid "Map author/committer names and/or E-Mail addresses"
-msgstr ""
+msgstr "Зробити мапу імен авторів/комітерів та/або адреси електронної пошти"
 
 #: command-list.h:222
 msgid "Defining submodule properties"
-msgstr ""
+msgstr "Визначення властивостей підмодулів"
 
 #: command-list.h:223
 msgid "Git namespaces"
-msgstr ""
+msgstr "Простори імен Git"
 
 #: command-list.h:224
 msgid "Protocol v0 and v1 capabilities"
-msgstr ""
+msgstr "Можливості протоколів v0 та v1"
 
 #: command-list.h:225
 msgid "Things common to various protocols"
-msgstr ""
+msgstr "Спільні риси різних протоколів"
 
 #: command-list.h:226
 msgid "Git HTTP-based protocols"
-msgstr ""
+msgstr "Git протоколи на основі HTTP"
 
 #: command-list.h:227
 msgid "How packs are transferred over-the-wire"
-msgstr ""
+msgstr "Як пакети передаються по дроту"
 
 #: command-list.h:228
 msgid "Git Wire Protocol, Version 2"
-msgstr ""
+msgstr "Протокол Git Wire, версія 2"
 
 #: command-list.h:229
 msgid "Helper programs to interact with remote repositories"
-msgstr ""
+msgstr "Програми-помічники для взаємодії з віддаленими сховищами"
 
 #: command-list.h:230
 msgid "Git Repository Layout"
-msgstr ""
+msgstr "Макет сховища Git"
 
 #: command-list.h:231
 msgid "Specifying revisions and ranges for Git"
-msgstr ""
+msgstr "Вказівка ревізій та діапазонів для Git"
 
 #: command-list.h:232
 msgid "Mounting one repository inside another"
-msgstr ""
+msgstr "Монтування одного сховища всередині іншого"
 
 #: command-list.h:233
 msgid "A tutorial introduction to Git"
-msgstr ""
+msgstr "Навчальний вступ до Git"
 
 #: command-list.h:234
 msgid "A tutorial introduction to Git: part two"
-msgstr ""
+msgstr "Навчальний вступ до Git: частина друга"
 
 #: command-list.h:235
 msgid "Git web interface (web frontend to Git repositories)"
-msgstr ""
+msgstr "Веб-інтерфейс Git (веб-фронтенд до сховищ Git)"
 
 #: command-list.h:236
 msgid "An overview of recommended workflows with Git"
-msgstr ""
+msgstr "Огляд рекомендованих робочих процесів з Git"
 
 #: command-list.h:237
 msgid "A tool for managing large Git repositories"
-msgstr ""
+msgstr "Інструмент для керування великими сховищами Git"
 
 #: commit-graph.c:254
 msgid "commit-graph file is too small"
-msgstr ""
+msgstr "файл коміт-графа занадто малий"
 
 #: commit-graph.c:348
 #, c-format
 msgid "commit-graph signature %X does not match signature %X"
-msgstr ""
+msgstr "коміт-графа підпис %X не збігається з підписом %X"
 
 #: commit-graph.c:355
 #, c-format
 msgid "commit-graph version %X does not match version %X"
-msgstr ""
+msgstr "коміт-граф версія %X не збігається з версією %X"
 
 #: commit-graph.c:362
 #, c-format
 msgid "commit-graph hash version %X does not match version %X"
-msgstr ""
+msgstr "коміт-граф хеш версії %X не збігається з версією %X"
 
 #: commit-graph.c:377
 #, c-format
 msgid "commit-graph file is too small to hold %u chunks"
-msgstr ""
+msgstr "файл коміт-графа занадто малий, щоб вмістити %u фрагменти"
 
 #: commit-graph.c:476
 msgid "commit-graph has no base graphs chunk"
-msgstr ""
+msgstr "коміт-граф не має фрагмента базових графів"
 
 #: commit-graph.c:486
 msgid "commit-graph chain does not match"
-msgstr ""
+msgstr "ланцюжок коміт-графа не співпадає"
 
 #: commit-graph.c:537
 #, c-format
 msgid "invalid commit-graph chain: line '%s' not a hash"
-msgstr ""
+msgstr "неприпустимий ланцюжок коміт-графа: рядок \"%s\" не є хешем"
 
 #: commit-graph.c:561
 msgid "unable to find all commit-graph files"
-msgstr "не вдалося знайти всі файли графа комітів"
+msgstr "не вдалося знайти всі файли коміт-графа"
 
 #: commit-graph.c:746 commit-graph.c:783
 msgid "invalid commit position. commit-graph is likely corrupt"
-msgstr ""
+msgstr "неприпустима позиція коміту. Ймовірно, коміт-граф пошкоджено"
 
 #: commit-graph.c:767
 #, c-format
@@ -17655,26 +17655,28 @@ msgstr "не вдалося знайти коміт %s"
 #: commit-graph.c:800
 msgid "commit-graph requires overflow generation data but has none"
 msgstr ""
+"коміт-граф потребує даних для генерування переповнення, але не має таких "
+"даних"
 
 #: commit-graph.c:1404
 msgid "Loading known commits in commit graph"
-msgstr ""
+msgstr "Завантаження відомих комітів у коміт-графі"
 
 #: commit-graph.c:1421
 msgid "Expanding reachable commits in commit graph"
-msgstr ""
+msgstr "Розширення досяжних комітів у коміт-графі"
 
 #: commit-graph.c:1441
 msgid "Clearing commit marks in commit graph"
-msgstr ""
+msgstr "Очищення позначок комітів у коміт-графі"
 
 #: commit-graph.c:1558
 msgid "Computing commit graph topological levels"
-msgstr ""
+msgstr "Обчислення топологічних рівнів коміт-графа"
 
 #: commit-graph.c:1591
 msgid "Computing commit graph generation numbers"
-msgstr ""
+msgstr "Обчислення номерів генерації коміт-графа"
 
 #: commit-graph.c:1665
 msgid "Computing commit changed paths Bloom filters"
@@ -17682,15 +17684,15 @@ msgstr ""
 
 #: commit-graph.c:1741
 msgid "Collecting referenced commits"
-msgstr ""
+msgstr "Збір комітів з посиланнями"
 
 #: commit-graph.c:1767
 #, c-format
 msgid "Finding commits for commit graph in %<PRIuMAX> pack"
 msgid_plural "Finding commits for commit graph in %<PRIuMAX> packs"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Пошук комітів для коміт-графа у %<PRIuMAX> пакунку"
+msgstr[1] "Пошук комітів для коміт-графа у %<PRIuMAX> пакунках"
+msgstr[2] "Пошук комітів для коміт-графа у %<PRIuMAX> пакунках"
 
 #: commit-graph.c:1780
 #, c-format
@@ -17700,19 +17702,19 @@ msgstr "помилка додавання пакету %s"
 #: commit-graph.c:1784
 #, c-format
 msgid "error opening index for %s"
-msgstr ""
+msgstr "помилка відкриття індексу для %s"
 
 #: commit-graph.c:1822
 msgid "Finding commits for commit graph among packed objects"
-msgstr ""
+msgstr "Пошук комітів для коміт-графа серед запакованих обʼєктів"
 
 #: commit-graph.c:1840
 msgid "Finding extra edges in commit graph"
-msgstr ""
+msgstr "Пошук додаткових ребер у коміт-графі"
 
 #: commit-graph.c:1889
 msgid "failed to write correct number of base graph ids"
-msgstr ""
+msgstr "не вдалося записати правильну кількість ідентифікаторів базових графів"
 
 #: commit-graph.c:1934
 msgid "unable to create temporary graph layer"
@@ -17727,51 +17729,52 @@ msgstr "не вдалося налаштувати спільні дозволи
 #, c-format
 msgid "Writing out commit graph in %d pass"
 msgid_plural "Writing out commit graph in %d passes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Виведення коміт-графа за %d прохід"
+msgstr[1] "Виведення коміт-графа за %d проходи"
+msgstr[2] "Виведення коміт-графа за %d проходів"
 
 #: commit-graph.c:2033
 msgid "unable to open commit-graph chain file"
-msgstr "не вдалося відкрити ланцюжковий файл графа комітів"
+msgstr "не вдалося відкрити ланцюжковий файл коміт-графа"
 
 #: commit-graph.c:2049
 msgid "failed to rename base commit-graph file"
-msgstr ""
+msgstr "не вдалося перейменувати базовий файл коміт-графа"
 
 #: commit-graph.c:2070
 msgid "failed to rename temporary commit-graph file"
-msgstr "не вдалося перейменувати тимчасовий файл графа комітів"
+msgstr "не вдалося перейменувати тимчасовий файл коміт-графа"
 
 #: commit-graph.c:2203
 msgid "Scanning merged commits"
-msgstr ""
+msgstr "Сканування злитих комітів"
 
 #: commit-graph.c:2247
 msgid "Merging commit-graph"
-msgstr ""
+msgstr "Злиття коміт-графа"
 
 #: commit-graph.c:2359
 msgid "attempting to write a commit-graph, but 'core.commitGraph' is disabled"
-msgstr ""
+msgstr "спроба записати коміт-граф, але \"core.commitGraph\" відключено"
 
 #: commit-graph.c:2466
 msgid "too many commits to write graph"
-msgstr ""
+msgstr "занадто багато комітів для запису графа"
 
 #: commit-graph.c:2564
 msgid "the commit-graph file has incorrect checksum and is likely corrupt"
 msgstr ""
+"файл коміт-графа має неправильну контрольну суму і, ймовірно, пошкоджений"
 
 #: commit-graph.c:2574
 #, c-format
 msgid "commit-graph has incorrect OID order: %s then %s"
-msgstr ""
+msgstr "коміт-граф має неправильну OID послідовність: %s потім %s"
 
 #: commit-graph.c:2584 commit-graph.c:2599
 #, c-format
 msgid "commit-graph has incorrect fanout value: fanout[%d] = %u != %u"
-msgstr ""
+msgstr "коміт-граф має неправильне значення fanout: fanout[%d] = %u != %u"
 
 #: commit-graph.c:2591
 #, c-format
@@ -17780,59 +17783,63 @@ msgstr "не вдалося розібрати коміт %s з графа ко�
 
 #: commit-graph.c:2609
 msgid "Verifying commits in commit graph"
-msgstr ""
+msgstr "Перевірка комітів у коміт-графі"
 
 #: commit-graph.c:2624
 #, c-format
 msgid "failed to parse commit %s from object database for commit-graph"
-msgstr ""
+msgstr "не вдалося розібрати коміт %s з бази даних обʼєктів для коміт-графа"
 
 #: commit-graph.c:2631
 #, c-format
 msgid "root tree OID for commit %s in commit-graph is %s != %s"
-msgstr ""
+msgstr "OID кореневого дерева для коміту %s у коміт-графі є %s != %s"
 
 #: commit-graph.c:2641
 #, c-format
 msgid "commit-graph parent list for commit %s is too long"
-msgstr ""
+msgstr "коміт-граф список батьків для коміту %s занадто довгий"
 
 #: commit-graph.c:2650
 #, c-format
 msgid "commit-graph parent for %s is %s != %s"
-msgstr ""
+msgstr "коміт-граф батьків для %s є %s != %s"
 
 #: commit-graph.c:2664
 #, c-format
 msgid "commit-graph parent list for commit %s terminates early"
-msgstr ""
+msgstr "коміт-граф батьківського списку для коміта %s завершується передчасно"
 
 #: commit-graph.c:2669
 #, c-format
 msgid ""
 "commit-graph has generation number zero for commit %s, but non-zero elsewhere"
 msgstr ""
+"коміт-граф має нульовий номер генерації для коміта %s, але ненульовий в "
+"інших місцях"
 
 #: commit-graph.c:2673
 #, c-format
 msgid ""
 "commit-graph has non-zero generation number for commit %s, but zero elsewhere"
 msgstr ""
+"коміт-граф має ненульовий номер генерації для коміта %s, але нульовий в "
+"інших місцях"
 
 #: commit-graph.c:2690
 #, c-format
 msgid "commit-graph generation for commit %s is %<PRIuMAX> < %<PRIuMAX>"
-msgstr ""
+msgstr "генерація коміт-графа для коміта %s є %<PRIuMAX> < %<PRIuMAX>"
 
 #: commit-graph.c:2696
 #, c-format
 msgid "commit date for commit %s in commit-graph is %<PRIuMAX> != %<PRIuMAX>"
-msgstr ""
+msgstr "дата коміту для коміту %s у коміт-графі є %<PRIuMAX> != %<PRIuMAX>"
 
 #: commit.c:62
 #, c-format
 msgid "%s %s is not a commit!"
-msgstr ""
+msgstr "%s %s не є комітом!"
 
 #: commit.c:264
 msgid ""
@@ -17845,16 +17852,24 @@ msgid ""
 "Turn this message off by running\n"
 "\"git config advice.graftFileDeprecated false\""
 msgstr ""
+"Підтримка <GIT_DIR>/info/grafts застаріла\n"
+"і буде вилучена у наступній версії Git.\n"
+"\n"
+"Будь ласка, скористайтесь \"git replace --convert-graft-file\"\n"
+"щоб перетворити трансплантати на змінні посилання.\n"
+"\n"
+"Щоб вимкнути це повідомлення, виконайте\n"
+"\"git config advice.graftFileDeprecated false\""
 
 #: commit.c:1333
 #, c-format
 msgid "Commit %s has an untrusted GPG signature, allegedly by %s."
-msgstr ""
+msgstr "Коміт %s має ненадійний GPG-підпис, нібито від %s."
 
 #: commit.c:1337
 #, c-format
 msgid "Commit %s has a bad GPG signature allegedly by %s."
-msgstr ""
+msgstr "Коміт %s має невірний GPG-підпис, нібито від %s."
 
 #: commit.c:1340
 #, c-format
@@ -17864,7 +17879,7 @@ msgstr "Коміт %s не має GPG підпису."
 #: commit.c:1343
 #, c-format
 msgid "Commit %s has a good GPG signature by %s\n"
-msgstr ""
+msgstr "Коміт %s має гарний GPG-підпис від %s\n"
 
 #: commit.c:1598
 msgid ""
@@ -17872,14 +17887,18 @@ msgid ""
 "You may want to amend it after fixing the message, or set the config\n"
 "variable i18n.commitEncoding to the encoding your project uses.\n"
 msgstr ""
+"Попередження: допис до коміту не відповідає кодуванню UTF-8.\n"
+"Можливо, ви захочете змінити його після виправлення допису, або встановити "
+"змінну конфігурації\n"
+"i18n.commitEncoding у кодування, яке використовується у вашому проекті.\n"
 
 #: compat/compiler.h:26
 msgid "no compiler information available\n"
-msgstr ""
+msgstr "немає інформації про компілятор\n"
 
 #: compat/compiler.h:38
 msgid "no libc information available\n"
-msgstr ""
+msgstr "Немає інформації про libc\n"
 
 #: compat/disk.h:20 compat/disk.h:42
 #, c-format
@@ -17894,12 +17913,12 @@ msgstr "не вдалося отримати інформацію для \"%s\""
 #: compat/fsmonitor/fsm-health-win32.c:57
 #, c-format
 msgid "[GLE %ld] health thread could not open '%ls'"
-msgstr ""
+msgstr "[GLE %ld] не вдалося відкрити потік здоровʼя \"%ls\""
 
 #: compat/fsmonitor/fsm-health-win32.c:63
 #, c-format
 msgid "[GLE %ld] health thread getting BHFI for '%ls'"
-msgstr ""
+msgstr "[GLE %ld] потік здоровʼя отримує BHFI для \"%ls\""
 
 #: compat/fsmonitor/fsm-health-win32.c:147
 #: compat/fsmonitor/fsm-listen-win32.c:305
@@ -17910,17 +17929,17 @@ msgstr "не вдалося перетворити в широкі символ�
 #: compat/fsmonitor/fsm-health-win32.c:163
 #, c-format
 msgid "BHFI changed '%ls'"
-msgstr ""
+msgstr "BHFI змінив \"%ls\""
 
 #: compat/fsmonitor/fsm-health-win32.c:169
 #, c-format
 msgid "unhandled case in 'has_worktree_moved': %d"
-msgstr ""
+msgstr "необроблений регістр у \"has_worktree_moved\": %d"
 
 #: compat/fsmonitor/fsm-health-win32.c:262
 #, c-format
 msgid "health thread wait failed [GLE %ld]"
-msgstr ""
+msgstr "очікування потоку здоровʼя не вдалося [GLE %ld]"
 
 #: compat/fsmonitor/fsm-ipc-darwin.c:51
 #, c-format
@@ -17938,27 +17957,27 @@ msgstr "Не вдалося запустити потік FSEventStream"
 #: compat/fsmonitor/fsm-listen-win32.c:106
 #, c-format
 msgid "[GLE %ld] could not convert path to UTF-8: '%.*ls'"
-msgstr ""
+msgstr "[GLE %ld] не вдалося перетворити шлях у UTF-8: \"%.*ls\""
 
 #: compat/fsmonitor/fsm-listen-win32.c:314
 #, c-format
 msgid "[GLE %ld] could not watch '%s'"
-msgstr ""
+msgstr "[GLE %ld] не вдалося переглянути \"%s\""
 
 #: compat/fsmonitor/fsm-listen-win32.c:322
 #, c-format
 msgid "[GLE %ld] could not get longname of '%s'"
-msgstr ""
+msgstr "[GLE %ld] не вдалося отримати довгу назву \"%s\""
 
 #: compat/fsmonitor/fsm-listen-win32.c:394
 #, c-format
 msgid "ReadDirectoryChangedW failed on '%s' [GLE %ld]"
-msgstr ""
+msgstr "ReadDirectoryChangedW не вдалося на \"%s\" [GLE %ld]"
 
 #: compat/fsmonitor/fsm-listen-win32.c:447
 #, c-format
 msgid "GetOverlappedResult failed on '%s' [GLE %ld]"
-msgstr ""
+msgstr "GetOverlappedResult не вдалося на \"%s\" [GLE %ld]"
 
 #: compat/fsmonitor/fsm-listen-win32.c:795
 #, c-format
@@ -17968,22 +17987,22 @@ msgstr "не вдалося прочитати зміни директорії [
 #: compat/fsmonitor/fsm-path-utils-darwin.c:77
 #, c-format
 msgid "opendir('%s') failed"
-msgstr ""
+msgstr "виконання opendir(\"%s\") завершлось невдало"
 
 #: compat/fsmonitor/fsm-path-utils-darwin.c:86
 #, c-format
 msgid "lstat('%s') failed"
-msgstr ""
+msgstr "виконання lstat(\"%s\") завершилось невдало"
 
 #: compat/fsmonitor/fsm-path-utils-darwin.c:94
 #, c-format
 msgid "strbuf_readlink('%s') failed"
-msgstr ""
+msgstr "виконання strbuf_readlink(\"%s\") завершилось невдало"
 
 #: compat/fsmonitor/fsm-path-utils-darwin.c:115
 #, c-format
 msgid "closedir('%s') failed"
-msgstr ""
+msgstr "виконання closedir(\"%s\") завершилось невдало"
 
 #: compat/fsmonitor/fsm-path-utils-win32.c:20
 #, c-format
@@ -17993,7 +18012,7 @@ msgstr "[GLE %ld] не вдалося відкрити для читання \"%
 #: compat/fsmonitor/fsm-path-utils-win32.c:27
 #, c-format
 msgid "[GLE %ld] unable to get protocol information for '%ls'"
-msgstr ""
+msgstr "[GLE %ld] не вдалося отримати інформацію про протокол для \"%ls\""
 
 #: compat/mingw.c:2668
 #, c-format
@@ -18007,31 +18026,31 @@ msgstr "не вдалося отримати власника для \"%s\" (%ld
 
 #: compat/obstack.c:406 compat/obstack.c:408
 msgid "memory exhausted"
-msgstr ""
+msgstr "памʼять вичерпано"
 
 #: compat/regex/regcomp.c:139
 msgid "Success"
-msgstr ""
+msgstr "Успіх"
 
 #: compat/regex/regcomp.c:142
 msgid "No match"
-msgstr ""
+msgstr "Не збігається"
 
 #: compat/regex/regcomp.c:145
 msgid "Invalid regular expression"
-msgstr ""
+msgstr "Неприпустимий регулярний вираз"
 
 #: compat/regex/regcomp.c:148
 msgid "Invalid collation character"
-msgstr ""
+msgstr "Неприпустимий символ зіставлення"
 
 #: compat/regex/regcomp.c:151
 msgid "Invalid character class name"
-msgstr ""
+msgstr "Неприпустима назва класу символів"
 
 #: compat/regex/regcomp.c:154
 msgid "Trailing backslash"
-msgstr ""
+msgstr "Кінцева зворотна коса риска"
 
 #: compat/regex/regcomp.c:157
 msgid "Invalid back reference"
@@ -18039,51 +18058,51 @@ msgstr "Неприпустиме зворотнє посилання"
 
 #: compat/regex/regcomp.c:160
 msgid "Unmatched [ or [^"
-msgstr ""
+msgstr "Непарна [ або [^]."
 
 #: compat/regex/regcomp.c:163
 msgid "Unmatched ( or \\("
-msgstr ""
+msgstr "Непарна ( або \\("
 
 #: compat/regex/regcomp.c:166
 msgid "Unmatched \\{"
-msgstr ""
+msgstr "Непарна \\{"
 
 #: compat/regex/regcomp.c:169
 msgid "Invalid content of \\{\\}"
-msgstr ""
+msgstr "Неприпустимий вміст \\{\\}"
 
 #: compat/regex/regcomp.c:172
 msgid "Invalid range end"
-msgstr ""
+msgstr "Неприпустимий кінець діапазону"
 
 #: compat/regex/regcomp.c:175
 msgid "Memory exhausted"
-msgstr ""
+msgstr "Памʼять вичерпано"
 
 #: compat/regex/regcomp.c:178
 msgid "Invalid preceding regular expression"
-msgstr ""
+msgstr "Неприпустимий попередній регулярний вираз"
 
 #: compat/regex/regcomp.c:181
 msgid "Premature end of regular expression"
-msgstr ""
+msgstr "Передчасне завершення регулярного виразу"
 
 #: compat/regex/regcomp.c:184
 msgid "Regular expression too big"
-msgstr ""
+msgstr "Занадто великий регулярний вираз"
 
 #: compat/regex/regcomp.c:187
 msgid "Unmatched ) or \\)"
-msgstr ""
+msgstr "Непарна ) або \\)"
 
 #: compat/regex/regcomp.c:698
 msgid "No previous regular expression"
-msgstr ""
+msgstr "Немає попереднього регулярного виразу"
 
 #: compat/simple-ipc/ipc-unix-socket.c:207 compat/simple-ipc/ipc-win32.c:252
 msgid "could not send IPC command"
-msgstr ""
+msgstr "не вдалося відправити IPC команду"
 
 #: compat/simple-ipc/ipc-unix-socket.c:214 compat/simple-ipc/ipc-win32.c:261
 msgid "could not read IPC response"
@@ -18102,7 +18121,7 @@ msgstr "не вдалося запустити worker[0] для \"%s\""
 #: compat/simple-ipc/ipc-win32.c:404
 #, c-format
 msgid "ConnectNamedPipe failed for '%s' (%lu)"
-msgstr ""
+msgstr "ConnectNamedPipe завершився невдало для \"%s\" (%lu)"
 
 #: compat/simple-ipc/ipc-win32.c:485
 #, c-format
@@ -18122,10 +18141,12 @@ msgstr "очікування на hEvent не вдалося для \"%s\""
 #: compat/terminal.c:169
 msgid "cannot resume in the background, please use 'fg' to resume"
 msgstr ""
+"неможливо продовжити роботу у фоновому режимі; будь ласка, використовуйте "
+"\"fg\" для продовження"
 
 #: compat/terminal.c:170
 msgid "cannot restore terminal settings"
-msgstr ""
+msgstr "не вдалося відновити налаштування термінала"
 
 #: config.c:215
 #, c-format
@@ -18136,6 +18157,11 @@ msgid ""
 "\t%s\n"
 "This might be due to circular includes."
 msgstr ""
+"перевищено максимальну глибину включення (%d) під час включення\n"
+"\t%s\n"
+"від\n"
+"\t%s\n"
+"Це може бути повʼязано з циклічним включенням."
 
 #: config.c:232
 #, c-format
@@ -18144,17 +18170,19 @@ msgstr "не вдалося визначити include path \"%s\""
 
 #: config.c:243
 msgid "relative config includes must come from files"
-msgstr ""
+msgstr "відносні config includes повинні надходити з файлів"
 
 #: config.c:293
 msgid "relative config include conditionals must come from files"
-msgstr ""
+msgstr "відносні умовні позначення config include повинні надходити з файлів"
 
 #: config.c:434
 msgid ""
 "remote URLs cannot be configured in file directly or indirectly included by "
 "includeIf.hasconfig:remote.*.url"
 msgstr ""
+"віддалені URL-адреси не можуть бути налаштовані у файлі, прямо чи "
+"опосередковано включеному за допомогою includeIf.hasconfig:remote.*.url"
 
 #: config.c:580
 #, c-format
@@ -18164,22 +18192,22 @@ msgstr "неприпустимий формат конфігурації: %s"
 #: config.c:584
 #, c-format
 msgid "missing environment variable name for configuration '%.*s'"
-msgstr ""
+msgstr "відсутня назва змінної оточення для конфігурації \"%.*s\""
 
 #: config.c:589
 #, c-format
 msgid "missing environment variable '%s' for configuration '%.*s'"
-msgstr ""
+msgstr "відсутня змінна оточення \"%s\" для конфігурації \"%.*s\""
 
 #: config.c:625
 #, c-format
 msgid "key does not contain a section: %s"
-msgstr ""
+msgstr "ключ не містить розділу: %s"
 
 #: config.c:630
 #, c-format
 msgid "key does not contain variable name: %s"
-msgstr ""
+msgstr "ключ не містить назви змінної: %s"
 
 #: config.c:652 sequencer.c:2924
 #, c-format
@@ -18193,71 +18221,71 @@ msgstr "неприпустимий ключ (новий рядок): %s"
 
 #: config.c:677
 msgid "empty config key"
-msgstr ""
+msgstr "порожній ключ конфігурації"
 
 #: config.c:695 config.c:707
 #, c-format
 msgid "bogus config parameter: %s"
-msgstr ""
+msgstr "хибний параметр конфігурації: %s"
 
 #: config.c:721 config.c:738 config.c:745 config.c:754
 #, c-format
 msgid "bogus format in %s"
-msgstr ""
+msgstr "хибний формат у %s"
 
 #: config.c:786
 #, c-format
 msgid "bogus count in %s"
-msgstr ""
+msgstr "хибна кількість у %s"
 
 #: config.c:790
 #, c-format
 msgid "too many entries in %s"
-msgstr ""
+msgstr "забагато записів у %s"
 
 #: config.c:800
 #, c-format
 msgid "missing config key %s"
-msgstr ""
+msgstr "відсутній ключ конфігурації %s"
 
 #: config.c:808
 #, c-format
 msgid "missing config value %s"
-msgstr ""
+msgstr "відсутнє значення конфігурації %s"
 
 #: config.c:1162
 #, c-format
 msgid "bad config line %d in blob %s"
-msgstr ""
+msgstr "невірний конфігураційний рядок %d у blob %s"
 
 #: config.c:1166
 #, c-format
 msgid "bad config line %d in file %s"
-msgstr ""
+msgstr "невірний конфігураційний рядок %d у файлі %s"
 
 #: config.c:1170
 #, c-format
 msgid "bad config line %d in standard input"
-msgstr ""
+msgstr "невірний конфігураційний рядок %d у стандартному вводі"
 
 #: config.c:1174
 #, c-format
 msgid "bad config line %d in submodule-blob %s"
-msgstr ""
+msgstr "невірний конфігураційний рядок %d у підмодулі-blob %s"
 
 #: config.c:1178
 #, c-format
 msgid "bad config line %d in command line %s"
-msgstr ""
+msgstr "невірний конфігураційний рядок %d у командному рядку %s"
 
 #: config.c:1182
 #, c-format
 msgid "bad config line %d in %s"
-msgstr ""
+msgstr "невірний конфігураційний рядок %d в %s"
 
 #: config.c:1337
 msgid "out of range"
-msgstr ""
+msgstr "поза межами діапазону"
 
 #: config.c:1337
 msgid "invalid unit"
@@ -18266,37 +18294,43 @@ msgstr "неприпустима одиниця виміру"
 #: config.c:1338
 #, c-format
 msgid "bad numeric config value '%s' for '%s': %s"
-msgstr ""
+msgstr "неправильне числове значення конфігурації \"%s\" для \"%s\": %s"
 
 #: config.c:1354
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in blob %s: %s"
-msgstr ""
+msgstr "невірне числове значення конфігурації \"%s\" для \"%s\" у blob %s: %s"
 
 #: config.c:1357
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in file %s: %s"
-msgstr ""
+msgstr "невірне числове значення конфігурації \"%s\" для \"%s\" у файлі %s: %s"
 
 #: config.c:1360
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in standard input: %s"
 msgstr ""
+"невірне числове значення конфігурації \"%s\" для \"%s\" у стандартному "
+"вводі: %s"
 
 #: config.c:1363
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in submodule-blob %s: %s"
 msgstr ""
+"невірне числове значення конфігурації \"%s\" для \"%s\" у підмодулі-blob %s: "
+"%s"
 
 #: config.c:1366
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in command line %s: %s"
 msgstr ""
+"невірне числове значення конфігурації \"%s\" для \"%s\" у командному рядку "
+"%s: %s"
 
 #: config.c:1369
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in %s: %s"
-msgstr ""
+msgstr "невірне числове значення конфігурації \"%s\" для \"%s\" у \"%s\": %s"
 
 #: config.c:1465
 #, c-format
@@ -18306,7 +18340,7 @@ msgstr "неприпустиме значення для змінної %s"
 #: config.c:1486
 #, c-format
 msgid "ignoring unknown core.fsync component '%s'"
-msgstr ""
+msgstr "ігнорування невідомого компонента core.fsync \"%s\""
 
 #: config.c:1522
 #, c-format
@@ -18326,25 +18360,25 @@ msgstr "\"%s\" для \"%s\" не є припустимою міткою час�
 #: config.c:1642
 #, c-format
 msgid "abbrev length out of range: %d"
-msgstr ""
+msgstr "довжина абревіатури поза діапазоном: %d"
 
 #: config.c:1656 config.c:1667
 #, c-format
 msgid "bad zlib compression level %d"
-msgstr ""
+msgstr "невірний zlib рівень стиснення %d"
 
 #: config.c:1757
 msgid "core.commentChar should only be one ASCII character"
-msgstr ""
+msgstr "core.commentChar має бути лише одним символом ASCII"
 
 #: config.c:1791
 #, c-format
 msgid "ignoring unknown core.fsyncMethod value '%s'"
-msgstr ""
+msgstr "ігнорування невідомого значення core.fsyncMethod \"%s\""
 
 #: config.c:1797
 msgid "core.fsyncObjectFiles is deprecated; use core.fsync instead"
-msgstr ""
+msgstr "core.fsyncObjectFiles застаріла; натомість використовуйте core.fsync"
 
 #: config.c:1813
 #, c-format
@@ -18363,7 +18397,7 @@ msgstr "неправильно сформоване значення для %s: 
 
 #: config.c:1929
 msgid "must be one of nothing, matching, simple, upstream or current"
-msgstr ""
+msgstr "має бути одним з nothing, matching, simple, upstream або current"
 
 #: config.c:2119
 #, c-format
@@ -18391,7 +18425,7 @@ msgstr "не вдалося розібрати конфігурацію кома
 
 #: config.c:2686
 msgid "unknown error occurred while reading the configuration files"
-msgstr ""
+msgstr "під час читання конфігураційних файлів виникла невідома помилка"
 
 #: config.c:2908
 #, c-format
@@ -18402,6 +18436,7 @@ msgstr "Неприпустимий %s: \"%s\""
 #, c-format
 msgid "splitIndex.maxPercentChange value '%d' should be between 0 and 100"
 msgstr ""
+"значення splitIndex.maxPercentChange \"%d\" має бути в діапазоні від 0 до 100"
 
 #: config.c:2985
 #, c-format
@@ -18411,7 +18446,7 @@ msgstr "не вдалося розібрати \"%s\" з конфігураці�
 #: config.c:2987
 #, c-format
 msgid "bad config variable '%s' in file '%s' at line %d"
-msgstr ""
+msgstr "невірна конфігураційна змінна \"%s\" у файлі \"%s\" у рядку \"%d\""
 
 #: config.c:3076
 #, c-format
@@ -18421,7 +18456,7 @@ msgstr "неприпустима назва секції \"%s\""
 #: config.c:3108
 #, c-format
 msgid "%s has multiple values"
-msgstr ""
+msgstr "%s має декілька значень"
 
 #: config.c:3137
 #, c-format
@@ -18436,7 +18471,7 @@ msgstr "не вдалося зафіксувати файл конфігурац
 #: config.c:3414
 #, c-format
 msgid "opening %s"
-msgstr ""
+msgstr "відкриття %s"
 
 #: config.c:3476
 #, c-format
@@ -18446,7 +18481,7 @@ msgstr "неприпустимий конфігураційний файл %s"
 #: config.c:3489 config.c:3761
 #, c-format
 msgid "fstat on %s failed"
-msgstr ""
+msgstr "не вдалося виконати fstat на %s"
 
 #: config.c:3500
 #, c-format
@@ -18456,7 +18491,7 @@ msgstr "не вдалося виконати mmap \"%s\"%s"
 #: config.c:3510 config.c:3766
 #, c-format
 msgid "chmod on %s failed"
-msgstr ""
+msgstr "не вдалося виконати chmod на %s"
 
 #: config.c:3595 config.c:3872
 #, c-format
@@ -18476,7 +18511,7 @@ msgstr "неприпустима назва секції: %s"
 #: config.c:3779
 #, c-format
 msgid "refusing to work with overly long line in '%s' on line %<PRIuMAX>"
-msgstr ""
+msgstr "відмова працювати з занадто довгим рядком у \"%s\" у рядку %<PRIuMAX>"
 
 #: config.c:3916
 #, c-format
@@ -18485,7 +18520,7 @@ msgstr "відсутнє значення для \"%s\""
 
 #: connect.c:66
 msgid "the remote end hung up upon initial contact"
-msgstr ""
+msgstr "віддаленне призначеня відключилося при першому контакті"
 
 #: connect.c:68
 msgid ""
@@ -18494,38 +18529,42 @@ msgid ""
 "Please make sure you have the correct access rights\n"
 "and the repository exists."
 msgstr ""
+"Не вдалося прочитати з віддаленого сховища.\n"
+"\n"
+"Будь ласка, переконайтеся, що у вас є правильні права доступу\n"
+"і що сховище існує."
 
 #: connect.c:90
 #, c-format
 msgid "server doesn't support '%s'"
-msgstr ""
+msgstr "сервер не підтримує \"%s\""
 
 #: connect.c:125
 #, c-format
 msgid "server doesn't support feature '%s'"
-msgstr ""
+msgstr "сервер не підтримує функцію \"%s\""
 
 #: connect.c:136
 msgid "expected flush after capabilities"
-msgstr ""
+msgstr "очікувався flush після здібностей"
 
 #: connect.c:273
 #, c-format
 msgid "ignoring capabilities after first line '%s'"
-msgstr ""
+msgstr "ігнорування здібностей після першого рядка \"%s\""
 
 #: connect.c:294
 msgid "protocol error: unexpected capabilities^{}"
-msgstr ""
+msgstr "помилка протоколу: неочікувані здібності^{}"
 
 #: connect.c:316
 #, c-format
 msgid "protocol error: expected shallow sha-1, got '%s'"
-msgstr ""
+msgstr "помилка протоколу: очікувався неглибокий sha-1, отримано \"%s\""
 
 #: connect.c:318
 msgid "repository on the other end cannot be shallow"
-msgstr ""
+msgstr "сховище на іншому кінці не може бути неглибоким"
 
 #: connect.c:357
 msgid "invalid packet"
@@ -18534,25 +18573,25 @@ msgstr "неприпустимий пакет"
 #: connect.c:377
 #, c-format
 msgid "protocol error: unexpected '%s'"
-msgstr ""
+msgstr "помилка протоколу: неочікуване \"%s\""
 
 #: connect.c:494
 #, c-format
 msgid "unknown object format '%s' specified by server"
-msgstr ""
+msgstr "невідомий формат обʼєкта \"%s\", вказаний сервером"
 
 #: connect.c:527
 #, c-format
 msgid "error on bundle-uri response line %d: %s"
-msgstr ""
+msgstr "помилка у рядку відповіді bundle-uri %d: %s"
 
 #: connect.c:532
 msgid "expected flush after bundle-uri listing"
-msgstr ""
+msgstr "очікувався flush після виводу bundle-uri"
 
 #: connect.c:540 connect.c:594
 msgid "expected response end packet after ref listing"
-msgstr ""
+msgstr "очікувався response end пакет після виводу посилань"
 
 #: connect.c:587
 #, c-format
@@ -18561,7 +18600,7 @@ msgstr "неприпустима ls-refs відповідь: %s"
 
 #: connect.c:591
 msgid "expected flush after ref listing"
-msgstr ""
+msgstr "очікувався flush після виводу посилань"
 
 #: connect.c:730
 #, c-format
@@ -18570,7 +18609,7 @@ msgstr "протокол \"%s\" не підтримується"
 
 #: connect.c:781
 msgid "unable to set SO_KEEPALIVE on socket"
-msgstr ""
+msgstr "не вдалося встановити SO_KEEPALIVE на сокеті"
 
 #: connect.c:821 connect.c:884
 #, c-format
@@ -18716,8 +18755,8 @@ msgid ""
 "The file '%s' contains a byte order mark (BOM). Please use UTF-%.*s as "
 "working-tree-encoding."
 msgstr ""
-"Файл \"%s\" містить позначку порядку байтів (BOM). Будь ласка, використовуйте "
-"UTF-%.*s як кодування робочого дерева."
+"Файл \"%s\" містить позначку порядку байтів (BOM). Будь ласка, "
+"використовуйте UTF-%.*s як кодування робочого дерева."
 
 #: convert.c:300
 #, c-format
