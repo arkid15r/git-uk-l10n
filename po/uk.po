@@ -8000,14 +8000,14 @@ msgid "%s: invalid sha1 pointer in resolve-undo of %s"
 msgstr "%s: невірний sha1 вказівник в resolve-undo для %s"
 
 #: builtin/fsck.c:880
-#, fuzzy, c-format
+#, c-format
 msgid "unable to load rev-index for pack '%s'"
-msgstr "не вдалося завантажити кореневе дерево для пакунку \"%s\""
+msgstr "не вдалося завантажити rev-index для пакунку \"%s\""
 
 #: builtin/fsck.c:885
-#, fuzzy, c-format
+#, c-format
 msgid "invalid rev-index for pack '%s'"
-msgstr "неприпустиме значення для \"%s\""
+msgstr "неприпустимий rev-index для \"%s\""
 
 #: builtin/fsck.c:896
 msgid ""
@@ -17521,7 +17521,7 @@ msgstr "Надання імен користувачів та паролів д�
 
 #: command-list.h:207
 msgid "Git for CVS users"
-msgstr "Git для користувачів CVS"
+msgstr "Git для користувачів ЗСУ"
 
 #: command-list.h:208
 msgid "Tweaking diff output"
@@ -17545,15 +17545,15 @@ msgstr "Файлові формати на основі шматків"
 
 #: command-list.h:213
 msgid "Git commit-graph format"
-msgstr "Git формат коміт-графа"
+msgstr "Формат Git коміт-графа"
 
 #: command-list.h:214
 msgid "Git index format"
-msgstr "Git формат індекса"
+msgstr "Формат Git індекса"
 
 #: command-list.h:215
 msgid "Git pack format"
-msgstr "Git формат пакунка"
+msgstr "Формат Git пакунка"
 
 #: command-list.h:216
 msgid "Git cryptographic signature formats"
@@ -17561,11 +17561,11 @@ msgstr "Формати криптографічного підпису Git"
 
 #: command-list.h:217
 msgid "A Git Glossary"
-msgstr "Git Словник"
+msgstr "Git словник"
 
 #: command-list.h:218
 msgid "Hooks used by Git"
-msgstr "Хуки, які використовує Git"
+msgstr "Гачки, що використовує Git"
 
 #: command-list.h:219
 msgid "Specifies intentionally untracked files to ignore"
