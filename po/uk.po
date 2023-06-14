@@ -8002,7 +8002,7 @@ msgstr "%s: невірний sha1 вказівник в resolve-undo для %s"
 #: builtin/fsck.c:880
 #, fuzzy, c-format
 msgid "unable to load rev-index for pack '%s'"
-msgstr "не вдалося завантажити кореневе дерево для пакунку %s"
+msgstr "не вдалося завантажити кореневе дерево для пакунку \"%s\""
 
 #: builtin/fsck.c:885
 #, fuzzy, c-format
