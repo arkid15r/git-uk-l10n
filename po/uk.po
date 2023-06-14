@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-06-11 15:57-0700\n"
+"PO-Revision-Date: 2023-06-13 18:08-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
@@ -8002,12 +8002,12 @@ msgstr "%s: невірний sha1 вказівник в resolve-undo для %s"
 #: builtin/fsck.c:880
 #, fuzzy, c-format
 msgid "unable to load rev-index for pack '%s'"
-msgstr "не вдалося завантажити кореневе дерево для коміту %s"
+msgstr "не вдалося завантажити кореневе дерево для пакунку %s"
 
 #: builtin/fsck.c:885
 #, fuzzy, c-format
 msgid "invalid rev-index for pack '%s'"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неприпустиме значення для \"%s\""
 
 #: builtin/fsck.c:896
 msgid ""
@@ -17517,23 +17517,23 @@ msgstr ""
 
 #: command-list.h:206
 msgid "Providing usernames and passwords to Git"
-msgstr ""
+msgstr "Надання імен користувачів та паролів до Git"
 
 #: command-list.h:207
 msgid "Git for CVS users"
-msgstr ""
+msgstr "Git для користувачів CVS"
 
 #: command-list.h:208
 msgid "Tweaking diff output"
-msgstr ""
+msgstr "Налаштування виводу різниці"
 
 #: command-list.h:209
 msgid "A useful minimum set of commands for Everyday Git"
-msgstr ""
+msgstr "Корисний мінімальний набір команд для повсякденного використання Git"
 
 #: command-list.h:210
 msgid "Frequently asked questions about using Git"
-msgstr ""
+msgstr "Поширені запитання про використання Git"
 
 #: command-list.h:211
 msgid "The bundle file format"
@@ -17541,35 +17541,35 @@ msgstr "Формат файлу пакета"
 
 #: command-list.h:212
 msgid "Chunk-based file formats"
-msgstr ""
+msgstr "Файлові формати на основі шматків"
 
 #: command-list.h:213
 msgid "Git commit-graph format"
-msgstr ""
+msgstr "Git формат коміт-графа"
 
 #: command-list.h:214
 msgid "Git index format"
-msgstr ""
+msgstr "Git формат індекса"
 
 #: command-list.h:215
 msgid "Git pack format"
-msgstr ""
+msgstr "Git формат пакунка"
 
 #: command-list.h:216
 msgid "Git cryptographic signature formats"
-msgstr ""
+msgstr "Формати криптографічного підпису Git"
 
 #: command-list.h:217
 msgid "A Git Glossary"
-msgstr ""
+msgstr "Git Словник"
 
 #: command-list.h:218
 msgid "Hooks used by Git"
-msgstr ""
+msgstr "Хуки, які використовує Git"
 
 #: command-list.h:219
 msgid "Specifies intentionally untracked files to ignore"
-msgstr ""
+msgstr "Вказує навмисно невідстежувані файли для ігнорування"
 
 #: command-list.h:220
 msgid "The Git repository browser"
@@ -17695,9 +17695,7 @@ msgstr "не вдалося знайти коміт %s"
 
 #: commit-graph.c:800
 msgid "commit-graph requires overflow generation data but has none"
-msgstr ""
-"коміт-граф потребує даних генерації переповнення, але їх немає"
-"даних"
+msgstr "коміт-граф потребує даних генерації переповнення, але їх немаєданих"
 
 #: commit-graph.c:1404
 msgid "Loading known commits in commit graph"
@@ -17804,8 +17802,7 @@ msgstr "занадто багато комітів, щоб записати гр
 
 #: commit-graph.c:2564
 msgid "the commit-graph file has incorrect checksum and is likely corrupt"
-msgstr ""
-"файл коміт-графа має невірну контрольну суму і, ймовірно, пошкоджений"
+msgstr "файл коміт-графа має невірну контрольну суму і, ймовірно, пошкоджений"
 
 #: commit-graph.c:2574
 #, c-format
@@ -18213,7 +18210,8 @@ msgstr "відносні конфігураційні включення маю�
 
 #: config.c:293
 msgid "relative config include conditionals must come from files"
-msgstr "відносні умовні позначення конфігураційних включень мають надходити з файлів"
+msgstr ""
+"відносні умовні позначення конфігураційних включень мають надходити з файлів"
 
 #: config.c:434
 msgid ""
