@@ -7127,7 +7127,7 @@ msgid ""
 "make 'git-difftool' exit when an invoked diff tool returns a non-zero exit "
 "code"
 msgstr ""
-"змусити \"git-difftool\" завершувати роботу, коли викликаний diff-засіб "
+"змусити \"git-difftool\" завершувати роботу, коли викликаний diff засіб "
 "повертає ненульовий код завершення"
 
 #: builtin/difftool.c:720
