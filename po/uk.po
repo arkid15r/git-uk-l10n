@@ -17480,23 +17480,23 @@ msgstr "Показати логічну змінну Git"
 
 #: command-list.h:196
 msgid "Check the GPG signature of commits"
-msgstr "Перевіряти GPG-підпис комітів"
+msgstr "Перевірити GPG-підпис комітів"
 
 #: command-list.h:197
 msgid "Validate packed Git archive files"
-msgstr "Перевіряти запаковані файли Git архіву"
+msgstr "Перевірити запаковані файли Git архіву"
 
 #: command-list.h:198
 msgid "Check the GPG signature of tags"
-msgstr "Перевіряти GPG-підпис тегів"
+msgstr "Перевірити GPG-підпис тегів"
 
 #: command-list.h:199
 msgid "Display version information about Git"
-msgstr "Відображати інформацію про версію Git"
+msgstr "Показати інформацію про версію Git"
 
 #: command-list.h:200
 msgid "Show logs with difference each commit introduces"
-msgstr "Показувати логи з різницею, яку вносить кожен коміт"
+msgstr "Показати логи з різницею, яку вносить кожен коміт"
 
 #: command-list.h:201
 msgid "Manage multiple working trees"
@@ -17516,7 +17516,7 @@ msgstr "Інтерфейс та конвенції командного рядк
 
 #: command-list.h:205
 msgid "A Git core tutorial for developers"
-msgstr "Керівництво по ядру Git для розробників"
+msgstr "Інструкція по ядру Git для розробників"
 
 #: command-list.h:206
 msgid "Providing usernames and passwords to Git"
