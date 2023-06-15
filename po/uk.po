@@ -7165,7 +7165,7 @@ msgstr "--anonymize-map токен не може бути порожнім"
 
 #: builtin/fast-export.c:1185
 msgid "show progress after <n> objects"
-msgstr "показати прогрес після <н> об'єктів"
+msgstr "показати прогрес після <н> обʼєктів"
 
 #: builtin/fast-export.c:1187
 msgid "select handling of signed tags"
@@ -7173,7 +7173,7 @@ msgstr "вибрати обробку підписаних тегів"
 
 #: builtin/fast-export.c:1190
 msgid "select handling of tags that tag filtered objects"
-msgstr "вибрати обробку тегів, якими позначено відфільтровані об'єкти"
+msgstr "вибрати обробку тегів, якими позначено відфільтровані обʼєкти"
 
 #: builtin/fast-export.c:1193
 msgid "select handling of commit messages in an alternate encoding"
