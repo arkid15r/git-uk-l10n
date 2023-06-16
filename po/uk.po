@@ -17416,7 +17416,7 @@ msgstr "Додати вміст файлу до області індексац�
 
 #: command-list.h:180
 msgid "Stash the changes in a dirty working directory away"
-msgstr "Сховати зміни в брудній робочій директорії"
+msgstr "Перенести зміни в брудній робочій директорії до схову"
 
 #: command-list.h:181
 msgid "Show the working tree status"
@@ -17432,7 +17432,7 @@ msgstr "Ініціалізувати, оновити або перевірити
 
 #: command-list.h:184
 msgid "Bidirectional operation between a Subversion repository and Git"
-msgstr "Двонаправлена операція між сховищем Subversion та Git"
+msgstr "Двонаправлена операція між Subversion сховищем та Git"
 
 #: command-list.h:185
 msgid "Switch branches"
@@ -17445,7 +17445,7 @@ msgstr "Прочитати, змінити та видалити символь�
 #: command-list.h:187
 msgid "Create, list, delete or verify a tag object signed with GPG"
 msgstr ""
-"Створити, перерахувати, видалити або перевірити обʼєкт тегу, підписаний GPG"
+"Створити, показати, видалити або перевірити обʼєкт тегу, підписаний GPG"
 
 #: command-list.h:188
 msgid "Creates a temporary file with a blob's contents"
@@ -17457,7 +17457,7 @@ msgstr "Розпакувати обʼєкти із запакованого ар
 
 #: command-list.h:190
 msgid "Register file contents in the working tree to the index"
-msgstr "Зареєструвати вміст файлу в робочому дереві до індексу"
+msgstr "Зареєструвати вміст файлу робочого дерева в індексі"
 
 #: command-list.h:191
 msgid "Update the object name stored in a ref safely"
