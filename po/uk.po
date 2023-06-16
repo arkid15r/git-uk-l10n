@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-06-14 20:10-0700\n"
+"PO-Revision-Date: 2023-06-15 18:48-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
@@ -17412,11 +17412,11 @@ msgstr "Скоротити робоче дерево до підмножини �
 
 #: command-list.h:179
 msgid "Add file contents to the staging area"
-msgstr ""
+msgstr "Додати вміст файлу до області індексації"
 
 #: command-list.h:180
 msgid "Stash the changes in a dirty working directory away"
-msgstr ""
+msgstr "Сховати зміни в брудній робочій директорії"
 
 #: command-list.h:181
 msgid "Show the working tree status"
@@ -17424,15 +17424,15 @@ msgstr "Показати стан робочого дерева"
 
 #: command-list.h:182
 msgid "Remove unnecessary whitespace"
-msgstr ""
+msgstr "Видалити зайві пробіли"
 
 #: command-list.h:183
 msgid "Initialize, update or inspect submodules"
-msgstr ""
+msgstr "Ініціалізувати, оновити або перевірити підмодулі"
 
 #: command-list.h:184
 msgid "Bidirectional operation between a Subversion repository and Git"
-msgstr ""
+msgstr "Двонаправлена операція між сховищем Subversion та Git"
 
 #: command-list.h:185
 msgid "Switch branches"
@@ -17440,35 +17440,36 @@ msgstr "Переключити гілки"
 
 #: command-list.h:186
 msgid "Read, modify and delete symbolic refs"
-msgstr ""
+msgstr "Прочитати, змінити та видалити символьні посилання"
 
 #: command-list.h:187
 msgid "Create, list, delete or verify a tag object signed with GPG"
 msgstr ""
+"Створити, перерахувати, видалити або перевірити обʼєкт тегу, підписаний GPG"
 
 #: command-list.h:188
 msgid "Creates a temporary file with a blob's contents"
-msgstr ""
+msgstr "Створює тимчасовий файл із вмістом blob"
 
 #: command-list.h:189
 msgid "Unpack objects from a packed archive"
-msgstr ""
+msgstr "Розпакувати обʼєкти із запакованого архіву"
 
 #: command-list.h:190
 msgid "Register file contents in the working tree to the index"
-msgstr ""
+msgstr "Зареєструвати вміст файлу в робочому дереві до індексу"
 
 #: command-list.h:191
 msgid "Update the object name stored in a ref safely"
-msgstr ""
+msgstr "Безпечно оновити назву обʼєкта, що зберігається в посиланні"
 
 #: command-list.h:192
 msgid "Update auxiliary info file to help dumb servers"
-msgstr ""
+msgstr "Оновити додатковий інформаційний файл для допомоги \"тупим\" серверам"
 
 #: command-list.h:193
 msgid "Send archive back to git-archive"
-msgstr ""
+msgstr "Надіслати архів назад до git-архіву"
 
 #: command-list.h:194
 msgid "Send objects packed back to git-fetch-pack"
