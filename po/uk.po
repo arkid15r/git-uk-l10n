@@ -7201,7 +7201,7 @@ msgstr "виводити повне дерево для кожного комі�
 
 #: builtin/fast-export.c:1208
 msgid "use the done feature to terminate the stream"
-msgstr "використовуйте функцію done для завершення потоку"
+msgstr "використовувати функцію done для завершення потоку"
 
 #: builtin/fast-export.c:1209
 msgid "skip output of blob data"
