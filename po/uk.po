@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-06-15 18:48-0700\n"
+"PO-Revision-Date: 2023-06-16 20:05-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
@@ -17344,7 +17344,7 @@ msgstr ""
 
 #: command-list.h:162
 msgid "Reset current HEAD to the specified state"
-msgstr ""
+msgstr "Скинути поточний HEAD до вказаного стану"
 
 #: command-list.h:163
 msgid "Restore working tree files"
@@ -17352,7 +17352,7 @@ msgstr "Відновити файли робочого дерева"
 
 #: command-list.h:164
 msgid "Lists commit objects in reverse chronological order"
-msgstr ""
+msgstr "Показувати обʼєкти коміта у зворотному хронологічному порядку"
 
 #: command-list.h:165
 msgid "Pick out and massage parameters"
@@ -17360,23 +17360,23 @@ msgstr ""
 
 #: command-list.h:166
 msgid "Revert some existing commits"
-msgstr ""
+msgstr "Вивернути деякі існуючі коміти"
 
 #: command-list.h:167
 msgid "Remove files from the working tree and from the index"
-msgstr ""
+msgstr "Видалити файли з робочого дерева та з індексу"
 
 #: command-list.h:168
 msgid "Send a collection of patches as emails"
-msgstr ""
+msgstr "Надіслати колекцію латок у вигляді електронного листа"
 
 #: command-list.h:169
 msgid "Push objects over Git protocol to another repository"
-msgstr ""
+msgstr "Надіслати обʼєкти за протоколом Git до іншого сховища"
 
 #: command-list.h:170
 msgid "Git's i18n setup code for shell scripts"
-msgstr ""
+msgstr "Код налаштування i18n у Git для скриптів оболонки"
 
 #: command-list.h:171
 msgid "Common Git shell script setup code"
@@ -17388,11 +17388,11 @@ msgstr ""
 
 #: command-list.h:173
 msgid "Summarize 'git log' output"
-msgstr ""
+msgstr "Підсумувати вивід \"git log\""
 
 #: command-list.h:174
 msgid "Show various types of objects"
-msgstr ""
+msgstr "Показати різні типи об’єктів"
 
 #: command-list.h:175
 msgid "Show branches and their commits"
@@ -17400,7 +17400,7 @@ msgstr "Показати гілки та їхні коміти"
 
 #: command-list.h:176
 msgid "Show packed archive index"
-msgstr ""
+msgstr "Показати індекс запакованого архіву"
 
 #: command-list.h:177
 msgid "List references in a local repository"
