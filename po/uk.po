@@ -7268,7 +7268,7 @@ msgstr "Очікуваний формат назва:назва файлу дл�
 #: builtin/fast-import.c:3399
 #, c-format
 msgid "feature '%s' forbidden in input without --allow-unsafe-features"
-msgstr "особливість \"%s\" неможна використовувати без --allow-unsafe-features"
+msgstr "особливість \"%s\" не можна використовувати без --allow-unsafe-features"
 
 #: builtin/fetch-pack.c:251
 #, c-format
