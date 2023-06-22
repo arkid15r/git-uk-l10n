@@ -16597,23 +16597,24 @@ msgstr "опції \"%s\", \"%s\" та \"%s\" не можна використо
 
 #: builtin/worktree.c:652
 msgid "added with --lock"
-msgstr ""
+msgstr "додано з --lock"
 
 #: builtin/worktree.c:714
 msgid "--[no-]track can only be used if a new branch is created"
 msgstr ""
+"--[no-]track можна використовувати лише при створенні нової гілки"
 
 #: builtin/worktree.c:834
 msgid "show extended annotations and reasons, if available"
-msgstr ""
+msgstr "показувати розширені анотації та причини, якщо вони доступні"
 
 #: builtin/worktree.c:836
 msgid "add 'prunable' annotation to worktrees older than <time>"
-msgstr ""
+msgstr "додати анотацію \"prunable\" до робочих дерев, старших за <час>"
 
 #: builtin/worktree.c:838
 msgid "terminate records with a NUL character"
-msgstr ""
+msgstr "завершувати записи символом NUL"
 
 #: builtin/worktree.c:889 builtin/worktree.c:922 builtin/worktree.c:997
 #: builtin/worktree.c:1121
@@ -16623,17 +16624,17 @@ msgstr "\"%s\" не є робочим деревом"
 
 #: builtin/worktree.c:891 builtin/worktree.c:924
 msgid "The main working tree cannot be locked or unlocked"
-msgstr ""
+msgstr "Головне робоче дерево неможливо заблокувати або розблокувати"
 
 #: builtin/worktree.c:896
 #, c-format
 msgid "'%s' is already locked, reason: %s"
-msgstr ""
+msgstr "\"%s\" вже заблоковано, причина: %s"
 
 #: builtin/worktree.c:898
 #, c-format
 msgid "'%s' is already locked"
-msgstr ""
+msgstr "\"%s\" вже заблоковано"
 
 #: builtin/worktree.c:926
 #, c-format
@@ -16643,10 +16644,12 @@ msgstr "\"%s\" не зафіксовано"
 #: builtin/worktree.c:967
 msgid "working trees containing submodules cannot be moved or removed"
 msgstr ""
+"робочі дерева, що містять підмодулі, не можуть бути переміщені або видалені"
 
 #: builtin/worktree.c:975
 msgid "force move even if worktree is dirty or locked"
 msgstr ""
+"перемістити примусово, навіть якщо робоче дерево забруднене або заблоковане"
 
 #: builtin/worktree.c:999 builtin/worktree.c:1123
 #, c-format
@@ -16656,7 +16659,7 @@ msgstr "\"%s\" є головним робочим деревом"
 #: builtin/worktree.c:1004
 #, c-format
 msgid "could not figure out destination name from '%s'"
-msgstr ""
+msgstr "не вдалося визначити назву призначення з \"%s\""
 
 #: builtin/worktree.c:1017
 #, c-format
@@ -16664,17 +16667,23 @@ msgid ""
 "cannot move a locked working tree, lock reason: %s\n"
 "use 'move -f -f' to override or unlock first"
 msgstr ""
+"неможливо перемістити заблоковане робоче дерево, причина блокування: %s\n"
+"скористайтесь командою \"move -f -f\", щоб спочатку перевизначити або "
+"розблокувати його"
 
 #: builtin/worktree.c:1019
 msgid ""
 "cannot move a locked working tree;\n"
 "use 'move -f -f' to override or unlock first"
 msgstr ""
+"неможливо перемістити заблоковане робоче дерево;\n"
+"скористайтесь командою \"move -f -f\", щоб спочатку перевизначити або "
+"розблокувати його"
 
 #: builtin/worktree.c:1022
 #, c-format
 msgid "validation failed, cannot move working tree: %s"
-msgstr ""
+msgstr "валідація завершилася невдало, неможливо перемістити робоче дерево: %s"
 
 #: builtin/worktree.c:1027
 #, c-format
@@ -16690,6 +16699,8 @@ msgstr "не вдалося виконати \"git status\" на \"%s\""
 #, c-format
 msgid "'%s' contains modified or untracked files, use --force to delete it"
 msgstr ""
+"\"%s\" містить змінені або невідстежувані файли, скористайтесь --force, щоб "
+"видалити їх"
 
 #: builtin/worktree.c:1082
 #, c-format
@@ -16699,6 +16710,7 @@ msgstr "не вдалося виконати \"git status\" на \"%s\", код 
 #: builtin/worktree.c:1105
 msgid "force removal even if worktree is dirty or locked"
 msgstr ""
+"видалити примусово, навіть якщо робоче дерево забруднене або заблоковане"
 
 #: builtin/worktree.c:1128
 #, c-format
@@ -16706,47 +16718,51 @@ msgid ""
 "cannot remove a locked working tree, lock reason: %s\n"
 "use 'remove -f -f' to override or unlock first"
 msgstr ""
+"неможливо видалити заблоковане робоче дерево, причина блокування: %s\n"
+"скористайтесь \"remove -f -f\", щоб перевизначити або розблокувати"
 
 #: builtin/worktree.c:1130
 msgid ""
 "cannot remove a locked working tree;\n"
 "use 'remove -f -f' to override or unlock first"
 msgstr ""
+"неможливо видалити заблоковане робоче дерево;\n"
+"скористайтесь \"remove -f -f\", щоб перевизначити або розблокувати"
 
 #: builtin/worktree.c:1133
 #, c-format
 msgid "validation failed, cannot remove working tree: %s"
-msgstr ""
+msgstr "валідація завершилася невдало, неможливо видалити робоче дерево: %s"
 
 #: builtin/worktree.c:1157
 #, c-format
 msgid "repair: %s: %s"
-msgstr ""
+msgstr "відремонтувати: %s: %s"
 
 #: builtin/worktree.c:1160
 #, c-format
 msgid "error: %s: %s"
-msgstr ""
+msgstr "помилка: %s: %s"
 
 #: builtin/write-tree.c:19
 msgid "git write-tree [--missing-ok] [--prefix=<prefix>/]"
-msgstr ""
+msgstr "git write-tree [--missing-ok] [--prefix=<префікс>/]"
 
 #: builtin/write-tree.c:32
 msgid "<prefix>/"
-msgstr ""
+msgstr "<префікс>/"
 
 #: builtin/write-tree.c:33
 msgid "write tree object for a subdirectory <prefix>"
-msgstr ""
+msgstr "записати обʼєкт дерева для піддиректорії <префікс>"
 
 #: builtin/write-tree.c:35
 msgid "only useful for debugging"
-msgstr ""
+msgstr "корисно лише для відлагодження"
 
 #: bulk-checkin.c:350
 msgid "core.fsyncMethod = batch is unsupported on this platform"
-msgstr ""
+msgstr "core.fsyncMethod = batch не підтримується на цій платформі"
 
 #: bundle-uri.c:214
 #, c-format
@@ -16756,7 +16772,7 @@ msgstr "не вдалося розібрати ключ списку пакун�
 #: bundle-uri.c:259
 #, c-format
 msgid "bundle list at '%s' has no mode"
-msgstr ""
+msgstr "список пакунків на \"%s\" не має режиму"
 
 #: bundle-uri.c:276
 msgid "failed to create temporary file"
@@ -16764,7 +16780,7 @@ msgstr "не вдалося створити тимчасовий файл"
 
 #: bundle-uri.c:325
 msgid "insufficient capabilities"
-msgstr ""
+msgstr "недостатні здібності"
 
 #: bundle-uri.c:571
 #, c-format
@@ -16778,12 +16794,12 @@ msgstr "не вдалося зберегти токен максимальног
 #: bundle-uri.c:661
 #, c-format
 msgid "unrecognized bundle mode from URI '%s'"
-msgstr ""
+msgstr "нерозпізнаний режим пакунка з URI \"%s\""
 
 #: bundle-uri.c:705
 #, c-format
 msgid "exceeded bundle URI recursion limit (%d)"
-msgstr ""
+msgstr "перевищено ліміт рекурсії URI пакунка (%d)"
 
 #: bundle-uri.c:717
 #, c-format
@@ -16793,28 +16809,28 @@ msgstr "не вдалося завантажити пакунок з URI \"%s\""
 #: bundle-uri.c:725
 #, c-format
 msgid "file at URI '%s' is not a bundle or bundle list"
-msgstr ""
+msgstr "файл з URI \"%s\" не є пакунком або списком пакунків"
 
 #: bundle-uri.c:891
 #, c-format
 msgid "bundle-uri: unexpected argument: '%s'"
-msgstr ""
+msgstr "bundle-uri: неочікуваний аргумент: \"%s\""
 
 #: bundle-uri.c:893
 msgid "bundle-uri: expected flush after arguments"
-msgstr ""
+msgstr "bundle-uri: очікувався flush після аргументів"
 
 #: bundle-uri.c:916
 msgid "bundle-uri: got an empty line"
-msgstr ""
+msgstr "bundle-uri: отримано порожній рядок"
 
 #: bundle-uri.c:921
 msgid "bundle-uri: line is not of the form 'key=value'"
-msgstr ""
+msgstr "bundle-uri: рядок не відповідає формату \"key=value\""
 
 #: bundle-uri.c:923
 msgid "bundle-uri: line has empty key or value"
-msgstr ""
+msgstr "bundle-uri: рядок має порожній ключ або значення"
 
 #: bundle.c:50
 #, c-format
@@ -16829,46 +16845,48 @@ msgstr "невідома властивість \"%s\""
 #: bundle.c:84
 #, c-format
 msgid "'%s' does not look like a v2 or v3 bundle file"
-msgstr ""
+msgstr "\"%s\" не схожий на файл пакунка v2 або v3"
 
 #: bundle.c:123
 #, c-format
 msgid "unrecognized header: %s%s (%d)"
-msgstr ""
+msgstr "нерозпізнаний заголовок: %s%s (%d)"
 
 #: bundle.c:220
 msgid "Repository lacks these prerequisite commits:"
-msgstr ""
+msgstr "У сховищі не вистачає обовʼязкових комітів:"
 
 #: bundle.c:229
 msgid "need a repository to verify a bundle"
-msgstr ""
+msgstr "потрібне сховище для перевірки пакунка"
 
 #: bundle.c:249
 msgid ""
 "some prerequisite commits exist in the object store, but are not connected "
 "to the repository's history"
 msgstr ""
+"деякі попередні коміти існують у місці збереження обʼєктів, але не повʼязані "
+"з історією сховища"
 
 #: bundle.c:257
 #, c-format
 msgid "The bundle contains this ref:"
 msgid_plural "The bundle contains these %<PRIuMAX> refs:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Пакунок містить це посилання:"
+msgstr[1] "Пакунок містить ці %<PRIuMAX> посилання:"
+msgstr[2] "Пакунок містить ці %<PRIuMAX> посилань:"
 
 #: bundle.c:265
 msgid "The bundle records a complete history."
-msgstr ""
+msgstr "Пакунок записує повну історію."
 
 #: bundle.c:267
 #, c-format
 msgid "The bundle requires this ref:"
 msgid_plural "The bundle requires these %<PRIuMAX> refs:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Пакунок потребує це посилання:"
+msgstr[1] "Пакунок потребує ці %<PRIuMAX> посилання:"
+msgstr[2] "Пакунок потребує ці %<PRIuMAX> посилань:"
 
 #: bundle.c:344
 msgid "unable to dup bundle descriptor"
@@ -16880,26 +16898,26 @@ msgstr "Не вдалося розмножити об’єкти пакункі�
 
 #: bundle.c:362
 msgid "pack-objects died"
-msgstr ""
+msgstr "pack-objects завершився невдало"
 
 #: bundle.c:412
 #, c-format
 msgid "ref '%s' is excluded by the rev-list options"
-msgstr ""
+msgstr "посилання \"%s\" виключено опціями rev-list"
 
 #: bundle.c:543
 #, c-format
 msgid "unsupported bundle version %d"
-msgstr ""
+msgstr "непідтримувана версія пакунка %d"
 
 #: bundle.c:545
 #, c-format
 msgid "cannot write bundle version %d with algorithm %s"
-msgstr ""
+msgstr "неможливо записати версію пакунка %d з алгоритмом %s"
 
 #: bundle.c:595
 msgid "Refusing to create empty bundle."
-msgstr ""
+msgstr "Відмова від створення порожнього пакунка."
 
 #: bundle.c:605
 #, c-format
@@ -16908,26 +16926,26 @@ msgstr "неможливо створити \"%s\""
 
 #: bundle.c:637
 msgid "index-pack died"
-msgstr ""
+msgstr "index-pack завершився невдало"
 
 #: chunk-format.c:121
 msgid "terminating chunk id appears earlier than expected"
-msgstr ""
+msgstr "ідентифікатор завершення фрагмента зʼявився раніше, ніж очікувалося"
 
 #: chunk-format.c:130
 #, c-format
 msgid "improper chunk offset(s) %<PRIx64> and %<PRIx64>"
-msgstr ""
+msgstr "неправильне зміщення шматка(ів) %<PRIx64> та %<PRIx64>"
 
 #: chunk-format.c:137
 #, c-format
 msgid "duplicate chunk ID %<PRIx32> found"
-msgstr ""
+msgstr "знайдено дубльований шматок з ідентифікатором %<PRIx32>"
 
 #: chunk-format.c:151
 #, c-format
 msgid "final chunk has non-zero id %<PRIx32>"
-msgstr ""
+msgstr "заключний шматок має ненульовий ідентифікатор %<PRIx32>"
 
 #: chunk-format.c:197
 msgid "invalid hash version"
@@ -16940,35 +16958,35 @@ msgstr "неприпустиме значення кольору: %.*s"
 
 #: command-list.h:54
 msgid "Add file contents to the index"
-msgstr ""
+msgstr "Додати вміст файлу до індексу"
 
 #: command-list.h:55
 msgid "Apply a series of patches from a mailbox"
-msgstr ""
+msgstr "Застосувати серію латок з поштової скриньки"
 
 #: command-list.h:56
 msgid "Annotate file lines with commit information"
-msgstr ""
+msgstr "Анотувати рядки файлів з інформацією про коміти"
 
 #: command-list.h:57
 msgid "Apply a patch to files and/or to the index"
-msgstr ""
+msgstr "Застосувати латку до файлів та/або до індексу"
 
 #: command-list.h:58
 msgid "Import a GNU Arch repository into Git"
-msgstr ""
+msgstr "Імпортувати GNU Arch сховище до Git"
 
 #: command-list.h:59
 msgid "Create an archive of files from a named tree"
-msgstr ""
+msgstr "Створити архів файлів з названого дерева"
 
 #: command-list.h:60
 msgid "Use binary search to find the commit that introduced a bug"
-msgstr ""
+msgstr "Використати бінарний пошук, щоб знайти коміт, який вніс помилку"
 
 #: command-list.h:61
 msgid "Show what revision and author last modified each line of a file"
-msgstr ""
+msgstr "Показати, яка ревізія та автор востаннє змінювали кожен рядок файлу"
 
 #: command-list.h:62
 msgid "List, create, or delete branches"
@@ -16976,31 +16994,31 @@ msgstr "Показати, створити або видалити гілки"
 
 #: command-list.h:63
 msgid "Collect information for user to file a bug report"
-msgstr ""
+msgstr "Зібрати інформацію, щоб користувач міг подати звіт про помилку"
 
 #: command-list.h:64
 msgid "Move objects and refs by archive"
-msgstr ""
+msgstr "Перенести архів обʼєктів та посилань"
 
 #: command-list.h:65
 msgid "Provide content or type and size information for repository objects"
-msgstr ""
+msgstr "Показати вміст або інформацію про тип і розмір обʼєктів сховища"
 
 #: command-list.h:66
 msgid "Display gitattributes information"
-msgstr ""
+msgstr "Відобразити інформацію про gitattributes"
 
 #: command-list.h:67
 msgid "Debug gitignore / exclude files"
-msgstr ""
+msgstr "Налагодити gitignore / вилучити файли"
 
 #: command-list.h:68
 msgid "Show canonical names and email addresses of contacts"
-msgstr ""
+msgstr "Показати канонічні імена та адреси електронної пошти контактів"
 
 #: command-list.h:69
 msgid "Ensures that a reference name is well formed"
-msgstr ""
+msgstr "Забезпечує правильне формування назви посилання"
 
 #: command-list.h:70
 msgid "Switch branches or restore working tree files"
@@ -17008,19 +17026,20 @@ msgstr "Перемкнути гілки або відновити файли р�
 
 #: command-list.h:71
 msgid "Copy files from the index to the working tree"
-msgstr ""
+msgstr "Скопіювати файли з індексу в робоче дерево"
 
 #: command-list.h:72
 msgid "Find commits yet to be applied to upstream"
 msgstr ""
+"Знайти коміти, які ще не були застосовані до першоджерельного сховища"
 
 #: command-list.h:73
 msgid "Apply the changes introduced by some existing commits"
-msgstr ""
+msgstr "Застосувати зміни, внесені деякими існуючими комітами"
 
 #: command-list.h:74
 msgid "Graphical alternative to git-commit"
-msgstr ""
+msgstr "Графічна альтернатива git-commit"
 
 #: command-list.h:75
 msgid "Remove untracked files from the working tree"
@@ -17028,11 +17047,11 @@ msgstr "Видалити невідстежувані файли з робочо
 
 #: command-list.h:76
 msgid "Clone a repository into a new directory"
-msgstr ""
+msgstr "Клонувати сховище в нову директорію"
 
 #: command-list.h:77
 msgid "Display data in columns"
-msgstr ""
+msgstr "Відобразити дані в стовпчиках"
 
 #: command-list.h:78
 msgid "Record changes to the repository"
@@ -17040,55 +17059,56 @@ msgstr "Записати зміни у сховище"
 
 #: command-list.h:79
 msgid "Write and verify Git commit-graph files"
-msgstr ""
+msgstr "Записати та перевірити файли коміт-графа Git"
 
 #: command-list.h:80
 msgid "Create a new commit object"
-msgstr ""
+msgstr "Створити новий обʼєкт коміту"
 
 #: command-list.h:81
 msgid "Get and set repository or global options"
-msgstr ""
+msgstr "Отримати та встановити параметри сховища або глобальні параметри"
 
 #: command-list.h:82
 msgid "Count unpacked number of objects and their disk consumption"
-msgstr ""
+msgstr "Підрахувати кількість розпакованих обʼєктів та їхнє використання диска"
 
 #: command-list.h:83
 msgid "Retrieve and store user credentials"
-msgstr ""
+msgstr "Отримати та зберегти облікові дані користувача"
 
 #: command-list.h:84
 msgid "Helper to temporarily store passwords in memory"
-msgstr ""
+msgstr "Помічник для тимчасового зберігання паролів у памʼяті"
 
 #: command-list.h:85
 msgid "Helper to store credentials on disk"
-msgstr ""
+msgstr "Помічник для зберігання облікових даних на диску"
 
 #: command-list.h:86
 msgid "Export a single commit to a CVS checkout"
-msgstr ""
+msgstr "Експортувати окремий коміт до CVS стану"
 
 #: command-list.h:87
 msgid "Salvage your data out of another SCM people love to hate"
-msgstr ""
+msgstr "Врятувати свої дані з іншої SCM, яку всі так неполюбляють"
 
 #: command-list.h:88
 msgid "A CVS server emulator for Git"
-msgstr ""
+msgstr "Емулятор CVS сервера для Git"
 
 #: command-list.h:89
 msgid "A really simple server for Git repositories"
-msgstr ""
+msgstr "Дуже простий сервер для Git сховищ"
 
 #: command-list.h:90
 msgid "Give an object a human readable name based on an available ref"
 msgstr ""
+"Надати обʼєкту читабельну для людини назву на основі наявного посилання"
 
 #: command-list.h:91
 msgid "Generate a zip archive of diagnostic information"
-msgstr ""
+msgstr "Згенерувати zip-архів з діагностичною інформацією"
 
 #: command-list.h:92
 msgid "Show changes between commits, commit and working tree, etc"
@@ -17096,7 +17116,7 @@ msgstr "Показати зміни між комітами, комітом та
 
 #: command-list.h:93
 msgid "Compares files in the working tree and the index"
-msgstr ""
+msgstr "Порівнює файли в робочому дереві та індексі"
 
 #: command-list.h:94
 msgid "Compare a tree to the working tree or index"
@@ -17105,26 +17125,28 @@ msgstr "Порівняти дерево з робочим деревом або 
 #: command-list.h:95
 msgid "Compares the content and mode of blobs found via two tree objects"
 msgstr ""
+"Порівнює вміст та режим blob обʼєктів, знайдених у двох "
+"обʼєктах дерева"
 
 #: command-list.h:96
 msgid "Show changes using common diff tools"
-msgstr ""
+msgstr "Показати зміни за допомогою звичайних diff засобів"
 
 #: command-list.h:97
 msgid "Git data exporter"
-msgstr ""
+msgstr "Експортер даних Git"
 
 #: command-list.h:98
 msgid "Backend for fast Git data importers"
-msgstr ""
+msgstr "Бекенд для швидких імпортерів даних Git"
 
 #: command-list.h:99
 msgid "Download objects and refs from another repository"
-msgstr ""
+msgstr "Завантажити обʼєкти та посилання з іншого сховища"
 
 #: command-list.h:100
 msgid "Receive missing objects from another repository"
-msgstr ""
+msgstr "Отримати відсутні обʼєкти з іншого сховища"
 
 #: command-list.h:101
 msgid "Rewrite branches"
@@ -17132,83 +17154,85 @@ msgstr "Перезаписати гілки"
 
 #: command-list.h:102
 msgid "Produce a merge commit message"
-msgstr ""
+msgstr "Створити допис до коміту злиття"
 
 #: command-list.h:103
 msgid "Output information on each ref"
-msgstr ""
+msgstr "Вивести інформацію про кожне посилання"
 
 #: command-list.h:104
 msgid "Run a Git command on a list of repositories"
-msgstr ""
+msgstr "Запустити команду Git на списку сховищ"
 
 #: command-list.h:105
 msgid "Prepare patches for e-mail submission"
-msgstr ""
+msgstr "Підготувати латки для надсилання електронною поштою"
 
 #: command-list.h:106
 msgid "Verifies the connectivity and validity of the objects in the database"
-msgstr ""
+msgstr "Перевіряє звʼязність та валідність обʼєктів у базі даних"
 
 #: command-list.h:107
 msgid "Cleanup unnecessary files and optimize the local repository"
-msgstr ""
+msgstr "Видалити непотрібні файли та оптимізувати локальне сховище"
 
 #: command-list.h:108
 msgid "Extract commit ID from an archive created using git-archive"
 msgstr ""
+"Витягти ідентифікатор коміту з архіву, створеного за допомогою git-archive"
 
 #: command-list.h:109
 msgid "Print lines matching a pattern"
-msgstr ""
+msgstr "Вивести рядки, що відповідають шаблону"
 
 #: command-list.h:110
 msgid "A portable graphical interface to Git"
-msgstr ""
+msgstr "Портативний графічний інтерфейс до Git"
 
 #: command-list.h:111
 msgid "Compute object ID and optionally creates a blob from a file"
-msgstr ""
+msgstr "Обчислити ідентифікатор обʼєкта і, за бажанням, створити blob з файлу"
 
 #: command-list.h:112
 msgid "Display help information about Git"
-msgstr ""
+msgstr "Відобразити довідкову інформацію про Git"
 
 #: command-list.h:113
 msgid "Run git hooks"
-msgstr ""
+msgstr "Запустити git гачки"
 
 #: command-list.h:114
 msgid "Server side implementation of Git over HTTP"
-msgstr ""
+msgstr "Серверна реалізація Git через HTTP"
 
 #: command-list.h:115
 msgid "Download from a remote Git repository via HTTP"
-msgstr ""
+msgstr "Завантажити з віддаленого Git сховища через HTTP"
 
 #: command-list.h:116
 msgid "Push objects over HTTP/DAV to another repository"
-msgstr ""
+msgstr "Надіслати обʼєкти через HTTP/DAV до іншого сховища"
 
 #: command-list.h:117
 msgid "Send a collection of patches from stdin to an IMAP folder"
-msgstr ""
+msgstr "Надіслати збірку латок зі stdin до теки IMAP"
 
 #: command-list.h:118
 msgid "Build pack index file for an existing packed archive"
-msgstr ""
+msgstr "Побудувати індексний файл пакунка для існуючого запакованого архіву"
 
 #: command-list.h:119
 msgid "Create an empty Git repository or reinitialize an existing one"
-msgstr ""
+msgstr "Створити порожнє Git сховище або переініціалізувати існуюче"
 
 #: command-list.h:120
 msgid "Instantly browse your working repository in gitweb"
-msgstr ""
+msgstr "Миттєво переглянути своє робоче сховище в gitweb"
 
 #: command-list.h:121
 msgid "Add or parse structured information in commit messages"
 msgstr ""
+"Додати або розібрати структуровану інформацію в дописах до комітів"
 
 #: command-list.h:122
 msgid "Show commit logs"
@@ -17216,7 +17240,7 @@ msgstr "Показати лог коміта"
 
 #: command-list.h:123
 msgid "Show information about files in the index and the working tree"
-msgstr ""
+msgstr "Показати інформацію про файли в індексі та робочому дереві"
 
 #: command-list.h:124
 msgid "List references in a remote repository"
@@ -17224,79 +17248,80 @@ msgstr "Показати посилання у віддаленому схови
 
 #: command-list.h:125
 msgid "List the contents of a tree object"
-msgstr ""
+msgstr "Показати вміст обʼєкта дерева"
 
 #: command-list.h:126
 msgid "Extracts patch and authorship from a single e-mail message"
-msgstr ""
+msgstr "Витягує латку та авторство з одного повідомлення електронної пошти"
 
 #: command-list.h:127
 msgid "Simple UNIX mbox splitter program"
-msgstr ""
+msgstr "Проста програма-розщеплювач UNIX mbox"
 
 #: command-list.h:128
 msgid "Run tasks to optimize Git repository data"
-msgstr ""
+msgstr "Запустити завдання для оптимізації даних Git сховища"
 
 #: command-list.h:129
 msgid "Join two or more development histories together"
-msgstr ""
+msgstr "Обʼєднати дві або більше історій розробки"
 
 #: command-list.h:130
 msgid "Find as good common ancestors as possible for a merge"
-msgstr ""
+msgstr "Знайти якомога кращого спільного предка для злиття"
 
 #: command-list.h:131
 msgid "Run a three-way file merge"
-msgstr ""
+msgstr "Запустити тристороннє злиття файлів"
 
 #: command-list.h:132
 msgid "Run a merge for files needing merging"
-msgstr ""
+msgstr "Запустити злиття для файлів, які потрібно обʼєднати"
 
 #: command-list.h:133
 msgid "The standard helper program to use with git-merge-index"
-msgstr ""
+msgstr "Стандартна допоміжна програма для використання з git-merge-index"
 
 #: command-list.h:134
 msgid "Perform merge without touching index or working tree"
-msgstr ""
+msgstr "Виконати злиття, не торкаючись індексу або робочого дерева"
 
 #: command-list.h:135
 msgid "Run merge conflict resolution tools to resolve merge conflicts"
 msgstr ""
+"Запустити інструменти розвʼязання конфліктів, щоб розвʼязати конфлікти злиття"
 
 #: command-list.h:136
 msgid "Creates a tag object with extra validation"
-msgstr ""
+msgstr "Створює обʼєкт тегу з додатковою перевіркою"
 
 #: command-list.h:137
 msgid "Build a tree-object from ls-tree formatted text"
-msgstr ""
+msgstr "Побудувати обʼєкт дерева з ls-tree форматованого тексту"
 
 #: command-list.h:138
 msgid "Write and verify multi-pack-indexes"
-msgstr ""
+msgstr "Записати і перевірити multi-pack-indexes"
 
 #: command-list.h:139
 msgid "Move or rename a file, a directory, or a symlink"
-msgstr ""
+msgstr "Перемістити або перейменувати файл, директорію або символьне посилання"
 
 #: command-list.h:140
 msgid "Find symbolic names for given revs"
-msgstr ""
+msgstr "Знайти символьни назви для заданих ревізій"
 
 #: command-list.h:141
 msgid "Add or inspect object notes"
-msgstr "Додайте або перевірте нотатки до обʼєктів"
+msgstr "Додати або перевірити нотатки до обʼєктів"
 
 #: command-list.h:142
 msgid "Import from and submit to Perforce repositories"
-msgstr ""
+msgstr "Імпортувати з та надсилати до Perforce сховищ"
 
 #: command-list.h:143
 msgid "Create a packed archive of objects"
-msgstr ""
+msgstr "Створити запакований архів обʼєктів"
 
 #: command-list.h:144
 msgid "Find redundant pack files"
@@ -17304,51 +17329,51 @@ msgstr "Знайти зайві файли пакунків"
 
 #: command-list.h:145
 msgid "Pack heads and tags for efficient repository access"
-msgstr ""
+msgstr "Запакувати верхівки та теги для ефективного доступу до сховища"
 
 #: command-list.h:146
 msgid "Compute unique ID for a patch"
-msgstr ""
+msgstr "Обчислити унікальний ідентифікатор для патчу"
 
 #: command-list.h:147
 msgid "Prune all unreachable objects from the object database"
-msgstr ""
+msgstr "Видалити всі недосяжні обʼєкти з бази даних обʼєктів"
 
 #: command-list.h:148
 msgid "Remove extra objects that are already in pack files"
-msgstr ""
+msgstr "Видалити зайві обʼєкти, які вже є у файлах пакунків"
 
 #: command-list.h:149
 msgid "Fetch from and integrate with another repository or a local branch"
-msgstr ""
+msgstr "Отримати та інтегрувати з іншим сховищем або локальною гілкою"
 
 #: command-list.h:150
 msgid "Update remote refs along with associated objects"
-msgstr ""
+msgstr "Оновити віддалені посилання разом з асоційованими обʼєктами"
 
 #: command-list.h:151
 msgid "Applies a quilt patchset onto the current branch"
-msgstr ""
+msgstr "Застосовує набір латок до поточної гілки"
 
 #: command-list.h:152
 msgid "Compare two commit ranges (e.g. two versions of a branch)"
-msgstr ""
+msgstr "Порівняти два діапазони комітів (наприклад, дві версії гілки)"
 
 #: command-list.h:153
 msgid "Reads tree information into the index"
-msgstr ""
+msgstr "Зчитує інформацію про дерево в індекс"
 
 #: command-list.h:154
 msgid "Reapply commits on top of another base tip"
-msgstr ""
+msgstr "Застосувати коміти поверх іншої верхівки бази"
 
 #: command-list.h:155
 msgid "Receive what is pushed into the repository"
-msgstr ""
+msgstr "Отримати те, що надсилається до сховища"
 
 #: command-list.h:156
 msgid "Manage reflog information"
-msgstr ""
+msgstr "Керування інформацією логу посилань"
 
 #: command-list.h:157
 msgid "Manage set of tracked repositories"
@@ -17356,19 +17381,19 @@ msgstr "Керувати набором відстежуваних сховищ"
 
 #: command-list.h:158
 msgid "Pack unpacked objects in a repository"
-msgstr ""
+msgstr "Запакувати розпаковані обʼєкти у сховищі"
 
 #: command-list.h:159
 msgid "Create, list, delete refs to replace objects"
-msgstr ""
+msgstr "Створити, показати, видалити посилання для об’єктів заміни"
 
 #: command-list.h:160
 msgid "Generates a summary of pending changes"
-msgstr ""
+msgstr "Створює підсумок змін для розгляду"
 
 #: command-list.h:161
 msgid "Reuse recorded resolution of conflicted merges"
-msgstr ""
+msgstr "Використати повторно записане розв’язання конфліктних злиттів"
 
 #: command-list.h:162
 msgid "Reset current HEAD to the specified state"
