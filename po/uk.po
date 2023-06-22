@@ -7421,8 +7421,8 @@ msgstr "звітувати, що у нас є тільки обʼєкти, до�
 #: builtin/fetch.c:237
 msgid "do not fetch a packfile; instead, print ancestors of negotiation tips"
 msgstr ""
-"не отримувати файл пакунка; замість цього роздрукувати предків верхівок "
-"для узгодження"
+"не отримувати файл пакунка; замість цього роздрукувати предків верхівок для "
+"узгодження"
 
 #: builtin/fetch.c:240 builtin/fetch.c:242
 msgid "run 'maintenance --auto' after fetching"
@@ -7680,25 +7680,28 @@ msgstr "fetch --all не має сенсу з визначниками поси�
 #: builtin/fetch.c:2254
 #, c-format
 msgid "no such remote or remote group: %s"
-msgstr ""
+msgstr "немає такого віддаленого призначення або віддаленої групи: %s"
 
 #: builtin/fetch.c:2262
 msgid "fetching a group and specifying refspecs does not make sense"
-msgstr ""
+msgstr "отримання групи і вказівка визначників посилань не має сенсу"
 
 #: builtin/fetch.c:2279
 msgid "must supply remote when using --negotiate-only"
 msgstr ""
+"необхідно вказати віддалене призначення при використанні --negotiate-only"
 
 #: builtin/fetch.c:2284
 msgid "protocol does not support --negotiate-only, exiting"
-msgstr ""
+msgstr "протокол не підтримує --negotiate-only, вихід"
 
 #: builtin/fetch.c:2304
 msgid ""
 "--filter can only be used with the remote configured in extensions."
 "partialclone"
 msgstr ""
+"--filter можна використовувати лише з віддаленим призначенням, налаштованим "
+"у extensions.partialclone"
 
 #: builtin/fetch.c:2308
 msgid "--atomic can only be used when fetching from one remote"
