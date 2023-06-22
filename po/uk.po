@@ -16445,7 +16445,7 @@ msgstr ""
 
 #: builtin/worktree.c:41
 msgid "git worktree repair [<path>...]"
-msgstr "git repair worktree [<шлях>...]"
+msgstr "git worktree repair [<шлях>...]"
 
 #: builtin/worktree.c:43
 msgid "git worktree unlock <worktree>"
