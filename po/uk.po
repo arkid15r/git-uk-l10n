@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-06-18 17:56-0700\n"
+"PO-Revision-Date: 2023-06-21 18:54-0700\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
@@ -7421,8 +7421,8 @@ msgstr "звітувати, що у нас є тільки обʼєкти, до�
 #: builtin/fetch.c:237
 msgid "do not fetch a packfile; instead, print ancestors of negotiation tips"
 msgstr ""
-"не отримувати файл пакунка; замість цього роздрукувати предків верхівок "
-"для узгодження"
+"не отримувати файл пакунка; замість цього роздрукувати предків верхівок для "
+"узгодження"
 
 #: builtin/fetch.c:240 builtin/fetch.c:242
 msgid "run 'maintenance --auto' after fetching"
@@ -7680,25 +7680,28 @@ msgstr "fetch --all не має сенсу з визначниками поси�
 #: builtin/fetch.c:2254
 #, c-format
 msgid "no such remote or remote group: %s"
-msgstr ""
+msgstr "немає такого віддаленого призначення або віддаленої групи: %s"
 
 #: builtin/fetch.c:2262
 msgid "fetching a group and specifying refspecs does not make sense"
-msgstr ""
+msgstr "отримання групи і вказівка визначників посилань не має сенсу"
 
 #: builtin/fetch.c:2279
 msgid "must supply remote when using --negotiate-only"
 msgstr ""
+"необхідно вказати віддалене призначення при використанні --negotiate-only"
 
 #: builtin/fetch.c:2284
 msgid "protocol does not support --negotiate-only, exiting"
-msgstr ""
+msgstr "протокол не підтримує --negotiate-only, вихід"
 
 #: builtin/fetch.c:2304
 msgid ""
 "--filter can only be used with the remote configured in extensions."
 "partialclone"
 msgstr ""
+"--filter можна використовувати лише з віддаленим призначенням, налаштованим "
+"у extensions.partialclone"
 
 #: builtin/fetch.c:2308
 msgid "--atomic can only be used when fetching from one remote"
@@ -16601,8 +16604,7 @@ msgstr "додано з --lock"
 
 #: builtin/worktree.c:714
 msgid "--[no-]track can only be used if a new branch is created"
-msgstr ""
-"--[no-]track можна використовувати лише при створенні нової гілки"
+msgstr "--[no-]track можна використовувати лише при створенні нової гілки"
 
 #: builtin/worktree.c:834
 msgid "show extended annotations and reasons, if available"
@@ -17030,8 +17032,7 @@ msgstr "Скопіювати файли з індексу в робоче дер
 
 #: command-list.h:72
 msgid "Find commits yet to be applied to upstream"
-msgstr ""
-"Знайти коміти, які ще не були застосовані до першоджерельного сховища"
+msgstr "Знайти коміти, які ще не були застосовані до першоджерельного сховища"
 
 #: command-list.h:73
 msgid "Apply the changes introduced by some existing commits"
@@ -17125,8 +17126,7 @@ msgstr "Порівняти дерево з робочим деревом або 
 #: command-list.h:95
 msgid "Compares the content and mode of blobs found via two tree objects"
 msgstr ""
-"Порівнює вміст та режим blob обʼєктів, знайдених у двох "
-"обʼєктах дерева"
+"Порівнює вміст та режим blob обʼєктів, знайдених у двох обʼєктах дерева"
 
 #: command-list.h:96
 msgid "Show changes using common diff tools"
@@ -17231,8 +17231,7 @@ msgstr "Миттєво переглянути своє робоче сховищ
 
 #: command-list.h:121
 msgid "Add or parse structured information in commit messages"
-msgstr ""
-"Додати або розібрати структуровану інформацію в дописах до комітів"
+msgstr "Додати або розібрати структуровану інформацію в дописах до комітів"
 
 #: command-list.h:122
 msgid "Show commit logs"
