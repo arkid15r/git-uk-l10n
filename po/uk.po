@@ -16462,7 +16462,7 @@ msgstr "звітувати про видалення робочих дерев"
 
 #: builtin/worktree.c:218
 msgid "expire working trees older than <time>"
-msgstr "закінчується термін дії робочих дерев, старших за <час>"
+msgstr "закінчується термін дії робочих дерев, старіших за <час>"
 
 #: builtin/worktree.c:289
 #, c-format
