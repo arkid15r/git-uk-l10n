@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-06-18 17:58-0700\n"
+"PO-Revision-Date: 2023-06-21 18:47-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
@@ -16445,16 +16445,16 @@ msgstr ""
 
 #: builtin/worktree.c:41
 msgid "git worktree repair [<path>...]"
-msgstr ""
+msgstr "git repair worktree [<шлях>...]"
 
 #: builtin/worktree.c:43
 msgid "git worktree unlock <worktree>"
-msgstr ""
+msgstr "git worktree unlock <робоче дерево>"
 
 #: builtin/worktree.c:143
 #, c-format
 msgid "Removing %s/%s: %s"
-msgstr ""
+msgstr "Видалення %s/%s: %s"
 
 #: builtin/worktree.c:216
 msgid "report pruned working trees"
@@ -16462,7 +16462,7 @@ msgstr "звітувати про видалення робочих дерев"
 
 #: builtin/worktree.c:218
 msgid "expire working trees older than <time>"
-msgstr ""
+msgstr "закінчується термін дії робочих дерев, старших за <час>"
 
 #: builtin/worktree.c:289
 #, c-format
@@ -16480,6 +16480,9 @@ msgid ""
 "'%s' is a missing but locked worktree;\n"
 "use '%s -f -f' to override, or 'unlock' and 'prune' or 'remove' to clear"
 msgstr ""
+"\"%s\" - є відсутнім, але заблокованим робочим деревом;\n"
+"скористайтесь командою \"%s -f -f\", щоб перевизначити або \" unlock\" і \"prune\" "
+"або \"remove\", щоб очистити"
 
 #: builtin/worktree.c:305
 #, c-format
@@ -16487,11 +16490,16 @@ msgid ""
 "'%s' is a missing but already registered worktree;\n"
 "use '%s -f' to override, or 'prune' or 'remove' to clear"
 msgstr ""
+"\"%s\" - є відсутнім, але вже зареєстрованим робочим деревом;\n"
+"скористайтесь командою \"%s -f\", щоб перевизначити, або \"prune\" чи "
+"\"remove\", щоб очистити"
 
 #: builtin/worktree.c:316
 #, c-format
 msgid "failed to copy '%s' to '%s'; sparse-checkout may not work correctly"
 msgstr ""
+"не вдалося скопіювати \"%s\" в \"%s\"; частковий перехід може працювати "
+"некоректно"
 
 #: builtin/worktree.c:335
 #, c-format
@@ -16510,31 +16518,32 @@ msgstr "не вдалося створити директорію \"%s\""
 
 #: builtin/worktree.c:445
 msgid "initializing"
-msgstr ""
+msgstr "ініціалізація"
 
 #: builtin/worktree.c:559 builtin/worktree.c:565
 #, c-format
 msgid "Preparing worktree (new branch '%s')"
-msgstr ""
+msgstr "Підготовка робочого дерева (нова гілка \"%s\")"
 
 #: builtin/worktree.c:561
 #, c-format
 msgid "Preparing worktree (resetting branch '%s'; was at %s)"
-msgstr ""
+msgstr "Підготовка робочого дерева (скидання гілки \"%s\"; була на %s)"
 
 #: builtin/worktree.c:570
 #, c-format
 msgid "Preparing worktree (checking out '%s')"
-msgstr ""
+msgstr "Підготовка робочого дерева (перехід до \"%s\")"
 
 #: builtin/worktree.c:576
 #, c-format
 msgid "Preparing worktree (detached HEAD %s)"
-msgstr ""
+msgstr "Підготовка робочого дерева (відокремлений HEAD %s)"
 
 #: builtin/worktree.c:621
 msgid "checkout <branch> even if already checked out in other worktree"
 msgstr ""
+"перейти на <гілку>, навіть якщо вона вже активна в іншому робочому дереві"
 
 #: builtin/worktree.c:624
 msgid "create a new branch"
@@ -16554,11 +16563,11 @@ msgstr "зберегти нове робоче дерево зафіксован
 
 #: builtin/worktree.c:631 builtin/worktree.c:877
 msgid "reason for locking"
-msgstr ""
+msgstr "причина блокування"
 
 #: builtin/worktree.c:634
 msgid "set up tracking mode (see git-branch(1))"
-msgstr ""
+msgstr "налаштувати режим відстежування (дивіться git-branch(1))"
 
 #: builtin/worktree.c:637
 msgid "try to match the new branch name with a remote-tracking branch"
@@ -16576,8 +16585,7 @@ msgstr "додано з --lock"
 
 #: builtin/worktree.c:714
 msgid "--[no-]track can only be used if a new branch is created"
-msgstr ""
-"--[no-]track можна використовувати лише при створенні нової гілки"
+msgstr "--[no-]track можна використовувати лише при створенні нової гілки"
 
 #: builtin/worktree.c:834
 msgid "show extended annotations and reasons, if available"
@@ -17005,8 +17013,7 @@ msgstr "Скопіювати файли з індексу в робоче дер
 
 #: command-list.h:72
 msgid "Find commits yet to be applied to upstream"
-msgstr ""
-"Знайти коміти, які ще не були застосовані до першоджерельного сховища"
+msgstr "Знайти коміти, які ще не були застосовані до першоджерельного сховища"
 
 #: command-list.h:73
 msgid "Apply the changes introduced by some existing commits"
@@ -17100,8 +17107,7 @@ msgstr "Порівняти дерево з робочим деревом або 
 #: command-list.h:95
 msgid "Compares the content and mode of blobs found via two tree objects"
 msgstr ""
-"Порівнює вміст та режим blob обʼєктів, знайдених у двох "
-"обʼєктах дерева"
+"Порівнює вміст та режим blob обʼєктів, знайдених у двох обʼєктах дерева"
 
 #: command-list.h:96
 msgid "Show changes using common diff tools"
@@ -17206,8 +17212,7 @@ msgstr "Миттєво переглянути своє робоче сховищ
 
 #: command-list.h:121
 msgid "Add or parse structured information in commit messages"
-msgstr ""
-"Додати або розібрати структуровану інформацію в дописах до комітів"
+msgstr "Додати або розібрати структуровану інформацію в дописах до комітів"
 
 #: command-list.h:122
 msgid "Show commit logs"
