@@ -16487,7 +16487,7 @@ msgstr "звітувати про видалення робочих дерев"
 
 #: builtin/worktree.c:218
 msgid "expire working trees older than <time>"
-msgstr "закінчується термін дії робочих дерев, старіших за <час>"
+msgstr "видалити робочі дерева, старші за <час>"
 
 #: builtin/worktree.c:289
 #, c-format
@@ -16506,7 +16506,7 @@ msgid ""
 "use '%s -f -f' to override, or 'unlock' and 'prune' or 'remove' to clear"
 msgstr ""
 "\"%s\" - є відсутнім, але заблокованим робочим деревом;\n"
-"скористайтесь командою \"%s -f -f\", щоб перевизначити або \" unlock\" і \"prune\" "
+"скористайтесь командою \"%s -f -f\", щоб перевизначити або \"unlock\" і \"prune\" "
 "або \"remove\", щоб очистити"
 
 #: builtin/worktree.c:305
