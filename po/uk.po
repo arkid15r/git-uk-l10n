@@ -7294,7 +7294,7 @@ msgstr "git fetch --all [<опції>]"
 
 #: builtin/fetch.c:144
 msgid "fetch.parallel cannot be negative"
-msgstr "fetch.parallel не може бути від'ємним"
+msgstr "fetch.parallel не може бути відʼємним"
 
 #: builtin/fetch.c:169 builtin/pull.c:194
 msgid "fetch from all remotes"
@@ -7326,7 +7326,7 @@ msgstr "отримати з декількох віддалених призна
 
 #: builtin/fetch.c:182 builtin/pull.c:204
 msgid "fetch all tags and associated objects"
-msgstr "отримати всі теги і пов'язані з ними об'єкти"
+msgstr "отримати всі теги і повʼязані з ними обʼєкти"
 
 #: builtin/fetch.c:184
 msgid "do not fetch all tags (--no-tags)"
@@ -7416,12 +7416,12 @@ msgstr "вказати мапу посилань для fetch"
 
 #: builtin/fetch.c:235 builtin/pull.c:249
 msgid "report that we have only objects reachable from this object"
-msgstr "звітувати, що у нас є тільки об'єкти, доступні з цього обʼєкта"
+msgstr "звітувати, що у нас є тільки обʼєкти, доступні з цього обʼєкта"
 
 #: builtin/fetch.c:237
 msgid "do not fetch a packfile; instead, print ancestors of negotiation tips"
 msgstr ""
-"не отримувати пакунковий файл; замість цього роздрукувати предків верхівок "
+"не отримувати файл пакунка; замість цього роздрукувати предків верхівок "
 "для узгодження"
 
 #: builtin/fetch.c:240 builtin/fetch.c:242
