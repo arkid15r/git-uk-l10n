@@ -16415,19 +16415,19 @@ msgstr ""
 
 #: builtin/verify-commit.c:21
 msgid "git verify-commit [-v | --verbose] [--raw] <commit>..."
-msgstr "git verify-commit [-v | —verbose] [—raw] <коміт>..."
+msgstr "git verify-commit [-v | —verbose] [--raw] <коміт>..."
 
 #: builtin/verify-commit.c:62
 msgid "print commit contents"
-msgstr "вивести вміст коміту"
+msgstr "показати вміст коміту"
 
 #: builtin/verify-commit.c:63 builtin/verify-tag.c:31
 msgid "print raw gpg status output"
-msgstr "вивести необроблений вивід стану gpg"
+msgstr "показати необроблений вивід стану gpg"
 
 #: builtin/verify-pack.c:60
 msgid "git verify-pack [-v | --verbose] [-s | --stat-only] [--] <pack>.idx..."
-msgstr "git verify-pack [-v | —verbose] [-s | —stat-only] [—] <пакунок>.idx..."
+msgstr "git verify-pack [-v | --verbose] [-s | --stat-only] [--] <пакунок>.idx..."
 
 #: builtin/verify-pack.c:71
 msgid "verbose"
@@ -16439,35 +16439,35 @@ msgstr "показати тільки статистику"
 
 #: builtin/verify-tag.c:20
 msgid "git verify-tag [-v | --verbose] [--format=<format>] [--raw] <tag>..."
-msgstr "git verify-tag [-v | —verbose] [—format=<формат>] [—raw] <тег>..."
+msgstr "git verify-tag [-v | --verbose] [--format=<формат>] [--raw] <тег>..."
 
 #: builtin/verify-tag.c:30
 msgid "print tag contents"
-msgstr "вивести вміст тегу"
+msgstr "показати вміст тегу"
 
 #: builtin/worktree.c:28
 msgid ""
 "git worktree add [-f] [--detach] [--checkout] [--lock [--reason <string>]]\n"
 "                 [-b <new-branch>] <path> [<commit-ish>]"
 msgstr ""
-"git worktree add [-f] [—detach] [—checkout] [—lock] [—reason <строка>]]\n"
-"                 [-b <нова гілка>] <шлях> [<комітоподібне>]"
+"git worktree add [-f] [--detach] [--checkout] [--lock] [--reason <строка>]]\n"
+"                 [-b <нова-гілка>] <шлях> [<комітоподібне>]"
 
 #: builtin/worktree.c:31
 msgid "git worktree list [-v | --porcelain [-z]]"
-msgstr "git worktree list [-v | —porcelain [-z]]"
+msgstr "git worktree list [-v | --porcelain [-z]]"
 
 #: builtin/worktree.c:33
 msgid "git worktree lock [--reason <string>] <worktree>"
-msgstr "git worktree lock [—reason <строка>] <робоче дерево>"
+msgstr "git worktree lock [--reason <строка>] <робоче дерево>"
 
 #: builtin/worktree.c:35
 msgid "git worktree move <worktree> <new-path>"
-msgstr "git worktree move <робоче дерево> <новий шлях>"
+msgstr "git worktree move <робоче-дерево> <новий-шлях>"
 
 #: builtin/worktree.c:37
 msgid "git worktree prune [-n] [-v] [--expire <expire>]"
-msgstr "git worktree prune [-n] [-v] [—expire <строк дії>]"
+msgstr "git worktree prune [-n] [-v] [--expire <термін-дії>]"
 
 #: builtin/worktree.c:39
 msgid "git worktree remove [-f] <worktree>"
