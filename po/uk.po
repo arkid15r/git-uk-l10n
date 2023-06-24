@@ -16384,7 +16384,7 @@ msgstr "видалити посилання"
 
 #: builtin/update-ref.c:512
 msgid "update <refname> not the one it points to"
-msgstr "оновити <назва-посилання>, а не той, на який він вказує"
+msgstr "оновити <назва посилання>, а не той, на який він вказує"
 
 #: builtin/update-ref.c:513
 msgid "stdin has NUL-terminated arguments"
