@@ -7750,7 +7750,7 @@ msgstr "git for-each-ref [<опції>] [<шаблон>]"
 
 #: builtin/for-each-ref.c:14
 msgid "git for-each-ref [--points-at <object>]"
-msgstr "git for-each-ref [--points-at <об'єкт>]"
+msgstr "git for-each-ref [--points-at <обʼєкт>]"
 
 #: builtin/for-each-ref.c:15
 msgid "git for-each-ref [--merged [<commit>]] [--no-merged [<commit>]]"
