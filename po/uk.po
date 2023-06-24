@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-06-23 17:28-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-06-23 18:20-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -16338,6 +16338,8 @@ msgid ""
 "core.untrackedCache is set to false; remove or change it, if you really want "
 "to enable the untracked cache"
 msgstr ""
+"core.untrackedCache встановлено в false; видаліть або змініть його, якщо ви "
+"дійсно хочете увімкнути невідстежуваний кеш"
 
 #: builtin/update-index.c:1262
 #, c-format
@@ -16347,19 +16349,23 @@ msgstr "Увімкнено невідстежуваний кеш для \"%s\""
 #: builtin/update-index.c:1287
 msgid "core.fsmonitor is unset; set it if you really want to enable fsmonitor"
 msgstr ""
+"core.fsmonitor не встановлено; встановіть його, якщо ви дійсно хочете "
+"увімкнути fsmonitor"
 
 #: builtin/update-index.c:1292
 msgid "fsmonitor enabled"
-msgstr ""
+msgstr "fsmonitor увімкнено"
 
 #: builtin/update-index.c:1296
 msgid ""
 "core.fsmonitor is set; remove it if you really want to disable fsmonitor"
 msgstr ""
+"core.fsmonitor встановлено; видаліть його, якщо ви дійсно хочете вимкнути "
+"fsmonitor"
 
 #: builtin/update-index.c:1300
 msgid "fsmonitor disabled"
-msgstr ""
+msgstr "fsmonitor вимкнено"
 
 #: builtin/update-ref.c:14
 msgid "git update-ref [<options>] -d <refname> [<old-val>]"
@@ -16368,10 +16374,11 @@ msgstr "git update-ref [<опції>] -d <назва посилання> [<ст�
 #: builtin/update-ref.c:15
 msgid "git update-ref [<options>]    <refname> <new-val> [<old-val>]"
 msgstr ""
+"git update-ref [<опції>] <назва-посилання> <нове-значення> [<старе-значення>]"
 
 #: builtin/update-ref.c:16
 msgid "git update-ref [<options>] --stdin [-z]"
-msgstr ""
+msgstr "git update-ref [<опції>] --stdin [-z]"
 
 #: builtin/update-ref.c:510
 msgid "delete the reference"
@@ -16379,15 +16386,15 @@ msgstr "видалити посилання"
 
 #: builtin/update-ref.c:512
 msgid "update <refname> not the one it points to"
-msgstr ""
+msgstr "оновити <назвау-посилання>, а не те, на яке воно вказує"
 
 #: builtin/update-ref.c:513
 msgid "stdin has NUL-terminated arguments"
-msgstr ""
+msgstr "stdin має аргументи, що закінчуються NUL"
 
 #: builtin/update-ref.c:514
 msgid "read updates from stdin"
-msgstr ""
+msgstr "читати оновлення з stdin"
 
 #: builtin/update-server-info.c:17
 msgid "update the info files from scratch"
@@ -16398,22 +16405,25 @@ msgid ""
 "git-upload-pack [--[no-]strict] [--timeout=<n>] [--stateless-rpc]\n"
 "                [--advertise-refs] <directory>"
 msgstr ""
+"git-upload-pack [--[no-]strict] [--timeout=<н>] [--stateless-rpc]\n"
+"                [--advertise-refs] <директорія>"
 
 #: builtin/upload-pack.c:27 t/helper/test-serve-v2.c:18
 msgid "quit after a single request/response exchange"
-msgstr ""
+msgstr "припинити роботу після першого запит/відповідь обміну"
 
 #: builtin/upload-pack.c:29
 msgid "serve up the info/refs for git-http-backend"
-msgstr ""
+msgstr "надати info/refs для git-http-backend"
 
 #: builtin/upload-pack.c:32
 msgid "do not try <directory>/.git/ if <directory> is no Git directory"
 msgstr ""
+"не пробувати <директорія>/.git/, якщо <директорія> не є директорією Git"
 
 #: builtin/upload-pack.c:34
 msgid "interrupt transfer after <n> seconds of inactivity"
-msgstr ""
+msgstr "перервати передачу після <н> секунд неактивності"
 
 #: builtin/verify-commit.c:21
 msgid "git verify-commit [-v | --verbose] [--raw] <commit>..."
