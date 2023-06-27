@@ -15601,34 +15601,34 @@ msgstr "Не вдалося злити \"%s\" в підмодулі за шля�
 #: builtin/submodule--helper.c:2298
 #, c-format
 msgid "Execution of '%s %s' failed in submodule path '%s'"
-msgstr "Не вдалося виконати \"%s %s\" у шляху до підмодуля \"%s\""
+msgstr "Не вдалося виконати \"%s %s\" у шляху підмодуля \"%s\""
 
 #: builtin/submodule--helper.c:2314
 #, c-format
 msgid "Submodule path '%s': checked out '%s'\n"
-msgstr "Шлях до підмодуля \"%s\": перейдено до \"%s\"\n"
+msgstr "Шлях підмодуля \"%s\": переключено стан \"%s\"\n"
 
 #: builtin/submodule--helper.c:2318
 #, c-format
 msgid "Submodule path '%s': rebased into '%s'\n"
-msgstr "Шлях до підмодуля \"%s\": перебазовано у \"%s\"\n"
+msgstr "Шлях підмодуля \"%s\": перебазовано в \"%s\"\n"
 
 #: builtin/submodule--helper.c:2322
 #, c-format
 msgid "Submodule path '%s': merged in '%s'\n"
-msgstr "Шлях до підмодуля \"%s\": злито у \"%s\"\n"
+msgstr "Шлях підмодуля \"%s\": злито в \"%s\"\n"
 
 #: builtin/submodule--helper.c:2326
 #, c-format
 msgid "Submodule path '%s': '%s %s'\n"
-msgstr "Шлях до підмодуля \"%s\": \"%s %s\"\n"
+msgstr "Шлях підмодуля \"%s\": \"%s %s\"\n"
 
 #: builtin/submodule--helper.c:2350
 #, c-format
 msgid "Unable to fetch in submodule path '%s'; trying to directly fetch %s:"
 msgstr ""
-"Неможливо виконати отримання у шляху до підмодуля \"%s\"; спроба отримати "
-"безпосередньо %s:"
+"Неможливо виконати отримання шляху підмодуля \"%s\"; спроба отримати "
+"напряму %s:"
 
 #: builtin/submodule--helper.c:2359
 #, c-format
@@ -15656,12 +15656,12 @@ msgstr ""
 #: builtin/submodule--helper.c:2527
 #, c-format
 msgid "Unable to find current revision in submodule path '%s'"
-msgstr "Не вдалося знайти поточну ревізію у шляху до підмодуля \"%s\""
+msgstr "Не вдалося знайти поточну ревізію у шляху підмодуля \"%s\""
 
 #: builtin/submodule--helper.c:2549
 #, c-format
 msgid "Unable to fetch in submodule path '%s'"
-msgstr "Не вдалося виконати отримання у шляху до підмодуля \"%s\""
+msgstr "Не вдалося отримати шлях підмодуля \"%s\""
 
 #: builtin/submodule--helper.c:2554
 #, c-format
@@ -15711,7 +15711,7 @@ msgstr "створити поверхневий клон, урізаний до 
 
 #: builtin/submodule--helper.c:2688
 msgid "parallel jobs"
-msgstr "паралельні роботи"
+msgstr "паралельні потоки"
 
 #: builtin/submodule--helper.c:2690
 msgid "whether the initial clone should follow the shallow recommendation"
@@ -15732,7 +15732,7 @@ msgid ""
 "shallow] [--reference <repository>] [--recursive] [--[no-]single-branch] "
 "[--] [<path>...]"
 msgstr ""
-"git submodule [--quiet] update [--init [--filter=<фільтр-визначник>]] [--"
+"git submodule [--quiet] update [--init [--filter=<визначник-фільтру>]] [--"
 "remote] [-N|--no-fetch] [-f|--force] [--checkout|--merge|--rebase] [--"
 "[no-]recommend-shallow] [--reference <сховище>] [--recursive] [--[no-]single-"
 "branch] [--] [<шлях>...]"
@@ -15743,7 +15743,7 @@ msgstr "git submodule absorbgitdirs [<опції>] [<шлях>...]"
 
 #: builtin/submodule--helper.c:2892
 msgid "suppress output for setting url of a submodule"
-msgstr "приховати вивід для встановлення url підмодуля"
+msgstr "приховати вивід при встановленні url підмодуля"
 
 #: builtin/submodule--helper.c:2896
 msgid "git submodule set-url [--quiet] <path> <newurl>"
@@ -15751,7 +15751,7 @@ msgstr "git submodule set-url [--quiet] <шлях> <новий-url>"
 
 #: builtin/submodule--helper.c:2929
 msgid "set the default tracking branch to master"
-msgstr "встановити гілку відстеження за замовчуванням на master"
+msgstr "встановити гілку відстежування за замовчуванням на master"
 
 #: builtin/submodule--helper.c:2931
 msgid "set the default tracking branch"
@@ -15821,7 +15821,7 @@ msgid ""
 "or you are unsure what this means choose another name with the '--name' "
 "option."
 msgstr ""
-"Якщо ви хочете повторно використати цю локальну директорію git замість того, "
+"Якщо ви хочете повторно використати цю локальну git директорію замість того, "
 "щоб знову клонувати з\n"
 "  %s\n"
 "скористайтеся опцією \"--force\". Якщо локальна директорія git не є "
@@ -15832,7 +15832,7 @@ msgstr ""
 #: builtin/submodule--helper.c:3086
 #, c-format
 msgid "Reactivating local git directory for submodule '%s'\n"
-msgstr "Повторна активація локального каталогу git для підмодуля \"%s\"\n"
+msgstr "Повторна активація локальної git директорії для підмодуля \"%s\"\n"
 
 #: builtin/submodule--helper.c:3125
 #, c-format
@@ -15887,8 +15887,7 @@ msgid ""
 "sets the submodule's name to the given string instead of defaulting to its "
 "path"
 msgstr ""
-"встановлює назву підмодуля на вказане значення замість шляху до нього (за "
-"замовчуванням)"
+"встановлює назву підмодуля на вказане значення замість використання його шляху"
 
 #: builtin/submodule--helper.c:3285
 msgid "git submodule add [<options>] [--] <repository> [<path>]"
@@ -15936,7 +15935,7 @@ msgstr "видалити символьне посилання"
 
 #: builtin/symbolic-ref.c:49
 msgid "shorten ref output"
-msgstr "скоротити вивід посилання"
+msgstr "скоротити вивід посилань"
 
 #: builtin/symbolic-ref.c:50
 msgid "recursively dereference (default)"
@@ -15997,7 +15996,7 @@ msgstr ""
 "\n"
 "Напишіть допис до тегу:\n"
 "  %s\n"
-"Рядки, що починаються з \"%c\", буде проігноровано.\n"
+"Рядки, що починаються з \"%c\", будуть проігноровані.\n"
 
 #: builtin/tag.c:187
 #, c-format
@@ -16011,7 +16010,7 @@ msgstr ""
 "\n"
 "Напишіть допис до тегу:\n"
 "  %s\n"
-"Рядки, що починаються з \"%c\", буде збережено; ви можете вилучити їх "
+"Рядки, що починаються з \"%c\", будуть збережені; ви можете вилучити їх "
 "самостійно, якщо захочете.\n"
 
 #: builtin/tag.c:248
@@ -16047,7 +16046,7 @@ msgstr "Допис до тегу було залишено в %s\n"
 
 #: builtin/tag.c:453
 msgid "list tag names"
-msgstr "показати список назв тегів"
+msgstr "показати назви тегів"
 
 #: builtin/tag.c:455
 msgid "print <n> lines of each tag message"
@@ -16067,7 +16066,7 @@ msgstr "Опції створення тегів"
 
 #: builtin/tag.c:462
 msgid "annotated tag, needs a message"
-msgstr "анотований тег, потребує допису"
+msgstr "анотований тег потребує допису"
 
 #: builtin/tag.c:464
 msgid "tag message"
@@ -16099,15 +16098,15 @@ msgstr "Опції виводу тегів"
 
 #: builtin/tag.c:475
 msgid "show tag list in columns"
-msgstr "показати список тегів у стовпчиках"
+msgstr "показати список тегів в стовпчиках"
 
 #: builtin/tag.c:476 builtin/tag.c:478
 msgid "print only tags that contain the commit"
-msgstr "вивести тільки теги, які містять коміти"
+msgstr "вивести тільки теги, що містять коміти"
 
 #: builtin/tag.c:477 builtin/tag.c:479
 msgid "print only tags that don't contain the commit"
-msgstr "вивести тільки теги, які не містять комітів"
+msgstr "вивести тільки теги, що не містять комітів"
 
 #: builtin/tag.c:480
 msgid "print only tags that are merged"
@@ -16124,7 +16123,7 @@ msgstr "вивести тільки теги обʼєкта"
 #: builtin/tag.c:569
 #, c-format
 msgid "the '%s' option is only allowed in list mode"
-msgstr "опція \"%s\" дозволена лише в режимі списку"
+msgstr "опція \"%s\" дозволена лише в режимі виводу"
 
 #: builtin/tag.c:608
 #, c-format
@@ -16144,7 +16143,7 @@ msgstr "Неприпустимий режим очищення %s"
 #: builtin/tag.c:644
 #, c-format
 msgid "Updated tag '%s' (was %s)\n"
-msgstr "Оновлений тег \"%s\" (було %s)\n"
+msgstr "Оновлено тег \"%s\" (було %s)\n"
 
 #: builtin/unpack-objects.c:101
 msgid "pack exceeds maximum allowed size"
@@ -16190,32 +16189,32 @@ msgstr "Тестування mtime в \"%s\" "
 #: builtin/update-index.c:170
 msgid "directory stat info does not change after adding a new file"
 msgstr ""
-"статистична інформація директорії не змінюється після додання нового файла"
+"статистична інформація директорії не змінилась після додання нового файла"
 
 #: builtin/update-index.c:183
 msgid "directory stat info does not change after adding a new directory"
 msgstr ""
-"статистична інформація директорії не змінюється після додання нової "
+"статистична інформація директорії не змінилась після додання нової "
 "директорії"
 
 #: builtin/update-index.c:196
 msgid "directory stat info changes after updating a file"
-msgstr "статистична інформація директорії змінюється після оновленя файла"
+msgstr "статистична інформація директорії змінилась після оновлення файла"
 
 #: builtin/update-index.c:207
 msgid "directory stat info changes after adding a file inside subdirectory"
 msgstr ""
-"статистична інформація директорії змінюється після додання файла до "
+"статистична інформація директорії змінилась після додання файла до "
 "піддиректорії"
 
 #: builtin/update-index.c:218
 msgid "directory stat info does not change after deleting a file"
-msgstr "статистична інформація директорії не змінюється після видалення файла"
+msgstr "статистична інформація директорії не змінилась після видалення файла"
 
 #: builtin/update-index.c:231
 msgid "directory stat info does not change after deleting a directory"
 msgstr ""
-"статистична інформація директорії не змінюється після видалення директорії"
+"статистична інформація директорії не змінилась після видалення директорії"
 
 #: builtin/update-index.c:238
 msgid " OK"
@@ -16243,7 +16242,7 @@ msgstr "дозволити файлам замінювати директорі�
 
 #: builtin/update-index.c:1022
 msgid "notice files missing from worktree"
-msgstr "notice files missing from worktree"
+msgstr "повідомляти про файли, відсутні в робочому дереві"
 
 #: builtin/update-index.c:1024
 msgid "refresh even if index contains unmerged entries"
@@ -16307,11 +16306,11 @@ msgstr "додати записи зі стандартного вводу до 
 
 #: builtin/update-index.c:1074
 msgid "repopulate stages #2 and #3 for the listed paths"
-msgstr "перезаповнити етапи #2 і #3 для перелічених шляхів"
+msgstr "перезаповнити етапи №2 і №3 для перелічених шляхів"
 
 #: builtin/update-index.c:1078
 msgid "only update entries that differ from HEAD"
-msgstr "оновлювати тільки ті записи, які відрізняються від HEAD"
+msgstr "оновити тільки ті записи, які відрізняються від HEAD"
 
 #: builtin/update-index.c:1082
 msgid "ignore files missing from worktree"
@@ -16347,7 +16346,7 @@ msgstr "увімкнути невідстежуваний кеш без тест
 
 #: builtin/update-index.c:1101
 msgid "write out the index even if is not flagged as changed"
-msgstr "вивести індекс, навіть якщо він не позначений як змінений"
+msgstr "записати індекс, навіть якщо він не позначений як змінений"
 
 #: builtin/update-index.c:1103
 msgid "enable or disable file system monitor"
@@ -16359,7 +16358,7 @@ msgstr "позначити файли придатними для fsmonitor"
 
 #: builtin/update-index.c:1108
 msgid "clear fsmonitor valid bit"
-msgstr "очистити придатний біт fsmonitor"
+msgstr "очистити біт придатності для fsmonitor"
 
 #: builtin/update-index.c:1225
 msgid ""
