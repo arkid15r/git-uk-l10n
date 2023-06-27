@@ -7864,7 +7864,7 @@ msgid ""
 "broken link from %7s %s\n"
 "              to %7s %s"
 msgstr ""
-"пошеоджене посилання з %7s %s\n"
+"пошкоджене посилання з %7s %s\n"
 "                    на %7s %s"
 
 #: builtin/fsck.c:196 builtin/prune.c:63 connected.c:115
@@ -8142,7 +8142,7 @@ msgstr "значення \"%s\" не є bool або int: %d"
 #: builtin/fsmonitor--daemon.c:106
 #, c-format
 msgid "fsmonitor-daemon is watching '%s'\n"
-msgstr "fsmonitor-daemon стежить за '%s'\n"
+msgstr "fsmonitor-daemon стежить за \"%s\"\n"
 
 #: builtin/fsmonitor--daemon.c:111
 #, c-format
@@ -8387,12 +8387,12 @@ msgstr "\"git multi-pack-index repack\" завершився невдало"
 msgid ""
 "skipping incremental-repack task because core.multiPackIndex is disabled"
 msgstr ""
-"пропуск incremental-repack завдання, оскільки core.multiPackIndex вимкнено."
+"пропуск incremental-repack завдання, оскільки core.multiPackIndex вимкнено"
 
 #: builtin/gc.c:1311
 #, c-format
 msgid "lock file '%s' exists, skipping maintenance"
-msgstr "файл блокування \"%s\" існує, пропускаємо обслуговування"
+msgstr "файл блокування \"%s\" існує, пропуск обслуговування"
 
 #: builtin/gc.c:1341
 #, c-format
