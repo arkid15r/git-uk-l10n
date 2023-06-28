@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-06-25 20:17-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-06-27 19:08-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: add-interactive.c:385
 #, c-format
@@ -15542,15 +15542,15 @@ msgstr "куди буде клоновано новий підмодуль"
 
 #: builtin/submodule--helper.c:1783
 msgid "name of the new submodule"
-msgstr ""
+msgstr "назва нового підмодуля"
 
 #: builtin/submodule--helper.c:1786
 msgid "url where to clone the submodule from"
-msgstr ""
+msgstr "url адреса, звідки клонувати підмодуль"
 
 #: builtin/submodule--helper.c:1794 builtin/submodule--helper.c:3281
 msgid "depth for shallow clones"
-msgstr ""
+msgstr "глибина для неглибоких клонів"
 
 #: builtin/submodule--helper.c:1797 builtin/submodule--helper.c:2693
 #: builtin/submodule--helper.c:3274
@@ -15559,7 +15559,7 @@ msgstr "примусово звітувати прогрес клонуванн�
 
 #: builtin/submodule--helper.c:1799
 msgid "disallow cloning into non-empty directory"
-msgstr ""
+msgstr "заборонити клонування у непорожню директорію"
 
 #: builtin/submodule--helper.c:1806
 msgid ""
@@ -15567,6 +15567,9 @@ msgid ""
 "<repository>] [--name <name>] [--depth <depth>] [--single-branch] [--filter "
 "<filter-spec>] --url <url> --path <path>"
 msgstr ""
+"git submodule--helper clone [--prefix=<шлях>] [--quiet] [--reference "
+"<сховище>] [--name <назва>] [--depth <глибина>] [--single-branch] [--filter "
+"<визначник-фільтру>] --url <url> --path <шлях>"
 
 #: builtin/submodule--helper.c:1849
 #, c-format
@@ -15578,36 +15581,36 @@ msgstr ""
 #: builtin/submodule--helper.c:1959
 #, c-format
 msgid "Submodule path '%s' not initialized"
-msgstr ""
+msgstr "Підмодуль за шляхом \"%s\" не ініціалізовано"
 
 #: builtin/submodule--helper.c:1963
 msgid "Maybe you want to use 'update --init'?"
-msgstr ""
+msgstr "Можливо, ви хочете скористатись командою \"update --init\"?"
 
 #: builtin/submodule--helper.c:1990
 #, c-format
 msgid "Skipping unmerged submodule %s"
-msgstr ""
+msgstr "Пропуск не злитого підмодуля %s"
 
 #: builtin/submodule--helper.c:2013
 #, c-format
 msgid "Skipping submodule '%s'"
-msgstr ""
+msgstr "Пропуск підмодуля \"%s\""
 
 #: builtin/submodule--helper.c:2170
 #, c-format
 msgid "Failed to clone '%s'. Retry scheduled"
-msgstr ""
+msgstr "Не вдалося клонувати \"%s\". Повторна спроба запланована"
 
 #: builtin/submodule--helper.c:2181
 #, c-format
 msgid "Failed to clone '%s' a second time, aborting"
-msgstr ""
+msgstr "Не вдалося клонувати \"%s\" вдруге, переривання"
 
 #: builtin/submodule--helper.c:2285
 #, c-format
 msgid "Unable to checkout '%s' in submodule path '%s'"
-msgstr ""
+msgstr "Не вдалося переключитися на \"%s\" у підмодулі за шляхом \"%s\""
 
 #: builtin/submodule--helper.c:2290
 #, c-format
@@ -15648,8 +15651,8 @@ msgstr "Шлях підмодуля \"%s\": \"%s %s\"\n"
 #, c-format
 msgid "Unable to fetch in submodule path '%s'; trying to directly fetch %s:"
 msgstr ""
-"Неможливо виконати отримання шляху підмодуля \"%s\"; спроба отримати "
-"напряму %s:"
+"Неможливо виконати отримання шляху підмодуля \"%s\"; спроба отримати напряму "
+"%s:"
 
 #: builtin/submodule--helper.c:2359
 #, c-format
@@ -15908,7 +15911,8 @@ msgid ""
 "sets the submodule's name to the given string instead of defaulting to its "
 "path"
 msgstr ""
-"встановлює назву підмодуля на вказане значення замість використання його шляху"
+"встановлює назву підмодуля на вказане значення замість використання його "
+"шляху"
 
 #: builtin/submodule--helper.c:3285
 msgid "git submodule add [<options>] [--] <repository> [<path>]"
@@ -16215,8 +16219,7 @@ msgstr ""
 #: builtin/update-index.c:183
 msgid "directory stat info does not change after adding a new directory"
 msgstr ""
-"статистична інформація директорії не змінилась після додання нової "
-"директорії"
+"статистична інформація директорії не змінилась після додання нової директорії"
 
 #: builtin/update-index.c:196
 msgid "directory stat info changes after updating a file"
