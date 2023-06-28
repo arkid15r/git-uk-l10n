@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-06-25 20:17-0700\n"
+"PO-Revision-Date: 2023-06-27 18:15-0700\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: add-interactive.c:385
 #, c-format
@@ -3344,7 +3344,7 @@ msgstr "показати статистику вартості робіт"
 #: builtin/multi-pack-index.c:237 builtin/pull.c:125 builtin/push.c:619
 #: builtin/remote.c:693 builtin/send-pack.c:204
 msgid "force progress reporting"
-msgstr "примусово звітувати прогрес"
+msgstr "примусово звітувати про хід виконання"
 
 #: builtin/blame.c:886
 msgid "show output score for blame entries"
@@ -4048,11 +4048,11 @@ msgstr "потрібен аргумент <файл>"
 
 #: builtin/bundle.c:79 builtin/pack-objects.c:4183
 msgid "do not show progress meter"
-msgstr "не показувати прогрес виконання"
+msgstr "не показувати хід виконання"
 
 #: builtin/bundle.c:81 builtin/bundle.c:202 builtin/pack-objects.c:4185
 msgid "show progress meter"
-msgstr "показувати прогрес виконання"
+msgstr "показувати лічильник ходу виконання"
 
 #: builtin/bundle.c:83
 msgid "historical; same as --progress"
@@ -4330,7 +4330,7 @@ msgstr "атрибути якого деревоподібного джерел�
 #: builtin/check-ignore.c:24 builtin/checkout.c:1593 builtin/gc.c:573
 #: builtin/worktree.c:632
 msgid "suppress progress reporting"
-msgstr "не звітувати прогрес"
+msgstr "не звітувати про хід виконання"
 
 #: builtin/check-ignore.c:32
 msgid "show non-matching input paths"
@@ -8411,19 +8411,19 @@ msgstr "завдання \"%s\" не можна вибрати кілька ра
 
 #: builtin/gc.c:1443
 msgid "run tasks based on the state of the repository"
-msgstr ""
+msgstr "запускати завдання на основі стану сховища"
 
 #: builtin/gc.c:1444
 msgid "frequency"
-msgstr ""
+msgstr "частота"
 
 #: builtin/gc.c:1445
 msgid "run tasks based on frequency"
-msgstr ""
+msgstr "запускати задачі на основі частоти"
 
 #: builtin/gc.c:1448
 msgid "do not report progress or other information over stderr"
-msgstr ""
+msgstr "не показувати хід виконання та іншу інформацію в stderr"
 
 #: builtin/gc.c:1449
 msgid "task"
@@ -15648,8 +15648,8 @@ msgstr "Шлях підмодуля \"%s\": \"%s %s\"\n"
 #, c-format
 msgid "Unable to fetch in submodule path '%s'; trying to directly fetch %s:"
 msgstr ""
-"Неможливо виконати отримання шляху підмодуля \"%s\"; спроба отримати "
-"напряму %s:"
+"Неможливо виконати отримання шляху підмодуля \"%s\"; спроба отримати напряму "
+"%s:"
 
 #: builtin/submodule--helper.c:2359
 #, c-format
@@ -15908,7 +15908,8 @@ msgid ""
 "sets the submodule's name to the given string instead of defaulting to its "
 "path"
 msgstr ""
-"встановлює назву підмодуля на вказане значення замість використання його шляху"
+"встановлює назву підмодуля на вказане значення замість використання його "
+"шляху"
 
 #: builtin/submodule--helper.c:3285
 msgid "git submodule add [<options>] [--] <repository> [<path>]"
@@ -16215,8 +16216,7 @@ msgstr ""
 #: builtin/update-index.c:183
 msgid "directory stat info does not change after adding a new directory"
 msgstr ""
-"статистична інформація директорії не змінилась після додання нової "
-"директорії"
+"статистична інформація директорії не змінилась після додання нової директорії"
 
 #: builtin/update-index.c:196
 msgid "directory stat info changes after updating a file"
@@ -24899,7 +24899,7 @@ msgstr "неможливо зробити \"%s\" без попереднього
 
 #: sequencer.c:2781
 msgid "cancelling a cherry picking in progress"
-msgstr "скасування поточного висмикування"
+msgstr "наразі йде скасування висмикування"
 
 #: sequencer.c:2790
 msgid "cancelling a revert in progress"
@@ -24941,7 +24941,7 @@ msgstr "передано порожній набір комітів"
 
 #: sequencer.c:3177
 msgid "revert is already in progress"
-msgstr "наразі виконується операція вивертання"
+msgstr "наразі вже триває вивертання"
 
 #: sequencer.c:3179
 #, c-format
@@ -24996,11 +24996,11 @@ msgstr ""
 
 #: sequencer.c:3347
 msgid "no revert in progress"
-msgstr "наразі операція вивертання не виконується"
+msgstr "наразі не виконується вивертання"
 
 #: sequencer.c:3356
 msgid "no cherry-pick in progress"
-msgstr "наразі висмикування не виконується"
+msgstr "наразі не виконується висмикування"
 
 #: sequencer.c:3366
 msgid "failed to skip the commit"
@@ -27158,7 +27158,7 @@ msgstr ""
 
 #: wt-status.c:1541
 msgid "Revert currently in progress."
-msgstr "Наразі виконується операція вивертання."
+msgstr "Наразі триває вивертання."
 
 #: wt-status.c:1544
 #, c-format
@@ -27217,11 +27217,11 @@ msgstr "Гілка "
 
 #: wt-status.c:1846
 msgid "interactive rebase in progress; onto "
-msgstr "інтерактивне перебазування в процесі; на "
+msgstr "триває інтерактивне перебазування на "
 
 #: wt-status.c:1848
 msgid "rebase in progress; onto "
-msgstr "перебазування в процесі; на "
+msgstr "триває перебазування на "
 
 #: wt-status.c:1853
 msgid "HEAD detached at "
