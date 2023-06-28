@@ -15600,7 +15600,7 @@ msgstr "Пропуск підмодуля \"%s\""
 #: builtin/submodule--helper.c:2170
 #, c-format
 msgid "Failed to clone '%s'. Retry scheduled"
-msgstr "Не вдалося клонувати \"%s\". Повторна спроба запланована"
+msgstr "Не вдалося клонувати \"%s\". Запланована повторна спроба"
 
 #: builtin/submodule--helper.c:2181
 #, c-format
