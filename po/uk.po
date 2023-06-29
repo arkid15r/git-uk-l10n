@@ -8427,29 +8427,29 @@ msgstr "не показувати хід виконання та іншу інф
 
 #: builtin/gc.c:1449
 msgid "task"
-msgstr ""
+msgstr "завдання"
 
 #: builtin/gc.c:1450
 msgid "run a specific task"
-msgstr ""
+msgstr "запустити певне завдання"
 
 #: builtin/gc.c:1467
 msgid "use at most one of --auto and --schedule=<frequency>"
-msgstr ""
+msgstr "використовуйте щонайбільше одну з опцій --auto та --schedule=<частота>"
 
 #: builtin/gc.c:1544
 #, c-format
 msgid "unable to add '%s' value of '%s'"
-msgstr "не вдалося додати значення \"%s\" до \"%s\""
+msgstr "не вдалося додати \"%s\" значення до \"%s\""
 
 #: builtin/gc.c:1564
 msgid "return success even if repository was not registered"
-msgstr ""
+msgstr "повертати успіх, навіть якщо сховище не було зареєстровано"
 
 #: builtin/gc.c:1613
 #, c-format
 msgid "unable to unset '%s' value of '%s'"
-msgstr "не вдалося скинути значення \"%s\" для \"%s\""
+msgstr "не вдалося скинути \"%s\" значення для \"%s\""
 
 #: builtin/gc.c:1616
 #, c-format
@@ -8486,6 +8486,8 @@ msgstr "не вдалося запустити schtasks"
 #: builtin/gc.c:2171
 msgid "failed to run 'crontab -l'; your system might not support 'cron'"
 msgstr ""
+"не вдалося запустити \"crontab -l\"; можливо, ваша система не підтримує "
+"\"cron\""
 
 #: builtin/gc.c:2178
 msgid "failed to create crontab temporary file"
@@ -8498,10 +8500,11 @@ msgstr "не вдалося відкрити тимчасовий файл"
 #: builtin/gc.c:2233
 msgid "failed to run 'crontab'; your system might not support 'cron'"
 msgstr ""
+"не вдалося запустити \"crontab\"; можливо, ваша система не підтримує \"cron\""
 
 #: builtin/gc.c:2238
 msgid "'crontab' died"
-msgstr ""
+msgstr "\"crontab\" завершився невдало"
 
 #: builtin/gc.c:2305
 msgid "failed to start systemctl"
