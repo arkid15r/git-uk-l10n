@@ -15524,7 +15524,7 @@ msgstr ""
 #: builtin/submodule--helper.c:1726
 #, c-format
 msgid "clone of '%s' into submodule path '%s' failed"
-msgstr "не вдалося клонувати \"%s\" у підмодуль за шляхом \"%s\""
+msgstr "не вдалося клонувати \"%s\" у шлях підмодуля \"%s\""
 
 #: builtin/submodule--helper.c:1733
 #, c-format
