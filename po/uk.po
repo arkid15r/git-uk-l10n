@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-06-28 17:54-0700\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-07-03 16:46-0700\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -708,9 +708,9 @@ msgstr "Неприпустиме число: \"%s\""
 #, c-format
 msgid "Sorry, only %d hunk available."
 msgid_plural "Sorry, only %d hunks available."
-msgstr[0] "Вибачте, доступний лише %d шматок."
-msgstr[1] "Вибачте, доступно лише %d шматки."
-msgstr[2] "Вибачте, доступно лише %d шматків."
+msgstr[0] "Вибачайте, доступний лише %d шматок."
+msgstr[1] "Вибачайте, доступно лише %d шматки."
+msgstr[2] "Вибачайте, доступно лише %d шматків."
 
 #: add-patch.c:1601
 msgid "No other hunks to search"
@@ -731,7 +731,7 @@ msgstr "Жоден шматок не відповідає заданому ша�
 
 #: add-patch.c:1646
 msgid "Sorry, cannot split this hunk"
-msgstr "Вибачте, не можу розщепити цей шматок"
+msgstr "Вибачайте, не можу розщепити цей шматок"
 
 #: add-patch.c:1650
 #, c-format
@@ -740,7 +740,7 @@ msgstr "Розщепити на %d шматків."
 
 #: add-patch.c:1654
 msgid "Sorry, cannot edit this hunk"
-msgstr "Вибачте, не можу редагувати цей шматок"
+msgstr "Вибачайте, не можу редагувати цей шматок"
 
 #: add-patch.c:1706
 msgid "'git apply' failed"
@@ -3331,7 +3331,7 @@ msgstr "не показувати назви об’єктів межевих к
 
 #: builtin/blame.c:883
 msgid "do not treat root commits as boundaries (Default: off)"
-msgstr "не розглядати кореневі коміти як межі (за замовчуванням: off)"
+msgstr "не обробляти кореневі коміти як межі (за замовчуванням: off)"
 
 #: builtin/blame.c:884
 msgid "show work cost statistics"
@@ -3444,8 +3444,8 @@ msgstr "діапазон"
 #: builtin/blame.c:907
 msgid "process only line range <start>,<end> or function :<funcname>"
 msgstr ""
-"обробити тільки діапазон рядків <початок>,<кінець> або функцію :"
-"<назвафункції>"
+"обробити тільки діапазон рядків <початок>,<кінець> або функцію :<назва-"
+"функції>"
 
 #: builtin/blame.c:970
 msgid "--progress can't be used with --incremental or porcelain formats"
@@ -8528,40 +8528,40 @@ msgstr "не вдалося очистити \"%s\""
 #: builtin/gc.c:2509
 #, c-format
 msgid "unrecognized --scheduler argument '%s'"
-msgstr ""
+msgstr "нерозпізнаний --scheduler аргумент \"%s\""
 
 #: builtin/gc.c:2534
 msgid "neither systemd timers nor crontab are available"
-msgstr ""
+msgstr "недоступні ні systemd таймери, ні crontab"
 
 #: builtin/gc.c:2549
 #, c-format
 msgid "%s scheduler is not available"
-msgstr ""
+msgstr "%s планувальник %s недоступний"
 
 #: builtin/gc.c:2563
 msgid "another process is scheduling background maintenance"
-msgstr ""
+msgstr "ще один процес планує фонове обслуговування"
 
 #: builtin/gc.c:2585
 msgid "git maintenance start [--scheduler=<scheduler>]"
-msgstr ""
+msgstr "git maintenance start [--scheduler=<планувальник>]"
 
 #: builtin/gc.c:2594
 msgid "scheduler"
-msgstr ""
+msgstr "планувальник"
 
 #: builtin/gc.c:2595
 msgid "scheduler to trigger git maintenance run"
-msgstr ""
+msgstr "планувальник для запуску обслуговування git"
 
 #: builtin/gc.c:2610
 msgid "failed to add repo to global config"
-msgstr ""
+msgstr "не вдалося додати сховище до глобальної конфігурації"
 
 #: builtin/gc.c:2632
 msgid "git maintenance <subcommand> [<options>]"
-msgstr ""
+msgstr "git maintenance <підкоманда> [<опції>]"
 
 #: builtin/grep.c:39
 msgid "git grep [<options>] [-e] <pattern> [<rev>...] [[--] <path>...]"
@@ -8575,7 +8575,7 @@ msgstr "grep: не вдалося створити потік: %s"
 #: builtin/grep.c:302
 #, c-format
 msgid "invalid number of threads specified (%d) for %s"
-msgstr "невірно вказано кількість потоків (%d) для %s"
+msgstr "невірно вказана кількість потоків (%d) для %s"
 
 #. TRANSLATORS: %s is the configuration
 #. variable for tweaking threads, currently
@@ -8585,7 +8585,7 @@ msgstr "невірно вказано кількість потоків (%d) д�
 #: builtin/pack-objects.c:3188
 #, c-format
 msgid "no threads support, ignoring %s"
-msgstr "немає підтримки потоків, ігноруються %s"
+msgstr "немає підтримки потоків, ігнорування %s"
 
 #: builtin/grep.c:524 builtin/grep.c:665 builtin/grep.c:705
 #, c-format
@@ -8595,12 +8595,12 @@ msgstr "не вдалося прочитати дерево (%s)"
 #: builtin/grep.c:720
 #, c-format
 msgid "unable to grep from object of type %s"
-msgstr "не вдалося виконати grep з об’єкта типу %s"
+msgstr "не вдалося виконати grep для об’єкта типу %s"
 
 #: builtin/grep.c:800
 #, c-format
 msgid "switch `%c' expects a numerical value"
-msgstr ""
+msgstr "switch \"%c\" очікує числове значення"
 
 #: builtin/grep.c:898
 msgid "search in index instead of in the work tree"
@@ -8608,7 +8608,7 @@ msgstr "шукати в індексі замість робочого дере�
 
 #: builtin/grep.c:900
 msgid "find in contents not managed by git"
-msgstr ""
+msgstr "шукати у вмісті, не індексованому git"
 
 #: builtin/grep.c:902
 msgid "search in both tracked and untracked files"
@@ -8616,7 +8616,7 @@ msgstr "шукати як у відстежуваних, так і в невід
 
 #: builtin/grep.c:904
 msgid "ignore files specified via '.gitignore'"
-msgstr ""
+msgstr "ігнорувати файли, вказані через \".gitignore\""
 
 #: builtin/grep.c:906
 msgid "recursively search in each submodule"
@@ -8624,175 +8624,175 @@ msgstr "шукати рекурсивно в кожному підмодулі"
 
 #: builtin/grep.c:909
 msgid "show non-matching lines"
-msgstr ""
+msgstr "показувати рядки, що не збігаються"
 
 #: builtin/grep.c:911
 msgid "case insensitive matching"
-msgstr ""
+msgstr "нечутливе до регістру зіставлення"
 
 #: builtin/grep.c:913
 msgid "match patterns only at word boundaries"
-msgstr ""
+msgstr "зіставляти шаблони тільки на межі слів"
 
 #: builtin/grep.c:915
 msgid "process binary files as text"
-msgstr ""
+msgstr "обробляти бінарні файли як текст"
 
 #: builtin/grep.c:917
 msgid "don't match patterns in binary files"
-msgstr ""
+msgstr "не зіставляти шаблони в бінарних файлах"
 
 #: builtin/grep.c:920
 msgid "process binary files with textconv filters"
-msgstr ""
+msgstr "обробляти бінарні файли за допомогою textconv фільтрів"
 
 #: builtin/grep.c:922
 msgid "search in subdirectories (default)"
-msgstr ""
+msgstr "шукати в піддиректоріях (за замовчуванням)"
 
 #: builtin/grep.c:924
 msgid "descend at most <depth> levels"
-msgstr ""
+msgstr "спускатися не більше ніж на <глибина> рівнів"
 
 #: builtin/grep.c:928
 msgid "use extended POSIX regular expressions"
-msgstr ""
+msgstr "використовувати розширені POSIX регулярні вирази"
 
 #: builtin/grep.c:931
 msgid "use basic POSIX regular expressions (default)"
-msgstr ""
+msgstr "використовувати базові регулярні вирази POSIX (за замовчуванням)"
 
 #: builtin/grep.c:934
 msgid "interpret patterns as fixed strings"
-msgstr ""
+msgstr "інтерпретувати шаблони як фіксовані строки"
 
 #: builtin/grep.c:937
 msgid "use Perl-compatible regular expressions"
-msgstr ""
+msgstr "використовувати Perl-сумісні регулярні вирази"
 
 #: builtin/grep.c:940
 msgid "show line numbers"
-msgstr ""
+msgstr "показувати номери рядків"
 
 #: builtin/grep.c:941
 msgid "show column number of first match"
-msgstr ""
+msgstr "показувати номер стовпця першого збігу"
 
 #: builtin/grep.c:942
 msgid "don't show filenames"
-msgstr ""
+msgstr "не показувати назви файлів"
 
 #: builtin/grep.c:943
 msgid "show filenames"
-msgstr ""
+msgstr "показувати назви файлів"
 
 #: builtin/grep.c:945
 msgid "show filenames relative to top directory"
-msgstr ""
+msgstr "показувати назви файлів відносно верхнього каталогу"
 
 #: builtin/grep.c:947
 msgid "show only filenames instead of matching lines"
-msgstr ""
+msgstr "показувати лише назви файлів замість відповідних рядків"
 
 #: builtin/grep.c:949
 msgid "synonym for --files-with-matches"
-msgstr ""
+msgstr "синонім для --files-with-matches"
 
 #: builtin/grep.c:952
 msgid "show only the names of files without match"
-msgstr ""
+msgstr "показувати лише назви файлів без збігу"
 
 #: builtin/grep.c:954
 msgid "print NUL after filenames"
-msgstr ""
+msgstr "друкувати NUL після назв файлів"
 
 #: builtin/grep.c:957
 msgid "show only matching parts of a line"
-msgstr ""
+msgstr "показувати лише частини рядка, що збігаються"
 
 #: builtin/grep.c:959
 msgid "show the number of matches instead of matching lines"
-msgstr ""
+msgstr "показувати кількість збігів замість рядків, що збігаються"
 
 #: builtin/grep.c:960
 msgid "highlight matches"
-msgstr ""
+msgstr "виділяти збіги"
 
 #: builtin/grep.c:962
 msgid "print empty line between matches from different files"
-msgstr ""
+msgstr "друкувати порожній рядок між збігами з різних файлів"
 
 #: builtin/grep.c:964
 msgid "show filename only once above matches from same file"
-msgstr ""
+msgstr "показувати назву файлу лише один раз над збігами з того файлу"
 
 #: builtin/grep.c:967
 msgid "show <n> context lines before and after matches"
-msgstr ""
+msgstr "показувати <н>рядків до і після збігу"
 
 #: builtin/grep.c:970
 msgid "show <n> context lines before matches"
-msgstr ""
+msgstr "показувати <н> рядків до збігу"
 
 #: builtin/grep.c:972
 msgid "show <n> context lines after matches"
-msgstr ""
+msgstr "показувати <н> рядків після збігу"
 
 #: builtin/grep.c:974
 msgid "use <n> worker threads"
-msgstr ""
+msgstr "використати <н> робочих потоків"
 
 #: builtin/grep.c:975
 msgid "shortcut for -C NUM"
-msgstr ""
+msgstr "скорочення для -C номер"
 
 #: builtin/grep.c:978
 msgid "show a line with the function name before matches"
-msgstr ""
+msgstr "показувати рядок з назвою функції перед збігами"
 
 #: builtin/grep.c:980
 msgid "show the surrounding function"
-msgstr ""
+msgstr "показати навколишню функцію"
 
 #: builtin/grep.c:983
 msgid "read patterns from file"
-msgstr ""
+msgstr "зчитувати шаблони з файлу"
 
 #: builtin/grep.c:985
 msgid "match <pattern>"
-msgstr ""
+msgstr "зіставляти <шаблон>"
 
 #: builtin/grep.c:987
 msgid "combine patterns specified with -e"
-msgstr ""
+msgstr "об’єднати шаблони, вказані через -e"
 
 #: builtin/grep.c:999
 msgid "indicate hit with exit status without output"
-msgstr ""
+msgstr "позначати збіг кодом виходу без виводу"
 
 #: builtin/grep.c:1001
 msgid "show only matches from files that match all patterns"
-msgstr ""
+msgstr "показувати збіги лише з файлів, які відповідають усім шаблонам"
 
 #: builtin/grep.c:1004
 msgid "pager"
-msgstr ""
+msgstr "пейджер"
 
 #: builtin/grep.c:1004
 msgid "show matching files in the pager"
-msgstr ""
+msgstr "показати відповідні файли в пейджері"
 
 #: builtin/grep.c:1008
 msgid "allow calling of grep(1) (ignored by this build)"
-msgstr ""
+msgstr "дозволяти виклик grep(1) (ігнорується у цій збірці)"
 
 #: builtin/grep.c:1011
 msgid "maximum number of results per file"
-msgstr ""
+msgstr "максимальна кількість результатів у файлі"
 
 #: builtin/grep.c:1081
 msgid "no pattern given"
-msgstr ""
+msgstr "шаблон не надано"
 
 #: builtin/grep.c:1117
 msgid "--no-index or --untracked cannot be used with revs"
@@ -8805,11 +8805,11 @@ msgstr "не вдалося розвʼязати ревізію: %s"
 
 #: builtin/grep.c:1155
 msgid "--untracked not supported with --recurse-submodules"
-msgstr ""
+msgstr "--untracked не підтримується з --recurse-submodules"
 
 #: builtin/grep.c:1166
 msgid "invalid option combination, ignoring --threads"
-msgstr ""
+msgstr "неприпустима комбінація опцій, ігнорування --threads"
 
 #: builtin/grep.c:1169 builtin/pack-objects.c:4373
 msgid "no threads support, ignoring --threads"
@@ -8822,25 +8822,28 @@ msgstr "вказано неприпустиму кількість потокі�
 
 #: builtin/grep.c:1206
 msgid "--open-files-in-pager only works on the worktree"
-msgstr ""
+msgstr "--open-files-in-pager працює тільки в робочому дереві"
 
 #: builtin/grep.c:1239
 msgid "--[no-]exclude-standard cannot be used for tracked contents"
 msgstr ""
+"--[no-]exclude-standard не можна використовувати для відстежуваного вмісту"
 
 #: builtin/grep.c:1247
 msgid "both --cached and trees are given"
-msgstr ""
+msgstr "надані як --cached, так і дерева"
 
 #: builtin/hash-object.c:90
 msgid ""
 "git hash-object [-t <type>] [-w] [--path=<file> | --no-filters]\n"
 "                [--stdin [--literally]] [--] <file>..."
 msgstr ""
+"git hash-object [-t <тип>] [-w] [--path=<файл> | --no-filters]\n"
+"                [--stdin [--literally]] [--] <файл>..."
 
 #: builtin/hash-object.c:92
 msgid "git hash-object [-t <type>] [-w] --stdin-paths [--no-filters]"
-msgstr ""
+msgstr "git hash-object [-t <тип>] [-w] --stdin-paths [--no-filters]"
 
 #: builtin/hash-object.c:105
 msgid "object type"
@@ -8848,94 +8851,97 @@ msgstr "тип обʼєкта"
 
 #: builtin/hash-object.c:106
 msgid "write the object into the object database"
-msgstr ""
+msgstr "записати об’єкт до бази даних об’єктів"
 
 #: builtin/hash-object.c:108
 msgid "read the object from stdin"
-msgstr ""
+msgstr "прочитати об’єкт з stdin"
 
 #: builtin/hash-object.c:110
 msgid "store file as is without filters"
-msgstr ""
+msgstr "зберегти файл як є без фільтрів"
 
 #: builtin/hash-object.c:111
 msgid ""
 "just hash any random garbage to create corrupt objects for debugging Git"
 msgstr ""
+"просто хешувати будь-який випадковий непотріб, щоб створити пошкоджені "
+"об’єкти для налагодження Git"
 
 #: builtin/hash-object.c:112
 msgid "process file as it were from this path"
-msgstr ""
+msgstr "оброблювати файл, наче він з цього шляху"
 
 #: builtin/help.c:63
 msgid "print all available commands"
-msgstr ""
+msgstr "показати всі доступні команди"
 
 #: builtin/help.c:66
 msgid "show external commands in --all"
-msgstr ""
+msgstr "показати зовнішні команди в --all"
 
 #: builtin/help.c:67
 msgid "show aliases in --all"
-msgstr ""
+msgstr "показати псевдоніми в --all"
 
 #: builtin/help.c:68
 msgid "exclude guides"
-msgstr ""
+msgstr "виключити посібники"
 
 #: builtin/help.c:69
 msgid "show man page"
-msgstr ""
+msgstr "показати сторінку керівництва користувача"
 
 #: builtin/help.c:70
 msgid "show manual in web browser"
-msgstr ""
+msgstr "показати сторінку керівництва користувача в веб-браузері"
 
 #: builtin/help.c:72
 msgid "show info page"
-msgstr ""
+msgstr "показати інформаційну сторінку"
 
 #: builtin/help.c:74
 msgid "print command description"
-msgstr ""
+msgstr "показати опис команди"
 
 #: builtin/help.c:76
 msgid "print list of useful guides"
-msgstr ""
+msgstr "показати список корисних посібників"
 
 #: builtin/help.c:79
 msgid "print list of user-facing repository, command and file interfaces"
-msgstr ""
+msgstr "показати список інтерфейсів користувача для сховищ, команд та файлів"
 
 #: builtin/help.c:82
 msgid "print list of file formats, protocols and other developer interfaces"
 msgstr ""
+"показати список форматів файлів, протоколів та інших інтерфейсів розробника"
 
 #: builtin/help.c:84
 msgid "print all configuration variable names"
-msgstr ""
+msgstr "показати всі назви конфігураційних змінних"
 
 #: builtin/help.c:96
 msgid "git help [[-i|--info] [-m|--man] [-w|--web]] [<command>|<doc>]"
-msgstr ""
+msgstr "git help [[-i|--info] [-m|--man] [-w|--web]] [<команда>|<док>]"
 
 #: builtin/help.c:215
 #, c-format
 msgid "unrecognized help format '%s'"
-msgstr ""
+msgstr "нерозпізнаний формат довідки '%s'"
 
 #: builtin/help.c:241
 msgid "Failed to start emacsclient."
-msgstr "Не вдалося запустити emacs клієнт."
+msgstr "Не вдалося запустити emacsclient."
 
 #: builtin/help.c:254
 msgid "Failed to parse emacsclient version."
-msgstr "Не вдалося розібрати версію emacs клієнта."
+msgstr "Не вдалося розібрати версію emacsclient."
 
 #: builtin/help.c:262
 #, c-format
 msgid "emacsclient version '%d' too old (< 22)."
-msgstr ""
+msgstr "версія emacsclient \"%d\" застаріла (< 22)."
 
 #: builtin/help.c:280 builtin/help.c:302 builtin/help.c:312 builtin/help.c:320
 #, c-format
@@ -8948,6 +8954,8 @@ msgid ""
 "'%s': path for unsupported man viewer.\n"
 "Please consider using 'man.<tool>.cmd' instead."
 msgstr ""
+"\"%s\": шлях до непідтримуваного переглядача керівництва користувача.\n"
+"Будь ласка, скористайтесь \"man.<tool>.cmd\" замість цього."
 
 #: builtin/help.c:370
 #, c-format
@@ -8955,19 +8963,21 @@ msgid ""
 "'%s': cmd for supported man viewer.\n"
 "Please consider using 'man.<tool>.path' instead."
 msgstr ""
+"\"%s\": команда для підтримуваного переглядача керівництва користувача.\n"
+"Будь ласка, скористайтесь \"man.<tool>.path\" замість цього."
 
 #: builtin/help.c:487
 #, c-format
 msgid "'%s': unknown man viewer."
-msgstr ""
+msgstr "\"%s\": невідомий переглядач керівництва користувача."
 
 #: builtin/help.c:503
 msgid "no man viewer handled the request"
-msgstr ""
+msgstr "жоден з переглядачів керівництва користувача не обробив запит"
 
 #: builtin/help.c:510
 msgid "no info viewer handled the request"
-msgstr ""
+msgstr "жоден з переглядачів керівництва користувача не обробив запит"
 
 #: builtin/help.c:571 builtin/help.c:582 git.c:340
 #, c-format
@@ -8977,36 +8987,40 @@ msgstr "\"%s\" є псевдонімом для \"%s\""
 #: builtin/help.c:585 git.c:372
 #, c-format
 msgid "bad alias.%s string: %s"
-msgstr ""
+msgstr "невірний псевдонім.%s рядок: %s"
 
 #: builtin/help.c:627
 #, c-format
 msgid "the '%s' option doesn't take any non-option arguments"
-msgstr ""
+msgstr "опція \"%s\" не приймає жодних неопціональних аргументів"
 
 #: builtin/help.c:647
 msgid ""
 "the '--no-[external-commands|aliases]' options can only be used with '--all'"
 msgstr ""
+"опції \"--no-[external-commands|aliases]\" можна використовувати лише з \"--"
+"all\""
 
 #: builtin/help.c:659 builtin/help.c:695
 #, c-format
 msgid "usage: %s%s"
-msgstr ""
+msgstr "використання: %s%s"
 
 #: builtin/help.c:690
 msgid "'git help config' for more information"
-msgstr ""
+msgstr "\"git help config\" для додаткової інформації"
 
 #: builtin/hook.c:11
 msgid ""
 "git hook run [--ignore-missing] [--to-stdin=<path>] <hook-name> [-- <hook-"
 "args>]"
 msgstr ""
+"git hook run [--ignore-missing] [--to-stdin=<шлях>] <назва-гачка> [-- "
+"<аргументи-гачка>]"
 
 #: builtin/hook.c:31
 msgid "silently ignore missing requested <hook-name>"
-msgstr ""
+msgstr "мовчки ігнорувати відсутній <назва-гачка>"
 
 #: builtin/hook.c:33
 msgid "file to read into hooks' stdin"
@@ -9322,7 +9336,7 @@ msgstr "неможливо скопіювати \"%s\" до \"%s\""
 #: builtin/init-db.c:100
 #, c-format
 msgid "ignoring template %s"
-msgstr ""
+msgstr "ігнорування шаблону %s"
 
 #: builtin/init-db.c:131
 #, c-format
@@ -9351,7 +9365,7 @@ msgstr "не вдалося перемістити %s на %s"
 
 #: builtin/init-db.c:381
 msgid "attempt to reinitialize repository with different hash"
-msgstr ""
+msgstr "спроба переініціалізувати репозиторій з іншим хеш-алгоритмом"
 
 #: builtin/init-db.c:405 builtin/init-db.c:408
 #, c-format
@@ -9361,27 +9375,27 @@ msgstr "%s вже існує"
 #: builtin/init-db.c:440
 #, c-format
 msgid "re-init: ignored --initial-branch=%s"
-msgstr ""
+msgstr "re-init: ігноровано --initial-branch=%s"
 
 #: builtin/init-db.c:471
 #, c-format
 msgid "Reinitialized existing shared Git repository in %s%s\n"
-msgstr ""
+msgstr "Переініціалізовано існуюче спільне Git сховище в %s%s\n"
 
 #: builtin/init-db.c:472
 #, c-format
 msgid "Reinitialized existing Git repository in %s%s\n"
-msgstr ""
+msgstr "Переініціалізовано існуюче Git сховище в %s%s\n"
 
 #: builtin/init-db.c:476
 #, c-format
 msgid "Initialized empty shared Git repository in %s%s\n"
-msgstr ""
+msgstr "Ініціалізовано порожнє спільне Git сховище в %s%s\n"
 
 #: builtin/init-db.c:477
 #, c-format
 msgid "Initialized empty Git repository in %s%s\n"
-msgstr ""
+msgstr "Ініціалізовано порожнє Git сховище в %s%s\n"
 
 #: builtin/init-db.c:526
 msgid ""
@@ -9390,36 +9404,40 @@ msgid ""
 "         [-b <branch-name> | --initial-branch=<branch-name>]\n"
 "         [--shared[=<permissions>]] [<directory>]"
 msgstr ""
+"git init [-q | --quiet] [--bare] [--template=<шаблон-директорія>]\n"
+"         [--separate-git-dir <git-директорія>] [--object-format=<формат>]\n"
+"         [-b <назва-гілки> | --initial-branch=<назва-гілки>]\n"
+"         [--shared[=<дозволи>]] [<директорія>]"
 
 #: builtin/init-db.c:555
 msgid "permissions"
-msgstr "права доступу"
+msgstr "дозволи"
 
 #: builtin/init-db.c:556
 msgid "specify that the git repository is to be shared amongst several users"
-msgstr ""
+msgstr "вказати, що git сховище буде спільним для кількох користувачів"
 
 #: builtin/init-db.c:562
 msgid "override the name of the initial branch"
-msgstr ""
+msgstr "перевизначити назву початкової гілки"
 
 #: builtin/init-db.c:563 builtin/verify-pack.c:75
 msgid "hash"
-msgstr ""
+msgstr "хеш"
 
 #: builtin/init-db.c:564 builtin/show-index.c:26 builtin/verify-pack.c:76
 msgid "specify the hash algorithm to use"
-msgstr ""
+msgstr "вказати, який алгоритм хешування використовувати"
 
 #: builtin/init-db.c:602 builtin/init-db.c:607
 #, c-format
 msgid "cannot mkdir %s"
-msgstr ""
+msgstr "не вдалося виконати mkdir %s"
 
 #: builtin/init-db.c:611 builtin/init-db.c:666
 #, c-format
 msgid "cannot chdir to %s"
-msgstr ""
+msgstr "не вдалося виконати chdir %s"
 
 #: builtin/init-db.c:638
 #, c-format
@@ -9427,11 +9445,13 @@ msgid ""
 "%s (or --work-tree=<directory>) not allowed without specifying %s (or --git-"
 "dir=<directory>)"
 msgstr ""
+"%s (або --work-tree=<директорія>) не дозволено без вказівки %s (або --git-"
+"dir=<каталог>)"
 
 #: builtin/init-db.c:690
 #, c-format
 msgid "Cannot access work tree '%s'"
-msgstr "Не вдається отримати доступ до робочого дерева \"%s\""
+msgstr "Неможливо отримати доступ до робочого дерева \"%s\""
 
 #: builtin/init-db.c:695
 msgid "--separate-git-dir incompatible with bare repository"
@@ -9443,18 +9463,21 @@ msgid ""
 "                       [(--trailer <token>[(=|:)<value>])...]\n"
 "                       [--parse] [<file>...]"
 msgstr ""
+"git interpret-trailers [--in-place] [--trim-empty]\n"
+"                       [(--trailer <токен>[(=|:)<значення>])...]\n"
+"                       [--parse] [<файл>...]"
 
 #: builtin/interpret-trailers.c:98
 msgid "edit files in place"
-msgstr ""
+msgstr "редагувати файли на місцях"
 
 #: builtin/interpret-trailers.c:99
 msgid "trim empty trailers"
-msgstr ""
+msgstr "обрізати порожні причепи"
 
 #: builtin/interpret-trailers.c:102
 msgid "where to place the new trailer"
-msgstr ""
+msgstr "де розмістити новий причіп"
 
 #: builtin/interpret-trailers.c:104
 msgid "action if trailer already exists"
@@ -9462,39 +9485,39 @@ msgstr "що робити, якщо причіп вже існує"
 
 #: builtin/interpret-trailers.c:106
 msgid "action if trailer is missing"
-msgstr ""
+msgstr "що робити, якщо причіп відсутній"
 
 #: builtin/interpret-trailers.c:108
 msgid "output only the trailers"
-msgstr ""
+msgstr "виводити лише причепи"
 
 #: builtin/interpret-trailers.c:109
 msgid "do not apply config rules"
-msgstr ""
+msgstr "не застосовувати правила конфігурації"
 
 #: builtin/interpret-trailers.c:110
 msgid "join whitespace-continued values"
-msgstr ""
+msgstr "об’єднати значення, що продовжуються через пробіл"
 
 #: builtin/interpret-trailers.c:111
 msgid "set parsing options"
-msgstr ""
+msgstr "встановити параметри розбору"
 
 #: builtin/interpret-trailers.c:113
 msgid "do not treat --- specially"
-msgstr ""
+msgstr "не обробляти --- особливим чином"
 
 #: builtin/interpret-trailers.c:115
 msgid "trailer(s) to add"
-msgstr ""
+msgstr "причіп(и) для додавання"
 
 #: builtin/interpret-trailers.c:126
 msgid "--trailer with --only-input does not make sense"
-msgstr ""
+msgstr "--trailer з --only-input не має сенсу"
 
 #: builtin/interpret-trailers.c:136
 msgid "no input file given for in-place editing"
-msgstr ""
+msgstr "не надано вхідного файлу для редагування на місці"
 
 #: builtin/log.c:73
 msgid "git log [<options>] [<revision-range>] [[--] <path>...]"
@@ -9511,38 +9534,40 @@ msgstr "неприпустима --decorate опція: %s"
 
 #: builtin/log.c:250 diff.c:5497
 msgid "suppress diff output"
-msgstr ""
+msgstr "приховати вивід diff"
 
 #: builtin/log.c:251
 msgid "show source"
-msgstr ""
+msgstr "показати джерело"
 
 #: builtin/log.c:255
 msgid "clear all previously-defined decoration filters"
-msgstr ""
+msgstr "очистити всі раніше визначені фільтри оздоблення"
 
 #: builtin/log.c:259
 msgid "only decorate refs that match <pattern>"
-msgstr ""
+msgstr "оздоблювати лише посилання, що відповідають <шаблону>"
 
 #: builtin/log.c:261
 msgid "do not decorate refs that match <pattern>"
-msgstr ""
+msgstr "не оздоблювати посилання, що відповідають <шаблону>"
 
 #: builtin/log.c:262
 msgid "decorate options"
-msgstr ""
+msgstr "опції оздоблення"
 
 #: builtin/log.c:265
 msgid ""
 "trace the evolution of line range <start>,<end> or function :<funcname> in "
 "<file>"
 msgstr ""
+"простежити еволюцію діапазону рядків <початок>,<кінець> або функції :<назва-"
+"функції> в <файлі>"
 
 #: builtin/log.c:285 builtin/log.c:2112 builtin/shortlog.c:440 bundle.c:528
 #, c-format
 msgid "unrecognized argument: %s"
-msgstr ""
+msgstr "нерозпізнаний аргумент: %s"
 
 #: builtin/log.c:288
 msgid "-L<range>:<file> cannot be used with pathspec"
@@ -9551,7 +9576,7 @@ msgstr "-L<діапазон>:<файл> не можна використовув
 #: builtin/log.c:394
 #, c-format
 msgid "Final output: %d %s\n"
-msgstr ""
+msgstr "Кінцевий результат: %d %s\n"
 
 #: builtin/log.c:501
 msgid "unable to create temporary object directory"
@@ -9560,7 +9585,7 @@ msgstr "не вдалося створити тимчасову директор
 #: builtin/log.c:677
 #, c-format
 msgid "git show %s: bad file"
-msgstr ""
+msgstr "git show %s: невірний файл"
 
 #: builtin/log.c:692 builtin/log.c:789
 #, c-format
@@ -20571,7 +20596,7 @@ msgstr "Низькорівневі команди / Внутрішні помі�
 
 #: help.c:43
 msgid "User-facing repository, command and file interfaces"
-msgstr "Сховище для користувачів, командні та файлові інтерфейси"
+msgstr "Інтерфейси користувача для сховищ, команд та файлів"
 
 #: help.c:44
 msgid "Developer-facing file formats, protocols and other interfaces"
@@ -20596,7 +20621,7 @@ msgstr ""
 
 #: help.c:445
 msgid "User-facing repository, command and file interfaces:"
-msgstr "Сховище, орієнтоване на користувача, командні та файлові інтерфейси:"
+msgstr "Інтерфейси користувача для сховищ, команд та файлів:"
 
 #: help.c:455
 msgid "File formats, protocols and other developer interfaces:"
@@ -21906,7 +21931,7 @@ msgstr "не вдалося записати файл %s"
 #: object-file.c:1856
 #, c-format
 msgid "unable to set permission to '%s'"
-msgstr "не вдалося встановити права доступу до \"%s\""
+msgstr "не вдалося встановити дозволи для \"%s\""
 
 #: object-file.c:1893
 msgid "error when closing loose object file"
@@ -21915,7 +21940,7 @@ msgstr "помилка при закритті файла вільного об�
 #: object-file.c:1966
 #, c-format
 msgid "insufficient permission for adding an object to repository database %s"
-msgstr "недостатньо прав для додавання обʼєкта до бази даних сховища %s"
+msgstr "недостатньо дозволу для додавання обʼєкта до бази даних сховища %s"
 
 #: object-file.c:1971
 msgid "unable to create temporary file"
@@ -25567,7 +25592,7 @@ msgid ""
 "The owner of files must always have read and write permissions."
 msgstr ""
 "проблема зі значенням файлового режиму core.sharedRepository (0%.3o).\n"
-"Власник файлів завжди повинен мати права на читання та запис."
+"Власник файлів завжди повинен мати дозвіл на читання та запис."
 
 #: setup.c:1696
 msgid "fork failed"
