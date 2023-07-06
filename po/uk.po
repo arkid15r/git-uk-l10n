@@ -13908,7 +13908,7 @@ msgstr "заміна посилання \"%s\" не знайдена"
 #: builtin/replace.c:149
 #, c-format
 msgid "Deleted replace ref '%s'"
-msgstr "Видалено посилання заміни \"%s\""
+msgstr "Видалена заміна посилання \"%s\""
 
 #: builtin/replace.c:163
 #, c-format
