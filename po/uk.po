@@ -8537,7 +8537,7 @@ msgstr "недоступні ні systemd таймери, ні crontab"
 #: builtin/gc.c:2549
 #, c-format
 msgid "%s scheduler is not available"
-msgstr "%s планувальник %s недоступний"
+msgstr "%s планувальник недоступний"
 
 #: builtin/gc.c:2563
 msgid "another process is scheduling background maintenance"
@@ -8728,7 +8728,7 @@ msgstr "показувати назву файлу лише один раз на
 
 #: builtin/grep.c:967
 msgid "show <n> context lines before and after matches"
-msgstr "показувати <н>рядків до і після збігу"
+msgstr "показувати <н> рядків до і після збігу"
 
 #: builtin/grep.c:970
 msgid "show <n> context lines before matches"
@@ -8928,7 +8928,7 @@ msgstr "git help [[-i|--info] [-m|--man] [-w|--web]] [<команда>|<док>]
 #: builtin/help.c:215
 #, c-format
 msgid "unrecognized help format '%s'"
-msgstr "нерозпізнаний формат довідки '%s'"
+msgstr "нерозпізнаний формат довідки \"%s\""
 
 #: builtin/help.c:241
 msgid "Failed to start emacsclient."
@@ -8977,7 +8977,7 @@ msgstr "жоден з переглядачів керівництва корис
 
 #: builtin/help.c:510
 msgid "no info viewer handled the request"
-msgstr "жоден з переглядачів керівництва користувача не обробив запит"
+msgstr "жоден з переглядачів інформації не обробив запит"
 
 #: builtin/help.c:571 builtin/help.c:582 git.c:340
 #, c-format
