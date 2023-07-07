@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-07-03 16:47-0700\n"
+"PO-Revision-Date: 2023-07-06 18:58-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
@@ -13725,18 +13725,23 @@ msgid ""
 "Incremental repacks are incompatible with bitmap indexes.  Use\n"
 "--no-write-bitmap-index or disable the pack.writeBitmaps configuration."
 msgstr ""
+"Поступові перепакування несумісні з bitmap індексами.  Скористайтесь "
+"параметром\n"
+"--no-write-bitmap-index або вимкніть конфігурацію pack.writeBitmaps."
 
 #: builtin/repack.c:197
 msgid "could not start pack-objects to repack promisor objects"
-msgstr ""
+msgstr "не вдалося розпочати pack-objects для перепакування promisor обʼєктів"
 
 #: builtin/repack.c:276 builtin/repack.c:760 builtin/repack.c:1025
 msgid "repack: Expecting full hex object ID lines only from pack-objects."
 msgstr ""
+"перепакування: очікуються повні рядки hex ідентифікаторів обʼєктів тільки від "
+"pack-objects."
 
 #: builtin/repack.c:300
 msgid "could not finish pack-objects to repack promisor objects"
-msgstr ""
+msgstr "не вдалося завершити pack-objects для перепакування promisor обʼєктів"
 
 #: builtin/repack.c:312
 #, c-format
@@ -13747,20 +13752,21 @@ msgstr "неможливо відкрити індекс для %s"
 #, c-format
 msgid "pack %s too large to consider in geometric progression"
 msgstr ""
+"пакунок %s занадто великий, щоб враховувати в геометричній прогресії"
 
 #: builtin/repack.c:437 builtin/repack.c:444 builtin/repack.c:449
 #, c-format
 msgid "pack %s too large to roll up"
-msgstr ""
+msgstr "пакунок %s занадто великий для згортання"
 
 #: builtin/repack.c:545
 #, c-format
 msgid "could not open tempfile %s for writing"
-msgstr ""
+msgstr "не вдалося відкрити тимчасовий файл %s для запису"
 
 #: builtin/repack.c:563
 msgid "could not close refs snapshot tempfile"
-msgstr ""
+msgstr "не вдалося закрити тимчасовий файл знімка посилань"
 
 #: builtin/repack.c:692
 #, c-format
@@ -13769,15 +13775,15 @@ msgstr "не вдалося видалити застарілий bitmap: %s"
 
 #: builtin/repack.c:806
 msgid "pack everything in a single pack"
-msgstr ""
+msgstr "запакувати все в один пакунок"
 
 #: builtin/repack.c:808
 msgid "same as -a, and turn unreachable objects loose"
-msgstr ""
+msgstr "те саме, що й -a, та звільняє недосяжні обʼєкти"
 
 #: builtin/repack.c:811
 msgid "same as -a, pack unreachable cruft objects separately"
-msgstr ""
+msgstr "те саме, що й -a, пакує недосяжні марні обʼєкти окремо"
 
 #: builtin/repack.c:813 builtin/repack.c:830
 msgid "approxidate"
@@ -14988,8 +14994,8 @@ msgid ""
 "specify directories rather than patterns.  If your directory starts with a "
 "'!', pass --skip-checks"
 msgstr ""
-"вказати директорії замість шаблонів.  Якщо ваша директорія починається з "
-"\"!\", додайте --skip-checks"
+"вказати директорії замість шаблонів.  Якщо ваша директорія починається з \"!"
+"\", додайте --skip-checks"
 
 #: builtin/sparse-checkout.c:730
 msgid ""
@@ -15014,9 +15020,8 @@ msgid ""
 "pass a leading slash before paths such as '%s' if you want a single file "
 "(see NON-CONE PROBLEMS in the git-sparse-checkout manual)."
 msgstr ""
-"додайте перший слеш перед такими шляхами, як \"%s\", якщо вам потрібен "
-"один файл (див. розділ НЕ КОНУСНІ ПРОБЛЕМИ у посібнику з git-sparse-"
-"checkout)."
+"додайте перший слеш перед такими шляхами, як \"%s\", якщо вам потрібен один "
+"файл (див. розділ НЕ КОНУСНІ ПРОБЛЕМИ у посібнику з git-sparse-checkout)."
 
 #: builtin/sparse-checkout.c:753
 msgid "git sparse-checkout add [--skip-checks] (--stdin | <patterns>)"
