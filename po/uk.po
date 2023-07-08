@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-07-06 18:58-0700\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-07-07 18:37-0700\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -9600,11 +9600,11 @@ msgstr "невідомий тип: %d"
 #: builtin/log.c:979
 #, c-format
 msgid "%s: invalid cover from description mode"
-msgstr ""
+msgstr "%s: невірна обкладинка з режиму опису"
 
 #: builtin/log.c:986
 msgid "format.headers without value"
-msgstr ""
+msgstr "format.headers без значення"
 
 #: builtin/log.c:1138
 #, c-format
@@ -9613,15 +9613,15 @@ msgstr "не вдається відкрити файл латки %s"
 
 #: builtin/log.c:1155
 msgid "need exactly one range"
-msgstr ""
+msgstr "потрібен рівно один діапазон"
 
 #: builtin/log.c:1165
 msgid "not a range"
-msgstr ""
+msgstr "не діапазон"
 
 #: builtin/log.c:1330
 msgid "cover letter needs email format"
-msgstr ""
+msgstr "супровідний лист має бути у форматі електронної пошти"
 
 #: builtin/log.c:1336
 msgid "failed to create cover-letter file"
@@ -9630,7 +9630,7 @@ msgstr "не вдалося створити файл супровідного �
 #: builtin/log.c:1425
 #, c-format
 msgid "insane in-reply-to: %s"
-msgstr ""
+msgstr "неприпустимий in-reply-to: %s"
 
 #: builtin/log.c:1452
 msgid "git format-patch [<options>] [<since> | <revision-range>]"
@@ -9638,7 +9638,7 @@ msgstr "git format-patch [<опції>] [<відколи> | <діапазон-р
 
 #: builtin/log.c:1510
 msgid "two output directories?"
-msgstr ""
+msgstr "дві вихідні директорії?"
 
 #: builtin/log.c:1661 builtin/log.c:2510 builtin/log.c:2512 builtin/log.c:2524
 #, c-format
@@ -9661,6 +9661,12 @@ msgid ""
 "please use git branch --set-upstream-to to track a remote branch.\n"
 "Or you could specify base commit by --base=<base-commit-id> manually"
 msgstr ""
+"не вдалося отримати першоджерельне сховище. Якщо ви хочете записати базовий "
+"коміт автоматично,\n"
+"будь ласка, скористайтесь git branch --set-upstream-to для відстежування "
+"віддаленої гілки.\n"
+"Або ви можете вказати базовий коміт вручну за допомогою --base=<id-базового-"
+"коміту>"
 
 #: builtin/log.c:1718
 msgid "failed to find exact merge base"
@@ -9668,11 +9674,11 @@ msgstr "не вдалося знайти точну базу для злиття
 
 #: builtin/log.c:1735
 msgid "base commit should be the ancestor of revision list"
-msgstr ""
+msgstr "базовий коміт має бути предком списку ревізій"
 
 #: builtin/log.c:1745
 msgid "base commit shouldn't be in revision list"
-msgstr ""
+msgstr "базового коміту не має бути в списку ревізій"
 
 #: builtin/log.c:1803
 msgid "cannot get patch id"
@@ -13736,8 +13742,8 @@ msgstr "не вдалося розпочати pack-objects для перепа�
 #: builtin/repack.c:276 builtin/repack.c:760 builtin/repack.c:1025
 msgid "repack: Expecting full hex object ID lines only from pack-objects."
 msgstr ""
-"перепакування: очікуються повні рядки hex ідентифікаторів обʼєктів тільки від "
-"pack-objects."
+"перепакування: очікуються повні рядки hex ідентифікаторів обʼєктів тільки "
+"від pack-objects."
 
 #: builtin/repack.c:300
 msgid "could not finish pack-objects to repack promisor objects"
@@ -13751,8 +13757,7 @@ msgstr "неможливо відкрити індекс для %s"
 #: builtin/repack.c:404
 #, c-format
 msgid "pack %s too large to consider in geometric progression"
-msgstr ""
-"пакунок %s занадто великий, щоб враховувати в геометричній прогресії"
+msgstr "пакунок %s занадто великий, щоб враховувати в геометричній прогресії"
 
 #: builtin/repack.c:437 builtin/repack.c:444 builtin/repack.c:449
 #, c-format
