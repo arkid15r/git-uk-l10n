@@ -10,6 +10,10 @@ test_description='git repack works correctly'
 commit_and_pack () {
 	test_commit "$@" 1>&2 &&
 	incrpackid=$(git pack-objects --all --unpacked --incremental .git/objects/pack/pack </dev/null) &&
+	# Remove any loose object(s) created by test_commit, since they have
+	# already been packed. Leaving these around can create subtly different
+	# packs with `pack-objects`'s `--unpacked` option.
+	git prune-packed 1>&2 &&
 	echo pack-${incrpackid}.pack
 }
 
@@ -209,6 +213,8 @@ test_expect_success 'repack --keep-pack' '
 	test_create_repo keep-pack &&
 	(
 		cd keep-pack &&
+		# avoid producing difference packs to delta/base choices
+		git config pack.window 0 &&
 		P1=$(commit_and_pack 1) &&
 		P2=$(commit_and_pack 2) &&
 		P3=$(commit_and_pack 3) &&
@@ -220,6 +226,23 @@ test_expect_success 'repack --keep-pack' '
 		grep -q $P1 new-counts &&
 		grep -q $P4 new-counts &&
 		test_line_count = 3 new-counts &&
+		git fsck &&
+
+		P5=$(commit_and_pack --no-tag 5) &&
+		git reset --hard HEAD^ &&
+		git reflog expire --all --expire=all &&
+		rm -f ".git/objects/pack/${P5%.pack}.idx" &&
+		rm -f ".git/objects/info/commit-graph" &&
+		for from in $(find .git/objects/pack -type f -name "${P5%.pack}.*")
+		do
+			to="$(dirname "$from")/.tmp-1234-$(basename "$from")" &&
+			mv "$from" "$to" || return 1
+		done &&
+
+		git repack --cruft -d --keep-pack $P1 --keep-pack $P4 &&
+
+		ls .git/objects/pack/*.pack >newer-counts &&
+		test_cmp new-counts newer-counts &&
 		git fsck
 	)
 '
@@ -460,10 +483,10 @@ test_expect_success '--write-midx -b packs non-kept objects' '
 '
 
 test_expect_success '--write-midx removes stale pack-based bitmaps' '
-       rm -fr repo &&
-       git init repo &&
-       test_when_finished "rm -fr repo" &&
-       (
+	rm -fr repo &&
+	git init repo &&
+	test_when_finished "rm -fr repo" &&
+	(
 		cd repo &&
 		test_commit base &&
 		GIT_TEST_MULTI_PACK_INDEX=0 git repack -Ab &&
@@ -477,7 +500,7 @@ test_expect_success '--write-midx removes stale pack-based bitmaps' '
 		test_path_is_file $midx &&
 		test_path_is_file $midx-$(midx_checksum $objdir).bitmap &&
 		test_path_is_missing $pack_bitmap
-       )
+	)
 '
 
 test_expect_success '--write-midx with --pack-kept-objects' '

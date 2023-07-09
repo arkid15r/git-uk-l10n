@@ -1,12 +1,11 @@
 #include "builtin.h"
-#include "cache.h"
 #include "bulk-checkin.h"
 #include "config.h"
 #include "environment.h"
 #include "gettext.h"
 #include "git-zlib.h"
 #include "hex.h"
-#include "object-store.h"
+#include "object-store-ll.h"
 #include "object.h"
 #include "delta.h"
 #include "pack.h"
@@ -609,7 +608,7 @@ int cmd_unpack_objects(int argc, const char **argv, const char *prefix UNUSED)
 	int i;
 	struct object_id oid;
 
-	read_replace_refs = 0;
+	disable_replace_refs();
 
 	git_config(git_default_config, NULL);
 

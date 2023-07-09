@@ -4,11 +4,10 @@
  * Based on git-am.sh by Junio C Hamano.
  */
 #define USE_THE_INDEX_VARIABLE
-#include "cache.h"
+#include "builtin.h"
 #include "abspath.h"
 #include "advice.h"
 #include "config.h"
-#include "builtin.h"
 #include "editor.h"
 #include "environment.h"
 #include "exec-cmd.h"
@@ -29,6 +28,7 @@
 #include "unpack-trees.h"
 #include "branch.h"
 #include "object-name.h"
+#include "preload-index.h"
 #include "sequencer.h"
 #include "revision.h"
 #include "merge-recursive.h"
@@ -41,6 +41,7 @@
 #include "string-list.h"
 #include "packfile.h"
 #include "pager.h"
+#include "path.h"
 #include "repository.h"
 #include "pretty.h"
 #include "wrapper.h"
@@ -1283,7 +1284,7 @@ static int parse_mail(struct am_state *state, const char *mail)
 
 	strbuf_addstr(&msg, "\n\n");
 	strbuf_addbuf(&msg, &mi.log_message);
-	strbuf_stripspace(&msg, 0);
+	strbuf_stripspace(&msg, '\0');
 
 	assert(!state->author_name);
 	state->author_name = strbuf_detach(&author_name, NULL);
