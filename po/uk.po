@@ -13422,16 +13422,16 @@ msgid_plural ""
 "Note: Some branches outside the refs/remotes/ hierarchy were not removed;\n"
 "to delete them, use:"
 msgstr[0] ""
-"Примітка: гілку поза межами посилань/віддалених призначень/ієрархії не було "
-"видалено;\n"
+"Примітка: гілка поза межами refs/remotes/ ієрархії не була "
+"видалена;\n"
 "щоб видалити її, скористайтесь:"
 msgstr[1] ""
-"Примітка: деякі гілки поза межами посилань/віддалених призначень/ієрархії не "
-"було видалено;\n"
+"Примітка: деякі гілки поза межами refs/remotes/ ієрархії не "
+"були видалені;\n"
 "щоб видалити їх, скористайтесь:"
 msgstr[2] ""
-"Примітка: деякі гілки поза межами посилань/віддалених призначень/ієрархії не "
-"було видалено;\n"
+"Примітка: деякі гілки поза межами refs/remotes/ ієрархії не "
+"були видалені;\n"
 "щоб видалити їх, скористайтесь:"
 
 #: builtin/remote.c:940
@@ -13442,7 +13442,7 @@ msgstr "Не вдалося видалити секцію конфігураці
 #: builtin/remote.c:1050
 #, c-format
 msgid " new (next fetch will store in remotes/%s)"
-msgstr "нова (наступне отримання зберігатиметься у віддалених призначеннях/%s)"
+msgstr " нова (наступне отримання зберігатиметься у віддалених remotes/%s)"
 
 #: builtin/remote.c:1053
 msgid " tracked"
@@ -13450,11 +13450,11 @@ msgstr " відстежується"
 
 #: builtin/remote.c:1055
 msgid " skipped"
-msgstr "пропущена"
+msgstr " пропущена"
 
 #: builtin/remote.c:1057
 msgid " stale (use 'git remote prune' to remove)"
-msgstr "застаріла (скористайтесь \"git remote prune\", щоб видалити)"
+msgstr " застаріла (скористайтесь \"git remote prune\", щоб видалити)"
 
 #: builtin/remote.c:1059
 msgid " ???"
@@ -13463,7 +13463,7 @@ msgstr " ???"
 #: builtin/remote.c:1100
 #, c-format
 msgid "invalid branch.%s.merge; cannot rebase onto > 1 branch"
-msgstr "неприпустима гілка.%s.merge; не вдалося перебазувати на > 1 гілку"
+msgstr "неприпустиме branch.%s.merge; неможливо перебазувати на > 1 гілку"
 
 #: builtin/remote.c:1109
 #, c-format
@@ -13518,22 +13518,22 @@ msgstr "локальне сховище застаріло"
 #: builtin/remote.c:1187
 #, c-format
 msgid "    %-*s forces to %-*s (%s)"
-msgstr "    %-*s примусово надсилає до %-*s (%s)"
+msgstr "    %-*s примусово надіслати до %-*s (%s)"
 
 #: builtin/remote.c:1190
 #, c-format
 msgid "    %-*s pushes to %-*s (%s)"
-msgstr "    %-*s надсилає до %-*s (%s)"
+msgstr "    %-*s надіслати до %-*s (%s)"
 
 #: builtin/remote.c:1194
 #, c-format
 msgid "    %-*s forces to %s"
-msgstr "    %-*s примусово надсилає до %s"
+msgstr "    %-*s примусово надіслати до %s"
 
 #: builtin/remote.c:1197
 #, c-format
 msgid "    %-*s pushes to %s"
-msgstr "    %-*s надсилає до %s"
+msgstr "    %-*s надіслати до %s"
 
 #: builtin/remote.c:1272
 msgid "do not query remotes"
@@ -13592,18 +13592,18 @@ msgstr[2] " Віддалених гілок:%s"
 
 #: builtin/remote.c:1336 builtin/remote.c:1362
 msgid " (status not queried)"
-msgstr "(статус не запитувався)"
+msgstr " (статус не запитувався)"
 
 #: builtin/remote.c:1345
 msgid "  Local branch configured for 'git pull':"
 msgid_plural "  Local branches configured for 'git pull':"
-msgstr[0] "Локальну гілку налаштовано на \"git pull\":"
-msgstr[1] "Локальні гілки налаштовано на \"git pull\":"
-msgstr[2] "Локальних гілок налаштовано на \"git pull\":"
+msgstr[0] "  Локальну гілку налаштовано на \"git pull\":"
+msgstr[1] "  Локальні гілки налаштовано на \"git pull\":"
+msgstr[2] "  Локальних гілок налаштовано на \"git pull\":"
 
 #: builtin/remote.c:1353
 msgid "  Local refs will be mirrored by 'git push'"
-msgstr "Локальні посилання будуть віддзеркалені за допомогою \"git push\""
+msgstr "  Локальні посилання будуть віддзеркалені за допомогою \"git push\""
 
 #: builtin/remote.c:1359
 #, c-format
@@ -13616,12 +13616,12 @@ msgstr[2] "  Локальних посилань налаштовано для \
 #: builtin/remote.c:1380
 msgid "set refs/remotes/<name>/HEAD according to remote"
 msgstr ""
-"встановити посилання/віддалені призначення/<назва>/HEAD відповідно до "
+"встановити refs/remotes/<назва>/HEAD відповідно до "
 "віддаленого призначення"
 
 #: builtin/remote.c:1382
 msgid "delete refs/remotes/<name>/HEAD"
-msgstr "видалити посилання/віддалені призначення/<назва>/HEAD"
+msgstr "видалити refs/remotes/<назва>/HEAD"
 
 #: builtin/remote.c:1396
 msgid "Cannot determine remote HEAD"
@@ -13629,7 +13629,7 @@ msgstr "Не вдалося визначити віддалений HEAD"
 
 #: builtin/remote.c:1398
 msgid "Multiple remote HEAD branches. Please choose one explicitly with:"
-msgstr "Icнує декілька віддалених HEAD гілок. Будь ласка, виберіть одну з них з:"
+msgstr "Існує декілька віддалених HEAD гілок. Будь ласка, виберіть одну з них, скориставшись"
 
 #: builtin/remote.c:1408
 #, c-format
@@ -13649,12 +13649,12 @@ msgstr "Не вдалося налаштувати %s"
 #: builtin/remote.c:1436
 #, c-format
 msgid " %s will become dangling!"
-msgstr "%s стануть висячими!"
+msgstr " %s стануть висячими!"
 
 #: builtin/remote.c:1437
 #, c-format
 msgid " %s has become dangling!"
-msgstr "%s став висячим!"
+msgstr " %s став висячим!"
 
 #: builtin/remote.c:1446
 #, c-format
@@ -13669,12 +13669,12 @@ msgstr "URL-адреса: %s"
 #: builtin/remote.c:1463
 #, c-format
 msgid " * [would prune] %s"
-msgstr "* [буде видалено] %s"
+msgstr " * [буде видалено] %s"
 
 #: builtin/remote.c:1466
 #, c-format
 msgid " * [pruned] %s"
-msgstr "* [видалено] %s"
+msgstr " * [видалено] %s"
 
 #: builtin/remote.c:1511
 msgid "prune remotes after fetching"
@@ -13725,7 +13725,7 @@ msgstr "--add --delete не має сенсу"
 #: builtin/remote.c:1728
 #, c-format
 msgid "Invalid old URL pattern: %s"
-msgstr "Неприпустимий старий шаблон URL-адреси: %s"
+msgstr "Неприпустимий шаблон старої URL-адреси: %s"
 
 #: builtin/remote.c:1736
 #, c-format
