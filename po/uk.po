@@ -9665,8 +9665,8 @@ msgstr ""
 "коміт автоматично,\n"
 "будь ласка, скористайтесь git branch --set-upstream-to для відстежування "
 "віддаленої гілки.\n"
-"Або ви можете вказати базовий коміт вручну за допомогою --base=<ідентифікатор-базового-"
-"коміту>"
+"Або ви можете вказати базовий коміт вручну за допомогою --"
+"base=<ідентифікатор-базового-коміту>"
 
 #: builtin/log.c:1718
 msgid "failed to find exact merge base"
@@ -9686,100 +9686,101 @@ msgstr "неможливо отримати ідентифікатор латк�
 
 #: builtin/log.c:1866
 msgid "failed to infer range-diff origin of current series"
-msgstr ""
+msgstr "не вдалося визначити походження різниці діапазонів поточного ряду"
 
 #: builtin/log.c:1868
 #, c-format
 msgid "using '%s' as range-diff origin of current series"
-msgstr ""
+msgstr "використання \"%s\" як походження різниці діапазонів поточного ряду"
 
 #: builtin/log.c:1914
 msgid "use [PATCH n/m] even with a single patch"
-msgstr ""
+msgstr "використовуйте [PATCH n/m] навіть з однією латкою"
 
 #: builtin/log.c:1917
 msgid "use [PATCH] even with multiple patches"
-msgstr ""
+msgstr "використовуйте [PATCH] навіть з декількома латками"
 
 #: builtin/log.c:1921
 msgid "print patches to standard out"
-msgstr ""
+msgstr "вивести латки на стандартний вивід"
 
 #: builtin/log.c:1923
 msgid "generate a cover letter"
-msgstr ""
+msgstr "скласти супровідний лист"
 
 #: builtin/log.c:1925
 msgid "use simple number sequence for output file names"
-msgstr ""
+msgstr "використати просту послідовність чисел для назв вихідних файлів"
 
 #: builtin/log.c:1926
 msgid "sfx"
-msgstr ""
+msgstr "суфікс"
 
 #: builtin/log.c:1927
 msgid "use <sfx> instead of '.patch'"
-msgstr ""
+msgstr "використати <суфікс> замість \".patch\""
 
 #: builtin/log.c:1929
 msgid "start numbering patches at <n> instead of 1"
-msgstr ""
+msgstr "почати нумерацію латок з <н> замість 1"
 
 #: builtin/log.c:1930
 msgid "reroll-count"
-msgstr ""
+msgstr "кількість перекидань"
 
 #: builtin/log.c:1931
 msgid "mark the series as Nth re-roll"
-msgstr ""
+msgstr "позначити ряд як N-не перекидання"
 
 #: builtin/log.c:1933
 msgid "max length of output filename"
-msgstr ""
+msgstr "максимальна довжина назви вихідного файлу"
 
 #: builtin/log.c:1935
 msgid "use [RFC PATCH] instead of [PATCH]"
-msgstr ""
+msgstr "використати [RFC PATCH] замість [PATCH]"
 
 #: builtin/log.c:1938
 msgid "cover-from-description-mode"
-msgstr ""
+msgstr "cover-from-description-mode"
 
 #: builtin/log.c:1939
 msgid "generate parts of a cover letter based on a branch's description"
-msgstr ""
+msgstr "скласти частини супровідного листа на основі опису гілки"
 
 #: builtin/log.c:1941
 msgid "use [<prefix>] instead of [PATCH]"
-msgstr ""
+msgstr "використати [<префікс>] замість [PATCH]"
 
 #: builtin/log.c:1944
 msgid "store resulting files in <dir>"
-msgstr ""
+msgstr "зберегти результуючі файли в <директорії>"
 
 #: builtin/log.c:1947
 msgid "don't strip/add [PATCH]"
-msgstr ""
+msgstr "не видаляти/додавати [PATCH]"
 
 #: builtin/log.c:1950
 msgid "don't output binary diffs"
-msgstr ""
+msgstr "не виводити бінарні різниці"
 
 #: builtin/log.c:1952
 msgid "output all-zero hash in From header"
-msgstr ""
+msgstr "вивести хеш з усіма нулями в заголовку From"
 
 #: builtin/log.c:1954
 msgid "don't include a patch matching a commit upstream"
 msgstr ""
+"не включати латки, які мають відповідні коміти в першоджерельному сховищі"
 
 #: builtin/log.c:1956
 msgid "show patch format instead of default (patch + stat)"
-msgstr ""
+msgstr "показати формат латки замість стандартного (латка + підсумок)"
 
 #: builtin/log.c:1958
 msgid "Messaging"
-msgstr ""
+msgstr "Повідомлення"
 
 #: builtin/log.c:1959
 msgid "header"
@@ -9787,63 +9788,65 @@ msgstr "заголовок"
 
 #: builtin/log.c:1960
 msgid "add email header"
-msgstr ""
+msgstr "додати заголовок листа"
 
 #: builtin/log.c:1961 builtin/log.c:1962
 msgid "email"
-msgstr ""
+msgstr "електронна адреса"
 
 #: builtin/log.c:1961
 msgid "add To: header"
-msgstr ""
+msgstr "додати To: заголовок"
 
 #: builtin/log.c:1962
 msgid "add Cc: header"
-msgstr ""
+msgstr "додати Cc: заголовок"
 
 #: builtin/log.c:1963
 msgid "ident"
-msgstr ""
+msgstr "особистість"
 
 #: builtin/log.c:1964
 msgid "set From address to <ident> (or committer ident if absent)"
 msgstr ""
+"встановити From адресу в <особистість> (або особистість комітера, якщо "
+"відсутня)"
 
 #: builtin/log.c:1966
 msgid "message-id"
-msgstr ""
+msgstr "id-повідомлення"
 
 #: builtin/log.c:1967
 msgid "make first mail a reply to <message-id>"
-msgstr ""
+msgstr "зробити перший лист відповіддю на <id-повідомлення>"
 
 #: builtin/log.c:1968 builtin/log.c:1971
 msgid "boundary"
-msgstr ""
+msgstr "межа"
 
 #: builtin/log.c:1969
 msgid "attach the patch"
-msgstr ""
+msgstr "прикріпити латку"
 
 #: builtin/log.c:1972
 msgid "inline the patch"
-msgstr ""
+msgstr "вставити латку"
 
 #: builtin/log.c:1976
 msgid "enable message threading, styles: shallow, deep"
-msgstr ""
+msgstr "увімкнути потік повідомлень, стилі: дрібний, глибокий"
 
 #: builtin/log.c:1978
 msgid "signature"
-msgstr ""
+msgstr "підпис"
 
 #: builtin/log.c:1979
 msgid "add a signature"
-msgstr ""
+msgstr "додати підпис"
 
 #: builtin/log.c:1980
 msgid "base-commit"
-msgstr ""
+msgstr "базовий коміт"
 
 #: builtin/log.c:1981
 msgid "add prerequisite tree info to the patch series"
@@ -14097,11 +14100,11 @@ msgstr ""
 
 #: builtin/replace.c:557
 msgid "list replace refs"
-msgstr "показати посилання заміни"
+msgstr "показати заміни посилань"
 
 #: builtin/replace.c:558
 msgid "delete replace refs"
-msgstr "видалити змінні посилання"
+msgstr "видалити заміни посиланнь"
 
 #: builtin/replace.c:559
 msgid "edit existing object"
@@ -18209,7 +18212,7 @@ msgstr ""
 "і буде вилучена в одній з наступних версій Git.\n"
 "\n"
 "Будь ласка, скористайтесь \"git replace --convert-graft-file\"\n"
-"щоб перетворити щепи на посилання замін.\n"
+"щоб перетворити щепи на заміни посилань.\n"
 "\n"
 "Щоб вимкнути це повідомлення, виконайте\n"
 "\"git config advice.graftFileDeprecated false\""
@@ -19975,7 +19978,7 @@ msgstr "пропустити вивід для зазначеного шляху
 
 #: diff.c:5751
 msgid "<object-id>"
-msgstr "<ідентифікатор-обʼєкта>"
+msgstr "<id-обʼєкта>"
 
 #: diff.c:5752
 msgid ""
@@ -24174,7 +24177,7 @@ msgstr "неможливо вилучити один компонент з url '
 #: replace-object.c:24
 #, c-format
 msgid "bad replace ref name: %s"
-msgstr "неприпустима назва змінного посилання: %s"
+msgstr "неприпустима назва заміни посилання: %s"
 
 #: replace-object.c:33
 #, c-format
