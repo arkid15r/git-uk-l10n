@@ -12966,7 +12966,7 @@ msgstr ""
 "\t%s\n"
 "Якщо це не так, спробуйте\n"
 "\t%s\n"
-"і запустіть команду ще раз.  Зупиняюся на випадок, якщо у вас все ще є щось\n"
+"і запустіть команду ще раз.  Зупинка на випадок, якщо там у вас все ще є щось\n"
 "цінне.\n"
 
 #: builtin/rebase.c:1424
@@ -12982,7 +12982,7 @@ msgid ""
 "apply options are incompatible with rebase.autoSquash.  Consider adding --no-"
 "autosquash"
 msgstr ""
-"apply опції несумісні з rebase.autoSquash.  Подумайте про додавання --no-"
+"apply опції несумісні з rebase.autoSquash.  Розгляньте можливість додавання --no-"
 "autosquash"
 
 #: builtin/rebase.c:1529
@@ -12990,7 +12990,7 @@ msgid ""
 "apply options are incompatible with rebase.rebaseMerges.  Consider adding --"
 "no-rebase-merges"
 msgstr ""
-"apply опції несумісні з rebase.rebaseMerges.  Подумайте про додавання --no-"
+"apply опції несумісні з rebase.rebaseMerges.  Розгляньте можливість додавання --no-"
 "rebase-merges"
 
 #: builtin/rebase.c:1531
@@ -12998,7 +12998,7 @@ msgid ""
 "apply options are incompatible with rebase.updateRefs.  Consider adding --no-"
 "update-refs"
 msgstr ""
-"apply опції несумісні з rebase.updateRefs.  Подумайте про додавання --no-"
+"apply опції несумісні з rebase.updateRefs.  Розгляньте можливість додавання --no-"
 "update-refs"
 
 #: builtin/rebase.c:1558
@@ -13037,12 +13037,12 @@ msgstr "Не вдалося розвʼязати HEAD у коміт"
 #: builtin/rebase.c:1703
 #, c-format
 msgid "'%s': need exactly one merge base with branch"
-msgstr "\"%s\": потрібна тільки одна база злиття з гілкою"
+msgstr "\"%s\": потрібна рівно одна база злиття з гілкою"
 
 #: builtin/rebase.c:1706
 #, c-format
 msgid "'%s': need exactly one merge base"
-msgstr "\"%s\": потрібна тільки одна база злиття"
+msgstr "\"%s\": потрібна рівно одна база злиття"
 
 #: builtin/rebase.c:1715
 #, c-format
@@ -13070,7 +13070,7 @@ msgstr ""
 
 #: builtin/rebase.c:1788
 msgid "The pre-rebase hook refused to rebase."
-msgstr "Гачок попереднього перебазування відмовився перебазувати."
+msgstr "Гачок pre-rebase відмовився перебазувати."
 
 #: builtin/rebase.c:1795
 #, c-format
@@ -13080,12 +13080,12 @@ msgstr "Зміни у %s:\n"
 #: builtin/rebase.c:1798
 #, c-format
 msgid "Changes from %s to %s:\n"
-msgstr "Змінюється з %s на %s:\n"
+msgstr "Зміна з %s на %s:\n"
 
 #: builtin/rebase.c:1823
 #, c-format
 msgid "First, rewinding head to replay your work on top of it...\n"
-msgstr "Спочатку перемотуємо HEAD, щоб відтворити вашу роботу поверх неї...\n"
+msgstr "Спочатку перемотуємо HEAD, щоб відтворити вашу роботу поверх того...\n"
 
 #: builtin/rebase.c:1835
 msgid "Could not detach HEAD"
@@ -13142,7 +13142,7 @@ msgid ""
 "To squelch this message, you can set it to 'refuse'."
 msgstr ""
 "За замовчуванням, видалення поточної гілки заборонено, оскільки наступний\n"
-"\"git clone\" не призведе до переключення жодного файлу, що спричинить "
+"\"git clone\" не призведе до переключення стану жодного файлу, що спричинить "
 "плутанину.\n"
 "\n"
 "Ви можете встановити конфігураційну змінну \"receive.denyDeleteCurrent\" у "
@@ -13236,7 +13236,7 @@ msgstr "обробляти журнали посилань всіх посила
 
 #: builtin/reflog.c:269
 msgid "limits processing to reflogs from the current worktree only"
-msgstr "обмежує обробку журналами посилань лише з поточного робочого дерева"
+msgstr "обмежити обробку журналами посилань лише з поточного робочого дерева"
 
 #: builtin/reflog.c:302
 #, c-format
@@ -13289,7 +13289,7 @@ msgstr "git remote prune [-n | --dry-run] <назва>"
 msgid ""
 "git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]"
 msgstr ""
-"git remote [-v | --verbose] update [-p | --prune] [((<група> | <віддалене-"
+"git remote [-v | --verbose] update [-p | --prune] [(<група> | <віддалене-"
 "призначення>)...]"
 
 #: builtin/remote.c:27
@@ -13374,7 +13374,7 @@ msgstr "або взагалі не отримувати жодного тегу 
 
 #: builtin/remote.c:175
 msgid "branch(es) to track"
-msgstr "гілка(и) для відстеження"
+msgstr "гілка(и) для відстежування"
 
 #: builtin/remote.c:176
 msgid "master branch"
@@ -13388,11 +13388,11 @@ msgstr ""
 
 #: builtin/remote.c:190
 msgid "specifying a master branch makes no sense with --mirror"
-msgstr "вказівка головної гілки не має сенсу з —mirror"
+msgstr "вказівка головної гілки не має сенсу з --mirror"
 
 #: builtin/remote.c:192
 msgid "specifying branches to track makes sense only with fetch mirrors"
-msgstr "вказівка гілок для відстеження має сенс тільки з дзеркалами отримання"
+msgstr "вказівка гілок для відстежування має сенс тільки з дзеркалами отримання"
 
 #: builtin/remote.c:199 builtin/remote.c:726
 #, c-format
@@ -14436,7 +14436,7 @@ msgstr "передчасне закінчення вхідних даних"
 
 #: builtin/rev-parse.c:454
 msgid "no usage string given before the `--' separator"
-msgstr "не вказано рядок використання перед \"--\" розділювачем"
+msgstr "не вказана строка використання перед \"--\" розділювачем"
 
 #: builtin/rev-parse.c:495
 msgid "missing opt-spec before option flags"
@@ -14506,7 +14506,7 @@ msgstr "--exclude-hidden не можна використовувати разо
 
 #: builtin/rev-parse.c:898 revision.c:2741 revision.c:2771
 msgid "--exclude-hidden cannot be used together with --tags"
-msgstr "--exclude-hidden неможливо використовувати разом з --tag"
+msgstr "--exclude-hidden неможливо використовувати разом з --tags"
 
 #: builtin/rev-parse.c:908 revision.c:2746 revision.c:2778
 msgid "--exclude-hidden cannot be used together with --remotes"
