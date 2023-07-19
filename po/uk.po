@@ -4936,7 +4936,7 @@ msgstr "створити/скинути та перейти до нової гі
 
 #: builtin/checkout.c:1866
 msgid "create reflog for new branch"
-msgstr "створити reflog для нової гілки"
+msgstr "створити журнал посилань для нової гілки"
 
 #: builtin/checkout.c:1868
 msgid "second guess 'git checkout <no-such-branch>' (default)"
@@ -5293,7 +5293,7 @@ msgstr "будь-які клоновані підмодулі будуть по�
 
 #: builtin/clone.c:158 builtin/init-db.c:559
 msgid "gitdir"
-msgstr "git-директорія"
+msgstr "git директорія"
 
 #: builtin/clone.c:159 builtin/init-db.c:560
 msgid "separate git dir from working tree"
@@ -7939,7 +7939,7 @@ msgstr "%s: об’єкт пошкоджений або відсутній"
 #: builtin/fsck.c:488
 #, c-format
 msgid "%s: invalid reflog entry %s"
-msgstr "%s: неприпустимий запис reflog %s"
+msgstr "%s: неприпустимий запис журналу посилань %s"
 
 #: builtin/fsck.c:503
 #, c-format
@@ -12911,6 +12911,11 @@ msgid ""
 "Use `git rebase --abort` to terminate current rebase.\n"
 "Or downgrade to v2.33, or earlier, to complete the rebase."
 msgstr ""
+"Команда \"rebase --preserve-merges\" (-p) більше не підтримується.\n"
+"Скористайтесь \"git rebase --abort\" для завершення поточного "
+"перебазування.\n"
+"Або поверніться до v2.33 або більш ранньої версії, щоб завершити "
+"перебазування."
 
 #: builtin/rebase.c:1241
 msgid ""
@@ -12918,6 +12923,10 @@ msgid ""
 "Note: Your `pull.rebase` configuration may also be set to 'preserve',\n"
 "which is no longer supported; use 'merges' instead"
 msgstr ""
+"--preserve-merges було замінено на --rebase-merges\n"
+"Примітка: У вашій конфігурації \"pull.rebase\" також може бути встановлено у "
+"значення \"preserve\",\n"
+"який більше не підтримується; натомість використовуйте \"merges\""
 
 #: builtin/rebase.c:1270
 msgid "No rebase in progress?"
@@ -12926,16 +12935,20 @@ msgstr "Перебазування не відбувається?"
 #: builtin/rebase.c:1273
 msgid "The --edit-todo action can only be used during interactive rebase."
 msgstr ""
+"Дію --edit-todo можна використовувати лише під час інтерактивного "
+"перебазування."
 
 #: builtin/rebase.c:1297 t/helper/test-fast-rebase.c:131
 msgid "Cannot read HEAD"
-msgstr ""
+msgstr "Неможливо прочитати HEAD"
 
 #: builtin/rebase.c:1309
 msgid ""
 "You must edit all merge conflicts and then\n"
 "mark them as resolved using git add"
 msgstr ""
+"Ви повинні відредагувати всі конфлікти злиття, а потім\n"
+"позначити їх як вирішені за допомогою git add"
 
 #: builtin/rebase.c:1324
 msgid "could not discard worktree changes"
@@ -12958,41 +12971,55 @@ msgid ""
 "and run me again.  I am stopping in case you still have something\n"
 "valuable there.\n"
 msgstr ""
+"Здається, що директорія %s вже існує, і\n"
+"можливо, ви перебуваєте у процесі іншого перебазування.  Якщо це так,\n"
+"будь ласка, спробуйте\n"
+"\t%s\n"
+"Якщо це не так, спробуйте\n"
+"\t%s\n"
+"і запустіть команду ще раз.  Зупинка на випадок, якщо там у вас все ще є щось\n"
+"цінне.\n"
 
 #: builtin/rebase.c:1424
 msgid "switch `C' expects a numerical value"
-msgstr ""
+msgstr "перемикач \"C\" очікує числове значення"
 
 #: builtin/rebase.c:1495
 msgid "--strategy requires --merge or --interactive"
-msgstr ""
+msgstr "--strategy потребує --merge або --interactive"
 
 #: builtin/rebase.c:1527
 msgid ""
 "apply options are incompatible with rebase.autoSquash.  Consider adding --no-"
 "autosquash"
 msgstr ""
+"apply опції несумісні з rebase.autoSquash.  Розгляньте можливість додавання --no-"
+"autosquash"
 
 #: builtin/rebase.c:1529
 msgid ""
 "apply options are incompatible with rebase.rebaseMerges.  Consider adding --"
 "no-rebase-merges"
 msgstr ""
+"apply опції несумісні з rebase.rebaseMerges.  Розгляньте можливість додавання --no-"
+"rebase-merges"
 
 #: builtin/rebase.c:1531
 msgid ""
 "apply options are incompatible with rebase.updateRefs.  Consider adding --no-"
 "update-refs"
 msgstr ""
+"apply опції несумісні з rebase.updateRefs.  Розгляньте можливість додавання --no-"
+"update-refs"
 
 #: builtin/rebase.c:1558
 #, c-format
 msgid "Unknown rebase backend: %s"
-msgstr ""
+msgstr "Невідомий бекенд перебазування: %s"
 
 #: builtin/rebase.c:1587
 msgid "--reschedule-failed-exec requires --exec or --interactive"
-msgstr ""
+msgstr "--reschedule-failed-exec потребує --exec або --interactive"
 
 #: builtin/rebase.c:1618
 #, c-format
@@ -13021,12 +13048,12 @@ msgstr "Не вдалося розвʼязати HEAD у коміт"
 #: builtin/rebase.c:1703
 #, c-format
 msgid "'%s': need exactly one merge base with branch"
-msgstr ""
+msgstr "\"%s\": потрібна рівно одна база злиття з гілкою"
 
 #: builtin/rebase.c:1706
 #, c-format
 msgid "'%s': need exactly one merge base"
-msgstr ""
+msgstr "\"%s\": потрібна рівно одна база злиття"
 
 #: builtin/rebase.c:1715
 #, c-format
@@ -13044,7 +13071,7 @@ msgstr "Поточна гілка %s знаходиться в актуальн�
 
 #: builtin/rebase.c:1778
 msgid "HEAD is up to date, rebase forced."
-msgstr ""
+msgstr "HEAD знаходиться в актуальному стані, примусове перебазування."
 
 #: builtin/rebase.c:1780
 #, c-format
@@ -13054,7 +13081,7 @@ msgstr ""
 
 #: builtin/rebase.c:1788
 msgid "The pre-rebase hook refused to rebase."
-msgstr ""
+msgstr "Гачок pre-rebase відмовився перебазувати."
 
 #: builtin/rebase.c:1795
 #, c-format
@@ -13064,12 +13091,12 @@ msgstr "Зміни у %s:\n"
 #: builtin/rebase.c:1798
 #, c-format
 msgid "Changes from %s to %s:\n"
-msgstr ""
+msgstr "Зміна з %s на %s:\n"
 
 #: builtin/rebase.c:1823
 #, c-format
 msgid "First, rewinding head to replay your work on top of it...\n"
-msgstr ""
+msgstr "Спочатку перемотуємо HEAD, щоб відтворити вашу роботу поверх того...\n"
 
 #: builtin/rebase.c:1835
 msgid "Could not detach HEAD"
@@ -13078,7 +13105,7 @@ msgstr "Не вдалося відʼєднати HEAD"
 #: builtin/rebase.c:1843
 #, c-format
 msgid "Fast-forwarded %s to %s.\n"
-msgstr ""
+msgstr "Перемотано вперед %s на %s.\n"
 
 #: builtin/receive-pack.c:45
 msgid "git receive-pack <git-dir>"
@@ -13100,6 +13127,19 @@ msgid ""
 "To squelch this message and still keep the default behaviour, set\n"
 "'receive.denyCurrentBranch' configuration variable to 'refuse'."
 msgstr ""
+"За замовчуванням, оновлення поточної гілки у непустому сховищі\n"
+"заборонено, оскільки це зробить індекс і робоче дерево невідповідними\n"
+"з тим, що ви надіслали, і вимагатиме виконання команди \"git reset --hard\" "
+"щоб співставити робоче дерево і HEAD.\n"
+"\n"
+"Ви можете встановити конфігураційну змінну \"receive.denyCurrentBranch\"\n"
+"на \"ignore\" або \"warn\" у віддаленому сховищі, щоб дозволити надсилання "
+"до поточної гілки; однак, це не рекомендується, якщо ви не\n"
+"налагодили оновлення його робочого дерева відповідно до того, що ви "
+"надіслали якимось іншим способом.\n"
+"\n"
+"Щоб ігнорувати це повідомлення і зберегти поведінку за замовчуванням, "
+"встановіть параметр \"receive.denyCurrentBranch\" у значення \"refuse\"."
 
 #: builtin/receive-pack.c:1290
 msgid ""
@@ -13112,10 +13152,20 @@ msgid ""
 "\n"
 "To squelch this message, you can set it to 'refuse'."
 msgstr ""
+"За замовчуванням, видалення поточної гілки заборонено, оскільки наступний\n"
+"\"git clone\" не призведе до переключення стану жодного файлу, що спричинить "
+"плутанину.\n"
+"\n"
+"Ви можете встановити конфігураційну змінну \"receive.denyDeleteCurrent\" у "
+"значення\n"
+"\"warn\" або \"ignore\" у віддаленому сховищі, щоб дозволити видалення\n"
+"поточної гілки, з попереджувальним повідомленням або без нього.\n"
+"\n"
+"Щоб ігнорувати це повідомлення, ви можете встановити значення \"refuse\"."
 
 #: builtin/receive-pack.c:2499
 msgid "quiet"
-msgstr ""
+msgstr "тихо"
 
 #: builtin/receive-pack.c:2514
 msgid "you must specify a directory"
@@ -13132,16 +13182,22 @@ msgid ""
 "                  [--dry-run | -n] [--verbose] [--all [--single-worktree] | "
 "<refs>...]"
 msgstr ""
+"git reflog expire [--expire=<час>] [--expire-unreachable=<час>]\n"
+"                  [--rewrite] [--updateref] [--stale-fix]\n"
+"                  [--dry-run | -n] [--verbose] [--all [--single-worktree] | "
+"<посилання>...]"
 
 #: builtin/reflog.c:19
 msgid ""
 "git reflog delete [--rewrite] [--updateref]\n"
 "                  [--dry-run | -n] [--verbose] <ref>@{<specifier>}..."
 msgstr ""
+"git reflog delete [--rewrite] [--updateref]\n"
+"                  [--dry-run | -n] [--verbose] <посилання>@{<визначник>}..."
 
 #: builtin/reflog.c:23
 msgid "git reflog exists <ref>"
-msgstr ""
+msgstr "git reflog exists <посилання>"
 
 #: builtin/reflog.c:203 builtin/reflog.c:219
 #, c-format
@@ -13150,20 +13206,20 @@ msgstr "неприпустима позначка часу \"%s\" передан
 
 #: builtin/reflog.c:248 builtin/reflog.c:368
 msgid "do not actually prune any entries"
-msgstr ""
+msgstr "насправді не видаляти жодного запису"
 
 #: builtin/reflog.c:251 builtin/reflog.c:371
 msgid ""
 "rewrite the old SHA1 with the new SHA1 of the entry that now precedes it"
-msgstr ""
+msgstr "перезаписати старий SHA1 на новий SHA1 запису, який тепер передує йому"
 
 #: builtin/reflog.c:254 builtin/reflog.c:374
 msgid "update the reference to the value of the top reflog entry"
-msgstr ""
+msgstr "оновити посилання на значення верхнього запису журналу посилань"
 
 #: builtin/reflog.c:256 builtin/reflog.c:376
 msgid "print extra information on screen"
-msgstr ""
+msgstr "вивести додаткову інформацію на екран"
 
 #: builtin/reflog.c:257 builtin/reflog.c:261
 msgid "timestamp"
@@ -13171,39 +13227,41 @@ msgstr "позначка часу"
 
 #: builtin/reflog.c:258
 msgid "prune entries older than the specified time"
-msgstr ""
+msgstr "видалити записи, старіші за вказаний час"
 
 #: builtin/reflog.c:262
 msgid ""
 "prune entries older than <time> that are not reachable from the current tip "
 "of the branch"
 msgstr ""
+"видалити записи, старіші за <час>, які недоступні з поточної верхівки гілки"
 
 #: builtin/reflog.c:266
 msgid "prune any reflog entries that point to broken commits"
 msgstr ""
+"видалити всі записи журналу посилань, які вказують на пошкоджені коміти"
 
 #: builtin/reflog.c:267
 msgid "process the reflogs of all references"
-msgstr ""
+msgstr "обробляти журнали посилань всіх посилань"
 
 #: builtin/reflog.c:269
 msgid "limits processing to reflogs from the current worktree only"
-msgstr ""
+msgstr "обмежити обробку журналами посилань лише з поточного робочого дерева"
 
 #: builtin/reflog.c:302
 #, c-format
 msgid "Marking reachable objects..."
-msgstr ""
+msgstr "Позначення досяжних обʼєктів..."
 
 #: builtin/reflog.c:347
 #, c-format
 msgid "%s points nowhere!"
-msgstr ""
+msgstr "%s вказує в нікуди!"
 
 #: builtin/reflog.c:383
 msgid "no reflog specified to delete"
-msgstr ""
+msgstr "не вказано журнал посилань для видалення"
 
 #: builtin/reflog.c:405
 #, c-format
@@ -13215,51 +13273,56 @@ msgid ""
 "git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--"
 "mirror=<fetch|push>] <name> <url>"
 msgstr ""
+"git remote add [-t <гілка>] [-m <мастер>] [-f] [--tags | --no-tags] [--"
+"mirror=<fetch|push>] <назва> <URL-адреса>"
 
 #: builtin/remote.c:21 builtin/remote.c:41
 msgid "git remote rename [--[no-]progress] <old> <new>"
-msgstr ""
+msgstr "git remote rename [--[no-]progress] <стара-назва> <нова-назва>"
 
 #: builtin/remote.c:22 builtin/remote.c:46
 msgid "git remote remove <name>"
-msgstr ""
+msgstr "git remote remove <назвa>"
 
 #: builtin/remote.c:23 builtin/remote.c:51
 msgid "git remote set-head <name> (-a | --auto | -d | --delete | <branch>)"
-msgstr ""
+msgstr "git remote set-head <назва> (-a | --auto | -d | --delete | <гілка>)"
 
 #: builtin/remote.c:24
 msgid "git remote [-v | --verbose] show [-n] <name>"
-msgstr ""
+msgstr "git remote [-v | --verbose] show [-n] <назва>"
 
 #: builtin/remote.c:25
 msgid "git remote prune [-n | --dry-run] <name>"
-msgstr ""
+msgstr "git remote prune [-n | --dry-run] <назва>"
 
 #: builtin/remote.c:26
 msgid ""
 "git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]"
 msgstr ""
+"git remote [-v | --verbose] update [-p | --prune] [(<група> | <віддалене-"
+"призначення>)...]"
 
 #: builtin/remote.c:27
 msgid "git remote set-branches [--add] <name> <branch>..."
-msgstr ""
+msgstr "git remote set-branches [--add] <назва> <гілка>..."
 
 #: builtin/remote.c:28 builtin/remote.c:77
 msgid "git remote get-url [--push] [--all] <name>"
-msgstr ""
+msgstr "git remote get-url [--push] [--all] <назва>"
 
 #: builtin/remote.c:29 builtin/remote.c:82
 msgid "git remote set-url [--push] <name> <newurl> [<oldurl>]"
 msgstr ""
+"git remote set-url [--push] <назва> <нова-url-адреса> [<стара-url-адреса>]"
 
 #: builtin/remote.c:30 builtin/remote.c:83
 msgid "git remote set-url --add <name> <newurl>"
-msgstr ""
+msgstr "git remote set-url --add <назва> <нова-url-адреса>"
 
 #: builtin/remote.c:31 builtin/remote.c:84
 msgid "git remote set-url --delete <name> <url>"
-msgstr ""
+msgstr "git remote set-url --delete <назва> <url-адреса>"
 
 #: builtin/remote.c:36
 msgid "git remote add [<options>] <name> <url>"
@@ -13267,11 +13330,11 @@ msgstr "git remote add [<опції>] <назва> <url>"
 
 #: builtin/remote.c:56
 msgid "git remote set-branches <name> <branch>..."
-msgstr ""
+msgstr "git remote set-branches <назва> <гілка>..."
 
 #: builtin/remote.c:57
 msgid "git remote set-branches --add <name> <branch>..."
-msgstr ""
+msgstr "git remote set-branches --add <назва> <гілка>..."
 
 #: builtin/remote.c:62
 msgid "git remote show [<options>] <name>"
@@ -13288,7 +13351,7 @@ msgstr "git remote update [<опції>] [<група> | <віддаленe-пр
 #: builtin/remote.c:103
 #, c-format
 msgid "Updating %s"
-msgstr ""
+msgstr "Оновлення %s"
 
 #: builtin/remote.c:105
 #, c-format
@@ -13300,27 +13363,29 @@ msgid ""
 "--mirror is dangerous and deprecated; please\n"
 "\t use --mirror=fetch or --mirror=push instead"
 msgstr ""
+"--mirror небезпечний і застарілий; будь ласка, \n"
+"\t скористайтесь --mirror=fetch або --mirror=push"
 
 #: builtin/remote.c:152
 #, c-format
 msgid "unknown mirror argument: %s"
-msgstr ""
+msgstr "невідомий аргумент дзеркала: %s"
 
 #: builtin/remote.c:168
 msgid "fetch the remote branches"
-msgstr ""
+msgstr "отримати віддалені гілки"
 
 #: builtin/remote.c:170
 msgid "import all tags and associated objects when fetching"
-msgstr ""
+msgstr "імпортувати всі теги та повʼязані з ними обʼєкти під час отримання"
 
 #: builtin/remote.c:173
 msgid "or do not fetch any tag at all (--no-tags)"
-msgstr ""
+msgstr "або взагалі не отримувати жодного тегу (--no-tags)"
 
 #: builtin/remote.c:175
 msgid "branch(es) to track"
-msgstr ""
+msgstr "гілка(и) для відстежування"
 
 #: builtin/remote.c:176
 msgid "master branch"
@@ -13329,14 +13394,16 @@ msgstr "master гілка"
 #: builtin/remote.c:178
 msgid "set up remote as a mirror to push to or fetch from"
 msgstr ""
+"налаштувати віддалене призначення як дзеркало, щоб надсилати до нього або "
+"отримувати з нього дані"
 
 #: builtin/remote.c:190
 msgid "specifying a master branch makes no sense with --mirror"
-msgstr ""
+msgstr "вказівка головної гілки не має сенсу з --mirror"
 
 #: builtin/remote.c:192
 msgid "specifying branches to track makes sense only with fetch mirrors"
-msgstr ""
+msgstr "вказівка гілок для відстежування має сенс тільки з дзеркалами отримання"
 
 #: builtin/remote.c:199 builtin/remote.c:726
 #, c-format
@@ -13352,12 +13419,12 @@ msgstr "Не вдалося налаштувати master \"%s\""
 #: trailer.c:562
 #, c-format
 msgid "more than one %s"
-msgstr ""
+msgstr "більше одного %s"
 
 #: builtin/remote.c:327
 #, c-format
 msgid "unhandled branch.%s.rebase=%s; assuming 'true'"
-msgstr ""
+msgstr "unhandled branch.%s.rebase=%s; припускаю \"true\""
 
 #: builtin/remote.c:372
 #, c-format
@@ -13366,7 +13433,7 @@ msgstr "Не вдалося забрати карту отримання для 
 
 #: builtin/remote.c:469 builtin/remote.c:477
 msgid "(matching)"
-msgstr ""
+msgstr "(збіг)"
 
 #: builtin/remote.c:481
 msgid "(delete)"
@@ -13641,7 +13708,7 @@ msgstr "Не вдалося визначити віддалений HEAD"
 msgid "Multiple remote HEAD branches. Please choose one explicitly with:"
 msgstr ""
 "Існує декілька віддалених HEAD гілок. Будь ласка, виберіть одну з них, "
-"скориставшись:"
+"скориставшись"
 
 #: builtin/remote.c:1408
 #, c-format
@@ -14347,10 +14414,11 @@ msgstr "не вдалося отримати дані про використа�
 #, c-format
 msgid "invalid value for '%s': '%s', the only allowed format is '%s'"
 msgstr ""
+"неприпустиме значення для \"%s\": \"%s\", єдиним допустимим форматом є \"%s\""
 
 #: builtin/rev-list.c:694
 msgid "rev-list does not support display of notes"
-msgstr ""
+msgstr "rev-list не підтримує відображення нотаток"
 
 #: builtin/rev-list.c:699
 #, c-format
@@ -14363,15 +14431,15 @@ msgstr "git rev-parse --parseopt [<опції>] -- [<аргументи>...]"
 
 #: builtin/rev-parse.c:426
 msgid "keep the `--` passed as an arg"
-msgstr ""
+msgstr "залишити \"--\" переданим як аргумент"
 
 #: builtin/rev-parse.c:428
 msgid "stop parsing after the first non-option argument"
-msgstr ""
+msgstr "зупинити розбір після першого неопціонального аргументу"
 
 #: builtin/rev-parse.c:431
 msgid "output in stuck long form"
-msgstr ""
+msgstr "виведення в застряглій довгій формі"
 
 #: builtin/rev-parse.c:450
 msgid "premature end of input"
@@ -14379,15 +14447,15 @@ msgstr "передчасне закінчення вхідних даних"
 
 #: builtin/rev-parse.c:454
 msgid "no usage string given before the `--' separator"
-msgstr ""
+msgstr "не вказана строка використання перед \"--\" розділювачем"
 
 #: builtin/rev-parse.c:495
 msgid "missing opt-spec before option flags"
-msgstr ""
+msgstr "відсутній opt-spec перед прапорцями опції"
 
 #: builtin/rev-parse.c:564
 msgid "Needed a single revision"
-msgstr ""
+msgstr "Необхідна одна ревізія"
 
 #: builtin/rev-parse.c:568
 msgid ""
@@ -14397,45 +14465,51 @@ msgid ""
 "\n"
 "Run \"git rev-parse --parseopt -h\" for more information on the first usage."
 msgstr ""
+"git rev-parse --parseopt [<опції>] -- [<аргументи>...]\n"
+"   або: git rev-parse --sq-quote [<аргумент>...]\n"
+"   або: git rev-parse [<опції>] [<аргумент>...]\n"
+"\n"
+"Запустіть \"git rev-parse --parseopt -h\" для отримання додаткової "
+"інформації про перше використання."
 
 #: builtin/rev-parse.c:728
 msgid "--resolve-git-dir requires an argument"
-msgstr ""
+msgstr "--resolve-git-dir потребує аргументу"
 
 #: builtin/rev-parse.c:731
 #, c-format
 msgid "not a gitdir '%s'"
-msgstr ""
+msgstr "не є git директорією \"%s\""
 
 #: builtin/rev-parse.c:758
 msgid "--git-path requires an argument"
-msgstr ""
+msgstr "--git-path потребує аргументу"
 
 #: builtin/rev-parse.c:768
 msgid "-n requires an argument"
-msgstr "-n потребує аргумент"
+msgstr "-n потребує аргументу"
 
 #: builtin/rev-parse.c:782
 msgid "--path-format requires an argument"
-msgstr ""
+msgstr "--path-format потребує аргументу"
 
 #: builtin/rev-parse.c:788
 #, c-format
 msgid "unknown argument to --path-format: %s"
-msgstr ""
+msgstr "невідомий аргумент до --path-format: %s"
 
 #: builtin/rev-parse.c:795
 msgid "--default requires an argument"
-msgstr ""
+msgstr "--default потребує аргументу"
 
 #: builtin/rev-parse.c:801
 msgid "--prefix requires an argument"
-msgstr ""
+msgstr "--prefix потребує аргументу"
 
 #: builtin/rev-parse.c:870
 #, c-format
 msgid "unknown mode for --abbrev-ref: %s"
-msgstr ""
+msgstr "невідомий режим для --abbrev-ref: %s"
 
 #: builtin/rev-parse.c:892 revision.c:2730 revision.c:2764
 msgid "--exclude-hidden cannot be used together with --branches"
@@ -14443,30 +14517,32 @@ msgstr "--exclude-hidden не можна використовувати разо
 
 #: builtin/rev-parse.c:898 revision.c:2741 revision.c:2771
 msgid "--exclude-hidden cannot be used together with --tags"
-msgstr ""
+msgstr "--exclude-hidden неможливо використовувати разом з --tags"
 
 #: builtin/rev-parse.c:908 revision.c:2746 revision.c:2778
 msgid "--exclude-hidden cannot be used together with --remotes"
-msgstr ""
+msgstr "--exclude-hidden неможливо використовувати разом з --remotes"
 
 #: builtin/rev-parse.c:925 setup.c:436
 msgid "this operation must be run in a work tree"
-msgstr ""
+msgstr "цю операцію треба виконувати в робочому дереві"
 
 #: builtin/rev-parse.c:1053
 #, c-format
 msgid "unknown mode for --show-object-format: %s"
-msgstr ""
+msgstr "невідомий режим для --show-object-format: %s"
 
 #: builtin/revert.c:26
 msgid ""
 "git revert [--[no-]edit] [-n] [-m <parent-number>] [-s] [-S[<keyid>]] "
 "<commit>..."
 msgstr ""
+"git revert [--[no-]edit] [-n] [-m <номер-батька>] [-s] [-S[<ідентифікатор-"
+"ключа>]] <коміт>..."
 
 #: builtin/revert.c:27
 msgid "git revert (--continue | --skip | --abort | --quit)"
-msgstr ""
+msgstr "git revert (--continue | --skip | --abort | --quit)"
 
 #: builtin/revert.c:32
 msgid ""
@@ -15665,7 +15741,7 @@ msgstr ""
 #: builtin/submodule--helper.c:1576
 #, c-format
 msgid "could not get a repository handle for gitdir '%s'"
-msgstr "не вдалося отримати дескриптор сховища для gitdir \"%s\""
+msgstr "не вдалося отримати дескриптор сховища для git директорії \"%s\""
 
 #: builtin/submodule--helper.c:1601 builtin/submodule--helper.c:1604
 #, c-format
@@ -16286,7 +16362,7 @@ msgstr "замінити тег, якщо він існує"
 
 #: builtin/tag.c:472 builtin/update-ref.c:515
 msgid "create a reflog"
-msgstr "створити reflog"
+msgstr "створити журнал посилань"
 
 #: builtin/tag.c:474
 msgid "Tag listing options"
@@ -23617,12 +23693,12 @@ msgstr "назва поля для сортування"
 #: reflog.c:410
 #, c-format
 msgid "not a reflog: %s"
-msgstr "не reflog: %s"
+msgstr "не є журналом посилань: %s"
 
 #: reflog.c:413
 #, c-format
 msgid "no reflog for '%s'"
-msgstr "немає reflog для \"%s\""
+msgstr "немає журналу посилань для \"%s\""
 
 #: refs.c:353
 #, c-format
@@ -26896,11 +26972,11 @@ msgstr "не вдалося знайти сховище; файл .git пошк�
 
 #: worktree.c:699
 msgid "gitdir unreadable"
-msgstr "git-директорія нечитабельна"
+msgstr "git директорія нечитабельна"
 
 #: worktree.c:703
 msgid "gitdir incorrect"
-msgstr "git-директорія неправильна"
+msgstr "git директорія неправильна"
 
 #: worktree.c:728
 msgid "not a valid directory"
@@ -26923,11 +26999,11 @@ msgstr ""
 
 #: worktree.c:766
 msgid "invalid gitdir file"
-msgstr "неприпустимий файл git-директорії"
+msgstr "неприпустимий файл git директорії"
 
 #: worktree.c:774
 msgid "gitdir file points to non-existent location"
-msgstr "файл git-директорії вказує на неіснуюче розташування"
+msgstr "файл git директорії вказує на неіснуюче розташування"
 
 #: worktree.c:790
 #, c-format
