@@ -9925,7 +9925,7 @@ msgstr "Різниця з v%d:"
 
 #: builtin/log.c:2279
 msgid "--range-diff requires --cover-letter or single patch"
-msgstr "--range-diff вимагає --cover-letter або окремої латки"
+msgstr "--range-diff потребує --cover-letter або окремої латки"
 
 #: builtin/log.c:2287
 msgid "Range-diff:"
