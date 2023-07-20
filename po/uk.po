@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-07-16 16:49-0700\n"
+"PO-Revision-Date: 2023-07-19 18:38-0700\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
@@ -10173,15 +10173,15 @@ msgstr "показувати тільки дерева"
 
 #: builtin/ls-tree.c:380
 msgid "recurse into subtrees"
-msgstr ""
+msgstr "рекурсивно в піддеревах"
 
 #: builtin/ls-tree.c:382
 msgid "show trees when recursing"
-msgstr ""
+msgstr "відображати дерева при рекурсії"
 
 #: builtin/ls-tree.c:385
 msgid "terminate entries with NUL byte"
-msgstr ""
+msgstr "завершувати записи байтом NUL"
 
 #: builtin/ls-tree.c:386
 msgid "include object size"
@@ -10189,7 +10189,7 @@ msgstr "включити розмір об’єкта"
 
 #: builtin/ls-tree.c:388 builtin/ls-tree.c:390
 msgid "list only filenames"
-msgstr ""
+msgstr "показувати лише назви файлів"
 
 #: builtin/ls-tree.c:392
 msgid "list only objects"
@@ -10197,11 +10197,13 @@ msgstr "показати лише обʼєкти"
 
 #: builtin/ls-tree.c:395
 msgid "use full path names"
-msgstr ""
+msgstr "використовувати повні назви шляхів"
 
 #: builtin/ls-tree.c:397
 msgid "list entire tree; not just current directory (implies --full-name)"
 msgstr ""
+"показувати все дерево, а не лише поточну директорію (мається на увазі --full-"
+"name)."
 
 #: builtin/ls-tree.c:436
 msgid "--format can't be combined with other format-altering options"
@@ -10210,11 +10212,11 @@ msgstr "--format не можна комбінувати з іншими опці
 #. TRANSLATORS: keep <> in "<" mail ">" info.
 #: builtin/mailinfo.c:17
 msgid "git mailinfo [<options>] <msg> <patch> < mail >info"
-msgstr ""
+msgstr "git mailinfo [<опції>] <допис> <латка> < mail >info"
 
 #: builtin/mailinfo.c:61
 msgid "keep subject"
-msgstr ""
+msgstr "не змінювати тему"
 
 #: builtin/mailinfo.c:63
 msgid "keep non patch brackets in subject"
@@ -12977,7 +12979,8 @@ msgstr ""
 "\t%s\n"
 "Якщо це не так, спробуйте\n"
 "\t%s\n"
-"і запустіть команду ще раз.  Зупинка на випадок, якщо там у вас все ще є щось\n"
+"і запустіть команду ще раз.  Зупинка на випадок, якщо там у вас все ще є "
+"щось\n"
 "цінне.\n"
 
 #: builtin/rebase.c:1424
@@ -12993,24 +12996,24 @@ msgid ""
 "apply options are incompatible with rebase.autoSquash.  Consider adding --no-"
 "autosquash"
 msgstr ""
-"apply опції несумісні з rebase.autoSquash.  Розгляньте можливість додавання --no-"
-"autosquash"
+"apply опції несумісні з rebase.autoSquash.  Розгляньте можливість додавання "
+"--no-autosquash"
 
 #: builtin/rebase.c:1529
 msgid ""
 "apply options are incompatible with rebase.rebaseMerges.  Consider adding --"
 "no-rebase-merges"
 msgstr ""
-"apply опції несумісні з rebase.rebaseMerges.  Розгляньте можливість додавання --no-"
-"rebase-merges"
+"apply опції несумісні з rebase.rebaseMerges.  Розгляньте можливість "
+"додавання --no-rebase-merges"
 
 #: builtin/rebase.c:1531
 msgid ""
 "apply options are incompatible with rebase.updateRefs.  Consider adding --no-"
 "update-refs"
 msgstr ""
-"apply опції несумісні з rebase.updateRefs.  Розгляньте можливість додавання --no-"
-"update-refs"
+"apply опції несумісні з rebase.updateRefs.  Розгляньте можливість додавання "
+"--no-update-refs"
 
 #: builtin/rebase.c:1558
 #, c-format
@@ -13403,7 +13406,8 @@ msgstr "вказівка головної гілки не має сенсу з -
 
 #: builtin/remote.c:192
 msgid "specifying branches to track makes sense only with fetch mirrors"
-msgstr "вказівка гілок для відстежування має сенс тільки з дзеркалами отримання"
+msgstr ""
+"вказівка гілок для відстежування має сенс тільки з дзеркалами отримання"
 
 #: builtin/remote.c:199 builtin/remote.c:726
 #, c-format
