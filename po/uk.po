@@ -12870,7 +12870,7 @@ msgstr "дозволити перебазування комітів з поро
 
 #: builtin/rebase.c:1174
 msgid "try to rebase merges instead of skipping them"
-msgstr "спробуйте перебазувати злиття замість того, щоб пропускати їх"
+msgstr "спробувати перебазувати злиття замість того, щоб пропускати їх"
 
 #: builtin/rebase.c:1177
 msgid "use 'merge-base --fork-point' to refine upstream"
