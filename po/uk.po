@@ -12847,31 +12847,32 @@ msgstr ""
 
 #: builtin/rebase.c:1150
 msgid "how to handle commits that become empty"
-msgstr ""
+msgstr "як обробляти порожні коміти"
 
 #: builtin/rebase.c:1153
 msgid "keep commits which start empty"
-msgstr ""
+msgstr "зберігати коміти, які починаються порожніми"
 
 #: builtin/rebase.c:1157
 msgid "move commits that begin with squash!/fixup! under -i"
-msgstr ""
+msgstr "перемістити коміти, які починаються з squash!/fixup! під -i"
 
 #: builtin/rebase.c:1160
 msgid "update branches that point to commits that are being rebased"
 msgstr ""
+"оновити гілки, які вказують на коміти, що знаходяться в стані перебазування"
 
 #: builtin/rebase.c:1167
 msgid "add exec lines after each commit of the editable list"
-msgstr ""
+msgstr "додати exec рядки після кожного коміту редагованого списку"
 
 #: builtin/rebase.c:1171
 msgid "allow rebasing commits with empty messages"
-msgstr ""
+msgstr "дозволити перебазування комітів з порожніми дописами"
 
 #: builtin/rebase.c:1174
 msgid "try to rebase merges instead of skipping them"
-msgstr ""
+msgstr "спробувати перебазувати злиття замість того, щоб пропускати їх"
 
 #: builtin/rebase.c:1177
 msgid "use 'merge-base --fork-point' to refine upstream"
@@ -12881,31 +12882,32 @@ msgstr ""
 
 #: builtin/rebase.c:1179
 msgid "use the given merge strategy"
-msgstr ""
+msgstr "використати задану стратегію злиття"
 
 #: builtin/rebase.c:1181 builtin/revert.c:105
 msgid "option"
-msgstr ""
+msgstr "опція"
 
 #: builtin/rebase.c:1182
 msgid "pass the argument through to the merge strategy"
-msgstr ""
+msgstr "передати аргумент до стратегії злиття"
 
 #: builtin/rebase.c:1185
 msgid "rebase all reachable commits up to the root(s)"
-msgstr ""
+msgstr "перебазувати всі доступні коміти до кореня(ів)."
 
 #: builtin/rebase.c:1188
 msgid "automatically re-schedule any `exec` that fails"
-msgstr ""
+msgstr "автоматично переносити будь-який \"exec\", який завершився невдало"
 
 #: builtin/rebase.c:1190
 msgid "apply all changes, even those already present upstream"
 msgstr ""
+"застосовувати всі зміни, навіть ті, що вже існують у першоджерельному сховищі"
 
 #: builtin/rebase.c:1210
 msgid "It looks like 'git am' is in progress. Cannot rebase."
-msgstr ""
+msgstr "Схоже, що виконується команда \"git am\". Неможливо перебазувати."
 
 #: builtin/rebase.c:1219
 msgid ""
