@@ -12803,7 +12803,7 @@ msgstr "ігнорувати зміни в пробілах"
 
 #: builtin/rebase.c:1113 builtin/rebase.c:1116
 msgid "cherry-pick all commits, even if unchanged"
-msgstr "зробити висмикування всіх комітів, навіть якщо вони незмінні"
+msgstr "висмикнути всі коміти, навіть якщо вони не змінені"
 
 #: builtin/rebase.c:1118
 msgid "continue"
