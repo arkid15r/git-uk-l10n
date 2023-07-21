@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-07-19 18:38-0700\n"
+"PO-Revision-Date: 2023-07-20 17:59-0700\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
@@ -10220,52 +10220,52 @@ msgstr "не змінювати тему"
 
 #: builtin/mailinfo.c:63
 msgid "keep non patch brackets in subject"
-msgstr ""
+msgstr "зберігати дужки, що не стосуються латок, в темі"
 
 #: builtin/mailinfo.c:65
 msgid "copy Message-ID to the end of commit message"
-msgstr ""
+msgstr "копіювати Message-ID в кінець допису до коміту"
 
 #: builtin/mailinfo.c:67
 msgid "re-code metadata to i18n.commitEncoding"
-msgstr ""
+msgstr "перекодувати метадані в i18n.commitEncoding"
 
 #: builtin/mailinfo.c:70
 msgid "disable charset re-coding of metadata"
-msgstr ""
+msgstr "вимкнути перекодування метаданих"
 
 #: builtin/mailinfo.c:72
 msgid "encoding"
-msgstr ""
+msgstr "кодування"
 
 #: builtin/mailinfo.c:73
 msgid "re-code metadata to this encoding"
-msgstr ""
+msgstr "перекодувати метадані в це кодування"
 
 #: builtin/mailinfo.c:75
 msgid "use scissors"
-msgstr ""
+msgstr "використовувати ножиці"
 
 #: builtin/mailinfo.c:76
 msgid "<action>"
-msgstr ""
+msgstr "<дія>"
 
 #: builtin/mailinfo.c:77
 msgid "action when quoted CR is found"
-msgstr ""
+msgstr "Дія при знаходженні цитованого CR"
 
 #: builtin/mailinfo.c:80
 msgid "use headers in message's body"
-msgstr ""
+msgstr "використовувати заголовки в тілі повідомлення"
 
 #: builtin/mailsplit.c:228
 msgid "reading patches from stdin/tty..."
-msgstr ""
+msgstr "читання патчів з stdin/tty..."
 
 #: builtin/mailsplit.c:243
 #, c-format
 msgid "empty mbox: '%s'"
-msgstr ""
+msgstr "порожній mbox: \"%s\""
 
 #: builtin/merge-base.c:36
 msgid "git merge-base [-a | --all] <commit> <commit>..."
