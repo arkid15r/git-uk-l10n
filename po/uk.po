@@ -10252,7 +10252,7 @@ msgstr "<дія>"
 
 #: builtin/mailinfo.c:77
 msgid "action when quoted CR is found"
-msgstr "Дія при знаходженні цитованого CR"
+msgstr "дія при знаходженні цитованого CR"
 
 #: builtin/mailinfo.c:80
 msgid "use headers in message's body"
@@ -10260,7 +10260,7 @@ msgstr "використовувати заголовки в тілі повід
 
 #: builtin/mailsplit.c:228
 msgid "reading patches from stdin/tty..."
-msgstr "читання патчів з stdin/tty..."
+msgstr "читання латок з stdin/tty..."
 
 #: builtin/mailsplit.c:243
 #, c-format
