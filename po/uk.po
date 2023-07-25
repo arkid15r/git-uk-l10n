@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
 "PO-Revision-Date: 2023-07-22 19:15-0700\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -10269,85 +10269,87 @@ msgstr "порожній mbox: \"%s\""
 
 #: builtin/merge-base.c:36
 msgid "git merge-base [-a | --all] <commit> <commit>..."
-msgstr ""
+msgstr "git merge-base [-a | --all] <коміт> <коміт>..."
 
 #: builtin/merge-base.c:37
 msgid "git merge-base [-a | --all] --octopus <commit>..."
-msgstr ""
+msgstr "git merge-base [-a | --all] --octopus <коміт>..."
 
 #: builtin/merge-base.c:38
 msgid "git merge-base --is-ancestor <commit> <commit>"
-msgstr ""
+msgstr "git merge-base --is-ancestor <коміт> <коміт>"
 
 #: builtin/merge-base.c:39
 msgid "git merge-base --independent <commit>..."
-msgstr ""
+msgstr "git merge-base --independent <коміт>..."
 
 #: builtin/merge-base.c:40
 msgid "git merge-base --fork-point <ref> [<commit>]"
-msgstr ""
+msgstr "git merge-base --fork-point <посилання> [<коміт>]"
 
 #: builtin/merge-base.c:148
 msgid "output all common ancestors"
-msgstr ""
+msgstr "вивести всіх спільних предків"
 
 #: builtin/merge-base.c:150
 msgid "find ancestors for a single n-way merge"
-msgstr ""
+msgstr "знайти предків для одного n-стороннього злиття"
 
 #: builtin/merge-base.c:152
 msgid "list revs not reachable from others"
-msgstr ""
+msgstr "показати ревізії, недоступні з інших джерел"
 
 #: builtin/merge-base.c:154
 msgid "is the first one ancestor of the other?"
-msgstr ""
+msgstr "чи є перша з них предком другої?"
 
 #: builtin/merge-base.c:156
 msgid "find where <commit> forked from reflog of <ref>"
-msgstr ""
+msgstr "знайти, де <коміт> відгалузився від журналу посилань <посилання>"
 
 #: builtin/merge-file.c:12
 msgid ""
 "git merge-file [<options>] [-L <name1> [-L <orig> [-L <name2>]]] <file1> "
 "<orig-file> <file2>"
 msgstr ""
+"git merge-file [<опції>] [-L <назва1> [-L <оріг> [-L <назва2>]]] <файл1> "
+"<оріг-файл> <файл2>"
 
 #: builtin/merge-file.c:38
 msgid "send results to standard output"
-msgstr ""
+msgstr "надсилати результати до стандартного виводу"
 
 #: builtin/merge-file.c:39
 msgid "use a diff3 based merge"
-msgstr ""
+msgstr "використовувати злиття на основі diff3"
 
 #: builtin/merge-file.c:40
 msgid "use a zealous diff3 based merge"
-msgstr ""
+msgstr "використовувати ретельне злиття на основі diff3"
 
 #: builtin/merge-file.c:42
 msgid "for conflicts, use our version"
-msgstr ""
+msgstr "у разі конфліктів використовувати нашу версію"
 
 #: builtin/merge-file.c:44
 msgid "for conflicts, use their version"
-msgstr ""
+msgstr "у разі конфліктів використовувати їхню версію"
 
 #: builtin/merge-file.c:46
 msgid "for conflicts, use a union version"
-msgstr ""
+msgstr "у разі конфліктів використовувати об’єднану версію"
 
 #: builtin/merge-file.c:49
 msgid "for conflicts, use this marker size"
-msgstr ""
+msgstr "у разі конфліктів використовувати цей розмір маркера"
 
 #: builtin/merge-file.c:50
 msgid "do not warn about conflicts"
-msgstr ""
+msgstr "не попереджати про конфлікти"
 
 #: builtin/merge-file.c:52
 msgid "set labels for file1/orig-file/file2"
-msgstr ""
+msgstr "встановити мітки для файл1/оріг-файл/файл2"
 
 #: builtin/merge-recursive.c:52
 #, c-format
@@ -10363,13 +10365,13 @@ msgstr "не вдалося розібрати обʼєкт \"%s\""
 #, c-format
 msgid "cannot handle more than %d base. Ignoring %s."
 msgid_plural "cannot handle more than %d bases. Ignoring %s."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "неможливо обробити більш ніж %d базу. Ігнорування %s."
+msgstr[1] "неможливо обробити більш ніж %d бази. Ігнорування %s."
+msgstr[2] "неможливо обробити більш ніж %d баз. Ігнорування %s."
 
 #: builtin/merge-recursive.c:70
 msgid "not handling anything other than two heads merge."
-msgstr ""
+msgstr "не обробляти нічого, окрім злиття двох верхівок."
 
 #: builtin/merge-recursive.c:79 builtin/merge-recursive.c:81
 #, c-format
@@ -10379,51 +10381,51 @@ msgstr "не вдалося розвʼязати посилання \"%s\""
 #: builtin/merge-recursive.c:87
 #, c-format
 msgid "Merging %s with %s\n"
-msgstr ""
+msgstr "Злиття %s з %s\n"
 
 #: builtin/merge-tree.c:430 builtin/merge-tree.c:435 builtin/merge.c:1232
 msgid "not something we can merge"
-msgstr ""
+msgstr "не те, що ми в змозі об’єднати"
 
 #: builtin/merge-tree.c:465 builtin/merge.c:1556
 msgid "refusing to merge unrelated histories"
-msgstr ""
+msgstr "відмова від об’єднання непов’язаних історій"
 
 #: builtin/merge-tree.c:471
 msgid "failure to merge"
-msgstr ""
+msgstr "не вдалося злити"
 
 #: builtin/merge-tree.c:518
 msgid "git merge-tree [--write-tree] [<options>] <branch1> <branch2>"
-msgstr ""
+msgstr "git merge-tree [--write-tree] [<опції>] <гілка1> <гілка2>"
 
 #: builtin/merge-tree.c:519
 msgid "git merge-tree [--trivial-merge] <base-tree> <branch1> <branch2>"
-msgstr ""
+msgstr "git merge-tree [--trivial-merge] <базове-дерево> <гілка1> <гілка2>"
 
 #: builtin/merge-tree.c:524
 msgid "do a real merge instead of a trivial merge"
-msgstr ""
+msgstr "зробити справжнє злиття замість тривіального злиття"
 
 #: builtin/merge-tree.c:527
 msgid "do a trivial merge only"
-msgstr ""
+msgstr "зробити лише тривіальне злиття"
 
 #: builtin/merge-tree.c:529
 msgid "also show informational/conflict messages"
-msgstr ""
+msgstr "також показувати інформаційні/конфліктні повідомлення"
 
 #: builtin/merge-tree.c:534
 msgid "list filenames without modes/oids/stages"
-msgstr ""
+msgstr "вивести назви файлів без режимів/oid/стадій"
 
 #: builtin/merge-tree.c:538 builtin/merge.c:309 builtin/pull.c:189
 msgid "allow merging unrelated histories"
-msgstr ""
+msgstr "дозволити злиття непов’язаних історій"
 
 #: builtin/merge-tree.c:542
 msgid "perform multiple merges, one per line of input"
-msgstr ""
+msgstr "виконати кілька злиттів, по одному на кожен рядок вводу"
 
 #: builtin/merge-tree.c:547
 msgid "specify a merge-base for the merge"
@@ -10431,11 +10433,11 @@ msgstr "вказати базу для злиття"
 
 #: builtin/merge-tree.c:561 builtin/merge-tree.c:626
 msgid "--trivial-merge is incompatible with all other options"
-msgstr ""
+msgstr "--trivial-merge несумісна з усіма іншими опціями"
 
 #: builtin/merge-tree.c:563
 msgid "--merge-base is incompatible with --stdin"
-msgstr ""
+msgstr "--merge-base несумісна з --stdin"
 
 #: builtin/merge-tree.c:572 builtin/merge-tree.c:588 builtin/notes.c:313
 #, c-format
@@ -10445,7 +10447,7 @@ msgstr "невірно сформований рядок вводу: \"%s\"."
 #: builtin/merge-tree.c:592
 #, c-format
 msgid "merging cannot continue; got unclean result of %d"
-msgstr ""
+msgstr "неможливо продовжити злиття; отримано брудний результат для %d"
 
 #: builtin/merge.c:68
 msgid "git merge [<options>] [<commit>...]"
@@ -10453,7 +10455,7 @@ msgstr "git merge [<опції>] [<коміт>...]"
 
 #: builtin/merge.c:134
 msgid "switch `m' requires a value"
-msgstr ""
+msgstr "перемикач \"m\" потребує значення"
 
 #: builtin/merge.c:157
 #, c-format
@@ -13086,7 +13088,7 @@ msgstr ""
 #: builtin/rebase.c:1558
 #, c-format
 msgid "Unknown rebase backend: %s"
-msgstr "Невідомий бекенд перебазування: %s"
+msgstr "Невідомий обробник перебазування: %s"
 
 #: builtin/rebase.c:1587
 msgid "--reschedule-failed-exec requires --exec or --interactive"
@@ -17560,7 +17562,7 @@ msgstr "Експортер даних Git"
 
 #: command-list.h:98
 msgid "Backend for fast Git data importers"
-msgstr "Бекенд для швидких імпортерів даних Git"
+msgstr "Обробник для швидких імпортерів даних Git"
 
 #: command-list.h:99
 msgid "Download objects and refs from another repository"
@@ -21048,19 +21050,19 @@ msgstr "CURLSSLOPT_NO_REVOKE не підтримується з cURL < 7.44.0"
 #: http.c:1218
 #, c-format
 msgid "Unsupported SSL backend '%s'. Supported SSL backends:"
-msgstr "Непідтримуваний SSL бекенд \"%s\". Підтримувані SSL бекенди:"
+msgstr "Непідтримуваний SSL обробник \"%s\". Підтримувані SSL обробники:"
 
 #: http.c:1225
 #, c-format
 msgid "Could not set SSL backend to '%s': cURL was built without SSL backends"
 msgstr ""
-"Не вдалося встановити SSL бекенд в \"%s\": cURL було зібрано без підтримки "
-"SSL бекендів"
+"Не вдалося встановити SSL обробник в \"%s\": cURL було зібрано без підтримки "
+"SSL обробників"
 
 #: http.c:1229
 #, c-format
 msgid "Could not set SSL backend to '%s': already set"
-msgstr "Не вдалося встановити SSL бекенд в \"%s\": вже встановлено"
+msgstr "Не вдалося встановити SSL обробник в \"%s\": вже встановлено"
 
 #: http.c:2112
 #, c-format
