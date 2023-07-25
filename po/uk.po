@@ -10305,7 +10305,7 @@ msgstr "чи є перша з них предком другої?"
 
 #: builtin/merge-base.c:156
 msgid "find where <commit> forked from reflog of <ref>"
-msgstr "знайти, де <коміт> відгалузився від логу посилань <посилання>"
+msgstr "знайти, де <коміт> відгалузився від журналу посилань <посилання>"
 
 #: builtin/merge-file.c:12
 msgid ""
@@ -10325,7 +10325,7 @@ msgstr "використовувати злиття на основі diff3"
 
 #: builtin/merge-file.c:40
 msgid "use a zealous diff3 based merge"
-msgstr "використовуйте ретельне злиття на основі diff3"
+msgstr "використовувати ретельне злиття на основі diff3"
 
 #: builtin/merge-file.c:42
 msgid "for conflicts, use our version"
@@ -10365,8 +10365,8 @@ msgstr "не вдалося розібрати обʼєкт \"%s\""
 #, c-format
 msgid "cannot handle more than %d base. Ignoring %s."
 msgid_plural "cannot handle more than %d bases. Ignoring %s."
-msgstr[0] "неможливо обробити більш ніж %d бази. Ігнорування %s."
-msgstr[1] "неможливо обробити більш ніж %d баз. Ігнорування %s."
+msgstr[0] "неможливо обробити більш ніж %d базу. Ігнорування %s."
+msgstr[1] "неможливо обробити більш ніж %d бази. Ігнорування %s."
 msgstr[2] "неможливо обробити більш ніж %d баз. Ігнорування %s."
 
 #: builtin/merge-recursive.c:70
@@ -10409,7 +10409,7 @@ msgstr "зробити справжнє злиття замість тривіа
 
 #: builtin/merge-tree.c:527
 msgid "do a trivial merge only"
-msgstr "робити лише тривіальне злиття"
+msgstr "зробити лише тривіальне злиття"
 
 #: builtin/merge-tree.c:529
 msgid "also show informational/conflict messages"
