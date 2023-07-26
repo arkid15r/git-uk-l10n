@@ -11976,7 +11976,7 @@ msgstr "Опції, повʼязані зі злиттям"
 
 #: builtin/pull.c:136
 msgid "incorporate changes by rebasing rather than merging"
-msgstr "вносити зміни шляхом перебазування, а не злиття"
+msgstr "вносити зміни через перебазування, а не злиття"
 
 #: builtin/pull.c:164 builtin/revert.c:116
 msgid "allow fast-forward"
@@ -11988,7 +11988,7 @@ msgstr "контролювати використання гачків pre-merge
 
 #: builtin/pull.c:176 parse-options.h:582
 msgid "automatically stash/stash pop before and after"
-msgstr "автоматично додавати до/забирати зі схову до і після"
+msgstr "автоматично додавати до та забирати зі схову перед і після"
 
 #: builtin/pull.c:192
 msgid "Options related to fetching"
@@ -12007,20 +12007,20 @@ msgid ""
 "There is no candidate for rebasing against among the refs that you just "
 "fetched."
 msgstr ""
-"Серед посилань, які ви щойно отримали, немає кандидата, відносно якого можна "
+"Серед щойно отриманих посилань немає кандидата, відносно якого можна "
 "виконати перебазування."
 
 #: builtin/pull.c:450
 msgid ""
 "There are no candidates for merging among the refs that you just fetched."
-msgstr "Серед посилань, які ви щойно отримали, немає кандидатів на злиття."
+msgstr "Серед щойно отриманих посилань немає кандидатів на злиття."
 
 #: builtin/pull.c:451
 msgid ""
 "Generally this means that you provided a wildcard refspec which had no\n"
 "matches on the remote end."
 msgstr ""
-"Зазвичай це означає, що ви ввели wildcard визначник посилання, який не має\n"
+"Зазвичай це означає, що для визначника посилання, ви ввели символ підстановки, який не має\n"
 "збігів на віддаленому призначені."
 
 #: builtin/pull.c:454
