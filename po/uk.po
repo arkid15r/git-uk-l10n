@@ -10537,7 +10537,7 @@ msgstr "опція для обраної стратегії злиття"
 
 #: builtin/merge.c:294
 msgid "merge commit message (for a non-fast-forward merge)"
-msgstr "допис до коміту злиття (для не злиття без перемотування вперед)"
+msgstr "допис до коміту злиття (для злиття без перемотування вперед)"
 
 #: builtin/merge.c:300
 msgid "use <name> instead of the real target"
