@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-07-22 19:15-0700\n"
+"PO-Revision-Date: 2023-07-25 18:34-0700\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
@@ -10470,77 +10470,78 @@ msgstr "Не вдалося знайти стратегію злиття \"%s\".
 #: builtin/merge.c:211
 #, c-format
 msgid "Available strategies are:"
-msgstr ""
+msgstr "Доступні стратегії:"
 
 #: builtin/merge.c:216
 #, c-format
 msgid "Available custom strategies are:"
-msgstr ""
+msgstr "Доступні спеціальні стратегії:"
 
 #: builtin/merge.c:267 builtin/pull.c:139
 msgid "do not show a diffstat at the end of the merge"
-msgstr ""
+msgstr "не показувати diffstat наприкінці злиття"
 
 #: builtin/merge.c:270 builtin/pull.c:142
 msgid "show a diffstat at the end of the merge"
-msgstr ""
+msgstr "показувати diffstat наприкінці злиття"
 
 #: builtin/merge.c:271 builtin/pull.c:145
 msgid "(synonym to --stat)"
-msgstr ""
+msgstr "(синонім до --stat)"
 
 #: builtin/merge.c:273 builtin/pull.c:148
 msgid "add (at most <n>) entries from shortlog to merge commit message"
 msgstr ""
+"додати (не більше <н>) записів з короткого журналу у допис до коміту злиття"
 
 #: builtin/merge.c:276 builtin/pull.c:154
 msgid "create a single commit instead of doing a merge"
-msgstr ""
+msgstr "створити єдиний коміт замість злиття"
 
 #: builtin/merge.c:278 builtin/pull.c:157
 msgid "perform a commit if the merge succeeds (default)"
-msgstr ""
+msgstr "виконати коміт, якщо злиття пройшло успішно (за замовчуванням)"
 
 #: builtin/merge.c:280 builtin/pull.c:160
 msgid "edit message before committing"
-msgstr "редагувати повідомлення перед комітом"
+msgstr "редагувати допис перед комітом"
 
 #: builtin/merge.c:282
 msgid "allow fast-forward (default)"
-msgstr ""
+msgstr "дозволити перемотування вперед (за замовчуванням)"
 
 #: builtin/merge.c:284 builtin/pull.c:167
 msgid "abort if fast-forward is not possible"
-msgstr ""
+msgstr "перервати, якщо перемотування вперед неможливе"
 
 #: builtin/merge.c:288 builtin/pull.c:173
 msgid "verify that the named commit has a valid GPG signature"
-msgstr ""
+msgstr "перевіряти, чи має коміт дійсний GPG-підпис"
 
 #: builtin/merge.c:289 builtin/notes.c:793 builtin/pull.c:177
 #: builtin/rebase.c:1179 builtin/revert.c:104
 msgid "strategy"
-msgstr ""
+msgstr "стратегія"
 
 #: builtin/merge.c:290 builtin/pull.c:178
 msgid "merge strategy to use"
-msgstr ""
+msgstr "яку стратегію злиття використовувати"
 
 #: builtin/merge.c:291 builtin/pull.c:181
 msgid "option=value"
-msgstr ""
+msgstr "опція=значення"
 
 #: builtin/merge.c:292 builtin/pull.c:182
 msgid "option for selected merge strategy"
-msgstr ""
+msgstr "опція для обраної стратегії злиття"
 
 #: builtin/merge.c:294
 msgid "merge commit message (for a non-fast-forward merge)"
-msgstr ""
+msgstr "допис до коміту злиття (для злиття без перемотування вперед)"
 
 #: builtin/merge.c:300
 msgid "use <name> instead of the real target"
-msgstr "використовувати <назва> замість реальної цілі"
+msgstr "використовувати <назву> замість реальної цілі"
 
 #: builtin/merge.c:303
 msgid "abort the current in-progress merge"
@@ -10548,7 +10549,7 @@ msgstr "перервати поточне злиття"
 
 #: builtin/merge.c:305
 msgid "--abort but leave index and working tree alone"
-msgstr "--abort, але зберегти стан індекса і робочого дерева"
+msgstr "--abort, але зберегти стан індексу і робочого дерева"
 
 #: builtin/merge.c:307
 msgid "continue the current in-progress merge"
