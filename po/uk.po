@@ -10592,7 +10592,7 @@ msgstr "Коміт зчавлювання -- HEAD не оновлюється\n"
 #: builtin/merge.c:477
 #, c-format
 msgid "No merge message -- not updating HEAD\n"
-msgstr "Немає допису до злиття-- HEAD не оновлюється\n"
+msgstr "Немає допису до злиття -- HEAD не оновлюється\n"
 
 #: builtin/merge.c:527
 #, c-format
