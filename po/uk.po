@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-07-25 18:38-0700\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-07-26 18:21-0700\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -10371,7 +10371,7 @@ msgstr[2] "неможливо обробити більш ніж %d баз. Іг
 
 #: builtin/merge-recursive.c:70
 msgid "not handling anything other than two heads merge."
-msgstr "не обробляти нічого, окрім злиття двох верхівок."
+msgstr "не оброблюється нічого, окрім злиття двох верхівок."
 
 #: builtin/merge-recursive.c:79 builtin/merge-recursive.c:81
 #, c-format
@@ -10557,7 +10557,7 @@ msgstr "продовжити поточний процес злиття"
 
 #: builtin/merge.c:316
 msgid "bypass pre-merge-commit and commit-msg hooks"
-msgstr ""
+msgstr "обходити pre-merge-commit та commit-msg гачки"
 
 #: builtin/merge.c:340
 msgid "could not run stash."
@@ -10565,7 +10565,7 @@ msgstr "не вдалося виконати stash."
 
 #: builtin/merge.c:345
 msgid "stash failed"
-msgstr ""
+msgstr "не вдалося додати до схову"
 
 #: builtin/merge.c:350
 #, c-format
@@ -10574,25 +10574,25 @@ msgstr "не є припустимим обʼєктом: %s"
 
 #: builtin/merge.c:366 builtin/merge.c:378
 msgid "read-tree failed"
-msgstr ""
+msgstr "read-tree завершився невдало"
 
 #: builtin/merge.c:412
 msgid "Already up to date. (nothing to squash)"
-msgstr ""
+msgstr "Вже в актуальному стані. (нічого зчавлювати)"
 
 #: builtin/merge.c:414 merge-ort-wrappers.c:36 merge-recursive.c:3494
 msgid "Already up to date."
-msgstr ""
+msgstr "Вже в актуальному стані."
 
 #: builtin/merge.c:426
 #, c-format
 msgid "Squash commit -- not updating HEAD\n"
-msgstr ""
+msgstr "Коміт зчавлювання -- HEAD не оновлюється\n"
 
 #: builtin/merge.c:477
 #, c-format
 msgid "No merge message -- not updating HEAD\n"
-msgstr ""
+msgstr "Немає допису до злиття -- HEAD не оновлюється\n"
 
 #: builtin/merge.c:527
 #, c-format
@@ -10602,7 +10602,7 @@ msgstr "\"%s\" не вказує на коміт"
 #: builtin/merge.c:615
 #, c-format
 msgid "Bad branch.%s.mergeoptions string: %s"
-msgstr ""
+msgstr "Невірна branch.%s.mergeoptions строка: %s"
 
 #: builtin/merge.c:729 builtin/merge.c:926 builtin/stash.c:520
 #: merge-recursive.c:3850
@@ -10611,12 +10611,12 @@ msgstr "Не вдалося записати індекс."
 
 #: builtin/merge.c:741
 msgid "Not handling anything other than two heads merge."
-msgstr ""
+msgstr "Не оброблюється нічого, окрім злиття двох верхівок."
 
 #: builtin/merge.c:754
 #, c-format
 msgid "unknown strategy option: -X%s"
-msgstr ""
+msgstr "невідомий варіант стратегії: -X%s"
 
 #: builtin/merge.c:776 t/helper/test-fast-rebase.c:232
 #, c-format
@@ -10632,7 +10632,8 @@ msgstr "Не вдалося прочитати з \"%s\""
 #, c-format
 msgid "Not committing merge; use 'git commit' to complete the merge.\n"
 msgstr ""
-"Не виконується злиття; скористайтесь \"git commit\", щоб завершити злиття.\n"
+"Не додано коміт злиття; скористайтесь \"git commit\", щоб завершити "
+"злиття.\n"
 
 #: builtin/merge.c:843
 msgid ""
@@ -12021,8 +12022,8 @@ msgid ""
 "Generally this means that you provided a wildcard refspec which had no\n"
 "matches on the remote end."
 msgstr ""
-"Зазвичай це означає, що для визначника посилання, ви ввели символ підстановки, який не має\n"
-"збігів на віддаленому призначені."
+"Зазвичай це означає, що для визначника посилання, ви ввели символ "
+"підстановки, який не має збігів на віддаленому призначені."
 
 #: builtin/pull.c:454
 #, c-format
@@ -12031,7 +12032,7 @@ msgid ""
 "a branch. Because this is not the default configured remote\n"
 "for your current branch, you must specify a branch on the command line."
 msgstr ""
-"Ви попросили затягнути з віддаленого \"%\", але не вказали\n"
+"Ви попросили затягнути з віддаленого \"%s\", але не вказали\n"
 "гілку. Оскільки це не типове віддалене призначення\n"
 "для вашої поточної гілки, вам треба вказати гілку у командному рядку."
 
@@ -12477,7 +12478,7 @@ msgstr "запросити атомарну транзакцію на відда
 
 #: builtin/push.c:647
 msgid "--delete doesn't make sense without any refs"
-msgstr "--delete не має сенсу без рефів"
+msgstr "--delete не має сенсу без посилань"
 
 #: builtin/push.c:667 t/helper/test-bundle-uri.c:90
 #, c-format
@@ -24255,7 +24256,7 @@ msgstr "не вдалося знайти віддалене посилання %
 #: remote.c:2110
 #, c-format
 msgid "* Ignoring funny ref '%s' locally"
-msgstr "* Ігнорування кумедних рефів \"%s\" локально"
+msgstr "* Ігнорування кумедних посилань \"%s\" локально"
 
 #: remote.c:2277
 #, c-format
