@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-07-25 18:38-0700\n"
+"PO-Revision-Date: 2023-07-26 19:00-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
@@ -11910,18 +11910,24 @@ msgid ""
 "and let us know you still use it by sending an e-mail\n"
 "to <git@vger.kernel.org>.  Thanks.\n"
 msgstr ""
+"Команду \"git pack-redundant\" номіновано на вилучення.\n"
+"Якщо ви все ще використовуєте цю команду, будь ласка, додайте додатковий "
+"параметр\n"
+"\"--i-still-use-this\" у командному рядку\n"
+"і повідомте нам, що ви все ще використовуєте її, надіславши листа\n"
+"на адресу <git@vger.kernel.org>.  Дякуємо.\n"
 
 #: builtin/pack-redundant.c:608
 msgid "refusing to run without --i-still-use-this"
-msgstr ""
+msgstr "відмова від запуску без --i-still-use-this"
 
 #: builtin/pack-refs.c:9
 msgid "git pack-refs [--all] [--no-prune]"
-msgstr ""
+msgstr "git pack-refs [--all] [--no-prune]"
 
 #: builtin/pack-refs.c:17
 msgid "pack everything"
-msgstr ""
+msgstr "запакувати все"
 
 #: builtin/pack-refs.c:18
 msgid "prune loose refs (default)"
@@ -11929,35 +11935,35 @@ msgstr "видалити вивільнені посилання (за замо�
 
 #: builtin/patch-id.c:191
 msgid "git patch-id [--stable | --unstable | --verbatim]"
-msgstr ""
+msgstr "git patch-id [--stable | --unstable | --verbatim]"
 
 #: builtin/patch-id.c:222
 msgid "use the unstable patch-id algorithm"
-msgstr ""
+msgstr "використовувати нестабільний алгоритм ідентифікатора латки"
 
 #: builtin/patch-id.c:224
 msgid "use the stable patch-id algorithm"
-msgstr ""
+msgstr "використовувати стабільний алгоритм ідентифікатора латки"
 
 #: builtin/patch-id.c:226
 msgid "don't strip whitespace from the patch"
-msgstr ""
+msgstr "не прибирати пробіли з латки"
 
 #: builtin/prune.c:20
 msgid "git prune [-n] [-v] [--progress] [--expire <time>] [--] [<head>...]"
-msgstr ""
+msgstr "git prune [-n] [-v] [--progress] [--expire <час>] [--] [<верхівка>...]"
 
 #: builtin/prune.c:155
 msgid "report pruned objects"
-msgstr ""
+msgstr "повідомляти про видалені обʼєкти"
 
 #: builtin/prune.c:158
 msgid "expire objects older than <time>"
-msgstr ""
+msgstr "видалити обʼєкти старіші за <час>"
 
 #: builtin/prune.c:160
 msgid "limit traversal to objects outside promisor packfiles"
-msgstr ""
+msgstr "обмежити обхід об’єктами за межами promisor пакунків"
 
 #: builtin/prune.c:173
 msgid "cannot prune in a precious-objects repo"
@@ -12021,7 +12027,8 @@ msgid ""
 "Generally this means that you provided a wildcard refspec which had no\n"
 "matches on the remote end."
 msgstr ""
-"Зазвичай це означає, що для визначника посилання, ви ввели символ підстановки, який не має\n"
+"Зазвичай це означає, що для визначника посилання, ви ввели символ "
+"підстановки, який не має\n"
 "збігів на віддаленому призначені."
 
 #: builtin/pull.c:454
