@@ -10646,7 +10646,7 @@ msgstr ""
 
 #: builtin/merge.c:848
 msgid "An empty message aborts the commit.\n"
-msgstr "Порожій допис перерве процес коміту.\n"
+msgstr "Порожній допис перерве процес коміту.\n"
 
 #: builtin/merge.c:851
 #, c-format
