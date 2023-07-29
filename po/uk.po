@@ -11853,7 +11853,7 @@ msgstr "pack.deltaCacheLimit занадто великий, примусове %
 #: builtin/pack-objects.c:4367 config.c:1990
 #, c-format
 msgid "bad pack compression level %d"
-msgstr "поганий рівень стиснення пакунка %d"
+msgstr "невірний рівень стиснення пакунка %d"
 
 #: builtin/pack-objects.c:4377
 msgid "--max-pack-size cannot be used to build a pack for transfer"
@@ -11862,7 +11862,7 @@ msgstr ""
 
 #: builtin/pack-objects.c:4379
 msgid "minimum pack size limit is 1 MiB"
-msgstr "мінімальний розмір пакунка - 1 Мб"
+msgstr "мінімальний розмір пакунка - 1 МіБ"
 
 #: builtin/pack-objects.c:4384
 msgid "--thin cannot be used to build an indexable pack"
