@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-07-26 19:00-0700\n"
+"PO-Revision-Date: 2023-07-28 17:32-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
@@ -10632,8 +10632,7 @@ msgstr "Не вдалося прочитати з \"%s\""
 #, c-format
 msgid "Not committing merge; use 'git commit' to complete the merge.\n"
 msgstr ""
-"Не додано коміт злиття; скористайтесь \"git commit\", щоб завершити "
-"злиття.\n"
+"Не додано коміт злиття; скористайтесь \"git commit\", щоб завершити злиття.\n"
 
 #: builtin/merge.c:843
 msgid ""
@@ -11849,48 +11848,49 @@ msgstr ""
 #: builtin/pack-objects.c:4321
 #, c-format
 msgid "pack.deltaCacheLimit is too high, forcing %d"
-msgstr ""
+msgstr "pack.deltaCacheLimit занадто великий, примусове %d"
 
 #: builtin/pack-objects.c:4367 config.c:1990
 #, c-format
 msgid "bad pack compression level %d"
-msgstr ""
+msgstr "поганий рівень стиснення пакунка %d"
 
 #: builtin/pack-objects.c:4377
 msgid "--max-pack-size cannot be used to build a pack for transfer"
 msgstr ""
+"--max-pack-size не можна використовувати для створення пакунка для передачі"
 
 #: builtin/pack-objects.c:4379
 msgid "minimum pack size limit is 1 MiB"
-msgstr ""
+msgstr "мінімальний розмір пакунка - 1 Мб"
 
 #: builtin/pack-objects.c:4384
 msgid "--thin cannot be used to build an indexable pack"
-msgstr ""
+msgstr "--thin не можна використовувати для створення індексованого пакунка"
 
 #: builtin/pack-objects.c:4393
 msgid "cannot use --filter without --stdout"
-msgstr ""
+msgstr "неможливо використовувати --filter без --stdout"
 
 #: builtin/pack-objects.c:4395
 msgid "cannot use --filter with --stdin-packs"
-msgstr ""
+msgstr "неможливо використовувати --filter з --stdin-packs"
 
 #: builtin/pack-objects.c:4399
 msgid "cannot use internal rev list with --stdin-packs"
-msgstr ""
+msgstr "неможливо використовувати внутрішній список ревізій з --stdin-packs"
 
 #: builtin/pack-objects.c:4403
 msgid "cannot use internal rev list with --cruft"
-msgstr ""
+msgstr "неможливо використовувати внутрішній список ревізій з --cruft"
 
 #: builtin/pack-objects.c:4405
 msgid "cannot use --stdin-packs with --cruft"
-msgstr ""
+msgstr "неможливо використовувати --stdin-packs з --cruft"
 
 #: builtin/pack-objects.c:4407
 msgid "cannot use --max-pack-size with --cruft"
-msgstr ""
+msgstr "неможливо використовувати --max-pack-size з --cruft"
 
 #: builtin/pack-objects.c:4467
 msgid "Enumerating objects"
@@ -11902,6 +11902,8 @@ msgid ""
 "Total %<PRIu32> (delta %<PRIu32>), reused %<PRIu32> (delta %<PRIu32>), pack-"
 "reused %<PRIu32>"
 msgstr ""
+"Всього %<PRIu32> (дельта %<PRIu32>), повторно використано %<PRIu32> (дельта "
+"%<PRIu32>), повторно використано пакунків %<PRIu32>"
 
 #: builtin/pack-redundant.c:603
 msgid ""
