@@ -10640,10 +10640,13 @@ msgid ""
 "especially if it merges an updated upstream into a topic branch.\n"
 "\n"
 msgstr ""
+"Будь ласка, введіть допис до коміта, щоб пояснити, чому це злиття є "
+"необхідним,\n"
+"особливо якщо воно об’єднує першоджерельні оновлення з тематичною гілкою.\n"
 
 #: builtin/merge.c:848
 msgid "An empty message aborts the commit.\n"
-msgstr ""
+msgstr "Порожній допис перерве процес коміту.\n"
 
 #: builtin/merge.c:851
 #, c-format
@@ -10651,20 +10654,25 @@ msgid ""
 "Lines starting with '%c' will be ignored, and an empty message aborts\n"
 "the commit.\n"
 msgstr ""
+"Рядки, що починаються з \"%c\", будуть проігноровані, а порожній допис "
+"перерве\n"
+"процес коміту.\n"
 
 #: builtin/merge.c:912
 msgid "Empty commit message."
-msgstr ""
+msgstr "Порожній допис до коміта."
 
 #: builtin/merge.c:929
 #, c-format
 msgid "Wonderful.\n"
-msgstr ""
+msgstr "Чудово.\n"
 
 #: builtin/merge.c:990
 #, c-format
 msgid "Automatic merge failed; fix conflicts and then commit the result.\n"
 msgstr ""
+"Автоматичне злиття не вдалося; виправте конфлікти і потім зробіть коміт "
+"результату.\n"
 
 #: builtin/merge.c:1030
 msgid "No current branch."
@@ -10677,16 +10685,17 @@ msgstr "Немає віддаленого призначення для пото
 #: builtin/merge.c:1034
 msgid "No default upstream defined for the current branch."
 msgstr ""
+"Для поточної гілки не визначено першоджерельне сховище за замовчуванням."
 
 #: builtin/merge.c:1039
 #, c-format
 msgid "No remote-tracking branch for %s from %s"
-msgstr ""
+msgstr "Немає віддалено відстежуваної гілки для %s з %s"
 
 #: builtin/merge.c:1096
 #, c-format
 msgid "Bad value '%s' in environment '%s'"
-msgstr ""
+msgstr "Невірне значення \"%s\" в оточенні \"%s\""
 
 #: builtin/merge.c:1171 editor.c:154 read-cache.c:3141 wrapper.c:708
 #, c-format
