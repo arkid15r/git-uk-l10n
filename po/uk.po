@@ -10753,7 +10753,7 @@ msgstr "Не вказано коміт і не встановлено merge.defa
 
 #: builtin/merge.c:1459
 msgid "Squash commit into empty head not supported yet"
-msgstr "Поки що немає підтримки комітов зчавлювання в порожню верхівку"
+msgstr "Поки що немає підтримки комітів зчавлювання в порожню верхівку"
 
 #: builtin/merge.c:1461
 msgid "Non-fast-forward commit does not make sense into an empty head"
