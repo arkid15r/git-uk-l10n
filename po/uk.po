@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-07-30 16:16-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-07-30 16:21-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -4052,7 +4052,7 @@ msgstr "не показувати хід виконання"
 
 #: builtin/bundle.c:81 builtin/bundle.c:202 builtin/pack-objects.c:4185
 msgid "show progress meter"
-msgstr "показувати лічильник ходу виконання"
+msgstr "показувати хід виконання"
 
 #: builtin/bundle.c:83
 msgid "historical; same as --progress"
@@ -11191,7 +11191,7 @@ msgstr "git notes prune [<опції>]"
 
 #: builtin/notes.c:102
 msgid "Write/edit the notes for the following object:"
-msgstr ""
+msgstr "Записати/відредагувати нотатки для наступного обʼєкта:"
 
 #: builtin/notes.c:155
 #, c-format
@@ -11209,7 +11209,7 @@ msgstr "не вдалося завершити \"show\" для об’єкта \
 
 #: builtin/notes.c:200
 msgid "please supply the note contents using either -m or -F option"
-msgstr ""
+msgstr "будь ласка, надайте зміст нотатки, використовуючи опцію -m або -F"
 
 #: builtin/notes.c:209
 msgid "unable to write note object"
@@ -11218,7 +11218,7 @@ msgstr "не вдалося записати об’єкт нотатки"
 #: builtin/notes.c:212
 #, c-format
 msgid "the note contents have been left in %s"
-msgstr ""
+msgstr "вміст нотатки залишено в %s"
 
 #: builtin/notes.c:246 builtin/tag.c:592
 #, c-format
@@ -11253,7 +11253,7 @@ msgstr "не вдалося скопіювати нотатки з \"%s\" в \"%
 #: builtin/notes.c:360
 #, c-format
 msgid "refusing to %s notes in %s (outside of refs/notes/)"
-msgstr ""
+msgstr "відмова від %s нотаток у %s (за межами refs/notes/)"
 
 #: builtin/notes.c:393 builtin/notes.c:683
 #, c-format
@@ -11262,23 +11262,23 @@ msgstr "для обʼєкта %s не знайдено жодної нотатк
 
 #: builtin/notes.c:414 builtin/notes.c:580
 msgid "note contents as a string"
-msgstr ""
+msgstr "вміст нотатки як строка"
 
 #: builtin/notes.c:417 builtin/notes.c:583
 msgid "note contents in a file"
-msgstr ""
+msgstr "вміст нотатки у файлі"
 
 #: builtin/notes.c:420 builtin/notes.c:586
 msgid "reuse and edit specified note object"
-msgstr ""
+msgstr "повторно використати та редагувати вказаний обʼєкт нотатки"
 
 #: builtin/notes.c:423 builtin/notes.c:589
 msgid "reuse specified note object"
-msgstr ""
+msgstr "повторно використати вказаний обʼєкт нотатки"
 
 #: builtin/notes.c:426 builtin/notes.c:592
 msgid "allow storing empty note"
-msgstr ""
+msgstr "дозволити збереження порожньої нотатки"
 
 #: builtin/notes.c:427 builtin/notes.c:500
 msgid "replace existing notes"
@@ -11290,11 +11290,13 @@ msgid ""
 "Cannot add notes. Found existing notes for object %s. Use '-f' to overwrite "
 "existing notes"
 msgstr ""
+"Неможливо додати нотатки. Знайдено існуючі нотатки для обʼєкта %s. "
+"Скористайтесь \"-f\" для перезапису існуючих нотаток"
 
 #: builtin/notes.c:467 builtin/notes.c:548
 #, c-format
 msgid "Overwriting existing notes for object %s\n"
-msgstr ""
+msgstr "Перезапис існуючих нотаток для обʼєкта %s\n"
 
 #: builtin/notes.c:479 builtin/notes.c:642 builtin/notes.c:912
 #, c-format
@@ -11303,11 +11305,12 @@ msgstr "Видалення нотатки для обʼєкта %s\n"
 
 #: builtin/notes.c:501
 msgid "read objects from stdin"
-msgstr ""
+msgstr "зчитати обʼєкти з stdin"
 
 #: builtin/notes.c:503
 msgid "load rewriting config for <command> (implies --stdin)"
 msgstr ""
+"завантажити перезапис конфігурації для <команда> (мається на увазі --stdin)"
 
 #: builtin/notes.c:521
 msgid "too few arguments"
@@ -11319,11 +11322,13 @@ msgid ""
 "Cannot copy notes. Found existing notes for object %s. Use '-f' to overwrite "
 "existing notes"
 msgstr ""
+"Неможливо скопіювати нотатки. Знайдено існуючі нотатки для обʼєкта %s. "
+"Скористайтесь \"-f\", щоб перезаписати існуючі нотатки"
 
 #: builtin/notes.c:554
 #, c-format
 msgid "missing notes on source object %s. Cannot copy."
-msgstr ""
+msgstr "нотатки джерельного обʼєкта %s відсутні. Неможливо скопіювати."
 
 #: builtin/notes.c:607
 #, c-format
@@ -11331,34 +11336,36 @@ msgid ""
 "The -m/-F/-c/-C options have been deprecated for the 'edit' subcommand.\n"
 "Please use 'git notes add -f -m/-F/-c/-C' instead.\n"
 msgstr ""
+"Опції -m/-F/-c/-C застаріли для підкоманди \"edit\".\n"
+"Будь ласка, скористайтесь \"git notes add -f -m/-F/-c/-C\" замість цього.\n"
 
 #: builtin/notes.c:703
 msgid "failed to delete ref NOTES_MERGE_PARTIAL"
-msgstr ""
+msgstr "не вдалося видалити посилання NOTES_MERGE_PARTIAL"
 
 #: builtin/notes.c:705
 msgid "failed to delete ref NOTES_MERGE_REF"
-msgstr ""
+msgstr "не вдалося видалити посилання NOTES_MERGE_REF"
 
 #: builtin/notes.c:707
 msgid "failed to remove 'git notes merge' worktree"
-msgstr ""
+msgstr "не вдалося видалити \"git notes merge\" робоче дерево"
 
 #: builtin/notes.c:727
 msgid "failed to read ref NOTES_MERGE_PARTIAL"
-msgstr ""
+msgstr "не вдалося прочитати посилання NOTES_MERGE_PARTIAL"
 
 #: builtin/notes.c:729
 msgid "could not find commit from NOTES_MERGE_PARTIAL."
-msgstr ""
+msgstr "не вдалося знайти коміт з NOTES_MERGE_PARTIAL."
 
 #: builtin/notes.c:731
 msgid "could not parse commit from NOTES_MERGE_PARTIAL."
-msgstr ""
+msgstr "не вдалося розібрати коміт з NOTES_MERGE_PARTIAL."
 
 #: builtin/notes.c:744
 msgid "failed to resolve NOTES_MERGE_REF"
-msgstr ""
+msgstr "не вдалося розвʼязати NOTES_MERGE_REF"
 
 #: builtin/notes.c:747
 msgid "failed to finalize notes merge"
@@ -11367,21 +11374,23 @@ msgstr "не вдалося завершити злиття нотаток"
 #: builtin/notes.c:774
 #, c-format
 msgid "unknown notes merge strategy %s"
-msgstr ""
+msgstr "невідома стратегія злиття нотаток %s"
 
 #: builtin/notes.c:790
 msgid "General options"
-msgstr ""
+msgstr "Основні опції"
 
 #: builtin/notes.c:792
 msgid "Merge options"
-msgstr ""
+msgstr "Опції злиття"
 
 #: builtin/notes.c:794
 msgid ""
 "resolve notes conflicts using the given strategy (manual/ours/theirs/union/"
 "cat_sort_uniq)"
 msgstr ""
+"вирішити конфлікти нотаток, використовуючи задану стратегію (manual/our/"
+"their/union/cat_sort_uniq)"
 
 #: builtin/notes.c:796
 msgid "Committing unmerged notes"
@@ -11389,11 +11398,11 @@ msgstr "Виконнання коміту незлитих нотаток"
 
 #: builtin/notes.c:798
 msgid "finalize notes merge by committing unmerged notes"
-msgstr ""
+msgstr "завершити злиття комітом незлитих нотаток"
 
 #: builtin/notes.c:800
 msgid "Aborting notes merge resolution"
-msgstr ""
+msgstr "Переривання злиття нотаток"
 
 #: builtin/notes.c:802
 msgid "abort notes merge"
@@ -11401,7 +11410,7 @@ msgstr "перервати злиття нотаток"
 
 #: builtin/notes.c:813
 msgid "cannot mix --commit, --abort or -s/--strategy"
-msgstr ""
+msgstr "не можна змішувати --commit, --abort або -s/--strategy"
 
 #: builtin/notes.c:818
 msgid "must specify a notes ref to merge"
@@ -11410,12 +11419,12 @@ msgstr "необхідно вказати посилання нотаток дл
 #: builtin/notes.c:842
 #, c-format
 msgid "unknown -s/--strategy: %s"
-msgstr ""
+msgstr "невідома -s/--strategy: %s"
 
 #: builtin/notes.c:882
 #, c-format
 msgid "a notes merge into %s is already in-progress at %s"
-msgstr ""
+msgstr "злиття нотаток у %s вже виконується в %s"
 
 #: builtin/notes.c:886
 #, c-format
@@ -11429,6 +11438,9 @@ msgid ""
 "'git notes merge --commit', or abort the merge with 'git notes merge --"
 "abort'.\n"
 msgstr ""
+"Автоматичне злиття нотаток не вдалося. Виправте конфлікти у %s і зробіть "
+"коміт змін командою \"git notes merge --commit\" або перервіть злиття "
+"командою \"git notes merge --abort\".\n"
 
 #: builtin/notes.c:907 builtin/tag.c:605
 #, c-format
@@ -11438,45 +11450,49 @@ msgstr "Не вдалося розвʼязати \"%s\" як припустим�
 #: builtin/notes.c:910
 #, c-format
 msgid "Object %s has no note\n"
-msgstr ""
+msgstr "Обʼєкт %s не має нотатки\n"
 
 #: builtin/notes.c:922
 msgid "attempt to remove non-existent note is not an error"
-msgstr ""
+msgstr "спроба видалити неіснуючу нотатку не є помилкою"
 
 #: builtin/notes.c:925
 msgid "read object names from the standard input"
-msgstr ""
+msgstr "зчитати імена обʼєктів зі стандартного вводу"
 
 #: builtin/notes.c:964 builtin/prune.c:154 builtin/worktree.c:215
 msgid "do not remove, show only"
-msgstr ""
+msgstr "не видаляти, тільки показувати"
 
 #: builtin/notes.c:965
 msgid "report pruned notes"
-msgstr ""
+msgstr "звітувати про видалені нотатки"
 
 #: builtin/notes.c:1008
 msgid "notes-ref"
-msgstr ""
+msgstr "посилання-нотатки"
 
 #: builtin/notes.c:1009
 msgid "use notes from <notes-ref>"
-msgstr ""
+msgstr "використовувати нотатки з <посилання-нотатки>"
 
 #: builtin/notes.c:1028 builtin/remote.c:1778 parse-options.c:819
 #, c-format
 msgid "unknown subcommand: `%s'"
-msgstr ""
+msgstr "невідома підкоманда: \"%s\""
 
 #: builtin/pack-objects.c:190
 msgid "git pack-objects --stdout [<options>] [< <ref-list> | < <object-list>]"
 msgstr ""
+"git pack-objects --stdout [<опції>] [< <список-посилань> | < <список-"
+"обʼєктів>]"
 
 #: builtin/pack-objects.c:191
 msgid ""
 "git pack-objects [<options>] <base-name> [< <ref-list> | < <object-list>]"
 msgstr ""
+"git pack-objects [<опції>] <базова-назва> [< <список-посилань> | < <список-"
+"обʼєктів>]"
 
 #: builtin/pack-objects.c:584
 #, c-format
@@ -11484,11 +11500,13 @@ msgid ""
 "write_reuse_object: could not locate %s, expected at offset %<PRIuMAX> in "
 "pack %s"
 msgstr ""
+"write_reuse_object: не вдалося знайти %s, очікуваний зі зміщенням %<PRIuMAX> "
+"у пакунку %s"
 
 #: builtin/pack-objects.c:592
 #, c-format
 msgid "bad packed object CRC for %s"
-msgstr ""
+msgstr "невірна CRC запакованого обʼєкта %s"
 
 #: builtin/pack-objects.c:603
 #, c-format
@@ -11503,7 +11521,7 @@ msgstr "виявлено рекурсивну дельту для обʼєкта
 #: builtin/pack-objects.c:955
 #, c-format
 msgid "ordered %u objects, expected %<PRIu32>"
-msgstr ""
+msgstr "замовлено %u обʼєктів, очікувалось %<PRIu32>"
 
 #: builtin/pack-objects.c:1050
 #, c-format
@@ -11513,6 +11531,8 @@ msgstr "очікувався обʼєкт на зміщенні %<PRIuMAX> па�
 #: builtin/pack-objects.c:1174
 msgid "disabling bitmap writing, packs are split due to pack.packSizeLimit"
 msgstr ""
+"вимкнення bitmap запису, пакунки розбиваються на частини через pack."
+"packSizeLimit"
 
 #: builtin/pack-objects.c:1187
 msgid "Writing objects"
@@ -11535,11 +11555,11 @@ msgstr "не вдалося записати bitmap індекс"
 #: builtin/pack-objects.c:1322
 #, c-format
 msgid "wrote %<PRIu32> objects while expecting %<PRIu32>"
-msgstr ""
+msgstr "записано %<PRIu32> обʼєкти при очікуванні %<PRIu32>"
 
 #: builtin/pack-objects.c:1572 builtin/repack.c:901
 msgid "disabling bitmap writing, as some objects are not being packed"
-msgstr ""
+msgstr "вимкнення bitmap запису, оскільки деякі обʼєкти не упаковуються"
 
 #: builtin/pack-objects.c:2017
 #, c-format
@@ -11574,16 +11594,16 @@ msgstr "обʼєкт %s не може бути прочитаний"
 #: builtin/pack-objects.c:2547 builtin/pack-objects.c:2576
 #, c-format
 msgid "object %s inconsistent object length (%<PRIuMAX> vs %<PRIuMAX>)"
-msgstr ""
+msgstr "обʼєкт %s має невідповідну довжину (%<PRIuMAX> проти %<PRIuMAX>)"
 
 #: builtin/pack-objects.c:2586
 msgid "suboptimal pack - out of memory"
-msgstr ""
+msgstr "неоптимальний пакунок - не вистачає памʼяті"
 
 #: builtin/pack-objects.c:2901
 #, c-format
 msgid "Delta compression using up to %d threads"
-msgstr ""
+msgstr "Дельта компресія з використанням до %d потоків"
 
 #: builtin/pack-objects.c:3040
 #, c-format
@@ -11601,7 +11621,7 @@ msgstr "Компресія обʼєктів"
 
 #: builtin/pack-objects.c:3133
 msgid "inconsistency with delta count"
-msgstr ""
+msgstr "неспівпадіння з підрахунком дельти"
 
 #: builtin/pack-objects.c:3220
 #, c-format
@@ -11609,12 +11629,16 @@ msgid ""
 "value of uploadpack.blobpackfileuri must be of the form '<object-hash> <pack-"
 "hash> <uri>' (got '%s')"
 msgstr ""
+"значення uploadpack.blobpackfileuri повинно мати вигляд \"<хеш-обʼєкта> <хеш-"
+"пакунка> <uri>\" (отримано \"%s\")"
 
 #: builtin/pack-objects.c:3223
 #, c-format
 msgid ""
 "object already configured in another uploadpack.blobpackfileuri (got '%s')"
 msgstr ""
+"обʼєкт вже сконфігуровано в іншому uploadpack.blobpackfileuri (отримано "
+"\"%s\")"
 
 #: builtin/pack-objects.c:3260
 #, c-format
@@ -11630,7 +11654,7 @@ msgstr "не вдалося знайти пакунок \"%s\""
 #: builtin/pack-objects.c:3392
 #, c-format
 msgid "packfile %s cannot be accessed"
-msgstr ""
+msgstr "неможливо отримати доступ до файлу пакунку %s"
 
 #: builtin/pack-objects.c:3538 builtin/pack-objects.c:3564
 msgid "Enumerating cruft objects"
@@ -11650,6 +11674,8 @@ msgid ""
 "expected edge object ID, got garbage:\n"
 " %s"
 msgstr ""
+"очікувався ідентифікатор реберного обʼєкту, отримано непотріб:\n"
+" %s"
 
 #: builtin/pack-objects.c:3675
 #, c-format
@@ -11657,10 +11683,12 @@ msgid ""
 "expected object ID, got garbage:\n"
 " %s"
 msgstr ""
+"очікувався ідентифікатор обʼєкта, отримано непотріб:\n"
+" %s"
 
 #: builtin/pack-objects.c:3789 reachable.c:175
 msgid "could not load cruft pack .mtimes"
-msgstr ""
+msgstr "не вдалося завантажити марний пакунок .mtimes"
 
 #: builtin/pack-objects.c:3811 builtin/pack-objects.c:3910
 msgid "cannot open pack index"
@@ -11669,7 +11697,7 @@ msgstr "не вдалося відкрити індекс пакунка"
 #: builtin/pack-objects.c:3820
 #, c-format
 msgid "loose object at %s could not be examined"
-msgstr ""
+msgstr "не вдалося розглянути вільний обʼєкт у %s"
 
 #: builtin/pack-objects.c:3918
 msgid "unable to force loose object"
@@ -11678,7 +11706,7 @@ msgstr "не вдалося примусово вивільнити обʼєкт
 #: builtin/pack-objects.c:4047
 #, c-format
 msgid "not a rev '%s'"
-msgstr ""
+msgstr "не є ревізією \"%s\""
 
 #: builtin/pack-objects.c:4050 builtin/rev-parse.c:1091
 #, c-format
@@ -11692,7 +11720,7 @@ msgstr "не вдалося додати нещодавні обʼєкти"
 #: builtin/pack-objects.c:4131
 #, c-format
 msgid "unsupported index version %s"
-msgstr ""
+msgstr "непідтримувана версія індексу %s"
 
 #: builtin/pack-objects.c:4135
 #, c-format
@@ -11701,27 +11729,28 @@ msgstr "невірна версія індексу \"%s\""
 
 #: builtin/pack-objects.c:4187
 msgid "show progress meter during object writing phase"
-msgstr ""
+msgstr "показувати хід виконання під час фази запису обʼєкта"
 
 #: builtin/pack-objects.c:4190
 msgid "similar to --all-progress when progress meter is shown"
-msgstr ""
+msgstr "подібно до --all-progress, коли показано хід виконання"
 
 #: builtin/pack-objects.c:4191
 msgid "<version>[,<offset>]"
-msgstr ""
+msgstr "<версія>[, <зміщення>]"
 
 #: builtin/pack-objects.c:4192
 msgid "write the pack index file in the specified idx format version"
-msgstr ""
+msgstr "записати індексний файл пакунка у вказаній версії idx формату"
 
 #: builtin/pack-objects.c:4195
 msgid "maximum size of each output pack file"
-msgstr ""
+msgstr "максимальний розмір кожного файлу вихідного пакунку"
 
 #: builtin/pack-objects.c:4197
 msgid "ignore borrowed objects from alternate object store"
 msgstr ""
+"ігнорувати запозичені обʼєкти з місця збереження спільних об’єктів"
 
 #: builtin/pack-objects.c:4199
 msgid "ignore packed objects"
@@ -11729,15 +11758,15 @@ msgstr "ігнорувати запаковані обʼєкти"
 
 #: builtin/pack-objects.c:4201
 msgid "limit pack window by objects"
-msgstr ""
+msgstr "обмежити вікно пакування за обʼєктами"
 
 #: builtin/pack-objects.c:4203
 msgid "limit pack window by memory in addition to object limit"
-msgstr ""
+msgstr "обмежити вікно пакування за памʼяттю на додаток до ліміту обʼєкта"
 
 #: builtin/pack-objects.c:4205
 msgid "maximum length of delta chain allowed in the resulting pack"
-msgstr ""
+msgstr "максимальна довжина дельта ланцюжка, дозволена в результуючому пакунку"
 
 #: builtin/pack-objects.c:4207
 msgid "reuse existing deltas"
@@ -11749,11 +11778,11 @@ msgstr "повторно використати існуючі обʼєкти"
 
 #: builtin/pack-objects.c:4211
 msgid "use OFS_DELTA objects"
-msgstr ""
+msgstr "використати OFS_DELTA обʼєкти"
 
 #: builtin/pack-objects.c:4213
 msgid "use threads when searching for best delta matches"
-msgstr ""
+msgstr "використовувати потоки під час пошуку найкращих дельта збігів"
 
 #: builtin/pack-objects.c:4215
 msgid "do not create an empty pack output"
@@ -11761,59 +11790,60 @@ msgstr "не створювати вивід порожнього пакунка
 
 #: builtin/pack-objects.c:4217
 msgid "read revision arguments from standard input"
-msgstr ""
+msgstr "зчитувати аргументи ревізії зі стандартного вводу"
 
 #: builtin/pack-objects.c:4219
 msgid "limit the objects to those that are not yet packed"
-msgstr ""
+msgstr "обмежувати обʼєкти тільки тими, які ще не запаковані"
 
 #: builtin/pack-objects.c:4222
 msgid "include objects reachable from any reference"
-msgstr ""
+msgstr "включати обʼєкти, досяжні з будь-якого посилання"
 
 #: builtin/pack-objects.c:4225
 msgid "include objects referred by reflog entries"
-msgstr ""
+msgstr "включати обʼєкти, на які посилаються записи журналу посилань"
 
 #: builtin/pack-objects.c:4228
 msgid "include objects referred to by the index"
-msgstr ""
+msgstr "включати обʼєкти, на які посилається індекс"
 
 #: builtin/pack-objects.c:4231
 msgid "read packs from stdin"
-msgstr ""
+msgstr "прочитати пакунки з stdin"
 
 #: builtin/pack-objects.c:4233
 msgid "output pack to stdout"
-msgstr ""
+msgstr "вивести пакунок у stdout"
 
 #: builtin/pack-objects.c:4235
 msgid "include tag objects that refer to objects to be packed"
 msgstr ""
+"включати обʼєкти тегів, які посилаються на обʼєкти, що будуть запаковані"
 
 #: builtin/pack-objects.c:4237
 msgid "keep unreachable objects"
-msgstr ""
+msgstr "зберігати недосяжні обʼєкти"
 
 #: builtin/pack-objects.c:4239
 msgid "pack loose unreachable objects"
-msgstr ""
+msgstr "запакувати вільні недосяжні обʼєкти"
 
 #: builtin/pack-objects.c:4241
 msgid "unpack unreachable objects newer than <time>"
-msgstr ""
+msgstr "розпакувати недосяжні обʼєкти, новіші за <час>"
 
 #: builtin/pack-objects.c:4243
 msgid "create a cruft pack"
-msgstr ""
+msgstr "створити марний пакунок"
 
 #: builtin/pack-objects.c:4245
 msgid "expire cruft objects older than <time>"
-msgstr ""
+msgstr "видалити марні обʼєкти старіші за <час>"
 
 #: builtin/pack-objects.c:4248
 msgid "use the sparse reachability algorithm"
-msgstr ""
+msgstr "використовувати алгоритм розрідженої досяжності"
 
 #: builtin/pack-objects.c:4250
 msgid "create thin packs"
@@ -11821,11 +11851,11 @@ msgstr "створити тонкі пакунки"
 
 #: builtin/pack-objects.c:4252
 msgid "create packs suitable for shallow fetches"
-msgstr ""
+msgstr "створювати пакунки, придатні для неглибокого отримання"
 
 #: builtin/pack-objects.c:4254
 msgid "ignore packs that have companion .keep file"
-msgstr ""
+msgstr "ігнорувати пакунки, які мають супровідний .keep файл"
 
 #: builtin/pack-objects.c:4256
 msgid "ignore this pack"
@@ -11833,23 +11863,25 @@ msgstr "ігнорувати цей пакунок"
 
 #: builtin/pack-objects.c:4258
 msgid "pack compression level"
-msgstr ""
+msgstr "рівень стиснення пакунка"
 
 #: builtin/pack-objects.c:4260
 msgid "do not hide commits by grafts"
-msgstr ""
+msgstr "не приховувати коміти через прищепи"
 
 #: builtin/pack-objects.c:4262
 msgid "use a bitmap index if available to speed up counting objects"
 msgstr ""
+"використовувати bitmap індекс, якщо він доступний, для прискорення "
+"підрахунку обʼєктів"
 
 #: builtin/pack-objects.c:4264
 msgid "write a bitmap index together with the pack index"
-msgstr ""
+msgstr "записати bitmap індекс разом з індексом пакунка"
 
 #: builtin/pack-objects.c:4268
 msgid "write a bitmap index if possible"
-msgstr ""
+msgstr "записати bitmap індекс, якщо це можливо"
 
 #: builtin/pack-objects.c:4272
 msgid "handling for missing objects"
@@ -11857,24 +11889,24 @@ msgstr "обробка для відсутніх обʼєктів"
 
 #: builtin/pack-objects.c:4275
 msgid "do not pack objects in promisor packfiles"
-msgstr ""
+msgstr "не пакувати обʼєкти у promisor пакунки"
 
 #: builtin/pack-objects.c:4277
 msgid "respect islands during delta compression"
-msgstr ""
+msgstr "поважати острови під час дельта компресії"
 
 #: builtin/pack-objects.c:4279
 msgid "protocol"
-msgstr ""
+msgstr "протокол"
 
 #: builtin/pack-objects.c:4280
 msgid "exclude any configured uploadpack.blobpackfileuri with this protocol"
-msgstr ""
+msgstr "вилучити всі налаштовані uploadpack.blobpackfileuri з цим протоколом"
 
 #: builtin/pack-objects.c:4316
 #, c-format
 msgid "delta chain depth %d is too deep, forcing %d"
-msgstr ""
+msgstr "глибина дельта ланцюжка %d занадто глибока, примусове %d"
 
 #: builtin/pack-objects.c:4321
 #, c-format
@@ -14796,9 +14828,9 @@ msgstr ""
 #: builtin/rm.c:224
 msgid "the following file has changes staged in the index:"
 msgid_plural "the following files have changes staged in the index:"
-msgstr[0] "У наступному файлі є зміни, додані до індексу:"
-msgstr[1] "У наступних файлах є зміни, додані до індексу:"
-msgstr[2] "У наступних файлах є зміни, додані до індексу:"
+msgstr[0] "у наступному файлі є зміни, додані до індексу:"
+msgstr[1] "у наступних файлах є зміни, додані до індексу:"
+msgstr[2] "у наступних файлах є зміни, додані до індексу:"
 
 #: builtin/rm.c:228 builtin/rm.c:237
 msgid ""
