@@ -10887,7 +10887,7 @@ msgid ""
 "git multi-pack-index [<options>] write [--preferred-pack=<pack>][--refs-"
 "snapshot=<path>]"
 msgstr ""
-"git multi-pack-index [<опції>] write [--preferred-pack=<пакет>] [--refs-"
+"git multi-pack-index [<опції>] write [--preferred-pack=<пакунок>] [--refs-"
 "snapshot=<шлях>]"
 
 #: builtin/multi-pack-index.c:17
@@ -11131,7 +11131,7 @@ msgstr ""
 
 #: builtin/notes.c:42
 msgid "git notes [--ref <notes-ref>] remove [<object>...]"
-msgstr "git notes [--ref <посилання-нотатки>] видалити [<об’єкт>...]"
+msgstr "git notes [--ref <посилання-нотатки>] remove [<об’єкт>...]"
 
 #: builtin/notes.c:43
 msgid "git notes [--ref <notes-ref>] prune [-n] [-v]"
@@ -25364,7 +25364,7 @@ msgstr "збережений pre-cherry-pick HEAD файл \"%s\" пошкодж
 #: sequencer.c:3306
 msgid "You seem to have moved HEAD. Not rewinding, check your HEAD!"
 msgstr ""
-"Здається, ви пересмістили HEAD. Перемотування назад не виконується, "
+"Здається, ви перемістили HEAD. Перемотування назад не виконується, "
 "перевірте свій HEAD!"
 
 #: sequencer.c:3347
