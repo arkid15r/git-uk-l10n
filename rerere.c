@@ -1,6 +1,5 @@
 #include "git-compat-util.h"
 #include "abspath.h"
-#include "alloc.h"
 #include "config.h"
 #include "copy.h"
 #include "gettext.h"
@@ -20,7 +19,6 @@
 #include "object-store-ll.h"
 #include "hash-lookup.h"
 #include "strmap.h"
-#include "wrapper.h"
 
 #define RESOLVED 0
 #define PUNTED 1
@@ -206,7 +204,7 @@ static void read_rr(struct repository *r, struct string_list *rr)
 		const unsigned hexsz = the_hash_algo->hexsz;
 
 		/* There has to be the hash, tab, path and then NUL */
-		if (buf.len < hexsz + 2 || get_sha1_hex(buf.buf, hash))
+		if (buf.len < hexsz + 2 || get_hash_hex(buf.buf, hash))
 			die(_("corrupt MERGE_RR"));
 
 		if (buf.buf[hexsz] != '.') {
