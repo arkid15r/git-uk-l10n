@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-05-15 19:15-0700\n"
-"PO-Revision-Date: 2023-07-30 16:21-0700\n"
-"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
+"PO-Revision-Date: 2023-08-01 18:36-0700\n"
+"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -1408,7 +1408,7 @@ msgstr "неможливо відкрити %s"
 #: apply.c:4639 rerere.c:1070
 #, c-format
 msgid "cannot unlink '%s'"
-msgstr "неможливо відʼєднати \"%s\""
+msgstr "неможливо видалити \"%s\""
 
 #: apply.c:4660
 #, c-format
@@ -2167,17 +2167,17 @@ msgstr ""
 #: builtin/replace.c:433 builtin/replace.c:463
 #, c-format
 msgid "not a valid object name: '%s'"
-msgstr "не є допустимим ім’ям об’єкта: \"%s\""
+msgstr "не є допустимою назвою об’єкта: \"%s\""
 
 #: branch.c:567
 #, c-format
 msgid "ambiguous object name: '%s'"
-msgstr "неоднозначне ім’я об’єкта: \"%s\""
+msgstr "неоднозначна назва об’єкта: \"%s\""
 
 #: branch.c:572
 #, c-format
 msgid "not a valid branch point: '%s'"
-msgstr "не є допустимим ім’ям точки розгалуження: \"%s\""
+msgstr "не є допустимою точкою розгалуження: \"%s\""
 
 #: branch.c:762
 #, c-format
@@ -2816,7 +2816,7 @@ msgstr "передати через git-apply"
 #: builtin/tag.c:454 parse-options.h:215 parse-options.h:276
 #: parse-options.h:524
 msgid "n"
-msgstr "n"
+msgstr "н"
 
 #: builtin/am.c:2385 builtin/branch.c:717 builtin/bugreport.c:122
 #: builtin/cat-file.c:960 builtin/cat-file.c:964 builtin/cat-file.c:969
@@ -5353,7 +5353,7 @@ msgstr "URI для завантаження пакунків перед отри
 #: builtin/clone.c:251
 #, c-format
 msgid "info: Could not add alternate for '%s': %s\n"
-msgstr "инфо: Не вдалося додати альтернативу для \"%s\": %s\n"
+msgstr "инфо: Не вдалося додати запозичений обʼєкт для \"%s\": %s\n"
 
 #: builtin/clone.c:322 builtin/diff.c:94 builtin/rm.c:143 grep.c:1939
 #: setup.c:189
@@ -5384,7 +5384,7 @@ msgstr "символьне посилання \"%s\" існує, не можу �
 #: builtin/clone.c:379 compat/precompose_utf8.c:61
 #, c-format
 msgid "failed to unlink '%s'"
-msgstr "не вдалося відʼєднати \"%s\""
+msgstr "не вдалося видалити \"%s\""
 
 #: builtin/clone.c:385
 #, c-format
@@ -5452,7 +5452,7 @@ msgstr "неможливо перепакувати, щоб очистити"
 
 #: builtin/clone.c:899
 msgid "cannot unlink temporary alternates file"
-msgstr "неможливо відʼєднати тимчасовий файл спільних обʼєктів"
+msgstr "неможливо видалити тимчасовий файл запозичених обʼєктів"
 
 #: builtin/clone.c:945
 msgid "Too many arguments."
@@ -8085,7 +8085,7 @@ msgstr "побудувати головні вузли журналу посил
 
 #: builtin/fsck.c:911
 msgid "also consider packs and alternate objects"
-msgstr "також розглядати пакунки та спільні об’єкти"
+msgstr "також розглядати пакунки та запозичені об’єкти"
 
 #: builtin/fsck.c:912
 msgid "check only connectivity"
@@ -11749,8 +11749,7 @@ msgstr "максимальний розмір кожного файлу вихі
 
 #: builtin/pack-objects.c:4197
 msgid "ignore borrowed objects from alternate object store"
-msgstr ""
-"ігнорувати запозичені обʼєкти з місця збереження спільних об’єктів"
+msgstr "ігнорувати запозичені обʼєкти з місця збереження запозичених об’єктів"
 
 #: builtin/pack-objects.c:4199
 msgid "ignore packed objects"
@@ -14157,7 +14156,7 @@ msgstr "pack-objects не записав файл \"%s\" для пакунка %
 #: builtin/repack.c:1130 sequencer.c:4202
 #, c-format
 msgid "could not unlink: %s"
-msgstr "не вдалося відʼєднати %s"
+msgstr "не вдалося видалити: %s"
 
 #: builtin/replace.c:29
 msgid "git replace [-f] <object> <replacement>"
@@ -14355,7 +14354,7 @@ msgstr "замінити посилання, якщо воно існує"
 
 #: builtin/replace.c:564
 msgid "do not pretty-print contents for --edit"
-msgstr ""
+msgstr "не прикрашати вивід вмісту для --edit"
 
 #: builtin/replace.c:565
 msgid "use this format"
@@ -15892,6 +15891,12 @@ msgid ""
 "submodule.alternateErrorStrategy to 'info' or, equivalently, clone with\n"
 "'--reference-if-able' instead of '--reference'."
 msgstr ""
+"Запозичений обʼєкт, обчислений з запозиченого обʼєкту батьківського проекту, "
+"не є дійсним.\n"
+"Щоб дозволити Git клонувати без запозиченого обʼєкту в такому випадку, "
+"встановіть\n"
+"submodule.alternateErrorStrategy на \"info\" або, що еквівалентно, клонуйте з\n"
+"\"--reference-if-able\" замість \"--reference\"."
 
 #: builtin/submodule--helper.c:1576
 #, c-format
@@ -15901,7 +15906,7 @@ msgstr "не вдалося отримати дескриптор сховища
 #: builtin/submodule--helper.c:1601 builtin/submodule--helper.c:1604
 #, c-format
 msgid "submodule '%s' cannot add alternate: %s"
-msgstr "підмодуль \"%s\" не може додати спільний обʼєкт: %s"
+msgstr "підмодуль \"%s\" не може додати запозичених обʼєкт: %s"
 
 #: builtin/submodule--helper.c:1640
 #, c-format
@@ -16381,6 +16386,9 @@ msgid ""
 "git tag [-a | -s | -u <key-id>] [-f] [-m <msg> | -F <file>] [-e]\n"
 "        <tagname> [<commit> | <object>]"
 msgstr ""
+"git tag [-a | -s | -u <ідентифікатор-ключа>] [-f] [-m <допис> | -F <файл>] [-"
+"e]\n"
+"        <назва-тегу> [<коміт> | <об’єкт>]"
 
 #: builtin/tag.c:35
 msgid "git tag -d <tagname>..."
@@ -16748,7 +16756,7 @@ msgstr "звітувати про дії на стандартний вивід"
 
 #: builtin/update-index.c:1087
 msgid "(for porcelains) forget saved unresolved conflicts"
-msgstr ""
+msgstr "(для високорівневих команд) забути збережені невирішені конфлікти"
 
 #: builtin/update-index.c:1091
 msgid "write index in this format"
@@ -17913,7 +17921,7 @@ msgstr "Показувати обʼєкти коміта у зворотному
 
 #: command-list.h:165
 msgid "Pick out and massage parameters"
-msgstr ""
+msgstr "Визначення та обробка параметрів"
 
 #: command-list.h:166
 msgid "Revert some existing commits"
@@ -17937,11 +17945,11 @@ msgstr "Код налаштування i18n у Git для скриптів об
 
 #: command-list.h:171
 msgid "Common Git shell script setup code"
-msgstr ""
+msgstr "Загальний код налаштування скриптів оболонки Git"
 
 #: command-list.h:172
 msgid "Restricted login shell for Git-only SSH access"
-msgstr ""
+msgstr "Обмежений логін оболонки для доступу по SSH лише для Git"
 
 #: command-list.h:173
 msgid "Summarize 'git log' output"
@@ -18280,7 +18288,7 @@ msgstr "Обчислення номерів генерації коміт-гра
 
 #: commit-graph.c:1665
 msgid "Computing commit changed paths Bloom filters"
-msgstr ""
+msgstr "Обчислення фільтрів Блума для шляхів, змінених комітом"
 
 #: commit-graph.c:1741
 msgid "Collecting referenced commits"
@@ -20463,7 +20471,7 @@ msgstr "вже є %s (%s)"
 
 #: fetch-pack.c:942
 msgid "fetch-pack: unable to fork off sideband demultiplexer"
-msgstr ""
+msgstr "fetch-pack: не вдалося розгалужити sideband demultiplexer"
 
 #: fetch-pack.c:950
 msgid "protocol error: bad pack header"
@@ -20485,7 +20493,7 @@ msgstr "%s завершився невдало"
 
 #: fetch-pack.c:1065
 msgid "error in sideband demultiplexer"
-msgstr ""
+msgstr "помилка в sideband demultiplexer"
 
 #: fetch-pack.c:1121
 #, c-format
@@ -20595,12 +20603,12 @@ msgstr "очікувалося wanted-ref, отримано \"%s\""
 #: fetch-pack.c:1607
 #, c-format
 msgid "unexpected wanted-ref: '%s'"
-msgstr ""
+msgstr "несподіване запитуване посилання: \"%s\""
 
 #: fetch-pack.c:1612
 #, c-format
 msgid "error processing wanted refs: %d"
-msgstr ""
+msgstr "помилка під час обробки запитуваних посилань: %d"
 
 #: fetch-pack.c:1642
 msgid "git fetch-pack: expected response end packet"
@@ -20934,7 +20942,7 @@ msgstr "співпрацювати (дивіться також: git help workfl
 
 #: help.c:35
 msgid "Main Porcelain Commands"
-msgstr ""
+msgstr "Основні високорівневі команди"
 
 #: help.c:36
 msgid "Ancillary Commands / Manipulators"
@@ -20970,7 +20978,7 @@ msgstr "Інтерфейси користувача для сховищ, ком�
 
 #: help.c:44
 msgid "Developer-facing file formats, protocols and other interfaces"
-msgstr ""
+msgstr "Формати файлів, протоколи та інші інтерфейси розробника"
 
 #: help.c:329
 #, c-format
@@ -20987,7 +20995,7 @@ msgstr "Це загальні команди Git, які використову�
 
 #: help.c:435
 msgid "The Git concept guides are:"
-msgstr ""
+msgstr "Посібники з понять Git:"
 
 #: help.c:445
 msgid "User-facing repository, command and file interfaces:"
@@ -22174,25 +22182,26 @@ msgstr "директорія об’єкта %s не існує; перевір�
 #: object-file.c:533
 #, c-format
 msgid "unable to normalize alternate object path: %s"
-msgstr "не вдалося нормалізувати шлях спільного обʼєкта: %s"
+msgstr "не вдалося нормалізувати шлях запозиченого обʼєкта: %s"
 
 #: object-file.c:608
 #, c-format
 msgid "%s: ignoring alternate object stores, nesting too deep"
 msgstr ""
-"%s: ігнорування місць збереження спільних об’єктів, надто глибока вкладеність"
+"%s: ігнорування місць збереження запозичених об’єктів, надто глибока "
+"вкладеність"
 
 #: object-file.c:655
 msgid "unable to fdopen alternates lockfile"
-msgstr "не вдалося виконати fdopen для файла блокування спільних обʼєктів"
+msgstr "не вдалося виконати fdopen для файла блокування запозичених обʼєктів"
 
 #: object-file.c:673
 msgid "unable to read alternates file"
-msgstr "не вдалося прочитати файл спільних обʼєктів"
+msgstr "не вдалося прочитати файл запозичених обʼєктів"
 
 #: object-file.c:680
 msgid "unable to move new alternates file into place"
-msgstr "не вдалося перемістити файл нових спільних обʼєктів на місце"
+msgstr "не вдалося перемістити файл нових запозичених обʼєктів на місце"
 
 #: object-file.c:758
 #, c-format
@@ -22202,7 +22211,7 @@ msgstr "шлях \"%s\" не існує"
 #: object-file.c:779
 #, c-format
 msgid "reference repository '%s' as a linked checkout is not supported yet."
-msgstr ""
+msgstr "посилання на сховище \"%s\" як повʼязане поки що не підтримується."
 
 #: object-file.c:785
 #, c-format
@@ -22227,7 +22236,7 @@ msgstr "не вдалося знайти директорію обʼєктів, 
 #: object-file.c:880
 #, c-format
 msgid "invalid line while parsing alternate refs: %s"
-msgstr "неприпустимий рядок при розбиранні посилань спільних обʼєктів: %s"
+msgstr "неприпустимий рядок при розбиранні посилань запозичених обʼєктів: %s"
 
 #: object-file.c:1036
 #, c-format
@@ -22363,7 +22372,7 @@ msgstr "неможливо прочитати обʼєкт для %s"
 #: object-file.c:2317
 #, c-format
 msgid "object fails fsck: %s"
-msgstr ""
+msgstr "об’єкт не пройшов перевірку fsck: %s"
 
 #: object-file.c:2350
 msgid "refusing to create malformed object"
@@ -23443,7 +23452,7 @@ msgstr "не вдалося відкрити git-директорію: %s"
 #: read-cache.c:3282
 #, c-format
 msgid "unable to unlink: %s"
-msgstr "не вдалося відʼєднати: %s"
+msgstr "не вдалося видалити: %s"
 
 #: read-cache.c:3311
 #, c-format
@@ -24476,7 +24485,7 @@ msgstr "Розвʼязано \"%s\" з використанням поперед
 #: rerere.c:795
 #, c-format
 msgid "cannot unlink stray '%s'"
-msgstr "неможливо відʼєднати блукаючий \"%s\""
+msgstr "неможливо видалити блукаючий \"%s\""
 
 #: rerere.c:799
 #, c-format
@@ -24534,7 +24543,7 @@ msgstr "--exclude-hidden= передано більше одного разу"
 #: revision.c:1772
 #, c-format
 msgid "resolve-undo records `%s` which is missing"
-msgstr ""
+msgstr "resolve-undo записує \"%s\", який відсутній"
 
 #: revision.c:2326
 #, c-format
@@ -25396,8 +25405,8 @@ msgstr "збережений pre-cherry-pick HEAD файл \"%s\" пошкодж
 #: sequencer.c:3306
 msgid "You seem to have moved HEAD. Not rewinding, check your HEAD!"
 msgstr ""
-"Здається, ви перемістили HEAD. Перемотування назад не виконується, "
-"перевірте свій HEAD!"
+"Здається, ви перемістили HEAD. Перемотування назад не виконується, перевірте "
+"свій HEAD!"
 
 #: sequencer.c:3347
 msgid "no revert in progress"
