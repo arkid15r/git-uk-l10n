@@ -14156,7 +14156,7 @@ msgstr "pack-objects не записав файл \"%s\" для пакунка %
 #: builtin/repack.c:1130 sequencer.c:4202
 #, c-format
 msgid "could not unlink: %s"
-msgstr "не вдалося видалити %s"
+msgstr "не вдалося видалити: %s"
 
 #: builtin/replace.c:29
 msgid "git replace [-f] <object> <replacement>"
@@ -15896,7 +15896,7 @@ msgstr ""
 "Щоб дозволити Git клонувати без запозиченого обʼєкту в такому випадку, "
 "встановіть\n"
 "submodule.alternateErrorStrategy на \"info\" або, що еквівалентно, клонуйте з\n"
-"'--reference-if-able' замість '--reference'."
+"\"--reference-if-able\" замість \"--reference\"."
 
 #: builtin/submodule--helper.c:1576
 #, c-format
@@ -20471,7 +20471,7 @@ msgstr "вже є %s (%s)"
 
 #: fetch-pack.c:942
 msgid "fetch-pack: unable to fork off sideband demultiplexer"
-msgstr "fetch-pack: не вдається розгалужити sideband demultiplexer"
+msgstr "fetch-pack: не вдалося розгалужити sideband demultiplexer"
 
 #: fetch-pack.c:950
 msgid "protocol error: bad pack header"
