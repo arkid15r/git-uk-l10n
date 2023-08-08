@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Git v2.41\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2023-08-05 09:18-0700\n"
-"PO-Revision-Date: 2023-08-05 15:50-0700\n"
-"Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
+"PO-Revision-Date: 2023-08-05 15:47-0700\n"
+"Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -12421,10 +12421,8 @@ msgid "repository"
 msgstr "сховище"
 
 #: builtin/push.c:598
-#, fuzzy
-#| msgid "push all refs"
 msgid "push all branches"
-msgstr "надіслати всі посилання"
+msgstr "надіслати всі гілки"
 
 #: builtin/push.c:600 builtin/send-pack.c:198
 msgid "mirror all refs"
@@ -12435,10 +12433,9 @@ msgid "delete refs"
 msgstr "видалити посилання"
 
 #: builtin/push.c:603
-#, fuzzy
-#| msgid "push tags (can't be used with --all or --mirror)"
 msgid "push tags (can't be used with --all or --branches or --mirror)"
-msgstr "надіслати теги (не можна використовувати з --all або --mirror)"
+msgstr ""
+"надіслати теги (не можна використовувати з --all, --branches або --mirror)"
 
 #: builtin/push.c:606 builtin/send-pack.c:199
 msgid "force updates"
@@ -13476,12 +13473,12 @@ msgid "fetch the remote branches"
 msgstr "отримати віддалені гілки"
 
 #: builtin/remote.c:171
-#, fuzzy
-#| msgid "import all tags and associated objects when fetching"
 msgid ""
 "import all tags and associated objects when fetching\n"
 "or do not fetch any tag at all (--no-tags)"
-msgstr "імпортувати всі теги та повʼязані з ними обʼєкти під час отримання"
+msgstr ""
+"імпортувати всі теги та повʼязані з ними обʼєкти під час отримання\n"
+"або не отримувати жодного тегу (--no-tags)"
 
 #: builtin/remote.c:175
 msgid "branch(es) to track"
@@ -15957,10 +15954,9 @@ msgid "Skipping submodule '%s'"
 msgstr "Пропуск підмодуля \"%s\""
 
 #: builtin/submodule--helper.c:2038
-#, fuzzy, c-format
-#| msgid "any cloned submodules will be shallow"
+#, c-format
 msgid "cannot clone submodule '%s' without a URL"
-msgstr "будь-які клоновані підмодулі будуть неглибокими"
+msgstr "неможливо клонувати підмодуль \"%s\" без URL-адреси"
 
 #: builtin/submodule--helper.c:2175
 #, c-format
@@ -16906,17 +16902,12 @@ msgid "print tag contents"
 msgstr "показати вміст тегу"
 
 #: builtin/worktree.c:30
-#, fuzzy
-#| msgid ""
-#| "git worktree add [-f] [--detach] [--checkout] [--lock [--reason "
-#| "<string>]]\n"
-#| "                 [-b <new-branch>] <path> [<commit-ish>]"
 msgid ""
 "git worktree add [-f] [--detach] [--checkout] [--lock [--reason <string>]]\n"
 "                 [--orphan] [(-b | -B) <new-branch>] <path> [<commit-ish>]"
 msgstr ""
-"git worktree add [-f] [--detach] [--checkout] [--lock] [--reason <строка>]]\n"
-"                 [-b <нова-гілка>] <шлях> [<комітоподібне>]"
+"git worktree add [-f] [--detach] [--checkout] [--lock [--reason <строка>]]\n"
+"                 [--orphan] [(-b | -B) <нова-гілка>] <шлях> [<комітоподібне>]"
 
 #: builtin/worktree.c:34
 msgid "git worktree list [-v | --porcelain [-z]]"
@@ -16948,7 +16939,7 @@ msgstr "git worktree unlock <робоче дерево>"
 
 #: builtin/worktree.c:49
 msgid "No possible source branch, inferring '--orphan'"
-msgstr ""
+msgstr "Немає можливої джерельної гілки, що означає \"--orphan\""
 
 #: builtin/worktree.c:52
 #, c-format
@@ -16959,6 +16950,11 @@ msgid ""
 "\n"
 "    git worktree add --orphan -b %s %s\n"
 msgstr ""
+"Якщо ви хочете створити робоче дерево, що містить нову сирітську гілку\n"
+"(гілку без комітів) для цього сховища, ви можете зробити це\n"
+"за допомогою прапорця --orphan:\n"
+"\n"
+"    git worktree add --orphan -b %s %s\n"
 
 #: builtin/worktree.c:59
 #, c-format
@@ -16969,6 +16965,11 @@ msgid ""
 "\n"
 "    git worktree add --orphan %s\n"
 msgstr ""
+"Якщо ви хочете створити робоче дерево, що містить нову сирітську гілку\n"
+"(гілку без комітів) для цього сховища, ви можете зробити це\n"
+"за допомогою прапорця --orphan:\n"
+"\n"
+"    git worktree add --orphan %s\n"
 
 #: builtin/worktree.c:165
 #, c-format
@@ -17055,10 +17056,9 @@ msgid "Preparing worktree (checking out '%s')"
 msgstr "Підготовка робочого дерева (перехід до \"%s\")"
 
 #: builtin/worktree.c:617
-#, fuzzy, c-format
-#| msgid "invalid reference: %s"
+#, c-format
 msgid "unreachable: invalid reference: %s"
-msgstr "неприпустиме посилання: %s"
+msgstr "недосяжне: неприпустиме посилання: %s"
 
 #: builtin/worktree.c:618
 #, c-format
@@ -17072,19 +17072,25 @@ msgid ""
 "HEAD path: '%s'\n"
 "HEAD contents: '%s'"
 msgstr ""
+"HEAD вказує на неприпустиме (або осиротіле) посилання.\n"
+"HEAD шлях: \"%s\"\n"
+"HEAD вміст: \"%s\""
 
 #: builtin/worktree.c:698
 msgid ""
 "No local or remote refs exist despite at least one remote\n"
 "present, stopping; use 'add -f' to overide or fetch a remote first"
 msgstr ""
+"Не існує локальних або віддалених посилань, незважаючи на наявність "
+"принаймні одного віддаленого\n"
+"призначення, зупинка; скористайтесь \"add -f\", щоб перевизначити "
+"або спочатку отримати віддалене посилання"
 
 #: builtin/worktree.c:733 builtin/worktree.c:736 builtin/worktree.c:812
 #: builtin/worktree.c:814 builtin/worktree.c:817
-#, fuzzy, c-format
-#| msgid "options '%s' and '%s' cannot be used together"
+#, c-format
 msgid "'%s' and '%s' cannot be used together"
-msgstr "опції \"%s\" і \"%s\" не можна використовувати разом"
+msgstr "\"%s\" і \"%s\" не можна використовувати разом"
 
 #: builtin/worktree.c:781
 msgid "checkout <branch> even if already checked out in other worktree"
@@ -17100,10 +17106,8 @@ msgid "create or reset a branch"
 msgstr "створити або скинути гілку"
 
 #: builtin/worktree.c:787
-#, fuzzy
-#| msgid "create a new branch"
 msgid "create unborn/orphaned branch"
-msgstr "створити нову гілку"
+msgstr "створити ненароджену/сирітську гілку"
 
 #: builtin/worktree.c:789
 msgid "populate the new working tree"
@@ -17132,16 +17136,13 @@ msgid "options '%s', '%s', and '%s' cannot be used together"
 msgstr "опції \"%s\", \"%s\" та \"%s\" не можна використовувати разом"
 
 #: builtin/worktree.c:809
-#, fuzzy, c-format
-#| msgid "options '%s' and '%s' cannot be used together"
+#, c-format
 msgid "options '%s', and '%s' cannot be used together"
 msgstr "опції \"%s\" і \"%s\" не можна використовувати разом"
 
 #: builtin/worktree.c:818
-#, fuzzy
-#| msgid "commit"
 msgid "<commit-ish>"
-msgstr "коміт"
+msgstr "<комітоподібне>"
 
 #: builtin/worktree.c:824
 msgid "added with --lock"
@@ -17436,17 +17437,14 @@ msgstr[1] "Пакунок потребує ці %<PRIuMAX> посилання:"
 msgstr[2] "Пакунок потребує ці %<PRIuMAX> посилань:"
 
 #: bundle.c:274
-#, fuzzy, c-format
-#| msgid "unrecognized bundle hash algorithm: %s"
+#, c-format
 msgid "The bundle uses this hash algorithm: %s"
-msgstr "нерозпізнаний хеш-алгоритм пакунка: %s"
+msgstr "Пакунок використовує такий алгоритм хешування: %s"
 
 #: bundle.c:277
-#, fuzzy, c-format
-#| msgid "The bundle requires this ref:"
-#| msgid_plural "The bundle requires these %<PRIuMAX> refs:"
+#, c-format
 msgid "The bundle uses this filter: %s"
-msgstr "Пакунок потребує це посилання:"
+msgstr "Пакунок використовує такий фільтр: %s"
 
 #: bundle.c:344
 msgid "unable to dup bundle descriptor"
@@ -17748,10 +17746,8 @@ msgid "A portable graphical interface to Git"
 msgstr "Портативний графічний інтерфейс до Git"
 
 #: command-list.h:111
-#, fuzzy
-#| msgid "Compute object ID and optionally creates a blob from a file"
 msgid "Compute object ID and optionally create an object from a file"
-msgstr "Обчислити ідентифікатор обʼєкта і, за бажанням, створити blob з файлу"
+msgstr "Обчислити ідентифікатор обʼєкта та за бажанням створити обʼєкт з файлу"
 
 #: command-list.h:112
 msgid "Display help information about Git"
@@ -18294,7 +18290,7 @@ msgstr "ланцюжок коміт-графа не співпадає"
 #: commit-graph.c:496
 #, c-format
 msgid "commit count in base graph too high: %<PRIuMAX>"
-msgstr ""
+msgstr "кількість комітів у базовому графі занадто велика: %<PRIuMAX>"
 
 #: commit-graph.c:542
 #, c-format
@@ -18408,12 +18404,12 @@ msgstr "не вдалося перейменувати тимчасовий фа
 #: commit-graph.c:2119
 #, c-format
 msgid "cannot merge graphs with %<PRIuMAX>, %<PRIuMAX> commits"
-msgstr ""
+msgstr "неможливо обʼєднати графи з %<PRIuMAX>, %<PRIuMAX> комітів"
 
 #: commit-graph.c:2181
 #, c-format
 msgid "cannot merge graph %s, too many commits: %<PRIuMAX>"
-msgstr ""
+msgstr "неможливо обʼєднати граф %s, занадто багато комітів: %<PRIuMAX>"
 
 #: commit-graph.c:2218
 msgid "Scanning merged commits"
@@ -19690,14 +19686,12 @@ msgid "multiple merge bases found"
 msgstr "знайдено декілька баз злиття"
 
 #: diff-no-index.c:279
-#, fuzzy
-#| msgid "not in a git directory"
 msgid "cannot compare stdin to a directory"
-msgstr "не в git директорії"
+msgstr "неможливо порівняти stdin з директорією"
 
 #: diff-no-index.c:282
 msgid "cannot compare a named pipe to a directory"
-msgstr ""
+msgstr "неможливо порівняти іменований канал з директорією"
 
 #: diff-no-index.c:296
 msgid "git diff --no-index [<options>] <path> <path>"
@@ -19771,11 +19765,9 @@ msgid "--follow requires exactly one pathspec"
 msgstr "--follow потрібен лишень один визначник шляху"
 
 #: diff.c:4772
-#, fuzzy, c-format
-#| msgid "%s: pathspec magic not supported by this command: %s"
+#, c-format
 msgid "pathspec magic not supported by --follow: %s"
-msgstr ""
-"%s: магічне значення для визначника шляху не підтримується цією командою: %s"
+msgstr "магічне значення визначника шляху не підтримується --follow: %s"
 
 #: diff.c:4797 parse-options.c:1228
 #, c-format
@@ -20814,10 +20806,9 @@ msgid "no config key given for --config-env\n"
 msgstr "не вказано ключ конфігурації для --config-env\n"
 
 #: git.c:321
-#, fuzzy, c-format
-#| msgid "no namespace given for --namespace\n"
+#, c-format
 msgid "no attribute source given for --attr-source\n"
-msgstr "не вказано простір імен для --namespace\n"
+msgstr "для --attr-source не вказано джерело атрибутів\n"
 
 #: git.c:335
 #, c-format
@@ -22866,10 +22857,9 @@ msgstr ""
 "не вдалося отримати дані про використання дискового простору для \"%s\""
 
 #: pack-bitmap.c:2533
-#, fuzzy, c-format
-#| msgid "invalid checksum"
+#, c-format
 msgid "bitmap file '%s' has invalid checksum"
-msgstr "неприпустима контрольна сума"
+msgstr "bitmap файл \"%s\" має невірну контрольну суму"
 
 #: pack-mtimes.c:49
 #, c-format
@@ -23368,16 +23358,13 @@ msgid "could not parse log for '%s'"
 msgstr "не вдалося розібрати журнал для \"%s\""
 
 #: reachable.c:99
-#, fuzzy, c-format
-#| msgid "invalid ref: '%s'"
+#, c-format
 msgid "invalid extra cruft tip: '%s'"
-msgstr "неприпустиме посилання: \"%s\""
+msgstr "неприпустима додаткова марна верхівка: \"%s\""
 
 #: reachable.c:128
-#, fuzzy
-#| msgid "unable to add recent objects"
 msgid "unable to enumerate additional recent objects"
-msgstr "не вдалося додати нещодавні обʼєкти"
+msgstr "не вдалося перерахувати додаткові нещодавні обʼєкти"
 
 #: read-cache.c:647
 #, c-format
@@ -23800,28 +23787,24 @@ msgid "positive value expected contents:lines=%s"
 msgstr "очікувалось додатне значення contents:lines=%s"
 
 #: ref-filter.c:626
-#, fuzzy, c-format
-#| msgid "blob expected for %s '%s'"
+#, c-format
 msgid "argument expected for %s"
-msgstr "blob очікується для %s \"%s\""
+msgstr "очікувався аргумент для %s"
 
 #: ref-filter.c:630
-#, fuzzy, c-format
-#| msgid "positive value expected '%s' in %%(%s)"
+#, c-format
 msgid "positive value expected %s=%s"
-msgstr "очікувалось додатне значення \"%s\" у %%(%s)"
+msgstr "очікувалось додатне значення %s=%s"
 
 #: ref-filter.c:634
-#, fuzzy, c-format
-#| msgid "cannot parse color '%s'"
+#, c-format
 msgid "cannot fully parse %s=%s"
-msgstr "не вдалося розібрати колір \"%s\""
+msgstr "неможливо повністю розібрати %s=%s"
 
 #: ref-filter.c:644 ref-filter.c:654
-#, fuzzy, c-format
-#| msgid "expected '%s'"
+#, c-format
 msgid "value expected %s="
-msgstr "очікувалось \"%s\""
+msgstr "очікувалось значення %s="
 
 #: ref-filter.c:712
 #, c-format
@@ -23915,10 +23898,8 @@ msgid "--format=%.*s cannot be used with --python, --shell, --tcl"
 msgstr "--format=%.*s не може бути використаний з --python, --shell, --tcl"
 
 #: ref-filter.c:1823
-#, fuzzy
-#| msgid "failed to run '%s'"
 msgid "failed to run 'describe'"
-msgstr "не вдалося запустити \"%s\""
+msgstr "не вдалося запустити команду \"describe\""
 
 #: ref-filter.c:2120
 #, c-format
@@ -23998,10 +23979,8 @@ msgid "field name to sort on"
 msgstr "назва поля для сортування"
 
 #: ref-filter.h:120
-#, fuzzy
-#| msgid "only use refs matching <pattern>"
 msgid "exclude refs which match pattern"
-msgstr "використовувати лише посилання, що збігаються з <шаблоном>"
+msgstr "виключити посилання, які збігаються з шаблоном"
 
 #: reflog.c:410
 #, c-format
@@ -24560,11 +24539,11 @@ msgstr[2] ""
 "і мають %d і %d різних комітів відповідно.\n"
 
 #: remote.c:2329
-#, fuzzy
-#| msgid "  (use \"git pull\" to merge the remote branch into yours)\n"
 msgid ""
 "  (use \"git pull\" if you want to integrate the remote branch with yours)\n"
-msgstr "  (використовуйте \"git pull\", щоб злити віддалену гілку з вашою)\n"
+msgstr ""
+"  (скористайтесь \"git pull\", якщо ви хочете інтегрувати віддалену гілку зі "
+"своєю)\n"
 
 #: remote.c:2522
 #, c-format
@@ -24707,10 +24686,9 @@ msgid "--unpacked=<packfile> no longer supported"
 msgstr "--unpacked=<файл пакунка> більше не підтримується"
 
 #: revision.c:2823
-#, fuzzy, c-format
-#| msgid "invalid option: %s"
+#, c-format
 msgid "invalid option '%s' in --stdin mode"
-msgstr "неприпустима опція %s"
+msgstr "неприпустима опція \"%s\" у режимі --stdin"
 
 #: revision.c:2844
 msgid "your current branch appears to be broken"
@@ -28441,10 +28419,9 @@ msgid "(%s) Could not execute '%s'"
 msgstr "(%s) Не вдалося виконати \"%s\""
 
 #: git-send-email.perl:2052
-#, fuzzy, perl-format
-#| msgid "Malformed input line: '%s'."
+#, perl-format
 msgid "(%s) Malformed output from '%s'"
-msgstr "Невірно сформований рядок вводу: \"%s\"."
+msgstr "(%s) Невірно сформований вивід з \"%s\""
 
 #: git-send-email.perl:2061
 #, perl-format
