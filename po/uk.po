@@ -979,16 +979,12 @@ msgid "'%s' outside a repository"
 msgstr "\"%s\" поза сховищем"
 
 #: apply.c:416
-#, fuzzy
-#| msgid "failed to read the cache"
 msgid "failed to read patch"
-msgstr "не вдалося прочитати кеш"
+msgstr "не вдалося прочитати латку"
 
 #: apply.c:418
-#, fuzzy
-#| msgid "pack %s too large to roll up"
 msgid "patch too large"
-msgstr "пакунок %s занадто великий для згортання"
+msgstr "латка занадто велика"
 
 #: apply.c:832
 #, c-format
@@ -1873,7 +1869,7 @@ msgstr "ігнорування надто великих gitattributes blob \"%s
 
 #: attr.c:1191
 msgid "bad --attr-source or GIT_ATTR_SOURCE"
-msgstr ""
+msgstr "невірний --attr-source або GIT_ATTR_SOURCE"
 
 #: bisect.c:491
 #, c-format
@@ -2142,10 +2138,11 @@ msgid "a branch named '%s' already exists"
 msgstr "гілка з ім’ям \"%s\" вже існує"
 
 #: branch.c:473
-#, fuzzy, c-format
-#| msgid "cannot force update the branch '%s' checked out at '%s'"
+#, c-format
 msgid "cannot force update the branch '%s' used by worktree at '%s'"
-msgstr "неможливо примусово оновити гілку \"%s\", розташовану в \"%s\""
+msgstr ""
+"неможливо примусово оновити гілку \"%s\", яка використовується робочим "
+"деревом у \"%s\""
 
 #: branch.c:498
 #, c-format
@@ -4130,12 +4127,6 @@ msgid "git cat-file (-t | -s) [--allow-unknown-type] <object>"
 msgstr "git cat-file (-t | -s) [--allow-unknown-type] <об’єкт>"
 
 #: builtin/cat-file.c:925
-#, fuzzy
-#| msgid ""
-#| "git cat-file (--batch | --batch-check | --batch-command) [--batch-all-"
-#| "objects]\n"
-#| "             [--buffer] [--follow-symlinks] [--unordered]\n"
-#| "             [--textconv | --filters] [-z]"
 msgid ""
 "git cat-file (--batch | --batch-check | --batch-command) [--batch-all-"
 "objects]\n"
@@ -4143,9 +4134,9 @@ msgid ""
 "             [--textconv | --filters] [-Z]"
 msgstr ""
 "git cat-file (--batch | --batch-check | --batch-command) [--batch-all-"
-"objects] (--batch-all-objects)\n"
+"objects]\n"
 "             [--buffer] [--follow-symlinks] [--unordered]\n"
-"             [--textconv | --filters] [-z]"
+"             [--textconv | --filters] [-Z]"
 
 #: builtin/cat-file.c:928
 msgid ""
@@ -4206,10 +4197,8 @@ msgid "stdin is NUL-terminated"
 msgstr "stdin закінчується NUL"
 
 #: builtin/cat-file.c:958
-#, fuzzy
-#| msgid "stdin is NUL-terminated"
 msgid "stdin and stdout is NUL-terminated"
-msgstr "stdin закінчується NUL"
+msgstr "stdin та stdout закінчуються NUL"
 
 #: builtin/cat-file.c:960
 msgid "read commands from stdin"
@@ -5966,10 +5955,9 @@ msgstr ""
 
 #: builtin/commit.c:770 builtin/commit.c:805 builtin/commit.c:1194
 #: builtin/merge-tree.c:453
-#, fuzzy, c-format
-#| msgid "could not lookup commit %s"
+#, c-format
 msgid "could not lookup commit '%s'"
-msgstr "не вдалося знайти коміт %s"
+msgstr "не вдалося знайти коміт \"%s\""
 
 #: builtin/commit.c:783 builtin/shortlog.c:458
 #, c-format
@@ -11011,17 +10999,14 @@ msgid "git notes [--ref <notes-ref>] [list [<object>]]"
 msgstr "git notes [--ref <посилання-нотатки>] [list [<об’єкт>]]"
 
 #: builtin/notes.c:37
-#, fuzzy
-#| msgid ""
-#| "git notes [--ref <notes-ref>] add [-f] [--allow-empty] [-m <msg> | -F "
-#| "<file> | (-c | -C) <object>] [<object>]"
 msgid ""
 "git notes [--ref <notes-ref>] add [-f] [--allow-empty] [--[no-]separator|--"
 "separator=<paragraph-break>] [--[no-]stripspace] [-m <msg> | -F <file> | (-c "
 "| -C) <object>] [<object>]"
 msgstr ""
-"git notes [--ref <посилання-нотатки>] add [-f] [--allow-empty] [-m <допис> | "
-"-F <файл> | (-c | -C) <об’єкт>] [<об’єкт>]"
+"git notes [--ref <посилання-нотатки>] add [-f] [--allow-empty] [--"
+"[no-]separator|--separator=<розділювач-абзаців>] [--[no-]stripspace] [-m "
+"<допис> | -F <файл> | (-c | -C) <обʼєкт>] [<обʼєкт>]"
 
 #: builtin/notes.c:38
 msgid "git notes [--ref <notes-ref>] copy [-f] <from-object> <to-object>"
@@ -11029,17 +11014,14 @@ msgstr ""
 "git notes [--ref <посилання-нотатки>] copy [-f] <з-об’єкта> <до-об’єкта>"
 
 #: builtin/notes.c:39
-#, fuzzy
-#| msgid ""
-#| "git notes [--ref <notes-ref>] append [--allow-empty] [-m <msg> | -F "
-#| "<file> | (-c | -C) <object>] [<object>]"
 msgid ""
 "git notes [--ref <notes-ref>] append [--allow-empty] [--[no-]separator|--"
 "separator=<paragraph-break>] [--[no-]stripspace] [-m <msg> | -F <file> | (-c "
 "| -C) <object>] [<object>]"
 msgstr ""
-"git notes [--ref <посилання-нотатки>] append [--allow-empty] [-m <допис> | -"
-"F <файл> | (-c | -C) <об’єкт>] [<об’єкт>]"
+"git notes [--ref <посилання-нотатки>] append [--allow-empty] [--"
+"[no-]separator|--separator=<розділювач-абзаців>] [--[no-]stripspace] [-m "
+"<допис> | -F <файл> | (-c | -C) <обʼєкт>] [<обʼєкт>]"
 
 #: builtin/notes.c:40
 msgid "git notes [--ref <notes-ref>] edit [--allow-empty] [<object>]"
@@ -11213,17 +11195,15 @@ msgstr "замінити існуючі нотатки"
 
 #: builtin/notes.c:502 builtin/notes.c:677
 msgid "<paragraph-break>"
-msgstr ""
+msgstr "<розділювач-абзаців>"
 
 #: builtin/notes.c:503 builtin/notes.c:678
 msgid "insert <paragraph-break> between paragraphs"
-msgstr ""
+msgstr "вставити <розділювач-абзаців> між абзацами"
 
 #: builtin/notes.c:506 builtin/notes.c:681
-#, fuzzy
-#| msgid "Remove unnecessary whitespace"
 msgid "remove unnecessary whitespace"
-msgstr "Видалити зайві пробіли"
+msgstr "видалити зайві пробіли"
 
 #: builtin/notes.c:535
 #, c-format
@@ -11928,12 +11908,11 @@ msgid "refusing to run without --i-still-use-this"
 msgstr "відмова від запуску без --i-still-use-this"
 
 #: builtin/pack-refs.c:10
-#, fuzzy
-#| msgid "git pack-refs [--all] [--no-prune]"
 msgid ""
 "git pack-refs [--all] [--no-prune] [--include <pattern>] [--exclude "
 "<pattern>]"
-msgstr "git pack-refs [--all] [--no-prune]"
+msgstr ""
+"git pack-refs [--all] [--no-prune] [--include <шаблон>] [--exclude <шаблон>]"
 
 #: builtin/pack-refs.c:26
 msgid "pack everything"
@@ -11945,13 +11924,11 @@ msgstr "видалити вивільнені посилання (за замо�
 
 #: builtin/pack-refs.c:29
 msgid "references to include"
-msgstr ""
+msgstr "посилання для включення"
 
 #: builtin/pack-refs.c:31
-#, fuzzy
-#| msgid "reference is not a tree: %s"
 msgid "references to exclude"
-msgstr "посилання не є деревом: %s"
+msgstr "посилання для виключення"
 
 #: builtin/patch-id.c:191
 msgid "git patch-id [--stable | --unstable | --verbatim]"
@@ -12335,58 +12312,40 @@ msgid ""
 "your current branch '%s', without telling me what to push\n"
 "to update which remote branch."
 msgstr ""
-"Ви надсилаєте до віддаленої гілки '%s', яка не є першоджерелом\n"
-"вашої поточної гілки '%s', не кажучі мені, що надсилати\n"
+"Ви надсилаєте до віддаленої гілки \"%s\", яка не є першоджерелом\n"
+"вашої поточної гілки \"%s\", не кажучі мені, що надсилати\n"
 "і яку віддалену гілку оновлювати."
 
 #: builtin/push.c:303
-#, fuzzy
-#| msgid ""
-#| "Updates were rejected because the tip of your current branch is behind\n"
-#| "its remote counterpart. Integrate the remote changes (e.g.\n"
-#| "'git pull ...') before pushing again.\n"
-#| "See the 'Note about fast-forwards' in 'git push --help' for details."
 msgid ""
 "Updates were rejected because the tip of your current branch is behind\n"
 "its remote counterpart. If you want to integrate the remote changes,\n"
 "use 'git pull' before pushing again.\n"
 "See the 'Note about fast-forwards' in 'git push --help' for details."
 msgstr ""
-"Оновлення було відхилено, оскільки верхівка вашої поточної гілки знаходиться "
+"Оновлення були відхилені, оскільки верхівка вашої поточної гілки знаходиться "
 "позаду\n"
-"її віддаленого аналога. Інтегруйте віддалені зміни (наприклад, через\n"
-"'git pull ...') перед повторним надсиланням.\n"
-"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --"
-"help\"."
+"її віддаленого аналога. Якщо ви хочете інтегрувати віддалені зміни,\n"
+"скористайтеся командою \"git pull\" перед повторним надсиланням.\n"
+"Докладні відомості наведено у розділі \"Зауваження щодо перемотування "
+"вперед\" команди \"git push --help\"."
 
 #: builtin/push.c:309
-#, fuzzy
-#| msgid ""
-#| "Updates were rejected because a pushed branch tip is behind its remote\n"
-#| "counterpart. Check out this branch and integrate the remote changes\n"
-#| "(e.g. 'git pull ...') before pushing again.\n"
-#| "See the 'Note about fast-forwards' in 'git push --help' for details."
 msgid ""
 "Updates were rejected because a pushed branch tip is behind its remote\n"
 "counterpart. If you want to integrate the remote changes, use 'git pull'\n"
 "before pushing again.\n"
 "See the 'Note about fast-forwards' in 'git push --help' for details."
 msgstr ""
-"Оновлення було відхилено, оскільки верхівка вашої поточної гілки знаходиться "
+"Оновлення були відхилені, оскільки верхівка надісланої гілки знаходиться "
 "позаду\n"
-"її віддаленого аналога. Стягнить цю гілку та інтегруйте віддалені зміни\n"
-"(наприклад, через 'git pull...') перед повторним надсиланням.\n"
-"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --"
-"help\"."
+"її віддаленого аналога. Якщо ви хочете інтегрувати віддалені зміни, "
+"скористайтеся командою \"git pull\"\n"
+"перед повторним надсиланням.\n"
+"Докладні відомості наведено у розділі \"Зауваження щодо перемотування "
+"вперед\" команди \"git push --help\"."
 
 #: builtin/push.c:315
-#, fuzzy
-#| msgid ""
-#| "Updates were rejected because the remote contains work that you do\n"
-#| "not have locally. This is usually caused by another repository pushing\n"
-#| "to the same ref. You may want to first integrate the remote changes\n"
-#| "(e.g., 'git pull ...') before pushing again.\n"
-#| "See the 'Note about fast-forwards' in 'git push --help' for details."
 msgid ""
 "Updates were rejected because the remote contains work that you do not\n"
 "have locally. This is usually caused by another repository pushing to\n"
@@ -12394,19 +12353,18 @@ msgid ""
 "'git pull' before pushing again.\n"
 "See the 'Note about fast-forwards' in 'git push --help' for details."
 msgstr ""
-"Оновлення було відхилено, оскільки у віддаленому сховищі міститься робота, "
+"Оновлення були відхилені, оскільки у віддаленому сховищі міститься робота, "
 "якої\n"
 "немає локально. Зазвичай це стається, коли інше сховище надсилає\n"
-"до того самого посилання. Можливо, вам слід спочатку інтегрувати віддалені "
-"зміни\n"
-"(наприклад, через 'git pull ...') перед повторним надсиланням.\n"
-"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --"
-"help\"."
+"до того самого посилання. Якщо ви хочете інтегрувати віддалені зміни,\n"
+"скористайтеся командою \"git pull\" перед повторним надсиланням.\n"
+"Докладні відомості наведено у розділі \"Зауваження щодо перемотування "
+"вперед\" команди \"git push --help\"."
 
 #: builtin/push.c:322
 msgid "Updates were rejected because the tag already exists in the remote."
 msgstr ""
-"Оновлення було відхилено, оскільки тег вже існує на віддаленому сховищі."
+"Оновлення були відхилені, оскільки тег вже існує на віддаленому сховищі."
 
 #: builtin/push.c:325
 msgid ""
@@ -12418,27 +12376,22 @@ msgstr ""
 "об’єктом коміту,\n"
 "або оновити віддалене посилання так, щоб воно вказувало на об’єкт, що не є "
 "об’єктом коміту,\n"
-"без використання опції '--force'.\n"
+"без використання опції \"--force\".\n"
 
 #: builtin/push.c:330
-#, fuzzy
-#| msgid ""
-#| "Updates were rejected because the tip of your current branch is behind\n"
-#| "its remote counterpart. Integrate the remote changes (e.g.\n"
-#| "'git pull ...') before pushing again.\n"
-#| "See the 'Note about fast-forwards' in 'git push --help' for details."
 msgid ""
 "Updates were rejected because the tip of the remote-tracking branch has\n"
 "been updated since the last checkout. If you want to integrate the\n"
 "remote changes, use 'git pull' before pushing again.\n"
 "See the 'Note about fast-forwards' in 'git push --help' for details."
 msgstr ""
-"Оновлення було відхилено, оскільки верхівка вашої поточної гілки знаходиться "
-"позаду\n"
-"її віддаленого аналога. Інтегруйте віддалені зміни (наприклад, через\n"
-"'git pull ...') перед повторним надсиланням.\n"
-"Докладніше у \"Примітці про перемотування вперед\" команди \"git push --"
-"help\"."
+"Оновлення були відхилені, оскільки верхівка віддалено відстежуваної гілки "
+"була\n"
+"оновлена з часу останньої синхронізації. Якщо ви хочете інтегрувати "
+"віддалені зміни,\n"
+"скористайтеся командою \"git pull\" перед повторним надсиланням.\n"
+"Докладні відомості наведено у розділі \"Зауваження щодо перемотування "
+"вперед\" команди \"git push --help\"."
 
 #: builtin/push.c:400
 #, c-format
