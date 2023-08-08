@@ -12482,7 +12482,7 @@ msgstr "видалити посилання"
 #: builtin/push.c:603
 msgid "push tags (can't be used with --all or --branches or --mirror)"
 msgstr ""
-"теги надсилання (не можна використовувати з --all, --branches або --mirror)"
+"надіслати теги (не можна використовувати з --all, --branches або --mirror)"
 
 #: builtin/push.c:606 builtin/send-pack.c:199
 msgid "force updates"
@@ -16997,7 +16997,7 @@ msgid ""
 "\n"
 "    git worktree add --orphan -b %s %s\n"
 msgstr ""
-"Якщо ви хочете створити робоче дерево, що містить нову осиротілу гілку\n"
+"Якщо ви хочете створити робоче дерево, що містить нову сирітську гілку\n"
 "(гілку без комітів) для цього сховища, ви можете зробити це\n"
 "за допомогою прапорця --orphan:\n"
 "\n"
@@ -17012,7 +17012,7 @@ msgid ""
 "\n"
 "    git worktree add --orphan %s\n"
 msgstr ""
-"Якщо ви хочете створити робоче дерево, що містить нову осиротілу гілку\n"
+"Якщо ви хочете створити робоче дерево, що містить нову сирітську гілку\n"
 "(гілку без комітів) для цього сховища, ви можете зробити це\n"
 "за допомогою прапорця --orphan:\n"
 "\n"
@@ -17121,7 +17121,7 @@ msgid ""
 msgstr ""
 "HEAD вказує на неприпустиме (або осиротіле) посилання.\n"
 "HEAD шлях: \"%s\"\n"
-"Вміст HEAD: \"%s\""
+"HEAD вміст: \"%s\""
 
 #: builtin/worktree.c:698
 msgid ""
@@ -17130,7 +17130,7 @@ msgid ""
 msgstr ""
 "Не існує локальних або віддалених посилань, незважаючи на наявність "
 "принаймні одного віддаленого\n"
-"призначення, зупинка; скористайтесь командою \"add -f\", щоб перевизначити "
+"призначення, зупинка; скористайтесь \"add -f\", щоб перевизначити "
 "або спочатку отримати віддалене посилання"
 
 #: builtin/worktree.c:733 builtin/worktree.c:736 builtin/worktree.c:812
@@ -17154,7 +17154,7 @@ msgstr "створити або скинути гілку"
 
 #: builtin/worktree.c:787
 msgid "create unborn/orphaned branch"
-msgstr "створити ненароджену/осиротілу гілку"
+msgstr "створити ненароджену/сирітську гілку"
 
 #: builtin/worktree.c:789
 msgid "populate the new working tree"
@@ -19738,7 +19738,7 @@ msgstr "неможливо порівняти stdin з директорією"
 
 #: diff-no-index.c:282
 msgid "cannot compare a named pipe to a directory"
-msgstr "неможливо порівняти названий канал з директорією"
+msgstr "неможливо порівняти іменований канал з директорією"
 
 #: diff-no-index.c:296
 msgid "git diff --no-index [<options>] <path> <path>"
@@ -22906,7 +22906,7 @@ msgstr ""
 #: pack-bitmap.c:2533
 #, c-format
 msgid "bitmap file '%s' has invalid checksum"
-msgstr "bitmap файл \"%s\" має неприпустиму контрольну суму"
+msgstr "bitmap файл \"%s\" має невірну контрольну суму"
 
 #: pack-mtimes.c:49
 #, c-format
@@ -28468,7 +28468,7 @@ msgstr "(%s) Не вдалося виконати \"%s\""
 #: git-send-email.perl:2052
 #, perl-format
 msgid "(%s) Malformed output from '%s'"
-msgstr "(%s) Неправильно сформований вивід з \"%s\""
+msgstr "(%s) Невірно сформований вивід з \"%s\""
 
 #: git-send-email.perl:2061
 #, perl-format
