@@ -2782,7 +2782,7 @@ msgstr "передати -m прапорець до git-mailinfo"
 
 #: builtin/am.c:2351
 msgid "pass --keep-cr flag to git-mailsplit for mbox format"
-msgstr "передати --keep-cr прапорець до git-mailinfo для формату mbox"
+msgstr "передати --keep-cr прапорець до git-mailsplit для формату mbox"
 
 #: builtin/am.c:2354
 msgid "strip everything before a scissors line"
@@ -3820,7 +3820,7 @@ msgstr ""
 
 #: builtin/branch.c:803
 msgid "--recurse-submodules can only be used to create branches"
-msgstr "--recurse-підмодулі можна використовувати лише для створення гілок"
+msgstr "--recurse-submodules можна використовувати лише для створення гілок"
 
 #: builtin/branch.c:834 builtin/branch.c:893
 msgid "branch name required"
@@ -15772,7 +15772,7 @@ msgstr "приховати вивід процесу синхронізації 
 
 #: builtin/submodule--helper.c:1345
 msgid "git submodule sync [--quiet] [--recursive] [<path>]"
-msgstr "git submodule sync [--quiet] --recursive] [<шлях>]"
+msgstr "git submodule sync [--quiet] [--recursive] [<шлях>]"
 
 #: builtin/submodule--helper.c:1400
 #, c-format
@@ -17420,7 +17420,7 @@ msgstr ""
 #, c-format
 msgid "The bundle contains this ref:"
 msgid_plural "The bundle contains these %<PRIuMAX> refs:"
-msgstr[0] "Пакунок містить це посилання:"
+msgstr[0] "Пакунок містить це %<PRIuMAX> посилання:"
 msgstr[1] "Пакунок містить ці %<PRIuMAX> посилання:"
 msgstr[2] "Пакунок містить ці %<PRIuMAX> посилань:"
 
@@ -17432,7 +17432,7 @@ msgstr "Пакунок записує повну історію."
 #, c-format
 msgid "The bundle requires this ref:"
 msgid_plural "The bundle requires these %<PRIuMAX> refs:"
-msgstr[0] "Пакунок потребує це посилання:"
+msgstr[0] "Пакунок потребує це %<PRIuMAX> посилання:"
 msgstr[1] "Пакунок потребує ці %<PRIuMAX> посилання:"
 msgstr[2] "Пакунок потребує ці %<PRIuMAX> посилань:"
 
@@ -18077,7 +18077,7 @@ msgstr "Оновити додатковий інформаційний файл 
 
 #: command-list.h:193
 msgid "Send archive back to git-archive"
-msgstr "Надіслати архів назад до git-архіву"
+msgstr "Надіслати архів назад до git-archive"
 
 #: command-list.h:194
 msgid "Send objects packed back to git-fetch-pack"
@@ -20948,7 +20948,7 @@ msgstr ""
 
 #: gpg-interface.c:1039
 msgid "user.signingKey needs to be set for ssh signing"
-msgstr "user.signingКлюч має бути налаштований для ssh підписання"
+msgstr "user.signingKey має бути налаштований для ssh підписання"
 
 #: gpg-interface.c:1051
 #, c-format
