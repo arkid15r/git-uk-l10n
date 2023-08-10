@@ -158,7 +158,7 @@ msgstr "додати вміст невідстежуваних файлів до
 
 #: add-interactive.c:1047 add-interactive.c:1096
 msgid "Prompt help:"
-msgstr "Інформація про опції:"
+msgstr "Підказка по опціям:"
 
 #: add-interactive.c:1049
 msgid "select a single item"
@@ -170,7 +170,7 @@ msgstr "вибрати діапазон елементів"
 
 #: add-interactive.c:1053
 msgid "select multiple ranges"
-msgstr "вибрати кілька діапазонів"
+msgstr "вибрати декілька діапазонів"
 
 #: add-interactive.c:1055 add-interactive.c:1100
 msgid "select item based on unique prefix"
@@ -316,22 +316,22 @@ msgstr ""
 #: add-patch.c:87
 #, c-format
 msgid "Unstage mode change [y,n,q,a,d%s,?]? "
-msgstr "Розіндексувати зміну режиму [y,n,q,a,d%s,?]? "
+msgstr "Видалити з індексу зміну режиму [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:88
 #, c-format
 msgid "Unstage deletion [y,n,q,a,d%s,?]? "
-msgstr "Розіндексувати видалення [y,n,q,a,d%s,?]? "
+msgstr "Видалити з індексу видалення [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:89
 #, c-format
 msgid "Unstage addition [y,n,q,a,d%s,?]? "
-msgstr "Розіндексувати додавання [y,n,q,a,d%s,?]? "
+msgstr "Видалити з індексу додавання [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:90
 #, c-format
 msgid "Unstage this hunk [y,n,q,a,d%s,?]? "
-msgstr "Розіндексувати цей шматок [y,n,q,a,d%s,?]? "
+msgstr "Видалити з індексу цей шматок [y,n,q,a,d%s,?]? "
 
 #: add-patch.c:92
 msgid ""
@@ -349,11 +349,11 @@ msgid ""
 "a - unstage this hunk and all later hunks in the file\n"
 "d - do not unstage this hunk or any of the later hunks in the file\n"
 msgstr ""
-"y - розіндексувати цей шматок\n"
-"n - не розіндексовувати цей шматок\n"
-"q - вийти; не розіндексовувати ні цей шматок, ні решту\n"
-"a - розіндексувати цей шматок і всі наступні шматки у файлі\n"
-"d - не розіндексувати цей шматок і всі наступні шматки у файлі\n"
+"y - видалити з індексу цей шматок\n"
+"n - не видаляти з індексу цей шматок\n"
+"q - вийти; не видаляти з індексу ні цей шматок, ні решту\n"
+"a - видалити з індексу цей шматок і всі наступні шматки у файлі\n"
+"d - не видалити з індексу цей шматок і всі наступні шматки у файлі\n"
 
 #: add-patch.c:110
 #, c-format
@@ -5035,7 +5035,7 @@ msgid ""
 "foo        - select item based on unique prefix\n"
 "           - (empty) select nothing\n"
 msgstr ""
-"Підказка швидкого вибору:\n"
+"Підказка по опціям:\n"
 "1          - вибрати пронумерований елемент\n"
 "foo        - вибрати елемент за унікальним префіксом\n"
 "           - (порожньо) - не вибирати нічого\n"
@@ -5052,7 +5052,7 @@ msgid ""
 "*          - choose all items\n"
 "           - (empty) finish selecting\n"
 msgstr ""
-"Підказка швидкого вибору:\n"
+"Підказка по опціям:\n"
 "1          - вибрати один елемент\n"
 "3-5        - вибрати діапазон елементів\n"
 "2-3,6-9    - вибрати декілька діапазонів\n"
@@ -7031,7 +7031,7 @@ msgstr "надано необроблений об’єкт \"%s\"."
 #: builtin/diff.c:608
 #, c-format
 msgid "%s...%s: multiple merge bases, using %s"
-msgstr "%s...%s: кілька баз злиття, використання %s"
+msgstr "%s...%s: декілька баз злиття, використання %s"
 
 #: builtin/difftool.c:39
 msgid "git difftool [<options>] [<commit> [<commit>]] [--] [<path>...]"
@@ -8401,7 +8401,7 @@ msgstr "\"%s\" не є припустимим завданням"
 #: builtin/gc.c:1428
 #, c-format
 msgid "task '%s' cannot be selected multiple times"
-msgstr "завдання \"%s\" не можна вибрати кілька разів"
+msgstr "завдання \"%s\" не можна вибрати декілька разів"
 
 #: builtin/gc.c:1443
 msgid "run tasks based on the state of the repository"
@@ -10330,7 +10330,7 @@ msgstr "дозволити злиття непов’язаних історій
 
 #: builtin/merge-tree.c:545
 msgid "perform multiple merges, one per line of input"
-msgstr "виконати кілька злиттів, по одному на кожен рядок вводу"
+msgstr "виконати декілька злиттів, по одному на кожен рядок вводу"
 
 #: builtin/merge-tree.c:550
 msgid "specify a merge-base for the merge"
@@ -10921,7 +10921,7 @@ msgstr "Неможливо перезаписати"
 
 #: builtin/mv.c:381
 msgid "multiple sources for the same target"
-msgstr "кілька джерел для однієї цілі"
+msgstr "декілька джерел для однієї цілі"
 
 #: builtin/mv.c:385
 msgid "destination directory does not exist"
@@ -12174,7 +12174,7 @@ msgstr ""
 
 #: builtin/pull.c:1099
 msgid "Cannot merge multiple branches into empty head."
-msgstr "Неможливо злити кілька гілок до порожньої верхівки."
+msgstr "Неможливо злити декілька гілок до порожньої верхівки."
 
 #: builtin/pull.c:1105
 msgid "Cannot rebase onto multiple branches."
@@ -18109,7 +18109,7 @@ msgstr "Показати журнал з різницею, яку вносить
 
 #: command-list.h:201
 msgid "Manage multiple working trees"
-msgstr "Керувати кількома робочими деревами"
+msgstr "Керувати декількома робочими деревами"
 
 #: command-list.h:202
 msgid "Create a tree object from the current index"
