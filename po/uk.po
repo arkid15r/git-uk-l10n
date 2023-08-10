@@ -7419,7 +7419,7 @@ msgstr "(нічого)"
 #: builtin/fetch.c:1420
 #, c-format
 msgid "refusing to fetch into branch '%s' checked out at '%s'"
-msgstr "відмова в отримані в гілку \"%s\", що знаходиться в \"%s\""
+msgstr "відмовлено в отримані в гілку \"%s\", що знаходиться в \"%s\""
 
 #: builtin/fetch.c:1440
 #, c-format
