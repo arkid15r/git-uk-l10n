@@ -6872,7 +6872,7 @@ msgstr ""
 #: builtin/describe.c:468
 #, c-format
 msgid "traversed %lu commits\n"
-msgstr "пройдено через %lu коммтів\n"
+msgstr "пройдено через %lu комітів\n"
 
 #: builtin/describe.c:471
 #, c-format
