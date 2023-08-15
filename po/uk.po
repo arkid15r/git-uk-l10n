@@ -4179,7 +4179,7 @@ msgstr "дозволити -s та -t працювати з пошкоджени
 
 #: builtin/cat-file.c:944 builtin/log.c:251
 msgid "use mail map file"
-msgstr "використувати файл відповідності поштових адрес"
+msgstr "використовувати файл відповідності поштових адрес"
 
 #: builtin/cat-file.c:947
 msgid "Batch objects requested on stdin (or --batch-all-objects)"
@@ -17961,7 +17961,7 @@ msgstr "Відновити файли робочого дерева"
 
 #: command-list.h:164
 msgid "Lists commit objects in reverse chronological order"
-msgstr "Показувати обʼєкти комітуу зворотному хронологічному порядку"
+msgstr "Показувати обʼєкти коміту у зворотному хронологічному порядку"
 
 #: command-list.h:165
 msgid "Pick out and massage parameters"
@@ -20463,12 +20463,12 @@ msgstr "git fetch-pack: очікувалось flush пакет після не�
 
 #: fetch-pack.c:228
 msgid "git fetch-pack: expected ACK/NAK, got a flush packet"
-msgstr "git fetch-pack: очікувався ACK/NAK, отримано flush пакет"
+msgstr "git fetch-pack: очікувалось ACK/NAK, отримано flush пакет"
 
 #: fetch-pack.c:248
 #, c-format
 msgid "git fetch-pack: expected ACK/NAK, got '%s'"
-msgstr "git fetch-pack: очікувався ACK/NAK, отримано \"%s\""
+msgstr "git fetch-pack: очікувалось ACK/NAK, отримано \"%s\""
 
 #: fetch-pack.c:259
 msgid "unable to write to remote"
@@ -20506,7 +20506,7 @@ msgstr "не знайдено неглибоких: %s"
 #: fetch-pack.c:453 fetch-pack.c:1547
 #, c-format
 msgid "expected shallow/unshallow, got %s"
-msgstr "очікувавася shallow/unshallow, отримано %s"
+msgstr "очікувалось shallow/unshallow, отримано %s"
 
 #: fetch-pack.c:503
 #, c-format
@@ -20629,12 +20629,12 @@ msgstr "не вдалося записати запит до віддалено�
 #: fetch-pack.c:1449
 #, c-format
 msgid "expected '%s', received '%s'"
-msgstr "очікувався \"%s\", отримано \"%s\""
+msgstr "очікувалось \"%s\", отримано \"%s\""
 
 #: fetch-pack.c:1452
 #, c-format
 msgid "expected '%s'"
-msgstr "очікувався \"%s\""
+msgstr "очікувалось \"%s\""
 
 #: fetch-pack.c:1486
 #, c-format
@@ -20670,7 +20670,7 @@ msgstr "помилка при обробці неглибокої інформа
 #: fetch-pack.c:1601
 #, c-format
 msgid "expected wanted-ref, got '%s'"
-msgstr "очікувався wanted-ref, отримано \"%s\""
+msgstr "очікувалось wanted-ref, отримано \"%s\""
 
 #: fetch-pack.c:1606
 #, c-format
@@ -21305,7 +21305,7 @@ msgstr "імʼя складається лише з заборонених си�
 
 #: list-objects-filter-options.c:70
 msgid "expected 'tree:<depth>'"
-msgstr "очікувався \"tree:<глибина>\""
+msgstr "очікувалось \"tree:<глибина>\""
 
 #: list-objects-filter-options.c:85
 msgid "sparse:path filters support has been dropped"
@@ -22488,7 +22488,7 @@ msgstr "не вдалося відкрити %s"
 #: object-file.c:2759
 #, c-format
 msgid "hash mismatch for %s (expected %s)"
-msgstr "невідповідність хешу для %s (очікувався %s)"
+msgstr "невідповідність хешу для %s (очікувалось %s)"
 
 #: object-file.c:2785
 #, c-format
