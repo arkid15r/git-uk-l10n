@@ -202,6 +202,30 @@ test_expect_success 'one of gc.reflogExpire{Unreachable,}=never does not skip "e
 	grep -E "^trace: (built-in|exec|run_command): git reflog expire --" trace.out
 '
 
+test_expect_success 'gc.repackFilter launches repack with a filter' '
+	git clone --no-local --bare . bare.git &&
+
+	git -C bare.git -c gc.cruftPacks=false gc &&
+	test_stdout_line_count = 1 ls bare.git/objects/pack/*.pack &&
+
+	GIT_TRACE=$(pwd)/trace.out git -C bare.git -c gc.repackFilter=blob:none \
+		-c repack.writeBitmaps=false -c gc.cruftPacks=false gc &&
+	test_stdout_line_count = 2 ls bare.git/objects/pack/*.pack &&
+	grep -E "^trace: (built-in|exec|run_command): git repack .* --filter=blob:none ?.*" trace.out
+'
+
+test_expect_success 'gc.repackFilterTo store filtered out objects' '
+	test_when_finished "rm -rf bare.git filtered.git" &&
+
+	git init --bare filtered.git &&
+	git -C bare.git -c gc.repackFilter=blob:none \
+		-c gc.repackFilterTo=../filtered.git/objects/pack/pack \
+		-c repack.writeBitmaps=false -c gc.cruftPacks=false gc &&
+
+	test_stdout_line_count = 1 ls bare.git/objects/pack/*.pack &&
+	test_stdout_line_count = 1 ls filtered.git/objects/pack/*.pack
+'
+
 prepare_cruft_history () {
 	test_commit base &&
 
@@ -301,6 +325,33 @@ test_expect_success 'gc.bigPackThreshold ignores cruft packs' '
 
 		assert_no_cruft_packs
 	)
+'
+
+cruft_max_size_opts="git repack -d -l --cruft --cruft-expiration=2.weeks.ago"
+
+test_expect_success 'setup for --max-cruft-size tests' '
+	git init cruft--max-size &&
+	(
+		cd cruft--max-size &&
+		prepare_cruft_history
+	)
+'
+
+test_expect_success '--max-cruft-size sets appropriate repack options' '
+	GIT_TRACE2_EVENT=$(pwd)/trace2.txt git -C cruft--max-size \
+		gc --cruft --max-cruft-size=1M &&
+	test_subcommand $cruft_max_size_opts --max-cruft-size=1048576 <trace2.txt
+'
+
+test_expect_success 'gc.maxCruftSize sets appropriate repack options' '
+	GIT_TRACE2_EVENT=$(pwd)/trace2.txt \
+		git -C cruft--max-size -c gc.maxCruftSize=2M gc --cruft &&
+	test_subcommand $cruft_max_size_opts --max-cruft-size=2097152 <trace2.txt &&
+
+	GIT_TRACE2_EVENT=$(pwd)/trace2.txt \
+		git -C cruft--max-size -c gc.maxCruftSize=2M gc --cruft \
+		--max-cruft-size=3M &&
+	test_subcommand $cruft_max_size_opts --max-cruft-size=3145728 <trace2.txt
 '
 
 run_and_wait_for_auto_gc () {

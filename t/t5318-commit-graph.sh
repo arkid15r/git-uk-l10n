@@ -2,6 +2,7 @@
 
 test_description='commit graph'
 . ./test-lib.sh
+. "$TEST_DIRECTORY"/lib-chunk.sh
 
 GIT_TEST_COMMIT_GRAPH_CHANGED_PATHS=0
 
@@ -450,14 +451,15 @@ GRAPH_BYTE_FANOUT2=$(($GRAPH_FANOUT_OFFSET + 4 * 255))
 GRAPH_OID_LOOKUP_OFFSET=$(($GRAPH_FANOUT_OFFSET + 4 * 256))
 GRAPH_BYTE_OID_LOOKUP_ORDER=$(($GRAPH_OID_LOOKUP_OFFSET + $HASH_LEN * 8))
 GRAPH_BYTE_OID_LOOKUP_MISSING=$(($GRAPH_OID_LOOKUP_OFFSET + $HASH_LEN * 4 + 10))
+GRAPH_COMMIT_DATA_WIDTH=$(($HASH_LEN + 16))
 GRAPH_COMMIT_DATA_OFFSET=$(($GRAPH_OID_LOOKUP_OFFSET + $HASH_LEN * $NUM_COMMITS))
 GRAPH_BYTE_COMMIT_TREE=$GRAPH_COMMIT_DATA_OFFSET
 GRAPH_BYTE_COMMIT_PARENT=$(($GRAPH_COMMIT_DATA_OFFSET + $HASH_LEN))
 GRAPH_BYTE_COMMIT_EXTRA_PARENT=$(($GRAPH_COMMIT_DATA_OFFSET + $HASH_LEN + 4))
 GRAPH_BYTE_COMMIT_WRONG_PARENT=$(($GRAPH_COMMIT_DATA_OFFSET + $HASH_LEN + 3))
 GRAPH_BYTE_COMMIT_GENERATION=$(($GRAPH_COMMIT_DATA_OFFSET + $HASH_LEN + 11))
+GRAPH_BYTE_COMMIT_GENERATION_LAST=$(($GRAPH_BYTE_COMMIT_GENERATION + $(($NUM_COMMITS - 1)) * $GRAPH_COMMIT_DATA_WIDTH))
 GRAPH_BYTE_COMMIT_DATE=$(($GRAPH_COMMIT_DATA_OFFSET + $HASH_LEN + 12))
-GRAPH_COMMIT_DATA_WIDTH=$(($HASH_LEN + 16))
 GRAPH_OCTOPUS_DATA_OFFSET=$(($GRAPH_COMMIT_DATA_OFFSET + \
 			     $GRAPH_COMMIT_DATA_WIDTH * $NUM_COMMITS))
 GRAPH_BYTE_OCTOPUS=$(($GRAPH_OCTOPUS_DATA_OFFSET + 4))
@@ -558,7 +560,7 @@ test_expect_success 'detect incorrect fanout' '
 
 test_expect_success 'detect incorrect fanout final value' '
 	corrupt_graph_and_verify $GRAPH_BYTE_FANOUT2 "\01" \
-		"fanout value"
+		"oid table and fanout disagree on size"
 '
 
 test_expect_success 'detect incorrect OID order' '
@@ -596,11 +598,6 @@ test_expect_success 'detect incorrect generation number' '
 		"generation for commit"
 '
 
-test_expect_success 'detect incorrect generation number' '
-	corrupt_graph_and_verify $GRAPH_BYTE_COMMIT_GENERATION "\01" \
-		"commit-graph generation for commit"
-'
-
 test_expect_success 'detect incorrect commit date' '
 	corrupt_graph_and_verify $GRAPH_BYTE_COMMIT_DATE "\01" \
 		"commit date"
@@ -620,6 +617,16 @@ test_expect_success 'detect incorrect chunk count' '
 	corrupt_graph_and_verify $GRAPH_BYTE_CHUNK_COUNT "\377" \
 		"commit-graph file is too small to hold [0-9]* chunks" \
 		$GRAPH_CHUNK_LOOKUP_OFFSET
+'
+
+test_expect_success 'detect mixed generation numbers (non-zero to zero)' '
+	corrupt_graph_and_verify $GRAPH_BYTE_COMMIT_GENERATION_LAST "\0\0\0\0" \
+		"both zero and non-zero generations"
+'
+
+test_expect_success 'detect mixed generation numbers (zero to non-zero)' '
+	corrupt_graph_and_verify $GRAPH_BYTE_COMMIT_GENERATION "\0\0\0\0" \
+		"both zero and non-zero generations"
 '
 
 test_expect_success 'git fsck (checks commit-graph when config set to true)' '
@@ -813,6 +820,79 @@ test_expect_success 'overflow during generation version upgrade' '
 
 		git rev-list --all
 	)
+'
+
+corrupt_chunk () {
+	graph=full/.git/objects/info/commit-graph &&
+	test_when_finished "rm -rf $graph" &&
+	git -C full commit-graph write --reachable &&
+	corrupt_chunk_file $graph "$@"
+}
+
+check_corrupt_chunk () {
+	corrupt_chunk "$@" &&
+	git -C full -c core.commitGraph=false log >expect.out &&
+	git -C full -c core.commitGraph=true log >out 2>err &&
+	test_cmp expect.out out
+}
+
+test_expect_success 'reader notices too-small oid fanout chunk' '
+	# make it big enough that the graph file is plausible,
+	# otherwise we hit an earlier check
+	check_corrupt_chunk OIDF clear $(printf "000000%02x" $(test_seq 250)) &&
+	cat >expect.err <<-\EOF &&
+	error: commit-graph oid fanout chunk is wrong size
+	error: commit-graph is missing the OID Fanout chunk
+	EOF
+	test_cmp expect.err err
+'
+
+test_expect_success 'reader notices fanout/lookup table mismatch' '
+	check_corrupt_chunk OIDF 1020 "FFFFFFFF" &&
+	cat >expect.err <<-\EOF &&
+	error: commit-graph oid table and fanout disagree on size
+	EOF
+	test_cmp expect.err err
+'
+
+test_expect_success 'reader notices out-of-bounds fanout' '
+	# Rather than try to corrupt a specific hash, we will just
+	# wreck them all. But we cannot just set them all to 0xFFFFFFFF or
+	# similar, as they are used for hi/lo starts in a binary search (so if
+	# they are identical, that indicates that the search should abort
+	# immediately). Instead, we will give them high values that differ by
+	# 2^24, ensuring that any that are used would cause an out-of-bounds
+	# read.
+	check_corrupt_chunk OIDF 0 $(printf "%02x000000" $(test_seq 0 254)) &&
+	cat >expect.err <<-\EOF &&
+	error: commit-graph fanout values out of order
+	EOF
+	test_cmp expect.err err
+'
+
+test_expect_success 'reader notices too-small commit data chunk' '
+	check_corrupt_chunk CDAT clear 00000000 &&
+	cat >expect.err <<-\EOF &&
+	error: commit-graph commit data chunk is wrong size
+	error: commit-graph is missing the Commit Data chunk
+	EOF
+	test_cmp expect.err err
+'
+
+test_expect_success 'reader notices out-of-bounds extra edge' '
+	check_corrupt_chunk EDGE clear &&
+	cat >expect.err <<-\EOF &&
+	error: commit-graph extra-edges pointer out of bounds
+	EOF
+	test_cmp expect.err err
+'
+
+test_expect_success 'reader notices too-small generations chunk' '
+	check_corrupt_chunk GDA2 clear 00000000 &&
+	cat >expect.err <<-\EOF &&
+	error: commit-graph generations chunk is wrong size
+	EOF
+	test_cmp expect.err err
 '
 
 test_done

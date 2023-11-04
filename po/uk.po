@@ -6,10 +6,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Git v2.41\n"
+"Project-Id-Version: Git v2.42.0\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
-"POT-Creation-Date: 2023-08-05 09:18-0700\n"
-"PO-Revision-Date: 2023-08-14 20:23-0700\n"
+"POT-Creation-Date: 2023-08-15 15:28-0700\n"
+"PO-Revision-Date: 2023-08-15 15:31-0700\n"
 "Last-Translator: Arkadii Yakovets <ark@cho.red>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
@@ -112,7 +112,7 @@ msgstr[2] "додано %d шляхів\n"
 #: add-interactive.c:945
 #, c-format
 msgid "ignoring unmerged: %s"
-msgstr "ігноруються незлиті записи: %s"
+msgstr "ігноруються не злиті записи: %s"
 
 #: add-interactive.c:957 add-patch.c:1782
 #, c-format
@@ -422,7 +422,7 @@ msgid ""
 "If the patch applies cleanly, the edited hunk will immediately be marked for "
 "discarding."
 msgstr ""
-"Якщо латка буде застосовано без помилок, відредагований шматок буде одразу ж "
+"Якщо латка буде застосована без помилок, відредагований шматок буде одразу ж "
 "позначено для відкидання."
 
 #: add-patch.c:141 add-patch.c:209
@@ -780,10 +780,8 @@ msgstr "Отримання неможливе, оскільки у вас є н�
 msgid "Reverting is not possible because you have unmerged files."
 msgstr "Вивертання неможливе, оскільки у вас є не злиті файли."
 
-#: advice.c:195
-#, c-format
-msgid "It is not possible to %s because you have unmerged files."
-msgstr "Неможливо виконати %s, оскільки у вас є не злиті файли."
+msgid "Rebasing is not possible because you have unmerged files."
+msgstr "Перебазування неможливе, оскільки у вас є не злиті файли."
 
 #: advice.c:203
 msgid ""
@@ -978,15 +976,12 @@ msgstr "опції \"%s\" і \"%s\" не можна використовуват
 msgid "'%s' outside a repository"
 msgstr "\"%s\" поза сховищем"
 
-#: apply.c:416
 msgid "failed to read patch"
 msgstr "не вдалося прочитати латку"
 
-#: apply.c:418
 msgid "patch too large"
 msgstr "латка занадто велика"
 
-#: apply.c:832
 #, c-format
 msgid "Cannot prepare timestamp regexp %s"
 msgstr "Неможливо підготувати регвир позначки часу %s"
@@ -1867,11 +1862,9 @@ msgstr "ігнорування надто великого файлу gitattribu
 msgid "ignoring overly large gitattributes blob '%s'"
 msgstr "ігнорування надто великих gitattributes blob \"%s\""
 
-#: attr.c:1191
 msgid "bad --attr-source or GIT_ATTR_SOURCE"
 msgstr "невірний --attr-source або GIT_ATTR_SOURCE"
 
-#: bisect.c:491
 #, c-format
 msgid "Badly quoted content in file '%s': %s"
 msgstr "Невірно процитований вміст у файлі \"%s\": %s"
@@ -2032,7 +2025,7 @@ msgid ""
 "cannot inherit upstream tracking configuration of multiple refs when "
 "rebasing is requested"
 msgstr ""
-"неможливо успадковувати першоджерельну конфігурацію відстежування кількох "
+"неможливо успадкувати першоджерельну конфігурацію відстежування кількох "
 "посилань при запиті перебазування"
 
 #: branch.c:111
@@ -2048,7 +2041,7 @@ msgstr "гілку \"%s\" налаштовано на відстежування
 #: branch.c:168
 #, c-format
 msgid "branch '%s' set up to track '%s'."
-msgstr "гілку \"%s\" налаштовано на відстежуваня \"%s\"."
+msgstr "гілку \"%s\" налаштовано на відстежування \"%s\"."
 
 #: branch.c:171
 #, c-format
@@ -2226,7 +2219,6 @@ msgstr "git add [<опції>] [--] <визначник шляху>..."
 msgid "cannot chmod %cx '%s'"
 msgstr "неможливо виконати chmod %cx \"%s\""
 
-#: builtin/add.c:126
 msgid "Unstaged changes after refreshing the index:"
 msgstr "Неіндексовані зміни після оновлення індексу:"
 
@@ -2784,7 +2776,6 @@ msgstr "передати -m прапорець до git-mailinfo"
 msgid "pass --keep-cr flag to git-mailsplit for mbox format"
 msgstr "передати --keep-cr прапорець до git-mailsplit для формату mbox"
 
-#: builtin/am.c:2354
 msgid "strip everything before a scissors line"
 msgstr "прибрати все раніше відрізної лінії"
 
@@ -4196,6 +4187,9 @@ msgstr "як --batch, але не виводить <вміст>"
 msgid "stdin is NUL-terminated"
 msgstr "stdin закінчується NUL"
 
+msgid "stdin and stdout is NUL-terminated"
+msgstr "stdin та stdout закінчуються NUL"
+
 #: builtin/cat-file.c:958
 msgid "stdin and stdout is NUL-terminated"
 msgstr "stdin та stdout закінчуються NUL"
@@ -4862,11 +4856,11 @@ msgstr "не перевіряти, чи інше робоче дерево мі�
 
 #: builtin/checkout.c:1641
 msgid "checkout our version for unmerged files"
-msgstr "використовувати нашу версію для незлитих файлів"
+msgstr "використовувати нашу версію для не злитих файлів"
 
 #: builtin/checkout.c:1644
 msgid "checkout their version for unmerged files"
-msgstr "використовувати їхню версію для незлитих файлів"
+msgstr "використовувати їхню версію для не злитих файлів"
 
 #: builtin/checkout.c:1648
 msgid "do not limit pathspecs to sparse entries only"
@@ -4975,7 +4969,7 @@ msgstr "відновити робоче дерево (за замовчуван�
 
 #: builtin/checkout.c:1975
 msgid "ignore unmerged entries"
-msgstr "ігнорувати незлиті записи"
+msgstr "ігнорувати не злиті записи"
 
 #: builtin/checkout.c:1976
 msgid "use overlay mode"
@@ -5317,7 +5311,6 @@ msgstr "тільки для сервера"
 msgid "option to transmit"
 msgstr "опція для передачі"
 
-#: builtin/clone.c:167
 msgid "apply partial clone filters to submodules"
 msgstr "застосувати фільтри часткового клонування до підмодулів"
 
@@ -5873,6 +5866,9 @@ msgstr ""
 "Якщо ви хочете пропустити цей коміт, скористайтесь\n"
 "\n"
 "    git cherry-pick --skip\n"
+
+msgid "updating files failed"
+msgstr "не вдалося оновити файли"
 
 #: builtin/commit.c:314 read-cache.c:3919
 msgid "updating files failed"
@@ -7788,7 +7784,7 @@ msgstr "виводити тільки злиті посилання"
 
 #: builtin/for-each-ref.c:56
 msgid "print only refs that are not merged"
-msgstr "виводити тільки незлиті посилання"
+msgstr "виводити тільки не злиті посилання"
 
 #: builtin/for-each-ref.c:57
 msgid "print only refs which contain the commit"
@@ -9302,7 +9298,6 @@ msgstr "--verify без зазначення имені файла пакунк�
 msgid "fsck error in pack objects"
 msgstr "помилка fsck в об’єктах пакунка"
 
-#: builtin/init-db.c:58
 msgid ""
 "git init [-q | --quiet] [--bare] [--template=<template-directory>]\n"
 "         [--separate-git-dir <git-dir>] [--object-format=<format>]\n"
@@ -9866,140 +9861,104 @@ msgstr ""
 "Не вдалося знайти віддалено відстежувану гілку, будь ласка, вкажіть "
 "<першоджерельне-сховище> вручну.\n"
 
-#: builtin/ls-files.c:255 builtin/ls-tree.c:31
-#, c-format
-msgid "could not get object info about '%s'"
-msgstr "не вдалося отримати інформацію про обʼєкт \"%s\""
-
-#: builtin/ls-files.c:282
+#: builtin/ls-tree.c:113
 #, c-format
 msgid "bad ls-files format: element '%s' does not start with '('"
 msgstr "невірний ls-files формат: елемент \"%s\" не починається з \"(\""
 
-#: builtin/ls-files.c:285
 #, c-format
 msgid "bad ls-files format: element '%s' does not end in ')'"
 msgstr "невірний ls-files формат: елемент \"%s\" не закінчується на \")\""
 
-#: builtin/ls-files.c:315
 #, c-format
 msgid "bad ls-files format: %%%.*s"
 msgstr "невірний ls-files формат: %%%.*s"
 
-#: builtin/ls-files.c:532
 msgid "git ls-files [<options>] [<file>...]"
 msgstr "git ls-files [<опції>] [<файл>...]"
 
-#: builtin/ls-files.c:586 builtin/merge-tree.c:534
 msgid "separate paths with the NUL character"
 msgstr "відокремити шляхи символом NUL"
 
-#: builtin/ls-files.c:588
 msgid "identify the file status with tags"
 msgstr "визначити стан файлу за допомогою тегів"
 
-#: builtin/ls-files.c:590
 msgid "use lowercase letters for 'assume unchanged' files"
 msgstr "використати малі літери для \"вважати незмінними\" файлів"
 
-#: builtin/ls-files.c:592
 msgid "use lowercase letters for 'fsmonitor clean' files"
 msgstr "використати малі літери для \"fsmonitor clean\" файлів"
 
-#: builtin/ls-files.c:594
 msgid "show cached files in the output (default)"
 msgstr "показати кешовані файли у виводі (за замовчуванням)"
 
-#: builtin/ls-files.c:596
 msgid "show deleted files in the output"
 msgstr "показати видалені файли у виводі"
 
-#: builtin/ls-files.c:598
 msgid "show modified files in the output"
 msgstr "показати змінені файли у виводі"
 
-#: builtin/ls-files.c:600
 msgid "show other files in the output"
 msgstr "показати інші файли у виводі"
 
-#: builtin/ls-files.c:602
 msgid "show ignored files in the output"
 msgstr "показати ігноровані файли у виводі"
 
-#: builtin/ls-files.c:605
 msgid "show staged contents' object name in the output"
 msgstr "показати назву обʼєкта індексованого вмісту у виводі"
 
-#: builtin/ls-files.c:607
 msgid "show files on the filesystem that need to be removed"
 msgstr "показати файли файлової системи, які потрібно видалити"
 
-#: builtin/ls-files.c:609
 msgid "show 'other' directories' names only"
 msgstr "показати тільки назви \"інших\" директорій"
 
-#: builtin/ls-files.c:611
 msgid "show line endings of files"
 msgstr "показати закінчення рядків файлів"
 
-#: builtin/ls-files.c:613
 msgid "don't show empty directories"
 msgstr "не показувати порожні директорії"
 
-#: builtin/ls-files.c:616
 msgid "show unmerged files in the output"
-msgstr "показати незлиті файли у виводі"
+msgstr "показати не злиті файли у виводі"
 
-#: builtin/ls-files.c:618
 msgid "show resolve-undo information"
 msgstr "показати resolve-undo інформацію"
 
-#: builtin/ls-files.c:620
 msgid "skip files matching pattern"
 msgstr "пропустити файли, які відповідають шаблону"
 
-#: builtin/ls-files.c:623
 msgid "read exclude patterns from <file>"
 msgstr "читати шаблони виключення з <файлу>"
 
-#: builtin/ls-files.c:626
 msgid "read additional per-directory exclude patterns in <file>"
 msgstr "читати додаткові шаблони виключення для кожної директорії з <файлу>"
 
-#: builtin/ls-files.c:628
 msgid "add the standard git exclusions"
 msgstr "додати стандартні git виключення"
 
-#: builtin/ls-files.c:632
 msgid "make the output relative to the project top directory"
 msgstr "зробити виведення відносно верхньої директорії проекту"
 
-#: builtin/ls-files.c:637
 msgid "if any <file> is not in the index, treat this as an error"
 msgstr "якщо якогось <файлу> немає в індексі, вважати це помилкою"
 
-#: builtin/ls-files.c:638
 msgid "tree-ish"
 msgstr "деревоподібне-джерело"
 
-#: builtin/ls-files.c:639
 msgid "pretend that paths removed since <tree-ish> are still present"
 msgstr ""
 "вдавати, що шляхи, видалені після <деревоподібного-джерела>, все ще присутні"
 
-#: builtin/ls-files.c:641
 msgid "show debugging data"
 msgstr "показати дані відлагодження"
 
-#: builtin/ls-files.c:643
 msgid "suppress duplicate entries"
 msgstr "не показувати дублікати записів"
 
-#: builtin/ls-files.c:645
 msgid "show sparse directories in the presence of a sparse index"
 msgstr "показувати розріджені директорії при наявності розрідженого індексу"
 
-#: builtin/ls-files.c:676
 msgid ""
 "--format cannot be used with -s, -o, -k, -t, --resolve-undo, --deduplicate, "
 "--eol"
@@ -10007,7 +9966,6 @@ msgstr ""
 "--format не можна використовувати з -s, -o, -k, -t, --resolve-undo, --"
 "deduplicate, --eol"
 
-#: builtin/ls-remote.c:13
 msgid ""
 "git ls-remote [--heads] [--tags] [--refs] [--upload-pack=<exec>]\n"
 "              [-q | --quiet] [--exit-code] [--get-url] [--sort=<key>]\n"
@@ -10017,47 +9975,36 @@ msgstr ""
 "              [-q | --quiet] [--exit-code] [--get-url] [--sort=<ключ>]\n"
 "              [--symref] [<сховище> [<шаблони>...]]"
 
-#: builtin/ls-remote.c:64
 msgid "do not print remote URL"
 msgstr "не виводити віддалену URL-адресу"
 
-#: builtin/ls-remote.c:65 builtin/ls-remote.c:67 builtin/rebase.c:1167
 msgid "exec"
 msgstr "виконавчий файл"
 
-#: builtin/ls-remote.c:66 builtin/ls-remote.c:68
 msgid "path of git-upload-pack on the remote host"
 msgstr "шлях до git-upload-pack на віддаленому сервері"
 
-#: builtin/ls-remote.c:70
 msgid "limit to tags"
 msgstr "обмежити до тегів"
 
-#: builtin/ls-remote.c:71
 msgid "limit to heads"
 msgstr "обмежити до голів"
 
-#: builtin/ls-remote.c:72
 msgid "do not show peeled tags"
 msgstr "не показувати очищені теги"
 
-#: builtin/ls-remote.c:74
 msgid "take url.<base>.insteadOf into account"
 msgstr "враховувати url.<база>.insteadOf"
 
-#: builtin/ls-remote.c:77
 msgid "exit with exit code 2 if no matching refs are found"
 msgstr "вийти з кодом виходу 2, якщо не знайдено відповідних посилань"
 
-#: builtin/ls-remote.c:80
 msgid "show underlying ref in addition to the object pointed by it"
 msgstr "показувати базове посилання на додаток до об’єкта, на який воно вказує"
 
-#: builtin/ls-tree.c:21
 msgid "git ls-tree [<options>] <tree-ish> [<path>...]"
 msgstr "git ls-tree [<опції>] <деревоподібне-джерело> [<шлях>...]"
 
-#: builtin/ls-tree.c:113
 #, c-format
 msgid "bad ls-tree format: element '%s' does not start with '('"
 msgstr "невірний формат ls-tree: елемент \"%s\" не починається з \"(\""
@@ -11193,19 +11140,15 @@ msgstr "дозволити збереження порожньої нотатк�
 msgid "replace existing notes"
 msgstr "замінити існуючі нотатки"
 
-#: builtin/notes.c:502 builtin/notes.c:677
 msgid "<paragraph-break>"
 msgstr "<розділювач-абзаців>"
 
-#: builtin/notes.c:503 builtin/notes.c:678
 msgid "insert <paragraph-break> between paragraphs"
 msgstr "вставити <розділювач-абзаців> між абзацами"
 
-#: builtin/notes.c:506 builtin/notes.c:681
 msgid "remove unnecessary whitespace"
 msgstr "видалити зайві пробіли"
 
-#: builtin/notes.c:535
 #, c-format
 msgid ""
 "Cannot add notes. Found existing notes for object %s. Use '-f' to overwrite "
@@ -11315,11 +11258,11 @@ msgstr ""
 
 #: builtin/notes.c:891
 msgid "Committing unmerged notes"
-msgstr "Виконнання коміту незлитих нотаток"
+msgstr "Виконнання коміту не злитих нотаток"
 
 #: builtin/notes.c:893
 msgid "finalize notes merge by committing unmerged notes"
-msgstr "завершити злиття комітом незлитих нотаток"
+msgstr "завершити злиття комітом не злитих нотаток"
 
 #: builtin/notes.c:895
 msgid "Aborting notes merge resolution"
@@ -11907,7 +11850,6 @@ msgstr ""
 msgid "refusing to run without --i-still-use-this"
 msgstr "відмовлено в запуску без --i-still-use-this"
 
-#: builtin/pack-refs.c:10
 msgid ""
 "git pack-refs [--all] [--no-prune] [--include <pattern>] [--exclude "
 "<pattern>]"
@@ -11922,15 +11864,12 @@ msgstr "запакувати все"
 msgid "prune loose refs (default)"
 msgstr "видалити вивільнені посилання (за замовчуванням)"
 
-#: builtin/pack-refs.c:29
 msgid "references to include"
 msgstr "посилання для включення"
 
-#: builtin/pack-refs.c:31
 msgid "references to exclude"
 msgstr "посилання для виключення"
 
-#: builtin/patch-id.c:191
 msgid "git patch-id [--stable | --unstable | --verbatim]"
 msgstr "git patch-id [--stable | --unstable | --verbatim]"
 
@@ -12006,15 +11945,12 @@ msgstr "примусовий перезапис локальної гілки"
 msgid "number of submodules pulled in parallel"
 msgstr "кількість підмодулів, що затягуються паралельно"
 
-#: builtin/pull.c:245 parse-options.h:585
 msgid "use IPv4 addresses only"
 msgstr "використовувати тільки IPv4 адреси"
 
-#: builtin/pull.c:248 parse-options.h:587
 msgid "use IPv6 addresses only"
 msgstr "використовувати тільки IPv6 адреси"
 
-#: builtin/pull.c:451
 msgid ""
 "There is no candidate for rebasing against among the refs that you just "
 "fetched."
@@ -12625,7 +12561,7 @@ msgstr "3-стороннє злиття за наявності додаванн
 
 #: builtin/read-tree.c:138
 msgid "same as -m, but discard unmerged entries"
-msgstr "те саме, що й -m, але відкидає незлиті записи"
+msgstr "те саме, що й -m, але відкидає не злиті записи"
 
 #: builtin/read-tree.c:139
 msgid "<subdirectory>/"
@@ -13472,7 +13408,6 @@ msgstr "невідомий аргумент дзеркала: %s"
 msgid "fetch the remote branches"
 msgstr "отримати віддалені гілки"
 
-#: builtin/remote.c:171
 msgid ""
 "import all tags and associated objects when fetching\n"
 "or do not fetch any tag at all (--no-tags)"
@@ -15947,12 +15882,16 @@ msgstr "Можливо, ви хочете скористатись команд�
 #: builtin/submodule--helper.c:1992
 #, c-format
 msgid "Skipping unmerged submodule %s"
-msgstr "Пропуск не злитого підмодуля %s"
+msgstr "Пропуск незлитого підмодуля %s"
 
 #: builtin/submodule--helper.c:2015
 #, c-format
 msgid "Skipping submodule '%s'"
 msgstr "Пропуск підмодуля \"%s\""
+
+#, c-format
+msgid "cannot clone submodule '%s' without a URL"
+msgstr "неможливо клонувати підмодуль \"%s\" без URL-адреси"
 
 #: builtin/submodule--helper.c:2038
 #, c-format
@@ -16635,7 +16574,7 @@ msgstr "повідомляти про файли, відсутні в робоч
 
 #: builtin/update-index.c:1025
 msgid "refresh even if index contains unmerged entries"
-msgstr "оновити, навіть якщо індекс містить незлиті записи"
+msgstr "оновити, навіть якщо індекс містить не злиті записи"
 
 #: builtin/update-index.c:1028
 msgid "refresh stat information"
@@ -16938,6 +16877,37 @@ msgstr "git worktree repair [<шлях>...]"
 msgid "git worktree unlock <worktree>"
 msgstr "git worktree unlock <робоче дерево>"
 
+msgid "No possible source branch, inferring '--orphan'"
+msgstr "Немає можливої джерельної гілки, що означає \"--orphan\""
+
+#, c-format
+msgid ""
+"If you meant to create a worktree containing a new orphan branch\n"
+"(branch with no commits) for this repository, you can do so\n"
+"using the --orphan flag:\n"
+"\n"
+"    git worktree add --orphan -b %s %s\n"
+msgstr ""
+"Якщо ви хочете створити робоче дерево, що містить нову сирітську гілку\n"
+"(гілку без комітів) для цього сховища, ви можете зробити це\n"
+"за допомогою прапорця --orphan:\n"
+"\n"
+"    git worktree add --orphan -b %s %s\n"
+
+#, c-format
+msgid ""
+"If you meant to create a worktree containing a new orphan branch\n"
+"(branch with no commits) for this repository, you can do so\n"
+"using the --orphan flag:\n"
+"\n"
+"    git worktree add --orphan %s\n"
+msgstr ""
+"Якщо ви хочете створити робоче дерево, що містить нову сирітську гілку\n"
+"(гілку без комітів) для цього сховища, ви можете зробити це\n"
+"за допомогою прапорця --orphan:\n"
+"\n"
+"    git worktree add --orphan %s\n"
+
 #: builtin/worktree.c:49
 msgid "No possible source branch, inferring '--orphan'"
 msgstr "Немає можливої джерельної гілки, що означає \"--orphan\""
@@ -17056,6 +17026,10 @@ msgstr "Підготовка робочого дерева (скидання г�
 msgid "Preparing worktree (checking out '%s')"
 msgstr "Підготовка робочого дерева (перехід до \"%s\")"
 
+#, c-format
+msgid "unreachable: invalid reference: %s"
+msgstr "недосяжне: неприпустиме посилання: %s"
+
 #: builtin/worktree.c:617
 #, c-format
 msgid "unreachable: invalid reference: %s"
@@ -17065,6 +17039,29 @@ msgstr "недосяжне: неприпустиме посилання: %s"
 #, c-format
 msgid "Preparing worktree (detached HEAD %s)"
 msgstr "Підготовка робочого дерева (відокремлений HEAD %s)"
+
+#, c-format
+msgid ""
+"HEAD points to an invalid (or orphaned) reference.\n"
+"HEAD path: '%s'\n"
+"HEAD contents: '%s'"
+msgstr ""
+"HEAD вказує на неприпустиме (або осиротіле) посилання.\n"
+"HEAD шлях: \"%s\"\n"
+"HEAD вміст: \"%s\""
+
+msgid ""
+"No local or remote refs exist despite at least one remote\n"
+"present, stopping; use 'add -f' to overide or fetch a remote first"
+msgstr ""
+"Не існує локальних або віддалених посилань, незважаючи на наявність "
+"принаймні одного віддаленого\n"
+"призначення, зупинка; скористайтесь \"add -f\", щоб перевизначити або "
+"спочатку отримати віддалене посилання"
+
+#, c-format
+msgid "'%s' and '%s' cannot be used together"
+msgstr "\"%s\" і \"%s\" не можна використовувати разом"
 
 #: builtin/worktree.c:666
 #, c-format
@@ -17106,11 +17103,9 @@ msgstr "створити нову гілку"
 msgid "create or reset a branch"
 msgstr "створити або скинути гілку"
 
-#: builtin/worktree.c:787
 msgid "create unborn/orphaned branch"
 msgstr "створити ненароджену/сирітську гілку"
 
-#: builtin/worktree.c:789
 msgid "populate the new working tree"
 msgstr "заповнити нове робоче дерево"
 
@@ -17136,16 +17131,13 @@ msgstr ""
 msgid "options '%s', '%s', and '%s' cannot be used together"
 msgstr "опції \"%s\", \"%s\" та \"%s\" не можна використовувати разом"
 
-#: builtin/worktree.c:809
 #, c-format
 msgid "options '%s', and '%s' cannot be used together"
 msgstr "опції \"%s\" і \"%s\" не можна використовувати разом"
 
-#: builtin/worktree.c:818
 msgid "<commit-ish>"
 msgstr "<комітоподібне>"
 
-#: builtin/worktree.c:824
 msgid "added with --lock"
 msgstr "додано з --lock"
 
@@ -17436,6 +17428,14 @@ msgid_plural "The bundle requires these %<PRIuMAX> refs:"
 msgstr[0] "Пакунок потребує це %<PRIuMAX> посилання:"
 msgstr[1] "Пакунок потребує ці %<PRIuMAX> посилання:"
 msgstr[2] "Пакунок потребує ці %<PRIuMAX> посилань:"
+
+#, c-format
+msgid "The bundle uses this hash algorithm: %s"
+msgstr "Пакунок використовує такий алгоритм хешування: %s"
+
+#, c-format
+msgid "The bundle uses this filter: %s"
+msgstr "Пакунок використовує такий фільтр: %s"
 
 #: bundle.c:274
 #, c-format
@@ -17746,7 +17746,6 @@ msgstr "Вивести рядки, що відповідають шаблону"
 msgid "A portable graphical interface to Git"
 msgstr "Портативний графічний інтерфейс до Git"
 
-#: command-list.h:111
 msgid "Compute object ID and optionally create an object from a file"
 msgstr "Обчислити ідентифікатор обʼєкта та за бажанням створити обʼєкт з файлу"
 
@@ -18288,6 +18287,10 @@ msgstr "коміт-граф не має шматка базових графів
 msgid "commit-graph chain does not match"
 msgstr "ланцюжок коміт-графа не співпадає"
 
+#, c-format
+msgid "commit count in base graph too high: %<PRIuMAX>"
+msgstr "кількість комітів у базовому графі занадто велика: %<PRIuMAX>"
+
 #: commit-graph.c:496
 #, c-format
 msgid "commit count in base graph too high: %<PRIuMAX>"
@@ -18402,6 +18405,14 @@ msgstr "не вдалося перейменувати базовий файл �
 msgid "failed to rename temporary commit-graph file"
 msgstr "не вдалося перейменувати тимчасовий файл коміт-графа"
 
+#, c-format
+msgid "cannot merge graphs with %<PRIuMAX>, %<PRIuMAX> commits"
+msgstr "неможливо обʼєднати графи з %<PRIuMAX>, %<PRIuMAX> комітів"
+
+#, c-format
+msgid "cannot merge graph %s, too many commits: %<PRIuMAX>"
+msgstr "неможливо обʼєднати граф %s, занадто багато комітів: %<PRIuMAX>"
+
 #: commit-graph.c:2119
 #, c-format
 msgid "cannot merge graphs with %<PRIuMAX>, %<PRIuMAX> commits"
@@ -18447,7 +18458,6 @@ msgstr "коміт-граф має невірне fanout значення: fanou
 msgid "failed to parse commit %s from commit-graph"
 msgstr "не вдалося розібрати коміт %s з графа комітв"
 
-#: commit-graph.c:2631
 #, c-format
 msgid "failed to parse commit %s from object database for commit-graph"
 msgstr "не вдалося розібрати коміт %s з бази даних обʼєктів для коміт-графа"
@@ -18495,6 +18505,9 @@ msgstr "генерація коміт-графа для коміту %s є %<PRI
 #, c-format
 msgid "commit date for commit %s in commit-graph is %<PRIuMAX> != %<PRIuMAX>"
 msgstr "дата коміту для коміту %s у коміт-графі є %<PRIuMAX> != %<PRIuMAX>"
+
+msgid "Verifying commits in commit graph"
+msgstr "Перевірка комітів у коміт-графі"
 
 #: commit-graph.c:2728
 msgid "Verifying commits in commit graph"
@@ -19687,6 +19700,12 @@ msgstr "базу злиття не знайдено"
 msgid "multiple merge bases found"
 msgstr "знайдено кілька баз злиття"
 
+msgid "cannot compare stdin to a directory"
+msgstr "неможливо порівняти stdin з директорією"
+
+msgid "cannot compare a named pipe to a directory"
+msgstr "неможливо порівняти іменований канал з директорією"
+
 #: diff-no-index.c:279
 msgid "cannot compare stdin to a directory"
 msgstr "неможливо порівняти stdin з директорією"
@@ -19762,6 +19781,13 @@ msgstr ""
 msgid "external diff died, stopping at %s"
 msgstr "зовнішній diff завершився невдало, зупинившись на %s"
 
+msgid "--follow requires exactly one pathspec"
+msgstr "--follow потрібен лишень один визначник шляху"
+
+#, c-format
+msgid "pathspec magic not supported by --follow: %s"
+msgstr "магічне значення визначника шляху не підтримується --follow: %s"
+
 #: diff.c:4762
 msgid "--follow requires exactly one pathspec"
 msgstr "--follow потрібен лишень один визначник шляху"
@@ -19791,7 +19817,6 @@ msgstr ""
 "опції \"%s\" і \"%s\" неможливо використати разом, використовуйте \"%s\" з "
 "\"%s\" та \"%s\""
 
-#: diff.c:4941
 #, c-format
 msgid "invalid --stat value: %s"
 msgstr "неприпустиме --stat значення: %s"
@@ -20806,6 +20831,10 @@ msgstr "-c очікує на рядок конфігурації\n"
 #, c-format
 msgid "no config key given for --config-env\n"
 msgstr "не вказано ключ конфігурації для --config-env\n"
+
+#, c-format
+msgid "no attribute source given for --attr-source\n"
+msgstr "для --attr-source не вказано джерело атрибутів\n"
 
 #: git.c:321
 #, c-format
@@ -22140,7 +22169,8 @@ msgstr "Пошук файлів пакунків, на які є посилан�
 msgid ""
 "oid fanout out of order: fanout[%d] = %<PRIx32> > %<PRIx32> = fanout[%d]"
 msgstr ""
-"невірна послідовность oid fanout: fanout[%d] = %<PRIx32> > %<PRIx32> = fanout[%d]"
+"невірна послідовность oid fanout: fanout[%d] = %<PRIx32> > %<PRIx32> = "
+"fanout[%d]"
 
 #: midx.c:1759
 msgid "the midx contains no oid"
@@ -23356,6 +23386,13 @@ msgstr "не вдалося згенерувати різницю"
 msgid "could not parse log for '%s'"
 msgstr "не вдалося розібрати журнал для \"%s\""
 
+#, c-format
+msgid "invalid extra cruft tip: '%s'"
+msgstr "неприпустима додаткова марна верхівка: \"%s\""
+
+msgid "unable to enumerate additional recent objects"
+msgstr "не вдалося перерахувати додаткові нещодавні обʼєкти"
+
 #: reachable.c:99
 #, c-format
 msgid "invalid extra cruft tip: '%s'"
@@ -23553,17 +23590,14 @@ msgstr "неможливо виправити біти дозволу на \"%s\
 msgid "%s: cannot drop to stage #0"
 msgstr "%s: неможливо скинути індекс до стану #0"
 
-#: read-cache.c:3914
 #, c-format
 msgid "unexpected diff status %c"
 msgstr "неочікуваний статус diff %c"
 
-#: read-cache.c:3929
 #, c-format
 msgid "remove '%s'\n"
 msgstr "видалити \"%s\"\n"
 
-#: rebase-interactive.c:16
 msgid ""
 "You can fix this with 'git rebase --edit-todo' and then run 'git rebase --"
 "continue'.\n"
@@ -23807,6 +23841,22 @@ msgstr "очікувалось значення %s="
 
 #: ref-filter.c:712
 #, c-format
+msgid "argument expected for %s"
+msgstr "очікувався аргумент для %s"
+
+#, c-format
+msgid "positive value expected %s=%s"
+msgstr "очікувалось додатне значення %s=%s"
+
+#, c-format
+msgid "cannot fully parse %s=%s"
+msgstr "неможливо повністю розібрати %s=%s"
+
+#, c-format
+msgid "value expected %s="
+msgstr "очікувалось значення %s="
+
+#, c-format
 msgid "positive value expected '%s' in %%(%s)"
 msgstr "очікувалось додатне значення \"%s\" у %%(%s)"
 
@@ -23896,11 +23946,9 @@ msgstr "ця команда відхиляє частку %%(%.*s)"
 msgid "--format=%.*s cannot be used with --python, --shell, --tcl"
 msgstr "--format=%.*s не може бути використаний з --python, --shell, --tcl"
 
-#: ref-filter.c:1823
 msgid "failed to run 'describe'"
 msgstr "не вдалося запустити команду \"describe\""
 
-#: ref-filter.c:2120
 #, c-format
 msgid "(no branch, rebasing %s)"
 msgstr "(немає гілки, перебазування %s)"
@@ -23977,11 +24025,9 @@ msgstr "ключ"
 msgid "field name to sort on"
 msgstr "назва поля для сортування"
 
-#: ref-filter.h:120
 msgid "exclude refs which match pattern"
 msgstr "виключити посилання, які збігаються з шаблоном"
 
-#: reflog.c:410
 #, c-format
 msgid "not a reflog: %s"
 msgstr "не є журналом посилань: %s"
@@ -24537,7 +24583,6 @@ msgstr[2] ""
 "Ваша гілка і гілка \"%s\" розійшлися,\n"
 "і мають %d і %d різних комітів відповідно.\n"
 
-#: remote.c:2329
 msgid ""
 "  (use \"git pull\" if you want to integrate the remote branch with yours)\n"
 msgstr ""
@@ -24684,10 +24729,12 @@ msgstr "не вдалося отримати коміт для ancestry-path а�
 msgid "--unpacked=<packfile> no longer supported"
 msgstr "--unpacked=<файл пакунка> більше не підтримується"
 
-#: revision.c:2823
 #, c-format
 msgid "invalid option '%s' in --stdin mode"
 msgstr "неприпустима опція \"%s\" у режимі --stdin"
+
+msgid "your current branch appears to be broken"
+msgstr "ваша поточна гілка виглядає пошкодженою"
 
 #: revision.c:2844
 msgid "your current branch appears to be broken"
@@ -26206,6 +26253,77 @@ msgstr "Ініціалізовано порожнє Git сховище в %s%s\n
 
 #: sparse-index.c:380
 #, c-format
+msgid "cannot stat template '%s'"
+msgstr "неможливо виконати stat шаблона \"%s\""
+
+#, c-format
+msgid "cannot opendir '%s'"
+msgstr "неможливо виконати opendir \"%s\""
+
+#, c-format
+msgid "cannot readlink '%s'"
+msgstr "неможливо виконати readlink \"%s\""
+
+#, c-format
+msgid "cannot symlink '%s' '%s'"
+msgstr "неможливо виконати symlink \"%s\" \"%s\""
+
+#, c-format
+msgid "cannot copy '%s' to '%s'"
+msgstr "неможливо скопіювати \"%s\" до \"%s\""
+
+#, c-format
+msgid "ignoring template %s"
+msgstr "ігнорування шаблону %s"
+
+#, c-format
+msgid "templates not found in %s"
+msgstr "шаблонів не знайдено в %s"
+
+#, c-format
+msgid "not copying templates from '%s': %s"
+msgstr "не копіюються шаблони з \"%s\": %s"
+
+#, c-format
+msgid "invalid initial branch name: '%s'"
+msgstr "неприпустиме початкове ім’я гілки: \"%s\""
+
+#, c-format
+msgid "unable to handle file type %d"
+msgstr "не вдалося обробити тип файлу %d"
+
+#, c-format
+msgid "unable to move %s to %s"
+msgstr "не вдалося перемістити %s на %s"
+
+msgid "attempt to reinitialize repository with different hash"
+msgstr "спроба переініціалізувати репозиторій з іншим хеш-алгоритмом"
+
+#, c-format
+msgid "%s already exists"
+msgstr "%s вже існує"
+
+#, c-format
+msgid "re-init: ignored --initial-branch=%s"
+msgstr "re-init: ігноровано --initial-branch=%s"
+
+#, c-format
+msgid "Reinitialized existing shared Git repository in %s%s\n"
+msgstr "Переініціалізовано існуюче спільне Git сховище в %s%s\n"
+
+#, c-format
+msgid "Reinitialized existing Git repository in %s%s\n"
+msgstr "Переініціалізовано існуюче Git сховище в %s%s\n"
+
+#, c-format
+msgid "Initialized empty shared Git repository in %s%s\n"
+msgstr "Ініціалізовано порожнє спільне Git сховище в %s%s\n"
+
+#, c-format
+msgid "Initialized empty Git repository in %s%s\n"
+msgstr "Ініціалізовано порожнє Git сховище в %s%s\n"
+
+#, c-format
 msgid "index entry is a directory, but not sparse (%08x)"
 msgstr "індексний запис є директорією, але не є розрідженим (%08x)"
 
@@ -26291,7 +26409,7 @@ msgstr "Не вдалося оновити запис %s у .gitmodules"
 #: submodule.c:124 submodule.c:153
 msgid "Cannot change unmerged .gitmodules, resolve merge conflicts first"
 msgstr ""
-"Неможливо змінити незлиті .gitmodules, спочатку розвʼяжіть конфлікти злиття"
+"Неможливо змінити не злиті .gitmodules, спочатку розвʼяжіть конфлікти злиття"
 
 #: submodule.c:128 submodule.c:157
 #, c-format
@@ -27432,7 +27550,7 @@ msgstr "не вдалося завантажити поточну робочу �
 
 #: wt-status.c:172
 msgid "Unmerged paths:"
-msgstr "Не злиті шляхи:"
+msgstr "не злиті шляхи:"
 
 #: wt-status.c:201 wt-status.c:233
 msgid "  (use \"git restore --staged <file>...\" to unstage)"
