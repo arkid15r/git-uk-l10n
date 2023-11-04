@@ -3528,7 +3528,7 @@ msgid ""
 "If you are sure you want to delete it, run 'git branch -D %s'"
 msgstr ""
 "гілка \"%s\" злита не повністю.\n"
-"якщо ви впевнені, що хочете її видалити, виконайте \"git branch -D %s\""
+"Якщо ви впевнені, що хочете її видалити, виконайте \"git branch -D %s\""
 
 #: builtin/branch.c:210
 msgid "update of config-file failed"
@@ -3605,7 +3605,7 @@ msgstr "HEAD робочого дерева %s не оновлено"
 #: builtin/branch.c:581
 #, c-format
 msgid "invalid branch name: '%s'"
-msgstr "еприпустима назва гілки: \"%s\""
+msgstr "неприпустима назва гілки: \"%s\""
 
 #: builtin/branch.c:597 builtin/branch.c:881 builtin/branch.c:926
 #, c-format
@@ -3891,7 +3891,7 @@ msgid ""
 "Did you mean to use: -a|-r --list <pattern>?"
 msgstr ""
 "опції -a та -r для \"git branch\" не приймають назву гілки.\n"
-"ви хотіли використати -a|-r --list <шаблон>?"
+"Ви хотіли використати -a|-r --list <шаблон>?"
 
 #: builtin/branch.c:972
 msgid ""
@@ -16751,7 +16751,7 @@ msgstr "записати індекс у цьому форматі"
 
 #: builtin/update-index.c:1020
 msgid "report on-disk index format version"
-msgstr "звітувати про версія формату індексу на диску"
+msgstr "звітувати про версію формату індексу на диску"
 
 #: builtin/update-index.c:1022
 msgid "enable or disable split index"
@@ -16801,7 +16801,7 @@ msgid ""
 "enable split index"
 msgstr ""
 "core.splitIndex встановлено в false; видаліть або змініть його, якщо ви "
-"дійсно хочете увімкнути розщеплений індекс"
+"дійсно хочете увімкнути розділений індекс"
 
 #: builtin/update-index.c:1168
 msgid ""
@@ -16809,7 +16809,7 @@ msgid ""
 "disable split index"
 msgstr ""
 "core.splitIndex встановлено в true; видаліть або змініть його, якщо ви "
-"дійсно хочете вимкнути розщеплений індекс"
+"дійсно хочете вимкнути розділений індекс"
 
 #: builtin/update-index.c:1180
 msgid ""
@@ -26315,7 +26315,7 @@ msgstr "Ініціалізовано порожнє Git сховище в %s%s\n
 #: sparse-index.c:380
 #, c-format
 msgid "index entry is a directory, but not sparse (%08x)"
-msgstr "запис індексу директорія, але не розріджена (%08x)"
+msgstr "запис індексу є директорією, але не розрідженою (%08x)"
 
 #: split-index.c:14
 msgid "cannot use split index with a sparse index"
