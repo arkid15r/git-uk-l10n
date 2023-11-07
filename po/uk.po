@@ -2965,7 +2965,7 @@ msgstr "git bisect replay <лог файл>"
 
 #: builtin/bisect.c:49
 msgid "git bisect run <cmd> [<arg>...]"
-msgstr "git bisect run <команда> [<аргументи>...]"
+msgstr "git bisect run <команда> [<аргумент>...]"
 
 #: builtin/bisect.c:136
 #, c-format
@@ -14104,7 +14104,7 @@ msgstr "неможливо видалити пакунки в precious-objects �
 #: builtin/repack.c:1342
 #, c-format
 msgid "option '%s' can only be used along with '%s'"
-msgstr "опція \"%s\" можна використовувати тільки разом з \"%s\""
+msgstr "опцію \"%s\" можна використовувати тільки разом з \"%s\""
 
 #: builtin/repack.c:1372
 msgid "Nothing new to pack."
@@ -18547,7 +18547,7 @@ msgid ""
 "commit-graph has both zero and non-zero generations (e.g., commits '%s' and "
 "'%s')"
 msgstr ""
-"коміт-граф має як нульові, так і ненульові покоління (коміти \"%s\" і \"%s\")"
+"коміт-граф має як нульові, так і ненульові генерації (коміти \"%s\" і \"%s\")"
 
 #: commit-graph.c:2849
 msgid "Verifying commits in commit graph"
@@ -22058,22 +22058,22 @@ msgstr "версія хешу multi-pack-index %u не збігається з �
 #: midx.c:175
 msgid "multi-pack-index required pack-name chunk missing or corrupted"
 msgstr ""
-"multi-pack-index необхідній шматок імені пакунка відсутній або пошкоджений"
+"multi-pack-index необхідний шматок імені пакунка відсутній або пошкоджений"
 
 #: midx.c:177
 msgid "multi-pack-index required OID fanout chunk missing or corrupted"
 msgstr ""
-"multi-pack-index необхідній шматок розсіювання OID відсутній або пошкоджений"
+"multi-pack-index необхідний шматок розсіювання OID відсутній або пошкоджений"
 
 #: midx.c:179
 msgid "multi-pack-index required OID lookup chunk missing or corrupted"
 msgstr ""
-"multi-pack-index необхідній шматок пошуку OID відсутній або пошкоджений"
+"multi-pack-index необхідний шматок пошуку OID відсутній або пошкоджений"
 
 #: midx.c:181
 msgid "multi-pack-index required object offsets chunk missing or corrupted"
 msgstr ""
-"multi-pack-index необхідній шматок зміщення обʼєктів відсутній або "
+"multi-pack-index необхідний шматок зміщення обʼєктів відсутній або "
 "пошкоджений"
 
 #: midx.c:203
@@ -22206,7 +22206,7 @@ msgstr "Пошук файлів пакунків, на які є посилан�
 msgid ""
 "oid fanout out of order: fanout[%d] = %<PRIx32> > %<PRIx32> = fanout[%d]"
 msgstr ""
-"невірна послідовность oid розсіювання: fanout[%d] = %<PRIx32> > %<PRIx32> = "
+"невірна послідовність oid розсіювання: fanout[%d] = %<PRIx32> > %<PRIx32> = "
 "fanout[%d]"
 
 #: midx.c:1795
