@@ -1807,7 +1807,7 @@ msgstr "не вдалося відредагувати латку"
 
 #, c-format
 msgid "could not stat '%s'"
-msgstr "не вдалося виконати stat '%s'"
+msgstr "не вдалося виконати stat \"%s\""
 
 msgid "empty patch. aborted"
 msgstr "порожня латка. перервано"
@@ -17483,7 +17483,7 @@ msgstr "multi-pack-index шматок пошуку OID має невірний �
 
 msgid "multi-pack-index object offset chunk is the wrong size"
 msgstr ""
-"multi-pack-index необхідній шматок зміщення об'єкта має невірний розмір"
+"multi-pack-index необхідній шматок зміщення обʼєкта має невірний розмір"
 
 #, c-format
 msgid "multi-pack-index file %s is too small"
