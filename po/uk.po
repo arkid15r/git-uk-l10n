@@ -22857,11 +22857,3 @@ msgstr "Пропуск %s з суфіксом резервної копії \"%s
 #, perl-format
 msgid "Do you really want to send %s? [y|N]: "
 msgstr "Ви дійсно хочете відправити %s? [y|N]: "
-
-#, c-format
-#~ msgid "options '%s=%s' and '%s=%s' cannot be used together"
-#~ msgstr "опції \"%s=%s\" and \"%s=%s\" не можна використовувати разом"
-
-#, c-format
-#~ msgid "%s : incompatible with something else"
-#~ msgstr "%s : несумісний з чимось іншим"
