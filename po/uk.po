@@ -1674,10 +1674,12 @@ msgstr ""
 msgid "not tracking: ambiguous information for ref '%s'"
 msgstr "не відстежується: неоднозначна інформація для посилання \"%s\""
 
+#. #-#-#-#-#  branch.c.po  #-#-#-#-#
 #. TRANSLATORS: This is a line listing a remote with duplicate
 #. refspecs in the advice message below. For RTL languages you'll
 #. probably want to swap the "%s" and leading "  " space around.
 #.
+#. #-#-#-#-#  object-name.c.po  #-#-#-#-#
 #. TRANSLATORS: This is line item of ambiguous object output
 #. from describe_ambiguous_object() above. For RTL languages
 #. you'll probably want to swap the "%s" and leading " " space
@@ -6783,6 +6785,7 @@ msgstr "grep: не вдалося створити потік: %s"
 msgid "invalid number of threads specified (%d) for %s"
 msgstr "невірно вказана кількість потоків (%d) для %s"
 
+#. #-#-#-#-#  grep.c.po  #-#-#-#-#
 #. TRANSLATORS: %s is the configuration
 #. variable for tweaking threads, currently
 #. grep.threads
