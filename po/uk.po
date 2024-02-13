@@ -21105,7 +21105,7 @@ msgstr "спроба переініціалізувати репозиторій
 
 msgid ""
 "attempt to reinitialize repository with different reference storage format"
-msgstr "спроба переініціалізувати репозиторій з іншим форматом сховища"
+msgstr "спроба переініціалізувати сховище з іншим форматом зберігання"
 
 #, c-format
 msgid "%s already exists"
