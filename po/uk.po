@@ -20766,7 +20766,7 @@ msgid "Autostash exists; creating a new stash entry."
 msgstr "Автосхов існує; створення нового запису схову."
 
 msgid "autostash reference is a symref"
-msgstr "autostash посилання є символьним посиланням"
+msgstr "посилання автосхову є символьним посиланням"
 
 msgid "could not detach HEAD"
 msgstr "не вдалося відʼєднати HEAD"
