@@ -4280,7 +4280,7 @@ msgstr "неможливо перевірити жорстке посиланн�
 
 #, c-format
 msgid "hardlink different from source at '%s'"
-msgstr "жорстке посилання відрізняється від джерела \"%s\""
+msgstr "жорстке посилання відрізняється від джерела в \"%s\""
 
 #, c-format
 msgid "failed to create link '%s'"
@@ -5146,19 +5146,19 @@ msgid "git config rename-section [<file-option>] <old-name> <new-name>"
 msgstr "git config rename-section [<опція-файлу>] <стара-назва> <нова-назва>"
 
 msgid "git config remove-section [<file-option>] <name>"
-msgstr "git config remove-section [<файл-опція>] <назва>"
+msgstr "git config remove-section [<опція-файлу>] <назва>"
 
 msgid "git config edit [<file-option>]"
-msgstr "git config edit [<файл-опція>]"
+msgstr "git config edit [<опція-файлу>]"
 
 msgid "git config [<file-option>] --get-colorbool <name> [<stdout-is-tty>]"
-msgstr "git config [<файл-опція>] --get-colorbool <назва> [<stdout-is-tty>]"
+msgstr "git config [<опція-файлу>] --get-colorbool <назва> [<stdout-is-tty>]"
 
 msgid ""
 "git config set [<file-option>] [--type=<type>] [--comment=<message>] [--all] "
 "[--value=<value>] [--fixed-value] <name> <value>"
 msgstr ""
-"git config set [<файл-опція>] [--type=<тип>] [--comment=<допис>] [--all][--"
+"git config set [<опція-файлу>] [--type=<тип>] [--comment=<допис>] [--all][--"
 "value=<значення>] [--fixed-value] <назва> <значення>"
 
 msgid "Config file location"
@@ -5421,7 +5421,7 @@ msgid "get values for regexp: name-regex [<value-pattern>]"
 msgstr "отримати значення для регвиру: регвир-назви [шаблон-значення]"
 
 msgid "get value specific for the URL: section[.var] URL"
-msgstr "отримати значення для конкретної URL-адреси: розділ[.var] URL-адреса"
+msgstr "отримати значення для конкретної URL-адреси: розділ[.змінна] URL-адреса"
 
 msgid "replace all matching variables: name value [<value-pattern>]"
 msgstr "замінити всі відповідні змінні: назва значення [шаблон-значення]"
@@ -8059,7 +8059,7 @@ msgid ""
 "              [-q | --quiet] [--exit-code] [--get-url] [--sort=<key>]\n"
 "              [--symref] [<repository> [<patterns>...]]"
 msgstr ""
-"git ls-remote [--branches] [--tags] [--refs] [--upload-pack=<<виконавчий-"
+"git ls-remote [--branches] [--tags] [--refs] [--upload-pack=<виконавчий-"
 "файл>]\n"
 "              [-q | --quiet] [--exit-code] [--get-url] [--sort=<ключ>]\n"
 "              [--symref] [<сховище> [<шаблони>...]]"
@@ -11536,7 +11536,7 @@ msgid "only one pattern can be given with -l"
 msgstr "тільки один шаблон може бути заданий з -l"
 
 msgid "need some commits to replay"
-msgstr "потрібні деякі комміти для відтворення"
+msgstr "потрібні деякі коміти для відтворення"
 
 msgid "--onto and --advance are incompatible"
 msgstr "--onto та --advance несумісні"
@@ -11602,7 +11602,7 @@ msgid "replaying down to root commit is not supported yet!"
 msgstr "відтворення до кореневого коміту поки що не підтримується!"
 
 msgid "replaying merge commits is not supported yet!"
-msgstr "відтворення коммітів злиття поки що не підтримується!"
+msgstr "відтворення комітів злиття поки що не підтримується!"
 
 msgid ""
 "git rerere [clear | forget <pathspec>... | diff | status | remaining | gc]"
@@ -14500,7 +14500,7 @@ msgstr "Створити, показати, видалити посилання 
 
 msgid "EXPERIMENTAL: Replay commits on a new base, works with bare repos too"
 msgstr ""
-"ЕКСПЕРИМЕНТАЛЬНО: Відтворення коммітів на новій базі також працює з "
+"ЕКСПЕРИМЕНТАЛЬНО: Відтворення комітів на новій базі також працює з "
 "порожніми сховищами"
 
 msgid "Generates a summary of pending changes"
@@ -18508,7 +18508,7 @@ msgstr "дубльований елемент під час запису bitmap 
 
 #, c-format
 msgid "attempted to store non-selected commit: '%s'"
-msgstr "спроба зберегти невибраний комміт: \"%s\""
+msgstr "спроба зберегти невибраний коміт: \"%s\""
 
 msgid "too many pseudo-merges"
 msgstr "занадто багато псевдозлиття"
@@ -20959,7 +20959,7 @@ msgstr "update-ref потребує повної назви посилання, 
 
 #, c-format
 msgid "'%s' does not accept merge commits"
-msgstr "\"%s\" не приймає комміти злиття"
+msgstr "\"%s\" не приймає коміти злиття"
 
 #. TRANSLATORS: 'pick' and 'merge -C' should not be
 #. translated.
