@@ -41,7 +41,7 @@ msgstr "Оновити"
 
 #, c-format
 msgid "could not stage '%s'"
-msgstr "не вдалося додати до індексу %s"
+msgstr "не вдалося додати до індексу \"%s\""
 
 msgid "could not write index"
 msgstr "не вдалося записати індекс"
@@ -2188,7 +2188,7 @@ msgstr ""
 
 #, c-format
 msgid "Could not parse object '%s'."
-msgstr "Не вдалося розібрати об'єкт '%s'."
+msgstr "Не вдалося розібрати обʼєкт \"%s\"."
 
 msgid "failed to clean index"
 msgstr "не вдалося очистити індекс"
@@ -3664,7 +3664,7 @@ msgstr "Вже на \"%s\"\n"
 
 #, c-format
 msgid "Switched to and reset branch '%s'\n"
-msgstr "Переключено на та скинуто гілку '%s'\n"
+msgstr "Переключено на та скинуто гілку \"%s\"\n"
 
 #, c-format
 msgid "Switched to a new branch '%s'\n"
@@ -3858,7 +3858,7 @@ msgstr "шляхи не можуть використовуватись при �
 
 #, c-format
 msgid "'%s' cannot be used with switching branches"
-msgstr "'%s' не може використовуватись при переключенні гілок"
+msgstr "\"%s\" не може використовуватись при переключенні гілок"
 
 #, c-format
 msgid "'%s' needs the paths to check out"
@@ -3866,15 +3866,15 @@ msgstr "\"%s\" потрібні шляхи для переходу"
 
 #, c-format
 msgid "'%s' cannot be used with '%s'"
-msgstr "'%s' не може використовуватись з '%s'"
+msgstr "\"%s\" не може використовуватись з \"%s\""
 
 #, c-format
 msgid "'%s' cannot take <start-point>"
-msgstr "'%s' не може прийняти <стартова-точка>"
+msgstr "\"%s\" не може прийняти <стартова-точка>"
 
 #, c-format
 msgid "Cannot switch branch to a non-commit '%s'"
-msgstr "Неможливо переключити гілку на не коміт '%s'"
+msgstr "Неможливо переключити гілку на не коміт \"%s\""
 
 msgid "missing branch or commit argument"
 msgstr "відсутня гілка або коміт"
@@ -3939,11 +3939,11 @@ msgstr "неприпустиме зазначення шляху"
 
 #, c-format
 msgid "'%s' is not a commit and a branch '%s' cannot be created from it"
-msgstr "'%s' не є комітом, і з нього не можна створити гілку '%s'"
+msgstr "\"%s\" не є комітом, і з нього не можна створити гілку \"%s\""
 
 #, c-format
 msgid "git checkout: --detach does not take a path argument '%s'"
-msgstr "git checkout: --detach не приймає аргумент шляху '%s'"
+msgstr "git checkout: --detach не приймає аргумент шляху \"%s\""
 
 msgid ""
 "git checkout: --ours/--theirs, --force and --merge are incompatible when\n"
@@ -4448,7 +4448,7 @@ msgstr "не вдалося ініціалізувати сховище, URI п�
 
 #, c-format
 msgid "failed to fetch objects from bundle URI '%s'"
-msgstr "не вдалося отримати обʼєкти з пакунка URI '%s'"
+msgstr "не вдалося отримати обʼєкти з пакунка URI \"%s\""
 
 msgid "failed to fetch advertised bundles"
 msgstr "не вдалося отримати обіцяні пакунки"
@@ -7482,19 +7482,19 @@ msgstr "локальний обʼєкт %s пошкоджено"
 
 #, c-format
 msgid "packfile name '%s' does not end with '.%s'"
-msgstr "ім’я файла пакунка '%s' не закінчується на '.%s'"
+msgstr "ім’я файла пакунка \"%s\" не закінчується на '.%s'"
 
 #, c-format
 msgid "cannot write %s file '%s'"
-msgstr "неможливо записати %s файл '%s'"
+msgstr "неможливо записати %s файл \"%s\""
 
 #, c-format
 msgid "cannot close written %s file '%s'"
-msgstr "неможливо закрити записаний %s файл '%s'"
+msgstr "неможливо закрити записаний %s файл \"%s\""
 
 #, c-format
 msgid "unable to rename temporary '*.%s' file to '%s'"
-msgstr "не вдається перейменувати тимчасовий файл '*.%s' на '%s'"
+msgstr "не вдається перейменувати тимчасовий файл \"*.%s\" на \"%s\""
 
 msgid "error while closing pack file"
 msgstr "помилка під час закриття файлу пакунка"
@@ -7505,11 +7505,11 @@ msgstr "невірний pack.indexVersion=%<PRIu32>"
 
 #, c-format
 msgid "Cannot open existing pack file '%s'"
-msgstr "Неможливо відкрити існуючий файл пакунка '%s"
+msgstr "Неможливо відкрити існуючий файл пакунка \"%s\""
 
 #, c-format
 msgid "Cannot open existing pack idx file for '%s'"
-msgstr "Неможливо відкрити існуючий індексний файл пакунка для '%s"
+msgstr "Неможливо відкрити існуючий індексний файл пакунка для \"%s\""
 
 #, c-format
 msgid "non delta: %d object"
@@ -7548,7 +7548,7 @@ msgstr "невірний %s"
 
 #, c-format
 msgid "unknown hash algorithm '%s'"
-msgstr "невідомий хеш-алгоритм '%s'"
+msgstr "невідомий хеш-алгоритм \"%s\""
 
 msgid "--promisor cannot be used with a pack name"
 msgstr "--promisor не можна використовувати з назвою пакунка"
@@ -10052,7 +10052,7 @@ msgstr "Надсилання до %s\n"
 
 #, c-format
 msgid "failed to push some refs to '%s'"
-msgstr "не вдалося надіслати деякі посилання до '%s'"
+msgstr "не вдалося надіслати деякі посилання до \"%s\""
 
 msgid ""
 "recursing into submodule with push.recurseSubmodules=only; using on-demand "
@@ -10063,7 +10063,7 @@ msgstr ""
 
 #, c-format
 msgid "invalid value for '%s'"
-msgstr "неприпустиме значення для '%s'"
+msgstr "неприпустиме значення для \"%s\""
 
 msgid "repository"
 msgstr "сховище"
@@ -11807,11 +11807,11 @@ msgstr "записати лише той факт, що вилучені шля�
 
 #, c-format
 msgid "Failed to resolve '%s' as a valid revision."
-msgstr "Не вдалося розпізнати '%s' як припустиму ревізію."
+msgstr "Не вдалося розпізнати \"%s\" як припустиму ревізію."
 
 #, c-format
 msgid "Failed to resolve '%s' as a valid tree."
-msgstr "Не вдалося розпізнати '%s' як припустиме дерево."
+msgstr "Не вдалося розпізнати \"%s\" як припустиме дерево."
 
 msgid "--mixed with paths is deprecated; use 'git reset -- <paths>' instead."
 msgstr ""
@@ -11840,7 +11840,7 @@ msgstr ""
 
 #, c-format
 msgid "Could not reset index file to revision '%s'."
-msgstr "Не вдалося скинути індексний файл до ревізії '%s'."
+msgstr "Не вдалося скинути індексний файл до ревізії \"%s\"."
 
 msgid "Could not write new index file."
 msgstr "Не вдалося записати новий індексний файл."
@@ -19430,7 +19430,7 @@ msgstr "багатоступеневі записи для злитого фай
 
 #, c-format
 msgid "unordered stage entries for '%s'"
-msgstr "невпорядковані записи індексу для '%s'"
+msgstr "невпорядковані записи індексу для \"%s\""
 
 #, c-format
 msgid "unable to create load_cache_entries thread: %s"
@@ -20203,7 +20203,7 @@ msgstr "remote-curl: невідома команда \"%s\" з git"
 
 #, c-format
 msgid "config remote shorthand cannot begin with '/': %s"
-msgstr "скорочення віддаленої конфігураціі не може починатися з '/': %s"
+msgstr "скорочення віддаленої конфігураціі не може починатися з \"/\": %s"
 
 msgid "more than one receivepack given, using the first"
 msgstr "надано більше одного пакунка для отримання, використано перший"
@@ -20217,7 +20217,7 @@ msgstr "нерозпізнане followRemoteHEAD значення \"%s\" бул
 
 #, c-format
 msgid "unrecognized value transfer.credentialsInUrl: '%s'"
-msgstr "нерозпізнане значення transfer.credentialsInUrl: '%s'"
+msgstr "нерозпізнане значення transfer.credentialsInUrl: \"%s\""
 
 #, c-format
 msgid "URL '%s' uses plaintext credentials"
@@ -20237,11 +20237,11 @@ msgstr "%s відстежує як %s, так і %s"
 
 #, c-format
 msgid "key '%s' of pattern had no '*'"
-msgstr "ключ '%s' шаблону не містив '*'"
+msgstr "ключ \"%s\" шаблону не містив '*'"
 
 #, c-format
 msgid "value '%s' of pattern has no '*'"
-msgstr "значення '%s' шаблону не містить '*'"
+msgstr "значення \"%s\" шаблону не містить '*'"
 
 #, c-format
 msgid "src refspec %s does not match any"
@@ -20261,7 +20261,7 @@ msgid ""
 "starting with \"refs/\"). We tried to guess what you meant by:\n"
 "\n"
 "- Looking for a ref that matches '%s' on the remote side.\n"
-"- Checking if the <src> being pushed ('%s')\n"
+"- Checking if the <src> being pushed (\"%s\")\n"
 "  is a ref in \"refs/{heads,tags}/\". If so we add a corresponding\n"
 "  refs/{heads,tags}/ prefix on the remote side.\n"
 "\n"
@@ -20340,11 +20340,11 @@ msgstr "HEAD не вказує на гілку"
 
 #, c-format
 msgid "no such branch: '%s'"
-msgstr "немає такої гілки: '%s'"
+msgstr "немає такої гілки: \"%s\""
 
 #, c-format
 msgid "no upstream configured for branch '%s'"
-msgstr "першоджерельне сховище не налаштовано для гілки '%s'"
+msgstr "першоджерельне сховище не налаштовано для гілки \"%s\""
 
 #, c-format
 msgid "upstream branch '%s' not stored as a remote-tracking branch"
@@ -20365,7 +20365,7 @@ msgid "push refspecs for '%s' do not include '%s'"
 msgstr "надіслані визначники посилань для \"%s\" не включають \"%s\""
 
 msgid "push has no destination (push.default is 'nothing')"
-msgstr "надсилання не має призначення (push.default дорівнює 'nothing')"
+msgstr "надсилання не має призначення (push.default дорівнює \"nothing\")"
 
 msgid "cannot resolve 'simple' push to a single destination"
 msgstr ""
@@ -20418,7 +20418,7 @@ msgstr[0] ""
 msgstr[1] ""
 "Ваша гілка відстає від \"%s\" на %d коміти, і її можна перемотати вперед.\n"
 msgstr[2] ""
-"Ваша гілка відстає від гілки '%s' на %d комітів, і її можна перемотати "
+"Ваша гілка відстає від гілки \"%s\" на %d комітів, і її можна перемотати "
 "вперед.\n"
 
 msgid "  (use \"git pull\" to update your local branch)\n"
@@ -20453,7 +20453,7 @@ msgstr "неможливо розібрати очікувану назву об
 
 #, c-format
 msgid "cannot strip one component off url '%s'"
-msgstr "неможливо вилучити один компонент з url '%s'"
+msgstr "неможливо вилучити один компонент з url \"%s\""
 
 #, c-format
 msgid "bad replace ref name: %s"
@@ -23245,7 +23245,7 @@ msgstr ""
 
 #, c-format
 msgid "You are currently bisecting, started from branch '%s'."
-msgstr "Наразі ви робите бісекцію, починаючи з гілки '%s'."
+msgstr "Наразі ви робите бісекцію, починаючи з гілки \"%s\"."
 
 msgid "You are currently bisecting."
 msgstr "Наразі ви робите бісекцію."
