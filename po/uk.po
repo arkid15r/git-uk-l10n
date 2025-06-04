@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Git v2.46\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2025-06-03 17:02-0700\n"
-"PO-Revision-Date: 2025-03-09 16:53-0700\n"
+"PO-Revision-Date: 2025-06-03 18:43-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 #, c-format
 msgid "Huh (%s)?"
@@ -1714,12 +1714,10 @@ msgstr ""
 msgid "not tracking: ambiguous information for ref '%s'"
 msgstr "не відстежується: неоднозначна інформація для посилання \"%s\""
 
-#. #-#-#-#-#  branch.c.po  #-#-#-#-#
 #. TRANSLATORS: This is a line listing a remote with duplicate
 #. refspecs in the advice message below. For RTL languages you'll
 #. probably want to swap the "%s" and leading "  " space around.
 #.
-#. #-#-#-#-#  object-name.c.po  #-#-#-#-#
 #. TRANSLATORS: This is line item of ambiguous object output
 #. from describe_ambiguous_object() above. For RTL languages
 #. you'll probably want to swap the "%s" and leading " " space
@@ -3304,9 +3302,8 @@ msgstr "можна вказати лише одну групову опцію"
 msgid "git cat-file <type> <object>"
 msgstr "git cat-file <тип> <об’єкт>"
 
-#, fuzzy
 msgid "git cat-file (-e | -p | -t | -s) <object>"
-msgstr "git cat-file (-e | -p) <об’єкт>"
+msgstr "git cat-file (-e | -p | -t | -s) <об’єкт>"
 
 msgid ""
 "git cat-file (--textconv | --filters)\n"
@@ -3402,11 +3399,11 @@ msgid "use a <path> for (--textconv | --filters); Not with 'batch'"
 msgstr "використати <шлях> для (--textconv | --filters); не з \"batch\""
 
 msgid "objects filter only supported in batch mode"
-msgstr ""
+msgstr "фільтр об’єктів підтримується лише в пакетному режимі"
 
-#, fuzzy, c-format
+#, c-format
 msgid "objects filter not supported: '%s'"
-msgstr "обʼєкт не знайдено: %s"
+msgstr "фільтр об’єктів не підтримується: \"%s\""
 
 #, c-format
 msgid "'%s=<%s>' needs '%s' or '%s'"
@@ -5701,55 +5698,49 @@ msgstr "вказати суфікс формату strftime для назви ф
 msgid "specify the content of the diagnostic archive"
 msgstr "вказати вміст архіву діагностики"
 
-#, fuzzy, c-format
+#, c-format
 msgid "unable to parse mode: %s"
-msgstr "не вдалося розібрати обʼєкт: %s"
+msgstr "не вдалося розібрати режим: %s"
 
-#, fuzzy, c-format
+#, c-format
 msgid "unable to parse object id: %s"
-msgstr "не вдалося розібрати обʼєкт: %s"
+msgstr "не вдалося розібрати ідентифікатор об’єкта: %s"
 
-#, fuzzy
 msgid "git diff-pairs -z [<diff-options>]"
-msgstr "git stash list [<лог-опції>]"
+msgstr "git diff-pairs -z [<опціі-різниці>]"
 
 #, c-format
 msgid "unrecognized argument: %s"
 msgstr "нерозпізнаний аргумент: %s"
 
-#, fuzzy
 msgid "working without -z is not supported"
-msgstr "запис до stdin не підтримується"
+msgstr "робота без -z не підтримується"
 
-#, fuzzy
 msgid "pathspec arguments not supported"
-msgstr "магічне значення визначника шляху не підтримується --follow: %s"
+msgstr "аргументи визначника шляху не підтримуються"
 
-#, fuzzy
 msgid "revision arguments not allowed"
-msgstr "засіб передачі \"%s\" не дозволений"
+msgstr "аргументи ревізії не дозволені"
 
-#, fuzzy
 msgid "invalid raw diff input"
-msgstr "неприпустимий рядок дати"
+msgstr "невірне введення необробленої різниці"
 
-#, fuzzy
 msgid "tree objects not supported"
-msgstr "редагування blobs не підтримується"
+msgstr "об’єкти дерева не підтримуються"
 
 msgid "got EOF while reading path"
-msgstr ""
+msgstr "отримано EOF під час зчитування шляху"
 
 msgid "got EOF while reading destination path"
-msgstr ""
+msgstr "отримано EOF під час зчитування шлях призначення"
 
-#, fuzzy, c-format
+#, c-format
 msgid "unable to parse rename/copy score: %s"
-msgstr "не вдалося розібрати заголовок %s"
+msgstr "не вдалося розібрати оцінку перейменування/копіювання: %s"
 
-#, fuzzy, c-format
+#, c-format
 msgid "unknown diff status: %c"
-msgstr "неочікуваний статус diff %c"
+msgstr "невідомий статус різниці: %c"
 
 msgid "--merge-base only works with two commits"
 msgstr "--merge-base працює лише з двома комітами"
@@ -5891,9 +5882,8 @@ msgstr "показати прогрес після <н> обʼєктів"
 msgid "select handling of signed tags"
 msgstr "вибрати обробку підписаних тегів"
 
-#, fuzzy
 msgid "select handling of signed commits"
-msgstr "вибрати обробку підписаних тегів"
+msgstr "вибрати обробку підписаних комітів"
 
 msgid "select handling of tags that tag filtered objects"
 msgstr "вибрати обробку тегів, якими позначено відфільтровані обʼєкти"
@@ -6600,11 +6590,9 @@ msgstr "не вдалося завантажити rev-index для пакунк
 msgid "invalid rev-index for pack '%s'"
 msgstr "неприпустимий rev-index для \"%s\""
 
-#, fuzzy
 msgid "Checking ref database"
-msgstr "Перевірка журналу посилань %s->%s"
+msgstr "Перевірка бази даних посилань"
 
-#, fuzzy
 msgid ""
 "git fsck [--tags] [--root] [--unreachable] [--cache] [--no-reflogs]\n"
 "         [--[no-]full] [--strict] [--verbose] [--lost-found]\n"
@@ -6612,9 +6600,9 @@ msgid ""
 "         [--[no-]name-objects] [--[no-]references] [<object>...]"
 msgstr ""
 "git fsck [--tags] [--root] [--unreachable] [--cache] [--no-reflogs]\n"
-"         [--[no-]full] [--strict] [--verbose] [--lost-found]\n"
-"         [--[no-]dangling] [--[no-]progress] [--connectivity-only]\n"
-"         [--[no-]name-objects] [<обʼєкт>...]"
+"          [--[no-]full] [--strict] [--verbose] [--lost-found]\n"
+"          [--[no-]dangling] [--[no-]progress] [--connectivity-only]\n"
+"          [--[no-]name-objects] [--[no-]references] [<об’єкт>...]"
 
 msgid "show unreachable objects"
 msgstr "показати недосяжні об’єкти"
@@ -6652,9 +6640,8 @@ msgstr "показувати прогрес"
 msgid "show verbose names for reachable objects"
 msgstr "показувати докладні назви для доступних об’єктів"
 
-#, fuzzy
 msgid "check reference database consistency"
-msgstr "Перевірка співпадіння посилань"
+msgstr "перевірити співпадіння довідкової бази даних"
 
 msgid "Checking objects"
 msgstr "Перевірка обʼєктів"
@@ -7058,7 +7045,6 @@ msgstr "grep: не вдалося створити потік: %s"
 msgid "invalid number of threads specified (%d) for %s"
 msgstr "невірно вказана кількість потоків (%d) для %s"
 
-#. #-#-#-#-#  grep.c.po  #-#-#-#-#
 #. TRANSLATORS: %s is the configuration
 #. variable for tweaking threads, currently
 #. grep.threads
@@ -8466,7 +8452,7 @@ msgid "also show informational/conflict messages"
 msgstr "також показувати інформаційні/конфліктні повідомлення"
 
 msgid "suppress all output; only exit status wanted"
-msgstr ""
+msgstr "приховати весь вивід; потрібен лише статус виходу"
 
 msgid "list filenames without modes/oids/stages"
 msgstr "вивести назви файлів без режимів/oid/стадій"
@@ -8872,13 +8858,11 @@ msgstr ""
 "під час перепакування збирати пакувальні файли меншого розміру в партію, "
 "більшу за цей розмір"
 
-#, fuzzy
 msgid "git mv [-v] [-f] [-n] [-k] <source> <destination>"
-msgstr "git mv [<опції>] <джерело>... <призначення>"
+msgstr "git mv [-v] [-f] [-n] [-k] <джерело> <призначення>"
 
-#, fuzzy
 msgid "git mv [-v] [-f] [-n] [-k] <source>... <destination-directory>"
-msgstr "git mv [<опції>] <джерело>... <призначення>"
+msgstr "git mv [-v] [-f] [-n] [-k] <джерело>... <директорія-призначення>"
 
 #, c-format
 msgid "Directory %s is in index and no submodule?"
@@ -8948,9 +8932,9 @@ msgstr "призначення існує в індексі"
 msgid "%s, source=%s, destination=%s"
 msgstr "%s, джерело=%s, призначення=%s"
 
-#, fuzzy, c-format
+#, c-format
 msgid "cannot move both '%s' and its parent directory '%s'"
-msgstr "Неможливо отримати як %s, так і %s до %s"
+msgstr "неможливо перемістити як \"%s\", так і його батьківську директорію \"%s\""
 
 #, c-format
 msgid "Renaming %s to %s\n"
@@ -10248,7 +10232,7 @@ msgstr ""
 "\n"
 "а потім виконайте надсилання, використовуючи назву віддаленого сховища\n"
 "\n"
-"    git push <ім'я>\n"
+"    git push <імʼя>\n"
 
 msgid "--all can't be combined with refspecs"
 msgstr "--all не можна комбінувати з визначниками посилань"
@@ -10866,7 +10850,7 @@ msgid "git reflog exists <ref>"
 msgstr "git reflog exists <посилання>"
 
 msgid "git reflog drop [--all [--single-worktree] | <refs>...]"
-msgstr ""
+msgstr "git reflog drop [--all [--single-worktree] | <посилання>...]"
 
 #, c-format
 msgid "invalid timestamp '%s' given to '--%s'"
@@ -10915,9 +10899,9 @@ msgstr "обмежити обробку журналами посилань ли
 msgid "Marking reachable objects..."
 msgstr "Позначення досяжних обʼєктів..."
 
-#, fuzzy, c-format
+#, c-format
 msgid "reflog could not be found: '%s'"
-msgstr "не вдалося прочитати пакунок \"%s\""
+msgstr "не вдалося знайти журнал посилань: \"%s\""
 
 msgid "no reflog specified to delete"
 msgstr "не вказано журнал посилань для видалення"
@@ -10926,17 +10910,14 @@ msgstr "не вказано журнал посилань для видален�
 msgid "invalid ref format: %s"
 msgstr "неприпустимий формат посилання: %s"
 
-#, fuzzy
 msgid "drop the reflogs of all references"
-msgstr "обробляти журнали посилань всіх посилань"
+msgstr "видалити журнали для всіх посилань"
 
-#, fuzzy
 msgid "drop reflogs from the current worktree only"
-msgstr "обмежити обробку журналами посилань лише з поточного робочого дерева"
+msgstr "видаляти журнали посилань лише з поточного робочого дерева"
 
-#, fuzzy
 msgid "references specified along with --all"
-msgstr "об’єднати шаблони, вказані через -e"
+msgstr "посилання, вказані разом з --all"
 
 msgid "git refs migrate --ref-format=<format> [--no-reflog] [--dry-run]"
 msgstr "git refs migrate --ref-format=<формат> [--no-reflog] [--dry-run]"
@@ -11500,9 +11481,8 @@ msgstr "приблизна дата"
 msgid "with --cruft, expire objects older than this"
 msgstr "з --cruft видалити обʼєкти, старіші за цей термін"
 
-#, fuzzy
 msgid "with --cruft, only repack cruft packs smaller than this"
-msgstr "з --cruft видалити обʼєкти, старіші за цей термін"
+msgstr "з --cruft, перепакувати тільки марні пакунки, менші за цей"
 
 msgid "remove redundant packs, and run git-prune-packed"
 msgstr "видалити зайві пакунки і запустити git-prune-packed"
@@ -11982,9 +11962,8 @@ msgid "invalid value for '%s': '%s', the only allowed format is '%s'"
 msgstr ""
 "неприпустиме значення для \"%s\": \"%s\", єдиним допустимим форматом є \"%s\""
 
-#, fuzzy
 msgid "-z option used with unsupported option"
-msgstr "операція не підтримується протоколом"
+msgstr "Опція -z використовується з непідтримуваною опцією"
 
 msgid "rev-list does not support display of notes"
 msgstr "rev-list не підтримує відображення нотаток"
@@ -13867,9 +13846,8 @@ msgid "git update-ref [<options>]    <refname> <new-oid> [<old-oid>]"
 msgstr ""
 "git update-ref [<опції>]    <назва-посилання> <новий-oid> [<старий-oid>]"
 
-#, fuzzy
 msgid "git update-ref [<options>] --stdin [-z] [--batch-updates]"
-msgstr "git update-ref [<опції>] --stdin [-z]"
+msgstr "git update-ref [<опції>] --stdin [-z] [--batch-updates]"
 
 msgid "delete the reference"
 msgstr "видалити посилання"
@@ -13883,9 +13861,8 @@ msgstr "stdin має аргументи, що закінчуються NUL"
 msgid "read updates from stdin"
 msgstr "читати оновлення з stdin"
 
-#, fuzzy
 msgid "batch reference updates"
-msgstr "оновити примусово"
+msgstr "пакетне оновлення посилань"
 
 msgid "update the info files from scratch"
 msgstr "оновити інформаційні файли з чистого аркуша"
@@ -14576,10 +14553,8 @@ msgstr "Порівнює файли в робочому дереві та інд
 msgid "Compare a tree to the working tree or index"
 msgstr "Порівняти дерево з робочим деревом або індексом"
 
-#, fuzzy
 msgid "Compare the content and mode of provided blob pairs"
-msgstr ""
-"Порівнює вміст та режим blob обʼєктів, знайдених у двох обʼєктах дерева"
+msgstr "Порівняйте вміст і режим наданих blob-пар"
 
 msgid "Compares the content and mode of blobs found via two tree objects"
 msgstr ""
@@ -17964,9 +17939,9 @@ msgid "ignoring existing multi-pack-index; checksum mismatch"
 msgstr ""
 "ігнорування існуючого multi-pack-index; невідповідність контрольних сум"
 
-#, fuzzy, c-format
+#, c-format
 msgid "could not load reverse index for MIDX %s"
-msgstr "не вдалося відкрити індекс для %s"
+msgstr "не вдалося завантажити зворотний індекс для MIDX %s"
 
 msgid "Adding packfiles to multi-pack-index"
 msgstr "Додавання пакунків до multi-pack-index"
@@ -18366,9 +18341,9 @@ msgstr "не вдалося розпакувати заголовок %s"
 msgid "unable to parse header of %s"
 msgstr "не вдалося розібрати заголовок %s"
 
-#, fuzzy, c-format
+#, c-format
 msgid "unable to parse type from header '%s' of %s"
-msgstr "не вдалося розібрати заголовок %s"
+msgstr "не вдалося розібрати тип з заголовка \"%s\" в %s"
 
 #, c-format
 msgid "unable to unpack contents of %s"
@@ -18885,11 +18860,11 @@ msgstr "%s недоступний"
 
 #, c-format
 msgid "value %s for %s not in range [%<PRIdMAX>,%<PRIdMAX>]"
-msgstr ""
+msgstr "значення %s для %s не в діапазоні [%<PRIdMAX>,%<PRIdMAX>]"
 
-#, fuzzy, c-format
+#, c-format
 msgid "%s expects an integer value with an optional k/m/g suffix"
-msgstr "%s очікує невід'ємне ціле значення з опціональним суфіксом k/m/g"
+msgstr "%s очікує ціле значення з необовʼязковим суфіксом k/m/g"
 
 #, c-format
 msgid "%s expects a non-negative integer value with an optional k/m/g suffix"
@@ -19216,11 +19191,13 @@ msgstr "не вдалося отримати %s з віддаленого promis
 
 #, c-format
 msgid "no or empty URL advertised for remote '%s'"
-msgstr ""
+msgstr "немає або пустий обіцяний URL для віддаленого \"%s\""
 
-#, fuzzy, c-format
+#, c-format
 msgid "known remote named '%s' but with URL '%s' instead of '%s'"
-msgstr "відоме віддалене сховище з імʼям \"%s\" має URL \"%s\" замість \"%s\""
+msgstr ""
+"відоме віддалене призначення з іменем \"%s\", але з URL-адресою \"%s\""
+" замість \"%s\""
 
 #, c-format
 msgid "unknown '%s' value for '%s' config option"
@@ -19985,9 +19962,9 @@ msgstr "неможливо відкрити директорію %s"
 msgid "Checking references consistency"
 msgstr "Перевірка співпадіння посилань"
 
-#, fuzzy, c-format
+#, c-format
 msgid "unable to open '%s'"
-msgstr "не вдалося відкрити %s"
+msgstr "не вдалося відкрити \"%s\""
 
 #, c-format
 msgid "refname is dangerous: %s"
@@ -20218,7 +20195,7 @@ msgstr ""
 
 #, c-format
 msgid "config remote shorthand cannot begin with '/': %s"
-msgstr "скорочене ім'я віддаленої конфігураціі не може починатися з \"/\": %s"
+msgstr "скорочене імʼя віддаленої конфігураціі не може починатися з \"/\": %s"
 
 msgid "more than one receivepack given, using the first"
 msgstr "надано більше одного пакунка для отримання, використано перший"
@@ -20624,9 +20601,8 @@ msgstr "не вдалося додати кореневу директорію �
 msgid "could not set recommended config"
 msgstr "не вдалося встановити рекомендовану конфігурацію"
 
-#, fuzzy
 msgid "could not toggle maintenance"
-msgstr "не вдалося ввімкнути технічне обслуговування"
+msgstr "не вдалося переключити обслуговування"
 
 msgid "could not start the FSMonitor daemon"
 msgstr "не вдалося запустити FSMonitor демон"
@@ -20675,15 +20651,15 @@ msgid "specify if tags should be fetched during clone"
 msgstr "вказати, чи потрібно отримувати теги під час клонування"
 
 msgid "specify if background maintenance should be enabled"
-msgstr ""
+msgstr "вказати, чи потрібно ввімкнути фонове обслуговування"
 
-#, fuzzy
 msgid ""
 "scalar clone [--single-branch] [--branch <main-branch>] [--full-clone]\n"
 "\t[--[no-]src] [--[no-]tags] [--[no-]maintenance] <url> [<enlistment>]"
 msgstr ""
-"scalar clone [--single-branch] [--branch <головна-гілка>] [--full-clone]\n"
-"\t[--[no-]src] [--[no-]tags] <URL-адреса> [<коренева-директорія-проекту>]"
+"scalar clone [--single-branch] [--branch <main-branch>] [--full-clone]\n"
+"\t[--[no-]src] [--[no-]tags] [--[no-]maintenance] <url> [<коренева-"
+"директорія-проекту>]"
 
 #, c-format
 msgid "cannot deduce worktree name from '%s'"
@@ -20721,33 +20697,31 @@ msgstr "scalar diagnose [<коренева-директорія-проекту>]
 msgid "`scalar list` does not take arguments"
 msgstr "\"scalar list\" не приймає аргументів"
 
-#, fuzzy
 msgid "scalar register [--[no-]maintenance] [<enlistment>]"
-msgstr "scalar register [<коренева-директорія-проекту>]"
+msgstr "scalar register [--[no-]maintenance] [<коренева-директорія-проекту>]"
 
 msgid "reconfigure all registered enlistments"
 msgstr "переналаштувати всі зареєстровані кореневі директорії проекту"
 
-#, fuzzy
 msgid "(enable|disable|keep)"
-msgstr "увімкнути/вимкнути невідстежуваний кеш"
+msgstr "(увімкнути|вимкнути|зберегти)"
 
-#, fuzzy
 msgid "signal how to adjust background maintenance"
-msgstr "не може отримати блокування для планового фонового обслуговування"
+msgstr "повідомити про те, як налаштувати фонове обслуговування"
 
-#, fuzzy
 msgid ""
 "scalar reconfigure [--maintenance=(enable|disable|keep)] [--all | "
 "<enlistment>]"
-msgstr "scalar reconfigure [--all | <коренева-директорія-проекту>]"
+msgstr ""
+"scalar reconfigure [--maintenance=(enable|disable|keep)] [--all | <коренева-"
+"директорія-проекту>]"
 
 msgid "--all or <enlistment>, but not both"
 msgstr "--all або <коренева-директорія-проекту>, але не обидва"
 
-#, fuzzy, c-format
+#, c-format
 msgid "unknown mode for --maintenance option: %s"
-msgstr "невідомий режим для --abbrev-ref: %s"
+msgstr "невідомий режим для опції --maintenance: %s"
 
 #, c-format
 msgid "could not remove stale scalar.repo '%s'"
@@ -22202,9 +22176,8 @@ msgid "number of entries in the cache tree to invalidate (default 0)"
 msgstr ""
 "кількість записів у дереві кешу, які потрібно анулювати (за замовчуванням 0)"
 
-#, fuzzy
 msgid "the number of objects to write"
-msgstr "Мінімальна кількість обʼєктів для запиту за один раз"
+msgstr "кількість об’єктів для запису"
 
 msgid "test-tool path-walk <options> -- <revision-options>"
 msgstr "test-tool path-walk <опції> -- <опції-ревізії>."
@@ -23753,10 +23726,10 @@ msgstr ""
 
 #, perl-format
 msgid "Outlook reassigned Message-ID to: %s\n"
-msgstr ""
+msgstr "Outlook перепризначив Message-ID на: %s\n"
 
 msgid "Warning: Could not retrieve Message-ID from server response.\n"
-msgstr ""
+msgstr "Попередження: Не вдалося отримати Message-ID з відповіді сервера.\n"
 
 #, perl-format
 msgid "Failed to send %s\n"
