@@ -5732,7 +5732,7 @@ msgid "got EOF while reading path"
 msgstr "отримано EOF під час зчитування шляху"
 
 msgid "got EOF while reading destination path"
-msgstr "отримано EOF під час зчитування шлях призначення"
+msgstr "отримано EOF під час зчитування шляху призначення"
 
 #, c-format
 msgid "unable to parse rename/copy score: %s"
@@ -6600,9 +6600,9 @@ msgid ""
 "         [--[no-]name-objects] [--[no-]references] [<object>...]"
 msgstr ""
 "git fsck [--tags] [--root] [--unreachable] [--cache] [--no-reflogs]\n"
-"          [--[no-]full] [--strict] [--verbose] [--lost-found]\n"
-"          [--[no-]dangling] [--[no-]progress] [--connectivity-only]\n"
-"          [--[no-]name-objects] [--[no-]references] [<об’єкт>...]"
+"         [--[no-]full] [--strict] [--verbose] [--lost-found]\n"
+"         [--[no-]dangling] [--[no-]progress] [--connectivity-only]\n"
+"         [--[no-]name-objects] [--[no-]references] [<об’єкт>...]"
 
 msgid "show unreachable objects"
 msgstr "показати недосяжні об’єкти"
@@ -6641,7 +6641,7 @@ msgid "show verbose names for reachable objects"
 msgstr "показувати докладні назви для доступних об’єктів"
 
 msgid "check reference database consistency"
-msgstr "перевірити співпадіння довідкової бази даних"
+msgstr "перевірити узгодженість бази даних посилань"
 
 msgid "Checking objects"
 msgstr "Перевірка обʼєктів"
@@ -8934,7 +8934,7 @@ msgstr "%s, джерело=%s, призначення=%s"
 
 #, c-format
 msgid "cannot move both '%s' and its parent directory '%s'"
-msgstr "неможливо перемістити як \"%s\", так і його батьківську директорію \"%s\""
+msgstr "неможливо перенести як \"%s\", так і його батьківську директорію \"%s\""
 
 #, c-format
 msgid "Renaming %s to %s\n"
@@ -14554,7 +14554,7 @@ msgid "Compare a tree to the working tree or index"
 msgstr "Порівняти дерево з робочим деревом або індексом"
 
 msgid "Compare the content and mode of provided blob pairs"
-msgstr "Порівняйте вміст і режим наданих blob-пар"
+msgstr "Порівняйте вміст і режим наданих blob пар"
 
 msgid "Compares the content and mode of blobs found via two tree objects"
 msgstr ""
@@ -19191,12 +19191,12 @@ msgstr "не вдалося отримати %s з віддаленого promis
 
 #, c-format
 msgid "no or empty URL advertised for remote '%s'"
-msgstr "немає або пустий обіцяний URL для віддаленого \"%s\""
+msgstr "відсутній або пустий обіцяний URL для віддаленого \"%s\""
 
 #, c-format
 msgid "known remote named '%s' but with URL '%s' instead of '%s'"
 msgstr ""
-"відоме віддалене призначення з іменем \"%s\", але з URL-адресою \"%s\""
+"відоме віддалене призначення з імʼям \"%s\", але з URL-адресою \"%s\""
 " замість \"%s\""
 
 #, c-format
