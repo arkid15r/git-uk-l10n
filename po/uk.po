@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Git v2.46\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
-"POT-Creation-Date: 2025-08-14 15:16-0700\n"
+"POT-Creation-Date: 2025-11-13 15:18-0800\n"
 "PO-Revision-Date: 2025-08-14 17:33-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
@@ -544,16 +544,18 @@ msgstr "Все одно застосувати їх до робочого дер
 msgid "Nothing was applied.\n"
 msgstr "Нічого не застосовано.\n"
 
+#, fuzzy
 msgid ""
-"j - leave this hunk undecided, see next undecided hunk\n"
-"J - leave this hunk undecided, see next hunk\n"
-"k - leave this hunk undecided, see previous undecided hunk\n"
-"K - leave this hunk undecided, see previous hunk\n"
+"j - go to the next undecided hunk, roll over at the bottom\n"
+"J - go to the next hunk, roll over at the bottom\n"
+"k - go to the previous undecided hunk, roll over at the top\n"
+"K - go to the previous hunk, roll over at the top\n"
 "g - select a hunk to go to\n"
 "/ - search for a hunk matching the given regex\n"
 "s - split the current hunk into smaller hunks\n"
 "e - manually edit the current hunk\n"
-"p - print the current hunk, 'P' to use the pager\n"
+"p - print the current hunk\n"
+"P - print the current hunk using the pager\n"
 "? - print help\n"
 msgstr ""
 "j - залишити цей шматок невизначеним, перейти до наступного невизначеного "
@@ -573,11 +575,12 @@ msgstr ""
 msgid "Only one letter is expected, got '%s'"
 msgstr "Очікувався лише один символ, отримано \"%s\""
 
-msgid "No previous hunk"
-msgstr "Немає попереднього шматка"
+#, fuzzy
+msgid "No other hunk"
+msgstr "Немає інших шматків для переходу"
 
-msgid "No next hunk"
-msgstr "Немає наступного шматка"
+msgid "No other undecided hunk"
+msgstr ""
 
 msgid "No other hunks to goto"
 msgstr "Немає інших шматків для переходу"
@@ -2377,15 +2380,22 @@ msgstr "Мінімальна кількість обʼєктів для запи
 msgid "Restrict the missing objects to the current sparse-checkout"
 msgstr "Обмежити відсутні обʼєкти поточним розрідженим переходом"
 
+#, fuzzy
 msgid ""
-"git bisect start [--term-(new|bad)=<term> --term-(old|good)=<term>]    [--no-"
-"checkout] [--first-parent] [<bad> [<good>...]] [--]    [<pathspec>...]"
+"git bisect start [--term-(bad|new)=<term-new> --term-(good|old)=<term-old>]\n"
+"                 [--no-checkout] [--first-parent] [<bad> [<good>...]] [--] "
+"[<pathspec>...]"
 msgstr ""
 "git bisect start [--term-(new,bad)=<термін> --term-(old,good)=<термін>]    "
 "[--no-checkout] [--first-parent] [<поганий> [<добрий>...]] [--]    "
 "[<визначник шляху>...]"
 
-msgid "git bisect (good|bad) [<rev>...]"
+#, fuzzy
+msgid "git bisect (bad|new|<term-new>) [<rev>]"
+msgstr "git bisect (добрий|поганий) [<ревізія>...]"
+
+#, fuzzy
+msgid "git bisect (good|old|<term-old>) [<rev>...]"
 msgstr "git bisect (добрий|поганий) [<ревізія>...]"
 
 msgid "git bisect skip [(<rev>|<range>)...]"
@@ -5628,6 +5638,14 @@ msgstr "пройдено через %lu комітів\n"
 msgid "found %i tags; gave up search at %s\n"
 msgstr "знайдено %i тегів; припинено пошук на %s\n"
 
+#, fuzzy, c-format
+msgid "cannot search for blob '%s' on an unborn branch"
+msgstr "повідомлення: %s вказує на ненароджену гілку (%s)"
+
+#, fuzzy, c-format
+msgid "blob '%s' not reachable from HEAD"
+msgstr "показати ревізії, недоступні з інших джерел"
+
 #, c-format
 msgid "describe %s\n"
 msgstr "описати %s\n"
@@ -5771,6 +5789,9 @@ msgstr "неприпустима опція %s"
 msgid "%s...%s: no merge base"
 msgstr "%s...%s: немає бази злиття"
 
+msgid "cannot come back to cwd"
+msgstr "неможливо повернутися до поточної робочої директорії"
+
 msgid "Not a git repository"
 msgstr "Не є git сховищем"
 
@@ -5880,9 +5901,132 @@ msgstr "не надана <команда> для --extcmd=<команда>"
 msgid "git fast-export [<rev-list-opts>]"
 msgstr "git fast-export [<rev-list-опції>]"
 
-msgid "Error: Cannot export nested tags unless --mark-tags is specified."
+#, fuzzy, c-format
+msgid "unknown %s mode: %s"
+msgstr "невідомий порт %s"
+
+#, fuzzy, c-format
+msgid "unknown tag-of-filtered mode: %s"
+msgstr "невідома назва поля: %.*s"
+
+#, fuzzy, c-format
+msgid "unknown reencoding mode: %s"
+msgstr "Невідомий режим перебазування-злиття: %s"
+
+#, fuzzy, c-format
+msgid "could not read blob %s"
+msgstr "не вдалося прочитати об’єкт %s"
+
+#, fuzzy, c-format
+msgid "oid mismatch in blob %s"
+msgstr "невідповідність хешу %s"
+
+#, fuzzy, c-format
+msgid "could not write blob '%s'"
+msgstr "не вдалося записати в \"%s\""
+
+#, fuzzy, c-format
+msgid "unexpected comparison status '%c' for %s, %s"
+msgstr "неочікуваний статус diff %c"
+
+#, fuzzy
+msgid "none"
+msgstr "(нічого)"
+
+#, fuzzy, c-format
+msgid "could not find author in commit %s"
+msgstr "не вдалося знайти коміт %s"
+
+#, fuzzy, c-format
+msgid "could not find committer in commit %s"
+msgstr "не вдалося знайти коміт %s"
+
+#, c-format
+msgid ""
+"encountered commit-specific encoding %.*s in commit %s; use --reencode=[yes|"
+"no] to handle it"
+msgstr ""
+
+#, c-format
+msgid "encountered signed commit %s; use --signed-commits=<mode> to handle it"
+msgstr ""
+
+#, c-format
+msgid "exporting %<PRIuMAX> signature(s) for commit %s"
+msgstr ""
+
+#, c-format
+msgid "stripping signature(s) from commit %s"
+msgstr ""
+
+#, c-format
+msgid ""
+"omitting tag %s,\n"
+"since tags of trees (or tags of tags of trees, etc.) are not supported."
+msgstr ""
+
+#, fuzzy, c-format
+msgid "could not read tag %s"
+msgstr "не вдалося прочитати посилання %s"
+
+#, c-format
+msgid "encountered signed tag %s; use --signed-tags=<mode> to handle it"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "exporting signed tag %s"
+msgstr "вибрати обробку підписаних тегів"
+
+#, fuzzy, c-format
+msgid "stripping signature from tag %s"
+msgstr "Формати криптографічного підпису Git"
+
+#, c-format
+msgid ""
+"tag %s tags unexported object; use --tag-of-filtered-object=<mode> to handle "
+"it"
+msgstr ""
+
+#, fuzzy
+msgid "cannot export nested tags unless --mark-tags is specified."
 msgstr ""
 "Помилка: неможливо експортувати вкладені теги, якщо не вказано --mark-tags."
+
+#, c-format
+msgid "tag %s points nowhere?"
+msgstr ""
+
+#, c-format
+msgid "%s: unexpected object of type %s, skipping."
+msgstr ""
+
+#, fuzzy, c-format
+msgid "tag points to object of unexpected type %s, skipping."
+msgstr "обʼєкт %s: очікувався тип %s, знайдено %s"
+
+#, fuzzy, c-format
+msgid "unable to open marks file %s for writing."
+msgstr "не вдалося відкрити %s для запису"
+
+#, fuzzy, c-format
+msgid "unable to write marks file %s."
+msgstr "не вдалося записати файл %s"
+
+#, fuzzy, c-format
+msgid "corrupt mark line: %s"
+msgstr "пошкоджена латка у рядку %d"
+
+#, c-format
+msgid "object not found: %s"
+msgstr "обʼєкт не знайдено: %s"
+
+#, fuzzy, c-format
+msgid "not a commit? can't happen: %s"
+msgstr "не діапазон комітів: \"%s\""
+
+#, c-format
+msgid "object %s already has a mark"
+msgstr ""
 
 msgid "--anonymize-map token cannot be empty"
 msgstr "--anonymize-map токен не може бути порожнім"
@@ -5949,29 +6093,467 @@ msgstr "показувати оригінальні ідентифікатори
 msgid "label tags with mark ids"
 msgstr "позначати теги ідентифікаторами позначок"
 
-#, c-format
-msgid "Missing from marks for submodule '%s'"
-msgstr "Відсутні \"від\" позначки для підмодуля \"%s\""
+#, fuzzy, c-format
+msgid "can't write crash report %s"
+msgstr "неможливо записати %s файл \"%s\""
 
 #, c-format
-msgid "Missing to marks for submodule '%s'"
-msgstr "Відсутні \"до\" позначки для підмодуля \"%s\""
+msgid "fast-import: dumping crash report to %s\n"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "mark :%<PRIuMAX> not declared"
+msgstr "%<PRIuMAX> рік"
+
+#, fuzzy, c-format
+msgid "invalid attempt to create duplicate branch: %s"
+msgstr "не вдалося створити директорію %s"
 
 #, c-format
-msgid "Expected 'mark' command, got %s"
-msgstr "Очікувалась команда \"mark\", отримано %s"
+msgid "branch name doesn't conform to Git standards: %s"
+msgstr ""
+
+#, fuzzy
+msgid "internal consistency error creating the index"
+msgstr "Зареєструвати вміст файлу робочого дерева в індексі"
+
+#, fuzzy
+msgid "cannot create keep file"
+msgstr "неможливо прочитати файл пакунка"
+
+#, fuzzy
+msgid "failed to write keep file"
+msgstr "не вдалося створити тимчасовий xml файл"
+
+#, fuzzy
+msgid "cannot store pack file"
+msgstr "неможливо прочитати файл пакунка"
+
+#, fuzzy
+msgid "cannot store index file"
+msgstr "неможливо зберегти файл зворотнього індексу"
+
+#, fuzzy, c-format
+msgid "failed seeking to start of '%s'"
+msgstr "не вдалося виконати stat \"%s\""
+
+#, fuzzy, c-format
+msgid "core Git rejected index %s"
+msgstr "не вдалося записати індекс вільного обʼєкта %s"
+
+#, fuzzy
+msgid "cannot truncate pack to skip duplicate"
+msgstr "неможливо перепакувати для очищення"
+
+#, fuzzy, c-format
+msgid "EOF in data (%<PRIuMAX> bytes remaining)"
+msgstr "Наступна команда для виконання (залишилась %<PRIuMAX> команда):"
+
+#, fuzzy, c-format
+msgid "unexpected deflate failure: %d"
+msgstr "несподіваний кінець файлу"
+
+#, fuzzy, c-format
+msgid "not a tree: %s"
+msgstr "не є об’єктом дерева: %s"
+
+#, fuzzy, c-format
+msgid "can't load tree %s"
+msgstr "неможливо відкрити файл %s"
+
+#, fuzzy, c-format
+msgid "corrupt mode in %s"
+msgstr "пошкоджено вільний обʼєкт \"%s\""
+
+#, fuzzy
+msgid "root cannot be a non-directory"
+msgstr "неможливо відкрити директорію %s"
+
+#, fuzzy
+msgid "empty path component found in input"
+msgstr "порожня команда на вході"
+
+msgid "non-directories cannot have subtrees"
+msgstr ""
 
 #, c-format
-msgid "Expected 'to' command, got %s"
+msgid "dropping %s since it would point to itself (i.e. to %s)"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "branch %s is missing commits."
+msgstr "невірній %s у коміті"
+
+#, c-format
+msgid "not updating %s (new tip %s does not contain %s)"
+msgstr ""
+
+#, c-format
+msgid "unable to create leading directories of %s"
+msgstr "не вдалося створити провідні директорії %s"
+
+#, fuzzy, c-format
+msgid "unable to write marks file %s"
+msgstr "не вдалося записати файл %s"
+
+#, fuzzy, c-format
+msgid "unable to write marks file %s: %s"
+msgstr "не вдалося записати файл %s"
+
+#, c-format
+msgid "unable to write file %s"
+msgstr "не вдалося записати файл %s"
+
+#, fuzzy, c-format
+msgid "expected 'data n' command, found: %s"
 msgstr "Очікувалась команда \"to\", отримано %s"
 
-msgid "Expected format name:filename for submodule rewrite option"
+#, fuzzy, c-format
+msgid "EOF in data (terminator '%s' not found)"
+msgstr "сховище \"%s\" не знайдено"
+
+msgid "data is too large to use in this context"
+msgstr ""
+
+#, c-format
+msgid "EOF in data (%lu bytes remaining)"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "missing < in ident string: %s"
+msgstr "неприпустимий рядок особистості: %s"
+
+#, fuzzy, c-format
+msgid "missing space before < in ident string: %s"
+msgstr "відсутній opt-spec перед прапорцями опції"
+
+#, fuzzy, c-format
+msgid "missing > in ident string: %s"
+msgstr "неприпустимий рядок особистості: %s"
+
+#, fuzzy, c-format
+msgid "missing space after > in ident string: %s"
+msgstr "відсутній рядок автора в коміті %s"
+
+#, fuzzy, c-format
+msgid "invalid raw date \"%s\" in ident: %s"
+msgstr "неприпустимий режим у рядку %d: %s"
+
+#, fuzzy, c-format
+msgid "invalid rfc2822 date \"%s\" in ident: %s"
+msgstr "неприпустимий режим у рядку %d: %s"
+
+#, c-format
+msgid "date in ident must be 'now': %s"
+msgstr ""
+
+#, c-format
+msgid "too large fanout (%u)"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "failed to remove path %s"
+msgstr "не вдалося видалити %s"
+
+#, c-format
+msgid "no value after ':' in mark: %s"
+msgstr ""
+
+#, c-format
+msgid "garbage after mark: %s"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "missing space after mark: %s"
+msgstr "відсутнє значення для \"%s\""
+
+#, fuzzy, c-format
+msgid "invalid %s: %s"
+msgstr "Неприпустимий %s: \"%s\""
+
+#, fuzzy, c-format
+msgid "NUL in %s: %s"
+msgstr "помилка в %s %s: %s"
+
+#, fuzzy, c-format
+msgid "garbage after %s: %s"
+msgstr "відремонтувати: %s: %s"
+
+#, fuzzy, c-format
+msgid "missing space after %s: %s"
+msgstr "відсутній %s %s"
+
+#, fuzzy, c-format
+msgid "corrupt mode: %s"
+msgstr "пошкоджена латка для підмодуля %s"
+
+#, fuzzy, c-format
+msgid "invalid dataref: %s"
+msgstr "неприпустиме посилання: \"%s\""
+
+#, fuzzy, c-format
+msgid "missing space after SHA1: %s"
+msgstr "відсутнє значення для \"%s\""
+
+#, fuzzy, c-format
+msgid "Git links cannot be specified 'inline': %s"
+msgstr "неможливо перевірити жорстке посилання \"%s\""
+
+#, fuzzy, c-format
+msgid "not a commit (actually a %s): %s"
+msgstr "не є комітом: %s"
+
+#, c-format
+msgid "directories cannot be specified 'inline': %s"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "%s not found: %s"
+msgstr "Файл не знайдено: %s"
+
+#, fuzzy
+msgid "tree"
+msgstr "%s дерево"
+
+#, c-format
+msgid "not a %s (actually a %s): %s"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "path %s not in branch"
+msgstr "створити ненароджену гілку"
+
+msgid "can't add a note on empty branch."
+msgstr ""
+
+#, fuzzy, c-format
+msgid "mark :%<PRIuMAX> not a commit"
+msgstr "%<PRIuMAX> місяць тому"
+
+#, fuzzy, c-format
+msgid "not a valid commit: %s"
+msgstr "не є комітом: %s"
+
+#, fuzzy, c-format
+msgid "invalid ref name or SHA1 expression: %s"
+msgstr "Неприпустимий регулярний вираз"
+
+#, c-format
+msgid "not a blob (actually a %s): %s"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "blob not found: %s"
+msgstr "обʼєкт не знайдено: %s"
+
+#, fuzzy, c-format
+msgid "the commit %s is corrupt"
+msgstr "mtimes файл %s пошкоджено"
+
+#, fuzzy, c-format
+msgid "can't create a branch from itself: %s"
+msgstr "неможливо створити асинхронний потік: %s"
+
+#, c-format
+msgid ""
+"expected gpgsig format: 'gpgsig <hash-algo> <signature-format>', got 'gpgsig "
+"%s'"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "unknown git hash algorithm in gpgsig: '%s'"
+msgstr "невідомий хеш-алгоритм \"%s\""
+
+#, fuzzy, c-format
+msgid "invalid signature format in gpgsig: '%s'"
+msgstr "неприпустимий формат дати: %s"
+
+#, fuzzy
+msgid "'unknown' signature format in gpgsig"
+msgstr "невідомий формат зберігання посилань \"%s\""
+
+#, c-format
+msgid "multiple %s signatures found, ignoring additional signature"
+msgstr ""
+
+msgid "parse_one_signature() returned unknown hash algo"
+msgstr ""
+
+#, fuzzy
+msgid "expected committer but didn't get one"
+msgstr "щоcь очікувалось після комбінування:"
+
+msgid "encountered signed commit; use --signed-commits=<mode> to handle it"
+msgstr ""
+
+#, fuzzy
+msgid "stripping a commit signature"
+msgstr "оригінальний коміт \"%s\" має підпис gpg"
+
+msgid "importing a commit signature verbatim"
+msgstr ""
+
+msgid "encountered signed tag; use --signed-tags=<mode> to handle it"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "importing a tag signature verbatim for tag '%s'"
+msgstr "не вдалося записати відʼєднаний підпис до \"%s\""
+
+#, fuzzy, c-format
+msgid "stripping a tag signature for tag '%s'"
+msgstr "не вдалося записати відʼєднаний підпис до \"%s\""
+
+#, fuzzy, c-format
+msgid "expected 'from' command, got '%s'"
+msgstr "Очікувалась команда \"to\", отримано %s"
+
+#, fuzzy
+msgid "can't tag an empty branch."
+msgstr "створити нову гілку"
+
+#, c-format
+msgid "not a valid object: %s"
+msgstr "не є припустимим обʼєктом: %s"
+
+#, fuzzy
+msgid "write to frontend failed"
+msgstr "не вдалося виконати повний запис до віддаленого помічника"
+
+#, fuzzy, c-format
+msgid "can't read object %s"
+msgstr "неможливо прочитати обʼєкт для %s"
+
+#, fuzzy, c-format
+msgid "object %s is a %s but a blob was expected."
+msgstr "обʼєкт %s є %s, а не %s"
+
+#, fuzzy, c-format
+msgid "not a mark: %s"
+msgstr "не є комітом: %s"
+
+#, fuzzy, c-format
+msgid "unknown mark: %s"
+msgstr "невідомий порт %s"
+
+#, c-format
+msgid "garbage after SHA1: %s"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "not a tree-ish: %s"
+msgstr "не є ревізією: \"%s\""
+
+#, fuzzy, c-format
+msgid "can't load object %s"
+msgstr "неможливо прочитати обʼєкт для %s"
+
+#, fuzzy, c-format
+msgid "invalid SHA1 in tag: %s"
+msgstr "неприпустима опція %s"
+
+#, fuzzy, c-format
+msgid "invalid SHA1 in commit: %s"
+msgstr "неприпустимий коміт %s"
+
+#, fuzzy, c-format
+msgid "missing from marks for submodule '%s'"
+msgstr "Відсутні \"від\" позначки для підмодуля \"%s\""
+
+#, fuzzy, c-format
+msgid "missing to marks for submodule '%s'"
+msgstr "Відсутні \"до\" позначки для підмодуля \"%s\""
+
+#, fuzzy, c-format
+msgid "missing space after tree-ish: %s"
+msgstr "відсутня назва гілки; спробуйте -%c"
+
+#, fuzzy, c-format
+msgid "not in a commit: %s"
+msgstr "не є комітом: %s"
+
+#, fuzzy, c-format
+msgid "expected 'mark' command, got %s"
+msgstr "Очікувалась команда \"mark\", отримано %s"
+
+#, fuzzy, c-format
+msgid "expected 'to' command, got %s"
+msgstr "Очікувалась команда \"to\", отримано %s"
+
+msgid "only one import-marks command allowed per stream"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "unknown --date-format argument %s"
+msgstr "невідомий --mirror аргумент: %s"
+
+#, fuzzy, c-format
+msgid "%s: argument must be a non-negative integer"
+msgstr "%s має бути невідʼємним значенням"
+
+#, c-format
+msgid "--depth cannot exceed %u"
+msgstr ""
+
+#, c-format
+msgid "--cat-blob-fd cannot exceed %d"
+msgstr ""
+
+#, fuzzy
+msgid "expected format name:filename for submodule rewrite option"
 msgstr "Очікуваний формат назва:назва файлу для параметра перезапису підмодуля"
+
+#, c-format
+msgid "max-pack-size is now in bytes, assuming --max-pack-size=%lum"
+msgstr ""
+
+#, fuzzy
+msgid "minimum max-pack-size is 1 MiB"
+msgstr "мінімальний розмір пакунка - 1 МіБ"
+
+#, fuzzy, c-format
+msgid "unknown --signed-commits mode '%s'"
+msgstr "невідомий коміт %s"
+
+#, fuzzy, c-format
+msgid "unknown --signed-tags mode '%s'"
+msgstr "Невідомий режим перебазування-злиття: %s"
 
 #, c-format
 msgid "feature '%s' forbidden in input without --allow-unsafe-features"
 msgstr ""
 "особливість \"%s\" не можна використовувати без --allow-unsafe-features"
+
+#, c-format
+msgid "got feature command '%s' after data command"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "this version of fast-import does not support feature %s."
+msgstr "сервер не підтримує особливість \"%s\""
+
+#, c-format
+msgid "got option command '%s' after data command"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "this version of fast-import does not support option: %s"
+msgstr "http засіб передачі не підтримує %s"
+
+#, c-format
+msgid "unknown option %s"
+msgstr "невідома опція %s"
+
+#, fuzzy, c-format
+msgid "unknown option --%s"
+msgstr "невідома опція %s"
+
+#, fuzzy, c-format
+msgid "unsupported command: %s"
+msgstr "непідтримуваний формат обʼєкту: %s"
+
+msgid "stream ends early"
+msgstr ""
 
 #, c-format
 msgid "Lockfile created but not reported: %s"
@@ -6110,6 +6692,22 @@ msgstr ""
 "якщо ви не хочете бачити це повідомлення. Зокрема, виконання\n"
 "\"git config set remote.%s.followRemoteHEAD warn-if-not-branch-%s\"\n"
 "вимкне попередження, доки віддалене призначення не змінить HEAD на щось інше."
+
+msgid ""
+"You're on a case-insensitive filesystem, and the remote you are\n"
+"trying to fetch from has references that only differ in casing. It\n"
+"is impossible to store such references with the 'files' backend. You\n"
+"can either accept this as-is, in which case you won't be able to\n"
+"store all remote references on disk. Or you can alternatively\n"
+"migrate your repository to use the 'reftable' backend with the\n"
+"following command:\n"
+"\n"
+"    git refs migrate --ref-format=reftable\n"
+"\n"
+"Please keep in mind that not all implementations of Git support this\n"
+"new format yet. So if you use tools other than Git to access this\n"
+"repository it may not be an option to migrate to reftables.\n"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -6358,21 +6956,6 @@ msgstr "використовувати <назва> замість реальн�
 msgid "file to read from"
 msgstr "файл, з якого читати"
 
-msgid "git for-each-ref [<options>] [<pattern>]"
-msgstr "git for-each-ref [<опції>] [<шаблон>]"
-
-msgid "git for-each-ref [--points-at <object>]"
-msgstr "git for-each-ref [--points-at <обʼєкт>]"
-
-msgid "git for-each-ref [--merged [<commit>]] [--no-merged [<commit>]]"
-msgstr "git for-each-ref [--merged [<коміт>]] [--no-merged [<коміт>]]"
-
-msgid "git for-each-ref [--contains [<commit>]] [--no-contains [<commit>]]"
-msgstr "git for-each-ref [--contains [<коміт>]] [--no-contains [<коміт>]]"
-
-msgid "git for-each-ref [--start-after <marker>]"
-msgstr "git for-each-ref [--start-after <маркер>]"
-
 msgid "quote placeholders suitably for shells"
 msgstr "заповнювачі лапок для shell"
 
@@ -6427,6 +7010,10 @@ msgstr "невідомі аргументи надані через --stdin"
 
 msgid "cannot use --start-after with patterns"
 msgstr "неможливо використовувати --start-after із шаблонами"
+
+#, fuzzy
+msgid "git for-each-ref "
+msgstr "git for-each-ref [--points-at <обʼєкт>]"
 
 msgid "git for-each-repo --config=<config> [--] <arguments>"
 msgstr "git for-each-repo --config=<конфіг> [--] <аргументи>"
@@ -6904,6 +7491,10 @@ msgid ""
 msgstr ""
 "пропуск incremental-repack завдання, оскільки core.multiPackIndex вимкнено"
 
+#, fuzzy
+msgid "failed to perform geometric repack"
+msgstr "не вдалося виконати попереднє отримання з віддалених сховищ"
+
 #, c-format
 msgid "task '%s' failed"
 msgstr "завдання \"%s\" завершилося невдало"
@@ -6911,6 +7502,10 @@ msgstr "завдання \"%s\" завершилося невдало"
 #, c-format
 msgid "lock file '%s' exists, skipping maintenance"
 msgstr "файл блокування \"%s\" існує, пропуск обслуговування"
+
+#, fuzzy, c-format
+msgid "unknown maintenance strategy: '%s'"
+msgstr "невідома стратегія злиття нотаток %s"
 
 #, c-format
 msgid "'%s' is not a valid task"
@@ -7786,6 +8381,30 @@ msgstr "--trailer з --only-input не має сенсу"
 msgid "no input file given for in-place editing"
 msgstr "не надано вхідного файлу для редагування на місці"
 
+msgid "last-modified can only operate on one tree at a time"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "unknown last-modified argument: %s"
+msgstr "невідомий --mirror аргумент: %s"
+
+#, fuzzy
+msgid "unable to setup last-modified"
+msgstr "не вдалося розібрати режим: %s"
+
+#, fuzzy
+msgid ""
+"git last-modified [--recursive] [--show-trees] [<revision-range>] [[--] "
+"<path>...]"
+msgstr "git log [<опції>] [<діапазон-ревізій>] [[--] <шлях>...]"
+
+msgid "recurse into subtrees"
+msgstr "рекурсивно в піддеревах"
+
+#, fuzzy
+msgid "show tree entries when recursing into subtrees"
+msgstr "відображати дерева при рекурсії"
+
 msgid "git log [<options>] [<revision-range>] [[--] <path>...]"
 msgstr "git log [<опції>] [<діапазон-ревізій>] [[--] <шлях>...]"
 
@@ -7823,6 +8442,15 @@ msgstr ""
 
 msgid "-L<range>:<file> cannot be used with pathspec"
 msgstr "-L<діапазон>:<файл> не можна використовувати з визначником шляху"
+
+msgid ""
+"\n"
+"hint: You can replace 'git whatchanged <opts>' with:\n"
+"hint:\tgit log <opts> --raw --no-merges\n"
+"hint: Or make an alias:\n"
+"hint:\tgit config set --global alias.whatchanged 'log --raw --no-merges'\n"
+"\n"
+msgstr ""
 
 #, c-format
 msgid "git show %s: bad file"
@@ -8267,9 +8895,6 @@ msgstr "git ls-tree [<опції>] <деревоподібне-джерело> [
 msgid "only show trees"
 msgstr "показувати тільки дерева"
 
-msgid "recurse into subtrees"
-msgstr "рекурсивно в піддеревах"
-
 msgid "show trees when recursing"
 msgstr "відображати дерева при рекурсії"
 
@@ -8417,10 +9042,6 @@ msgstr "об’єкт \"%s\" не існує"
 
 msgid "Could not write object file"
 msgstr "Не вдалося записати файл обʼєкта"
-
-#, c-format
-msgid "unknown option %s"
-msgstr "невідома опція %s"
 
 #, c-format
 msgid "could not parse object '%s'"
@@ -8590,10 +9211,6 @@ msgstr "не вдалося виконати stash."
 
 msgid "stash failed"
 msgstr "не вдалося додати до схову"
-
-#, c-format
-msgid "not a valid object: %s"
-msgstr "не є припустимим обʼєктом: %s"
 
 msgid "read-tree failed"
 msgstr "read-tree завершився невдало"
@@ -9740,27 +10357,9 @@ msgstr ""
 "Всього %<PRIu32> (дельта %<PRIu32>), повторно використано %<PRIu32> (дельта "
 "%<PRIu32>), повторно використано пакунків %<PRIu32> (з %<PRIuMAX>)"
 
-msgid ""
-"git pack-refs [--all] [--no-prune] [--auto] [--include <pattern>] [--exclude "
-"<pattern>]"
-msgstr ""
-"git pack-refs [--all] [--no-prune] [--auto] [--include <шаблон>] [--exclude "
-"<шаблон>]"
-
-msgid "pack everything"
-msgstr "запакувати все"
-
-msgid "prune loose refs (default)"
-msgstr "видалити вивільнені посилання (за замовчуванням)"
-
-msgid "auto-pack refs as needed"
-msgstr "автопакування посилань за потреби"
-
-msgid "references to include"
-msgstr "посилання для включення"
-
-msgid "references to exclude"
-msgstr "посилання для виключення"
+#, fuzzy
+msgid "git pack-refs "
+msgstr "показати заміни посилань"
 
 msgid "git patch-id [--stable | --unstable | --verbatim]"
 msgstr "git patch-id [--stable | --unstable | --verbatim]"
@@ -10285,6 +10884,10 @@ msgstr "git range-diff [<опції>] <стара-верхівка>...<нова-
 msgid "git range-diff [<options>] <base> <old-tip> <new-tip>"
 msgstr "git range-diff [<опції>] <база> <стара-верхівка> <нова-верхівка>"
 
+#, fuzzy, c-format
+msgid "invalid max-memory value: %s"
+msgstr "неприпустиме значення кольору: %.*s"
+
 msgid "use simple diff colors"
 msgstr "використовувати прості кольори diff"
 
@@ -10293,6 +10896,12 @@ msgstr "нотатки"
 
 msgid "passed to 'git log'"
 msgstr "передано до \"git log\""
+
+msgid "size"
+msgstr ""
+
+msgid "maximum memory for cost matrix (default 4G)"
+msgstr ""
 
 msgid "only emit output related to the first range"
 msgstr "видати тільки вивід, що відноситься до першого діапазону"
@@ -10859,6 +11468,22 @@ msgstr "git reflog [show] [<лог-опції>] [<посилання>]"
 msgid "git reflog list"
 msgstr "git reflog list"
 
+msgid "git reflog exists <ref>"
+msgstr "git reflog exists <посилання>"
+
+msgid "git reflog write <ref> <old-oid> <new-oid> <message>"
+msgstr ""
+
+msgid ""
+"git reflog delete [--rewrite] [--updateref]\n"
+"                  [--dry-run | -n] [--verbose] <ref>@{<specifier>}..."
+msgstr ""
+"git reflog delete [--rewrite] [--updateref]\n"
+"                  [--dry-run | -n] [--verbose] <посилання>@{<визначник>}..."
+
+msgid "git reflog drop [--all [--single-worktree] | <refs>...]"
+msgstr "git reflog drop [--all [--single-worktree] | <посилання>...]"
+
 msgid ""
 "git reflog expire [--expire=<time>] [--expire-unreachable=<time>]\n"
 "                  [--rewrite] [--updateref] [--stale-fix]\n"
@@ -10869,19 +11494,6 @@ msgstr ""
 "                  [--rewrite] [--updateref] [--stale-fix]\n"
 "                  [--dry-run | -n] [--verbose] [--all [--single-worktree] | "
 "<посилання>...]"
-
-msgid ""
-"git reflog delete [--rewrite] [--updateref]\n"
-"                  [--dry-run | -n] [--verbose] <ref>@{<specifier>}..."
-msgstr ""
-"git reflog delete [--rewrite] [--updateref]\n"
-"                  [--dry-run | -n] [--verbose] <посилання>@{<визначник>}..."
-
-msgid "git reflog exists <ref>"
-msgstr "git reflog exists <посилання>"
-
-msgid "git reflog drop [--all [--single-worktree] | <refs>...]"
-msgstr "git reflog drop [--all [--single-worktree] | <посилання>...]"
 
 #, c-format
 msgid "invalid timestamp '%s' given to '--%s'"
@@ -10950,11 +11562,50 @@ msgstr "видаляти журнали посилань лише з поточ�
 msgid "references specified along with --all"
 msgstr "посилання, вказані разом з --all"
 
+#, fuzzy, c-format
+msgid "invalid reference name: %s"
+msgstr "неприпустиме посилання: %s"
+
+#, fuzzy, c-format
+msgid "invalid old object ID: '%s'"
+msgstr "неприпустимий об’єкт: %s"
+
+#, fuzzy, c-format
+msgid "old object '%s' does not exist"
+msgstr "об’єкт \"%s\" не існує"
+
+#, fuzzy, c-format
+msgid "invalid new object ID: '%s'"
+msgstr "неприпустимий об’єкт: %s"
+
+#, fuzzy, c-format
+msgid "new object '%s' does not exist"
+msgstr "об’єкт \"%s\" не існує"
+
+#, fuzzy, c-format
+msgid "cannot start transaction: %s"
+msgstr "неможливо запустити проксі %s"
+
+#, fuzzy, c-format
+msgid "cannot queue reflog update: %s"
+msgstr "не є журналом посилань: %s"
+
+#, fuzzy, c-format
+msgid "cannot commit reflog update: %s"
+msgstr "не діапазон комітів: \"%s\""
+
 msgid "git refs migrate --ref-format=<format> [--no-reflog] [--dry-run]"
 msgstr "git refs migrate --ref-format=<формат> [--no-reflog] [--dry-run]"
 
 msgid "git refs verify [--strict] [--verbose]"
 msgstr "git refs verify [--strict] [--verbose]"
+
+#, fuzzy
+msgid "git refs exists <ref>"
+msgstr "git reflog exists <посилання>"
+
+msgid "git refs optimize "
+msgstr ""
 
 msgid "specify the reference format to convert to"
 msgstr "вкажіть формат посилання, в який потрібно конвертувати"
@@ -10977,6 +11628,19 @@ msgstr "увімкнути сувору перевірку"
 
 msgid "'git refs verify' takes no arguments"
 msgstr "\"git refs verify\" не потребує аргументів"
+
+#, fuzzy
+msgid "git refs list "
+msgstr "git reflog list"
+
+msgid "'git refs exists' requires a reference"
+msgstr ""
+
+msgid "reference does not exist"
+msgstr "посилання не існує"
+
+msgid "failed to look up reference"
+msgstr "не вдалося знайти посилання"
 
 msgid ""
 "git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--"
@@ -11139,6 +11803,16 @@ msgstr ""
 "\t%s:%d\n"
 "тепер називає неіснуюче віддалене посилання \"%s\""
 
+msgid ""
+"The remote you are trying to rename has conflicting references in the\n"
+"new target refspec. This is most likely caused by you trying to nest\n"
+"a remote into itself, e.g. by renaming 'parent' into 'parent/child'\n"
+"or by unnesting a remote, e.g. the other way round.\n"
+"\n"
+"If that is the case, you can address this by first renaming the\n"
+"remote to a different name.\n"
+msgstr ""
+
 #, c-format
 msgid "No such remote: '%s'"
 msgstr "Немає такого віддаленого призначення: \"%s\""
@@ -11146,6 +11820,13 @@ msgstr "Немає такого віддаленого призначення: \
 #, c-format
 msgid "Could not rename config section '%s' to '%s'"
 msgstr "Не вдалося перейменувати розділ конфігурації з \"%s\" на \"%s\""
+
+msgid "Renaming remote references"
+msgstr "Перейменування віддалених посилань"
+
+#, fuzzy, c-format
+msgid "queueing remote ref renames failed: %s"
+msgstr "не вдалося отримати посилання %s: %s"
 
 #, c-format
 msgid ""
@@ -11157,16 +11838,9 @@ msgstr ""
 "%s\n"
 "Будь ласка, за потреби оновіть конфігурацію вручну."
 
-msgid "Renaming remote references"
-msgstr "Перейменування віддалених посилань"
-
-#, c-format
-msgid "deleting '%s' failed"
-msgstr "не вдалося видалити \"%s\""
-
-#, c-format
-msgid "creating '%s' failed"
-msgstr "не вдалося створити \"%s\""
+#, fuzzy, c-format
+msgid "renaming remote refs failed: %s"
+msgstr "не вдалося прочитати бісекційні посилання"
 
 msgid ""
 "Note: A branch outside the refs/remotes/ hierarchy was not removed;\n"
@@ -11456,47 +12130,6 @@ msgstr ""
 "параметром\n"
 "--no-write-bitmap-index або вимкніть конфігурацію pack.writeBitmaps."
 
-msgid "could not start pack-objects to repack promisor objects"
-msgstr "не вдалося розпочати pack-objects для перепакування promisor обʼєктів"
-
-msgid "failed to feed promisor objects to pack-objects"
-msgstr "не вдалося передати promisor обʼєкти обʼєктам пакунків"
-
-msgid "repack: Expecting full hex object ID lines only from pack-objects."
-msgstr ""
-"перепакування: очікуються повні рядки hex ідентифікаторів обʼєктів тільки "
-"від pack-objects."
-
-msgid "could not finish pack-objects to repack promisor objects"
-msgstr "не вдалося завершити pack-objects для перепакування promisor обʼєктів"
-
-#, c-format
-msgid "cannot open index for %s"
-msgstr "неможливо відкрити індекс для %s"
-
-#, c-format
-msgid "pack %s too large to consider in geometric progression"
-msgstr "пакунок %s занадто великий, щоб враховувати в геометричній прогресії"
-
-#, c-format
-msgid "pack %s too large to roll up"
-msgstr "пакунок %s занадто великий для згортання"
-
-#, c-format
-msgid "could not open tempfile %s for writing"
-msgstr "не вдалося відкрити тимчасовий файл %s для запису"
-
-msgid "could not close refs snapshot tempfile"
-msgstr "не вдалося закрити тимчасовий файл знімка посилань"
-
-#, c-format
-msgid "could not remove stale bitmap: %s"
-msgstr "не вдалося видалити застарілий bitmap: %s"
-
-#, c-format
-msgid "pack prefix %s does not begin with objdir %s"
-msgstr "префікс пакунку %s не починається з objdir %s"
-
 msgid "pack everything in a single pack"
 msgstr "запакувати все в один пакунок"
 
@@ -11593,18 +12226,6 @@ msgstr "опція \"%s\" може бути використана тільки 
 
 msgid "Nothing new to pack."
 msgstr "Немає нічого нового для пакування."
-
-#, c-format
-msgid "renaming pack to '%s' failed"
-msgstr "перейменування пакунка на \"%s\" завершилося невдало"
-
-#, c-format
-msgid "pack-objects did not write a '%s' file for pack %s-%s"
-msgstr "pack-objects не записав файл \"%s\" для пакунка %s-%s"
-
-#, c-format
-msgid "could not unlink: %s"
-msgstr "не вдалося видалити: %s"
 
 msgid "git replace [-f] <object> <replacement>"
 msgstr "git replace [-f] <обʼєкт> <заміна>"
@@ -11859,6 +12480,75 @@ msgstr "відтворення до кореневого коміту поки �
 
 msgid "replaying merge commits is not supported yet!"
 msgstr "відтворення комітів злиття поки що не підтримується!"
+
+#, fuzzy, c-format
+msgid "key '%s' not found"
+msgstr "тег \"%s\" не знайдено."
+
+#, fuzzy, c-format
+msgid "invalid format '%s'"
+msgstr "неприпустимий шлях \"%s\""
+
+#, fuzzy
+msgid "output format"
+msgstr "Варіанти формату виводу різниці"
+
+#, fuzzy
+msgid "synonym for --format=nul"
+msgstr "те ж саме, що й --continue"
+
+#, fuzzy
+msgid "unsupported output format"
+msgstr "непідтримуваний формат обʼєкту: %s"
+
+#, fuzzy
+msgid "References"
+msgstr "посилання на сховище"
+
+#, fuzzy
+msgid "Count"
+msgstr "<кількість>"
+
+#, fuzzy
+msgid "Branches"
+msgstr "гілка"
+
+msgid "Tags"
+msgstr ""
+
+#, fuzzy
+msgid "Remotes"
+msgstr "<віддалене-призначення>"
+
+#, fuzzy
+msgid "Others"
+msgstr "Інше"
+
+#, fuzzy
+msgid "Reachable objects"
+msgstr "показати недосяжні об’єкти"
+
+#, fuzzy
+msgid "Commits"
+msgstr "коміт"
+
+msgid "Trees"
+msgstr ""
+
+msgid "Blobs"
+msgstr ""
+
+#, fuzzy
+msgid "Repository structure"
+msgstr "Схема Git сховища"
+
+#, fuzzy
+msgid "Value"
+msgstr "значення"
+
+#, fuzzy
+msgid "Counting references"
+msgstr "Підрахунок обʼєктів, на які є посилання"
 
 msgid ""
 "git rerere [clear | forget <pathspec>... | diff | status | remaining | gc]"
@@ -12462,12 +13152,6 @@ msgstr "git show-ref --exclude-existing[=<шаблон>]"
 msgid "git show-ref --exists <ref>"
 msgstr "git show-ref --exists <посилання>"
 
-msgid "reference does not exist"
-msgstr "посилання не існує"
-
-msgid "failed to look up reference"
-msgstr "не вдалося знайти посилання"
-
 msgid "only show tags (can be combined with --branches)"
 msgstr "показувати тільки теги (можна комбінувати з --branches)"
 
@@ -12495,9 +13179,10 @@ msgstr "не виводити результати у stdout (корисно з 
 msgid "show refs from stdin that aren't in local repository"
 msgstr "показати посилання з stdin, яких немає в локальному сховищі"
 
+#, fuzzy
 msgid ""
 "git sparse-checkout (init | list | set | add | reapply | disable | check-"
-"rules) [<options>]"
+"rules | clean) [<options>]"
 msgstr ""
 "git sparse-checkout (init | list | set | add | reapply | disable | check-"
 "rules) [<опції>]"
@@ -12540,10 +13225,6 @@ msgstr "ініціалізувати розріджений перехід в р
 
 msgid "toggle the use of a sparse index"
 msgstr "перемкнути використання розрідженого індексу"
-
-#, c-format
-msgid "unable to create leading directories of %s"
-msgstr "не вдалося створити провідні директорії %s"
 
 #, c-format
 msgid "failed to open '%s'"
@@ -12626,6 +13307,38 @@ msgid "must be in a sparse-checkout to reapply sparsity patterns"
 msgstr ""
 "має перебувати в розрідженому переході для повторного застосування шаблонів "
 "розрідженості"
+
+#, fuzzy
+msgid "report each affected file, not just directories"
+msgstr "звітувати про заархівовані файли в stderr"
+
+#, fuzzy
+msgid "must be in a sparse-checkout to clean directories"
+msgstr ""
+"має перебувати в розрідженому переході для повторного застосування шаблонів "
+"розрідженості"
+
+#, fuzzy
+msgid "must be in a cone-mode sparse-checkout to clean directories"
+msgstr ""
+"має перебувати в розрідженому переході для повторного застосування шаблонів "
+"розрідженості"
+
+msgid "for safety, refusing to clean without one of --force or --dry-run"
+msgstr ""
+
+#, fuzzy
+msgid "failed to read index"
+msgstr "не вдалося прочитати індекс"
+
+msgid ""
+"failed to convert index to a sparse index; resolve merge conflicts and try "
+"again"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "failed to remove '%s'"
+msgstr "не вдалося видалити %s"
 
 msgid "error while refreshing working directory"
 msgstr "помилка під час оновлення робочої директорії"
@@ -14347,9 +15060,6 @@ msgstr "записати обʼєкт дерева для піддиректор
 msgid "only useful for debugging"
 msgstr "корисно лише для відлагодження"
 
-msgid "core.fsyncMethod = batch is unsupported on this platform"
-msgstr "core.fsyncMethod = batch не підтримується на цій платформі"
-
 #, c-format
 msgid "could not parse bundle list key %s with value '%s'"
 msgstr "не вдалося розібрати ключ списку пакунків %s зі значенням \"%s\""
@@ -14743,6 +15453,9 @@ msgstr "Миттєво переглянути своє робоче сховищ
 msgid "Add or parse structured information in commit messages"
 msgstr "Додати або розібрати структуровану інформацію в дописах до комітів"
 
+msgid "EXPERIMENTAL: Show when files were last modified"
+msgstr ""
+
 msgid "Show commit logs"
 msgstr "Показати журнал коміту"
 
@@ -14866,6 +15579,10 @@ msgstr ""
 "ЕКСПЕРИМЕНТАЛЬНО: Відтворення комітів на новій базі також працює з порожніми "
 "сховищами"
 
+#, fuzzy
+msgid "Retrieve information about the repository"
+msgstr "Зчитує інформацію про дерево в індекс"
+
 msgid "Generates a summary of pending changes"
 msgstr "Створює підсумок змін для розгляду"
 
@@ -14947,7 +15664,8 @@ msgstr "Переключити гілки"
 msgid "Read, modify and delete symbolic refs"
 msgstr "Прочитати, змінити та видалити символьні посилання"
 
-msgid "Create, list, delete or verify a tag object signed with GPG"
+#, fuzzy
+msgid "Create, list, delete or verify tags"
 msgstr ""
 "Створити, показати, видалити або перевірити обʼєкт тегу, підписаний GPG"
 
@@ -15786,6 +16504,35 @@ msgstr "не вдалося розпізнати config blob \"%s\""
 msgid "unable to parse command-line config"
 msgstr "не вдалося розібрати конфігурацію командного рядка"
 
+#, c-format
+msgid ""
+"\n"
+"To use the default comment string (#) please run\n"
+"\n"
+"%s"
+msgstr ""
+
+#, fuzzy
+msgid "<comment string>"
+msgstr "<строка>"
+
+#, c-format
+msgid ""
+"\n"
+"To set a custom comment string please run\n"
+"\n"
+"%s\n"
+"where '%s' is the string you wish to use.\n"
+msgstr ""
+
+#, c-format
+msgid "Support for '%s=auto' has been removed in Git 3.0"
+msgstr ""
+
+#, c-format
+msgid "Support for '%s=auto' is deprecated and will be removed in Git 3.0"
+msgstr ""
+
 msgid "unknown error occurred while reading the configuration files"
 msgstr "невідома помилка виникла під час читання конфігураційних файлів"
 
@@ -16273,6 +17020,13 @@ msgstr "не вдалося додати директорію \"%s\" до арх
 
 msgid "failed to write archive"
 msgstr "не вдалося записати архів"
+
+#, fuzzy
+msgid "max-depth is not supported for worktree diffs"
+msgstr "Аргумент не підтримується для формату \"%s\": -%d"
+
+msgid "max-depth is not supported for index diffs"
+msgstr ""
 
 msgid "--merge-base does not work with ranges"
 msgstr "--merge-base не працює з діапазонами"
@@ -16783,6 +17537,13 @@ msgstr "[(A|C|D|M|R|T|U|X|B)...[*]]"
 msgid "select files by diff type"
 msgstr "вибрати файли за типом різниці"
 
+#, fuzzy
+msgid "<depth>"
+msgstr "глибина"
+
+msgid "maximum tree depth to recurse"
+msgstr ""
+
 msgid "<file>"
 msgstr "<файл>"
 
@@ -16980,10 +17741,6 @@ msgstr "неприпустимий shallow рядок: %s"
 #, c-format
 msgid "invalid unshallow line: %s"
 msgstr "неприпустимий unshallow рядок: %s"
-
-#, c-format
-msgid "object not found: %s"
-msgstr "обʼєкт не знайдено: %s"
 
 #, c-format
 msgid "error in object: %s"
@@ -17267,6 +18024,10 @@ msgstr "порожній псевдонім для %s"
 msgid "recursive alias: %s"
 msgstr "рекурсивний псевдонім: %s"
 
+#, c-format
+msgid "alias loop detected: expansion of '%s' does not terminate:%s"
+msgstr "виявлено цикл псевдонімів: розширення \"%s\" не припиняє:%s"
+
 msgid "write failure on standard output"
 msgstr "помилка запису в стандартний вивід"
 
@@ -17275,10 +18036,6 @@ msgstr "невідома помилка запису в стандартний �
 
 msgid "close failed on standard output"
 msgstr "не вдалося закрити стандартний вивід"
-
-#, c-format
-msgid "alias loop detected: expansion of '%s' does not terminate:%s"
-msgstr "виявлено цикл псевдонімів: розширення \"%s\" не припиняє:%s"
 
 #, c-format
 msgid "cannot handle %s as a builtin"
@@ -17331,10 +18088,18 @@ msgstr "невірний/несумісний підпис \"%s\""
 msgid "failed to get the ssh fingerprint for key '%s'"
 msgstr "не вдалося отримати ssh відбиток для ключа \"%s\""
 
+#, fuzzy, c-format
+msgid "failed to get the ssh fingerprint for key %s"
+msgstr "не вдалося отримати ssh відбиток для ключа \"%s\""
+
 msgid ""
 "either user.signingkey or gpg.ssh.defaultKeyCommand needs to be configured"
 msgstr ""
 "потрібно налаштувати або user.signingkey, або gpg.ssh.defaultKeyCommand"
+
+#, fuzzy, c-format
+msgid "malformed build-time gpg.ssh.defaultKeyCommand: %s"
+msgstr "gpg.ssh.defaultKeyCommand завершився невдало: %s %s"
 
 #, c-format
 msgid "gpg.ssh.defaultKeyCommand succeeded but returned no keys: %s %s"
@@ -17600,6 +18365,11 @@ msgstr ""
 "не вдалося оновити базу url з перенаправлення:\n"
 "  запитували: %s\n"
 "   перенаправлення: %s"
+
+#, c-format
+msgid ""
+"number too large to represent as curl_off_t on this platform: %<PRIuMAX>"
+msgstr ""
 
 msgid "Author identity unknown\n"
 msgstr "Особистість автора невідома\n"
@@ -18060,10 +18830,6 @@ msgid "could not load pack"
 msgstr "не вдалося завантажити пакунок"
 
 #, c-format
-msgid "could not open index for %s"
-msgstr "не вдалося відкрити індекс для %s"
-
-#, c-format
 msgid "unable to link '%s' to '%s'"
 msgstr "не вдалося звʼязати \"%s\" з \"%s\""
 
@@ -18085,6 +18851,10 @@ msgstr "Додавання пакунків до multi-pack-index"
 #, c-format
 msgid "unknown preferred pack: '%s'"
 msgstr "невідомий бажаний пакунок: \"%s\""
+
+#, fuzzy, c-format
+msgid "failed to open preferred pack %s"
+msgstr "не вдалося відкрити pack-index \"%s\""
 
 #, c-format
 msgid "cannot select preferred pack %s with no objects"
@@ -18109,6 +18879,10 @@ msgstr "не вдалося створити тимчасовий шар MIDX"
 
 msgid "could not write multi-pack bitmap"
 msgstr "не вдалося записати мультіпакунковий bitmap"
+
+#, fuzzy
+msgid "too many multi-pack-indexes"
+msgstr "Записати і перевірити multi-pack-indexes"
 
 msgid "unable to open multi-pack-index chain file"
 msgstr "не вдалося відкрити ланцюжковий файл multi-pack-index"
@@ -18378,16 +19152,15 @@ msgid "files '%s' and '%s' differ in contents"
 msgstr "файли \"%s\" та \"%s\" відрізняються за вмістом"
 
 #, c-format
-msgid "unable to write file %s"
-msgstr "не вдалося записати файл %s"
-
-#, c-format
 msgid "unable to write repeatedly vanishing file %s"
 msgstr "не вдалося записати файл %s, який постійно зникає"
 
 #, c-format
 msgid "unable to set permission to '%s'"
 msgstr "не вдалося встановити дозволи для \"%s\""
+
+msgid "core.fsyncMethod = batch is unsupported on this platform"
+msgstr "core.fsyncMethod = batch не підтримується на цій платформі"
 
 msgid "error when closing loose object file"
 msgstr "помилка при закритті файла вільного об’єкта"
@@ -18898,6 +19671,21 @@ msgstr "mtimes файл %s має непідтримуваний хеш-іден
 msgid "mtimes file %s is corrupt"
 msgstr "mtimes файл %s пошкоджено"
 
+msgid "pack everything"
+msgstr "запакувати все"
+
+msgid "prune loose refs (default)"
+msgstr "видалити вивільнені посилання (за замовчуванням)"
+
+msgid "auto-pack refs as needed"
+msgstr "автопакування посилань за потреби"
+
+msgid "references to include"
+msgstr "посилання для включення"
+
+msgid "references to exclude"
+msgstr "посилання для виключення"
+
 #, c-format
 msgid "reverse-index file %s is too small"
 msgstr "файл зворотного індексу %s занадто малий"
@@ -19326,6 +20114,10 @@ msgstr "назва віддаленого promisor не може починат�
 msgid "could not fetch %s from promisor remote"
 msgstr "не вдалося отримати %s з віддаленого promisor"
 
+#, fuzzy, c-format
+msgid "unsupported field '%s' in '%s' config"
+msgstr "непідтримувана версія індексу %s"
+
 #, c-format
 msgid "no or empty URL advertised for remote '%s'"
 msgstr "відсутній або пустий обіцяний URL для віддаленого \"%s\""
@@ -19336,13 +20128,17 @@ msgstr ""
 "відоме віддалене призначення з імʼям \"%s\", але з URL-адресою \"%s\" "
 "замість \"%s\""
 
+#, fuzzy, c-format
+msgid "invalid element '%s' from remote info"
+msgstr "невідомий елемент \"%s\" з віддаленої інформації"
+
+#, c-format
+msgid "server advertised a promisor remote without a name or URL: %s"
+msgstr ""
+
 #, c-format
 msgid "unknown '%s' value for '%s' config option"
 msgstr "невідоме значення \"%s\" для параметра конфігурації \"%s\""
-
-#, c-format
-msgid "unknown element '%s' from remote info"
-msgstr "невідомий елемент \"%s\" з віддаленої інформації"
 
 #, c-format
 msgid "accepted promisor remote '%s' not found"
@@ -19437,6 +20233,13 @@ msgstr "не вдалося розібрати git заголовок \"%.*s\""
 
 msgid "failed to generate diff"
 msgstr "не вдалося згенерувати різницю"
+
+#, c-format
+msgid ""
+"range-diff: unable to compute the range-diff, since it exceeds the maximum "
+"memory for the cost matrix: %s (%<PRIuMAX> bytes) needed, limited to %s "
+"(%<PRIuMAX> bytes)"
+msgstr ""
 
 #, c-format
 msgid "could not parse log for '%s'"
@@ -19965,6 +20768,9 @@ msgstr "не є журналом посилань: %s"
 msgid "no reflog for '%s'"
 msgstr "немає журналу посилань для \"%s\""
 
+msgid "Checking references consistency"
+msgstr "Перевірка співпадіння посилань"
+
 #, c-format
 msgid "%s does not point to a valid object!"
 msgstr "%s не вказує на допустимий обʼєкт!"
@@ -19977,11 +20783,12 @@ msgstr "%s%s стане висячим після видалення %s\n"
 msgid "%s%s has become dangling after %s was deleted\n"
 msgstr "%s%s став висячим після видалення %s\n"
 
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Using '%s' as the name for the initial branch. This default branch name\n"
-"is subject to change. To configure the initial branch name to use in all\n"
-"of your new repositories, which will suppress this warning, call:\n"
+"will change to \"main\" in Git 3.0. To configure the initial branch name\n"
+"to use in all of your new repositories, which will suppress this warning,\n"
+"call:\n"
 "\n"
 "\tgit config --global init.defaultBranch <name>\n"
 "\n"
@@ -20003,6 +20810,15 @@ msgstr ""
 "команди:\n"
 "\n"
 "\tgit branch -m <назва>\n"
+
+#, c-format
+msgid ""
+"Using '%s' as the name for the initial branch since Git 3.0.\n"
+"If you expected Git to create 'master', the just-created\n"
+"branch can be renamed via this command:\n"
+"\n"
+"\tgit branch -m master\n"
+msgstr ""
 
 #, c-format
 msgid "could not retrieve `%s`"
@@ -20089,12 +20905,28 @@ msgstr "не вдалося видалити тимчасову директор
 msgid "migrated refs can be found at '%s'"
 msgstr "перенесені посилання можна знайти в \"%s\""
 
+msgid ""
+"'core.preferSymlinkRefs=true' is nominated for removal.\n"
+"hint: The use of symbolic links for symbolic refs is deprecated\n"
+"hint: and will be removed in Git 3.0. The configuration that\n"
+"hint: tells Git to use them is thus going away. You can unset\n"
+"hint: it with:\n"
+"hint:\n"
+"hint:\tgit config unset core.preferSymlinkRefs\n"
+"hint:\n"
+"hint: Git will then use the textual symref format instead."
+msgstr ""
+
 #, c-format
 msgid ""
 "cannot lock ref '%s': expected symref with target '%s': but is a regular ref"
 msgstr ""
 "неможливо заблокувати посилання \"%s\": очікувалось символьне посилання з "
 "призначенням \"%s\", але це звичайне посилання"
+
+#, fuzzy, c-format
+msgid "trying to write reflog for '%s' with incomplete values"
+msgstr "спроба записати посилання \"%s\" з неіснуючим обʼєктом %s"
 
 #, c-format
 msgid "cannot read ref file '%s'"
@@ -20103,9 +20935,6 @@ msgstr "неможливо прочитати файл посилання \"%s\"
 #, c-format
 msgid "cannot open directory %s"
 msgstr "неможливо відкрити директорію %s"
-
-msgid "Checking references consistency"
-msgstr "Перевірка співпадіння посилань"
 
 #, c-format
 msgid "unable to open '%s'"
@@ -20148,6 +20977,10 @@ msgid ""
 msgstr ""
 "багаторазові оновлення для \"%s\" (включаючи символьні посилання з \"%s\") "
 "не дозволені"
+
+#, fuzzy, c-format
+msgid "cannot lock ref '%s': dangling symref already exists"
+msgstr "неможливо зафіксувати посилання \"%s\": посилання вже існує"
 
 #, c-format
 msgid "cannot lock ref '%s': reference already exists"
@@ -20254,9 +21087,6 @@ msgstr "remote-curl: неочікуваний response end пакет"
 #, c-format
 msgid "RPC failed; %s"
 msgstr "RPC завершився невдало; %s"
-
-msgid "cannot handle pushes this big"
-msgstr "неможливо впоратися з такими великими надсиланнями"
 
 #, c-format
 msgid "cannot deflate request; zlib deflate error %d"
@@ -20449,6 +21279,11 @@ msgstr ""
 "\"%s:refs/tags/%s\"?"
 
 #, c-format
+msgid ""
+"The <src> part of the refspec ('%s') is an object ID that doesn't exist.\n"
+msgstr ""
+
+#, c-format
 msgid "%s cannot be resolved to branch"
 msgstr "%s неможливо розвʼязати в гілку"
 
@@ -20583,6 +21418,59 @@ msgstr "неможливо розібрати очікувану назву об
 #, c-format
 msgid "cannot strip one component off url '%s'"
 msgstr "неможливо вилучити один компонент з url \"%s\""
+
+#, c-format
+msgid "cannot open index for %s"
+msgstr "неможливо відкрити індекс для %s"
+
+#, c-format
+msgid "pack %s too large to consider in geometric progression"
+msgstr "пакунок %s занадто великий, щоб враховувати в геометричній прогресії"
+
+#, c-format
+msgid "pack %s too large to roll up"
+msgstr "пакунок %s занадто великий для згортання"
+
+#, c-format
+msgid "could not open tempfile %s for writing"
+msgstr "не вдалося відкрити тимчасовий файл %s для запису"
+
+msgid "could not close refs snapshot tempfile"
+msgstr "не вдалося закрити тимчасовий файл знімка посилань"
+
+#, c-format
+msgid "could not remove stale bitmap: %s"
+msgstr "не вдалося видалити застарілий bitmap: %s"
+
+msgid "could not start pack-objects to repack promisor objects"
+msgstr "не вдалося розпочати pack-objects для перепакування promisor обʼєктів"
+
+msgid "failed to feed promisor objects to pack-objects"
+msgstr "не вдалося передати promisor обʼєкти обʼєктам пакунків"
+
+msgid "repack: Expecting full hex object ID lines only from pack-objects."
+msgstr ""
+"перепакування: очікуються повні рядки hex ідентифікаторів обʼєктів тільки "
+"від pack-objects."
+
+msgid "could not finish pack-objects to repack promisor objects"
+msgstr "не вдалося завершити pack-objects для перепакування promisor обʼєктів"
+
+#, c-format
+msgid "pack prefix %s does not begin with objdir %s"
+msgstr "префікс пакунку %s не починається з objdir %s"
+
+#, c-format
+msgid "renaming pack to '%s' failed"
+msgstr "перейменування пакунка на \"%s\" завершилося невдало"
+
+#, c-format
+msgid "pack-objects did not write a '%s' file for pack %s-%s"
+msgstr "pack-objects не записав файл \"%s\" для пакунка %s-%s"
+
+#, c-format
+msgid "could not unlink: %s"
+msgstr "не вдалося видалити: %s"
 
 #, c-format
 msgid "bad replace ref name: %s"
@@ -21906,9 +22794,6 @@ msgstr "не є git сховищем: \"%s\""
 msgid "cannot chdir to '%s'"
 msgstr "неможливо змінити директорію на \"%s\""
 
-msgid "cannot come back to cwd"
-msgstr "неможливо повернутися до поточної робочої директорії"
-
 #, c-format
 msgid "failed to stat '%*s%s%s'"
 msgstr "не вдалося записати \"%*s%s%s\""
@@ -22988,20 +23873,23 @@ msgstr "помилка: "
 msgid "warning: "
 msgstr "попередження: "
 
+#, fuzzy, c-format
+msgid "'%s' is nominated for removal.\n"
+msgstr "\"%s\" не є припустимим посиланням."
+
 #, c-format
 msgid ""
-"'%s' is nominated for removal.\n"
-"If you still use this command, please add an extra\n"
-"option, '--i-still-use-this', on the command line\n"
-"and let us know you still use it by sending an e-mail\n"
-"to <git@vger.kernel.org>.  Thanks.\n"
+"If you still use this command, here's what you can do:\n"
+"\n"
+"- read https://git-scm.com/docs/BreakingChanges.html\n"
+"- check if anyone has discussed this on the mailing\n"
+"  list and if they came up with something that can\n"
+"  help you: https://lore.kernel.org/git/?q=%s\n"
+"- send an email to <git@vger.kernel.org> to let us\n"
+"  know that you still use this command and were unable\n"
+"  to determine a suitable replacement\n"
+"\n"
 msgstr ""
-"\"%s\" запропоновано для видалення.\n"
-"Якщо ви все ще використовуєте цю команду, додайте додаткову\n"
-"опцію \"--i-still-use-this\" у командний рядок\n"
-"і повідомте нас про те, що ви все ще її використовуєте, надіславши "
-"електронного листа\n"
-"на адресу <git@vger.kernel.org>.  Дякуємо.\n"
 
 msgid "refusing to run without --i-still-use-this"
 msgstr "відмовлено в запуску без --i-still-use-this"
@@ -23874,6 +24762,10 @@ msgstr "Надіслати цей лист? ([y]es|[n]o|[e]dit|[q]uit|[a]ll): "
 msgid "Send this email reply required"
 msgstr "Відповідь на запитання \"Надіслати цей лист?\" є обовʼязковою"
 
+#, fuzzy
+msgid "The destination IMAP folder is not properly defined."
+msgstr "Потрібний SMTP-сервер не визначено належним чином."
+
 msgid "The required SMTP server is not properly defined."
 msgstr "Потрібний SMTP-сервер не визначено належним чином."
 
@@ -23997,3 +24889,58 @@ msgstr "Пропуск %s з суфіксом резервної копії \"%s
 #, perl-format
 msgid "Do you really want to send %s? [y|N]: "
 msgstr "Ви дійсно хочете відправити %s? [y|N]: "
+
+#~ msgid "No previous hunk"
+#~ msgstr "Немає попереднього шматка"
+
+#~ msgid "No next hunk"
+#~ msgstr "Немає наступного шматка"
+
+#~ msgid "git for-each-ref [<options>] [<pattern>]"
+#~ msgstr "git for-each-ref [<опції>] [<шаблон>]"
+
+#~ msgid "git for-each-ref [--merged [<commit>]] [--no-merged [<commit>]]"
+#~ msgstr "git for-each-ref [--merged [<коміт>]] [--no-merged [<коміт>]]"
+
+#~ msgid "git for-each-ref [--contains [<commit>]] [--no-contains [<commit>]]"
+#~ msgstr "git for-each-ref [--contains [<коміт>]] [--no-contains [<коміт>]]"
+
+#~ msgid "git for-each-ref [--start-after <marker>]"
+#~ msgstr "git for-each-ref [--start-after <маркер>]"
+
+#~ msgid ""
+#~ "git pack-refs [--all] [--no-prune] [--auto] [--include <pattern>] [--"
+#~ "exclude <pattern>]"
+#~ msgstr ""
+#~ "git pack-refs [--all] [--no-prune] [--auto] [--include <шаблон>] [--"
+#~ "exclude <шаблон>]"
+
+#, c-format
+#~ msgid "deleting '%s' failed"
+#~ msgstr "не вдалося видалити \"%s\""
+
+#, c-format
+#~ msgid "creating '%s' failed"
+#~ msgstr "не вдалося створити \"%s\""
+
+#, c-format
+#~ msgid "could not open index for %s"
+#~ msgstr "не вдалося відкрити індекс для %s"
+
+#~ msgid "cannot handle pushes this big"
+#~ msgstr "неможливо впоратися з такими великими надсиланнями"
+
+#, c-format
+#~ msgid ""
+#~ "'%s' is nominated for removal.\n"
+#~ "If you still use this command, please add an extra\n"
+#~ "option, '--i-still-use-this', on the command line\n"
+#~ "and let us know you still use it by sending an e-mail\n"
+#~ "to <git@vger.kernel.org>.  Thanks.\n"
+#~ msgstr ""
+#~ "\"%s\" запропоновано для видалення.\n"
+#~ "Якщо ви все ще використовуєте цю команду, додайте додаткову\n"
+#~ "опцію \"--i-still-use-this\" у командний рядок\n"
+#~ "і повідомте нас про те, що ви все ще її використовуєте, надіславши "
+#~ "електронного листа\n"
+#~ "на адресу <git@vger.kernel.org>.  Дякуємо.\n"
