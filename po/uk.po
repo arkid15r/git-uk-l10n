@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Git v2.55\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
-"POT-Creation-Date: 2026-06-16 16:58-0700\n"
+"POT-Creation-Date: 2026-06-27 11:33-0700\n"
 "PO-Revision-Date: 2026-06-27 10:23-0700\n"
 "Last-Translator: Kateryna Golovanova <kate@kgthreads.com>\n"
 "Language-Team: Ukrainian <https://github.com/arkid15r/git-uk-l10n/>\n"
@@ -226,7 +226,7 @@ msgstr "Сховати додавання%s [y,n,q,a,d%s,?]? "
 
 #, c-format
 msgid "Stash this hunk%s [y,n,q,a,d%s,?]? "
-msgstr "Сховати цeй шматок%s [y,n,q,a,d%s,?]? "
+msgstr "Сховати цей шматок%s [y,n,q,a,d%s,?]? "
 
 msgid ""
 "If the patch applies cleanly, the edited hunk will immediately be marked for "
@@ -1683,8 +1683,8 @@ msgid ""
 "We continue anyway."
 msgstr ""
 "базу злиття між %s та [%s] необхідно пропустити.\n"
-"Тому ми не можемо бути впевнені, що перший коміт \"%s\" знаходиться між %s та "
-"%s.\n"
+"Тому ми не можемо бути впевнені, що перший коміт \"%s\" знаходиться між %s "
+"та %s.\n"
 "Все одно продовжуємо."
 
 #, c-format
@@ -1812,10 +1812,12 @@ msgstr ""
 msgid "not tracking: ambiguous information for ref '%s'"
 msgstr "не відстежується: неоднозначна інформація для посилання \"%s\""
 
+#. #-#-#-#-#  branch.c.po  #-#-#-#-#
 #. TRANSLATORS: This is a line listing a remote with duplicate
 #. refspecs in the advice message below. For RTL languages you'll
 #. probably want to swap the "%s" and leading "  " space around.
 #.
+#. #-#-#-#-#  object-name.c.po  #-#-#-#-#
 #. TRANSLATORS: This is line item of ambiguous object output
 #. from describe_ambiguous_object() above. For RTL languages
 #. you'll probably want to swap the "%s" and leading " " space
@@ -2625,7 +2627,8 @@ msgstr[2] "статус: очікування коміту \"%s\", відомо 
 
 #, c-format
 msgid "status: waiting for '%s' commit(s), '%s' commit known\n"
-msgstr "статус: очікується виконання \"%s\" коміт(ів), відомо про \"%s\" коміт\n"
+msgstr ""
+"статус: очікується виконання \"%s\" коміт(ів), відомо про \"%s\" коміт\n"
 
 msgid "no terms defined"
 msgstr "терміни не визначені"
@@ -7268,8 +7271,7 @@ msgid "config key storing a list of repository paths"
 msgstr "ключ конфігурації, в якому зберігається список шляхів до сховищ"
 
 msgid "keep going even if command fails in a repository"
-msgstr ""
-"продовжувати роботу, навіть якщо команда завершилася невдало в сховищі"
+msgstr "продовжувати роботу, навіть якщо команда завершилася невдало в сховищі"
 
 msgid "missing --config=<config>"
 msgstr "відсутній --config=<конфіг>"
@@ -7890,6 +7892,7 @@ msgstr "grep: не вдалося створити потік: %s"
 msgid "invalid number of threads specified (%d) for %s"
 msgstr "невірно вказана кількість потоків (%d) для %s"
 
+#. #-#-#-#-#  grep.c.po  #-#-#-#-#
 #. TRANSLATORS: %s is the configuration
 #. variable for tweaking threads, currently
 #. grep.threads
@@ -8301,8 +8304,8 @@ msgid ""
 "unrecognized '--empty=' action '%s'; valid values are \"drop\", \"keep\", "
 "and \"abort\"."
 msgstr ""
-"нерозпізнана \"--empty=\" операція \"%s\"; допустимі значення: \"drop\", \"keep\" та "
-"\"abort\"."
+"нерозпізнана \"--empty=\" операція \"%s\"; допустимі значення: \"drop\", "
+"\"keep\" та \"abort\"."
 
 msgid "control which refs should be updated"
 msgstr "управління оновленням посилань"
@@ -8827,8 +8830,7 @@ msgid "no input file given for in-place editing"
 msgstr "не надано вхідного файлу для редагування на місці"
 
 msgid "last-modified can only operate on one commit at a time"
-msgstr ""
-"last-modified може працювати тільки з одним деревом за раз"
+msgstr "last-modified може працювати тільки з одним деревом за раз"
 
 #, c-format
 msgid "revision argument '%s' is a %s, not a commit-ish"
@@ -13021,7 +13023,7 @@ msgid ""
 "[--ref=<ref>] [--ref-action=<mode>] <revision-range>"
 msgstr ""
 "(ЕКСПЕРИМЕНТАЛЬНО!) git replay ([--contained] --onto=<нова-база> | --"
-"advance= <гілка> | --revert=<гілка>)\n"
+"advance=<гілка> | --revert=<гілка>)\n"
 "[--ref=<посилання>] [--ref-action=<режим>] <діапазон-ревізій>"
 
 msgid "update all branches that point at commits in <revision-range>"
@@ -14575,8 +14577,9 @@ msgid ""
 "refusing to create/use '%s' in another submodule's git dir. Enabling "
 "extensions.submodulePathConfig should fix this."
 msgstr ""
-"відмовлено в створенні/використанні \"%s\" у git директорії іншого підмодуля. "
-"Увімкнення параметра extensions.submodulePathConfig має це виправити."
+"відмовлено в створенні/використанні \"%s\" у git директорії іншого "
+"підмодуля. Увімкнення параметра extensions.submodulePathConfig має це "
+"виправити."
 
 #, c-format
 msgid "could not get submodule directory for '%s'"
@@ -18440,9 +18443,9 @@ msgstr ""
 "Ви намагаєтеся отримати %s, який знаходиться у файлі коміт-графа, але не в "
 "базі даних обʼєктів.\n"
 "Ймовірно, це повʼязано з пошкодженням сховища.\n"
-"Якщо ви намагаєтеся виправити це пошкодження сховища повторним "
-"отриманням відсутнього обʼєкта, скористайтеся командою \"git fetch --"
-"refetch\" з відсутнім обʼєктом."
+"Якщо ви намагаєтеся виправити це пошкодження сховища повторним отриманням "
+"відсутнього обʼєкта, скористайтеся командою \"git fetch --refetch\" з "
+"відсутнім обʼєктом."
 
 msgid "git fetch-pack: expected shallow list"
 msgstr "git fetch-pack: очікувався неглибокий список"
@@ -19103,7 +19106,7 @@ msgid ""
 "'hook.%s.command' must be configured or 'hook.%s.event' must be removed; "
 "aborting."
 msgstr ""
-"Необхідно налаштувати параметр\"hook.%s.comman\" або видалити параметр "
+"Необхідно налаштувати параметр \"hook.%s.command\" або видалити параметр "
 "\"hook.%s.event\"; переривання."
 
 #, c-format
@@ -19373,8 +19376,8 @@ msgid ""
 "Another git process seems to be running in this repository, or the lock file "
 "may be stale"
 msgstr ""
-"Схоже, у цьому сховищі працює ще один процес Git, або файл блокування "
-"може бути застарілим"
+"Схоже, у цьому сховищі працює ще один процес Git, або файл блокування може "
+"бути застарілим"
 
 #, c-format
 msgid "Unable to create '%s.lock': %s"
@@ -21041,8 +21044,8 @@ msgid ""
 "server advertised a promisor remote without a name or URL: '%s', ignoring "
 "this remote"
 msgstr ""
-"сервер повідомив про віддалений promisor без назви або URL-адреси: \"%s\"; це "
-"віддалене призначеня буде проігноровано"
+"сервер повідомив про віддалений promisor без назви або URL-адреси: \"%s\"; "
+"це віддалене призначеня буде проігноровано"
 
 #, c-format
 msgid ""
