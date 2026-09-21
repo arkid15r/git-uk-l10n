@@ -18870,7 +18870,7 @@ msgid "object-info: expected %<PRIuMAX> attributes, got %<PRIuMAX>"
 msgstr "object-info: очікувалось %<PRIuMAX> атрибутів, отримано %<PRIuMAX>"
 
 msgid "object-info: unrequested 'size' attribute"
-msgstr "object-info: незапитуваний атрибут \"size\""
+msgstr "object-info: незапитаний атрибут \"size\""
 
 msgid "object-info: duplicate 'size' attribute"
 msgstr "object-info: дубльований атрибут \"size\""
