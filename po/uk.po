@@ -8619,7 +8619,7 @@ msgid "cannot drop merge commit: %s"
 msgstr "неможливо відкинути коміт злиття: %s"
 
 msgid "dropping this commit would overwrite local changes; aborting"
-msgstr "відкидання цього коміту перезапише локальні зміни; переривання"
+msgstr "відкидання цього коміту перезаписало б локальні зміни; переривання"
 
 msgid "failed to update references"
 msgstr "не вдалося оновити посилання"
@@ -13159,7 +13159,7 @@ msgid "only show which objects would be dropped"
 msgstr "лише показати, які обʼєкти було б відкинуто"
 
 msgid "--dry-run only takes effect with --drop-filtered"
-msgstr "--dry-run має сенс тільки з --drop-filtered"
+msgstr "--dry-run діє лише разом із --drop-filtered"
 
 msgid "--drop-filtered requires --filter"
 msgstr "--drop-filtered потребує --filter"
@@ -13259,7 +13259,7 @@ msgid "unable to open %s for reading"
 msgstr "не вдалося відкрити %s для читання"
 
 msgid "unable to spawn mktree"
-msgstr "не вдалося породити mktree"
+msgstr "не вдалося запустити mktree"
 
 msgid "unable to read from mktree"
 msgstr "не вдалося прочитати з mktree"
@@ -18853,7 +18853,7 @@ msgid "object-info: duplicate 'size' attribute"
 msgstr "object-info: дубльований атрибут \"size\""
 
 msgid "object-info: unrequested 'type' attribute"
-msgstr "object-info: незапитуваний атрибут \"type\""
+msgstr "object-info: незапитаний атрибут \"type\""
 
 msgid "object-info: duplicate 'type' attribute"
 msgstr "object-info: дубльований атрибут \"type\""
@@ -19698,8 +19698,8 @@ msgid ""
 "git imap-send [-v] [-q] [--[no-]curl] [--[no-]draft] [(--folder|-f) "
 "<folder>] < <mbox>"
 msgstr ""
-"git imap-send [-v] [-q] [--[no-]curl] [--[no-]draft] [(--folder|-f) "
-"<директорія>] < <mbox>"
+"git imap-send [-v] [-q] [--[no-]curl] [--[no-]draft] [(--folder|-f) <тека>] "
+"< <mbox>"
 
 msgid "no IMAP host specified"
 msgstr "не вказано хост IMAP"
@@ -19712,14 +19712,14 @@ msgstr ""
 "(наприклад, \"git config imap.host imaps://imap.example.com\")"
 
 msgid "no IMAP folder specified"
-msgstr "не вказано директорію IMAP"
+msgstr "не вказано теку IMAP"
 
 msgid ""
 "set the target folder with 'git config imap.folder <folder>'.\n"
 "(e.g., 'git config imap.folder Drafts')"
 msgstr ""
-"встановіть цільову директорію за допомогою команди \"git config imap.folder "
-"<директорія>\".\n"
+"встановіть цільову теку за допомогою команди \"git config imap.folder "
+"<тека>\".\n"
 "(наприклад, \"git config imap.folder Drafts\")"
 
 msgid "'auto' filter not supported by this command"
@@ -20783,7 +20783,7 @@ msgid "pack-objects died of signal %d"
 msgstr "pack-objects завершився через сигнал %d"
 
 msgid "could not spawn pack-objects"
-msgstr "не вдалося розмножити pack-objects"
+msgstr "не вдалося запустити pack-objects"
 
 msgid "error writing to pack-objects"
 msgstr "помилка запису в pack-objects"
@@ -20883,7 +20883,7 @@ msgid "invalid rev-index for pack '%s'"
 msgstr "неприпустимий rev-index для \"%s\""
 
 msgid "object database transaction already pending"
-msgstr "транзакція бази даних обʼєктів уже очікує виконання"
+msgstr "транзакція бази даних обʼєктів уже виконується"
 
 msgid "failed to start ODB transaction"
 msgstr "не вдалося розпочати транзакцію ODB"
@@ -25096,7 +25096,7 @@ msgid "unable to find remote helper for '%s'"
 msgstr "не вдалося знайти віддаленого помічника для \"%s\""
 
 msgid "can't dup helper output fd"
-msgstr "неможливо зробити копію дескриптора файла виводу помічника"
+msgstr "неможливо продублювати дескриптор файлу виводу помічника"
 
 #, c-format
 msgid ""
@@ -25118,7 +25118,7 @@ msgid "%s also locked %s"
 msgstr "%s також заблокувало %s"
 
 msgid "could not dup helper output fd"
-msgstr "не вдалося скопіювати дескриптор файлу виводу помічника"
+msgstr "не вдалося продублювати дескриптор файлу виводу помічника"
 
 msgid "couldn't run fast-import"
 msgstr "не вдалося запустити fast-import"
@@ -26551,7 +26551,7 @@ msgid "Send this email reply required"
 msgstr "Відповідь на запитання \"Надіслати цей лист?\" є обовʼязковою"
 
 msgid "The destination IMAP folder is not properly defined."
-msgstr "Директорія IMAP призначення не визначена належним чином."
+msgstr "Теку IMAP призначення не визначено належним чином."
 
 msgid "The required SMTP server is not properly defined."
 msgstr "Потрібний SMTP-сервер не визначено належним чином."
